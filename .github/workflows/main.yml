@@ -12,7 +12,7 @@ jobs:
         python-version: 3.7
     - name: run py script
       run: |
-        cd cve_description
+#        cd cve_description
         python cve_description.py
     - name: commit
       run: |
