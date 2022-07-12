@@ -21,8 +21,8 @@ jobs:
         python cve_description.py
     - name: commit
       run: |
-        git config --global user.email 1435679023@qq.com
-        git config --global user.name marsggbo
+        git config --global user.email mrwq@qq.com
+        git config --global user.name mrwq
         git add .
         git commit -m "update" -a
     - name: Push changes
