@@ -9,6 +9,14 @@ import datetime
 import re
 import json
 
+# 黑名单，防止github数据污染
+black_list = []
+with open("blick_list.txt", "r", encoding="utf8") as bf:
+    temp = bf.readlines()
+    for i in temp:
+        black_list.append(i.strip())
+
+
 search_url = "https://raw.githubusercontent.com/ycdxsb/PocOrExp_in_Github/main/PocOrExp.md"
 cdn_search_url = "https://cdn.jsdelivr.net/gh/ycdxsb/PocOrExp_in_Github@main/PocOrExp.md"
 
@@ -43,11 +51,18 @@ for i in pre_results:
     item = {}
     item["cve_code"] = i[0]
     item["description"] = i[1]
-    item["poc"] = str(i[2]).replace("- ", "\n- ").strip() + "\n"
+    item["poc"] = []
+    a = str(i[2]).replace("- ", "\n- ").strip() + "\n"
+    temp_poc = re.findall(r'\[(.*?)\]', a)
+    if temp_poc:
+        for j in temp_poc:
+            if "http" in j and j not in black_list:
+                item["poc"].append(j)
+                print(item)
     results.append(item)
 for i in results:
     print(i)
 
 # 写入文件
 with open("cve_description_poc.json", 'w', encoding='utf8') as f:
-    f.write(json.dumps(results))
+    f.write(json.dumps(results, indent=2))
