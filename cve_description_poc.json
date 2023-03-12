@@ -28,6 +28,13 @@
     ]
   },
   {
+    "cve_code": "CVE-2023-25610",
+    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "poc": [
+      "https://github.com/uicres/CVE-2023-25610-PoC"
+    ]
+  },
+  {
     "cve_code": "CVE-2023-25194",
     "description": " A possible security vulnerability has been identified in Apache Kafka Connect. This requires access to a Kafka Connect worker, and the ability to create/modify connectors on it with an arbitrary Kafka client SASL JAAS config and a SASL-based security protocol, which has been possible on Kafka Connect clusters since Apache Kafka 2.3.0. When configuring the connector via the Kafka Connect REST API, an authenticated operator can set the `sasl.jaas.config` property for any of the connector's Kafka clients to &quot;com.sun.security.auth.module.JndiLoginModule&quot;, which can be done via the `producer.override.sasl.jaas.config`, `consumer.override.sasl.jaas.config`, or `admin.override.sasl.jaas.config` properties. This will allow the server to connect to the attacker's LDAP server and deserialize the LDAP response, which the attacker can use to execute java deserialization gadget chains on the Kafka connect server. Attacker can cause unrestricted deserialization of untrusted data (or) RCE vulnerability when there are gadgets in the classpath. Since Apache Kafka 3.0.0, users are allowed to specify these properties in connector configurations for Kafka Connect clusters running with out-of-the-box configurations. Before Apache Kafka 3.0.0, users may not specify these properties unless the Kafka Connect cluster has been reconfigured with a connector client override policy that permits them. Since Apache Kafka 3.4.0, we have added a system property (&quot;-Dorg.apache.kafka.disallowed.login.modules&quot;) to disable the problematic login modules usage in SASL JAAS configuration. Also by default &quot;com.sun.security.auth.module.JndiLoginModule&quot; is disabled in Apache Kafka 3.4.0. We advise the Kafka Connect users to validate connector configurations and only allow trusted JNDI configurations. Also examine connector dependencies for vulnerable versions and either upgrade their connectors, upgrading that specific dependency, or removing the connectors as options for remediation. Finally, in addition to leveraging the &quot;org.apache.kafka.disallowed.login.modules&quot; system property, Kafka Connect users can also implement their own connector client config override policy, which can be used to control which Kafka client properties can be overridden directly in a connector config and which cannot.",
     "poc": [
@@ -83,9 +90,9 @@
       "https://github.com/bigozzzz/popular-cves-scanner",
       "https://github.com/ATTACKnDEFEND/CVE-2023-24055",
       "https://github.com/PyterSmithDarkGhost/CVE-2023-24055-PoC-KeePass-2.5x-",
+      "https://github.com/poppylarrry/Zero-Days",
       "https://github.com/zwlsix/KeePass-CVE-2023-24055",
       "https://github.com/julesbozouklian/PoC_CVE-2023-24055",
-      "https://github.com/poppylarrry/Zero-Days",
       "https://github.com/poppylarrry/firefox-rce-poc",
       "https://github.com/Cyb3rtus/keepass_CVE-2023-24055_yara_rule",
       "https://github.com/digital-dev/KeePass-TriggerLess"
@@ -107,16 +114,17 @@
       "https://github.com/keyuan15/CVE-2023-23752",
       "https://github.com/Saboor-Hakimi/CVE-2023-23752",
       "https://github.com/ifacker/CVE-2023-23752-Joomla",
-      "https://github.com/YusinoMy/CVE-2023-23752",
       "https://github.com/GhostToKnow/CVE-2023-23752",
       "https://github.com/ibaiw/joomla_CVE-2023-23752",
+      "https://github.com/YusinoMy/CVE-2023-23752",
       "https://github.com/wangking1/CVE-2023-23752-poc",
       "https://github.com/gibran-abdillah/CVE-2023-23752",
       "https://github.com/Vulnmachines/joomla_CVE-2023-23752",
       "https://github.com/HaxorSec1945/CVE2023-23752",
       "https://github.com/haxor1337x/Mass-Checker-CVE-2023-23752",
+      "https://github.com/adriyansyah-mf/CVE-2023-23752",
       "https://github.com/H454NSec/CVE-2023-23752",
-      "https://github.com/adriyansyah-mf/CVE-2023-23752"
+      "https://github.com/Jenderal92/Joomla-CVE-2023-23752"
     ]
   },
   {
@@ -201,8 +209,8 @@
     "description": " Lexmark products through 2023-01-10 have Improper Control of Interaction Frequency.",
     "poc": [
       "https://github.com/t3l3machus/CVE-2023-22960",
-      "https://github.com/manas3c/CVE-2023-22960",
-      "https://github.com/poppylarrry/Zero-Days"
+      "https://github.com/poppylarrry/Zero-Days",
+      "https://github.com/manas3c/CVE-2023-22960"
     ]
   },
   {
@@ -225,8 +233,8 @@
     "poc": [
       "https://github.com/n3m1dotsys/CVE-2023-22809-sudoedit-privesc",
       "https://github.com/bigozzzz/popular-cves-scanner",
-      "https://github.com/M4fiaB0y/CVE-2023-22809",
-      "https://github.com/poppylarrry/Zero-Days"
+      "https://github.com/poppylarrry/Zero-Days",
+      "https://github.com/M4fiaB0y/CVE-2023-22809"
     ]
   },
   {
@@ -257,6 +265,7 @@
       "https://github.com/4ra1n/CVE-2023-21839",
       "https://github.com/DXask88MA/Weblogic-CVE-2023-21839",
       "https://github.com/dream0x01/weblogic-framework",
+      "https://github.com/Firebasky/CVE-2023-21839",
       "https://github.com/poppylarrry/Zero-Days",
       "https://github.com/fakenews2025/CVE-2023-21839",
       "https://github.com/hacats/CVE-2023-21839"
@@ -287,7 +296,7 @@
   },
   {
     "cve_code": "CVE-2023-21716",
-    "description": " Microsoft Word Remote Code Execution Vulnerability- [https://github.com/Xnuvers007/CVE-2023-21716](https://github.com/Xnuvers007/CVE-2023-21716) :  ![starts](https://img.shields.io/github/stars/Xnuvers007/CVE-2023-21716.svg) ![forks](https://img.shields.io/github/forks/Xnuvers007/CVE-2023-21716.svg)- [https://github.com/gyaansastra/CVE-2023-21716](https://github.com/gyaansastra/CVE-2023-21716) :  ![starts](https://img.shields.io/github/stars/gyaansastra/CVE-2023-21716.svg) ![forks](https://img.shields.io/github/forks/gyaansastra/CVE-2023-21716.svg)- [https://github.com/CKevens/CVE-2023-21716-POC](https://github.com/CKevens/CVE-2023-21716-POC) :  ![starts](https://img.shields.io/github/stars/CKevens/CVE-2023-21716-POC.svg) ![forks](https://img.shields.io/github/forks/CKevens/CVE-2023-21716-POC.svg)- [https://github.com/FeatherStark/CVE-2023-21716](https://github.com/FeatherStark/CVE-2023-21716) :  ![starts](https://img.shields.io/github/stars/FeatherStark/CVE-2023-21716.svg) ![forks](https://img.shields.io/github/forks/FeatherStark/CVE-2023-21716.svg)- [https://github.com/mikesxrs/CVE-2023-21716_YARA_Results](https://github.com/mikesxrs/CVE-2023-21716_YARA_Results) :  ![starts](https://img.shields.io/github/stars/mikesxrs/CVE-2023-21716_YARA_Results.svg) ![forks](https://img.shields.io/github/forks/mikesxrs/CVE-2023-21716_YARA_Results.svg)- [https://github.com/maldev866/WordExp_CVE_2023_21716](https://github.com/maldev866/WordExp_CVE_2023_21716) :  ![starts](https://img.shields.io/github/stars/maldev866/WordExp_CVE_2023_21716.svg) ![forks](https://img.shields.io/github/forks/maldev866/WordExp_CVE_2023_21716.svg)",
+    "description": " Microsoft Word Remote Code Execution Vulnerability- [https://github.com/gyaansastra/CVE-2023-21716](https://github.com/gyaansastra/CVE-2023-21716) :  ![starts](https://img.shields.io/github/stars/gyaansastra/CVE-2023-21716.svg) ![forks](https://img.shields.io/github/forks/gyaansastra/CVE-2023-21716.svg)- [https://github.com/Xnuvers007/CVE-2023-21716](https://github.com/Xnuvers007/CVE-2023-21716) :  ![starts](https://img.shields.io/github/stars/Xnuvers007/CVE-2023-21716.svg) ![forks](https://img.shields.io/github/forks/Xnuvers007/CVE-2023-21716.svg)- [https://github.com/FeatherStark/CVE-2023-21716](https://github.com/FeatherStark/CVE-2023-21716) :  ![starts](https://img.shields.io/github/stars/FeatherStark/CVE-2023-21716.svg) ![forks](https://img.shields.io/github/forks/FeatherStark/CVE-2023-21716.svg)- [https://github.com/CKevens/CVE-2023-21716-POC](https://github.com/CKevens/CVE-2023-21716-POC) :  ![starts](https://img.shields.io/github/stars/CKevens/CVE-2023-21716-POC.svg) ![forks](https://img.shields.io/github/forks/CKevens/CVE-2023-21716-POC.svg)- [https://github.com/mikesxrs/CVE-2023-21716_YARA_Results](https://github.com/mikesxrs/CVE-2023-21716_YARA_Results) :  ![starts](https://img.shields.io/github/stars/mikesxrs/CVE-2023-21716_YARA_Results.svg) ![forks](https://img.shields.io/github/forks/mikesxrs/CVE-2023-21716_YARA_Results.svg)- [https://github.com/maldev866/WordExp_CVE_2023_21716](https://github.com/maldev866/WordExp_CVE_2023_21716) :  ![starts](https://img.shields.io/github/stars/maldev866/WordExp_CVE_2023_21716.svg) ![forks](https://img.shields.io/github/forks/maldev866/WordExp_CVE_2023_21716.svg)",
     "poc": []
   },
   {
@@ -647,8 +656,8 @@
     "description": " An issue was discovered in the Linux kernel through 6.0.10. l2cap_config_req in net/bluetooth/l2cap_core.c has an integer wraparound via L2CAP_CONF_REQ packets.",
     "poc": [
       "https://github.com/Trinadh465/linux-4.1.15_CVE-2022-45934",
-      "https://github.com/nidhi7598/linux-3.0.35_CVE-2022-45934",
-      "https://github.com/Trinadh465/linux-4.19.72_CVE-2022-45934"
+      "https://github.com/Trinadh465/linux-4.19.72_CVE-2022-45934",
+      "https://github.com/nidhi7598/linux-3.0.35_CVE-2022-45934"
     ]
   },
   {
@@ -813,7 +822,8 @@
       "https://github.com/komomon/CVE-2022-44877-RCE",
       "https://github.com/hotpotcookie/CVE-2022-44877-white-box",
       "https://github.com/Chocapikk/CVE-2022-44877",
-      "https://github.com/ColdFusionX/CVE-2022-44877-CWP7"
+      "https://github.com/ColdFusionX/CVE-2022-44877-CWP7",
+      "https://github.com/RicYaben/CVE-2022-44877-LAB"
     ]
   },
   {
@@ -1036,8 +1046,8 @@
       "https://github.com/uk0/cve-2022-42889-intercept",
       "https://github.com/chainguard-dev/text4shell-policy",
       "https://github.com/0xst4n/CVE-2022-42889",
-      "https://github.com/s3l33/CVE-2022-42889",
       "https://github.com/west-wind/CVE-2022-42889",
+      "https://github.com/s3l33/CVE-2022-42889",
       "https://github.com/smileostrich/Text4Shell-Scanner",
       "https://github.com/YulinSec/t4scan",
       "https://github.com/gokul-ramesh/text4shell-exploit",
@@ -2889,14 +2899,14 @@
       "https://github.com/k508/CVE-2022-30190",
       "https://github.com/michealadams30/Cve-2022-30190",
       "https://github.com/kdk2933/msdt-CVE-2022-30190",
-      "https://github.com/notherealhazard/follina-CVE-2022-30190",
       "https://github.com/Cerebrovinny/follina-CVE-2022-30190",
-      "https://github.com/ITMarcin2211/CVE-2022-30190",
-      "https://github.com/droidrzrlover/CVE-2022-30190",
-      "https://github.com/hscorpion/CVE-2022-30190",
+      "https://github.com/notherealhazard/follina-CVE-2022-30190",
       "https://github.com/XxToxicScriptxX/CVE-2022-30190",
-      "https://github.com/2867a0/CVE-2022-30190",
+      "https://github.com/hscorpion/CVE-2022-30190",
       "https://github.com/hilt86/cve-2022-30190-mitigate",
+      "https://github.com/2867a0/CVE-2022-30190",
+      "https://github.com/droidrzrlover/CVE-2022-30190",
+      "https://github.com/ITMarcin2211/CVE-2022-30190",
       "https://github.com/rayorole/CVE-2022-30190",
       "https://github.com/mattjmillner/CVE-Smackdown",
       "https://github.com/abhirules27/Follina",
@@ -3117,8 +3127,8 @@
       "https://github.com/mr-r3bot/WSO2-CVE-2022-29464",
       "https://github.com/tufanturhan/wso2-rce-cve-2022-29464",
       "https://github.com/LinJacck/CVE-2022-29464",
-      "https://github.com/Jhonsonwannaa/CVE-2022-29464-",
       "https://github.com/axin2019/CVE-2022-29464",
+      "https://github.com/Jhonsonwannaa/CVE-2022-29464-",
       "https://github.com/jimidk/Better-CVE-2022-29464",
       "https://github.com/badguy233/CVE-2022-29465",
       "https://github.com/devengpk/CVE-2022-29464",
@@ -3602,8 +3612,8 @@
       "https://github.com/killvxk/CVE-2022-26809",
       "https://github.com/UNDESC0N0CID0/CVE-2022-26809-RCE",
       "https://github.com/auduongxuan/CVE-2022-26809",
-      "https://github.com/mr-r3b00t/cve-2022-26809",
       "https://github.com/poppylarrry/Zero-Days",
+      "https://github.com/mr-r3b00t/cve-2022-26809",
       "https://github.com/oppongjohn/CVE-2022-26809-RCE",
       "https://github.com/jones199023/CVE-2022-26809",
       "https://github.com/hemazoher/CVE-2022-26809-RCE",
@@ -3821,8 +3831,8 @@
       "https://github.com/reubensammut/cve-2022-26134",
       "https://github.com/Debajyoti0-0/CVE-2022-26134",
       "https://github.com/trhacknon/CVE-2022-26134",
-      "https://github.com/kailing0220/CVE-2022-26134",
       "https://github.com/Habib0x0/CVE-2022-26134",
+      "https://github.com/kailing0220/CVE-2022-26134",
       "https://github.com/Sakura-nee/CVE-2022-26134",
       "https://github.com/kelemaoya/CVE-2022-26134",
       "https://github.com/Brucetg/CVE-2022-26134",
@@ -3831,8 +3841,8 @@
       "https://github.com/2212970396/CVE_2022_26134",
       "https://github.com/latings/CVE-2022-26134",
       "https://github.com/CJ-0107/cve-2022-26134",
-      "https://github.com/sunny-kathuria/exploit_CVE-2022-26134",
       "https://github.com/itwestend/cve_2022_26134",
+      "https://github.com/sunny-kathuria/exploit_CVE-2022-26134",
       "https://github.com/Jhonsonwannaa/CVE_20222_26134",
       "https://github.com/yyqxi/CVE-2022-26134",
       "https://github.com/wjlin0/CVE-2022-26134",
@@ -4587,7 +4597,8 @@
     "poc": [
       "https://github.com/tr3ee/CVE-2022-23222",
       "https://github.com/PenteraIO/CVE-2022-23222-POC",
-      "https://github.com/FridayOrtiz/CVE-2022-23222"
+      "https://github.com/FridayOrtiz/CVE-2022-23222",
+      "https://github.com/LeoMarche/ProjetSecu"
     ]
   },
   {
@@ -4790,8 +4801,8 @@
       "https://github.com/kh4sh3i/Spring-CVE",
       "https://github.com/west-wind/Spring4Shell-Detection",
       "https://github.com/Kirill89/CVE-2022-22963-PoC",
-      "https://github.com/k3rwin/spring-cloud-function-rce",
       "https://github.com/me2nuk/CVE-2022-22963",
+      "https://github.com/k3rwin/spring-cloud-function-rce",
       "https://github.com/Qualys/spring4scanwin",
       "https://github.com/viemsr/Spring_Cloud_Function_memshell",
       "https://github.com/stevemats/Spring0DayCoreExploit",
@@ -4839,8 +4850,8 @@
       "https://github.com/axingde/CVE-2022-22954-POC",
       "https://github.com/avboy1337/CVE-2022-22954-VMware-RCE",
       "https://github.com/mumu2020629/-CVE-2022-22954-scanner",
-      "https://github.com/MSeymenD/CVE-2022-22954-Testi",
       "https://github.com/Jhonsonwannaa/CVE-2022-22954",
+      "https://github.com/MSeymenD/CVE-2022-22954-Testi",
       "https://github.com/tyleraharrison/VMware-CVE-2022-22954-Command-Injector",
       "https://github.com/lucksec/VMware-CVE-2022-22954",
       "https://github.com/nguyenv1nK/CVE-2022-22954",
@@ -5162,7 +5173,8 @@
     "description": " Secure Boot Security Feature Bypass Vulnerability.",
     "poc": [
       "https://github.com/Wack0/CVE-2022-21894",
-      "https://github.com/ASkyeye/CVE-2022-21894-Payload"
+      "https://github.com/ASkyeye/CVE-2022-21894-Payload",
+      "https://github.com/Wack0/batondrop_armv7"
     ]
   },
   {
@@ -5270,8 +5282,8 @@
       "https://github.com/PyterSmithDarkGhost/CVE-2022-21449-I2P-TLS-POC",
       "https://github.com/jmiettinen/CVE-2022-21449-vuln-test",
       "https://github.com/fundaergn/CVE-2022-21449",
-      "https://github.com/davwwwx/CVE-2022-21449",
       "https://github.com/Skipper7718/CVE-2022-21449-showcase",
+      "https://github.com/davwwwx/CVE-2022-21449",
       "https://github.com/marschall/psychic-signatures",
       "https://github.com/Damok82/SignChecker"
     ]
@@ -5647,8 +5659,8 @@
     "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
     "poc": [
       "https://github.com/Markakd/CVE-2022-2588",
-      "https://github.com/BassamGraini/CVE-2022-2588",
       "https://github.com/PolymorphicOpcode/CVE-2022-2588",
+      "https://github.com/BassamGraini/CVE-2022-2588",
       "https://github.com/konoha279/2022-LPE-UAF",
       "https://github.com/pirenga/2022-LPE-UAF",
       "https://github.com/ASkyeye/2022-LPE-UAF",
@@ -6056,6 +6068,7 @@
       "https://github.com/LudovicPatho/CVE-2022-0847_dirty-pipe",
       "https://github.com/trhacknon/CVE-2022-0847-DirtyPipe-Exploit",
       "https://github.com/eduquintanilha/CVE-2022-0847-DirtyPipe-Exploits",
+      "https://github.com/poppylarrry/Zero-Days",
       "https://github.com/lucksec/CVE-2022-0847",
       "https://github.com/4luc4rdr5290/CVE-2022-0847",
       "https://github.com/gyaansastra/CVE-2022-0847",
@@ -6071,7 +6084,6 @@
       "https://github.com/ih3na/debian11-dirty_pipe-patcher",
       "https://github.com/nanaao/Dirtypipe-exploit",
       "https://github.com/mutur4/Hacking-Scripts",
-      "https://github.com/poppylarrry/Zero-Days",
       "https://github.com/bohr777/cve-2022-0847dirtypipe-exploit",
       "https://github.com/scopion/dirty-pipe",
       "https://github.com/si1ent-le/CVE-2022-0847",
@@ -6088,8 +6100,8 @@
       "https://github.com/T4t4ru/CVE-2022-0847",
       "https://github.com/githublihaha/DirtyPIPE-CVE-2022-0847",
       "https://github.com/pmihsan/Dirty-Pipe-CVE-2022-0847",
-      "https://github.com/edsonjt81/CVE-2022-0847-DirtyPipe-",
       "https://github.com/Greetdawn/CVE-2022-0847-DirtyPipe-",
+      "https://github.com/edsonjt81/CVE-2022-0847-DirtyPipe-",
       "https://github.com/michaelklaan/CVE-2022-0847-Dirty-Pipe",
       "https://github.com/Greetdawn/CVE-2022-0847-DirtyPipe",
       "https://github.com/AyoubNajim/cve-2022-0847dirtypipe-exploit",
