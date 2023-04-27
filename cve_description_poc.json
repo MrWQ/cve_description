@@ -14,6 +14,13 @@
     ]
   },
   {
+    "cve_code": "CVE-2023-29489",
+    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "poc": [
+      "https://github.com/learnerboy88/CVE-2023-29489"
+    ]
+  },
+  {
     "cve_code": "CVE-2023-29478",
     "description": " BiblioCraft before 2.4.6 does not sanitize path-traversal characters in filenames, allowing restricted write access to almost anywhere on the filesystem. This includes the Minecraft mods folder, which results in code execution.",
     "poc": [
@@ -33,6 +40,13 @@
     "poc": [
       "https://github.com/timb-machine-mirrors/seongil-wi-CVE-2023-29017",
       "https://github.com/Kaneki-hash/CVE-2023-29017-reverse-shell"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-29007",
+    "description": " Git is a revision control system. Prior to versions 2.30.9, 2.31.8, 2.32.7, 2.33.8, 2.34.8, 2.35.8, 2.36.6, 2.37.7, 2.38.5, 2.39.3, and 2.40.1, a specially crafted `.gitmodules` file with submodule URLs that are longer than 1024 characters can used to exploit a bug in `config.c::git_config_copy_or_rename_section_in_file()`. This bug can be used to inject arbitrary configuration into a user's `$GIT_DIR/config` when attempting to remove the configuration section associated with that submodule. When the attacker injects configuration values which specify executables to run (such as `core.pager`, `core.editor`, `core.sshCommand`, etc.) this can lead to a remote code execution. A fix A fix is available in versions 2.30.9, 2.31.8, 2.32.7, 2.33.8, 2.34.8, 2.35.8, 2.36.6, 2.37.7, 2.38.5, 2.39.3, and 2.40.1. As a workaround, avoid running `git submodule deinit` on untrusted repositories or without prior inspection of any submodule sections in `$GIT_DIR/config`.",
+    "poc": [
+      "https://github.com/ethiack/CVE-2023-29007"
     ]
   },
   {
@@ -174,8 +188,8 @@
     "poc": [
       "https://github.com/horizon3ai/CVE-2023-27350",
       "https://github.com/TamingSariMY/CVE-2023-27350-POC",
-      "https://github.com/MaanVader/CVE-2023-27350-POC",
-      "https://github.com/adhikara13/CVE-2023-27350"
+      "https://github.com/adhikara13/CVE-2023-27350",
+      "https://github.com/MaanVader/CVE-2023-27350-POC"
     ]
   },
   {
@@ -272,7 +286,7 @@
   },
   {
     "cve_code": "CVE-2023-25292",
-    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " Reflected Cross Site Scripting (XSS) in Intermesh BV Group-Office version 6.6.145, allows attackers to gain escalated privileges and gain sensitive information via the GO_LANGUAGE cookie.",
     "poc": [
       "https://github.com/brainkok/CVE-2023-25292"
     ]
@@ -428,8 +442,8 @@
       "https://github.com/ifacker/CVE-2023-23752-Joomla",
       "https://github.com/octosec45/ms-word-rce-0day-poc-2023",
       "https://github.com/GhostToKnow/CVE-2023-23752",
-      "https://github.com/0xNahim/CVE-2023-23752",
       "https://github.com/ibaiw/joomla_CVE-2023-23752",
+      "https://github.com/0xNahim/CVE-2023-23752",
       "https://github.com/YusinoMy/CVE-2023-23752",
       "https://github.com/HaxorSec1945/CVE2023-23752",
       "https://github.com/wangking1/CVE-2023-23752-poc",
@@ -439,8 +453,8 @@
       "https://github.com/Vulnmachines/joomla_CVE-2023-23752",
       "https://github.com/haxor1337x/Mass-Checker-CVE-2023-23752",
       "https://github.com/adriyansyah-mf/CVE-2023-23752",
-      "https://github.com/Jenderal92/Joomla-CVE-2023-23752",
       "https://github.com/H454NSec/CVE-2023-23752",
+      "https://github.com/Jenderal92/Joomla-CVE-2023-23752",
       "https://github.com/equationsoftworks/Radiance"
     ]
   },
@@ -474,7 +488,7 @@
   },
   {
     "cve_code": "CVE-2023-23397",
-    "description": " Microsoft Outlook Elevation of Privilege Vulnerability- [https://github.com/api0cradle/CVE-2023-23397-POC-Powershell](https://github.com/api0cradle/CVE-2023-23397-POC-Powershell) :  ![starts](https://img.shields.io/github/stars/api0cradle/CVE-2023-23397-POC-Powershell.svg) ![forks](https://img.shields.io/github/forks/api0cradle/CVE-2023-23397-POC-Powershell.svg)- [https://github.com/sqrtZeroKnowledge/CVE-2023-23397_EXPLOIT_0DAY](https://github.com/sqrtZeroKnowledge/CVE-2023-23397_EXPLOIT_0DAY) :  ![starts](https://img.shields.io/github/stars/sqrtZeroKnowledge/CVE-2023-23397_EXPLOIT_0DAY.svg) ![forks](https://img.shields.io/github/forks/sqrtZeroKnowledge/CVE-2023-23397_EXPLOIT_0DAY.svg)- [https://github.com/Trackflaw/CVE-2023-23397](https://github.com/Trackflaw/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/Trackflaw/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/Trackflaw/CVE-2023-23397.svg)- [https://github.com/ka7ana/CVE-2023-23397](https://github.com/ka7ana/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/ka7ana/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/ka7ana/CVE-2023-23397.svg)- [https://github.com/tiepologian/CVE-2023-23397](https://github.com/tiepologian/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/tiepologian/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/tiepologian/CVE-2023-23397.svg)- [https://github.com/ahmedkhlief/CVE-2023-23397-POC](https://github.com/ahmedkhlief/CVE-2023-23397-POC) :  ![starts](https://img.shields.io/github/stars/ahmedkhlief/CVE-2023-23397-POC.svg) ![forks](https://img.shields.io/github/forks/ahmedkhlief/CVE-2023-23397-POC.svg)- [https://github.com/grn-bogo/CVE-2023-23397](https://github.com/grn-bogo/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/grn-bogo/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/grn-bogo/CVE-2023-23397.svg)- [https://github.com/BronzeBee/cve-2023-23397](https://github.com/BronzeBee/cve-2023-23397) :  ![starts](https://img.shields.io/github/stars/BronzeBee/cve-2023-23397.svg) ![forks](https://img.shields.io/github/forks/BronzeBee/cve-2023-23397.svg)- [https://github.com/BillSkiCO/CVE-2023-23397_EXPLOIT](https://github.com/BillSkiCO/CVE-2023-23397_EXPLOIT) :  ![starts](https://img.shields.io/github/stars/BillSkiCO/CVE-2023-23397_EXPLOIT.svg) ![forks](https://img.shields.io/github/forks/BillSkiCO/CVE-2023-23397_EXPLOIT.svg)- [https://github.com/alicangnll/CVE-2023-23397](https://github.com/alicangnll/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/alicangnll/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/alicangnll/CVE-2023-23397.svg)- [https://github.com/djackreuter/CVE-2023-23397-PoC](https://github.com/djackreuter/CVE-2023-23397-PoC) :  ![starts](https://img.shields.io/github/stars/djackreuter/CVE-2023-23397-PoC.svg) ![forks](https://img.shields.io/github/forks/djackreuter/CVE-2023-23397-PoC.svg)- [https://github.com/ahmedkhlief/CVE-2023-23397-POC-Using-Interop-Outlook](https://github.com/ahmedkhlief/CVE-2023-23397-POC-Using-Interop-Outlook) :  ![starts](https://img.shields.io/github/stars/ahmedkhlief/CVE-2023-23397-POC-Using-Interop-Outlook.svg) ![forks](https://img.shields.io/github/forks/ahmedkhlief/CVE-2023-23397-POC-Using-Interop-Outlook.svg)- [https://github.com/cleverg0d/CVE-2023-23397-PoC-PowerShell](https://github.com/cleverg0d/CVE-2023-23397-PoC-PowerShell) :  ![starts](https://img.shields.io/github/stars/cleverg0d/CVE-2023-23397-PoC-PowerShell.svg) ![forks](https://img.shields.io/github/forks/cleverg0d/CVE-2023-23397-PoC-PowerShell.svg)- [https://github.com/j0eyv/CVE-2023-23397](https://github.com/j0eyv/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/j0eyv/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/j0eyv/CVE-2023-23397.svg)- [https://github.com/SecCTechs/CVE-2023-23397](https://github.com/SecCTechs/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/SecCTechs/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/SecCTechs/CVE-2023-23397.svg)- [https://github.com/CKevens/CVE-2023-23397-POC](https://github.com/CKevens/CVE-2023-23397-POC) :  ![starts](https://img.shields.io/github/stars/CKevens/CVE-2023-23397-POC.svg) ![forks](https://img.shields.io/github/forks/CKevens/CVE-2023-23397-POC.svg)- [https://github.com/moneertv/CVE-2023-23397](https://github.com/moneertv/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/moneertv/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/moneertv/CVE-2023-23397.svg)- [https://github.com/madelynadams9/CVE-2023-23397-Report](https://github.com/madelynadams9/CVE-2023-23397-Report) :  ![starts](https://img.shields.io/github/stars/madelynadams9/CVE-2023-23397-Report.svg) ![forks](https://img.shields.io/github/forks/madelynadams9/CVE-2023-23397-Report.svg)- [https://github.com/stevesec/CVE-2023-23397](https://github.com/stevesec/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/stevesec/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/stevesec/CVE-2023-23397.svg)- [https://github.com/jacquesquail/CVE-2023-23397](https://github.com/jacquesquail/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/jacquesquail/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/jacquesquail/CVE-2023-23397.svg)- [https://github.com/Zeppperoni/CVE-2023-23397-Patch](https://github.com/Zeppperoni/CVE-2023-23397-Patch) :  ![starts](https://img.shields.io/github/stars/Zeppperoni/CVE-2023-23397-Patch.svg) ![forks](https://img.shields.io/github/forks/Zeppperoni/CVE-2023-23397-Patch.svg)- [https://github.com/im007/CVE-2023-23397](https://github.com/im007/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/im007/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/im007/CVE-2023-23397.svg)- [https://github.com/securiteinfo/expl_outlook_cve_2023_23397_securiteinfo.yar](https://github.com/securiteinfo/expl_outlook_cve_2023_23397_securiteinfo.yar) :  ![starts](https://img.shields.io/github/stars/securiteinfo/expl_outlook_cve_2023_23397_securiteinfo.yar.svg) ![forks](https://img.shields.io/github/forks/securiteinfo/expl_outlook_cve_2023_23397_securiteinfo.yar.svg)",
+    "description": " Microsoft Outlook Elevation of Privilege Vulnerability- [https://github.com/api0cradle/CVE-2023-23397-POC-Powershell](https://github.com/api0cradle/CVE-2023-23397-POC-Powershell) :  ![starts](https://img.shields.io/github/stars/api0cradle/CVE-2023-23397-POC-Powershell.svg) ![forks](https://img.shields.io/github/forks/api0cradle/CVE-2023-23397-POC-Powershell.svg)- [https://github.com/sqrtZeroKnowledge/CVE-2023-23397_EXPLOIT_0DAY](https://github.com/sqrtZeroKnowledge/CVE-2023-23397_EXPLOIT_0DAY) :  ![starts](https://img.shields.io/github/stars/sqrtZeroKnowledge/CVE-2023-23397_EXPLOIT_0DAY.svg) ![forks](https://img.shields.io/github/forks/sqrtZeroKnowledge/CVE-2023-23397_EXPLOIT_0DAY.svg)- [https://github.com/Trackflaw/CVE-2023-23397](https://github.com/Trackflaw/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/Trackflaw/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/Trackflaw/CVE-2023-23397.svg)- [https://github.com/ka7ana/CVE-2023-23397](https://github.com/ka7ana/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/ka7ana/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/ka7ana/CVE-2023-23397.svg)- [https://github.com/tiepologian/CVE-2023-23397](https://github.com/tiepologian/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/tiepologian/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/tiepologian/CVE-2023-23397.svg)- [https://github.com/ahmedkhlief/CVE-2023-23397-POC](https://github.com/ahmedkhlief/CVE-2023-23397-POC) :  ![starts](https://img.shields.io/github/stars/ahmedkhlief/CVE-2023-23397-POC.svg) ![forks](https://img.shields.io/github/forks/ahmedkhlief/CVE-2023-23397-POC.svg)- [https://github.com/grn-bogo/CVE-2023-23397](https://github.com/grn-bogo/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/grn-bogo/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/grn-bogo/CVE-2023-23397.svg)- [https://github.com/BronzeBee/cve-2023-23397](https://github.com/BronzeBee/cve-2023-23397) :  ![starts](https://img.shields.io/github/stars/BronzeBee/cve-2023-23397.svg) ![forks](https://img.shields.io/github/forks/BronzeBee/cve-2023-23397.svg)- [https://github.com/BillSkiCO/CVE-2023-23397_EXPLOIT](https://github.com/BillSkiCO/CVE-2023-23397_EXPLOIT) :  ![starts](https://img.shields.io/github/stars/BillSkiCO/CVE-2023-23397_EXPLOIT.svg) ![forks](https://img.shields.io/github/forks/BillSkiCO/CVE-2023-23397_EXPLOIT.svg)- [https://github.com/alicangnll/CVE-2023-23397](https://github.com/alicangnll/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/alicangnll/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/alicangnll/CVE-2023-23397.svg)- [https://github.com/djackreuter/CVE-2023-23397-PoC](https://github.com/djackreuter/CVE-2023-23397-PoC) :  ![starts](https://img.shields.io/github/stars/djackreuter/CVE-2023-23397-PoC.svg) ![forks](https://img.shields.io/github/forks/djackreuter/CVE-2023-23397-PoC.svg)- [https://github.com/ahmedkhlief/CVE-2023-23397-POC-Using-Interop-Outlook](https://github.com/ahmedkhlief/CVE-2023-23397-POC-Using-Interop-Outlook) :  ![starts](https://img.shields.io/github/stars/ahmedkhlief/CVE-2023-23397-POC-Using-Interop-Outlook.svg) ![forks](https://img.shields.io/github/forks/ahmedkhlief/CVE-2023-23397-POC-Using-Interop-Outlook.svg)- [https://github.com/cleverg0d/CVE-2023-23397-PoC-PowerShell](https://github.com/cleverg0d/CVE-2023-23397-PoC-PowerShell) :  ![starts](https://img.shields.io/github/stars/cleverg0d/CVE-2023-23397-PoC-PowerShell.svg) ![forks](https://img.shields.io/github/forks/cleverg0d/CVE-2023-23397-PoC-PowerShell.svg)- [https://github.com/j0eyv/CVE-2023-23397](https://github.com/j0eyv/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/j0eyv/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/j0eyv/CVE-2023-23397.svg)- [https://github.com/SecCTechs/CVE-2023-23397](https://github.com/SecCTechs/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/SecCTechs/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/SecCTechs/CVE-2023-23397.svg)- [https://github.com/CKevens/CVE-2023-23397-POC](https://github.com/CKevens/CVE-2023-23397-POC) :  ![starts](https://img.shields.io/github/stars/CKevens/CVE-2023-23397-POC.svg) ![forks](https://img.shields.io/github/forks/CKevens/CVE-2023-23397-POC.svg)- [https://github.com/moneertv/CVE-2023-23397](https://github.com/moneertv/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/moneertv/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/moneertv/CVE-2023-23397.svg)- [https://github.com/jacquesquail/CVE-2023-23397](https://github.com/jacquesquail/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/jacquesquail/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/jacquesquail/CVE-2023-23397.svg)- [https://github.com/madelynadams9/CVE-2023-23397-Report](https://github.com/madelynadams9/CVE-2023-23397-Report) :  ![starts](https://img.shields.io/github/stars/madelynadams9/CVE-2023-23397-Report.svg) ![forks](https://img.shields.io/github/forks/madelynadams9/CVE-2023-23397-Report.svg)- [https://github.com/stevesec/CVE-2023-23397](https://github.com/stevesec/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/stevesec/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/stevesec/CVE-2023-23397.svg)- [https://github.com/Zeppperoni/CVE-2023-23397-Patch](https://github.com/Zeppperoni/CVE-2023-23397-Patch) :  ![starts](https://img.shields.io/github/stars/Zeppperoni/CVE-2023-23397-Patch.svg) ![forks](https://img.shields.io/github/forks/Zeppperoni/CVE-2023-23397-Patch.svg)- [https://github.com/im007/CVE-2023-23397](https://github.com/im007/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/im007/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/im007/CVE-2023-23397.svg)- [https://github.com/securiteinfo/expl_outlook_cve_2023_23397_securiteinfo.yar](https://github.com/securiteinfo/expl_outlook_cve_2023_23397_securiteinfo.yar) :  ![starts](https://img.shields.io/github/stars/securiteinfo/expl_outlook_cve_2023_23397_securiteinfo.yar.svg) ![forks](https://img.shields.io/github/forks/securiteinfo/expl_outlook_cve_2023_23397_securiteinfo.yar.svg)",
     "poc": []
   },
   {
@@ -731,7 +745,7 @@
   },
   {
     "cve_code": "CVE-2023-21036",
-    "description": " In BitmapExport.java, there is a possible failure to truncate images due to a logic error in the code.Product: AndroidVersions: Android kernelAndroid ID: A-264261868References: N/A- [https://github.com/infobyte/CVE-2023-21036](https://github.com/infobyte/CVE-2023-21036) :  ![starts](https://img.shields.io/github/stars/infobyte/CVE-2023-21036.svg) ![forks](https://img.shields.io/github/forks/infobyte/CVE-2023-21036.svg)- [https://github.com/qixils/AntiCropalypse](https://github.com/qixils/AntiCropalypse) :  ![starts](https://img.shields.io/github/stars/qixils/AntiCropalypse.svg) ![forks](https://img.shields.io/github/forks/qixils/AntiCropalypse.svg)- [https://github.com/lordofpipes/acropadetect](https://github.com/lordofpipes/acropadetect) :  ![starts](https://img.shields.io/github/stars/lordofpipes/acropadetect.svg) ![forks](https://img.shields.io/github/forks/lordofpipes/acropadetect.svg)- [https://github.com/notaSWE/gocropalypse](https://github.com/notaSWE/gocropalypse) :  ![starts](https://img.shields.io/github/stars/notaSWE/gocropalypse.svg) ![forks](https://img.shields.io/github/forks/notaSWE/gocropalypse.svg)- [https://github.com/maddiethecafebabe/discord-acropolypse-bot](https://github.com/maddiethecafebabe/discord-acropolypse-bot) :  ![starts](https://img.shields.io/github/stars/maddiethecafebabe/discord-acropolypse-bot.svg) ![forks](https://img.shields.io/github/forks/maddiethecafebabe/discord-acropolypse-bot.svg)- [https://github.com/cafedork/acropolypse-bot](https://github.com/cafedork/acropolypse-bot) :  ![starts](https://img.shields.io/github/stars/cafedork/acropolypse-bot.svg) ![forks](https://img.shields.io/github/forks/cafedork/acropolypse-bot.svg)",
+    "description": " In BitmapExport.java, there is a possible failure to truncate images due to a logic error in the code.Product: AndroidVersions: Android kernelAndroid ID: A-264261868References: N/A- [https://github.com/infobyte/CVE-2023-21036](https://github.com/infobyte/CVE-2023-21036) :  ![starts](https://img.shields.io/github/stars/infobyte/CVE-2023-21036.svg) ![forks](https://img.shields.io/github/forks/infobyte/CVE-2023-21036.svg)- [https://github.com/qixils/AntiCropalypse](https://github.com/qixils/AntiCropalypse) :  ![starts](https://img.shields.io/github/stars/qixils/AntiCropalypse.svg) ![forks](https://img.shields.io/github/forks/qixils/AntiCropalypse.svg)- [https://github.com/lordofpipes/acropadetect](https://github.com/lordofpipes/acropadetect) :  ![starts](https://img.shields.io/github/stars/lordofpipes/acropadetect.svg) ![forks](https://img.shields.io/github/forks/lordofpipes/acropadetect.svg)- [https://github.com/notaSWE/gocropalypse](https://github.com/notaSWE/gocropalypse) :  ![starts](https://img.shields.io/github/stars/notaSWE/gocropalypse.svg) ![forks](https://img.shields.io/github/forks/notaSWE/gocropalypse.svg)- [https://github.com/cafedork/acropolypse-bot](https://github.com/cafedork/acropolypse-bot) :  ![starts](https://img.shields.io/github/stars/cafedork/acropolypse-bot.svg) ![forks](https://img.shields.io/github/forks/cafedork/acropolypse-bot.svg)- [https://github.com/maddiethecafebabe/discord-acropolypse-bot](https://github.com/maddiethecafebabe/discord-acropolypse-bot) :  ![starts](https://img.shields.io/github/stars/maddiethecafebabe/discord-acropolypse-bot.svg) ![forks](https://img.shields.io/github/forks/maddiethecafebabe/discord-acropolypse-bot.svg)",
     "poc": []
   },
   {
@@ -770,7 +784,7 @@
   },
   {
     "cve_code": "CVE-2023-2033",
-    "description": " Type confusion in V8 in Google Chrome prior to 112.0.5615.121 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)- [https://github.com/insoxin/CVE-2023-2033](https://github.com/insoxin/CVE-2023-2033) :  ![starts](https://img.shields.io/github/stars/insoxin/CVE-2023-2033.svg) ![forks](https://img.shields.io/github/forks/insoxin/CVE-2023-2033.svg)",
+    "description": " Type confusion in V8 in Google Chrome prior to 112.0.5615.121 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)- [https://github.com/insoxin/CVE-2023-2033](https://github.com/insoxin/CVE-2023-2033) :  ![starts](https://img.shields.io/github/stars/insoxin/CVE-2023-2033.svg) ![forks](https://img.shields.io/github/forks/insoxin/CVE-2023-2033.svg)- [https://github.com/sandumjacob/CVE-2023-2033-Analysis](https://github.com/sandumjacob/CVE-2023-2033-Analysis) :  ![starts](https://img.shields.io/github/stars/sandumjacob/CVE-2023-2033-Analysis.svg) ![forks](https://img.shields.io/github/forks/sandumjacob/CVE-2023-2033-Analysis.svg)",
     "poc": []
   },
   {
@@ -1249,9 +1263,9 @@
     "description": " An issue was discovered in the Linux kernel through 6.0.10. l2cap_config_req in net/bluetooth/l2cap_core.c has an integer wraparound via L2CAP_CONF_REQ packets.",
     "poc": [
       "https://github.com/Satheesh575555/linux-4.1.15_CVE-2022-45934",
-      "https://github.com/Trinadh465/linux-4.1.15_CVE-2022-45934",
+      "https://github.com/Trinadh465/linux-4.19.72_CVE-2022-45934",
       "https://github.com/nidhi7598/linux-3.0.35_CVE-2022-45934",
-      "https://github.com/Trinadh465/linux-4.19.72_CVE-2022-45934"
+      "https://github.com/Trinadh465/linux-4.1.15_CVE-2022-45934"
     ]
   },
   {
@@ -1725,7 +1739,8 @@
       "https://github.com/CKevens/CVE-2022-42475-RCE-POC",
       "https://github.com/bryanster/ioc-cve-2022-42475",
       "https://github.com/Amir-hy/cve-2022-42475",
-      "https://github.com/Mustafa1986/cve-2022-42475-Fortinet"
+      "https://github.com/Mustafa1986/cve-2022-42475-Fortinet",
+      "https://github.com/natceil/cve-2022-42475"
     ]
   },
   {
@@ -2279,8 +2294,8 @@
       "https://github.com/lovechoudoufu/about_cobaltstrike4.5_cdf",
       "https://github.com/yqcs/CSPOC",
       "https://github.com/TheCryingGame/CVE-2022-39197-RCE",
-      "https://github.com/hluwa/cobaltstrike_swing_xss2rce",
       "https://github.com/atomxw/cobaltstrike4.5_cdf",
+      "https://github.com/hluwa/cobaltstrike_swing_xss2rce",
       "https://github.com/4nth0ny1130/CVE-2022-39197-fix_patch",
       "https://github.com/shen771/cobaltstrike4.5_cdf",
       "https://github.com/ginipropro/cobaltstrike4.5_cdf",
@@ -2710,8 +2725,9 @@
       "https://github.com/cosad3s/CVE-2022-35914-poc",
       "https://github.com/xiaobaiakai/CVE-2022-35914",
       "https://github.com/0xGabe/CVE-2022-35914",
-      "https://github.com/lolminerxmrig/Capricornus",
-      "https://github.com/6E6L6F/CVE-2022-35914"
+      "https://github.com/6E6L6F/CVE-2022-35914",
+      "https://github.com/franckferman/GLPI-htmLawed-CVE-2022_35914-PoC",
+      "https://github.com/lolminerxmrig/Capricornus"
     ]
   },
   {
@@ -3621,8 +3637,8 @@
       "https://github.com/zkl21hoang/msdt-follina-office-rce",
       "https://github.com/k508/CVE-2022-30190",
       "https://github.com/michealadams30/Cve-2022-30190",
-      "https://github.com/Cerebrovinny/follina-CVE-2022-30190",
       "https://github.com/notherealhazard/follina-CVE-2022-30190",
+      "https://github.com/Cerebrovinny/follina-CVE-2022-30190",
       "https://github.com/ITMarcin2211/CVE-2022-30190",
       "https://github.com/droidrzrlover/CVE-2022-30190",
       "https://github.com/hscorpion/CVE-2022-30190",
@@ -3630,11 +3646,11 @@
       "https://github.com/hilt86/cve-2022-30190-mitigate",
       "https://github.com/2867a0/CVE-2022-30190",
       "https://github.com/kdk2933/msdt-CVE-2022-30190",
-      "https://github.com/rayorole/CVE-2022-30190",
       "https://github.com/mattjmillner/CVE-Smackdown",
+      "https://github.com/rayorole/CVE-2022-30190",
       "https://github.com/abhirules27/Follina",
-      "https://github.com/3barz/Follina_Vagrant",
       "https://github.com/sentrium-security/Follina-Workaround-CVE-2022-30190",
+      "https://github.com/3barz/Follina_Vagrant",
       "https://github.com/SrCroqueta/CVE-2022-30190_Temporary_Fix",
       "https://github.com/Imeneallouche/Follina-attack-CVE-2022-30190-",
       "https://github.com/aymankhder/MSDT_CVE-2022-30190-follina-",
@@ -3852,8 +3868,8 @@
       "https://github.com/superzerosec/CVE-2022-29464",
       "https://github.com/h3v0x/CVE-2022-29464",
       "https://github.com/hupe1980/CVE-2022-29464",
-      "https://github.com/0xAgun/CVE-2022-29464",
       "https://github.com/Pari-Malam/CVE-2022-29464",
+      "https://github.com/0xAgun/CVE-2022-29464",
       "https://github.com/mr-r3bot/WSO2-CVE-2022-29464",
       "https://github.com/tufanturhan/wso2-rce-cve-2022-29464",
       "https://github.com/LinJacck/CVE-2022-29464",
@@ -4581,14 +4597,14 @@
       "https://github.com/th3b3ginn3r/CVE-2022-26134-Exploit-Detection",
       "https://github.com/r1skkam/TryHackMe-Atlassian-CVE-2022-26134",
       "https://github.com/2212970396/CVE_2022_26134",
-      "https://github.com/latings/CVE-2022-26134",
       "https://github.com/CJ-0107/cve-2022-26134",
-      "https://github.com/itwestend/cve_2022_26134",
+      "https://github.com/latings/CVE-2022-26134",
       "https://github.com/sunny-kathuria/exploit_CVE-2022-26134",
+      "https://github.com/itwestend/cve_2022_26134",
       "https://github.com/Jhonsonwannaa/CVE_20222_26134",
       "https://github.com/yyqxi/CVE-2022-26134",
-      "https://github.com/wjlin0/CVE-2022-26134",
       "https://github.com/incogbyte/CVE_2022_26134-detect",
+      "https://github.com/wjlin0/CVE-2022-26134",
       "https://github.com/axingde/CVE-2022-26134",
       "https://github.com/CyberDonkyx0/CVE-2022-26134",
       "https://github.com/vesperp/CVE-2022-26134-Confluence",
@@ -5515,8 +5531,8 @@
       "https://github.com/fracturelabs/spring4shell_victim",
       "https://github.com/twseptian/cve-2022-22965",
       "https://github.com/khidottrivi/CVE-2022-22965",
-      "https://github.com/0xrobiul/CVE-2022-22965",
       "https://github.com/irgoncalves/irule-cve-2022-22965",
+      "https://github.com/0xrobiul/CVE-2022-22965",
       "https://github.com/D1mang/Spring4Shell-CVE-2022-22965",
       "https://github.com/cxzero/CVE-2022-22965-spring4shell",
       "https://github.com/jrgdiaz/Spring4Shell-CVE-2022-22965.py",
@@ -5525,25 +5541,25 @@
       "https://github.com/datawiza-inc/spring-rec-demo",
       "https://github.com/LudovicPatho/CVE-2022-22965_Spring4Shell",
       "https://github.com/Joe1sn/CVE-2022-22965",
-      "https://github.com/pwnwriter/CVE-2022-22965",
       "https://github.com/helsecert/CVE-2022-22965",
+      "https://github.com/pwnwriter/CVE-2022-22965",
       "https://github.com/xnderLAN/CVE-2022-22965",
       "https://github.com/clemoregan/SSE4-CVE-2022-22965",
       "https://github.com/daniel0x00/Invoke-CVE-2022-22965-SafeCheck",
       "https://github.com/sinjap/spring4shell",
       "https://github.com/n11dc0la/PocSuite_POC",
       "https://github.com/t3amj3ff/Spring4ShellPoC",
-      "https://github.com/lcarea/CVE-2022-22965",
       "https://github.com/fransvanbuul/CVE-2022-22965-susceptibility",
+      "https://github.com/lcarea/CVE-2022-22965",
       "https://github.com/devengpk/CVE-2022-22965",
       "https://github.com/whoami0622/CVE-2022-22965-POC",
       "https://github.com/mwojterski/cve-2022-22965",
       "https://github.com/luoqianlin/CVE-2022-22965",
       "https://github.com/Will-Beninger/CVE-2022-22965_SpringShell",
       "https://github.com/Enokiy/spring-RCE-CVE-2022-22965",
+      "https://github.com/ClemExp/CVE-2022-22965-PoC",
       "https://github.com/c4mx/CVE-2022-22965_PoC",
       "https://github.com/snicoll-scratches/spring-boot-cve-2022-22965",
-      "https://github.com/ClemExp/CVE-2022-22965-PoC",
       "https://github.com/ajith737/Spring4Shell-CVE-2022-22965-POC",
       "https://github.com/Omaraitbenhaddi/-Spring4Shell-CVE-2022-22965-",
       "https://github.com/gokul-ramesh/Spring4Shell-PoC-exploit",
@@ -5577,12 +5593,12 @@
       "https://github.com/stevemats/Spring0DayCoreExploit",
       "https://github.com/charis3306/CVE-2022-22963",
       "https://github.com/twseptian/cve-2022-22963",
+      "https://github.com/randallbanner/Spring-Cloud-Function-Vulnerability-CVE-2022-22963-RCE",
       "https://github.com/SealPaPaPa/SpringCloudFunction-Research",
       "https://github.com/AayushmanThapaMagar/CVE-2022-22963",
       "https://github.com/SourM1lk/CVE-2022-22963-Exploit",
       "https://github.com/puckiestyle/CVE-2022-22963",
       "https://github.com/dr6817/CVE-2022-22963",
-      "https://github.com/randallbanner/Spring-Cloud-Function-Vulnerability-CVE-2022-22963-RCE",
       "https://github.com/75ACOL/CVE-2022-22963",
       "https://github.com/Mustafa1986/CVE-2022-22963",
       "https://github.com/Ki11i0n4ir3/CVE-2022-22963",
@@ -5697,17 +5713,17 @@
       "https://github.com/bysinks/CVE-2022-22947",
       "https://github.com/qq87234770/CVE-2022-22947",
       "https://github.com/Wrong-pixel/CVE-2022-22947-exp",
-      "https://github.com/kmahyyg/CVE-2022-22947",
       "https://github.com/Vancomycin-g/CVE-2022-22947",
+      "https://github.com/kmahyyg/CVE-2022-22947",
       "https://github.com/talentsec/Spring-Cloud-Gateway-CVE-2022-22947",
       "https://github.com/michaelklaan/CVE-2022-22947-Spring-Cloud",
       "https://github.com/scopion/cve-2022-22947",
       "https://github.com/Summer177/Spring-Cloud-Gateway-CVE-2022-22947",
       "https://github.com/hh-hunter/cve-2022-22947-docker",
       "https://github.com/BerMalBerIst/CVE-2022-22947",
+      "https://github.com/scopion/CVE-2022-22947-exp",
       "https://github.com/PaoPaoLong-lab/Spring-CVE-2022-22947-",
       "https://github.com/wallbreak1991/cve-2022-22947",
-      "https://github.com/scopion/CVE-2022-22947-exp",
       "https://github.com/ba1ma0/Spring-Cloud-GateWay-CVE-2022-22947-demon-code"
     ]
   },
@@ -6018,7 +6034,8 @@
       "https://github.com/TAPESH-TEAM/CVE-2022-21661-WordPress-Core-5.8.2-WP_Query-SQL-Injection",
       "https://github.com/QWERTYisme/CVE-2022-21661",
       "https://github.com/WellingtonEspindula/SSI-CVE-2022-21661",
-      "https://github.com/daniel616/CVE-2022-21661-Demo"
+      "https://github.com/daniel616/CVE-2022-21661-Demo",
+      "https://github.com/sealldeveloper/CVE-2022-21661-PoC"
     ]
   },
   {
@@ -6185,7 +6202,7 @@
   },
   {
     "cve_code": "CVE-2022-20224",
-    "description": " In AT_SKIP_REST of bta_hf_client_at.cc, there is a possible out of bounds read due to an incorrect bounds check. This could lead to remote information disclosure in the Bluetooth stack with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-220732646- [https://github.com/ShaikUsaf/system_bt_AOSP10_r33_CVE-2022-20224](https://github.com/ShaikUsaf/system_bt_AOSP10_r33_CVE-2022-20224) :  ![starts](https://img.shields.io/github/stars/ShaikUsaf/system_bt_AOSP10_r33_CVE-2022-20224.svg) ![forks](https://img.shields.io/github/forks/ShaikUsaf/system_bt_AOSP10_r33_CVE-2022-20224.svg)- [https://github.com/hshivhare67/platform_system_bt_AOSP10_r33_CVE-2022-20224](https://github.com/hshivhare67/platform_system_bt_AOSP10_r33_CVE-2022-20224) :  ![starts](https://img.shields.io/github/stars/hshivhare67/platform_system_bt_AOSP10_r33_CVE-2022-20224.svg) ![forks](https://img.shields.io/github/forks/hshivhare67/platform_system_bt_AOSP10_r33_CVE-2022-20224.svg)",
+    "description": " In AT_SKIP_REST of bta_hf_client_at.cc, there is a possible out of bounds read due to an incorrect bounds check. This could lead to remote information disclosure in the Bluetooth stack with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-220732646- [https://github.com/hshivhare67/platform_system_bt_AOSP10_r33_CVE-2022-20224](https://github.com/hshivhare67/platform_system_bt_AOSP10_r33_CVE-2022-20224) :  ![starts](https://img.shields.io/github/stars/hshivhare67/platform_system_bt_AOSP10_r33_CVE-2022-20224.svg) ![forks](https://img.shields.io/github/forks/hshivhare67/platform_system_bt_AOSP10_r33_CVE-2022-20224.svg)- [https://github.com/ShaikUsaf/system_bt_AOSP10_r33_CVE-2022-20224](https://github.com/ShaikUsaf/system_bt_AOSP10_r33_CVE-2022-20224) :  ![starts](https://img.shields.io/github/stars/ShaikUsaf/system_bt_AOSP10_r33_CVE-2022-20224.svg) ![forks](https://img.shields.io/github/forks/ShaikUsaf/system_bt_AOSP10_r33_CVE-2022-20224.svg)",
     "poc": []
   },
   {
@@ -6200,7 +6217,7 @@
   },
   {
     "cve_code": "CVE-2022-20142",
-    "description": " In createFromParcel of GeofenceHardwareRequestParcelable.java, there is a possible arbitrary code execution due to parcel mismatch. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-216631962- [https://github.com/pazhanivel07/frameworks_base_AOSP10_r33_CVE-2022-20142](https://github.com/pazhanivel07/frameworks_base_AOSP10_r33_CVE-2022-20142) :  ![starts](https://img.shields.io/github/stars/pazhanivel07/frameworks_base_AOSP10_r33_CVE-2022-20142.svg) ![forks](https://img.shields.io/github/forks/pazhanivel07/frameworks_base_AOSP10_r33_CVE-2022-20142.svg)",
+    "description": " In createFromParcel of GeofenceHardwareRequestParcelable.java, there is a possible arbitrary code execution due to parcel mismatch. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-216631962- [https://github.com/Satheesh575555/frameworks_base_AOSP10_r33_CVE-2022-20142](https://github.com/Satheesh575555/frameworks_base_AOSP10_r33_CVE-2022-20142) :  ![starts](https://img.shields.io/github/stars/Satheesh575555/frameworks_base_AOSP10_r33_CVE-2022-20142.svg) ![forks](https://img.shields.io/github/forks/Satheesh575555/frameworks_base_AOSP10_r33_CVE-2022-20142.svg)- [https://github.com/pazhanivel07/frameworks_base_AOSP10_r33_CVE-2022-20142](https://github.com/pazhanivel07/frameworks_base_AOSP10_r33_CVE-2022-20142) :  ![starts](https://img.shields.io/github/stars/pazhanivel07/frameworks_base_AOSP10_r33_CVE-2022-20142.svg) ![forks](https://img.shields.io/github/forks/pazhanivel07/frameworks_base_AOSP10_r33_CVE-2022-20142.svg)",
     "poc": []
   },
   {
@@ -6739,7 +6756,7 @@
   },
   {
     "cve_code": "CVE-2022-1111",
-    "description": " A business logic error in Project Import in GitLab CE/EE versions 14.9 prior to 14.9.2, 14.8 prior to 14.8.5, and 14.0 prior to 14.7.7 under certain conditions caused imported projects to show an incorrect user in the 'Access Granted' column in the project membership pages- [https://github.com/sdfbjaksff/CVE-2022-11111111](https://github.com/sdfbjaksff/CVE-2022-11111111) :  ![starts](https://img.shields.io/github/stars/sdfbjaksff/CVE-2022-11111111.svg) ![forks](https://img.shields.io/github/forks/sdfbjaksff/CVE-2022-11111111.svg)- [https://github.com/thelostworldFree/CVE-2022-111111](https://github.com/thelostworldFree/CVE-2022-111111) :  ![starts](https://img.shields.io/github/stars/thelostworldFree/CVE-2022-111111.svg) ![forks](https://img.shields.io/github/forks/thelostworldFree/CVE-2022-111111.svg)",
+    "description": " A business logic error in Project Import in GitLab CE/EE versions 14.9 prior to 14.9.2, 14.8 prior to 14.8.5, and 14.0 prior to 14.7.7 under certain conditions caused imported projects to show an incorrect user in the 'Access Granted' column in the project membership pages- [https://github.com/thelostworldFree/CVE-2022-111111](https://github.com/thelostworldFree/CVE-2022-111111) :  ![starts](https://img.shields.io/github/stars/thelostworldFree/CVE-2022-111111.svg) ![forks](https://img.shields.io/github/forks/thelostworldFree/CVE-2022-111111.svg)- [https://github.com/sdfbjaksff/CVE-2022-11111111](https://github.com/sdfbjaksff/CVE-2022-11111111) :  ![starts](https://img.shields.io/github/stars/sdfbjaksff/CVE-2022-11111111.svg) ![forks](https://img.shields.io/github/forks/sdfbjaksff/CVE-2022-11111111.svg)",
     "poc": []
   },
   {
@@ -6793,8 +6810,8 @@
     "description": " A flaw was found in the Linux kernel in linux/net/netfilter/nf_tables_api.c of the netfilter subsystem. This flaw allows a local user to cause an out-of-bounds write issue.",
     "poc": [
       "https://github.com/pqlx/CVE-2022-1015",
-      "https://github.com/ysanatomic/CVE-2022-1015",
       "https://github.com/pivik271/CVE-2022-1015",
+      "https://github.com/ysanatomic/CVE-2022-1015",
       "https://github.com/shuttterman/bob_kern_exp1",
       "https://github.com/delsploit/CVE-2022-1015",
       "https://github.com/zanezhub/CVE-2022-1015-1016",
@@ -6920,20 +6937,21 @@
       "https://github.com/Patocoh/Research-Dirty-Pipe",
       "https://github.com/V0WKeep3r/CVE-2022-0847-DirtyPipe-Exploit",
       "https://github.com/pentestblogin/pentestblog-CVE-2022-0847",
-      "https://github.com/babyshen/CVE-2022-0847",
-      "https://github.com/4bhishek0/CVE-2022-0847",
       "https://github.com/mrchucu1/CVE-2022-0847-Docker",
       "https://github.com/edsonjt81/CVE-2022-0847-Linux",
       "https://github.com/c0ntempt/CVE-2022-0847",
-      "https://github.com/versatilexec/CVE_2022_0847",
+      "https://github.com/babyshen/CVE-2022-0847",
+      "https://github.com/4bhishek0/CVE-2022-0847",
       "https://github.com/rodrigosilvaluz/CVE_2022_0847",
+      "https://github.com/versatilexec/CVE_2022_0847",
       "https://github.com/2xYuan/CVE-2022-0847",
       "https://github.com/T4t4ru/CVE-2022-0847",
       "https://github.com/githublihaha/DirtyPIPE-CVE-2022-0847",
-      "https://github.com/pmihsan/Dirty-Pipe-CVE-2022-0847",
+      "https://github.com/JlSakuya/CVE-2022-0847-container-escape",
       "https://github.com/edsonjt81/CVE-2022-0847-DirtyPipe-",
-      "https://github.com/michaelklaan/CVE-2022-0847-Dirty-Pipe",
+      "https://github.com/pmihsan/Dirty-Pipe-CVE-2022-0847",
       "https://github.com/Greetdawn/CVE-2022-0847-DirtyPipe",
+      "https://github.com/michaelklaan/CVE-2022-0847-Dirty-Pipe",
       "https://github.com/Greetdawn/CVE-2022-0847-DirtyPipe-",
       "https://github.com/AyoubNajim/cve-2022-0847dirtypipe-exploit",
       "https://github.com/tufanturhan/CVE-2022-0847-L-nux-PrivEsc",
