@@ -514,8 +514,8 @@
       "https://github.com/whalebone7/EagleEye",
       "https://github.com/haxor1337x/Scanner-CVE-2023-29489",
       "https://github.com/xKore123/cPanel-CVE-2023-29489",
-      "https://github.com/Abdullah7-ma/CVE-2023-29489",
       "https://github.com/1337r0j4n/CVE-2023-29489",
+      "https://github.com/Abdullah7-ma/CVE-2023-29489",
       "https://github.com/Mostafa-Elguerdawi/CVE-2023-29489.yaml",
       "https://github.com/tucommenceapousser/CVE-2023-29489.py",
       "https://github.com/ipk1/CVE-2023-29489.py",
@@ -581,8 +581,8 @@
     "cve_code": "CVE-2023-28772",
     "description": " An issue was discovered in the Linux kernel before 5.13.3. lib/seq_buf.c has a seq_buf_putmem_hex buffer overflow.",
     "poc": [
-      "https://github.com/Satheesh575555/linux-4.1.15_CVE-2023-28772",
       "https://github.com/nidhi7598/linux-4.19.72_CVE-2023-28772",
+      "https://github.com/Satheesh575555/linux-4.1.15_CVE-2023-28772",
       "https://github.com/Trinadh465/linux-4.1.15_CVE-2023-28772",
       "https://github.com/hshivhare67/kernel_v4.1.15_CVE-2023-28772",
       "https://github.com/hheeyywweellccoommee/linux-4.1.15_CVE-2023-28772-ipchu"
@@ -933,12 +933,20 @@
     ]
   },
   {
+    "cve_code": "CVE-2023-25158",
+    "description": " GeoTools is an open source Java library that provides tools for geospatial data. GeoTools includes support for OGC Filter expression language parsing, encoding and execution against a range of datastore. SQL Injection Vulnerabilities have been found when executing OGC Filters with JDBCDataStore implementations. Users are advised to upgrade to either version 27.4 or to 28.2 to resolve this issue. Users unable to upgrade may disable `encode functions` for PostGIS DataStores or enable `prepared statements` for JDBCDataStores as a partial mitigation.",
+    "poc": [
+      "https://github.com/murataydemir/CVE-2023-25157-and-CVE-2023-25158"
+    ]
+  },
+  {
     "cve_code": "CVE-2023-25157",
     "description": " GeoServer is an open source software server written in Java that allows users to share and edit geospatial data. GeoServer includes support for the OGC Filter expression language and the OGC Common Query Language (CQL) as part of the Web Feature Service (WFS) and Web Map Service (WMS) protocols. CQL is also supported through the Web Coverage Service (WCS) protocol for ImageMosaic coverages. Users are advised to upgrade to either version 2.21.4, or version 2.22.2 to resolve this issue. Users unable to upgrade should disable the PostGIS Datastore *encode functions* setting to mitigate ``strEndsWith``, ``strStartsWith`` and ``PropertyIsLike `` misuse and enable the PostGIS DataStore *preparedStatements* setting to mitigate the ``FeatureId`` misuse.",
     "poc": [
       "https://github.com/win3zz/CVE-2023-25157",
+      "https://github.com/0x2458bughunt/CVE-2023-25157",
       "https://github.com/drfabiocastro/geoserver",
-      "https://github.com/0x2458bughunt/CVE-2023-25157"
+      "https://github.com/murataydemir/CVE-2023-25157-and-CVE-2023-25158"
     ]
   },
   {
@@ -1066,8 +1074,8 @@
       "https://github.com/haxor1337x/Mass-Checker-CVE-2023-23752",
       "https://github.com/adriyansyah-mf/CVE-2023-23752",
       "https://github.com/wibuheker/Joomla-CVE-2023-23752",
-      "https://github.com/Jenderal92/Joomla-CVE-2023-23752",
       "https://github.com/H454NSec/CVE-2023-23752",
+      "https://github.com/Jenderal92/Joomla-CVE-2023-23752",
       "https://github.com/equationsoftworks/Radiance"
     ]
   },
@@ -2010,8 +2018,8 @@
       "https://github.com/MarkStrendin/CVE-2022-46169",
       "https://github.com/BKreisel/CVE-2022-46169",
       "https://github.com/devilgothies/CVE-2022-46169",
-      "https://github.com/antisecc/CVE-2022-46169",
       "https://github.com/devAL3X/CVE-2022-46169_poc",
+      "https://github.com/antisecc/CVE-2022-46169",
       "https://github.com/m3ssap0/cacti-rce-cve-2022-46169-vulnerable-application",
       "https://github.com/Rickster5555/EH2-PoC",
       "https://github.com/sha-16/RCE-Cacti-1.2.22",
@@ -2214,7 +2222,8 @@
     "cve_code": "CVE-2022-45025",
     "description": " Markdown Preview Enhanced v0.6.5 and v0.19.6 for VSCode and Atom was discovered to contain a command injection vulnerability via the PDF file import function.",
     "poc": [
-      "https://github.com/yuriisanin/CVE-2022-45025"
+      "https://github.com/yuriisanin/CVE-2022-45025",
+      "https://github.com/andyhsu024/CVE-2022-45025"
     ]
   },
   {
@@ -2490,8 +2499,8 @@
       "https://github.com/smileostrich/Text4Shell-Scanner",
       "https://github.com/uk0/cve-2022-42889-intercept",
       "https://github.com/chainguard-dev/text4shell-policy",
-      "https://github.com/s3l33/CVE-2022-42889",
       "https://github.com/west-wind/CVE-2022-42889",
+      "https://github.com/s3l33/CVE-2022-42889",
       "https://github.com/YulinSec/t4scan",
       "https://github.com/0xst4n/CVE-2022-42889",
       "https://github.com/gokul-ramesh/text4shell-exploit",
@@ -2500,8 +2509,8 @@
       "https://github.com/stavrosgns/Text4ShellPayloads",
       "https://github.com/Hack4rLIFE/CVE-2022-42889",
       "https://github.com/sunnyvale-it/CVE-2022-42889-PoC",
-      "https://github.com/rhitikwadhvana/CVE-2022-42889-Text4Shell-Exploit-POC",
       "https://github.com/devenes/text4shell-cve-2022-42889",
+      "https://github.com/rhitikwadhvana/CVE-2022-42889-Text4Shell-Exploit-POC",
       "https://github.com/0xmaximus/Apache-Commons-Text-CVE-2022-42889",
       "https://github.com/pwnb0y/Text4shell-exploit",
       "https://github.com/tulhan/commons-text-goat",
@@ -2511,9 +2520,9 @@
       "https://github.com/neerazz/CVE-2022-42889",
       "https://github.com/aaronm-sysdig/text4shell-docker",
       "https://github.com/galoget/CVE-2022-42889-Text4Shell-Docker",
-      "https://github.com/ReachabilityOrg/cve-2022-42889-text4shell-docker",
       "https://github.com/Dima2021/cve-2022-42889-text4shell",
       "https://github.com/RSA-Demo/cve-2022-42889-text4shell",
+      "https://github.com/ReachabilityOrg/cve-2022-42889-text4shell-docker",
       "https://github.com/dgor2023/cve-2022-42889-text4shell-docker",
       "https://github.com/WFS-Mend/vtrade-common",
       "https://github.com/adarshpv9746/Text4shell--Automated-exploit---CVE-2022-42889",
@@ -2909,11 +2918,11 @@
       "https://github.com/jsongmax/Fortinet-CVE-2022-40684",
       "https://github.com/Bendalledj/CVE-2022-40684",
       "https://github.com/NeriaBasha/CVE-2022-40684",
-      "https://github.com/ClickCyber/cve-2022-40684",
       "https://github.com/iveresk/CVE-2022-40684",
+      "https://github.com/ClickCyber/cve-2022-40684",
       "https://github.com/notareaperbutDR34P3r/CVE-2022-40684-Rust",
-      "https://github.com/puckiestyle/CVE-2022-40684",
-      "https://github.com/mhd108/CVE-2022-40684"
+      "https://github.com/mhd108/CVE-2022-40684",
+      "https://github.com/puckiestyle/CVE-2022-40684"
     ]
   },
   {
@@ -3173,8 +3182,7 @@
     "cve_code": "CVE-2022-38694",
     "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
     "poc": [
-      "https://github.com/TomKing062/CVE-2022-38694_unlock_bootloader",
-      "https://github.com/TomKing062/ud710_patch"
+      "https://github.com/TomKing062/CVE-2022-38694_unlock_bootloader"
     ]
   },
   {
@@ -4450,12 +4458,12 @@
       "https://github.com/k508/CVE-2022-30190",
       "https://github.com/michealadams30/Cve-2022-30190",
       "https://github.com/meowhua15/CVE-2022-30190",
-      "https://github.com/droidrzrlover/CVE-2022-30190",
       "https://github.com/ITMarcin2211/CVE-2022-30190",
-      "https://github.com/Cerebrovinny/follina-CVE-2022-30190",
+      "https://github.com/droidrzrlover/CVE-2022-30190",
       "https://github.com/notherealhazard/follina-CVE-2022-30190",
-      "https://github.com/XxToxicScriptxX/CVE-2022-30190",
+      "https://github.com/Cerebrovinny/follina-CVE-2022-30190",
       "https://github.com/hscorpion/CVE-2022-30190",
+      "https://github.com/XxToxicScriptxX/CVE-2022-30190",
       "https://github.com/hilt86/cve-2022-30190-mitigate",
       "https://github.com/2867a0/CVE-2022-30190",
       "https://github.com/kdk2933/msdt-CVE-2022-30190",
@@ -4693,8 +4701,8 @@
       "https://github.com/mr-r3bot/WSO2-CVE-2022-29464",
       "https://github.com/tufanturhan/wso2-rce-cve-2022-29464",
       "https://github.com/LinJacck/CVE-2022-29464",
-      "https://github.com/axin2019/CVE-2022-29464",
       "https://github.com/Jhonsonwannaa/CVE-2022-29464-",
+      "https://github.com/axin2019/CVE-2022-29464",
       "https://github.com/jimidk/Better-CVE-2022-29464",
       "https://github.com/badguy233/CVE-2022-29465",
       "https://github.com/devengpk/CVE-2022-29464",
@@ -5410,8 +5418,8 @@
       "https://github.com/alcaparra/CVE-2022-26134",
       "https://github.com/f4yd4-s3c/cve-2022-26134",
       "https://github.com/badboy-sft/CVE-2022-26134",
-      "https://github.com/skhalsa-sigsci/CVE-2022-26134-LAB",
       "https://github.com/0xAgun/CVE-2022-26134",
+      "https://github.com/skhalsa-sigsci/CVE-2022-26134-LAB",
       "https://github.com/ColdFusionX/CVE-2022-26134",
       "https://github.com/p4b3l1t0/confusploit",
       "https://github.com/shiftsansan/CVE-2022-26134-Console",
@@ -5420,8 +5428,8 @@
       "https://github.com/1337in/CVE-2022-26134web",
       "https://github.com/reubensammut/cve-2022-26134",
       "https://github.com/Debajyoti0-0/CVE-2022-26134",
-      "https://github.com/Habib0x0/CVE-2022-26134",
       "https://github.com/kailing0220/CVE-2022-26134",
+      "https://github.com/Habib0x0/CVE-2022-26134",
       "https://github.com/Sakura-nee/CVE-2022-26134",
       "https://github.com/kelemaoya/CVE-2022-26134",
       "https://github.com/Brucetg/CVE-2022-26134",
@@ -5691,7 +5699,8 @@
     "cve_code": "CVE-2022-25012",
     "description": " Argus Surveillance DVR v4.0 employs weak password encryption.",
     "poc": [
-      "https://github.com/s3l33/CVE-2022-25012"
+      "https://github.com/s3l33/CVE-2022-25012",
+      "https://github.com/deathflash1411/cve-2022-25012"
     ]
   },
   {
@@ -6393,8 +6402,8 @@
       "https://github.com/lcarea/CVE-2022-22965",
       "https://github.com/BKLockly/CVE-2022-22965",
       "https://github.com/whoami0622/CVE-2022-22965-POC",
-      "https://github.com/devengpk/CVE-2022-22965",
       "https://github.com/fransvanbuul/CVE-2022-22965-susceptibility",
+      "https://github.com/devengpk/CVE-2022-22965",
       "https://github.com/mwojterski/cve-2022-22965",
       "https://github.com/luoqianlin/CVE-2022-22965",
       "https://github.com/Enokiy/spring-RCE-CVE-2022-22965",
@@ -6514,8 +6523,8 @@
       "https://github.com/tangxiaofeng7/CVE-2022-22947-Spring-Cloud-Gateway",
       "https://github.com/peiqiF4ck/WebFrameworkTools-5.1-main",
       "https://github.com/crowsec-edtech/CVE-2022-22947",
-      "https://github.com/0730Nophone/CVE-2022-22947-",
       "https://github.com/aodsec/CVE-2022-22947",
+      "https://github.com/0730Nophone/CVE-2022-22947-",
       "https://github.com/XuCcc/VulEnv",
       "https://github.com/mamba-2021/EXP-POC",
       "https://github.com/Tas9er/SpringCloudGatewayRCE",
@@ -6727,7 +6736,8 @@
     "cve_code": "CVE-2022-22274",
     "description": " A Stack-based buffer overflow vulnerability in the SonicOS via HTTP request allows a remote unauthenticated attacker to cause Denial of Service (DoS) or potentially results in code execution in the firewall.",
     "poc": [
-      "https://github.com/pwneddr/Sonic_CVE-2022-22274_poc"
+      "https://github.com/pwneddr/Sonic_CVE-2022-22274_poc",
+      "https://github.com/forthisvideo/CVE-2022-22274_poc"
     ]
   },
   {
@@ -7838,11 +7848,11 @@
       "https://github.com/jonathanbest7/cve-2022-0847",
       "https://github.com/V0WKeep3r/CVE-2022-0847-DirtyPipe-Exploit",
       "https://github.com/pentestblogin/pentestblog-CVE-2022-0847",
-      "https://github.com/mrchucu1/CVE-2022-0847-Docker",
       "https://github.com/edsonjt81/CVE-2022-0847-Linux",
-      "https://github.com/c0ntempt/CVE-2022-0847",
+      "https://github.com/mrchucu1/CVE-2022-0847-Docker",
       "https://github.com/babyshen/CVE-2022-0847",
       "https://github.com/4bhishek0/CVE-2022-0847-Poc",
+      "https://github.com/c0ntempt/CVE-2022-0847",
       "https://github.com/versatilexec/CVE_2022_0847",
       "https://github.com/s3mPr1linux/CVE_2022_0847",
       "https://github.com/2xYuan/CVE-2022-0847",
@@ -7851,9 +7861,9 @@
       "https://github.com/githublihaha/DirtyPIPE-CVE-2022-0847",
       "https://github.com/pmihsan/Dirty-Pipe-CVE-2022-0847",
       "https://github.com/edsonjt81/CVE-2022-0847-DirtyPipe-",
-      "https://github.com/Greetdawn/CVE-2022-0847-DirtyPipe-",
       "https://github.com/Greetdawn/CVE-2022-0847-DirtyPipe",
       "https://github.com/al4xs/CVE-2022-0847-Dirty-Pipe",
+      "https://github.com/Greetdawn/CVE-2022-0847-DirtyPipe-",
       "https://github.com/AyoubNajim/cve-2022-0847dirtypipe-exploit",
       "https://github.com/tufanturhan/CVE-2022-0847-L-nux-PrivEsc",
       "https://github.com/stfnw/Debugging_Dirty_Pipe_CVE-2022-0847",
