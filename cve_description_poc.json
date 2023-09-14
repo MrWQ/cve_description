@@ -15,16 +15,23 @@
   },
   {
     "cve_code": "CVE-2023-42469",
-    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " The com.full.dialer.top.secure.encrypted application through 1.0.1 for Android enables any installed application (with no permissions) to place phone calls without user interaction by sending a crafted intent via the com.full.dialer.top.secure.encrypted.activities.DialerActivity component.",
     "poc": [
       "https://github.com/actuator/com.full.dialer.top.secure.encrypted"
     ]
   },
   {
     "cve_code": "CVE-2023-42468",
-    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " The com.cutestudio.colordialer application through 2.1.8-2 for Android allows a remote attacker to initiate phone calls without user consent, because of improper export of the com.cutestudio.dialer.activities.DialerActivity component. A third-party application (without any permissions) can craft an intent targeting com.cutestudio.dialer.activities.DialerActivity via the android.intent.action.CALL action in conjunction with a tel: URI, thereby placing a phone call.",
     "poc": [
       "https://github.com/actuator/com.cutestudio.colordialer"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-42362",
+    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "poc": [
+      "https://github.com/Mr-n0b3dy/CVE-2023-42362"
     ]
   },
   {
@@ -357,8 +364,8 @@
       "https://github.com/MorDavid/CVE-2023-38831-Winrar-Exploit-Generator-POC",
       "https://github.com/Mich-ele/CVE-2023-38831-winrar",
       "https://github.com/PascalAsch/CVE-2023-38831-KQL",
-      "https://github.com/akhomlyuk/cve-2023-38831",
       "https://github.com/Malwareman007/CVE-2023-38831",
+      "https://github.com/akhomlyuk/cve-2023-38831",
       "https://github.com/IR-HuntGuardians/CVE-2023-38831-HUNT",
       "https://github.com/thegr1ffyn/CVE-2023-38831",
       "https://github.com/z3r0sw0rd/CVE-2023-38831-PoC",
@@ -367,8 +374,8 @@
       "https://github.com/asepsaepdin/CVE-2023-38831",
       "https://github.com/nhman-python/CVE-2023-38831",
       "https://github.com/xaitax/WinRAR-CVE-2023-38831",
-      "https://github.com/Fa1c0n35/CVE-2023-38831-winrar-exploit",
       "https://github.com/LuxCodeDev/CVE-2023-38831_WinRAR",
+      "https://github.com/Fa1c0n35/CVE-2023-38831-winrar-exploit",
       "https://github.com/Rezaguii/winrar-exploit-CVE-2023-38831-tool",
       "https://github.com/BeniBeastt/CVE-2023-38831_ReverseShell_Winrar",
       "https://github.com/ameerpornillos/CVE-2023-38831-WinRAR-Exploit",
@@ -787,8 +794,8 @@
     "cve_code": "CVE-2023-36143",
     "description": " Maxprint Maxlink 1200G v3.4.11E has an OS command injection vulnerability in the &quot;Diagnostic tool&quot; functionality of the device.",
     "poc": [
-      "https://github.com/leonardobg/CVE-2023-36143",
-      "https://github.com/RobinTrigon/CVE-2023-36143"
+      "https://github.com/RobinTrigon/CVE-2023-36143",
+      "https://github.com/leonardobg/CVE-2023-36143"
     ]
   },
   {
@@ -1773,13 +1780,13 @@
       "https://github.com/mallutrojan/CVE-2023-30212-Lab",
       "https://github.com/libas7994/Exploit-the-CVE-2023-30212-vulnerability",
       "https://github.com/AAsh035/CVE-2023-30212",
-      "https://github.com/kai-iszz/CVE-2023-30212",
       "https://github.com/Anandhu990/CVE-2023-30212-iab",
-      "https://github.com/libasv/Exploite-CVE-2023-30212-vulnerability",
+      "https://github.com/kai-iszz/CVE-2023-30212",
       "https://github.com/Anandhu990/CVE-2023-30212_lab",
+      "https://github.com/libasv/Exploite-CVE-2023-30212-vulnerability",
       "https://github.com/Anandhu990/r-CVE-2023-30212-lab",
-      "https://github.com/VisDev23/Vulnerable-Docker--CVE-2023-30212-",
       "https://github.com/VisDev23/Vulnerable-Docker-CVE-2023-30212",
+      "https://github.com/VisDev23/Vulnerable-Docker--CVE-2023-30212-",
       "https://github.com/Anandhu990/r-CVE-2023-30212--lab",
       "https://github.com/MaThEw-ViNcEnT/CVE-2023-30212-OURPHP-Vulnerability",
       "https://github.com/libasmon/Vulnerable-Docker-Environment-CVE-2023-30212",
@@ -1976,8 +1983,8 @@
     "description": " An issue was discovered in the Linux kernel before 5.13.3. lib/seq_buf.c has a seq_buf_putmem_hex buffer overflow.",
     "poc": [
       "https://github.com/nidhi7598/linux-4.19.72_CVE-2023-28772",
-      "https://github.com/Satheesh575555/linux-4.1.15_CVE-2023-28772",
       "https://github.com/Trinadh465/linux-4.1.15_CVE-2023-28772",
+      "https://github.com/Satheesh575555/linux-4.1.15_CVE-2023-28772",
       "https://github.com/hshivhare67/kernel_v4.1.15_CVE-2023-28772"
     ]
   },
@@ -3137,6 +3144,11 @@
     ]
   },
   {
+    "cve_code": "CVE-2023-4863",
+    "description": " Heap buffer overflow in WebP in Google Chrome prior to 116.0.5845.187 allowed a remote attacker to perform an out of bounds memory write via a crafted HTML page. (Chromium security severity: Critical)- [https://github.com/suhipek/CVE-2023-4863](https://github.com/suhipek/CVE-2023-4863) :  ![starts](https://img.shields.io/github/stars/suhipek/CVE-2023-4863.svg) ![forks](https://img.shields.io/github/forks/suhipek/CVE-2023-4863.svg)",
+    "poc": []
+  },
+  {
     "cve_code": "CVE-2023-4741",
     "description": " A vulnerability has been found in IBOS OA 4.5.5 and classified as critical. This vulnerability affects unknown code of the file ?r=diary/default/del of the component Delete Logs Handler. The manipulation leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-238630 is the identifier assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.",
     "poc": [
@@ -3253,8 +3265,8 @@
     "cve_code": "CVE-2023-3567",
     "description": " A use-after-free flaw was found in vcs_read in drivers/tty/vt/vc_screen.c in vc_screen in the Linux Kernel. This flaw allows an attacker with local user access to cause a system crash or leak internal kernel information.",
     "poc": [
-      "https://github.com/nidhi7598/linux-4.19.72_CVE-2023-3567",
-      "https://github.com/nidhi7598/linux-4.1.15_CVE-2023-3567"
+      "https://github.com/nidhi7598/linux-4.1.15_CVE-2023-3567",
+      "https://github.com/nidhi7598/linux-4.19.72_CVE-2023-3567"
     ]
   },
   {
@@ -3279,7 +3291,6 @@
     "cve_code": "CVE-2023-3450",
     "description": " A vulnerability was found in Ruijie RG-BCR860 2.5.13 and classified as critical. This issue affects some unknown processing of the component Network Diagnostic Page. The manipulation leads to os command injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-232547. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.",
     "poc": [
-      "https://github.com/caopengyan/CVE-2023-3450",
       "https://github.com/yuanjinyuyuyu/CVE-2023-3450"
     ]
   },
@@ -3295,6 +3306,13 @@
     "description": " A vulnerability exists in the memory management subsystem of the Linux kernel. The lock handling for accessing and updating virtual memory areas (VMAs) is incorrect, leading to use-after-free problems. This issue can be successfully exploited to execute arbitrary kernel code, escalate containers, and gain root privileges.",
     "poc": [
       "https://github.com/lrh2000/StackRot"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-3244",
+    "description": " The Comments Like Dislike plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the restore_settings function called via an AJAX action in versions up to, and including, 1.1.9. This makes it possible for authenticated attackers with minimal permissions, such as a subscriber, to reset the plugin's settings. NOTE: After attempting to contact the developer with no response, and reporting this to the WordPress plugin's team 30 days ago we are disclosing this issue as it still is not updated.",
+    "poc": [
+      "https://github.com/drnull03/POC-CVE-2023-3244"
     ]
   },
   {
@@ -3583,8 +3601,8 @@
       "https://github.com/padbergpete47/CVE-2023-1454",
       "https://github.com/gobysec/CVE-2023-1454",
       "https://github.com/CKevens/CVE-2023-1454-EXP",
-      "https://github.com/cjybao/CVE-2023-1454",
-      "https://github.com/BugFor-Pings/CVE-2023-1454"
+      "https://github.com/BugFor-Pings/CVE-2023-1454",
+      "https://github.com/cjybao/CVE-2023-1454"
     ]
   },
   {
@@ -3623,7 +3641,7 @@
   },
   {
     "cve_code": "CVE-2023-1234",
-    "description": " Inappropriate implementation in Intents in Google Chrome on Android prior to 111.0.5563.64 allowed a remote attacker to perform domain spoofing via a crafted HTML page. (Chromium security severity: Low)- [https://github.com/yrtsec/CVE-2023-123456](https://github.com/yrtsec/CVE-2023-123456) :  ![starts](https://img.shields.io/github/stars/yrtsec/CVE-2023-123456.svg) ![forks](https://img.shields.io/github/forks/yrtsec/CVE-2023-123456.svg)- [https://github.com/emotest1/CVE-2023-123456](https://github.com/emotest1/CVE-2023-123456) :  ![starts](https://img.shields.io/github/stars/emotest1/CVE-2023-123456.svg) ![forks](https://img.shields.io/github/forks/emotest1/CVE-2023-123456.svg)",
+    "description": " Inappropriate implementation in Intents in Google Chrome on Android prior to 111.0.5563.64 allowed a remote attacker to perform domain spoofing via a crafted HTML page. (Chromium security severity: Low)- [https://github.com/emotest1/CVE-2023-123456](https://github.com/emotest1/CVE-2023-123456) :  ![starts](https://img.shields.io/github/stars/emotest1/CVE-2023-123456.svg) ![forks](https://img.shields.io/github/forks/emotest1/CVE-2023-123456.svg)- [https://github.com/yrtsec/CVE-2023-123456](https://github.com/yrtsec/CVE-2023-123456) :  ![starts](https://img.shields.io/github/stars/yrtsec/CVE-2023-123456.svg) ![forks](https://img.shields.io/github/forks/yrtsec/CVE-2023-123456.svg)",
     "poc": []
   },
   {
