@@ -362,9 +362,9 @@
       "https://github.com/Maalfer/CVE-2023-38831_ReverseShell_Winrar-RCE",
       "https://github.com/K3rnel-Dev/WinrarExploit",
       "https://github.com/MorDavid/CVE-2023-38831-Winrar-Exploit-Generator-POC",
-      "https://github.com/Mich-ele/CVE-2023-38831-winrar",
-      "https://github.com/PascalAsch/CVE-2023-38831-KQL",
       "https://github.com/Malwareman007/CVE-2023-38831",
+      "https://github.com/PascalAsch/CVE-2023-38831-KQL",
+      "https://github.com/Mich-ele/CVE-2023-38831-winrar",
       "https://github.com/akhomlyuk/cve-2023-38831",
       "https://github.com/IR-HuntGuardians/CVE-2023-38831-HUNT",
       "https://github.com/thegr1ffyn/CVE-2023-38831",
@@ -372,10 +372,11 @@
       "https://github.com/SugiB3o/Keylog_CVE2023-38831",
       "https://github.com/GOTonyGO/CVE-2023-38831-winrar",
       "https://github.com/asepsaepdin/CVE-2023-38831",
+      "https://github.com/IMHarman/CVE-2023-38831",
       "https://github.com/xaitax/WinRAR-CVE-2023-38831",
       "https://github.com/nhman-python/CVE-2023-38831",
-      "https://github.com/LuxCodeDev/CVE-2023-38831_WinRAR",
       "https://github.com/Fa1c0n35/CVE-2023-38831-winrar-exploit",
+      "https://github.com/LuxCodeDev/CVE-2023-38831_WinRAR",
       "https://github.com/BeniBeastt/CVE-2023-38831_ReverseShell_Winrar",
       "https://github.com/MortySecurity/CVE-2023-38831-Exploit-and-Detection",
       "https://github.com/ameerpornillos/CVE-2023-38831-WinRAR-Exploit"
@@ -893,8 +894,8 @@
       "https://github.com/LazyySec/CVE-2023-35078",
       "https://github.com/lager1/CVE-2023-35078",
       "https://github.com/emanueldosreis/nmap-CVE-2023-35078-Exploit",
-      "https://github.com/synfinner/CVE-2023-35078",
-      "https://github.com/Blue-number/CVE-2023-35078"
+      "https://github.com/Blue-number/CVE-2023-35078",
+      "https://github.com/synfinner/CVE-2023-35078"
     ]
   },
   {
@@ -1987,8 +1988,8 @@
     "description": " An issue was discovered in the Linux kernel before 5.13.3. lib/seq_buf.c has a seq_buf_putmem_hex buffer overflow.",
     "poc": [
       "https://github.com/nidhi7598/linux-4.19.72_CVE-2023-28772",
-      "https://github.com/Trinadh465/linux-4.1.15_CVE-2023-28772",
       "https://github.com/Satheesh575555/linux-4.1.15_CVE-2023-28772",
+      "https://github.com/Trinadh465/linux-4.1.15_CVE-2023-28772",
       "https://github.com/hshivhare67/kernel_v4.1.15_CVE-2023-28772"
     ]
   },
@@ -2274,8 +2275,8 @@
     "description": " request-baskets up to v1.2.1 was discovered to contain a Server-Side Request Forgery (SSRF) via the component /api/baskets/{name}. This vulnerability allows attackers to access network resources and sensitive information via a crafted API request.",
     "poc": [
       "https://github.com/entr0pie/CVE-2023-27163",
-      "https://github.com/seanrdev/cve-2023-27163",
       "https://github.com/samh4cks/CVE-2023-27163-InternalProber",
+      "https://github.com/seanrdev/cve-2023-27163",
       "https://github.com/ThickCoco/CVE-2023-27163-POC",
       "https://github.com/davuXVI/CVE-2023-27163",
       "https://github.com/HusenjanDev/CVE-2023-27163-AND-Mailtrail-v0.53",
@@ -2361,6 +2362,13 @@
     "description": " ZCBS Zijper Collectie Beheer Systeem (ZCBS), Zijper Publication Management System (ZPBS), and Zijper Image Bank Management System (ZBBS) 4.14k is vulnerable to Cross Site Scripting (XSS).",
     "poc": [
       "https://github.com/bigzooooz/CVE-2023-26692"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-26607",
+    "description": " In the Linux kernel 6.0.8, there is an out-of-bounds read in ntfs_attr_find in fs/ntfs/attrib.c.",
+    "poc": [
+      "https://github.com/Trinadh465/linux-4.1.15_CVE-2023-26607"
     ]
   },
   {
@@ -3148,6 +3156,13 @@
     ]
   },
   {
+    "cve_code": "CVE-2023-5000",
+    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "poc": [
+      "https://github.com/codeb0ss/Wordpress-Forminator-Exploiter"
+    ]
+  },
+  {
     "cve_code": "CVE-2023-4863",
     "description": " Heap buffer overflow in WebP in Google Chrome prior to 116.0.5845.187 allowed a remote attacker to perform an out of bounds memory write via a crafted HTML page. (Chromium security severity: Critical)- [https://github.com/suhipek/CVE-2023-4863](https://github.com/suhipek/CVE-2023-4863) :  ![starts](https://img.shields.io/github/stars/suhipek/CVE-2023-4863.svg) ![forks](https://img.shields.io/github/forks/suhipek/CVE-2023-4863.svg)",
     "poc": []
@@ -3237,11 +3252,18 @@
     ]
   },
   {
+    "cve_code": "CVE-2023-4128",
+    "description": " A use-after-free flaw was found in net/sched/cls_fw.c in classifiers (cls_fw, cls_u32, and cls_route) in the Linux Kernel. This flaw allows a local attacker to perform a local privilege escalation due to incorrect handling of the existing filter, leading to a kernel information leak issue.",
+    "poc": [
+      "https://github.com/Trinadh465/linux-4.1.15_CVE-2023-4128"
+    ]
+  },
+  {
     "cve_code": "CVE-2023-3836",
     "description": " A vulnerability classified as critical was found in Dahua Smart Park Management up to 20230713. This vulnerability affects unknown code of the file /emap/devicePoint_addImgIco?hasSubsystem=true. The manipulation of the argument upload leads to unrestricted upload. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-235162 is the identifier assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.",
     "poc": [
-      "https://github.com/codeb0ss/CVE-2023-3836",
-      "https://github.com/zh-byte/CVE-2023-3836"
+      "https://github.com/zh-byte/CVE-2023-3836",
+      "https://github.com/codeb0ss/CVE-2023-3836"
     ]
   },
   {
@@ -3295,8 +3317,8 @@
     "cve_code": "CVE-2023-3450",
     "description": " A vulnerability was found in Ruijie RG-BCR860 2.5.13 and classified as critical. This issue affects some unknown processing of the component Network Diagnostic Page. The manipulation leads to os command injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-232547. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.",
     "poc": [
-      "https://github.com/yuanjinyuyuyu/CVE-2023-3450",
-      "https://github.com/caopengyan/CVE-2023-3450"
+      "https://github.com/caopengyan/CVE-2023-3450",
+      "https://github.com/yuanjinyuyuyu/CVE-2023-3450"
     ]
   },
   {
@@ -3646,7 +3668,7 @@
   },
   {
     "cve_code": "CVE-2023-1234",
-    "description": " Inappropriate implementation in Intents in Google Chrome on Android prior to 111.0.5563.64 allowed a remote attacker to perform domain spoofing via a crafted HTML page. (Chromium security severity: Low)- [https://github.com/yrtsec/CVE-2023-123456](https://github.com/yrtsec/CVE-2023-123456) :  ![starts](https://img.shields.io/github/stars/yrtsec/CVE-2023-123456.svg) ![forks](https://img.shields.io/github/forks/yrtsec/CVE-2023-123456.svg)- [https://github.com/emotest1/CVE-2023-123456](https://github.com/emotest1/CVE-2023-123456) :  ![starts](https://img.shields.io/github/stars/emotest1/CVE-2023-123456.svg) ![forks](https://img.shields.io/github/forks/emotest1/CVE-2023-123456.svg)",
+    "description": " Inappropriate implementation in Intents in Google Chrome on Android prior to 111.0.5563.64 allowed a remote attacker to perform domain spoofing via a crafted HTML page. (Chromium security severity: Low)- [https://github.com/emotest1/CVE-2023-123456](https://github.com/emotest1/CVE-2023-123456) :  ![starts](https://img.shields.io/github/stars/emotest1/CVE-2023-123456.svg) ![forks](https://img.shields.io/github/forks/emotest1/CVE-2023-123456.svg)- [https://github.com/yrtsec/CVE-2023-123456](https://github.com/yrtsec/CVE-2023-123456) :  ![starts](https://img.shields.io/github/stars/yrtsec/CVE-2023-123456.svg) ![forks](https://img.shields.io/github/forks/yrtsec/CVE-2023-123456.svg)",
     "poc": []
   },
   {
