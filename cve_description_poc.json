@@ -3,28 +3,32 @@
     "cve_code": "CVE-2023-42471",
     "description": " The wave.ai.browser application through 1.0.35 for Android allows a remote attacker to execute arbitrary JavaScript code via a crafted intent. It contains a manifest entry that exports the wave.ai.browser.ui.splash.SplashScreen activity. This activity uses a WebView component to display web content and doesn't adequately validate or sanitize the URI or any extra data passed in the intent by a third party application (with no permissions).",
     "poc": [
-      "https://github.com/actuator/wave.ai.browser"
+      "https://github.com/actuator/wave.ai.browser",
+      "https://github.com/actuator/cve"
     ]
   },
   {
     "cve_code": "CVE-2023-42470",
     "description": " The Imou Life com.mm.android.smartlifeiot application through 6.8.0 for Android allows Remote Code Execution via a crafted intent to an exported component. This relates to the com.mm.android.easy4ip.MainActivity activity. JavaScript execution is enabled in the WebView, and direct web content loading occurs.",
     "poc": [
-      "https://github.com/actuator/imou"
+      "https://github.com/actuator/imou",
+      "https://github.com/actuator/cve"
     ]
   },
   {
     "cve_code": "CVE-2023-42469",
     "description": " The com.full.dialer.top.secure.encrypted application through 1.0.1 for Android enables any installed application (with no permissions) to place phone calls without user interaction by sending a crafted intent via the com.full.dialer.top.secure.encrypted.activities.DialerActivity component.",
     "poc": [
-      "https://github.com/actuator/com.full.dialer.top.secure.encrypted"
+      "https://github.com/actuator/com.full.dialer.top.secure.encrypted",
+      "https://github.com/actuator/cve"
     ]
   },
   {
     "cve_code": "CVE-2023-42468",
     "description": " The com.cutestudio.colordialer application through 2.1.8-2 for Android allows a remote attacker to initiate phone calls without user consent, because of improper export of the com.cutestudio.dialer.activities.DialerActivity component. A third-party application (without any permissions) can craft an intent targeting com.cutestudio.dialer.activities.DialerActivity via the android.intent.action.CALL action in conjunction with a tel: URI, thereby placing a phone call.",
     "poc": [
-      "https://github.com/actuator/com.cutestudio.colordialer"
+      "https://github.com/actuator/com.cutestudio.colordialer",
+      "https://github.com/actuator/cve"
     ]
   },
   {
@@ -185,6 +189,13 @@
     "description": " libboron in Boron 2.0.8 has a heap-based buffer overflow in ur_parseBlockI at i_parse_blk.c.",
     "poc": [
       "https://github.com/Halcy0nic/CVE-2023-40294-and-CVE-2023-40295"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-40040",
+    "description": " An issue was discovered in the MyCrops HiGrade &quot;THC Testing &amp; Cannabi&quot; application 1.0.337 for Android. A remote attacker can start the camera feed via the com.cordovaplugincamerapreview.CameraActivity component in some situations. NOTE: this is only exploitable on Android versions that lack runtime permission checks, and of those only Android SDK 5.1.1 API 22 is consistent with the manifest. Thus, this applies only to Android Lollipop, affecting less than five percent of Android devices as of 2023.",
+    "poc": [
+      "https://github.com/actuator/cve"
     ]
   },
   {
@@ -367,17 +378,16 @@
       "https://github.com/PascalAsch/CVE-2023-38831-KQL",
       "https://github.com/akhomlyuk/cve-2023-38831",
       "https://github.com/IR-HuntGuardians/CVE-2023-38831-HUNT",
-      "https://github.com/xaitax/WinRAR-CVE-2023-38831",
       "https://github.com/thegr1ffyn/CVE-2023-38831",
+      "https://github.com/xaitax/WinRAR-CVE-2023-38831",
       "https://github.com/z3r0sw0rd/CVE-2023-38831-PoC",
       "https://github.com/SugiB3o/Keylog_CVE2023-38831",
       "https://github.com/GOTonyGO/CVE-2023-38831-winrar",
-      "https://github.com/asepsaepdin/CVE-2023-38831",
       "https://github.com/an040702/CVE-2023-38831",
+      "https://github.com/asepsaepdin/CVE-2023-38831",
       "https://github.com/IMHarman/CVE-2023-38831",
       "https://github.com/nhman-python/CVE-2023-38831",
       "https://github.com/Fa1c0n35/CVE-2023-38831-winrar-exploit",
-      "https://github.com/LuxCodeDev/CVE-2023-38831_WinRAR",
       "https://github.com/BeniBeastt/CVE-2023-38831_ReverseShell_Winrar",
       "https://github.com/MortySecurity/CVE-2023-38831-Exploit-and-Detection",
       "https://github.com/ameerpornillos/CVE-2023-38831-WinRAR-Exploit"
@@ -895,8 +905,8 @@
       "https://github.com/LazyySec/CVE-2023-35078",
       "https://github.com/lager1/CVE-2023-35078",
       "https://github.com/emanueldosreis/nmap-CVE-2023-35078-Exploit",
-      "https://github.com/Blue-number/CVE-2023-35078",
-      "https://github.com/synfinner/CVE-2023-35078"
+      "https://github.com/synfinner/CVE-2023-35078",
+      "https://github.com/Blue-number/CVE-2023-35078"
     ]
   },
   {
@@ -1321,8 +1331,8 @@
       "https://github.com/yizhimanpadewoniu/CVE-2023-33246-Copy",
       "https://github.com/vulncheck-oss/fetch-broker-conf",
       "https://github.com/CKevens/CVE-2023-33246",
-      "https://github.com/d0rb/CVE-2023-33246",
-      "https://github.com/Devil0ll/CVE-2023-33246"
+      "https://github.com/Devil0ll/CVE-2023-33246",
+      "https://github.com/d0rb/CVE-2023-33246"
     ]
   },
   {
@@ -1355,7 +1365,7 @@
       "https://github.com/z-jxy/keepass_dump",
       "https://github.com/und3sc0n0c1d0/BruteForce-to-KeePass",
       "https://github.com/LeDocteurDesBits/cve-2023-32784",
-      "https://github.com/4m4Sec/CVE-2023-32784",
+      "https://github.com/dawnl3ss/CVE-2023-32784",
       "https://github.com/hau-zy/KeePass-dump-py"
     ]
   },
@@ -1368,7 +1378,7 @@
   },
   {
     "cve_code": "CVE-2023-32629",
-    "description": " Local privilege escalation vulnerability in Ubuntu Kernels overlayfs ovl_copy_up_meta_inode_data skip permission checks when calling ovl_do_setxattr on Ubuntu kernels- [https://github.com/kaotickj/Check-for-CVE-2023-32629-GameOver-lay](https://github.com/kaotickj/Check-for-CVE-2023-32629-GameOver-lay) :  ![starts](https://img.shields.io/github/stars/kaotickj/Check-for-CVE-2023-32629-GameOver-lay.svg) ![forks](https://img.shields.io/github/forks/kaotickj/Check-for-CVE-2023-32629-GameOver-lay.svg)- [https://github.com/OllaPapito/gameoverlay](https://github.com/OllaPapito/gameoverlay) :  ![starts](https://img.shields.io/github/stars/OllaPapito/gameoverlay.svg) ![forks](https://img.shields.io/github/forks/OllaPapito/gameoverlay.svg)- [https://github.com/johnlettman/juju-scripts](https://github.com/johnlettman/juju-scripts) :  ![starts](https://img.shields.io/github/stars/johnlettman/juju-scripts.svg) ![forks](https://img.shields.io/github/forks/johnlettman/juju-scripts.svg)",
+    "description": " Local privilege escalation vulnerability in Ubuntu Kernels overlayfs ovl_copy_up_meta_inode_data skip permission checks when calling ovl_do_setxattr on Ubuntu kernels- [https://github.com/kaotickj/Check-for-CVE-2023-32629-GameOver-lay](https://github.com/kaotickj/Check-for-CVE-2023-32629-GameOver-lay) :  ![starts](https://img.shields.io/github/stars/kaotickj/Check-for-CVE-2023-32629-GameOver-lay.svg) ![forks](https://img.shields.io/github/forks/kaotickj/Check-for-CVE-2023-32629-GameOver-lay.svg)- [https://github.com/OllaPapito/gameoverlay](https://github.com/OllaPapito/gameoverlay) :  ![starts](https://img.shields.io/github/stars/OllaPapito/gameoverlay.svg) ![forks](https://img.shields.io/github/forks/OllaPapito/gameoverlay.svg)- [https://github.com/johnlettman/juju-scripts](https://github.com/johnlettman/juju-scripts) :  ![starts](https://img.shields.io/github/stars/johnlettman/juju-scripts.svg) ![forks](https://img.shields.io/github/forks/johnlettman/juju-scripts.svg)- [https://github.com/luanoliveira350/GameOverlayFS](https://github.com/luanoliveira350/GameOverlayFS) :  ![starts](https://img.shields.io/github/stars/luanoliveira350/GameOverlayFS.svg) ![forks](https://img.shields.io/github/forks/luanoliveira350/GameOverlayFS.svg)",
     "poc": []
   },
   {
@@ -1404,8 +1414,8 @@
       "https://github.com/little44n1o/cve-2023-32243",
       "https://github.com/YouGina/CVE-2023-32243",
       "https://github.com/manavvedawala2/CVE-2023-32243-POC",
-      "https://github.com/manavvedawala2/CVE-2023-32243-proof-of-concept",
-      "https://github.com/manavvedawala/CVE-2023-32243-proof-of-concept"
+      "https://github.com/manavvedawala/CVE-2023-32243-proof-of-concept",
+      "https://github.com/manavvedawala2/CVE-2023-32243-proof-of-concept"
     ]
   },
   {
@@ -3136,8 +3146,8 @@
     "cve_code": "CVE-2023-20073",
     "description": " A vulnerability in the web-based management interface of Cisco RV340, RV340W, RV345, and RV345P Dual WAN Gigabit VPN Routers could allow an unauthenticated, remote attacker to upload arbitrary files to an affected device. This vulnerability is due to insufficient authorization enforcement mechanisms in the context of file uploads. An attacker could exploit this vulnerability by sending a crafted HTTP request to an affected device. A successful exploit could allow the attacker to upload arbitrary files to the affected device.",
     "poc": [
-      "https://github.com/RegularITCat/CVE-2023-20073",
-      "https://github.com/codeb0ss/CVE-2023-20073-"
+      "https://github.com/codeb0ss/CVE-2023-20073-",
+      "https://github.com/RegularITCat/CVE-2023-20073"
     ]
   },
   {
@@ -3436,8 +3446,8 @@
     "poc": [
       "https://github.com/Occamsec/CVE-2023-2825",
       "https://github.com/yuimarudev/CVE-2023-2825",
-      "https://github.com/Tornad0007/CVE-2023-2825-Gitlab",
       "https://github.com/EmmanuelCruzL/CVE-2023-2825",
+      "https://github.com/Tornad0007/CVE-2023-2825-Gitlab",
       "https://github.com/caopengyan/CVE-2023-2825"
     ]
   },
@@ -3477,7 +3487,8 @@
     "description": " On Ubuntu kernels carrying both c914c0e27eb0 and &quot;UBUNTU: SAUCE: overlayfs: Skip permission checking for trusted.overlayfs.* xattrs&quot;, an unprivileged user may set privileged extended attributes on the mounted files, leading them to be set on the upper files without the appropriate security checks.",
     "poc": [
       "https://github.com/OllaPapito/gameoverlay",
-      "https://github.com/johnlettman/juju-scripts"
+      "https://github.com/johnlettman/juju-scripts",
+      "https://github.com/luanoliveira350/GameOverlayFS"
     ]
   },
   {
@@ -3668,7 +3679,7 @@
   },
   {
     "cve_code": "CVE-2023-1234",
-    "description": " Inappropriate implementation in Intents in Google Chrome on Android prior to 111.0.5563.64 allowed a remote attacker to perform domain spoofing via a crafted HTML page. (Chromium security severity: Low)- [https://github.com/yrtsec/CVE-2023-123456](https://github.com/yrtsec/CVE-2023-123456) :  ![starts](https://img.shields.io/github/stars/yrtsec/CVE-2023-123456.svg) ![forks](https://img.shields.io/github/forks/yrtsec/CVE-2023-123456.svg)- [https://github.com/emotest1/CVE-2023-123456](https://github.com/emotest1/CVE-2023-123456) :  ![starts](https://img.shields.io/github/stars/emotest1/CVE-2023-123456.svg) ![forks](https://img.shields.io/github/forks/emotest1/CVE-2023-123456.svg)",
+    "description": " Inappropriate implementation in Intents in Google Chrome on Android prior to 111.0.5563.64 allowed a remote attacker to perform domain spoofing via a crafted HTML page. (Chromium security severity: Low)- [https://github.com/emotest1/CVE-2023-123456](https://github.com/emotest1/CVE-2023-123456) :  ![starts](https://img.shields.io/github/stars/emotest1/CVE-2023-123456.svg) ![forks](https://img.shields.io/github/forks/emotest1/CVE-2023-123456.svg)- [https://github.com/yrtsec/CVE-2023-123456](https://github.com/yrtsec/CVE-2023-123456) :  ![starts](https://img.shields.io/github/stars/yrtsec/CVE-2023-123456.svg) ![forks](https://img.shields.io/github/forks/yrtsec/CVE-2023-123456.svg)",
     "poc": []
   },
   {
