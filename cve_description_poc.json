@@ -7,6 +7,27 @@
     ]
   },
   {
+    "cve_code": "CVE-2023-43326",
+    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "poc": [
+      "https://github.com/ahrixia/CVE-2023-43326"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-43325",
+    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "poc": [
+      "https://github.com/ahrixia/CVE-2023-43325"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-43154",
+    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "poc": [
+      "https://github.com/ally-petitt/CVE-2023-43154-PoC"
+    ]
+  },
+  {
     "cve_code": "CVE-2023-42471",
     "description": " The wave.ai.browser application through 1.0.35 for Android allows a remote attacker to execute arbitrary JavaScript code via a crafted intent. It contains a manifest entry that exports the wave.ai.browser.ui.splash.SplashScreen activity. This activity uses a WebView component to display web content and doesn't adequately validate or sanitize the URI or any extra data passed in the intent by a third party application (with no permissions).",
     "poc": [
@@ -142,15 +163,8 @@
     ]
   },
   {
-    "cve_code": "CVE-2023-41064",
-    "description": " A buffer overflow issue was addressed with improved memory handling. This issue is fixed in iOS 16.6.1 and iPadOS 16.6.1, macOS Monterey 12.6.9, macOS Ventura 13.5.2, iOS 15.7.9 and iPadOS 15.7.9, macOS Big Sur 11.7.10. Processing a maliciously crafted image may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.",
-    "poc": [
-      "https://github.com/apt0factury/CVE-2023-41064"
-    ]
-  },
-  {
     "cve_code": "CVE-2023-40989",
-    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " SQL injection vulnerbility in jeecgboot jeecg-boot v 3.0, 3.5.3 that allows a remote attacker to execute arbitrary code via a crafted request to the report/jeecgboot/jmreport/queryFieldBySql component.",
     "poc": [
       "https://github.com/Zone1-Z/CVE-2023-40989"
     ]
@@ -406,8 +420,8 @@
       "https://github.com/PascalAsch/CVE-2023-38831-KQL",
       "https://github.com/akhomlyuk/cve-2023-38831",
       "https://github.com/IR-HuntGuardians/CVE-2023-38831-HUNT",
-      "https://github.com/xaitax/WinRAR-CVE-2023-38831",
       "https://github.com/thegr1ffyn/CVE-2023-38831",
+      "https://github.com/xaitax/WinRAR-CVE-2023-38831",
       "https://github.com/z3r0sw0rd/CVE-2023-38831-PoC",
       "https://github.com/SugiB3o/Keylog_CVE2023-38831",
       "https://github.com/GOTonyGO/CVE-2023-38831-winrar",
@@ -748,11 +762,6 @@
     ]
   },
   {
-    "cve_code": "CVE-2023-36761",
-    "description": " Microsoft Word Information Disclosure Vulnerability- [https://github.com/apt0factury/CVE-2023-36761](https://github.com/apt0factury/CVE-2023-36761) :  ![starts](https://img.shields.io/github/stars/apt0factury/CVE-2023-36761.svg) ![forks](https://img.shields.io/github/forks/apt0factury/CVE-2023-36761.svg)",
-    "poc": []
-  },
-  {
     "cve_code": "CVE-2023-36664",
     "description": " Artifex Ghostscript through 10.01.2 mishandles permission validation for pipe devices (with the %pipe% prefix or the | pipe character prefix).",
     "poc": [
@@ -862,8 +871,8 @@
     "cve_code": "CVE-2023-36143",
     "description": " Maxprint Maxlink 1200G v3.4.11E has an OS command injection vulnerability in the &quot;Diagnostic tool&quot; functionality of the device.",
     "poc": [
-      "https://github.com/RobinTrigon/CVE-2023-36143",
-      "https://github.com/leonardobg/CVE-2023-36143"
+      "https://github.com/leonardobg/CVE-2023-36143",
+      "https://github.com/RobinTrigon/CVE-2023-36143"
     ]
   },
   {
@@ -1439,8 +1448,8 @@
     "description": " In KeePass 2.x before 2.54, it is possible to recover the cleartext master password from a memory dump, even when a workspace is locked or no longer running. The memory dump can be a KeePass process dump, swap file (pagefile.sys), hibernation file (hiberfil.sys), or RAM dump of the entire system. The first character cannot be recovered. In 2.54, there is different API usage and/or random string insertion for mitigation.",
     "poc": [
       "https://github.com/vdohney/keepass-password-dumper",
-      "https://github.com/CTM1/CVE-2023-32784-keepass-linux",
       "https://github.com/z-jxy/keepass_dump",
+      "https://github.com/CTM1/CVE-2023-32784-keepass-linux",
       "https://github.com/und3sc0n0c1d0/BruteForce-to-KeePass",
       "https://github.com/LeDocteurDesBits/cve-2023-32784",
       "https://github.com/dawnl3ss/CVE-2023-32784",
@@ -2013,9 +2022,9 @@
       "https://github.com/1337r0j4n/CVE-2023-29489",
       "https://github.com/Abdullah7-ma/CVE-2023-29489",
       "https://github.com/learnerboy88/CVE-2023-29489",
+      "https://github.com/tucommenceapousser/CVE-2023-29489",
       "https://github.com/Mostafa-Elguerdawi/CVE-2023-29489.yaml",
       "https://github.com/tucommenceapousser/CVE-2023-29489.py",
-      "https://github.com/tucommenceapousser/CVE-2023-29489",
       "https://github.com/Mostafa-Elguerdawi/CVE-2023-29489",
       "https://github.com/ViperM4sk/cpanel-xss-177"
     ]
@@ -2865,7 +2874,7 @@
   },
   {
     "cve_code": "CVE-2023-23397",
-    "description": " Microsoft Outlook Elevation of Privilege Vulnerability- [https://github.com/api0cradle/CVE-2023-23397-POC-Powershell](https://github.com/api0cradle/CVE-2023-23397-POC-Powershell) :  ![starts](https://img.shields.io/github/stars/api0cradle/CVE-2023-23397-POC-Powershell.svg) ![forks](https://img.shields.io/github/forks/api0cradle/CVE-2023-23397-POC-Powershell.svg)- [https://github.com/sqrtZeroKnowledge/CVE-2023-23397_EXPLOIT_0DAY](https://github.com/sqrtZeroKnowledge/CVE-2023-23397_EXPLOIT_0DAY) :  ![starts](https://img.shields.io/github/stars/sqrtZeroKnowledge/CVE-2023-23397_EXPLOIT_0DAY.svg) ![forks](https://img.shields.io/github/forks/sqrtZeroKnowledge/CVE-2023-23397_EXPLOIT_0DAY.svg)- [https://github.com/Trackflaw/CVE-2023-23397](https://github.com/Trackflaw/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/Trackflaw/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/Trackflaw/CVE-2023-23397.svg)- [https://github.com/ka7ana/CVE-2023-23397](https://github.com/ka7ana/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/ka7ana/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/ka7ana/CVE-2023-23397.svg)- [https://github.com/tiepologian/CVE-2023-23397](https://github.com/tiepologian/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/tiepologian/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/tiepologian/CVE-2023-23397.svg)- [https://github.com/Muhammad-Ali007/OutlookNTLM_CVE-2023-23397](https://github.com/Muhammad-Ali007/OutlookNTLM_CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/Muhammad-Ali007/OutlookNTLM_CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/Muhammad-Ali007/OutlookNTLM_CVE-2023-23397.svg)- [https://github.com/BronzeBee/cve-2023-23397](https://github.com/BronzeBee/cve-2023-23397) :  ![starts](https://img.shields.io/github/stars/BronzeBee/cve-2023-23397.svg) ![forks](https://img.shields.io/github/forks/BronzeBee/cve-2023-23397.svg)- [https://github.com/ahmedkhlief/CVE-2023-23397-POC](https://github.com/ahmedkhlief/CVE-2023-23397-POC) :  ![starts](https://img.shields.io/github/stars/ahmedkhlief/CVE-2023-23397-POC.svg) ![forks](https://img.shields.io/github/forks/ahmedkhlief/CVE-2023-23397-POC.svg)- [https://github.com/BillSkiCO/CVE-2023-23397_EXPLOIT](https://github.com/BillSkiCO/CVE-2023-23397_EXPLOIT) :  ![starts](https://img.shields.io/github/stars/BillSkiCO/CVE-2023-23397_EXPLOIT.svg) ![forks](https://img.shields.io/github/forks/BillSkiCO/CVE-2023-23397_EXPLOIT.svg)- [https://github.com/grn-bogo/CVE-2023-23397](https://github.com/grn-bogo/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/grn-bogo/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/grn-bogo/CVE-2023-23397.svg)- [https://github.com/alicangnll/CVE-2023-23397](https://github.com/alicangnll/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/alicangnll/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/alicangnll/CVE-2023-23397.svg)- [https://github.com/djackreuter/CVE-2023-23397-PoC](https://github.com/djackreuter/CVE-2023-23397-PoC) :  ![starts](https://img.shields.io/github/stars/djackreuter/CVE-2023-23397-PoC.svg) ![forks](https://img.shields.io/github/forks/djackreuter/CVE-2023-23397-PoC.svg)- [https://github.com/vlad-a-man/CVE-2023-23397](https://github.com/vlad-a-man/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/vlad-a-man/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/vlad-a-man/CVE-2023-23397.svg)- [https://github.com/CKevens/CVE-2023-23397-POC](https://github.com/CKevens/CVE-2023-23397-POC) :  ![starts](https://img.shields.io/github/stars/CKevens/CVE-2023-23397-POC.svg) ![forks](https://img.shields.io/github/forks/CKevens/CVE-2023-23397-POC.svg)- [https://github.com/ahmedkhlief/CVE-2023-23397-POC-Using-Interop-Outlook](https://github.com/ahmedkhlief/CVE-2023-23397-POC-Using-Interop-Outlook) :  ![starts](https://img.shields.io/github/stars/ahmedkhlief/CVE-2023-23397-POC-Using-Interop-Outlook.svg) ![forks](https://img.shields.io/github/forks/ahmedkhlief/CVE-2023-23397-POC-Using-Interop-Outlook.svg)- [https://github.com/cleverg0d/CVE-2023-23397-PoC-PowerShell](https://github.com/cleverg0d/CVE-2023-23397-PoC-PowerShell) :  ![starts](https://img.shields.io/github/stars/cleverg0d/CVE-2023-23397-PoC-PowerShell.svg) ![forks](https://img.shields.io/github/forks/cleverg0d/CVE-2023-23397-PoC-PowerShell.svg)- [https://github.com/moneertv/CVE-2023-23397](https://github.com/moneertv/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/moneertv/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/moneertv/CVE-2023-23397.svg)- [https://github.com/j0eyv/CVE-2023-23397](https://github.com/j0eyv/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/j0eyv/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/j0eyv/CVE-2023-23397.svg)- [https://github.com/jacquesquail/CVE-2023-23397](https://github.com/jacquesquail/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/jacquesquail/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/jacquesquail/CVE-2023-23397.svg)- [https://github.com/SecCTechs/CVE-2023-23397](https://github.com/SecCTechs/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/SecCTechs/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/SecCTechs/CVE-2023-23397.svg)- [https://github.com/securiteinfo/expl_outlook_cve_2023_23397_securiteinfo.yar](https://github.com/securiteinfo/expl_outlook_cve_2023_23397_securiteinfo.yar) :  ![starts](https://img.shields.io/github/stars/securiteinfo/expl_outlook_cve_2023_23397_securiteinfo.yar.svg) ![forks](https://img.shields.io/github/forks/securiteinfo/expl_outlook_cve_2023_23397_securiteinfo.yar.svg)- [https://github.com/madelynadams9/CVE-2023-23397-Report](https://github.com/madelynadams9/CVE-2023-23397-Report) :  ![starts](https://img.shields.io/github/stars/madelynadams9/CVE-2023-23397-Report.svg) ![forks](https://img.shields.io/github/forks/madelynadams9/CVE-2023-23397-Report.svg)- [https://github.com/stevesec/CVE-2023-23397](https://github.com/stevesec/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/stevesec/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/stevesec/CVE-2023-23397.svg)- [https://github.com/im007/CVE-2023-23397](https://github.com/im007/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/im007/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/im007/CVE-2023-23397.svg)- [https://github.com/Zeppperoni/CVE-2023-23397-Patch](https://github.com/Zeppperoni/CVE-2023-23397-Patch) :  ![starts](https://img.shields.io/github/stars/Zeppperoni/CVE-2023-23397-Patch.svg) ![forks](https://img.shields.io/github/forks/Zeppperoni/CVE-2023-23397-Patch.svg)",
+    "description": " Microsoft Outlook Elevation of Privilege Vulnerability- [https://github.com/api0cradle/CVE-2023-23397-POC-Powershell](https://github.com/api0cradle/CVE-2023-23397-POC-Powershell) :  ![starts](https://img.shields.io/github/stars/api0cradle/CVE-2023-23397-POC-Powershell.svg) ![forks](https://img.shields.io/github/forks/api0cradle/CVE-2023-23397-POC-Powershell.svg)- [https://github.com/sqrtZeroKnowledge/CVE-2023-23397_EXPLOIT_0DAY](https://github.com/sqrtZeroKnowledge/CVE-2023-23397_EXPLOIT_0DAY) :  ![starts](https://img.shields.io/github/stars/sqrtZeroKnowledge/CVE-2023-23397_EXPLOIT_0DAY.svg) ![forks](https://img.shields.io/github/forks/sqrtZeroKnowledge/CVE-2023-23397_EXPLOIT_0DAY.svg)- [https://github.com/Trackflaw/CVE-2023-23397](https://github.com/Trackflaw/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/Trackflaw/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/Trackflaw/CVE-2023-23397.svg)- [https://github.com/ka7ana/CVE-2023-23397](https://github.com/ka7ana/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/ka7ana/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/ka7ana/CVE-2023-23397.svg)- [https://github.com/tiepologian/CVE-2023-23397](https://github.com/tiepologian/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/tiepologian/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/tiepologian/CVE-2023-23397.svg)- [https://github.com/Muhammad-Ali007/OutlookNTLM_CVE-2023-23397](https://github.com/Muhammad-Ali007/OutlookNTLM_CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/Muhammad-Ali007/OutlookNTLM_CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/Muhammad-Ali007/OutlookNTLM_CVE-2023-23397.svg)- [https://github.com/BronzeBee/cve-2023-23397](https://github.com/BronzeBee/cve-2023-23397) :  ![starts](https://img.shields.io/github/stars/BronzeBee/cve-2023-23397.svg) ![forks](https://img.shields.io/github/forks/BronzeBee/cve-2023-23397.svg)- [https://github.com/ahmedkhlief/CVE-2023-23397-POC](https://github.com/ahmedkhlief/CVE-2023-23397-POC) :  ![starts](https://img.shields.io/github/stars/ahmedkhlief/CVE-2023-23397-POC.svg) ![forks](https://img.shields.io/github/forks/ahmedkhlief/CVE-2023-23397-POC.svg)- [https://github.com/BillSkiCO/CVE-2023-23397_EXPLOIT](https://github.com/BillSkiCO/CVE-2023-23397_EXPLOIT) :  ![starts](https://img.shields.io/github/stars/BillSkiCO/CVE-2023-23397_EXPLOIT.svg) ![forks](https://img.shields.io/github/forks/BillSkiCO/CVE-2023-23397_EXPLOIT.svg)- [https://github.com/grn-bogo/CVE-2023-23397](https://github.com/grn-bogo/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/grn-bogo/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/grn-bogo/CVE-2023-23397.svg)- [https://github.com/alicangnll/CVE-2023-23397](https://github.com/alicangnll/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/alicangnll/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/alicangnll/CVE-2023-23397.svg)- [https://github.com/djackreuter/CVE-2023-23397-PoC](https://github.com/djackreuter/CVE-2023-23397-PoC) :  ![starts](https://img.shields.io/github/stars/djackreuter/CVE-2023-23397-PoC.svg) ![forks](https://img.shields.io/github/forks/djackreuter/CVE-2023-23397-PoC.svg)- [https://github.com/vlad-a-man/CVE-2023-23397](https://github.com/vlad-a-man/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/vlad-a-man/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/vlad-a-man/CVE-2023-23397.svg)- [https://github.com/CKevens/CVE-2023-23397-POC](https://github.com/CKevens/CVE-2023-23397-POC) :  ![starts](https://img.shields.io/github/stars/CKevens/CVE-2023-23397-POC.svg) ![forks](https://img.shields.io/github/forks/CKevens/CVE-2023-23397-POC.svg)- [https://github.com/ahmedkhlief/CVE-2023-23397-POC-Using-Interop-Outlook](https://github.com/ahmedkhlief/CVE-2023-23397-POC-Using-Interop-Outlook) :  ![starts](https://img.shields.io/github/stars/ahmedkhlief/CVE-2023-23397-POC-Using-Interop-Outlook.svg) ![forks](https://img.shields.io/github/forks/ahmedkhlief/CVE-2023-23397-POC-Using-Interop-Outlook.svg)- [https://github.com/cleverg0d/CVE-2023-23397-PoC-PowerShell](https://github.com/cleverg0d/CVE-2023-23397-PoC-PowerShell) :  ![starts](https://img.shields.io/github/stars/cleverg0d/CVE-2023-23397-PoC-PowerShell.svg) ![forks](https://img.shields.io/github/forks/cleverg0d/CVE-2023-23397-PoC-PowerShell.svg)- [https://github.com/moneertv/CVE-2023-23397](https://github.com/moneertv/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/moneertv/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/moneertv/CVE-2023-23397.svg)- [https://github.com/j0eyv/CVE-2023-23397](https://github.com/j0eyv/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/j0eyv/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/j0eyv/CVE-2023-23397.svg)- [https://github.com/SecCTechs/CVE-2023-23397](https://github.com/SecCTechs/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/SecCTechs/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/SecCTechs/CVE-2023-23397.svg)- [https://github.com/jacquesquail/CVE-2023-23397](https://github.com/jacquesquail/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/jacquesquail/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/jacquesquail/CVE-2023-23397.svg)- [https://github.com/securiteinfo/expl_outlook_cve_2023_23397_securiteinfo.yar](https://github.com/securiteinfo/expl_outlook_cve_2023_23397_securiteinfo.yar) :  ![starts](https://img.shields.io/github/stars/securiteinfo/expl_outlook_cve_2023_23397_securiteinfo.yar.svg) ![forks](https://img.shields.io/github/forks/securiteinfo/expl_outlook_cve_2023_23397_securiteinfo.yar.svg)- [https://github.com/madelynadams9/CVE-2023-23397-Report](https://github.com/madelynadams9/CVE-2023-23397-Report) :  ![starts](https://img.shields.io/github/stars/madelynadams9/CVE-2023-23397-Report.svg) ![forks](https://img.shields.io/github/forks/madelynadams9/CVE-2023-23397-Report.svg)- [https://github.com/stevesec/CVE-2023-23397](https://github.com/stevesec/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/stevesec/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/stevesec/CVE-2023-23397.svg)- [https://github.com/Zeppperoni/CVE-2023-23397-Patch](https://github.com/Zeppperoni/CVE-2023-23397-Patch) :  ![starts](https://img.shields.io/github/stars/Zeppperoni/CVE-2023-23397-Patch.svg) ![forks](https://img.shields.io/github/forks/Zeppperoni/CVE-2023-23397-Patch.svg)- [https://github.com/im007/CVE-2023-23397](https://github.com/im007/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/im007/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/im007/CVE-2023-23397.svg)",
     "poc": []
   },
   {
@@ -3252,8 +3261,8 @@
     "cve_code": "CVE-2023-20073",
     "description": " A vulnerability in the web-based management interface of Cisco RV340, RV340W, RV345, and RV345P Dual WAN Gigabit VPN Routers could allow an unauthenticated, remote attacker to upload arbitrary files to an affected device. This vulnerability is due to insufficient authorization enforcement mechanisms in the context of file uploads. An attacker could exploit this vulnerability by sending a crafted HTTP request to an affected device. A successful exploit could allow the attacker to upload arbitrary files to the affected device.",
     "poc": [
-      "https://github.com/RegularITCat/CVE-2023-20073",
-      "https://github.com/codeb0ss/CVE-2023-20073-"
+      "https://github.com/codeb0ss/CVE-2023-20073-",
+      "https://github.com/RegularITCat/CVE-2023-20073"
     ]
   },
   {
@@ -3406,7 +3415,7 @@
   },
   {
     "cve_code": "CVE-2023-3567",
-    "description": " A use-after-free flaw was found in vcs_read in drivers/tty/vt/vc_screen.c in vc_screen in the Linux Kernel. This flaw allows an attacker with local user access to cause a system crash or leak internal kernel information.",
+    "description": " A use-after-free flaw was found in vcs_read in drivers/tty/vt/vc_screen.c in vc_screen in the Linux Kernel. This issue may allow an attacker with local user access to cause a system crash or leak internal kernel information.",
     "poc": [
       "https://github.com/nidhi7598/linux-4.1.15_CVE-2023-3567",
       "https://github.com/nidhi7598/linux-4.19.72_CVE-2023-3567"
@@ -3578,8 +3587,7 @@
     "poc": [
       "https://github.com/RandomRobbieBF/CVE-2023-2732",
       "https://github.com/Pari-Malam/CVE-2023-2732",
-      "https://github.com/domainhigh/CVE-2023-2732-Mass",
-      "https://github.com/Jenderal92/WP-CVE-2023-2732"
+      "https://github.com/domainhigh/CVE-2023-2732-Mass"
     ]
   },
   {
@@ -3681,7 +3689,7 @@
   },
   {
     "cve_code": "CVE-2023-2033",
-    "description": " Type confusion in V8 in Google Chrome prior to 112.0.5615.121 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)- [https://github.com/mistymntncop/CVE-2023-2033](https://github.com/mistymntncop/CVE-2023-2033) :  ![starts](https://img.shields.io/github/stars/mistymntncop/CVE-2023-2033.svg) ![forks](https://img.shields.io/github/forks/mistymntncop/CVE-2023-2033.svg)- [https://github.com/sandumjacob/CVE-2023-2033-Analysis](https://github.com/sandumjacob/CVE-2023-2033-Analysis) :  ![starts](https://img.shields.io/github/stars/sandumjacob/CVE-2023-2033-Analysis.svg) ![forks](https://img.shields.io/github/forks/sandumjacob/CVE-2023-2033-Analysis.svg)- [https://github.com/insoxin/CVE-2023-2033](https://github.com/insoxin/CVE-2023-2033) :  ![starts](https://img.shields.io/github/stars/insoxin/CVE-2023-2033.svg) ![forks](https://img.shields.io/github/forks/insoxin/CVE-2023-2033.svg)- [https://github.com/WalccDev/CVE-2023-2033](https://github.com/WalccDev/CVE-2023-2033) :  ![starts](https://img.shields.io/github/stars/WalccDev/CVE-2023-2033.svg) ![forks](https://img.shields.io/github/forks/WalccDev/CVE-2023-2033.svg)- [https://github.com/gretchenfrage/CVE-2023-2033-analysis](https://github.com/gretchenfrage/CVE-2023-2033-analysis) :  ![starts](https://img.shields.io/github/stars/gretchenfrage/CVE-2023-2033-analysis.svg) ![forks](https://img.shields.io/github/forks/gretchenfrage/CVE-2023-2033-analysis.svg)- [https://github.com/tianstcht/CVE-2023-2033](https://github.com/tianstcht/CVE-2023-2033) :  ![starts](https://img.shields.io/github/stars/tianstcht/CVE-2023-2033.svg) ![forks](https://img.shields.io/github/forks/tianstcht/CVE-2023-2033.svg)",
+    "description": " Type confusion in V8 in Google Chrome prior to 112.0.5615.121 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)- [https://github.com/mistymntncop/CVE-2023-2033](https://github.com/mistymntncop/CVE-2023-2033) :  ![starts](https://img.shields.io/github/stars/mistymntncop/CVE-2023-2033.svg) ![forks](https://img.shields.io/github/forks/mistymntncop/CVE-2023-2033.svg)- [https://github.com/sandumjacob/CVE-2023-2033-Analysis](https://github.com/sandumjacob/CVE-2023-2033-Analysis) :  ![starts](https://img.shields.io/github/stars/sandumjacob/CVE-2023-2033-Analysis.svg) ![forks](https://img.shields.io/github/forks/sandumjacob/CVE-2023-2033-Analysis.svg)- [https://github.com/insoxin/CVE-2023-2033](https://github.com/insoxin/CVE-2023-2033) :  ![starts](https://img.shields.io/github/stars/insoxin/CVE-2023-2033.svg) ![forks](https://img.shields.io/github/forks/insoxin/CVE-2023-2033.svg)- [https://github.com/WalccDev/CVE-2023-2033](https://github.com/WalccDev/CVE-2023-2033) :  ![starts](https://img.shields.io/github/stars/WalccDev/CVE-2023-2033.svg) ![forks](https://img.shields.io/github/forks/WalccDev/CVE-2023-2033.svg)- [https://github.com/tianstcht/CVE-2023-2033](https://github.com/tianstcht/CVE-2023-2033) :  ![starts](https://img.shields.io/github/stars/tianstcht/CVE-2023-2033.svg) ![forks](https://img.shields.io/github/forks/tianstcht/CVE-2023-2033.svg)- [https://github.com/gretchenfrage/CVE-2023-2033-analysis](https://github.com/gretchenfrage/CVE-2023-2033-analysis) :  ![starts](https://img.shields.io/github/stars/gretchenfrage/CVE-2023-2033-analysis.svg) ![forks](https://img.shields.io/github/forks/gretchenfrage/CVE-2023-2033-analysis.svg)",
     "poc": []
   },
   {
