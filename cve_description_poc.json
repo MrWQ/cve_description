@@ -60,6 +60,20 @@
     ]
   },
   {
+    "cve_code": "CVE-2023-42426",
+    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "poc": [
+      "https://github.com/b0marek/CVE-2023-42426"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-42413",
+    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "poc": [
+      "https://github.com/chenghao-hao/cve-2023-42413"
+    ]
+  },
+  {
     "cve_code": "CVE-2023-42362",
     "description": " An arbitrary file upload vulnerability in Teller Web App v.4.4.0 allows a remote attacker to execute arbitrary commands and obtain sensitive information via uploading a crafted file.",
     "poc": [
@@ -423,21 +437,21 @@
       "https://github.com/Malwareman007/CVE-2023-38831",
       "https://github.com/K3rnel-Dev/WinrarExploit",
       "https://github.com/MorDavid/CVE-2023-38831-Winrar-Exploit-Generator-POC",
-      "https://github.com/Mich-ele/CVE-2023-38831-winrar",
       "https://github.com/PascalAsch/CVE-2023-38831-KQL",
+      "https://github.com/Mich-ele/CVE-2023-38831-winrar",
       "https://github.com/akhomlyuk/cve-2023-38831",
       "https://github.com/malvika-thakur/CVE-2023-38831",
       "https://github.com/IR-HuntGuardians/CVE-2023-38831-HUNT",
-      "https://github.com/thegr1ffyn/CVE-2023-38831",
       "https://github.com/xaitax/WinRAR-CVE-2023-38831",
+      "https://github.com/thegr1ffyn/CVE-2023-38831",
       "https://github.com/z3r0sw0rd/CVE-2023-38831-PoC",
       "https://github.com/SugiB3o/Keylog_CVE2023-38831",
       "https://github.com/GOTonyGO/CVE-2023-38831-winrar",
-      "https://github.com/an040702/CVE-2023-38831",
       "https://github.com/asepsaepdin/CVE-2023-38831",
+      "https://github.com/an040702/CVE-2023-38831",
       "https://github.com/IMHarman/CVE-2023-38831",
-      "https://github.com/nhman-python/CVE-2023-38831",
       "https://github.com/elefantesagradodeluzinfinita/cve-2023-38831",
+      "https://github.com/nhman-python/CVE-2023-38831",
       "https://github.com/Fa1c0n35/CVE-2023-38831-winrar-exploit",
       "https://github.com/BeniBeastt/CVE-2023-38831_ReverseShell_Winrar",
       "https://github.com/MortySecurity/CVE-2023-38831-Exploit-and-Detection",
@@ -740,17 +754,26 @@
     "poc": []
   },
   {
+    "cve_code": "CVE-2023-36847",
+    "description": " A Missing Authentication for Critical Function vulnerability in Juniper Networks Junos OS on EX Series allows an unauthenticated, network-based attacker to cause limited impact to the file system integrity. With a specific request that doesn't require authentication an attacker is able to upload arbitrary files via J-Web, leading to a loss of integrity for a certain part of the file system, which may allow chaining to other vulnerabilities. This issue affects Juniper Networks Junos OS on EX Series: * All versions prior to 20.4R3-S8; * 21.2 versions prior to 21.2R3-S6; * 21.3 versions prior to 21.3R3-S5; * 21.4 versions prior to 21.4R3-S4; * 22.1 versions prior to 22.1R3-S3; * 22.2 versions prior to 22.2R3-S1; * 22.3 versions prior to 22.3R2-S2, 22.3R3; * 22.4 versions prior to 22.4R2-S1, 22.4R3.",
+    "poc": [
+      "https://github.com/r3dcl1ff/CVE-2023-36844_Juniper_RCE"
+    ]
+  },
+  {
     "cve_code": "CVE-2023-36846",
     "description": " A Missing Authentication for Critical Function vulnerability in Juniper Networks Junos OS on SRX Series allows an unauthenticated, network-based attacker to cause limited impact to the file system integrity. With a specific request that doesn't require authentication an attacker is able to upload arbitrary files via J-Web, leading to a loss of integrity for a certain part of the file system, which may allow chaining to other vulnerabilities. This issue affects Juniper Networks Junos OS on SRX Series: * All versions prior to 20.4R3-S8; * 21.2 versions prior to 21.2R3-S6; * 21.3 versions prior to 21.3R3-S5; * 21.4 versions prior to 21.4R3-S5; * 22.1 versions prior to 22.1R3-S3; * 22.2 versions prior to 22.2R3-S2; * 22.3 versions prior to 22.3R2-S2, 22.3R3; * 22.4 versions prior to 22.4R2-S1, 22.4R3.",
     "poc": [
-      "https://github.com/Dreamy-elfland/CVE-2023-36846"
+      "https://github.com/Dreamy-elfland/CVE-2023-36846",
+      "https://github.com/r3dcl1ff/CVE-2023-36844_Juniper_RCE"
     ]
   },
   {
     "cve_code": "CVE-2023-36845",
     "description": " A PHP External Variable Modification vulnerability in J-Web of Juniper Networks Junos OS on EX Series and SRX Series allows an unauthenticated, network-based attacker to control certain, important environments variables. Utilizing a crafted request an attacker is able to modify a certain PHP environment variable leading to partial loss of integrity, which may allow chaining to other vulnerabilities. This issue affects Juniper Networks Junos OS on SRX Series: * All versions prior to 21.4R3-S5; * 22.1 versions prior to 22.1R3-S4; * 22.2 versions prior to 22.2R3-S2; * 22.3 versions prior to 22.3R2-S2, 22.3R3-S1; * 22.4 versions prior to 22.4R2-S1, 22.4R3; * 23.2 versions prior to 23.2R1-S1, 23.2R2.",
     "poc": [
-      "https://github.com/vulncheck-oss/cve-2023-36845-scanner"
+      "https://github.com/vulncheck-oss/cve-2023-36845-scanner",
+      "https://github.com/r3dcl1ff/CVE-2023-36844_Juniper_RCE"
     ]
   },
   {
@@ -758,6 +781,7 @@
     "description": " A PHP External Variable Modification vulnerability in J-Web of Juniper Networks Junos OS on EX Series allows an unauthenticated, network-based attacker to control certain, important environments variables. Utilizing a crafted request an attacker is able to modify certain PHP environments variables leading to partial loss of integrity, which may allow chaining to other vulnerabilities. This issue affects Juniper Networks Junos OS on EX Series: * All versions prior to 20.4R3-S9; * 21.2 versions prior to 21.2R3-S6; * 21.3 versions prior to 21.3R3-S5; * 21.4 versions prior to 21.4R3-S5; * 22.1 versions prior to 22.1R3-S4; * 22.2 versions prior to 22.2R3-S2; * 22.3 versions prior to 22.3R3-S1; * 22.4 versions prior to 22.4R2-S2, 22.4R3.",
     "poc": [
       "https://github.com/watchtowrlabs/juniper-rce_cve-2023-36844",
+      "https://github.com/r3dcl1ff/CVE-2023-36844_Juniper_RCE",
       "https://github.com/Pari-Malam/CVE-2023-36844"
     ]
   },
@@ -878,8 +902,8 @@
     "cve_code": "CVE-2023-36143",
     "description": " Maxprint Maxlink 1200G v3.4.11E has an OS command injection vulnerability in the &quot;Diagnostic tool&quot; functionality of the device.",
     "poc": [
-      "https://github.com/RobinTrigon/CVE-2023-36143",
-      "https://github.com/leonardobg/CVE-2023-36143"
+      "https://github.com/leonardobg/CVE-2023-36143",
+      "https://github.com/RobinTrigon/CVE-2023-36143"
     ]
   },
   {
@@ -1425,8 +1449,8 @@
       "https://github.com/yizhimanpadewoniu/CVE-2023-33246-Copy",
       "https://github.com/vulncheck-oss/fetch-broker-conf",
       "https://github.com/CKevens/CVE-2023-33246",
-      "https://github.com/d0rb/CVE-2023-33246",
-      "https://github.com/Devil0ll/CVE-2023-33246"
+      "https://github.com/Devil0ll/CVE-2023-33246",
+      "https://github.com/d0rb/CVE-2023-33246"
     ]
   },
   {
@@ -1819,8 +1843,8 @@
     "cve_code": "CVE-2023-30845",
     "description": " ESPv2 is a service proxy that provides API management capabilities using Google Service Infrastructure. ESPv2 2.20.0 through 2.42.0 contains an authentication bypass vulnerability. API clients can craft a malicious `X-HTTP-Method-Override` header value to bypass JWT authentication in specific cases. ESPv2 allows malicious requests to bypass authentication if both the conditions are true: The requested HTTP method is **not** in the API service definition (OpenAPI spec or gRPC `google.api.http` proto annotations, and the specified `X-HTTP-Method-Override` is a valid HTTP method in the API service definition. ESPv2 will forward the request to your backend without checking the JWT. Attackers can craft requests with a malicious `X-HTTP-Method-Override` value that allows them to bypass specifying JWTs. Restricting API access with API keys works as intended and is not affected by this vulnerability. Upgrade deployments to release v2.43.0 or higher to receive a patch. This release ensures that JWT authentication occurs, even when the caller specifies `x-http-method-override`. `x-http-method-override` is still supported by v2.43.0+. API clients can continue sending this header to ESPv2.",
     "poc": [
-      "https://github.com/jayluxferro/ESPv2",
-      "https://github.com/himori123/-CVE-2023-30845"
+      "https://github.com/himori123/-CVE-2023-30845",
+      "https://github.com/jayluxferro/ESPv2"
     ]
   },
   {
@@ -1917,8 +1941,8 @@
       "https://github.com/mallutrojan/CVE-2023-30212-Lab",
       "https://github.com/libas7994/Exploit-the-CVE-2023-30212-vulnerability",
       "https://github.com/AAsh035/CVE-2023-30212",
-      "https://github.com/kai-iszz/CVE-2023-30212",
       "https://github.com/Anandhu990/CVE-2023-30212-iab",
+      "https://github.com/kai-iszz/CVE-2023-30212",
       "https://github.com/Anandhu990/CVE-2023-30212_lab",
       "https://github.com/libasv/Exploite-CVE-2023-30212-vulnerability",
       "https://github.com/Anandhu990/r-CVE-2023-30212-lab",
@@ -2070,6 +2094,11 @@
     "poc": [
       "https://github.com/mateusz834/CVE-2023-29409"
     ]
+  },
+  {
+    "cve_code": "CVE-2023-29360",
+    "description": " Microsoft Streaming Service Elevation of Privilege Vulnerability- [https://github.com/Nero22k/cve-2023-29360](https://github.com/Nero22k/cve-2023-29360) :  ![starts](https://img.shields.io/github/stars/Nero22k/cve-2023-29360.svg) ![forks](https://img.shields.io/github/forks/Nero22k/cve-2023-29360.svg)",
+    "poc": []
   },
   {
     "cve_code": "CVE-2023-29343",
@@ -2841,8 +2870,8 @@
       "https://github.com/adhikara13/CVE-2023-23752",
       "https://github.com/GhostToKnow/CVE-2023-23752",
       "https://github.com/ibaiw/joomla_CVE-2023-23752",
-      "https://github.com/YusinoMy/CVE-2023-23752",
       "https://github.com/0xNahim/CVE-2023-23752",
+      "https://github.com/YusinoMy/CVE-2023-23752",
       "https://github.com/HaxorSec1945/CVE2023-23752",
       "https://github.com/wangking1/CVE-2023-23752-poc",
       "https://github.com/AkbarWiraN/Joomla-Scanner",
@@ -2850,9 +2879,9 @@
       "https://github.com/MrP4nda1337/CVE-2023-23752",
       "https://github.com/haxor1337x/Mass-Checker-CVE-2023-23752",
       "https://github.com/adriyansyah-mf/CVE-2023-23752",
-      "https://github.com/H454NSec/CVE-2023-23752",
+      "https://github.com/wibuheker/Joomla-CVE-2023-23752",
       "https://github.com/Jenderal92/Joomla-CVE-2023-23752",
-      "https://github.com/wibuheker/Joomla-CVE-2023-23752"
+      "https://github.com/H454NSec/CVE-2023-23752"
     ]
   },
   {
@@ -3225,7 +3254,8 @@
     "description": " Aria Operations for Networks contains a command injection vulnerability. A malicious actor with network access to VMware Aria Operations for Networks may be able to perform a command injection attack resulting in remote code execution.",
     "poc": [
       "https://github.com/sinsinology/CVE-2023-20887",
-      "https://github.com/miko550/CVE-2023-20887"
+      "https://github.com/miko550/CVE-2023-20887",
+      "https://github.com/Malwareman007/CVE-2023-20887"
     ]
   },
   {
@@ -3275,8 +3305,8 @@
     "cve_code": "CVE-2023-20073",
     "description": " A vulnerability in the web-based management interface of Cisco RV340, RV340W, RV345, and RV345P Dual WAN Gigabit VPN Routers could allow an unauthenticated, remote attacker to upload arbitrary files to an affected device. This vulnerability is due to insufficient authorization enforcement mechanisms in the context of file uploads. An attacker could exploit this vulnerability by sending a crafted HTTP request to an affected device. A successful exploit could allow the attacker to upload arbitrary files to the affected device.",
     "poc": [
-      "https://github.com/RegularITCat/CVE-2023-20073",
-      "https://github.com/codeb0ss/CVE-2023-20073-"
+      "https://github.com/codeb0ss/CVE-2023-20073-",
+      "https://github.com/RegularITCat/CVE-2023-20073"
     ]
   },
   {
@@ -3295,6 +3325,13 @@
     ]
   },
   {
+    "cve_code": "CVE-2023-5150",
+    "description": " ** UNSUPPORTED WHEN ASSIGNED ** A vulnerability classified as critical has been found in D-Link DAR-7000 and DAR-8000 up to 20151231. Affected is an unknown function of the file /useratte/web.php. The manipulation of the argument file_upload leads to unrestricted upload. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. VDB-240246 is the identifier assigned to this vulnerability. NOTE: This vulnerability only affects products that are no longer supported by the maintainer. NOTE: Vendor was contacted early and confirmed immediately that the product is end-of-life. It should be retired and replaced.",
+    "poc": [
+      "https://github.com/Sybelle03/CVE-2023-51504"
+    ]
+  },
+  {
     "cve_code": "CVE-2023-5000",
     "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
     "poc": [
@@ -3305,6 +3342,13 @@
     "cve_code": "CVE-2023-4863",
     "description": " Heap buffer overflow in WebP in Google Chrome prior to 116.0.5845.187 allowed a remote attacker to perform an out of bounds memory write via a crafted HTML page. (Chromium security severity: Critical)- [https://github.com/mistymntncop/CVE-2023-4863](https://github.com/mistymntncop/CVE-2023-4863) :  ![starts](https://img.shields.io/github/stars/mistymntncop/CVE-2023-4863.svg) ![forks](https://img.shields.io/github/forks/mistymntncop/CVE-2023-4863.svg)- [https://github.com/suhipek/CVE-2023-4863](https://github.com/suhipek/CVE-2023-4863) :  ![starts](https://img.shields.io/github/stars/suhipek/CVE-2023-4863.svg) ![forks](https://img.shields.io/github/forks/suhipek/CVE-2023-4863.svg)",
     "poc": []
+  },
+  {
+    "cve_code": "CVE-2023-4800",
+    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "poc": [
+      "https://github.com/b0marek/CVE-2023-4800"
+    ]
   },
   {
     "cve_code": "CVE-2023-4741",
@@ -3335,11 +3379,25 @@
     ]
   },
   {
+    "cve_code": "CVE-2023-4631",
+    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "poc": [
+      "https://github.com/b0marek/CVE-2023-4631"
+    ]
+  },
+  {
     "cve_code": "CVE-2023-4596",
     "description": " The Forminator plugin for WordPress is vulnerable to arbitrary file uploads due to file type validation occurring after a file has been uploaded to the server in the upload_post_image() function in versions up to, and including, 1.24.6. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.",
     "poc": [
       "https://github.com/E1A/CVE-2023-4596",
       "https://github.com/getdrive/PoC"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-4549",
+    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "poc": [
+      "https://github.com/b0marek/CVE-2023-4549"
     ]
   },
   {
@@ -3353,6 +3411,27 @@
     "cve_code": "CVE-2023-4350",
     "description": " Inappropriate implementation in Fullscreen in Google Chrome on Android prior to 116.0.5845.96 allowed a remote attacker to potentially spoof the contents of the Omnibox (URL bar) via a crafted HTML page. (Chromium security severity: High)- [https://github.com/0nyx-hkr/cve-2023-4350](https://github.com/0nyx-hkr/cve-2023-4350) :  ![starts](https://img.shields.io/github/stars/0nyx-hkr/cve-2023-4350.svg) ![forks](https://img.shields.io/github/forks/0nyx-hkr/cve-2023-4350.svg)",
     "poc": []
+  },
+  {
+    "cve_code": "CVE-2023-4294",
+    "description": " The URL Shortify WordPress plugin before 1.7.6 does not properly escape the value of the referer header, thus allowing an unauthenticated attacker to inject malicious javascript that will trigger in the plugins admin panel with statistics of the created short link.",
+    "poc": [
+      "https://github.com/b0marek/CVE-2023-4294"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-4281",
+    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "poc": [
+      "https://github.com/b0marek/CVE-2023-4281"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-4279",
+    "description": " This User Activity Log WordPress plugin before 1.6.7 retrieves client IP addresses from potentially untrusted headers, allowing an attacker to manipulate its value. This may be used to hide the source of malicious traffic.",
+    "poc": [
+      "https://github.com/b0marek/CVE-2023-4279"
+    ]
   },
   {
     "cve_code": "CVE-2023-4278",
@@ -3431,8 +3510,8 @@
     "cve_code": "CVE-2023-3567",
     "description": " A use-after-free flaw was found in vcs_read in drivers/tty/vt/vc_screen.c in vc_screen in the Linux Kernel. This issue may allow an attacker with local user access to cause a system crash or leak internal kernel information.",
     "poc": [
-      "https://github.com/nidhi7598/linux-4.19.72_CVE-2023-3567",
-      "https://github.com/nidhi7598/linux-4.1.15_CVE-2023-3567"
+      "https://github.com/nidhi7598/linux-4.1.15_CVE-2023-3567",
+      "https://github.com/nidhi7598/linux-4.19.72_CVE-2023-3567"
     ]
   },
   {
@@ -3584,7 +3663,6 @@
       "https://github.com/Occamsec/CVE-2023-2825",
       "https://github.com/yuimarudev/CVE-2023-2825",
       "https://github.com/EmmanuelCruzL/CVE-2023-2825",
-      "https://github.com/Tornad0007/CVE-2023-2825-Gitlab",
       "https://github.com/caopengyan/CVE-2023-2825"
     ]
   },
@@ -3601,7 +3679,8 @@
     "poc": [
       "https://github.com/RandomRobbieBF/CVE-2023-2732",
       "https://github.com/Pari-Malam/CVE-2023-2732",
-      "https://github.com/domainhigh/CVE-2023-2732-Mass"
+      "https://github.com/domainhigh/CVE-2023-2732-Mass",
+      "https://github.com/Jenderal92/WP-CVE-2023-2732"
     ]
   },
   {
@@ -3775,8 +3854,8 @@
       "https://github.com/padbergpete47/CVE-2023-1454",
       "https://github.com/gobysec/CVE-2023-1454",
       "https://github.com/CKevens/CVE-2023-1454-EXP",
-      "https://github.com/BugFor-Pings/CVE-2023-1454",
-      "https://github.com/cjybao/CVE-2023-1454"
+      "https://github.com/cjybao/CVE-2023-1454",
+      "https://github.com/BugFor-Pings/CVE-2023-1454"
     ]
   },
   {
@@ -3965,6 +4044,20 @@
     "description": " The Extensive VC Addons for WPBakery page builder WordPress plugin before 1.9.1 does not validate a parameter passed to the php extract function when loading templates, allowing an unauthenticated attacker to override the template path to read arbitrary files from the hosts file system.",
     "poc": [
       "https://github.com/im-hanzou/EVCer"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-0157",
+    "description": " The All-In-One Security (AIOS) WordPress plugin before 5.1.5 does not escape the content of log files before outputting it to the plugin admin page, allowing an authorized user (admin+) to plant bogus log files containing malicious JavaScript code that will be executed in the context of any administrator visiting this page.",
+    "poc": [
+      "https://github.com/b0marek/CVE-2023-0157"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-0156",
+    "description": " The All-In-One Security (AIOS) WordPress plugin before 5.1.5 does not limit what log files to display in it's settings pages, allowing an authorized user (admin+) to view the contents of arbitrary files and list directories anywhere on the server (to which the web server has access). The plugin only displays the last 50 lines of the file.",
+    "poc": [
+      "https://github.com/b0marek/CVE-2023-0156"
     ]
   },
   {
