@@ -8,7 +8,7 @@
   },
   {
     "cve_code": "CVE-2023-43326",
-    "description": " mooSocial v3.1.8 was discovered to contain a cross-site scripting (XSS) vulnerability via the change email function.",
+    "description": " A reflected cross-site scripting (XSS) vulnerability exisits in multiple url of mooSocial v3.1.8 allows attackers to steal user's session cookies and impersonate their account via a crafted URL.",
     "poc": [
       "https://github.com/ahrixia/CVE-2023-43326"
     ]
@@ -28,8 +28,15 @@
     ]
   },
   {
+    "cve_code": "CVE-2023-43263",
+    "description": " A Cross-site scripting (XSS) vulnerability in Froala Editor v.4.1.1 allows attackers to execute arbitrary code via the Markdown component.",
+    "poc": [
+      "https://github.com/b0marek/CVE-2023-43263"
+    ]
+  },
+  {
     "cve_code": "CVE-2023-43154",
-    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " In Macrob7 Macs Framework Content Management System (CMS) 1.1.4f, loose comparison in &quot;isValidLogin()&quot; function during login attempt results in PHP type confusion vulnerability that leads to authentication bypass and takeover of the administrator account.",
     "poc": [
       "https://github.com/ally-petitt/CVE-2023-43154-PoC"
     ]
@@ -64,6 +71,13 @@
     "poc": [
       "https://github.com/actuator/com.cutestudio.colordialer",
       "https://github.com/actuator/cve"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-42442",
+    "description": " JumpServer is an open source bastion host and a professional operation and maintenance security audit system. Starting in version 3.0.0 and prior to versions 3.5.5 and 3.6.4, session replays can download without authentication. Session replays stored in S3, OSS, or other cloud storage are not affected. The api `/api/v1/terminal/sessions/` permission control is broken and can be accessed anonymously. SessionViewSet permission classes set to `[RBACPermission | IsSessionAssignee]`, relation is or, so any permission matched will be allowed. Versions 3.5.5 and 3.6.4 have a fix. After upgrading, visit the api `$HOST/api/v1/terminal/sessions/?limit=1`. The expected http response code is 401 (`not_authenticated`).",
+    "poc": [
+      "https://github.com/HolyGu/CVE-2023-42442"
     ]
   },
   {
@@ -104,13 +118,6 @@
     "description": " Multiple cross-site scripting (XSS) vulnerabilities in Dairy Farm Shop Management System Using PHP and MySQL v1.1 allow attackers to execute arbitrary web scripts and HTML via a crafted payload injected into the Category and Category Field parameters.",
     "poc": [
       "https://github.com/MATRIXDEVIL/CVE"
-    ]
-  },
-  {
-    "cve_code": "CVE-2023-41575",
-    "description": " Multiple stored cross-site scripting (XSS) vulnerabilities in /bbdms/sign-up.php of Blood Bank &amp; Donor Management v2.2 allow attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Full Name, Message, or Address parameters.",
-    "poc": [
-      "https://github.com/soundarkutty/Stored-xss"
     ]
   },
   {
@@ -454,8 +461,8 @@
       "https://github.com/z3r0sw0rd/CVE-2023-38831-PoC",
       "https://github.com/SugiB3o/Keylog_CVE2023-38831",
       "https://github.com/GOTonyGO/CVE-2023-38831-winrar",
-      "https://github.com/asepsaepdin/CVE-2023-38831",
       "https://github.com/an040702/CVE-2023-38831",
+      "https://github.com/asepsaepdin/CVE-2023-38831",
       "https://github.com/IMHarman/CVE-2023-38831",
       "https://github.com/elefantesagradodeluzinfinita/cve-2023-38831",
       "https://github.com/nhman-python/CVE-2023-38831",
@@ -762,14 +769,14 @@
   },
   {
     "cve_code": "CVE-2023-36847",
-    "description": " A Missing Authentication for Critical Function vulnerability in Juniper Networks Junos OS on EX Series allows an unauthenticated, network-based attacker to cause limited impact to the file system integrity. With a specific request that doesn't require authentication an attacker is able to upload arbitrary files via J-Web, leading to a loss of integrity for a certain part of the file system, which may allow chaining to other vulnerabilities. This issue affects Juniper Networks Junos OS on EX Series: * All versions prior to 20.4R3-S8; * 21.2 versions prior to 21.2R3-S6; * 21.3 versions prior to 21.3R3-S5; * 21.4 versions prior to 21.4R3-S4; * 22.1 versions prior to 22.1R3-S3; * 22.2 versions prior to 22.2R3-S1; * 22.3 versions prior to 22.3R2-S2, 22.3R3; * 22.4 versions prior to 22.4R2-S1, 22.4R3.",
+    "description": " A Missing Authentication for Critical Function vulnerability in Juniper Networks Junos OS on EX Series allows an unauthenticated, network-based attacker to cause limited impact to the file system integrity. With a specific request to installAppPackage.php that doesn't require authentication an attacker is able to upload arbitrary files via J-Web, leading to a loss of integrity for a certain part of the file system, which may allow chaining to other vulnerabilities. This issue affects Juniper Networks Junos OS on EX Series: * All versions prior to 20.4R3-S8; * 21.1 versions 21.1R1 and later; * 21.2 versions prior to 21.2R3-S6; * 21.3 versions prior to 21.3R3-S5; * 21.4 versions prior to 21.4R3-S4; * 22.1 versions prior to 22.1R3-S3; * 22.2 versions prior to 22.2R3-S1; * 22.3 versions prior to 22.3R2-S2, 22.3R3; * 22.4 versions prior to 22.4R2-S1, 22.4R3.",
     "poc": [
       "https://github.com/r3dcl1ff/CVE-2023-36844_Juniper_RCE"
     ]
   },
   {
     "cve_code": "CVE-2023-36846",
-    "description": " A Missing Authentication for Critical Function vulnerability in Juniper Networks Junos OS on SRX Series allows an unauthenticated, network-based attacker to cause limited impact to the file system integrity. With a specific request that doesn't require authentication an attacker is able to upload arbitrary files via J-Web, leading to a loss of integrity for a certain part of the file system, which may allow chaining to other vulnerabilities. This issue affects Juniper Networks Junos OS on SRX Series: * All versions prior to 20.4R3-S8; * 21.2 versions prior to 21.2R3-S6; * 21.3 versions prior to 21.3R3-S5; * 21.4 versions prior to 21.4R3-S5; * 22.1 versions prior to 22.1R3-S3; * 22.2 versions prior to 22.2R3-S2; * 22.3 versions prior to 22.3R2-S2, 22.3R3; * 22.4 versions prior to 22.4R2-S1, 22.4R3.",
+    "description": " A Missing Authentication for Critical Function vulnerability in Juniper Networks Junos OS on SRX Series allows an unauthenticated, network-based attacker to cause limited impact to the file system integrity. With a specific request to user.php that doesn't require authentication an attacker is able to upload arbitrary files via J-Web, leading to a loss of integrity for a certain part of the file system, which may allow chaining to other vulnerabilities. This issue affects Juniper Networks Junos OS on SRX Series: * All versions prior to 20.4R3-S8; * 21.1 versions 21.1R1 and later; * 21.2 versions prior to 21.2R3-S6; * 21.3 versions prior to 21.3R3-S5; * 21.4 versions prior to 21.4R3-S5; * 22.1 versions prior to 22.1R3-S3; * 22.2 versions prior to 22.2R3-S2; * 22.3 versions prior to 22.3R2-S2, 22.3R3; * 22.4 versions prior to 22.4R2-S1, 22.4R3.",
     "poc": [
       "https://github.com/Dreamy-elfland/CVE-2023-36846",
       "https://github.com/r3dcl1ff/CVE-2023-36844_Juniper_RCE"
@@ -777,15 +784,16 @@
   },
   {
     "cve_code": "CVE-2023-36845",
-    "description": " A PHP External Variable Modification vulnerability in J-Web of Juniper Networks Junos OS on EX Series and SRX Series allows an unauthenticated, network-based attacker to control certain, important environments variables. Utilizing a crafted request an attacker is able to modify a certain PHP environment variable leading to partial loss of integrity, which may allow chaining to other vulnerabilities. This issue affects Juniper Networks Junos OS on SRX Series: * All versions prior to 21.4R3-S5; * 22.1 versions prior to 22.1R3-S4; * 22.2 versions prior to 22.2R3-S2; * 22.3 versions prior to 22.3R2-S2, 22.3R3-S1; * 22.4 versions prior to 22.4R2-S1, 22.4R3; * 23.2 versions prior to 23.2R1-S1, 23.2R2.",
+    "description": " A PHP External Variable Modification vulnerability in J-Web of Juniper Networks Junos OS on EX Series and SRX Series allows an unauthenticated, network-based attacker to remotely execute code. Using a crafted request which sets the variable PHPRC an attacker is able to modify the PHP execution environment allowing the injection und execution of code. This issue affects Juniper Networks Junos OS on EX Series and SRX Series: * All versions prior to 20.4R3-S9; * 21.1 versions 21.1R1 and later; * 21.2 versions prior to 21.2R3-S7; * 21.3 versions prior to 21.3R3-S5; * 21.4 versions prior to 21.4R3-S5; * 22.1 versions prior to 22.1R3-S4; * 22.2 versions prior to 22.2R3-S2; * 22.3 versions prior to 22.3R2-S2, 22.3R3-S1; * 22.4 versions prior to 22.4R2-S1, 22.4R3; * 23.2 versions prior to 23.2R1-S1, 23.2R2.",
     "poc": [
       "https://github.com/vulncheck-oss/cve-2023-36845-scanner",
+      "https://github.com/kljunowsky/CVE-2023-36845",
       "https://github.com/r3dcl1ff/CVE-2023-36844_Juniper_RCE"
     ]
   },
   {
     "cve_code": "CVE-2023-36844",
-    "description": " A PHP External Variable Modification vulnerability in J-Web of Juniper Networks Junos OS on EX Series allows an unauthenticated, network-based attacker to control certain, important environments variables. Utilizing a crafted request an attacker is able to modify certain PHP environments variables leading to partial loss of integrity, which may allow chaining to other vulnerabilities. This issue affects Juniper Networks Junos OS on EX Series: * All versions prior to 20.4R3-S9; * 21.2 versions prior to 21.2R3-S6; * 21.3 versions prior to 21.3R3-S5; * 21.4 versions prior to 21.4R3-S5; * 22.1 versions prior to 22.1R3-S4; * 22.2 versions prior to 22.2R3-S2; * 22.3 versions prior to 22.3R3-S1; * 22.4 versions prior to 22.4R2-S2, 22.4R3.",
+    "description": " A PHP External Variable Modification vulnerability in J-Web of Juniper Networks Junos OS on EX Series allows an unauthenticated, network-based attacker to control certain, important environment variables. Using a crafted request an attacker is able to modify certain PHP environment variables leading to partial loss of integrity, which may allow chaining to other vulnerabilities. This issue affects Juniper Networks Junos OS on EX Series: * All versions prior to 20.4R3-S9; * 21.1 versions 21.1R1 and later; * 21.2 versions prior to 21.2R3-S7; * 21.3 versions prior to 21.3R3-S5; * 21.4 versions prior to 21.4R3-S5; * 22.1 versions prior to 22.1R3-S4; * 22.2 versions prior to 22.2R3-S2; * 22.3 versions prior to 22.3R3-S1; * 22.4 versions prior to 22.4R2-S2, 22.4R3; * 23.2 versions prior to 23.2R1-S1, 23.2R2.",
     "poc": [
       "https://github.com/watchtowrlabs/juniper-rce_cve-2023-36844",
       "https://github.com/r3dcl1ff/CVE-2023-36844_Juniper_RCE",
@@ -978,6 +986,13 @@
     "description": " A directory traversal vulnerability in Safe Software FME Server before 2022.2.5 allows an attacker to bypass validation when editing a network-based resource connection, resulting in the unauthorized reading and writing of arbitrary files. Successful exploitation requires an attacker to have access to a user account with write privileges. FME Flow 2023.0 is also a fixed version.",
     "poc": [
       "https://github.com/trustcves/CVE-2023-35801"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-35793",
+    "description": " An issue was discovered in Cassia Access Controller 2.1.1.2303271039. Establishing a web SSH session to gateways is vulnerable to Cross Site Request Forgery (CSRF) attacks.",
+    "poc": [
+      "https://github.com/Dodge-MPTC/CVE-2023-35793-CSRF-On-Web-SSH"
     ]
   },
   {
@@ -1215,6 +1230,13 @@
     "poc": [
       "https://github.com/vi3t1/qq-tim-elevation",
       "https://github.com/lan1oc/CVE-2023-34312-exp"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-34152",
+    "description": " A vulnerability was found in ImageMagick. This security flaw cause a remote code execution vulnerability in OpenBlob with --enable-pipes configured.",
+    "poc": [
+      "https://github.com/overgrowncarrot1/ImageTragick_CVE-2023-34152"
     ]
   },
   {
@@ -1456,8 +1478,8 @@
       "https://github.com/vulncheck-oss/fetch-broker-conf",
       "https://github.com/yizhimanpadewoniu/CVE-2023-33246-Copy",
       "https://github.com/CKevens/CVE-2023-33246",
-      "https://github.com/Devil0ll/CVE-2023-33246",
-      "https://github.com/d0rb/CVE-2023-33246"
+      "https://github.com/d0rb/CVE-2023-33246",
+      "https://github.com/Devil0ll/CVE-2023-33246"
     ]
   },
   {
@@ -1514,6 +1536,13 @@
     ]
   },
   {
+    "cve_code": "CVE-2023-32364",
+    "description": " A logic issue was addressed with improved restrictions. This issue is fixed in macOS Ventura 13.5. A sandboxed process may be able to circumvent sandbox restrictions.",
+    "poc": [
+      "https://github.com/gergelykalman/CVE-2023-32364-macos-app-sandbox-escape"
+    ]
+  },
+  {
     "cve_code": "CVE-2023-32353",
     "description": " A logic issue was addressed with improved checks. This issue is fixed in iTunes 12.12.9 for Windows. An app may be able to elevate privileges.",
     "poc": [
@@ -1546,8 +1575,8 @@
       "https://github.com/little44n1o/cve-2023-32243",
       "https://github.com/YouGina/CVE-2023-32243",
       "https://github.com/manavvedawala2/CVE-2023-32243-POC",
-      "https://github.com/manavvedawala2/CVE-2023-32243-proof-of-concept",
-      "https://github.com/manavvedawala/CVE-2023-32243-proof-of-concept"
+      "https://github.com/manavvedawala/CVE-2023-32243-proof-of-concept",
+      "https://github.com/manavvedawala2/CVE-2023-32243-proof-of-concept"
     ]
   },
   {
@@ -2112,6 +2141,11 @@
   {
     "cve_code": "CVE-2023-29360",
     "description": " Microsoft Streaming Service Elevation of Privilege Vulnerability- [https://github.com/Nero22k/cve-2023-29360](https://github.com/Nero22k/cve-2023-29360) :  ![starts](https://img.shields.io/github/stars/Nero22k/cve-2023-29360.svg) ![forks](https://img.shields.io/github/forks/Nero22k/cve-2023-29360.svg)",
+    "poc": []
+  },
+  {
+    "cve_code": "CVE-2023-29357",
+    "description": " Microsoft SharePoint Server Elevation of Privilege Vulnerability- [https://github.com/Chocapikk/CVE-2023-29357](https://github.com/Chocapikk/CVE-2023-29357) :  ![starts](https://img.shields.io/github/stars/Chocapikk/CVE-2023-29357.svg) ![forks](https://img.shields.io/github/forks/Chocapikk/CVE-2023-29357.svg)",
     "poc": []
   },
   {
@@ -2742,6 +2776,11 @@
     ]
   },
   {
+    "cve_code": "CVE-2023-24955",
+    "description": " Microsoft SharePoint Server Remote Code Execution Vulnerability- [https://github.com/Chocapikk/CVE-2023-29357](https://github.com/Chocapikk/CVE-2023-29357) :  ![starts](https://img.shields.io/github/stars/Chocapikk/CVE-2023-29357.svg) ![forks](https://img.shields.io/github/forks/Chocapikk/CVE-2023-29357.svg)",
+    "poc": []
+  },
+  {
     "cve_code": "CVE-2023-24932",
     "description": " Secure Boot Security Feature Bypass Vulnerability- [https://github.com/Wack0/CVE-2022-21894](https://github.com/Wack0/CVE-2022-21894) :  ![starts](https://img.shields.io/github/stars/Wack0/CVE-2022-21894.svg) ![forks](https://img.shields.io/github/forks/Wack0/CVE-2022-21894.svg)",
     "poc": []
@@ -2884,8 +2923,8 @@
       "https://github.com/adhikara13/CVE-2023-23752",
       "https://github.com/GhostToKnow/CVE-2023-23752",
       "https://github.com/ibaiw/joomla_CVE-2023-23752",
-      "https://github.com/0xNahim/CVE-2023-23752",
       "https://github.com/YusinoMy/CVE-2023-23752",
+      "https://github.com/0xNahim/CVE-2023-23752",
       "https://github.com/HaxorSec1945/CVE2023-23752",
       "https://github.com/wangking1/CVE-2023-23752-poc",
       "https://github.com/AkbarWiraN/Joomla-Scanner",
@@ -2893,9 +2932,9 @@
       "https://github.com/MrP4nda1337/CVE-2023-23752",
       "https://github.com/haxor1337x/Mass-Checker-CVE-2023-23752",
       "https://github.com/adriyansyah-mf/CVE-2023-23752",
-      "https://github.com/wibuheker/Joomla-CVE-2023-23752",
       "https://github.com/H454NSec/CVE-2023-23752",
-      "https://github.com/Jenderal92/Joomla-CVE-2023-23752"
+      "https://github.com/Jenderal92/Joomla-CVE-2023-23752",
+      "https://github.com/wibuheker/Joomla-CVE-2023-23752"
     ]
   },
   {
@@ -3234,6 +3273,13 @@
     ]
   },
   {
+    "cve_code": "CVE-2023-21272",
+    "description": " In readFrom of Uri.java, there is a possible bad URI permission grant due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
+    "poc": [
+      "https://github.com/Trinadh465/frameworks_base_AOSP-4.2.2_r1_CVE-2023-21272"
+    ]
+  },
+  {
     "cve_code": "CVE-2023-21036",
     "description": " In BitmapExport.java, there is a possible failure to truncate images due to a logic error in the code.Product: AndroidVersions: Android kernelAndroid ID: A-264261868References: N/A- [https://github.com/infobyte/CVE-2023-21036](https://github.com/infobyte/CVE-2023-21036) :  ![starts](https://img.shields.io/github/stars/infobyte/CVE-2023-21036.svg) ![forks](https://img.shields.io/github/forks/infobyte/CVE-2023-21036.svg)- [https://github.com/frankthetank-music/Acropalypse-Multi-Tool](https://github.com/frankthetank-music/Acropalypse-Multi-Tool) :  ![starts](https://img.shields.io/github/stars/frankthetank-music/Acropalypse-Multi-Tool.svg) ![forks](https://img.shields.io/github/forks/frankthetank-music/Acropalypse-Multi-Tool.svg)- [https://github.com/qixils/AntiCropalypse](https://github.com/qixils/AntiCropalypse) :  ![starts](https://img.shields.io/github/stars/qixils/AntiCropalypse.svg) ![forks](https://img.shields.io/github/forks/qixils/AntiCropalypse.svg)- [https://github.com/lordofpipes/acropadetect](https://github.com/lordofpipes/acropadetect) :  ![starts](https://img.shields.io/github/stars/lordofpipes/acropadetect.svg) ![forks](https://img.shields.io/github/forks/lordofpipes/acropadetect.svg)- [https://github.com/notaSWE/gocropalypse](https://github.com/notaSWE/gocropalypse) :  ![starts](https://img.shields.io/github/stars/notaSWE/gocropalypse.svg) ![forks](https://img.shields.io/github/forks/notaSWE/gocropalypse.svg)",
     "poc": []
@@ -3343,6 +3389,13 @@
     "description": " ** UNSUPPORTED WHEN ASSIGNED ** A vulnerability classified as critical has been found in D-Link DAR-7000 and DAR-8000 up to 20151231. Affected is an unknown function of the file /useratte/web.php. The manipulation of the argument file_upload leads to unrestricted upload. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. VDB-240246 is the identifier assigned to this vulnerability. NOTE: This vulnerability only affects products that are no longer supported by the maintainer. NOTE: Vendor was contacted early and confirmed immediately that the product is end-of-life. It should be retired and replaced.",
     "poc": [
       "https://github.com/Sybelle03/CVE-2023-51504"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-5024",
+    "description": " A vulnerability was found in Planno 23.04.04. It has been classified as problematic. This affects an unknown part of the component Comment Handler. The manipulation leads to cross site scripting. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-239865 was assigned to this vulnerability.",
+    "poc": [
+      "https://github.com/PH03N1XSP/CVE-2023-5024"
     ]
   },
   {
@@ -3524,8 +3577,8 @@
     "cve_code": "CVE-2023-3567",
     "description": " A use-after-free flaw was found in vcs_read in drivers/tty/vt/vc_screen.c in vc_screen in the Linux Kernel. This issue may allow an attacker with local user access to cause a system crash or leak internal kernel information.",
     "poc": [
-      "https://github.com/nidhi7598/linux-4.1.15_CVE-2023-3567",
-      "https://github.com/nidhi7598/linux-4.19.72_CVE-2023-3567"
+      "https://github.com/nidhi7598/linux-4.19.72_CVE-2023-3567",
+      "https://github.com/nidhi7598/linux-4.1.15_CVE-2023-3567"
     ]
   },
   {
@@ -3677,8 +3730,8 @@
       "https://github.com/Occamsec/CVE-2023-2825",
       "https://github.com/yuimarudev/CVE-2023-2825",
       "https://github.com/EmmanuelCruzL/CVE-2023-2825",
-      "https://github.com/caopengyan/CVE-2023-2825",
-      "https://github.com/Tornad0007/CVE-2023-2825-Gitlab"
+      "https://github.com/Tornad0007/CVE-2023-2825-Gitlab",
+      "https://github.com/caopengyan/CVE-2023-2825"
     ]
   },
   {
@@ -3783,13 +3836,6 @@
     ]
   },
   {
-    "cve_code": "CVE-2023-2123",
-    "description": " The WP Inventory Manager WordPress plugin before 2.1.0.13 does not sanitise and escape a parameter before outputting it back in the page, leading to a Reflected Cross-Site Scripting.",
-    "poc": [
-      "https://github.com/daniloalbuqrque/poc-cve-xss-encoded-wp-inventory-manager-plugin"
-    ]
-  },
-  {
     "cve_code": "CVE-2023-2114",
     "description": " The NEX-Forms WordPress plugin before 8.4 does not properly escape the `table` parameter, which is populated with user input, before concatenating it to an SQL query.",
     "poc": [
@@ -3870,8 +3916,8 @@
       "https://github.com/padbergpete47/CVE-2023-1454",
       "https://github.com/gobysec/CVE-2023-1454",
       "https://github.com/CKevens/CVE-2023-1454-EXP",
-      "https://github.com/cjybao/CVE-2023-1454",
-      "https://github.com/BugFor-Pings/CVE-2023-1454"
+      "https://github.com/BugFor-Pings/CVE-2023-1454",
+      "https://github.com/cjybao/CVE-2023-1454"
     ]
   },
   {
