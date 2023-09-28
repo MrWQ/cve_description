@@ -1,5 +1,19 @@
 [
   {
+    "cve_code": "CVE-2023-44061",
+    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "poc": [
+      "https://github.com/soundarkutty/CVE-2023-44061"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-43770",
+    "description": " Roundcube before 1.4.14, 1.5.x before 1.5.4, and 1.6.x before 1.6.3 allows XSS via text/plain e-mail messages with crafted links because of program/lib/Roundcube/rcube_string_replacer.php behavior.",
+    "poc": [
+      "https://github.com/s3cb0y/CVE-2023-43770-POC"
+    ]
+  },
+  {
     "cve_code": "CVE-2023-43339",
     "description": " Cross-Site Scripting (XSS) vulnerability in cmsmadesimple v.2.2.18 allows a local attacker to execute arbitrary code via a crafted payload injected into the Database Name, DataBase User or Database Port components.",
     "poc": [
@@ -39,6 +53,13 @@
     "description": " In Macrob7 Macs Framework Content Management System (CMS) 1.1.4f, loose comparison in &quot;isValidLogin()&quot; function during login attempt results in PHP type confusion vulnerability that leads to authentication bypass and takeover of the administrator account.",
     "poc": [
       "https://github.com/ally-petitt/CVE-2023-43154-PoC"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-42820",
+    "description": " JumpServer is an open source bastion host. This vulnerability is due to exposing the random number seed to the API, potentially allowing the randomly generated verification codes to be replayed, which could lead to password resets. If MFA is enabled users are not affect. Users not using local authentication are also not affected. Users are advised to upgrade to either version 2.28.19 or to 3.6.5. There are no known workarounds or this issue.",
+    "poc": [
+      "https://github.com/wh-gov/CVE-2023-42820"
     ]
   },
   {
@@ -102,6 +123,13 @@
     ]
   },
   {
+    "cve_code": "CVE-2023-42222",
+    "description": " WebCatalog before 49.0 is vulnerable to Incorrect Access Control. WebCatalog calls the Electron shell.openExternal function without verifying that the URL is for an http or https resource, in some circumstances.",
+    "poc": [
+      "https://github.com/itssixtyn3in/CVE-2023-42222"
+    ]
+  },
+  {
     "cve_code": "CVE-2023-41717",
     "description": " Inappropriate file type control in Zscaler Proxy versions 3.6.1.25 and prior allows local attackers to bypass file download/upload restrictions.",
     "poc": [
@@ -118,6 +146,13 @@
     "description": " Multiple cross-site scripting (XSS) vulnerabilities in Dairy Farm Shop Management System Using PHP and MySQL v1.1 allow attackers to execute arbitrary web scripts and HTML via a crafted payload injected into the Category and Category Field parameters.",
     "poc": [
       "https://github.com/MATRIXDEVIL/CVE"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-41575",
+    "description": " Multiple stored cross-site scripting (XSS) vulnerabilities in /bbdms/sign-up.php of Blood Bank &amp; Donor Management v2.2 allow attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Full Name, Message, or Address parameters.",
+    "poc": [
+      "https://github.com/soundarkutty/Stored-xss"
     ]
   },
   {
@@ -451,8 +486,8 @@
       "https://github.com/Malwareman007/CVE-2023-38831",
       "https://github.com/K3rnel-Dev/WinrarExploit",
       "https://github.com/MorDavid/CVE-2023-38831-Winrar-Exploit-Generator-POC",
-      "https://github.com/Mich-ele/CVE-2023-38831-winrar",
       "https://github.com/PascalAsch/CVE-2023-38831-KQL",
+      "https://github.com/Mich-ele/CVE-2023-38831-winrar",
       "https://github.com/akhomlyuk/cve-2023-38831",
       "https://github.com/malvika-thakur/CVE-2023-38831",
       "https://github.com/IR-HuntGuardians/CVE-2023-38831-HUNT",
@@ -524,6 +559,13 @@
     "description": " async-sockets-cpp through 0.3.1 has a stack-based buffer overflow in tcpsocket.hpp when processing malformed TCP packets.",
     "poc": [
       "https://github.com/Halcy0nic/CVE-2023-38632"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-38571",
+    "description": " This issue was addressed with improved validation of symlinks. This issue is fixed in macOS Big Sur 11.7.9, macOS Monterey 12.6.8, macOS Ventura 13.5. An app may be able to bypass Privacy preferences.",
+    "poc": [
+      "https://github.com/gergelykalman/CVE-2023-38571-a-macOS-TCC-bypass-in-Music-and-TV"
     ]
   },
   {
@@ -788,7 +830,9 @@
     "poc": [
       "https://github.com/vulncheck-oss/cve-2023-36845-scanner",
       "https://github.com/kljunowsky/CVE-2023-36845",
-      "https://github.com/r3dcl1ff/CVE-2023-36844_Juniper_RCE"
+      "https://github.com/r3dcl1ff/CVE-2023-36844_Juniper_RCE",
+      "https://github.com/halencarjunior/CVE-2023-36845",
+      "https://github.com/toanln-cov/CVE-2023-36845"
     ]
   },
   {
@@ -1472,8 +1516,8 @@
     "poc": [
       "https://github.com/Malayke/CVE-2023-33246_RocketMQ_RCE_EXPLOIT",
       "https://github.com/SuperZero/CVE-2023-33246",
-      "https://github.com/I5N0rth/CVE-2023-33246",
       "https://github.com/Le1a/CVE-2023-33246",
+      "https://github.com/I5N0rth/CVE-2023-33246",
       "https://github.com/cr1me0/rocketMq_RCE",
       "https://github.com/vulncheck-oss/fetch-broker-conf",
       "https://github.com/yizhimanpadewoniu/CVE-2023-33246-Copy",
@@ -1575,8 +1619,8 @@
       "https://github.com/little44n1o/cve-2023-32243",
       "https://github.com/YouGina/CVE-2023-32243",
       "https://github.com/manavvedawala2/CVE-2023-32243-POC",
-      "https://github.com/manavvedawala/CVE-2023-32243-proof-of-concept",
-      "https://github.com/manavvedawala2/CVE-2023-32243-proof-of-concept"
+      "https://github.com/manavvedawala2/CVE-2023-32243-proof-of-concept",
+      "https://github.com/manavvedawala/CVE-2023-32243-proof-of-concept"
     ]
   },
   {
@@ -1984,13 +2028,13 @@
       "https://github.com/mallutrojan/CVE-2023-30212-Lab",
       "https://github.com/libas7994/Exploit-the-CVE-2023-30212-vulnerability",
       "https://github.com/AAsh035/CVE-2023-30212",
-      "https://github.com/kai-iszz/CVE-2023-30212",
       "https://github.com/Anandhu990/CVE-2023-30212-iab",
+      "https://github.com/kai-iszz/CVE-2023-30212",
       "https://github.com/Anandhu990/CVE-2023-30212_lab",
       "https://github.com/libasv/Exploite-CVE-2023-30212-vulnerability",
       "https://github.com/Anandhu990/r-CVE-2023-30212-lab",
-      "https://github.com/VisDev23/Vulnerable-Docker-CVE-2023-30212",
       "https://github.com/VisDev23/Vulnerable-Docker--CVE-2023-30212-",
+      "https://github.com/VisDev23/Vulnerable-Docker-CVE-2023-30212",
       "https://github.com/Anandhu990/r-CVE-2023-30212--lab",
       "https://github.com/MaThEw-ViNcEnT/CVE-2023-30212-OURPHP-Vulnerability",
       "https://github.com/libasmon/Vulnerable-Docker-Environment-CVE-2023-30212",
@@ -2103,9 +2147,9 @@
       "https://github.com/1337r0j4n/CVE-2023-29489",
       "https://github.com/Abdullah7-ma/CVE-2023-29489",
       "https://github.com/learnerboy88/CVE-2023-29489",
+      "https://github.com/tucommenceapousser/CVE-2023-29489",
       "https://github.com/Mostafa-Elguerdawi/CVE-2023-29489.yaml",
       "https://github.com/tucommenceapousser/CVE-2023-29489.py",
-      "https://github.com/tucommenceapousser/CVE-2023-29489",
       "https://github.com/Mostafa-Elguerdawi/CVE-2023-29489",
       "https://github.com/ViperM4sk/cpanel-xss-177"
     ]
@@ -2918,13 +2962,13 @@
       "https://github.com/gibran-abdillah/CVE-2023-23752",
       "https://github.com/Sweelg/CVE-2023-23752",
       "https://github.com/Saboor-Hakimi/CVE-2023-23752",
-      "https://github.com/ifacker/CVE-2023-23752-Joomla",
       "https://github.com/karthikuj/CVE-2023-23752-Docker",
+      "https://github.com/ifacker/CVE-2023-23752-Joomla",
       "https://github.com/adhikara13/CVE-2023-23752",
       "https://github.com/GhostToKnow/CVE-2023-23752",
       "https://github.com/ibaiw/joomla_CVE-2023-23752",
-      "https://github.com/YusinoMy/CVE-2023-23752",
       "https://github.com/0xNahim/CVE-2023-23752",
+      "https://github.com/YusinoMy/CVE-2023-23752",
       "https://github.com/HaxorSec1945/CVE2023-23752",
       "https://github.com/wangking1/CVE-2023-23752-poc",
       "https://github.com/AkbarWiraN/Joomla-Scanner",
@@ -2932,9 +2976,9 @@
       "https://github.com/MrP4nda1337/CVE-2023-23752",
       "https://github.com/haxor1337x/Mass-Checker-CVE-2023-23752",
       "https://github.com/adriyansyah-mf/CVE-2023-23752",
-      "https://github.com/H454NSec/CVE-2023-23752",
+      "https://github.com/wibuheker/Joomla-CVE-2023-23752",
       "https://github.com/Jenderal92/Joomla-CVE-2023-23752",
-      "https://github.com/wibuheker/Joomla-CVE-2023-23752"
+      "https://github.com/H454NSec/CVE-2023-23752"
     ]
   },
   {
@@ -3273,6 +3317,13 @@
     ]
   },
   {
+    "cve_code": "CVE-2023-21282",
+    "description": " In TRANSPOSER_SETTINGS of lpp_tran.h, there is a possible out of bounds write due to an incorrect bounds check. This could lead to remote code execution with no additional execution privileges needed. User interaction is needed for exploitation.",
+    "poc": [
+      "https://github.com/nidhi7598/external_aac_AOSP04-r1_CVE-2023-21282"
+    ]
+  },
+  {
     "cve_code": "CVE-2023-21272",
     "description": " In readFrom of Uri.java, there is a possible bad URI permission grant due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
     "poc": [
@@ -3338,6 +3389,13 @@
     "poc": [
       "https://github.com/zeze-zeze/HITCON-2023-Demo-CVE-2023-20562",
       "https://github.com/passwa11/HITCON-2023-Demo-CVE-2023-20562"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-20209",
+    "description": " A vulnerability in the web-based management interface of Cisco Expressway Series and Cisco TelePresence Video Communication Server (VCS) could allow an authenticated, remote attacker with read-write privileges on the application to perform a command injection attack that could result in remote code execution on an affected device. This vulnerability is due to insufficient validation of user-supplied input. An attacker could exploit this vulnerability by sending a crafted request to the web-based management interface of an affected device. A successful exploit could allow the attacker to establish a remote shell with root privileges.",
+    "poc": [
+      "https://github.com/0x41-Researcher/CVE-2023-20209"
     ]
   },
   {
@@ -3407,7 +3465,7 @@
   },
   {
     "cve_code": "CVE-2023-4863",
-    "description": " Heap buffer overflow in WebP in Google Chrome prior to 116.0.5845.187 allowed a remote attacker to perform an out of bounds memory write via a crafted HTML page. (Chromium security severity: Critical)- [https://github.com/mistymntncop/CVE-2023-4863](https://github.com/mistymntncop/CVE-2023-4863) :  ![starts](https://img.shields.io/github/stars/mistymntncop/CVE-2023-4863.svg) ![forks](https://img.shields.io/github/forks/mistymntncop/CVE-2023-4863.svg)- [https://github.com/suhipek/CVE-2023-4863](https://github.com/suhipek/CVE-2023-4863) :  ![starts](https://img.shields.io/github/stars/suhipek/CVE-2023-4863.svg) ![forks](https://img.shields.io/github/forks/suhipek/CVE-2023-4863.svg)- [https://github.com/talbeerysec/BAD-WEBP-CVE-2023-4863](https://github.com/talbeerysec/BAD-WEBP-CVE-2023-4863) :  ![starts](https://img.shields.io/github/stars/talbeerysec/BAD-WEBP-CVE-2023-4863.svg) ![forks](https://img.shields.io/github/forks/talbeerysec/BAD-WEBP-CVE-2023-4863.svg)- [https://github.com/bbaranoff/CVE-2023-4863](https://github.com/bbaranoff/CVE-2023-4863) :  ![starts](https://img.shields.io/github/stars/bbaranoff/CVE-2023-4863.svg) ![forks](https://img.shields.io/github/forks/bbaranoff/CVE-2023-4863.svg)",
+    "description": " Heap buffer overflow in libwebp in Google Chrome prior to 116.0.5845.187 and libwebp 1.3.2 allowed a remote attacker to perform an out of bounds memory write via a crafted HTML page. (Chromium security severity: Critical)- [https://github.com/mistymntncop/CVE-2023-4863](https://github.com/mistymntncop/CVE-2023-4863) :  ![starts](https://img.shields.io/github/stars/mistymntncop/CVE-2023-4863.svg) ![forks](https://img.shields.io/github/forks/mistymntncop/CVE-2023-4863.svg)- [https://github.com/suhipek/CVE-2023-4863](https://github.com/suhipek/CVE-2023-4863) :  ![starts](https://img.shields.io/github/stars/suhipek/CVE-2023-4863.svg) ![forks](https://img.shields.io/github/forks/suhipek/CVE-2023-4863.svg)- [https://github.com/talbeerysec/BAD-WEBP-CVE-2023-4863](https://github.com/talbeerysec/BAD-WEBP-CVE-2023-4863) :  ![starts](https://img.shields.io/github/stars/talbeerysec/BAD-WEBP-CVE-2023-4863.svg) ![forks](https://img.shields.io/github/forks/talbeerysec/BAD-WEBP-CVE-2023-4863.svg)- [https://github.com/bbaranoff/CVE-2023-4863](https://github.com/bbaranoff/CVE-2023-4863) :  ![starts](https://img.shields.io/github/stars/bbaranoff/CVE-2023-4863.svg) ![forks](https://img.shields.io/github/forks/bbaranoff/CVE-2023-4863.svg)",
     "poc": []
   },
   {
@@ -3416,6 +3474,11 @@
     "poc": [
       "https://github.com/b0marek/CVE-2023-4800"
     ]
+  },
+  {
+    "cve_code": "CVE-2023-4762",
+    "description": " Type Confusion in V8 in Google Chrome prior to 116.0.5845.179 allowed a remote attacker to execute arbitrary code via a crafted HTML page. (Chromium security severity: High)- [https://github.com/buptsb/CVE-2023-4762](https://github.com/buptsb/CVE-2023-4762) :  ![starts](https://img.shields.io/github/stars/buptsb/CVE-2023-4762.svg) ![forks](https://img.shields.io/github/forks/buptsb/CVE-2023-4762.svg)- [https://github.com/sherlocksecurity/CVE-2023-4762-Code-Review](https://github.com/sherlocksecurity/CVE-2023-4762-Code-Review) :  ![starts](https://img.shields.io/github/stars/sherlocksecurity/CVE-2023-4762-Code-Review.svg) ![forks](https://img.shields.io/github/forks/sherlocksecurity/CVE-2023-4762-Code-Review.svg)",
+    "poc": []
   },
   {
     "cve_code": "CVE-2023-4741",
@@ -3603,8 +3666,8 @@
     "cve_code": "CVE-2023-3450",
     "description": " A vulnerability was found in Ruijie RG-BCR860 2.5.13 and classified as critical. This issue affects some unknown processing of the component Network Diagnostic Page. The manipulation leads to os command injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-232547. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.",
     "poc": [
-      "https://github.com/yuanjinyuyuyu/CVE-2023-3450",
-      "https://github.com/caopengyan/CVE-2023-3450"
+      "https://github.com/caopengyan/CVE-2023-3450",
+      "https://github.com/yuanjinyuyuyu/CVE-2023-3450"
     ]
   },
   {
@@ -3730,8 +3793,8 @@
       "https://github.com/Occamsec/CVE-2023-2825",
       "https://github.com/yuimarudev/CVE-2023-2825",
       "https://github.com/EmmanuelCruzL/CVE-2023-2825",
-      "https://github.com/Tornad0007/CVE-2023-2825-Gitlab",
-      "https://github.com/caopengyan/CVE-2023-2825"
+      "https://github.com/caopengyan/CVE-2023-2825",
+      "https://github.com/Tornad0007/CVE-2023-2825-Gitlab"
     ]
   },
   {
@@ -3747,7 +3810,6 @@
     "poc": [
       "https://github.com/RandomRobbieBF/CVE-2023-2732",
       "https://github.com/Pari-Malam/CVE-2023-2732",
-      "https://github.com/domainhigh/CVE-2023-2732-Mass",
       "https://github.com/Jenderal92/WP-CVE-2023-2732"
     ]
   },
@@ -3836,6 +3898,13 @@
     ]
   },
   {
+    "cve_code": "CVE-2023-2123",
+    "description": " The WP Inventory Manager WordPress plugin before 2.1.0.13 does not sanitise and escape a parameter before outputting it back in the page, leading to a Reflected Cross-Site Scripting.",
+    "poc": [
+      "https://github.com/daniloalbuqrque/poc-cve-xss-encoded-wp-inventory-manager-plugin"
+    ]
+  },
+  {
     "cve_code": "CVE-2023-2114",
     "description": " The NEX-Forms WordPress plugin before 8.4 does not properly escape the `table` parameter, which is populated with user input, before concatenating it to an SQL query.",
     "poc": [
@@ -3916,8 +3985,8 @@
       "https://github.com/padbergpete47/CVE-2023-1454",
       "https://github.com/gobysec/CVE-2023-1454",
       "https://github.com/CKevens/CVE-2023-1454-EXP",
-      "https://github.com/BugFor-Pings/CVE-2023-1454",
-      "https://github.com/cjybao/CVE-2023-1454"
+      "https://github.com/cjybao/CVE-2023-1454",
+      "https://github.com/BugFor-Pings/CVE-2023-1454"
     ]
   },
   {
@@ -4089,8 +4158,7 @@
     "cve_code": "CVE-2023-0215",
     "description": " The public API function BIO_new_NDEF is a helper function used for streaming ASN.1 data via a BIO. It is primarily used internally to OpenSSL to support the SMIME, CMS and PKCS7 streaming capabilities, but may also be called directly by end user applications. The function receives a BIO from the caller, prepends a new BIO_f_asn1 filter BIO onto the front of it to form a BIO chain, and then returns the new head of the BIO chain to the caller. Under certain conditions, for example if a CMS recipient public key is invalid, the new filter BIO is freed and the function returns a NULL result indicating a failure. However, in this case, the BIO chain is not properly cleaned up and the BIO passed by the caller still retains internal pointers to the previously freed filter BIO. If the caller then goes on to call BIO_pop() on the BIO then a use-after-free will occur. This will most likely result in a crash. This scenario occurs directly in the internal function B64_write_ASN1() which may cause BIO_new_NDEF() to be called and will subsequently call BIO_pop() on the BIO. This internal function is in turn called by the public API functions PEM_write_bio_ASN1_stream, PEM_write_bio_CMS_stream, PEM_write_bio_PKCS7_stream, SMIME_write_ASN1, SMIME_write_CMS and SMIME_write_PKCS7. Other public API functions that may be impacted by this include i2d_ASN1_bio_stream, BIO_new_CMS, BIO_new_PKCS7, i2d_CMS_bio_stream and i2d_PKCS7_bio_stream. The OpenSSL cms and smime command line applications are similarly affected.",
     "poc": [
-      "https://github.com/nidhi7598/OPENSSL_1.0.2_G2.5_CVE-2023-0215",
-      "https://github.com/nidhi7598/OPENSSL_1.1.1g_G3_CVE-2023-0215"
+      "https://github.com/nidhi7598/OPENSSL_1.0.2_G2.5_CVE-2023-0215"
     ]
   },
   {
