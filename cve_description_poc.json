@@ -29053,8 +29053,8 @@
     "description": " The VRRP parser in tcpdump before 4.9.3 has a buffer over-read in print-vrrp.c:vrrp_print() for VRRP version 2, a different vulnerability than CVE-2019-15167.",
     "poc": [
       "https://github.com/nidhi7598/external_tcpdump_AOSP_10_r33_CVE-2018-14463",
-      "https://github.com/nidhi7598/external_tcpdump-4.9.2_AOSP_10_r33_CVE-2018-14463",
-      "https://github.com/hshivhare67/platform_external_tcpdump_AOSP10_r33_4.9.2-_CVE-2018-14463"
+      "https://github.com/hshivhare67/platform_external_tcpdump_AOSP10_r33_4.9.2-_CVE-2018-14463",
+      "https://github.com/nidhi7598/external_tcpdump-4.9.2_AOSP_10_r33_CVE-2018-14463"
     ]
   },
   {
@@ -29352,10 +29352,50 @@
     ]
   },
   {
+    "cve_code": "CVE-2018-11790",
+    "description": " When loading a document with Apache Open Office 4.1.5 and earlier with smaller end line termination than the operating system uses, the defect occurs. In this case OpenOffice runs into an Arithmetic Overflow at a string length calculation.",
+    "poc": [
+      "https://github.com/anmuxi-bai/CVE-2018-11790"
+    ]
+  },
+  {
     "cve_code": "CVE-2018-11788",
     "description": " Apache Karaf provides a features deployer, which allows users to &quot;hot deploy&quot; a features XML by dropping the file directly in the deploy folder. The features XML is parsed by XMLInputFactory class. Apache Karaf XMLInputFactory class doesn't contain any mitigation codes against XXE. This is a potential security risk as an user can inject external XML entities in Apache Karaf version prior to 4.1.7 or 4.2.2. It has been fixed in Apache Karaf 4.1.7 and 4.2.2 releases.",
     "poc": [
       "https://github.com/brianwrf/CVE-2018-11788"
+    ]
+  },
+  {
+    "cve_code": "CVE-2018-11776",
+    "description": " Apache Struts versions 2.3 to 2.3.34 and 2.5 to 2.5.16 suffer from possible Remote Code Execution when alwaysSelectFullNamespace is true (either by user or a plugin like Convention Plugin) and then: results are used with no namespace and in same time, its upper package have no or wildcard namespace and similar to results, same possibility when using url tag which doesn't have value and action set and in same time, its upper package have no or wildcard namespace.",
+    "poc": [
+      "https://github.com/mazen160/struts-pwn_CVE-2018-11776",
+      "https://github.com/hook-s3c/CVE-2018-11776-Python-PoC",
+      "https://github.com/649/Apache-Struts-Shodan-Exploit",
+      "https://github.com/Ekultek/Strutter",
+      "https://github.com/brianwrf/S2-057-CVE-2018-11776",
+      "https://github.com/xfox64x/CVE-2018-11776",
+      "https://github.com/ArunBhandarii/Apache-Struts-0Day-Exploit",
+      "https://github.com/Fnzer0/S2-057-poc",
+      "https://github.com/jiguangsdf/CVE-2018-11776",
+      "https://github.com/bhdresh/CVE-2018-11776",
+      "https://github.com/knqyf263/CVE-2018-11776",
+      "https://github.com/tuxotron/cve-2018-11776-docker",
+      "https://github.com/HxDDD/CVE-PoC",
+      "https://github.com/cved-sources/cve-2018-11776",
+      "https://github.com/gh0st27/Struts2Scanner",
+      "https://github.com/cucadili/CVE-2018-11776",
+      "https://github.com/sonpt-afk/CVE-2018-11776-FIS",
+      "https://github.com/freshdemo/ApacheStruts-CVE-2018-11776",
+      "https://github.com/OzNetNerd/apche-struts-vuln-demo-cve-2018-11776",
+      "https://github.com/jezzus/CVE-2018-11776-Python-PoC"
+    ]
+  },
+  {
+    "cve_code": "CVE-2018-11770",
+    "description": " From version 1.3.0 onward, Apache Spark's standalone master exposes a REST API for job submission, in addition to the submission mechanism used by spark-submit. In standalone, the config property 'spark.authenticate.secret' establishes a shared secret for authenticating requests to submit jobs via spark-submit. However, the REST API does not use this or any other authentication mechanism, and this is not adequately documented. In this case, a user would be able to run a driver program without authenticating, but not launch executors, using the REST API. This REST API is also used by Mesos, when set up to run in cluster mode (i.e., when also running MesosClusterDispatcher), for job submission. Future versions of Spark will improve documentation on these points, and prohibit setting 'spark.authenticate.secret' when running the REST APIs, to make this clear. Future versions will also disable the REST API by default in the standalone master by changing the default value of 'spark.master.rest.enabled' to 'false'.",
+    "poc": [
+      "https://github.com/ivanitlearning/CVE-2018-11770"
     ]
   },
   {
@@ -29454,11 +29494,11 @@
       "https://github.com/SenSecurity/exploit",
       "https://github.com/xElkomy/CVE-2018-11235",
       "https://github.com/vmotos/CVE-2018-11235",
+      "https://github.com/Kiss-sh0t/CVE-2018-11235-poc",
       "https://github.com/moajo/cve_2018_11235",
       "https://github.com/0rx1/CVE-2018-11235",
-      "https://github.com/Kiss-sh0t/CVE-2018-11235-poc",
-      "https://github.com/MohamedTarekq/test-CVE-2018-11235",
       "https://github.com/cchang27/CVE-2018-11235-test",
+      "https://github.com/MohamedTarekq/test-CVE-2018-11235",
       "https://github.com/Choihosu/cve-2018-11235",
       "https://github.com/theerachaich/lab",
       "https://github.com/jhswartz/CVE-2018-11235",
@@ -29511,13 +29551,13 @@
       "https://github.com/pghook/CVE-2018-10933_Scanner",
       "https://github.com/JoSecMx/CVE-2018-10933_Scanner",
       "https://github.com/Bifrozt/CVE-2018-10933",
-      "https://github.com/ensimag-security/CVE-2018-10933",
       "https://github.com/throwawayaccount12312312/precompiled-CVE-2018-10933",
       "https://github.com/hook-s3c/CVE-2018-10933",
+      "https://github.com/ensimag-security/CVE-2018-10933",
       "https://github.com/SilasSpringer/CVE-2018-10933",
       "https://github.com/ninp0/cve-2018-10933_poc",
-      "https://github.com/sambiyal/CVE-2018-10933-POC",
       "https://github.com/lalishasanduwara/CVE-2018-10933",
+      "https://github.com/sambiyal/CVE-2018-10933-POC",
       "https://github.com/kristyna-mlcakova/CVE-2018-10933",
       "https://github.com/likescam/CVE-2018-10933_ssh",
       "https://github.com/youkergav/CVE-2018-10933",
@@ -29663,10 +29703,10 @@
       "https://github.com/b510/CVE-2018-9995-POC",
       "https://github.com/Saeed22487/CVE-2018-9995",
       "https://github.com/codeholic2k18/CVE-2018-9995",
+      "https://github.com/Pab450/CVE-2018-9995",
       "https://github.com/IHA114/CVE-2018-9995_dvr_credentials",
       "https://github.com/awesome-consumer-iot/HTC",
       "https://github.com/dearpan/cve-2018-9995",
-      "https://github.com/Pab450/CVE-2018-9995",
       "https://github.com/ABIZCHI/CVE-2018-9995_dvr_credentials",
       "https://github.com/TateYdq/CVE-2018-9995-ModifiedByGwolfs",
       "https://github.com/LeQuocKhanh2K/Tool_Exploit_Password_Camera_CVE-2018-9995",
@@ -30017,8 +30057,8 @@
       "https://github.com/EVOL4/CVE-2018-8120",
       "https://github.com/ozkanbilge/CVE-2018-8120",
       "https://github.com/StartZYP/CVE-2018-8120",
-      "https://github.com/wikiZ/cve-2018-8120",
       "https://github.com/qiantu88/CVE-2018-8120",
+      "https://github.com/wikiZ/cve-2018-8120",
       "https://github.com/Y0n0Y/cve-2018-8120-exp"
     ]
   },
@@ -30426,28 +30466,28 @@
       "https://github.com/jftierno/CVE-2018-6574-2",
       "https://github.com/20matan/CVE-2018-6574-POC",
       "https://github.com/jahwni/CVE-2018-6574",
-      "https://github.com/ThaFWord/pentesterlab",
       "https://github.com/jongmartinez/CVE-2018-6574-POC",
       "https://github.com/amil-ptl-test/ptl_cve_2018_6574",
       "https://github.com/markisback/CVE-2018-6574",
+      "https://github.com/ThaFWord/pentesterlab",
       "https://github.com/asavior2/CVE-2018-6574",
-      "https://github.com/VikasVarshney/CVE_2018_6574",
-      "https://github.com/ItsFadinG/CVE-2018-6574",
       "https://github.com/it3x55/CVE-2018-6574",
       "https://github.com/yitingfan/CVE-2018-6574_demo",
       "https://github.com/AnKItdo/CVE_2018-6574",
       "https://github.com/NikolaT3sla/cve-2018-6574",
+      "https://github.com/VikasVarshney/CVE_2018_6574",
+      "https://github.com/ItsFadinG/CVE-2018-6574",
       "https://github.com/kawkab101/cve-2018-6574",
       "https://github.com/OLAOLAOLA789/CVE-2018-6574",
       "https://github.com/redirected/cve-2018-6574",
       "https://github.com/duckzsc2/CVE-2018-6574-POC",
       "https://github.com/InfoSecJack/CVE-2018-6574",
-      "https://github.com/sdosis/cve-2018-6574",
       "https://github.com/kev-ho/cve-2018-6574-payload",
+      "https://github.com/sdosis/cve-2018-6574",
       "https://github.com/azzzzzzzzzzzzzzzzz/CVE-2018-6574",
       "https://github.com/Cypheer/exploit_CVE-2018-6574",
-      "https://github.com/jeyaseelans86/CVE-2018-6574",
       "https://github.com/mux0x/CVE-2018-6574",
+      "https://github.com/jeyaseelans86/CVE-2018-6574",
       "https://github.com/Zeeshan12340/CVE-2018-6574",
       "https://github.com/acole76/cve-2018-6574",
       "https://github.com/dollyptm/cve-2018-6574",
@@ -30455,19 +30495,19 @@
       "https://github.com/yavolo/CVE-2018-6574",
       "https://github.com/Eugene24/CVE-2018-6574",
       "https://github.com/TakuCoder/CVE-2018-6574",
-      "https://github.com/MohamedTarekq/test-CVE-2018-6574-",
       "https://github.com/purgedemo/CVE-2018-6574",
-      "https://github.com/tjcim/cve-2018-6574",
+      "https://github.com/MohamedTarekq/test-CVE-2018-6574-",
       "https://github.com/Yealid/CVE-2018-6574",
+      "https://github.com/tjcim/cve-2018-6574",
+      "https://github.com/noobTest1122/CVE-2018-6574",
+      "https://github.com/R3dAlch3mist/cve-2018-6574",
+      "https://github.com/NsByte/CVE-2018-6574",
       "https://github.com/nthuong95/CVE-2018-6574",
       "https://github.com/coblax/CVE-2018-6574",
       "https://github.com/lsnakazone/cve-2018-6574",
       "https://github.com/PLP-Orange/cve-2018-6574-exercise",
       "https://github.com/l3ouu4n9/CVE-2018-6574-POC",
       "https://github.com/mekhalleh/cve-2018-6574",
-      "https://github.com/noobTest1122/CVE-2018-6574",
-      "https://github.com/R3dAlch3mist/cve-2018-6574",
-      "https://github.com/NsByte/CVE-2018-6574",
       "https://github.com/ahmetmanga/cve-2018-6574",
       "https://github.com/chaosura/CVE-2018-6574",
       "https://github.com/pswalia2u/CVE-2018-6574",
@@ -30475,16 +30515,16 @@
       "https://github.com/Devang-Solanki/CVE-2018-6574",
       "https://github.com/cristiandrami/pentesterlab_CVE-2018-6574",
       "https://github.com/noname-nohost/CVE-2018-6574",
-      "https://github.com/mhamed366/CVE-2018-6574",
-      "https://github.com/imojne/CVE-2018-6574-POC",
-      "https://github.com/repos13579/labCVE-2018-6574",
-      "https://github.com/yashanand/cve-2018-6574",
       "https://github.com/AdriVillaB/CVE-2018-6574",
-      "https://github.com/purgedemo/CVE-2018-6574_2",
       "https://github.com/illnino/CVE-2018-6574",
+      "https://github.com/purgedemo/CVE-2018-6574_2",
       "https://github.com/theJuan1112/pentesterlab-cve-2018-6574",
       "https://github.com/jeyaseelans86/new-CVE-2018-6574",
       "https://github.com/chr1sM/CVE-2018-6574",
+      "https://github.com/mhamed366/CVE-2018-6574",
+      "https://github.com/repos13579/labCVE-2018-6574",
+      "https://github.com/yashanand/cve-2018-6574",
+      "https://github.com/imojne/CVE-2018-6574-POC",
       "https://github.com/No1zy/CVE-2018-6574-PoC",
       "https://github.com/Xifeng2009/go_get_cve_2018_6574",
       "https://github.com/jaya522/CVE-2018-6574-go-get-RCE",
@@ -30742,8 +30782,8 @@
       "https://github.com/KathodeN/CVE-2018-4878",
       "https://github.com/HuanWoWeiLan/SoftwareSystemSecurity-2019",
       "https://github.com/ydl555/CVE-2018-4878",
-      "https://github.com/lvyoshino/CVE-2018-4878",
-      "https://github.com/Yable/CVE-2018-4878"
+      "https://github.com/Yable/CVE-2018-4878",
+      "https://github.com/lvyoshino/CVE-2018-4878"
     ]
   },
   {
@@ -31333,8 +31373,8 @@
       "https://github.com/shaoshore/CVE-2018-2628",
       "https://github.com/BabyTeam1024/cve-2018-2628",
       "https://github.com/stevenlinfeng/CVE-2018-2628",
-      "https://github.com/seethen/cve-2018-2628",
-      "https://github.com/wrysunny/cve-2018-2628"
+      "https://github.com/wrysunny/cve-2018-2628",
+      "https://github.com/seethen/cve-2018-2628"
     ]
   },
   {
@@ -31489,6 +31529,13 @@
     "poc": [
       "https://github.com/mgargiullo/cve-2018-1207",
       "https://github.com/un4gi/CVE-2018-1207"
+    ]
+  },
+  {
+    "cve_code": "CVE-2018-1160",
+    "description": " Netatalk before 3.1.12 is vulnerable to an out of bounds write in dsi_opensess.c. This is due to lack of bounds checking on attacker controlled data. A remote unauthenticated attacker can leverage this vulnerability to achieve arbitrary code execution.",
+    "poc": [
+      "https://github.com/SachinThanushka/CVE-2018-1160"
     ]
   },
   {
@@ -31647,8 +31694,8 @@
       "https://github.com/j4k0m/CVE-2018-0114",
       "https://github.com/Eremiel/CVE-2018-0114",
       "https://github.com/adityathebe/POC-CVE-2018-0114",
-      "https://github.com/CyberSecurityUP/CVE-2018-0114-Exploit",
       "https://github.com/scumdestroy/CVE-2018-0114",
+      "https://github.com/CyberSecurityUP/CVE-2018-0114-Exploit",
       "https://github.com/amr9k8/jwt-spoof-tool",
       "https://github.com/Logeirs/CVE-2018-0114",
       "https://github.com/Starry-lord/CVE-2018-0114",
@@ -31794,10 +31841,10 @@
       "https://github.com/Jerry-zhuang/CVE-2017-1000117",
       "https://github.com/Shadow5523/CVE-2017-1000117-test",
       "https://github.com/thelastbyte/CVE-2017-1000117",
-      "https://github.com/takehaya/CVE-2017-1000117",
       "https://github.com/siling2017/CVE-2017-1000117",
-      "https://github.com/ikmski/CVE-2017-1000117",
       "https://github.com/leezp/CVE-2017-1000117",
+      "https://github.com/ikmski/CVE-2017-1000117",
+      "https://github.com/takehaya/CVE-2017-1000117",
       "https://github.com/shogo82148/Fix-CVE-2017-1000117"
     ]
   },
@@ -32722,8 +32769,8 @@
       "https://github.com/ianxtianxt/CVE-2017-12615",
       "https://github.com/w0x68y/CVE-2017-12615-EXP",
       "https://github.com/cved-sources/cve-2017-12615",
-      "https://github.com/Shellkeys/CVE-2017-12615",
-      "https://github.com/cyberharsh/Tomcat-CVE-2017-12615"
+      "https://github.com/cyberharsh/Tomcat-CVE-2017-12615",
+      "https://github.com/Shellkeys/CVE-2017-12615"
     ]
   },
   {
@@ -33163,8 +33210,8 @@
       "https://github.com/BeyondCy/S2-052",
       "https://github.com/jongmartinez/-CVE-2017-9805-",
       "https://github.com/UbuntuStrike/struts_rest_rce_fuzz-CVE-2017-9805-",
-      "https://github.com/wifido/CVE-2017-9805-Exploit",
       "https://github.com/z3bd/CVE-2017-9805",
+      "https://github.com/wifido/CVE-2017-9805-Exploit",
       "https://github.com/rvermeulen/apache-struts-cve-2017-9805",
       "https://github.com/sujithvaddi/apache_struts_cve_2017_9805",
       "https://github.com/AvishkaSenadheera/CVE-2017-9805---Documentation---IT19143378",
@@ -33397,7 +33444,7 @@
   },
   {
     "cve_code": "CVE-2017-8759",
-    "description": " Microsoft .NET Framework 2.0, 3.5, 3.5.1, 4.5.2, 4.6, 4.6.1, 4.6.2 and 4.7 allow an attacker to execute code remotely via a malicious document or application, aka &quot;.NET Framework Remote Code Execution Vulnerability.&quot;- [https://github.com/bhdresh/CVE-2017-8759](https://github.com/bhdresh/CVE-2017-8759) :  ![starts](https://img.shields.io/github/stars/bhdresh/CVE-2017-8759.svg) ![forks](https://img.shields.io/github/forks/bhdresh/CVE-2017-8759.svg)- [https://github.com/Voulnet/CVE-2017-8759-Exploit-sample](https://github.com/Voulnet/CVE-2017-8759-Exploit-sample) :  ![starts](https://img.shields.io/github/stars/Voulnet/CVE-2017-8759-Exploit-sample.svg) ![forks](https://img.shields.io/github/forks/Voulnet/CVE-2017-8759-Exploit-sample.svg)- [https://github.com/vysecurity/CVE-2017-8759](https://github.com/vysecurity/CVE-2017-8759) :  ![starts](https://img.shields.io/github/stars/vysecurity/CVE-2017-8759.svg) ![forks](https://img.shields.io/github/forks/vysecurity/CVE-2017-8759.svg)- [https://github.com/nccgroup/CVE-2017-8759](https://github.com/nccgroup/CVE-2017-8759) :  ![starts](https://img.shields.io/github/stars/nccgroup/CVE-2017-8759.svg) ![forks](https://img.shields.io/github/forks/nccgroup/CVE-2017-8759.svg)- [https://github.com/Lz1y/CVE-2017-8759](https://github.com/Lz1y/CVE-2017-8759) :  ![starts](https://img.shields.io/github/stars/Lz1y/CVE-2017-8759.svg) ![forks](https://img.shields.io/github/forks/Lz1y/CVE-2017-8759.svg)- [https://github.com/JonasUliana/CVE-2017-8759](https://github.com/JonasUliana/CVE-2017-8759) :  ![starts](https://img.shields.io/github/stars/JonasUliana/CVE-2017-8759.svg) ![forks](https://img.shields.io/github/forks/JonasUliana/CVE-2017-8759.svg)- [https://github.com/jacobsoo/RTF-Cleaner](https://github.com/jacobsoo/RTF-Cleaner) :  ![starts](https://img.shields.io/github/stars/jacobsoo/RTF-Cleaner.svg) ![forks](https://img.shields.io/github/forks/jacobsoo/RTF-Cleaner.svg)- [https://github.com/ashr/CVE-2017-8759-exploits](https://github.com/ashr/CVE-2017-8759-exploits) :  ![starts](https://img.shields.io/github/stars/ashr/CVE-2017-8759-exploits.svg) ![forks](https://img.shields.io/github/forks/ashr/CVE-2017-8759-exploits.svg)- [https://github.com/homjxi0e/CVE-2017-8759_-SOAP_WSDL](https://github.com/homjxi0e/CVE-2017-8759_-SOAP_WSDL) :  ![starts](https://img.shields.io/github/stars/homjxi0e/CVE-2017-8759_-SOAP_WSDL.svg) ![forks](https://img.shields.io/github/forks/homjxi0e/CVE-2017-8759_-SOAP_WSDL.svg)- [https://github.com/BasuCert/CVE-2017-8759](https://github.com/BasuCert/CVE-2017-8759) :  ![starts](https://img.shields.io/github/stars/BasuCert/CVE-2017-8759.svg) ![forks](https://img.shields.io/github/forks/BasuCert/CVE-2017-8759.svg)- [https://github.com/ChaitanyaHaritash/CVE-2017-8759](https://github.com/ChaitanyaHaritash/CVE-2017-8759) :  ![starts](https://img.shields.io/github/stars/ChaitanyaHaritash/CVE-2017-8759.svg) ![forks](https://img.shields.io/github/forks/ChaitanyaHaritash/CVE-2017-8759.svg)- [https://github.com/zhengkook/CVE-2017-8759](https://github.com/zhengkook/CVE-2017-8759) :  ![starts](https://img.shields.io/github/stars/zhengkook/CVE-2017-8759.svg) ![forks](https://img.shields.io/github/forks/zhengkook/CVE-2017-8759.svg)- [https://github.com/smashinu/CVE-2017-8759Expoit](https://github.com/smashinu/CVE-2017-8759Expoit) :  ![starts](https://img.shields.io/github/stars/smashinu/CVE-2017-8759Expoit.svg) ![forks](https://img.shields.io/github/forks/smashinu/CVE-2017-8759Expoit.svg)- [https://github.com/adeljck/CVE-2017-8759](https://github.com/adeljck/CVE-2017-8759) :  ![starts](https://img.shields.io/github/stars/adeljck/CVE-2017-8759.svg) ![forks](https://img.shields.io/github/forks/adeljck/CVE-2017-8759.svg)- [https://github.com/Winter3un/cve_2017_8759](https://github.com/Winter3un/cve_2017_8759) :  ![starts](https://img.shields.io/github/stars/Winter3un/cve_2017_8759.svg) ![forks](https://img.shields.io/github/forks/Winter3un/cve_2017_8759.svg)- [https://github.com/l0n3rs/CVE-2017-8759](https://github.com/l0n3rs/CVE-2017-8759) :  ![starts](https://img.shields.io/github/stars/l0n3rs/CVE-2017-8759.svg) ![forks](https://img.shields.io/github/forks/l0n3rs/CVE-2017-8759.svg)- [https://github.com/tahisaad6/CVE-2017-8759-Exploit-sample2](https://github.com/tahisaad6/CVE-2017-8759-Exploit-sample2) :  ![starts](https://img.shields.io/github/stars/tahisaad6/CVE-2017-8759-Exploit-sample2.svg) ![forks](https://img.shields.io/github/forks/tahisaad6/CVE-2017-8759-Exploit-sample2.svg)- [https://github.com/GayashanM/OHTS](https://github.com/GayashanM/OHTS) :  ![starts](https://img.shields.io/github/stars/GayashanM/OHTS.svg) ![forks](https://img.shields.io/github/forks/GayashanM/OHTS.svg)- [https://github.com/varunsaru/SNP](https://github.com/varunsaru/SNP) :  ![starts](https://img.shields.io/github/stars/varunsaru/SNP.svg) ![forks](https://img.shields.io/github/forks/varunsaru/SNP.svg)",
+    "description": " Microsoft .NET Framework 2.0, 3.5, 3.5.1, 4.5.2, 4.6, 4.6.1, 4.6.2 and 4.7 allow an attacker to execute code remotely via a malicious document or application, aka &quot;.NET Framework Remote Code Execution Vulnerability.&quot;- [https://github.com/bhdresh/CVE-2017-8759](https://github.com/bhdresh/CVE-2017-8759) :  ![starts](https://img.shields.io/github/stars/bhdresh/CVE-2017-8759.svg) ![forks](https://img.shields.io/github/forks/bhdresh/CVE-2017-8759.svg)- [https://github.com/Voulnet/CVE-2017-8759-Exploit-sample](https://github.com/Voulnet/CVE-2017-8759-Exploit-sample) :  ![starts](https://img.shields.io/github/stars/Voulnet/CVE-2017-8759-Exploit-sample.svg) ![forks](https://img.shields.io/github/forks/Voulnet/CVE-2017-8759-Exploit-sample.svg)- [https://github.com/vysecurity/CVE-2017-8759](https://github.com/vysecurity/CVE-2017-8759) :  ![starts](https://img.shields.io/github/stars/vysecurity/CVE-2017-8759.svg) ![forks](https://img.shields.io/github/forks/vysecurity/CVE-2017-8759.svg)- [https://github.com/nccgroup/CVE-2017-8759](https://github.com/nccgroup/CVE-2017-8759) :  ![starts](https://img.shields.io/github/stars/nccgroup/CVE-2017-8759.svg) ![forks](https://img.shields.io/github/forks/nccgroup/CVE-2017-8759.svg)- [https://github.com/Lz1y/CVE-2017-8759](https://github.com/Lz1y/CVE-2017-8759) :  ![starts](https://img.shields.io/github/stars/Lz1y/CVE-2017-8759.svg) ![forks](https://img.shields.io/github/forks/Lz1y/CVE-2017-8759.svg)- [https://github.com/JonasUliana/CVE-2017-8759](https://github.com/JonasUliana/CVE-2017-8759) :  ![starts](https://img.shields.io/github/stars/JonasUliana/CVE-2017-8759.svg) ![forks](https://img.shields.io/github/forks/JonasUliana/CVE-2017-8759.svg)- [https://github.com/jacobsoo/RTF-Cleaner](https://github.com/jacobsoo/RTF-Cleaner) :  ![starts](https://img.shields.io/github/stars/jacobsoo/RTF-Cleaner.svg) ![forks](https://img.shields.io/github/forks/jacobsoo/RTF-Cleaner.svg)- [https://github.com/ashr/CVE-2017-8759-exploits](https://github.com/ashr/CVE-2017-8759-exploits) :  ![starts](https://img.shields.io/github/stars/ashr/CVE-2017-8759-exploits.svg) ![forks](https://img.shields.io/github/forks/ashr/CVE-2017-8759-exploits.svg)- [https://github.com/homjxi0e/CVE-2017-8759_-SOAP_WSDL](https://github.com/homjxi0e/CVE-2017-8759_-SOAP_WSDL) :  ![starts](https://img.shields.io/github/stars/homjxi0e/CVE-2017-8759_-SOAP_WSDL.svg) ![forks](https://img.shields.io/github/forks/homjxi0e/CVE-2017-8759_-SOAP_WSDL.svg)- [https://github.com/BasuCert/CVE-2017-8759](https://github.com/BasuCert/CVE-2017-8759) :  ![starts](https://img.shields.io/github/stars/BasuCert/CVE-2017-8759.svg) ![forks](https://img.shields.io/github/forks/BasuCert/CVE-2017-8759.svg)- [https://github.com/ChaitanyaHaritash/CVE-2017-8759](https://github.com/ChaitanyaHaritash/CVE-2017-8759) :  ![starts](https://img.shields.io/github/stars/ChaitanyaHaritash/CVE-2017-8759.svg) ![forks](https://img.shields.io/github/forks/ChaitanyaHaritash/CVE-2017-8759.svg)- [https://github.com/zhengkook/CVE-2017-8759](https://github.com/zhengkook/CVE-2017-8759) :  ![starts](https://img.shields.io/github/stars/zhengkook/CVE-2017-8759.svg) ![forks](https://img.shields.io/github/forks/zhengkook/CVE-2017-8759.svg)- [https://github.com/smashinu/CVE-2017-8759Expoit](https://github.com/smashinu/CVE-2017-8759Expoit) :  ![starts](https://img.shields.io/github/stars/smashinu/CVE-2017-8759Expoit.svg) ![forks](https://img.shields.io/github/forks/smashinu/CVE-2017-8759Expoit.svg)- [https://github.com/adeljck/CVE-2017-8759](https://github.com/adeljck/CVE-2017-8759) :  ![starts](https://img.shields.io/github/stars/adeljck/CVE-2017-8759.svg) ![forks](https://img.shields.io/github/forks/adeljck/CVE-2017-8759.svg)- [https://github.com/l0n3rs/CVE-2017-8759](https://github.com/l0n3rs/CVE-2017-8759) :  ![starts](https://img.shields.io/github/stars/l0n3rs/CVE-2017-8759.svg) ![forks](https://img.shields.io/github/forks/l0n3rs/CVE-2017-8759.svg)- [https://github.com/Winter3un/cve_2017_8759](https://github.com/Winter3un/cve_2017_8759) :  ![starts](https://img.shields.io/github/stars/Winter3un/cve_2017_8759.svg) ![forks](https://img.shields.io/github/forks/Winter3un/cve_2017_8759.svg)- [https://github.com/tahisaad6/CVE-2017-8759-Exploit-sample2](https://github.com/tahisaad6/CVE-2017-8759-Exploit-sample2) :  ![starts](https://img.shields.io/github/stars/tahisaad6/CVE-2017-8759-Exploit-sample2.svg) ![forks](https://img.shields.io/github/forks/tahisaad6/CVE-2017-8759-Exploit-sample2.svg)- [https://github.com/GayashanM/OHTS](https://github.com/GayashanM/OHTS) :  ![starts](https://img.shields.io/github/stars/GayashanM/OHTS.svg) ![forks](https://img.shields.io/github/forks/GayashanM/OHTS.svg)- [https://github.com/varunsaru/SNP](https://github.com/varunsaru/SNP) :  ![starts](https://img.shields.io/github/stars/varunsaru/SNP.svg) ![forks](https://img.shields.io/github/forks/varunsaru/SNP.svg)",
     "poc": []
   },
   {
@@ -34017,20 +34064,20 @@
       "https://github.com/colorblindpentester/CVE-2017-5638",
       "https://github.com/AndreasKl/CVE-2017-5638",
       "https://github.com/Badbird3/CVE-2017-5638",
-      "https://github.com/mritunjay-k/CVE-2017-5638",
-      "https://github.com/mfdev-solution/Exploit-CVE-2017-5638",
+      "https://github.com/lizhi16/CVE-2017-5638",
       "https://github.com/injcristianrojas/cve-2017-5638",
       "https://github.com/Xhendos/CVE-2017-5638",
       "https://github.com/bongbongco/cve-2017-5638",
+      "https://github.com/mritunjay-k/CVE-2017-5638",
+      "https://github.com/mfdev-solution/Exploit-CVE-2017-5638",
       "https://github.com/random-robbie/CVE-2017-5638",
-      "https://github.com/lizhi16/CVE-2017-5638",
       "https://github.com/readloud/CVE-2017-5638",
       "https://github.com/mcassano/cve-2017-5638",
       "https://github.com/0xConstant/CVE-2017-5638",
-      "https://github.com/homjxi0e/CVE-2017-5638",
       "https://github.com/bhagdave/CVE-2017-5638",
       "https://github.com/Tankirat/CVE-2017-5638",
       "https://github.com/jrrombaldo/CVE-2017-5638",
+      "https://github.com/homjxi0e/CVE-2017-5638",
       "https://github.com/leandrocamposcardoso/CVE-2017-5638-Mass-Exploit",
       "https://github.com/cafnet/apache-struts-v2-CVE-2017-5638",
       "https://github.com/sonatype-workshops/struts2-rce",
@@ -34707,8 +34754,8 @@
       "https://github.com/paralelo14/CVE_2016-10033",
       "https://github.com/0x00-0x00/CVE-2016-10033",
       "https://github.com/chipironcin/CVE-2016-10033",
-      "https://github.com/awidardi/opsxcq-cve-2016-10033",
       "https://github.com/pedro823/cve-2016-10033-45",
+      "https://github.com/awidardi/opsxcq-cve-2016-10033",
       "https://github.com/j4k0m/CVE-2016-10033",
       "https://github.com/cved-sources/cve-2016-10033",
       "https://github.com/eb613819/CTF_CVE-2016-10033",
@@ -34914,6 +34961,13 @@
   {
     "cve_code": "CVE-2016-8021",
     "description": " Improper verification of cryptographic signature vulnerability in Intel Security VirusScan Enterprise Linux (VSEL) 2.0.3 (and earlier) allows remote authenticated users to spoof update server and execute arbitrary code via a crafted input file.",
+    "poc": [
+      "https://github.com/opsxcq/exploit-CVE-2016-8016-25"
+    ]
+  },
+  {
+    "cve_code": "CVE-2016-8020",
+    "description": " Improper control of generation of code vulnerability in Intel Security VirusScan Enterprise Linux (VSEL) 2.0.3 (and earlier) allows remote authenticated users to execute arbitrary code via a crafted HTTP request parameter.",
     "poc": [
       "https://github.com/opsxcq/exploit-CVE-2016-8016-25"
     ]
@@ -36267,6 +36321,11 @@
     ]
   },
   {
+    "cve_code": "CVE-2015-5602",
+    "description": " sudoedit in Sudo before 1.8.15 allows local users to gain privileges via a symlink attack on a file whose full path is defined using multiple wildcards in /etc/sudoers, as demonstrated by &quot;/home/*/*/file.txt.&quot;- [https://github.com/t0kx/privesc-CVE-2015-5602](https://github.com/t0kx/privesc-CVE-2015-5602) :  ![starts](https://img.shields.io/github/stars/t0kx/privesc-CVE-2015-5602.svg) ![forks](https://img.shields.io/github/forks/t0kx/privesc-CVE-2015-5602.svg)- [https://github.com/cved-sources/cve-2015-5602](https://github.com/cved-sources/cve-2015-5602) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2015-5602.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2015-5602.svg)",
+    "poc": []
+  },
+  {
     "cve_code": "CVE-2015-5531",
     "description": " Directory traversal vulnerability in Elasticsearch before 1.6.1 allows remote attackers to read arbitrary files via unspecified vectors related to snapshot API calls.",
     "poc": [
@@ -36633,7 +36692,7 @@
   },
   {
     "cve_code": "CVE-2015-1635",
-    "description": " HTTP.sys in Microsoft Windows 7 SP1, Windows Server 2008 R2 SP1, Windows 8, Windows 8.1, and Windows Server 2012 Gold and R2 allows remote attackers to execute arbitrary code via crafted HTTP requests, aka &quot;HTTP.sys Remote Code Execution Vulnerability.&quot;- [https://github.com/xPaw/HTTPsys](https://github.com/xPaw/HTTPsys) :  ![starts](https://img.shields.io/github/stars/xPaw/HTTPsys.svg) ![forks](https://img.shields.io/github/forks/xPaw/HTTPsys.svg)- [https://github.com/technion/erlvulnscan](https://github.com/technion/erlvulnscan) :  ![starts](https://img.shields.io/github/stars/technion/erlvulnscan.svg) ![forks](https://img.shields.io/github/forks/technion/erlvulnscan.svg)- [https://github.com/aedoo/CVE-2015-1635-POC](https://github.com/aedoo/CVE-2015-1635-POC) :  ![starts](https://img.shields.io/github/stars/aedoo/CVE-2015-1635-POC.svg) ![forks](https://img.shields.io/github/forks/aedoo/CVE-2015-1635-POC.svg)- [https://github.com/Zx7ffa4512-Python/Project-CVE-2015-1635](https://github.com/Zx7ffa4512-Python/Project-CVE-2015-1635) :  ![starts](https://img.shields.io/github/stars/Zx7ffa4512-Python/Project-CVE-2015-1635.svg) ![forks](https://img.shields.io/github/forks/Zx7ffa4512-Python/Project-CVE-2015-1635.svg)- [https://github.com/neu5ron/cve_2015-1635](https://github.com/neu5ron/cve_2015-1635) :  ![starts](https://img.shields.io/github/stars/neu5ron/cve_2015-1635.svg) ![forks](https://img.shields.io/github/forks/neu5ron/cve_2015-1635.svg)- [https://github.com/bongbongco/MS15-034](https://github.com/bongbongco/MS15-034) :  ![starts](https://img.shields.io/github/stars/bongbongco/MS15-034.svg) ![forks](https://img.shields.io/github/forks/bongbongco/MS15-034.svg)- [https://github.com/w01ke/CVE-2015-1635-POC](https://github.com/w01ke/CVE-2015-1635-POC) :  ![starts](https://img.shields.io/github/stars/w01ke/CVE-2015-1635-POC.svg) ![forks](https://img.shields.io/github/forks/w01ke/CVE-2015-1635-POC.svg)- [https://github.com/crypticdante/CVE-2015-1635-POC](https://github.com/crypticdante/CVE-2015-1635-POC) :  ![starts](https://img.shields.io/github/stars/crypticdante/CVE-2015-1635-POC.svg) ![forks](https://img.shields.io/github/forks/crypticdante/CVE-2015-1635-POC.svg)- [https://github.com/limkokholefork/CVE-2015-1635](https://github.com/limkokholefork/CVE-2015-1635) :  ![starts](https://img.shields.io/github/stars/limkokholefork/CVE-2015-1635.svg) ![forks](https://img.shields.io/github/forks/limkokholefork/CVE-2015-1635.svg)- [https://github.com/u0pattern/Remove-IIS-RIIS](https://github.com/u0pattern/Remove-IIS-RIIS) :  ![starts](https://img.shields.io/github/stars/u0pattern/Remove-IIS-RIIS.svg) ![forks](https://img.shields.io/github/forks/u0pattern/Remove-IIS-RIIS.svg)- [https://github.com/crypticdante/CVE-2015-1635](https://github.com/crypticdante/CVE-2015-1635) :  ![starts](https://img.shields.io/github/stars/crypticdante/CVE-2015-1635.svg) ![forks](https://img.shields.io/github/forks/crypticdante/CVE-2015-1635.svg)- [https://github.com/SkinAir/ms15-034-Scan](https://github.com/SkinAir/ms15-034-Scan) :  ![starts](https://img.shields.io/github/stars/SkinAir/ms15-034-Scan.svg) ![forks](https://img.shields.io/github/forks/SkinAir/ms15-034-Scan.svg)- [https://github.com/wiredaem0n/chk-ms15-034](https://github.com/wiredaem0n/chk-ms15-034) :  ![starts](https://img.shields.io/github/stars/wiredaem0n/chk-ms15-034.svg) ![forks](https://img.shields.io/github/forks/wiredaem0n/chk-ms15-034.svg)",
+    "description": " HTTP.sys in Microsoft Windows 7 SP1, Windows Server 2008 R2 SP1, Windows 8, Windows 8.1, and Windows Server 2012 Gold and R2 allows remote attackers to execute arbitrary code via crafted HTTP requests, aka &quot;HTTP.sys Remote Code Execution Vulnerability.&quot;- [https://github.com/xPaw/HTTPsys](https://github.com/xPaw/HTTPsys) :  ![starts](https://img.shields.io/github/stars/xPaw/HTTPsys.svg) ![forks](https://img.shields.io/github/forks/xPaw/HTTPsys.svg)- [https://github.com/technion/erlvulnscan](https://github.com/technion/erlvulnscan) :  ![starts](https://img.shields.io/github/stars/technion/erlvulnscan.svg) ![forks](https://img.shields.io/github/forks/technion/erlvulnscan.svg)- [https://github.com/aedoo/CVE-2015-1635-POC](https://github.com/aedoo/CVE-2015-1635-POC) :  ![starts](https://img.shields.io/github/stars/aedoo/CVE-2015-1635-POC.svg) ![forks](https://img.shields.io/github/forks/aedoo/CVE-2015-1635-POC.svg)- [https://github.com/Zx7ffa4512-Python/Project-CVE-2015-1635](https://github.com/Zx7ffa4512-Python/Project-CVE-2015-1635) :  ![starts](https://img.shields.io/github/stars/Zx7ffa4512-Python/Project-CVE-2015-1635.svg) ![forks](https://img.shields.io/github/forks/Zx7ffa4512-Python/Project-CVE-2015-1635.svg)- [https://github.com/bongbongco/MS15-034](https://github.com/bongbongco/MS15-034) :  ![starts](https://img.shields.io/github/stars/bongbongco/MS15-034.svg) ![forks](https://img.shields.io/github/forks/bongbongco/MS15-034.svg)- [https://github.com/neu5ron/cve_2015-1635](https://github.com/neu5ron/cve_2015-1635) :  ![starts](https://img.shields.io/github/stars/neu5ron/cve_2015-1635.svg) ![forks](https://img.shields.io/github/forks/neu5ron/cve_2015-1635.svg)- [https://github.com/w01ke/CVE-2015-1635-POC](https://github.com/w01ke/CVE-2015-1635-POC) :  ![starts](https://img.shields.io/github/stars/w01ke/CVE-2015-1635-POC.svg) ![forks](https://img.shields.io/github/forks/w01ke/CVE-2015-1635-POC.svg)- [https://github.com/crypticdante/CVE-2015-1635-POC](https://github.com/crypticdante/CVE-2015-1635-POC) :  ![starts](https://img.shields.io/github/stars/crypticdante/CVE-2015-1635-POC.svg) ![forks](https://img.shields.io/github/forks/crypticdante/CVE-2015-1635-POC.svg)- [https://github.com/limkokholefork/CVE-2015-1635](https://github.com/limkokholefork/CVE-2015-1635) :  ![starts](https://img.shields.io/github/stars/limkokholefork/CVE-2015-1635.svg) ![forks](https://img.shields.io/github/forks/limkokholefork/CVE-2015-1635.svg)- [https://github.com/u0pattern/Remove-IIS-RIIS](https://github.com/u0pattern/Remove-IIS-RIIS) :  ![starts](https://img.shields.io/github/stars/u0pattern/Remove-IIS-RIIS.svg) ![forks](https://img.shields.io/github/forks/u0pattern/Remove-IIS-RIIS.svg)- [https://github.com/crypticdante/CVE-2015-1635](https://github.com/crypticdante/CVE-2015-1635) :  ![starts](https://img.shields.io/github/stars/crypticdante/CVE-2015-1635.svg) ![forks](https://img.shields.io/github/forks/crypticdante/CVE-2015-1635.svg)- [https://github.com/SkinAir/ms15-034-Scan](https://github.com/SkinAir/ms15-034-Scan) :  ![starts](https://img.shields.io/github/stars/SkinAir/ms15-034-Scan.svg) ![forks](https://img.shields.io/github/forks/SkinAir/ms15-034-Scan.svg)- [https://github.com/wiredaem0n/chk-ms15-034](https://github.com/wiredaem0n/chk-ms15-034) :  ![starts](https://img.shields.io/github/stars/wiredaem0n/chk-ms15-034.svg) ![forks](https://img.shields.io/github/forks/wiredaem0n/chk-ms15-034.svg)",
     "poc": []
   },
   {
@@ -37085,10 +37144,10 @@
       "https://github.com/rashmikadileeshara/CVE-2014-6271-Shellshock-",
       "https://github.com/0xConstant/CVE-2014-6271",
       "https://github.com/mritunjay-k/CVE-2014-6271",
+      "https://github.com/Brandaoo/CVE-2014-6271",
       "https://github.com/woltage/CVE-2014-6271",
       "https://github.com/cyberharsh/Shellbash-CVE-2014-6271",
       "https://github.com/0xTabun/CVE-2014-6271",
-      "https://github.com/Brandaoo/CVE-2014-6271",
       "https://github.com/mattclegg/CVE-2014-6271",
       "https://github.com/Dilith006/CVE-2014-6271",
       "https://github.com/rrreeeyyy/cve-2014-6271-spec",
@@ -37619,8 +37678,8 @@
       "https://github.com/GardeniaWhite/fuzzing",
       "https://github.com/xlucas/heartbleed",
       "https://github.com/waqasjamal-zz/HeartBleed-Vulnerability-Checker",
-      "https://github.com/cheese-hub/heartbleed",
       "https://github.com/caiqiqi/OpenSSL-HeartBleed-CVE-2014-0160-PoC",
+      "https://github.com/cheese-hub/heartbleed",
       "https://github.com/GeeksXtreme/ssl-heartbleed.nse",
       "https://github.com/cved-sources/cve-2014-0160",
       "https://github.com/a0726h77/heartbleed-test",
@@ -37633,20 +37692,20 @@
       "https://github.com/MrE-Fog/CVE-2014-0160-Chrome-Plugin",
       "https://github.com/marstornado/cve-2014-0160-Yunfeng-Jiang",
       "https://github.com/siddolo/knockbleed",
-      "https://github.com/iwaffles/heartbleed-test.crx",
       "https://github.com/WildfootW/CVE-2014-0160_OpenSSL_1.0.1f_Heartbleed",
+      "https://github.com/iwaffles/heartbleed-test.crx",
       "https://github.com/froyo75/Heartbleed_Dockerfile_with_Nginx",
       "https://github.com/artofscripting-zz/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS",
-      "https://github.com/takeshixx/ssl-heartbleed.nse",
       "https://github.com/indiw0rm/-Heartbleed-",
+      "https://github.com/takeshixx/ssl-heartbleed.nse",
       "https://github.com/iSCInc/heartbleed",
-      "https://github.com/rouze-d/heartbleed",
       "https://github.com/idkqh7/heatbleeding",
+      "https://github.com/rouze-d/heartbleed",
       "https://github.com/roganartu/heartbleedchecker-chrome",
       "https://github.com/cldme/heartbleed-bug",
       "https://github.com/ThanHuuTuan/Heartexploit",
-      "https://github.com/pierceoneill/bleeding-heart",
       "https://github.com/PinkP4nther/Heartbleed_PoC",
+      "https://github.com/pierceoneill/bleeding-heart",
       "https://github.com/xanas/heartbleed.py"
     ]
   },
