@@ -15,21 +15,21 @@
   },
   {
     "cve_code": "CVE-2023-44813",
-    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " Cross Site Scripting (XSS) vulnerability in mooSocial v.3.1.8 allows a remote attacker to execute arbitrary code via a crafted payload to the mode parameter of the invite friend login function.",
     "poc": [
       "https://github.com/ahrixia/CVE-2023-44813"
     ]
   },
   {
     "cve_code": "CVE-2023-44812",
-    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " Cross Site Scripting (XSS) vulnerability in mooSocial v.3.1.8 allows a remote attacker to execute arbitrary code via a crafted payload to the admin_redirect_url parameter of the user login function.",
     "poc": [
       "https://github.com/ahrixia/CVE-2023-44812"
     ]
   },
   {
     "cve_code": "CVE-2023-44811",
-    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " Cross Site Request Forgery (CSRF) vulnerability in MooSocial v.3.1.8 allows a remote attacker to execute arbitrary code and obtain sensitive information via the admin Password Change Function.",
     "poc": [
       "https://github.com/ahrixia/CVE-2023-44811"
     ]
@@ -625,6 +625,13 @@
     ]
   },
   {
+    "cve_code": "CVE-2023-40429",
+    "description": " A permissions issue was addressed with improved validation. This issue is fixed in tvOS 17, iOS 17 and iPadOS 17, watchOS 10, macOS Sonoma 14. An app may be able to access sensitive user data.",
+    "poc": [
+      "https://github.com/biscuitehh/cve-2023-40429-ez-device-name"
+    ]
+  },
+  {
     "cve_code": "CVE-2023-40297",
     "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
     "poc": [
@@ -853,13 +860,14 @@
       "https://github.com/PascalAsch/CVE-2023-38831-KQL",
       "https://github.com/Mich-ele/CVE-2023-38831-winrar",
       "https://github.com/SugiB3o/Keylog_CVE2023-38831",
+      "https://github.com/malvika-thakur/CVE-2023-38831",
       "https://github.com/z3r0sw0rd/CVE-2023-38831-PoC",
       "https://github.com/akhomlyuk/cve-2023-38831",
-      "https://github.com/malvika-thakur/CVE-2023-38831",
       "https://github.com/IR-HuntGuardians/CVE-2023-38831-HUNT",
       "https://github.com/elefantesagradodeluzinfinita/cve-2023-38831",
       "https://github.com/xaitax/WinRAR-CVE-2023-38831",
       "https://github.com/thegr1ffyn/CVE-2023-38831",
+      "https://github.com/ameerpornillos/CVE-2023-38831-WinRAR-Exploit",
       "https://github.com/GOTonyGO/CVE-2023-38831-winrar",
       "https://github.com/an040702/CVE-2023-38831",
       "https://github.com/asepsaepdin/CVE-2023-38831",
@@ -867,8 +875,7 @@
       "https://github.com/nhman-python/CVE-2023-38831",
       "https://github.com/Fa1c0n35/CVE-2023-38831-winrar-exploit",
       "https://github.com/MortySecurity/CVE-2023-38831-Exploit-and-Detection",
-      "https://github.com/BeniBeastt/CVE-2023-38831_ReverseShell_Winrar",
-      "https://github.com/ameerpornillos/CVE-2023-38831-WinRAR-Exploit"
+      "https://github.com/BeniBeastt/CVE-2023-38831_ReverseShell_Winrar"
     ]
   },
   {
@@ -1229,8 +1236,8 @@
       "https://github.com/halencarjunior/CVE-2023-36845",
       "https://github.com/r3dcl1ff/CVE-2023-36844_Juniper_RCE",
       "https://github.com/simrotion13/CVE-2023-36845",
-      "https://github.com/toanln-cov/CVE-2023-36845",
       "https://github.com/cyberh3als/CVE-2023-36845-POC",
+      "https://github.com/toanln-cov/CVE-2023-36845",
       "https://github.com/WhiteOwl-Pub/PoC-Vuln-Detector-juniper-cve-2023-36845"
     ]
   },
@@ -1970,7 +1977,7 @@
   },
   {
     "cve_code": "CVE-2023-32629",
-    "description": " Local privilege escalation vulnerability in Ubuntu Kernels overlayfs ovl_copy_up_meta_inode_data skip permission checks when calling ovl_do_setxattr on Ubuntu kernels- [https://github.com/kaotickj/Check-for-CVE-2023-32629-GameOver-lay](https://github.com/kaotickj/Check-for-CVE-2023-32629-GameOver-lay) :  ![starts](https://img.shields.io/github/stars/kaotickj/Check-for-CVE-2023-32629-GameOver-lay.svg) ![forks](https://img.shields.io/github/forks/kaotickj/Check-for-CVE-2023-32629-GameOver-lay.svg)- [https://github.com/luanoliveira350/GameOverlayFS](https://github.com/luanoliveira350/GameOverlayFS) :  ![starts](https://img.shields.io/github/stars/luanoliveira350/GameOverlayFS.svg) ![forks](https://img.shields.io/github/forks/luanoliveira350/GameOverlayFS.svg)- [https://github.com/OllaPapito/gameoverlay](https://github.com/OllaPapito/gameoverlay) :  ![starts](https://img.shields.io/github/stars/OllaPapito/gameoverlay.svg) ![forks](https://img.shields.io/github/forks/OllaPapito/gameoverlay.svg)- [https://github.com/johnlettman/juju-scripts](https://github.com/johnlettman/juju-scripts) :  ![starts](https://img.shields.io/github/stars/johnlettman/juju-scripts.svg) ![forks](https://img.shields.io/github/forks/johnlettman/juju-scripts.svg)",
+    "description": " Local privilege escalation vulnerability in Ubuntu Kernels overlayfs ovl_copy_up_meta_inode_data skip permission checks when calling ovl_do_setxattr on Ubuntu kernels- [https://github.com/kaotickj/Check-for-CVE-2023-32629-GameOver-lay](https://github.com/kaotickj/Check-for-CVE-2023-32629-GameOver-lay) :  ![starts](https://img.shields.io/github/stars/kaotickj/Check-for-CVE-2023-32629-GameOver-lay.svg) ![forks](https://img.shields.io/github/forks/kaotickj/Check-for-CVE-2023-32629-GameOver-lay.svg)- [https://github.com/luanoliveira350/GameOverlayFS](https://github.com/luanoliveira350/GameOverlayFS) :  ![starts](https://img.shields.io/github/stars/luanoliveira350/GameOverlayFS.svg) ![forks](https://img.shields.io/github/forks/luanoliveira350/GameOverlayFS.svg)- [https://github.com/OllaPapito/gameoverlay](https://github.com/OllaPapito/gameoverlay) :  ![starts](https://img.shields.io/github/stars/OllaPapito/gameoverlay.svg) ![forks](https://img.shields.io/github/forks/OllaPapito/gameoverlay.svg)- [https://github.com/johnlettman/juju-scripts](https://github.com/johnlettman/juju-scripts) :  ![starts](https://img.shields.io/github/stars/johnlettman/juju-scripts.svg) ![forks](https://img.shields.io/github/forks/johnlettman/juju-scripts.svg)- [https://github.com/g1vi/CVE-2023-2640-CVE-2023-32629](https://github.com/g1vi/CVE-2023-2640-CVE-2023-32629) :  ![starts](https://img.shields.io/github/stars/g1vi/CVE-2023-2640-CVE-2023-32629.svg) ![forks](https://img.shields.io/github/forks/g1vi/CVE-2023-2640-CVE-2023-32629.svg)",
     "poc": []
   },
   {
@@ -2431,8 +2438,8 @@
       "https://github.com/mallutrojan/CVE-2023-30212-Lab",
       "https://github.com/libas7994/Exploit-the-CVE-2023-30212-vulnerability",
       "https://github.com/AAsh035/CVE-2023-30212",
-      "https://github.com/kai-iszz/CVE-2023-30212",
       "https://github.com/Anandhu990/CVE-2023-30212-iab",
+      "https://github.com/kai-iszz/CVE-2023-30212",
       "https://github.com/Anandhu990/CVE-2023-30212_lab",
       "https://github.com/libasv/Exploite-CVE-2023-30212-vulnerability",
       "https://github.com/Anandhu990/r-CVE-2023-30212-lab",
@@ -3278,8 +3285,8 @@
     "cve_code": "CVE-2023-24538",
     "description": " Templates do not properly consider backticks (`) as Javascript string delimiters, and do not escape them as expected. Backticks are used, since ES6, for JS template literals. If a template contains a Go template action within a Javascript template literal, the contents of the action can be used to terminate the literal, injecting arbitrary Javascript code into the Go template. As ES6 template literals are rather complex, and themselves can do string interpolation, the decision was made to simply disallow Go template actions from being used inside of them (e.g. &quot;var a = {{.}}&quot;), since there is no obviously safe way to allow this behavior. This takes the same approach as github.com/google/safehtml. With fix, Template.Parse returns an Error when it encounters templates like this, with an ErrorCode of value 12. This ErrorCode is currently unexported, but will be exported in the release of Go 1.21. Users who rely on the previous behavior can re-enable it using the GODEBUG flag jstmpllitinterp=1, with the caveat that backticks will now be escaped. This should be used with caution.",
     "poc": [
-      "https://github.com/skulkarni-mv/goIssue_kirkstone",
-      "https://github.com/skulkarni-mv/goIssue_dunfell"
+      "https://github.com/skulkarni-mv/goIssue_dunfell",
+      "https://github.com/skulkarni-mv/goIssue_kirkstone"
     ]
   },
   {
@@ -3293,7 +3300,7 @@
   },
   {
     "cve_code": "CVE-2023-24488",
-    "description": " Cross site scripting vulnerability in Citrix ADC and Citrix Gateway in allows and attacker to perform cross site scripting- [https://github.com/Abo5/CVE-2023-24488](https://github.com/Abo5/CVE-2023-24488) :  ![starts](https://img.shields.io/github/stars/Abo5/CVE-2023-24488.svg) ![forks](https://img.shields.io/github/forks/Abo5/CVE-2023-24488.svg)- [https://github.com/securitycipher/CVE-2023-24488](https://github.com/securitycipher/CVE-2023-24488) :  ![starts](https://img.shields.io/github/stars/securitycipher/CVE-2023-24488.svg) ![forks](https://img.shields.io/github/forks/securitycipher/CVE-2023-24488.svg)- [https://github.com/SirBugs/CVE-2023-24488-PoC](https://github.com/SirBugs/CVE-2023-24488-PoC) :  ![starts](https://img.shields.io/github/stars/SirBugs/CVE-2023-24488-PoC.svg) ![forks](https://img.shields.io/github/forks/SirBugs/CVE-2023-24488-PoC.svg)- [https://github.com/NSTCyber/CVE-2023-24488-SIEM-Sigma-Rule](https://github.com/NSTCyber/CVE-2023-24488-SIEM-Sigma-Rule) :  ![starts](https://img.shields.io/github/stars/NSTCyber/CVE-2023-24488-SIEM-Sigma-Rule.svg) ![forks](https://img.shields.io/github/forks/NSTCyber/CVE-2023-24488-SIEM-Sigma-Rule.svg)- [https://github.com/codeb0ss/cve-2023-24488](https://github.com/codeb0ss/cve-2023-24488) :  ![starts](https://img.shields.io/github/stars/codeb0ss/cve-2023-24488.svg) ![forks](https://img.shields.io/github/forks/codeb0ss/cve-2023-24488.svg)- [https://github.com/LazyySec/CVE-2023-24488](https://github.com/LazyySec/CVE-2023-24488) :  ![starts](https://img.shields.io/github/stars/LazyySec/CVE-2023-24488.svg) ![forks](https://img.shields.io/github/forks/LazyySec/CVE-2023-24488.svg)",
+    "description": " Cross site scripting vulnerability in Citrix ADC and Citrix Gateway in allows and attacker to perform cross site scripting- [https://github.com/Abo5/CVE-2023-24488](https://github.com/Abo5/CVE-2023-24488) :  ![starts](https://img.shields.io/github/stars/Abo5/CVE-2023-24488.svg) ![forks](https://img.shields.io/github/forks/Abo5/CVE-2023-24488.svg)- [https://github.com/securitycipher/CVE-2023-24488](https://github.com/securitycipher/CVE-2023-24488) :  ![starts](https://img.shields.io/github/stars/securitycipher/CVE-2023-24488.svg) ![forks](https://img.shields.io/github/forks/securitycipher/CVE-2023-24488.svg)- [https://github.com/SirBugs/CVE-2023-24488-PoC](https://github.com/SirBugs/CVE-2023-24488-PoC) :  ![starts](https://img.shields.io/github/stars/SirBugs/CVE-2023-24488-PoC.svg) ![forks](https://img.shields.io/github/forks/SirBugs/CVE-2023-24488-PoC.svg)- [https://github.com/codeb0ss/cve-2023-24488](https://github.com/codeb0ss/cve-2023-24488) :  ![starts](https://img.shields.io/github/stars/codeb0ss/cve-2023-24488.svg) ![forks](https://img.shields.io/github/forks/codeb0ss/cve-2023-24488.svg)- [https://github.com/NSTCyber/CVE-2023-24488-SIEM-Sigma-Rule](https://github.com/NSTCyber/CVE-2023-24488-SIEM-Sigma-Rule) :  ![starts](https://img.shields.io/github/stars/NSTCyber/CVE-2023-24488-SIEM-Sigma-Rule.svg) ![forks](https://img.shields.io/github/forks/NSTCyber/CVE-2023-24488-SIEM-Sigma-Rule.svg)- [https://github.com/LazyySec/CVE-2023-24488](https://github.com/LazyySec/CVE-2023-24488) :  ![starts](https://img.shields.io/github/stars/LazyySec/CVE-2023-24488.svg) ![forks](https://img.shields.io/github/forks/LazyySec/CVE-2023-24488.svg)",
     "poc": []
   },
   {
@@ -3378,9 +3385,9 @@
       "https://github.com/karthikuj/CVE-2023-23752-Docker",
       "https://github.com/adhikara13/CVE-2023-23752",
       "https://github.com/GhostToKnow/CVE-2023-23752",
-      "https://github.com/0xNahim/CVE-2023-23752",
       "https://github.com/YusinoMy/CVE-2023-23752",
       "https://github.com/ibaiw/joomla_CVE-2023-23752",
+      "https://github.com/0xNahim/CVE-2023-23752",
       "https://github.com/haxor1337x/Mass-Checker-CVE-2023-23752",
       "https://github.com/adriyansyah-mf/CVE-2023-23752",
       "https://github.com/HaxorSec1945/CVE2023-23752",
@@ -3388,9 +3395,9 @@
       "https://github.com/AkbarWiraN/Joomla-Scanner",
       "https://github.com/Vulnmachines/joomla_CVE-2023-23752",
       "https://github.com/MrP4nda1337/CVE-2023-23752",
-      "https://github.com/wibuheker/Joomla-CVE-2023-23752",
+      "https://github.com/Jenderal92/Joomla-CVE-2023-23752",
       "https://github.com/H454NSec/CVE-2023-23752",
-      "https://github.com/Jenderal92/Joomla-CVE-2023-23752"
+      "https://github.com/wibuheker/Joomla-CVE-2023-23752"
     ]
   },
   {
@@ -3598,7 +3605,8 @@
     "cve_code": "CVE-2023-22515",
     "description": " Atlassian has been made aware of an issue reported by a handful of customers where external attackers may have exploited a previously unknown vulnerability in publicly accessible Confluence Data Center and Server instances to create unauthorized Confluence administrator accounts and access Confluence instances. Atlassian Cloud sites are not affected by this vulnerability. If your Confluence site is accessed via an atlassian.net domain, it is hosted by Atlassian and is not vulnerable to this issue. For more details, please review the linked advisory on this CVE.",
     "poc": [
-      "https://github.com/ErikWynter/CVE-2023-22515-Scan"
+      "https://github.com/ErikWynter/CVE-2023-22515-Scan",
+      "https://github.com/w33ys/CVE-2023-22515-RCE"
     ]
   },
   {
@@ -3787,6 +3795,20 @@
     ]
   },
   {
+    "cve_code": "CVE-2023-21246",
+    "description": " In ShortcutInfo of ShortcutInfo.java, there is a possible way for an app to retain notification listening access due to an uncaught exception. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
+    "poc": [
+      "https://github.com/Trinadh465/frameworks_base_AOSP10_r33_CVE-2023-21246"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-21238",
+    "description": " In visitUris of RemoteViews.java, there is a possible leak of images between users due to a confused deputy. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.",
+    "poc": [
+      "https://github.com/Trinadh465/frameworks_base_AOSP10_r33_CVE-2023-21238"
+    ]
+  },
+  {
     "cve_code": "CVE-2023-21036",
     "description": " In BitmapExport.java, there is a possible failure to truncate images due to a logic error in the code.Product: AndroidVersions: Android kernelAndroid ID: A-264261868References: N/A- [https://github.com/infobyte/CVE-2023-21036](https://github.com/infobyte/CVE-2023-21036) :  ![starts](https://img.shields.io/github/stars/infobyte/CVE-2023-21036.svg) ![forks](https://img.shields.io/github/forks/infobyte/CVE-2023-21036.svg)- [https://github.com/frankthetank-music/Acropalypse-Multi-Tool](https://github.com/frankthetank-music/Acropalypse-Multi-Tool) :  ![starts](https://img.shields.io/github/stars/frankthetank-music/Acropalypse-Multi-Tool.svg) ![forks](https://img.shields.io/github/forks/frankthetank-music/Acropalypse-Multi-Tool.svg)- [https://github.com/qixils/AntiCropalypse](https://github.com/qixils/AntiCropalypse) :  ![starts](https://img.shields.io/github/stars/qixils/AntiCropalypse.svg) ![forks](https://img.shields.io/github/forks/qixils/AntiCropalypse.svg)- [https://github.com/lordofpipes/acropadetect](https://github.com/lordofpipes/acropadetect) :  ![starts](https://img.shields.io/github/stars/lordofpipes/acropadetect.svg) ![forks](https://img.shields.io/github/forks/lordofpipes/acropadetect.svg)- [https://github.com/notaSWE/gocropalypse](https://github.com/notaSWE/gocropalypse) :  ![starts](https://img.shields.io/github/stars/notaSWE/gocropalypse.svg) ![forks](https://img.shields.io/github/forks/notaSWE/gocropalypse.svg)",
     "poc": []
@@ -3887,8 +3909,8 @@
     "cve_code": "CVE-2023-20073",
     "description": " A vulnerability in the web-based management interface of Cisco RV340, RV340W, RV345, and RV345P Dual WAN Gigabit VPN Routers could allow an unauthenticated, remote attacker to upload arbitrary files to an affected device. This vulnerability is due to insufficient authorization enforcement mechanisms in the context of file uploads. An attacker could exploit this vulnerability by sending a crafted HTTP request to an affected device. A successful exploit could allow the attacker to upload arbitrary files to the affected device.",
     "poc": [
-      "https://github.com/RegularITCat/CVE-2023-20073",
-      "https://github.com/codeb0ss/CVE-2023-20073-"
+      "https://github.com/codeb0ss/CVE-2023-20073-",
+      "https://github.com/RegularITCat/CVE-2023-20073"
     ]
   },
   {
@@ -3915,7 +3937,7 @@
   },
   {
     "cve_code": "CVE-2023-5217",
-    "description": " Heap buffer overflow in vp8 encoding in libvpx in Google Chrome prior to 117.0.5938.132 and libvpx 1.13.1 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)- [https://github.com/Trinadh465/platform_external_libvpx_v1.8.0_CVE-2023-5217](https://github.com/Trinadh465/platform_external_libvpx_v1.8.0_CVE-2023-5217) :  ![starts](https://img.shields.io/github/stars/Trinadh465/platform_external_libvpx_v1.8.0_CVE-2023-5217.svg) ![forks](https://img.shields.io/github/forks/Trinadh465/platform_external_libvpx_v1.8.0_CVE-2023-5217.svg)- [https://github.com/Trinadh465/platform_external_libvpx_v1.4.0_CVE-2023-5217](https://github.com/Trinadh465/platform_external_libvpx_v1.4.0_CVE-2023-5217) :  ![starts](https://img.shields.io/github/stars/Trinadh465/platform_external_libvpx_v1.4.0_CVE-2023-5217.svg) ![forks](https://img.shields.io/github/forks/Trinadh465/platform_external_libvpx_v1.4.0_CVE-2023-5217.svg)",
+    "description": " Heap buffer overflow in vp8 encoding in libvpx in Google Chrome prior to 117.0.5938.132 and libvpx 1.13.1 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)- [https://github.com/Trinadh465/platform_external_libvpx_v1.4.0_CVE-2023-5217](https://github.com/Trinadh465/platform_external_libvpx_v1.4.0_CVE-2023-5217) :  ![starts](https://img.shields.io/github/stars/Trinadh465/platform_external_libvpx_v1.4.0_CVE-2023-5217.svg) ![forks](https://img.shields.io/github/forks/Trinadh465/platform_external_libvpx_v1.4.0_CVE-2023-5217.svg)- [https://github.com/Trinadh465/platform_external_libvpx_v1.8.0_CVE-2023-5217](https://github.com/Trinadh465/platform_external_libvpx_v1.8.0_CVE-2023-5217) :  ![starts](https://img.shields.io/github/stars/Trinadh465/platform_external_libvpx_v1.8.0_CVE-2023-5217.svg) ![forks](https://img.shields.io/github/forks/Trinadh465/platform_external_libvpx_v1.8.0_CVE-2023-5217.svg)",
     "poc": []
   },
   {
@@ -3959,7 +3981,8 @@
       "https://github.com/leesh3288/CVE-2023-4911",
       "https://github.com/RickdeJager/CVE-2023-4911",
       "https://github.com/Green-Avocado/CVE-2023-4911",
-      "https://github.com/xiaoQ1z/CVE-2023-4911"
+      "https://github.com/xiaoQ1z/CVE-2023-4911",
+      "https://github.com/0xtrace/CVE-2023-4911-Looney-Tunables-"
     ]
   },
   {
@@ -4117,8 +4140,8 @@
     "cve_code": "CVE-2023-3836",
     "description": " A vulnerability classified as critical was found in Dahua Smart Park Management up to 20230713. This vulnerability affects unknown code of the file /emap/devicePoint_addImgIco?hasSubsystem=true. The manipulation of the argument upload leads to unrestricted upload. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-235162 is the identifier assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.",
     "poc": [
-      "https://github.com/zh-byte/CVE-2023-3836",
-      "https://github.com/codeb0ss/CVE-2023-3836"
+      "https://github.com/codeb0ss/CVE-2023-3836",
+      "https://github.com/zh-byte/CVE-2023-3836"
     ]
   },
   {
@@ -4146,8 +4169,8 @@
     "cve_code": "CVE-2023-3567",
     "description": " A use-after-free flaw was found in vcs_read in drivers/tty/vt/vc_screen.c in vc_screen in the Linux Kernel. This issue may allow an attacker with local user access to cause a system crash or leak internal kernel information.",
     "poc": [
-      "https://github.com/nidhi7598/linux-4.19.72_CVE-2023-3567",
-      "https://github.com/nidhi7598/linux-4.1.15_CVE-2023-3567"
+      "https://github.com/nidhi7598/linux-4.1.15_CVE-2023-3567",
+      "https://github.com/nidhi7598/linux-4.19.72_CVE-2023-3567"
     ]
   },
   {
@@ -4339,7 +4362,8 @@
     "poc": [
       "https://github.com/luanoliveira350/GameOverlayFS",
       "https://github.com/OllaPapito/gameoverlay",
-      "https://github.com/johnlettman/juju-scripts"
+      "https://github.com/johnlettman/juju-scripts",
+      "https://github.com/g1vi/CVE-2023-2640-CVE-2023-32629"
     ]
   },
   {
@@ -40101,8 +40125,8 @@
     "poc": [
       "https://github.com/ivanitlearning/CVE-2004-1561",
       "https://github.com/thel1nus/CVE-2004-1561-Notes",
-      "https://github.com/ratiros01/CVE-2004-1561",
-      "https://github.com/darrynb89/CVE-2004-1561"
+      "https://github.com/darrynb89/CVE-2004-1561",
+      "https://github.com/ratiros01/CVE-2004-1561"
     ]
   },
   {
