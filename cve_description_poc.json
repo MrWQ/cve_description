@@ -85,7 +85,7 @@
   },
   {
     "cve_code": "CVE-2023-44763",
-    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " Concrete CMS v9.2.1 is affected by Arbitrary File Upload vulnerability via the Thumbnail&quot; file upload, which allows Cross-Site Scripting (XSS).",
     "poc": [
       "https://github.com/sromanhu/CVE-2023-44763_ConcreteCMS-Arbitrary-file-upload-Thumbnail"
     ]
@@ -116,6 +116,14 @@
     "description": " GDidees CMS 3.0 is affected by a Cross-Site Scripting (XSS) vulnerability that allows attackers to execute arbitrary code via a crafted payload to the Page Title.",
     "poc": [
       "https://github.com/sromanhu/CVE-2023-44758_GDidees-CMS-Stored-XSS---Title"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-44487",
+    "description": " The HTTP/2 protocol allows a denial of service (server resource consumption) because request cancellation can reset many streams quickly, as exploited in the wild in August through October 2023.",
+    "poc": [
+      "https://github.com/bcdannyboy/CVE-2023-44487",
+      "https://github.com/imabee101/CVE-2023-44487"
     ]
   },
   {
@@ -389,7 +397,9 @@
     "cve_code": "CVE-2023-42820",
     "description": " JumpServer is an open source bastion host. This vulnerability is due to exposing the random number seed to the API, potentially allowing the randomly generated verification codes to be replayed, which could lead to password resets. If MFA is enabled users are not affect. Users not using local authentication are also not affected. Users are advised to upgrade to either version 2.28.19 or to 3.6.5. There are no known workarounds or this issue.",
     "poc": [
-      "https://github.com/wh-gov/CVE-2023-42820"
+      "https://github.com/C1ph3rX13/CVE-2023-42820",
+      "https://github.com/wh-gov/CVE-2023-42820",
+      "https://github.com/Startr4ck/cve-2023-42820"
     ]
   },
   {
@@ -857,25 +867,25 @@
       "https://github.com/Malwareman007/CVE-2023-38831",
       "https://github.com/K3rnel-Dev/WinrarExploit",
       "https://github.com/MorDavid/CVE-2023-38831-Winrar-Exploit-Generator-POC",
-      "https://github.com/PascalAsch/CVE-2023-38831-KQL",
       "https://github.com/Mich-ele/CVE-2023-38831-winrar",
+      "https://github.com/PascalAsch/CVE-2023-38831-KQL",
       "https://github.com/SugiB3o/Keylog_CVE2023-38831",
       "https://github.com/malvika-thakur/CVE-2023-38831",
       "https://github.com/z3r0sw0rd/CVE-2023-38831-PoC",
       "https://github.com/akhomlyuk/cve-2023-38831",
-      "https://github.com/IR-HuntGuardians/CVE-2023-38831-HUNT",
       "https://github.com/elefantesagradodeluzinfinita/cve-2023-38831",
-      "https://github.com/xaitax/WinRAR-CVE-2023-38831",
+      "https://github.com/IR-HuntGuardians/CVE-2023-38831-HUNT",
       "https://github.com/thegr1ffyn/CVE-2023-38831",
+      "https://github.com/xaitax/WinRAR-CVE-2023-38831",
       "https://github.com/ameerpornillos/CVE-2023-38831-WinRAR-Exploit",
       "https://github.com/GOTonyGO/CVE-2023-38831-winrar",
-      "https://github.com/an040702/CVE-2023-38831",
       "https://github.com/asepsaepdin/CVE-2023-38831",
+      "https://github.com/an040702/CVE-2023-38831",
       "https://github.com/IMHarman/CVE-2023-38831",
       "https://github.com/nhman-python/CVE-2023-38831",
       "https://github.com/Fa1c0n35/CVE-2023-38831-winrar-exploit",
-      "https://github.com/MortySecurity/CVE-2023-38831-Exploit-and-Detection",
-      "https://github.com/BeniBeastt/CVE-2023-38831_ReverseShell_Winrar"
+      "https://github.com/BeniBeastt/CVE-2023-38831_ReverseShell_Winrar",
+      "https://github.com/MortySecurity/CVE-2023-38831-Exploit-and-Detection"
     ]
   },
   {
@@ -922,17 +932,19 @@
       "https://github.com/securezeron/CVE-2023-38646",
       "https://github.com/0xrobiul/CVE-2023-38646",
       "https://github.com/Pumpkin-Garden/POC_Metabase_CVE-2023-38646",
+      "https://github.com/Boogipop/MetabaseRceTools",
       "https://github.com/shamo0/CVE-2023-38646-PoC",
       "https://github.com/kh4sh3i/CVE-2023-38646",
       "https://github.com/Xuxfff/CVE-2023-38646-Poc",
       "https://github.com/fidjiw/CVE-2023-38646-POC",
       "https://github.com/Zenmovie/CVE-2023-38646",
+      "https://github.com/alexandre-pecorilla/CVE-2023-38646",
       "https://github.com/joaoviictorti/CVE-2023-38646",
       "https://github.com/Any3ite/cve-2023-38646-metabase-ReverseShell",
       "https://github.com/LazyySec/CVE-2023-38646",
-      "https://github.com/alexandre-pecorilla/CVE-2023-38646",
+      "https://github.com/yxl2001/CVE-2023-38646",
       "https://github.com/adriyansyah-mf/CVE-2023-38646--Metabase-",
-      "https://github.com/yxl2001/CVE-2023-38646"
+      "https://github.com/CN016/Metabase-H2-CVE-2023-38646-"
     ]
   },
   {
@@ -1236,8 +1248,8 @@
       "https://github.com/halencarjunior/CVE-2023-36845",
       "https://github.com/r3dcl1ff/CVE-2023-36844_Juniper_RCE",
       "https://github.com/simrotion13/CVE-2023-36845",
-      "https://github.com/cyberh3als/CVE-2023-36845-POC",
       "https://github.com/toanln-cov/CVE-2023-36845",
+      "https://github.com/cyberh3als/CVE-2023-36845-POC",
       "https://github.com/WhiteOwl-Pub/PoC-Vuln-Detector-juniper-cve-2023-36845"
     ]
   },
@@ -1256,6 +1268,16 @@
     "poc": [
       "https://github.com/ErikWynter/opentsdb_key_cmd_injection"
     ]
+  },
+  {
+    "cve_code": "CVE-2023-36802",
+    "description": " Microsoft Streaming Service Proxy Elevation of Privilege Vulnerability- [https://github.com/chompie1337/Windows_MSKSSRV_LPE_CVE-2023-36802](https://github.com/chompie1337/Windows_MSKSSRV_LPE_CVE-2023-36802) :  ![starts](https://img.shields.io/github/stars/chompie1337/Windows_MSKSSRV_LPE_CVE-2023-36802.svg) ![forks](https://img.shields.io/github/forks/chompie1337/Windows_MSKSSRV_LPE_CVE-2023-36802.svg)",
+    "poc": []
+  },
+  {
+    "cve_code": "CVE-2023-36723",
+    "description": " Windows Container Manager Service Elevation of Privilege Vulnerability- [https://github.com/Wh04m1001/CVE-2023-36723](https://github.com/Wh04m1001/CVE-2023-36723) :  ![starts](https://img.shields.io/github/stars/Wh04m1001/CVE-2023-36723.svg) ![forks](https://img.shields.io/github/forks/Wh04m1001/CVE-2023-36723.svg)",
+    "poc": []
   },
   {
     "cve_code": "CVE-2023-36664",
@@ -2012,7 +2034,8 @@
       "https://github.com/izzz0/CVE-2023-32315-POC",
       "https://github.com/gibran-abdillah/CVE-2023-32315",
       "https://github.com/5rGJ5aCh5oCq5YW9/CVE-2023-32315exp",
-      "https://github.com/ohnonoyesyes/CVE-2023-32315"
+      "https://github.com/ohnonoyesyes/CVE-2023-32315",
+      "https://github.com/CN016/Openfire-RCE-CVE-2023-32315-"
     ]
   },
   {
@@ -2515,7 +2538,8 @@
     "description": " PowerJob V4.3.1 is vulnerable to Incorrect Access Control via the create user/save interface.",
     "poc": [
       "https://github.com/1820112015/CVE-2023-29923",
-      "https://github.com/CKevens/CVE-2023-29923-Scan"
+      "https://github.com/CKevens/CVE-2023-29923-Scan",
+      "https://github.com/CN016/Powerjob-CVE-2023-29922-"
     ]
   },
   {
@@ -2599,7 +2623,7 @@
   },
   {
     "cve_code": "CVE-2023-29357",
-    "description": " Microsoft SharePoint Server Elevation of Privilege Vulnerability- [https://github.com/Chocapikk/CVE-2023-29357](https://github.com/Chocapikk/CVE-2023-29357) :  ![starts](https://img.shields.io/github/stars/Chocapikk/CVE-2023-29357.svg) ![forks](https://img.shields.io/github/forks/Chocapikk/CVE-2023-29357.svg)- [https://github.com/LuemmelSec/CVE-2023-29357](https://github.com/LuemmelSec/CVE-2023-29357) :  ![starts](https://img.shields.io/github/stars/LuemmelSec/CVE-2023-29357.svg) ![forks](https://img.shields.io/github/forks/LuemmelSec/CVE-2023-29357.svg)",
+    "description": " Microsoft SharePoint Server Elevation of Privilege Vulnerability- [https://github.com/Chocapikk/CVE-2023-29357](https://github.com/Chocapikk/CVE-2023-29357) :  ![starts](https://img.shields.io/github/stars/Chocapikk/CVE-2023-29357.svg) ![forks](https://img.shields.io/github/forks/Chocapikk/CVE-2023-29357.svg)- [https://github.com/LuemmelSec/CVE-2023-29357](https://github.com/LuemmelSec/CVE-2023-29357) :  ![starts](https://img.shields.io/github/stars/LuemmelSec/CVE-2023-29357.svg) ![forks](https://img.shields.io/github/forks/LuemmelSec/CVE-2023-29357.svg)- [https://github.com/KeyStrOke95/CVE-2023-29357-ExE](https://github.com/KeyStrOke95/CVE-2023-29357-ExE) :  ![starts](https://img.shields.io/github/stars/KeyStrOke95/CVE-2023-29357-ExE.svg) ![forks](https://img.shields.io/github/forks/KeyStrOke95/CVE-2023-29357-ExE.svg)",
     "poc": []
   },
   {
@@ -2867,7 +2891,8 @@
       "https://github.com/antx-code/CVE-2023-27524",
       "https://github.com/jakabakos/CVE-2023-27524-Apache-Superset-Auth-Bypass-and-RCE",
       "https://github.com/necroteddy/CVE-2023-27524",
-      "https://github.com/MaanVader/CVE-2023-27524-POC"
+      "https://github.com/MaanVader/CVE-2023-27524-POC",
+      "https://github.com/CN016/Apache-Superset-SECRET_KEY-CVE-2023-27524-"
     ]
   },
   {
@@ -2894,7 +2919,8 @@
     "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
     "poc": [
       "https://github.com/webraybtl/CVE-2023-27363",
-      "https://github.com/qwqdanchun/CVE-2023-27363"
+      "https://github.com/qwqdanchun/CVE-2023-27363",
+      "https://github.com/CN016/-Foxit-PDF-CVE-2023-27363-"
     ]
   },
   {
@@ -2950,9 +2976,9 @@
       "https://github.com/davuXVI/CVE-2023-27163",
       "https://github.com/HusenjanDev/CVE-2023-27163-AND-Mailtrail-v0.53",
       "https://github.com/overgrowncarrot1/CVE-2023-27163",
-      "https://github.com/thomas-osgood/CVE-2023-27163",
       "https://github.com/0xFTW/CVE-2023-27163",
       "https://github.com/Hamibubu/CVE-2023-27163",
+      "https://github.com/thomas-osgood/CVE-2023-27163",
       "https://github.com/rvizx/CVE-2023-27163"
     ]
   },
@@ -3385,9 +3411,9 @@
       "https://github.com/karthikuj/CVE-2023-23752-Docker",
       "https://github.com/adhikara13/CVE-2023-23752",
       "https://github.com/GhostToKnow/CVE-2023-23752",
+      "https://github.com/0xNahim/CVE-2023-23752",
       "https://github.com/YusinoMy/CVE-2023-23752",
       "https://github.com/ibaiw/joomla_CVE-2023-23752",
-      "https://github.com/0xNahim/CVE-2023-23752",
       "https://github.com/haxor1337x/Mass-Checker-CVE-2023-23752",
       "https://github.com/adriyansyah-mf/CVE-2023-23752",
       "https://github.com/HaxorSec1945/CVE2023-23752",
@@ -3395,9 +3421,9 @@
       "https://github.com/AkbarWiraN/Joomla-Scanner",
       "https://github.com/Vulnmachines/joomla_CVE-2023-23752",
       "https://github.com/MrP4nda1337/CVE-2023-23752",
-      "https://github.com/Jenderal92/Joomla-CVE-2023-23752",
+      "https://github.com/wibuheker/Joomla-CVE-2023-23752",
       "https://github.com/H454NSec/CVE-2023-23752",
-      "https://github.com/wibuheker/Joomla-CVE-2023-23752"
+      "https://github.com/Jenderal92/Joomla-CVE-2023-23752"
     ]
   },
   {
@@ -3606,7 +3632,9 @@
     "description": " Atlassian has been made aware of an issue reported by a handful of customers where external attackers may have exploited a previously unknown vulnerability in publicly accessible Confluence Data Center and Server instances to create unauthorized Confluence administrator accounts and access Confluence instances. Atlassian Cloud sites are not affected by this vulnerability. If your Confluence site is accessed via an atlassian.net domain, it is hosted by Atlassian and is not vulnerable to this issue. For more details, please review the linked advisory on this CVE.",
     "poc": [
       "https://github.com/ErikWynter/CVE-2023-22515-Scan",
-      "https://github.com/w33ys/CVE-2023-22515-RCE"
+      "https://github.com/Chocapikk/CVE-2023-22515",
+      "https://github.com/j3seer/CVE-2023-22515-POC",
+      "https://github.com/r4p70rs/CVE-2023-22515-PoC"
     ]
   },
   {
@@ -3937,7 +3965,7 @@
   },
   {
     "cve_code": "CVE-2023-5217",
-    "description": " Heap buffer overflow in vp8 encoding in libvpx in Google Chrome prior to 117.0.5938.132 and libvpx 1.13.1 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)- [https://github.com/Trinadh465/platform_external_libvpx_v1.4.0_CVE-2023-5217](https://github.com/Trinadh465/platform_external_libvpx_v1.4.0_CVE-2023-5217) :  ![starts](https://img.shields.io/github/stars/Trinadh465/platform_external_libvpx_v1.4.0_CVE-2023-5217.svg) ![forks](https://img.shields.io/github/forks/Trinadh465/platform_external_libvpx_v1.4.0_CVE-2023-5217.svg)- [https://github.com/Trinadh465/platform_external_libvpx_v1.8.0_CVE-2023-5217](https://github.com/Trinadh465/platform_external_libvpx_v1.8.0_CVE-2023-5217) :  ![starts](https://img.shields.io/github/stars/Trinadh465/platform_external_libvpx_v1.8.0_CVE-2023-5217.svg) ![forks](https://img.shields.io/github/forks/Trinadh465/platform_external_libvpx_v1.8.0_CVE-2023-5217.svg)",
+    "description": " Heap buffer overflow in vp8 encoding in libvpx in Google Chrome prior to 117.0.5938.132 and libvpx 1.13.1 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)- [https://github.com/wrv/cve-2023-5217-poc](https://github.com/wrv/cve-2023-5217-poc) :  ![starts](https://img.shields.io/github/stars/wrv/cve-2023-5217-poc.svg) ![forks](https://img.shields.io/github/forks/wrv/cve-2023-5217-poc.svg)- [https://github.com/Trinadh465/platform_external_libvpx_v1.8.0_CVE-2023-5217](https://github.com/Trinadh465/platform_external_libvpx_v1.8.0_CVE-2023-5217) :  ![starts](https://img.shields.io/github/stars/Trinadh465/platform_external_libvpx_v1.8.0_CVE-2023-5217.svg) ![forks](https://img.shields.io/github/forks/Trinadh465/platform_external_libvpx_v1.8.0_CVE-2023-5217.svg)- [https://github.com/Trinadh465/platform_external_libvpx_v1.4.0_CVE-2023-5217](https://github.com/Trinadh465/platform_external_libvpx_v1.4.0_CVE-2023-5217) :  ![starts](https://img.shields.io/github/stars/Trinadh465/platform_external_libvpx_v1.4.0_CVE-2023-5217.svg) ![forks](https://img.shields.io/github/forks/Trinadh465/platform_external_libvpx_v1.4.0_CVE-2023-5217.svg)",
     "poc": []
   },
   {
@@ -3982,7 +4010,8 @@
       "https://github.com/RickdeJager/CVE-2023-4911",
       "https://github.com/Green-Avocado/CVE-2023-4911",
       "https://github.com/xiaoQ1z/CVE-2023-4911",
-      "https://github.com/0xtrace/CVE-2023-4911-Looney-Tunables-"
+      "https://github.com/silent6trinity/looney-tuneables",
+      "https://github.com/hadrian3689/looney-tunables-CVE-2023-4911"
     ]
   },
   {
@@ -4169,8 +4198,8 @@
     "cve_code": "CVE-2023-3567",
     "description": " A use-after-free flaw was found in vcs_read in drivers/tty/vt/vc_screen.c in vc_screen in the Linux Kernel. This issue may allow an attacker with local user access to cause a system crash or leak internal kernel information.",
     "poc": [
-      "https://github.com/nidhi7598/linux-4.1.15_CVE-2023-3567",
-      "https://github.com/nidhi7598/linux-4.19.72_CVE-2023-3567"
+      "https://github.com/nidhi7598/linux-4.19.72_CVE-2023-3567",
+      "https://github.com/nidhi7598/linux-4.1.15_CVE-2023-3567"
     ]
   },
   {
@@ -4195,8 +4224,8 @@
     "cve_code": "CVE-2023-3450",
     "description": " A vulnerability was found in Ruijie RG-BCR860 2.5.13 and classified as critical. This issue affects some unknown processing of the component Network Diagnostic Page. The manipulation leads to os command injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-232547. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.",
     "poc": [
-      "https://github.com/caopengyan/CVE-2023-3450",
-      "https://github.com/yuanjinyuyuyu/CVE-2023-3450"
+      "https://github.com/yuanjinyuyuyu/CVE-2023-3450",
+      "https://github.com/caopengyan/CVE-2023-3450"
     ]
   },
   {
@@ -4278,6 +4307,13 @@
     ]
   },
   {
+    "cve_code": "CVE-2023-2928",
+    "description": " A vulnerability was found in DedeCMS up to 5.7.106. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the file uploads/dede/article_allowurl_edit.php. The manipulation of the argument allurls leads to code injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-230083.",
+    "poc": [
+      "https://github.com/CN016/DedeCMS-getshell-CVE-2023-2928-"
+    ]
+  },
+  {
     "cve_code": "CVE-2023-2916",
     "description": " The InfiniteWP Client plugin for WordPress is vulnerable to Sensitive Information Exposure in versions up to, and including, 1.11.1 via the 'admin_notice' function. This can allow authenticated attackers with subscriber-level permissions or above to extract sensitive data including configuration. It can only be exploited if the plugin has not been configured yet. If combined with another arbitrary plugin installation and activation vulnerability, it may be possible to connect a site to InfiniteWP which would make remote management possible and allow for elevation of privileges.",
     "poc": [
@@ -4321,9 +4357,9 @@
     "poc": [
       "https://github.com/Occamsec/CVE-2023-2825",
       "https://github.com/yuimarudev/CVE-2023-2825",
-      "https://github.com/caopengyan/CVE-2023-2825",
       "https://github.com/EmmanuelCruzL/CVE-2023-2825",
-      "https://github.com/Tornad0007/CVE-2023-2825-Gitlab"
+      "https://github.com/Tornad0007/CVE-2023-2825-Gitlab",
+      "https://github.com/caopengyan/CVE-2023-2825"
     ]
   },
   {
