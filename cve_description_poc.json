@@ -124,6 +124,7 @@
     "poc": [
       "https://github.com/bcdannyboy/CVE-2023-44487",
       "https://github.com/imabee101/CVE-2023-44487",
+      "https://github.com/pabloec20/rapidreset",
       "https://github.com/ByteHackr/CVE-2023-44487"
     ]
   },
@@ -388,10 +389,25 @@
     ]
   },
   {
-    "cve_code": "CVE-2023-43148",
-    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "cve_code": "CVE-2023-43149",
+    "description": " SPA-Cart 1.9.0.3 is vulnerable to Cross Site Request Forgery (CSRF) that allows a remote attacker to add an admin user with role status.",
     "poc": [
+      "https://github.com/MinoTauro2020/CVE-2023-43149"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-43148",
+    "description": " SPA-Cart 1.9.0.3 has a Cross Site Request Forgery (CSRF) vulnerability that allows a remote attacker to delete all accounts.",
+    "poc": [
+      "https://github.com/MinoTauro2020/CVE-2023-43147",
       "https://github.com/MinoTauro2020/CVE-2023-43148"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-43147",
+    "description": " PHPJabbers Limo Booking Software 1.0 is vulnerable to Cross Site Request Forgery (CSRF) to add an admin user via the Add Users Function, aka an index.php?controller=pjAdminUsers&amp;action=pjActionCreate URI.",
+    "poc": [
+      "https://github.com/MinoTauro2020/CVE-2023-43147"
     ]
   },
   {
@@ -406,13 +422,20 @@
     "description": " JumpServer is an open source bastion host. This vulnerability is due to exposing the random number seed to the API, potentially allowing the randomly generated verification codes to be replayed, which could lead to password resets. If MFA is enabled users are not affect. Users not using local authentication are also not affected. Users are advised to upgrade to either version 2.28.19 or to 3.6.5. There are no known workarounds or this issue.",
     "poc": [
       "https://github.com/C1ph3rX13/CVE-2023-42820",
-      "https://github.com/wh-gov/CVE-2023-42820",
-      "https://github.com/Startr4ck/cve-2023-42820"
+      "https://github.com/Startr4ck/cve-2023-42820",
+      "https://github.com/wh-gov/CVE-2023-42820"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-42819",
+    "description": " JumpServer is an open source bastion host. Logged-in users can access and modify the contents of any file on the system. A user can use the 'Job-Template' menu and create a playbook named 'test'. Get the playbook id from the detail page, like 'e0adabef-c38f-492d-bd92-832bacc3df5f'. An attacker can exploit the directory traversal flaw using the provided URL to access and retrieve the contents of the file. `https://jumpserver-ip/api/v1/ops/playbook/e0adabef-c38f-492d-bd92-832bacc3df5f/file/?key=../../../../../../../etc/passwd` a similar method to modify the file content is also present. This issue has been addressed in version 3.6.5. Users are advised to upgrade. There are no known workarounds for this vulnerability.",
+    "poc": [
+      "https://github.com/C1ph3rX13/CVE-2023-42819"
     ]
   },
   {
     "cve_code": "CVE-2023-42793",
-    "description": " In JetBrains TeamCity before 2023.05.4 authentication bypass leading to RCE on TeamCity Server was possible- [https://github.com/H454NSec/CVE-2023-42793](https://github.com/H454NSec/CVE-2023-42793) :  ![starts](https://img.shields.io/github/stars/H454NSec/CVE-2023-42793.svg) ![forks](https://img.shields.io/github/forks/H454NSec/CVE-2023-42793.svg)- [https://github.com/Zenmovie/CVE-2023-42793](https://github.com/Zenmovie/CVE-2023-42793) :  ![starts](https://img.shields.io/github/stars/Zenmovie/CVE-2023-42793.svg) ![forks](https://img.shields.io/github/forks/Zenmovie/CVE-2023-42793.svg)",
+    "description": " In JetBrains TeamCity before 2023.05.4 authentication bypass leading to RCE on TeamCity Server was possible- [https://github.com/H454NSec/CVE-2023-42793](https://github.com/H454NSec/CVE-2023-42793) :  ![starts](https://img.shields.io/github/stars/H454NSec/CVE-2023-42793.svg) ![forks](https://img.shields.io/github/forks/H454NSec/CVE-2023-42793.svg)- [https://github.com/Zenmovie/CVE-2023-42793](https://github.com/Zenmovie/CVE-2023-42793) :  ![starts](https://img.shields.io/github/stars/Zenmovie/CVE-2023-42793.svg) ![forks](https://img.shields.io/github/forks/Zenmovie/CVE-2023-42793.svg)- [https://github.com/WhiteOwl-Pub/PoC-JetBrains-TeamCity-CVE-2023-42793](https://github.com/WhiteOwl-Pub/PoC-JetBrains-TeamCity-CVE-2023-42793) :  ![starts](https://img.shields.io/github/stars/WhiteOwl-Pub/PoC-JetBrains-TeamCity-CVE-2023-42793.svg) ![forks](https://img.shields.io/github/forks/WhiteOwl-Pub/PoC-JetBrains-TeamCity-CVE-2023-42793.svg)",
     "poc": []
   },
   {
@@ -875,25 +898,26 @@
       "https://github.com/Malwareman007/CVE-2023-38831",
       "https://github.com/K3rnel-Dev/WinrarExploit",
       "https://github.com/MorDavid/CVE-2023-38831-Winrar-Exploit-Generator-POC",
-      "https://github.com/Mich-ele/CVE-2023-38831-winrar",
       "https://github.com/PascalAsch/CVE-2023-38831-KQL",
+      "https://github.com/Mich-ele/CVE-2023-38831-winrar",
       "https://github.com/SugiB3o/Keylog_CVE2023-38831",
       "https://github.com/malvika-thakur/CVE-2023-38831",
       "https://github.com/z3r0sw0rd/CVE-2023-38831-PoC",
+      "https://github.com/ameerpornillos/CVE-2023-38831-WinRAR-Exploit",
       "https://github.com/akhomlyuk/cve-2023-38831",
+      "https://github.com/ruycr4ft/CVE-2023-38831",
       "https://github.com/elefantesagradodeluzinfinita/cve-2023-38831",
       "https://github.com/IR-HuntGuardians/CVE-2023-38831-HUNT",
-      "https://github.com/thegr1ffyn/CVE-2023-38831",
       "https://github.com/xaitax/WinRAR-CVE-2023-38831",
-      "https://github.com/ameerpornillos/CVE-2023-38831-WinRAR-Exploit",
+      "https://github.com/thegr1ffyn/CVE-2023-38831",
       "https://github.com/GOTonyGO/CVE-2023-38831-winrar",
       "https://github.com/an040702/CVE-2023-38831",
-      "https://github.com/IMHarman/CVE-2023-38831",
       "https://github.com/asepsaepdin/CVE-2023-38831",
+      "https://github.com/IMHarman/CVE-2023-38831",
       "https://github.com/nhman-python/CVE-2023-38831",
       "https://github.com/Fa1c0n35/CVE-2023-38831-winrar-exploit",
-      "https://github.com/MortySecurity/CVE-2023-38831-Exploit-and-Detection",
-      "https://github.com/BeniBeastt/CVE-2023-38831_ReverseShell_Winrar"
+      "https://github.com/BeniBeastt/CVE-2023-38831_ReverseShell_Winrar",
+      "https://github.com/MortySecurity/CVE-2023-38831-Exploit-and-Detection"
     ]
   },
   {
@@ -938,8 +962,8 @@
       "https://github.com/robotmikhro/CVE-2023-38646",
       "https://github.com/getdrive/PoC",
       "https://github.com/securezeron/CVE-2023-38646",
-      "https://github.com/0xrobiul/CVE-2023-38646",
       "https://github.com/Boogipop/MetabaseRceTools",
+      "https://github.com/0xrobiul/CVE-2023-38646",
       "https://github.com/Pumpkin-Garden/POC_Metabase_CVE-2023-38646",
       "https://github.com/shamo0/CVE-2023-38646-PoC",
       "https://github.com/kh4sh3i/CVE-2023-38646",
@@ -951,6 +975,7 @@
       "https://github.com/Any3ite/cve-2023-38646-metabase-ReverseShell",
       "https://github.com/SUT0L/CVE-2023-38646",
       "https://github.com/LazyySec/CVE-2023-38646",
+      "https://github.com/threatHNTR/CVE-2023-38646",
       "https://github.com/nickswink/CVE-2023-38646",
       "https://github.com/adriyansyah-mf/CVE-2023-38646--Metabase-",
       "https://github.com/yxl2001/CVE-2023-38646",
@@ -977,7 +1002,10 @@
     "cve_code": "CVE-2023-38545",
     "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
     "poc": [
-      "https://github.com/UTsweetyfish/CVE-2023-38545"
+      "https://github.com/UTsweetyfish/CVE-2023-38545",
+      "https://github.com/imfht/CVE-2023-38545",
+      "https://github.com/vanigori/CVE-2023-38545-sample",
+      "https://github.com/fatmo666/CVE-2023-38545-libcurl-SOCKS5-heap-buffer-overflow"
     ]
   },
   {
@@ -1234,7 +1262,7 @@
   },
   {
     "cve_code": "CVE-2023-36884",
-    "description": " Windows Search Remote Code Execution Vulnerability- [https://github.com/Maxwitat/CVE-2023-36884-Scripts-for-Intune-Remediation-SCCM-Compliance-Baseline](https://github.com/Maxwitat/CVE-2023-36884-Scripts-for-Intune-Remediation-SCCM-Compliance-Baseline) :  ![starts](https://img.shields.io/github/stars/Maxwitat/CVE-2023-36884-Scripts-for-Intune-Remediation-SCCM-Compliance-Baseline.svg) ![forks](https://img.shields.io/github/forks/Maxwitat/CVE-2023-36884-Scripts-for-Intune-Remediation-SCCM-Compliance-Baseline.svg)- [https://github.com/tarraschk/CVE-2023-36884-Checker](https://github.com/tarraschk/CVE-2023-36884-Checker) :  ![starts](https://img.shields.io/github/stars/tarraschk/CVE-2023-36884-Checker.svg) ![forks](https://img.shields.io/github/forks/tarraschk/CVE-2023-36884-Checker.svg)- [https://github.com/ridsoliveira/Fix-CVE-2023-36884](https://github.com/ridsoliveira/Fix-CVE-2023-36884) :  ![starts](https://img.shields.io/github/stars/ridsoliveira/Fix-CVE-2023-36884.svg) ![forks](https://img.shields.io/github/forks/ridsoliveira/Fix-CVE-2023-36884.svg)- [https://github.com/zerosorai/CVE-2023-36884](https://github.com/zerosorai/CVE-2023-36884) :  ![starts](https://img.shields.io/github/stars/zerosorai/CVE-2023-36884.svg) ![forks](https://img.shields.io/github/forks/zerosorai/CVE-2023-36884.svg)- [https://github.com/deepinstinct/Storm0978-RomCom-Campaign](https://github.com/deepinstinct/Storm0978-RomCom-Campaign) :  ![starts](https://img.shields.io/github/stars/deepinstinct/Storm0978-RomCom-Campaign.svg) ![forks](https://img.shields.io/github/forks/deepinstinct/Storm0978-RomCom-Campaign.svg)- [https://github.com/raresteak/CVE-2023-36884](https://github.com/raresteak/CVE-2023-36884) :  ![starts](https://img.shields.io/github/stars/raresteak/CVE-2023-36884.svg) ![forks](https://img.shields.io/github/forks/raresteak/CVE-2023-36884.svg)- [https://github.com/jakabakos/CVE-2023-36884-MS-Office-HTML-RCE](https://github.com/jakabakos/CVE-2023-36884-MS-Office-HTML-RCE) :  ![starts](https://img.shields.io/github/stars/jakabakos/CVE-2023-36884-MS-Office-HTML-RCE.svg) ![forks](https://img.shields.io/github/forks/jakabakos/CVE-2023-36884-MS-Office-HTML-RCE.svg)- [https://github.com/ToddMaxey/CVE-2023-36884](https://github.com/ToddMaxey/CVE-2023-36884) :  ![starts](https://img.shields.io/github/stars/ToddMaxey/CVE-2023-36884.svg) ![forks](https://img.shields.io/github/forks/ToddMaxey/CVE-2023-36884.svg)- [https://github.com/or2me/CVE-2023-36884_patcher](https://github.com/or2me/CVE-2023-36884_patcher) :  ![starts](https://img.shields.io/github/stars/or2me/CVE-2023-36884_patcher.svg) ![forks](https://img.shields.io/github/forks/or2me/CVE-2023-36884_patcher.svg)",
+    "description": " Windows Search Remote Code Execution Vulnerability- [https://github.com/Maxwitat/CVE-2023-36884-Scripts-for-Intune-Remediation-SCCM-Compliance-Baseline](https://github.com/Maxwitat/CVE-2023-36884-Scripts-for-Intune-Remediation-SCCM-Compliance-Baseline) :  ![starts](https://img.shields.io/github/stars/Maxwitat/CVE-2023-36884-Scripts-for-Intune-Remediation-SCCM-Compliance-Baseline.svg) ![forks](https://img.shields.io/github/forks/Maxwitat/CVE-2023-36884-Scripts-for-Intune-Remediation-SCCM-Compliance-Baseline.svg)- [https://github.com/tarraschk/CVE-2023-36884-Checker](https://github.com/tarraschk/CVE-2023-36884-Checker) :  ![starts](https://img.shields.io/github/stars/tarraschk/CVE-2023-36884-Checker.svg) ![forks](https://img.shields.io/github/forks/tarraschk/CVE-2023-36884-Checker.svg)- [https://github.com/ridsoliveira/Fix-CVE-2023-36884](https://github.com/ridsoliveira/Fix-CVE-2023-36884) :  ![starts](https://img.shields.io/github/stars/ridsoliveira/Fix-CVE-2023-36884.svg) ![forks](https://img.shields.io/github/forks/ridsoliveira/Fix-CVE-2023-36884.svg)- [https://github.com/zerosorai/CVE-2023-36884](https://github.com/zerosorai/CVE-2023-36884) :  ![starts](https://img.shields.io/github/stars/zerosorai/CVE-2023-36884.svg) ![forks](https://img.shields.io/github/forks/zerosorai/CVE-2023-36884.svg)- [https://github.com/jakabakos/CVE-2023-36884-MS-Office-HTML-RCE](https://github.com/jakabakos/CVE-2023-36884-MS-Office-HTML-RCE) :  ![starts](https://img.shields.io/github/stars/jakabakos/CVE-2023-36884-MS-Office-HTML-RCE.svg) ![forks](https://img.shields.io/github/forks/jakabakos/CVE-2023-36884-MS-Office-HTML-RCE.svg)- [https://github.com/deepinstinct/Storm0978-RomCom-Campaign](https://github.com/deepinstinct/Storm0978-RomCom-Campaign) :  ![starts](https://img.shields.io/github/stars/deepinstinct/Storm0978-RomCom-Campaign.svg) ![forks](https://img.shields.io/github/forks/deepinstinct/Storm0978-RomCom-Campaign.svg)- [https://github.com/raresteak/CVE-2023-36884](https://github.com/raresteak/CVE-2023-36884) :  ![starts](https://img.shields.io/github/stars/raresteak/CVE-2023-36884.svg) ![forks](https://img.shields.io/github/forks/raresteak/CVE-2023-36884.svg)- [https://github.com/ToddMaxey/CVE-2023-36884](https://github.com/ToddMaxey/CVE-2023-36884) :  ![starts](https://img.shields.io/github/stars/ToddMaxey/CVE-2023-36884.svg) ![forks](https://img.shields.io/github/forks/ToddMaxey/CVE-2023-36884.svg)- [https://github.com/or2me/CVE-2023-36884_patcher](https://github.com/or2me/CVE-2023-36884_patcher) :  ![starts](https://img.shields.io/github/stars/or2me/CVE-2023-36884_patcher.svg) ![forks](https://img.shields.io/github/forks/or2me/CVE-2023-36884_patcher.svg)",
     "poc": []
   },
   {
@@ -1267,8 +1295,8 @@
       "https://github.com/halencarjunior/CVE-2023-36845",
       "https://github.com/r3dcl1ff/CVE-2023-36844_Juniper_RCE",
       "https://github.com/simrotion13/CVE-2023-36845",
-      "https://github.com/cyberh3als/CVE-2023-36845-POC",
       "https://github.com/toanln-cov/CVE-2023-36845",
+      "https://github.com/cyberh3als/CVE-2023-36845-POC",
       "https://github.com/WhiteOwl-Pub/PoC-Vuln-Detector-juniper-cve-2023-36845"
     ]
   },
@@ -1965,8 +1993,8 @@
     "poc": [
       "https://github.com/Malayke/CVE-2023-33246_RocketMQ_RCE_EXPLOIT",
       "https://github.com/SuperZero/CVE-2023-33246",
-      "https://github.com/I5N0rth/CVE-2023-33246",
       "https://github.com/Le1a/CVE-2023-33246",
+      "https://github.com/I5N0rth/CVE-2023-33246",
       "https://github.com/cr1me0/rocketMq_RCE",
       "https://github.com/vulncheck-oss/fetch-broker-conf",
       "https://github.com/yizhimanpadewoniu/CVE-2023-33246-Copy",
@@ -2018,7 +2046,7 @@
   },
   {
     "cve_code": "CVE-2023-32629",
-    "description": " Local privilege escalation vulnerability in Ubuntu Kernels overlayfs ovl_copy_up_meta_inode_data skip permission checks when calling ovl_do_setxattr on Ubuntu kernels- [https://github.com/kaotickj/Check-for-CVE-2023-32629-GameOver-lay](https://github.com/kaotickj/Check-for-CVE-2023-32629-GameOver-lay) :  ![starts](https://img.shields.io/github/stars/kaotickj/Check-for-CVE-2023-32629-GameOver-lay.svg) ![forks](https://img.shields.io/github/forks/kaotickj/Check-for-CVE-2023-32629-GameOver-lay.svg)- [https://github.com/luanoliveira350/GameOverlayFS](https://github.com/luanoliveira350/GameOverlayFS) :  ![starts](https://img.shields.io/github/stars/luanoliveira350/GameOverlayFS.svg) ![forks](https://img.shields.io/github/forks/luanoliveira350/GameOverlayFS.svg)- [https://github.com/OllaPapito/gameoverlay](https://github.com/OllaPapito/gameoverlay) :  ![starts](https://img.shields.io/github/stars/OllaPapito/gameoverlay.svg) ![forks](https://img.shields.io/github/forks/OllaPapito/gameoverlay.svg)- [https://github.com/johnlettman/juju-scripts](https://github.com/johnlettman/juju-scripts) :  ![starts](https://img.shields.io/github/stars/johnlettman/juju-scripts.svg) ![forks](https://img.shields.io/github/forks/johnlettman/juju-scripts.svg)- [https://github.com/g1vi/CVE-2023-2640-CVE-2023-32629](https://github.com/g1vi/CVE-2023-2640-CVE-2023-32629) :  ![starts](https://img.shields.io/github/stars/g1vi/CVE-2023-2640-CVE-2023-32629.svg) ![forks](https://img.shields.io/github/forks/g1vi/CVE-2023-2640-CVE-2023-32629.svg)",
+    "description": " Local privilege escalation vulnerability in Ubuntu Kernels overlayfs ovl_copy_up_meta_inode_data skip permission checks when calling ovl_do_setxattr on Ubuntu kernels- [https://github.com/kaotickj/Check-for-CVE-2023-32629-GameOver-lay](https://github.com/kaotickj/Check-for-CVE-2023-32629-GameOver-lay) :  ![starts](https://img.shields.io/github/stars/kaotickj/Check-for-CVE-2023-32629-GameOver-lay.svg) ![forks](https://img.shields.io/github/forks/kaotickj/Check-for-CVE-2023-32629-GameOver-lay.svg)- [https://github.com/OllaPapito/gameoverlay](https://github.com/OllaPapito/gameoverlay) :  ![starts](https://img.shields.io/github/stars/OllaPapito/gameoverlay.svg) ![forks](https://img.shields.io/github/forks/OllaPapito/gameoverlay.svg)- [https://github.com/g1vi/CVE-2023-2640-CVE-2023-32629](https://github.com/g1vi/CVE-2023-2640-CVE-2023-32629) :  ![starts](https://img.shields.io/github/stars/g1vi/CVE-2023-2640-CVE-2023-32629.svg) ![forks](https://img.shields.io/github/forks/g1vi/CVE-2023-2640-CVE-2023-32629.svg)- [https://github.com/luanoliveira350/GameOverlayFS](https://github.com/luanoliveira350/GameOverlayFS) :  ![starts](https://img.shields.io/github/stars/luanoliveira350/GameOverlayFS.svg) ![forks](https://img.shields.io/github/forks/luanoliveira350/GameOverlayFS.svg)- [https://github.com/johnlettman/juju-scripts](https://github.com/johnlettman/juju-scripts) :  ![starts](https://img.shields.io/github/stars/johnlettman/juju-scripts.svg) ![forks](https://img.shields.io/github/forks/johnlettman/juju-scripts.svg)",
     "poc": []
   },
   {
@@ -2823,8 +2851,11 @@
     "poc": [
       "https://github.com/BishopFox/CVE-2023-27997-check",
       "https://github.com/rio128128/CVE-2023-27997-POC",
+      "https://github.com/lexfo/xortigate-cve-2023-27997",
       "https://github.com/Pik-sec/cve-2023-27997",
+      "https://github.com/delsploit/CVE-2023-27997",
       "https://github.com/imbas007/CVE-2023-27997-Check",
+      "https://github.com/Aicks/FortiGate-CVE-2023-27997",
       "https://github.com/Cyb3rEnthusiast/CVE-2023-27997",
       "https://github.com/puckiestyle/cve-2023-27997",
       "https://github.com/TechinsightsPro/ShodanFortiOS"
@@ -2995,9 +3026,9 @@
       "https://github.com/davuXVI/CVE-2023-27163",
       "https://github.com/HusenjanDev/CVE-2023-27163-AND-Mailtrail-v0.53",
       "https://github.com/overgrowncarrot1/CVE-2023-27163",
-      "https://github.com/thomas-osgood/CVE-2023-27163",
       "https://github.com/0xFTW/CVE-2023-27163",
       "https://github.com/Hamibubu/CVE-2023-27163",
+      "https://github.com/thomas-osgood/CVE-2023-27163",
       "https://github.com/rvizx/CVE-2023-27163"
     ]
   },
@@ -3330,7 +3361,6 @@
     "cve_code": "CVE-2023-24538",
     "description": " Templates do not properly consider backticks (`) as Javascript string delimiters, and do not escape them as expected. Backticks are used, since ES6, for JS template literals. If a template contains a Go template action within a Javascript template literal, the contents of the action can be used to terminate the literal, injecting arbitrary Javascript code into the Go template. As ES6 template literals are rather complex, and themselves can do string interpolation, the decision was made to simply disallow Go template actions from being used inside of them (e.g. &quot;var a = {{.}}&quot;), since there is no obviously safe way to allow this behavior. This takes the same approach as github.com/google/safehtml. With fix, Template.Parse returns an Error when it encounters templates like this, with an ErrorCode of value 12. This ErrorCode is currently unexported, but will be exported in the release of Go 1.21. Users who rely on the previous behavior can re-enable it using the GODEBUG flag jstmpllitinterp=1, with the caveat that backticks will now be escaped. This should be used with caution.",
     "poc": [
-      "https://github.com/skulkarni-mv/goIssue_kirkstone",
       "https://github.com/skulkarni-mv/goIssue_dunfell"
     ]
   },
@@ -3397,7 +3427,8 @@
       "https://github.com/zwlsix/KeePass-CVE-2023-24055",
       "https://github.com/julesbozouklian/PoC_CVE-2023-24055",
       "https://github.com/Cyb3rtus/keepass_CVE-2023-24055_yara_rule",
-      "https://github.com/digital-dev/KeePass-TriggerLess"
+      "https://github.com/digital-dev/KeePass-TriggerLess",
+      "https://github.com/n3rada/Invoke-KeePassBackup"
     ]
   },
   {
@@ -3490,8 +3521,8 @@
     "cve_code": "CVE-2023-23333",
     "description": " There is a command injection vulnerability in SolarView Compact through 6.00, attackers can execute commands by bypassing internal restrictions through downloader.php.",
     "poc": [
-      "https://github.com/Mr-xn/CVE-2023-23333",
       "https://github.com/getdrive/PoC",
+      "https://github.com/Mr-xn/CVE-2023-23333",
       "https://github.com/Timorlover/CVE-2023-23333",
       "https://github.com/WhiteOwl-Pub/PoC-SolarView-Compact-CVE-2023-23333",
       "https://github.com/emanueldosreis/nmap-CVE-2023-23333-exploit"
@@ -3653,8 +3684,8 @@
     "poc": [
       "https://github.com/ErikWynter/CVE-2023-22515-Scan",
       "https://github.com/Chocapikk/CVE-2023-22515",
-      "https://github.com/getdrive/PoC",
       "https://github.com/ad-calcium/CVE-2023-22515",
+      "https://github.com/getdrive/PoC",
       "https://github.com/j3seer/CVE-2023-22515-POC",
       "https://github.com/sincere9/CVE-2023-22515",
       "https://github.com/kh4sh3i/CVE-2023-22515"
@@ -3820,6 +3851,7 @@
     "description": " In TRANSPOSER_SETTINGS of lpp_tran.h, there is a possible out of bounds write due to an incorrect bounds check. This could lead to remote code execution with no additional execution privileges needed. User interaction is needed for exploitation.",
     "poc": [
       "https://github.com/nidhi7598/external_aac_AOSP04-r1_CVE-2023-21282",
+      "https://github.com/nidhi7598/external_aac_AOSP_06_r22_CVE-2023-21282",
       "https://github.com/Trinadh465/external_aac_AOSP10_r33_CVE-2023-21282"
     ]
   },
@@ -3843,6 +3875,13 @@
     "poc": [
       "https://github.com/pazhanivel07/platform_frameworks_base_AOSP_10_r33_CVE-2023-21272",
       "https://github.com/Trinadh465/frameworks_base_AOSP-4.2.2_r1_CVE-2023-21272"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-21251",
+    "description": " In onCreate of ConfirmDialog.java, there is a possible way to connect to VNP bypassing user's consent due to improper input validation. This could lead to local escalation of privilege with User execution privileges needed. User interaction is needed for exploitation.",
+    "poc": [
+      "https://github.com/Trinadh465/frameworks_base_AOSP10_r33_CVE-2023-21251"
     ]
   },
   {
@@ -4017,6 +4056,13 @@
     "description": " ** UNSUPPORTED WHEN ASSIGNED ** A vulnerability classified as critical has been found in D-Link DAR-7000 and DAR-8000 up to 20151231. Affected is an unknown function of the file /useratte/web.php. The manipulation of the argument file_upload leads to unrestricted upload. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. VDB-240246 is the identifier assigned to this vulnerability. NOTE: This vulnerability only affects products that are no longer supported by the maintainer. NOTE: Vendor was contacted early and confirmed immediately that the product is end-of-life. It should be retired and replaced.",
     "poc": [
       "https://github.com/Sybelle03/CVE-2023-51504"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-5142",
+    "description": " A vulnerability classified as problematic was found in H3C GR-1100-P, GR-1108-P, GR-1200W, GR-1800AX, GR-2200, GR-3200, GR-5200, GR-8300, ER2100n, ER2200G2, ER3200G2, ER3260G2, ER5100G2, ER5200G2 and ER6300G2 up to 20230908. This vulnerability affects unknown code of the file /userLogin.asp of the component Config File Handler. The manipulation leads to path traversal. The attack can be initiated remotely. The complexity of an attack is rather high. The exploitation appears to be difficult. The exploit has been disclosed to the public and may be used. VDB-240238 is the identifier assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.",
+    "poc": [
+      "https://github.com/yinsel/CVE-H3C-Report"
     ]
   },
   {
@@ -4249,7 +4295,7 @@
   },
   {
     "cve_code": "CVE-2023-3519",
-    "description": " Unauthenticated remote code execution- [https://github.com/BishopFox/CVE-2023-3519](https://github.com/BishopFox/CVE-2023-3519) :  ![starts](https://img.shields.io/github/stars/BishopFox/CVE-2023-3519.svg) ![forks](https://img.shields.io/github/forks/BishopFox/CVE-2023-3519.svg)- [https://github.com/securekomodo/citrixInspector](https://github.com/securekomodo/citrixInspector) :  ![starts](https://img.shields.io/github/stars/securekomodo/citrixInspector.svg) ![forks](https://img.shields.io/github/forks/securekomodo/citrixInspector.svg)- [https://github.com/mandiant/citrix-ioc-scanner-cve-2023-3519](https://github.com/mandiant/citrix-ioc-scanner-cve-2023-3519) :  ![starts](https://img.shields.io/github/stars/mandiant/citrix-ioc-scanner-cve-2023-3519.svg) ![forks](https://img.shields.io/github/forks/mandiant/citrix-ioc-scanner-cve-2023-3519.svg)- [https://github.com/telekom-security/cve-2023-3519-citrix-scanner](https://github.com/telekom-security/cve-2023-3519-citrix-scanner) :  ![starts](https://img.shields.io/github/stars/telekom-security/cve-2023-3519-citrix-scanner.svg) ![forks](https://img.shields.io/github/forks/telekom-security/cve-2023-3519-citrix-scanner.svg)- [https://github.com/fox-it/citrix-netscaler-triage](https://github.com/fox-it/citrix-netscaler-triage) :  ![starts](https://img.shields.io/github/stars/fox-it/citrix-netscaler-triage.svg) ![forks](https://img.shields.io/github/forks/fox-it/citrix-netscaler-triage.svg)- [https://github.com/mr-r3b00t/CVE-2023-3519](https://github.com/mr-r3b00t/CVE-2023-3519) :  ![starts](https://img.shields.io/github/stars/mr-r3b00t/CVE-2023-3519.svg) ![forks](https://img.shields.io/github/forks/mr-r3b00t/CVE-2023-3519.svg)- [https://github.com/dorkerdevil/CitrixFall](https://github.com/dorkerdevil/CitrixFall) :  ![starts](https://img.shields.io/github/stars/dorkerdevil/CitrixFall.svg) ![forks](https://img.shields.io/github/forks/dorkerdevil/CitrixFall.svg)- [https://github.com/getdrive/PoC](https://github.com/getdrive/PoC) :  ![starts](https://img.shields.io/github/stars/getdrive/PoC.svg) ![forks](https://img.shields.io/github/forks/getdrive/PoC.svg)- [https://github.com/SalehLardhi/CVE-2023-3519](https://github.com/SalehLardhi/CVE-2023-3519) :  ![starts](https://img.shields.io/github/stars/SalehLardhi/CVE-2023-3519.svg) ![forks](https://img.shields.io/github/forks/SalehLardhi/CVE-2023-3519.svg)- [https://github.com/rwincey/cve-2023-3519](https://github.com/rwincey/cve-2023-3519) :  ![starts](https://img.shields.io/github/stars/rwincey/cve-2023-3519.svg) ![forks](https://img.shields.io/github/forks/rwincey/cve-2023-3519.svg)- [https://github.com/KR0N-SECURITY/CVE-2023-3519](https://github.com/KR0N-SECURITY/CVE-2023-3519) :  ![starts](https://img.shields.io/github/stars/KR0N-SECURITY/CVE-2023-3519.svg) ![forks](https://img.shields.io/github/forks/KR0N-SECURITY/CVE-2023-3519.svg)- [https://github.com/passwa11/CVE-2023-3519](https://github.com/passwa11/CVE-2023-3519) :  ![starts](https://img.shields.io/github/stars/passwa11/CVE-2023-3519.svg) ![forks](https://img.shields.io/github/forks/passwa11/CVE-2023-3519.svg)- [https://github.com/d0rb/CVE-2023-3519](https://github.com/d0rb/CVE-2023-3519) :  ![starts](https://img.shields.io/github/stars/d0rb/CVE-2023-3519.svg) ![forks](https://img.shields.io/github/forks/d0rb/CVE-2023-3519.svg)- [https://github.com/JonaNeidhart/CVE-2023-3519-BackdoorCheck](https://github.com/JonaNeidhart/CVE-2023-3519-BackdoorCheck) :  ![starts](https://img.shields.io/github/stars/JonaNeidhart/CVE-2023-3519-BackdoorCheck.svg) ![forks](https://img.shields.io/github/forks/JonaNeidhart/CVE-2023-3519-BackdoorCheck.svg)",
+    "description": " Unauthenticated remote code execution- [https://github.com/BishopFox/CVE-2023-3519](https://github.com/BishopFox/CVE-2023-3519) :  ![starts](https://img.shields.io/github/stars/BishopFox/CVE-2023-3519.svg) ![forks](https://img.shields.io/github/forks/BishopFox/CVE-2023-3519.svg)- [https://github.com/securekomodo/citrixInspector](https://github.com/securekomodo/citrixInspector) :  ![starts](https://img.shields.io/github/stars/securekomodo/citrixInspector.svg) ![forks](https://img.shields.io/github/forks/securekomodo/citrixInspector.svg)- [https://github.com/mandiant/citrix-ioc-scanner-cve-2023-3519](https://github.com/mandiant/citrix-ioc-scanner-cve-2023-3519) :  ![starts](https://img.shields.io/github/stars/mandiant/citrix-ioc-scanner-cve-2023-3519.svg) ![forks](https://img.shields.io/github/forks/mandiant/citrix-ioc-scanner-cve-2023-3519.svg)- [https://github.com/telekom-security/cve-2023-3519-citrix-scanner](https://github.com/telekom-security/cve-2023-3519-citrix-scanner) :  ![starts](https://img.shields.io/github/stars/telekom-security/cve-2023-3519-citrix-scanner.svg) ![forks](https://img.shields.io/github/forks/telekom-security/cve-2023-3519-citrix-scanner.svg)- [https://github.com/fox-it/citrix-netscaler-triage](https://github.com/fox-it/citrix-netscaler-triage) :  ![starts](https://img.shields.io/github/stars/fox-it/citrix-netscaler-triage.svg) ![forks](https://img.shields.io/github/forks/fox-it/citrix-netscaler-triage.svg)- [https://github.com/getdrive/PoC](https://github.com/getdrive/PoC) :  ![starts](https://img.shields.io/github/stars/getdrive/PoC.svg) ![forks](https://img.shields.io/github/forks/getdrive/PoC.svg)- [https://github.com/mr-r3b00t/CVE-2023-3519](https://github.com/mr-r3b00t/CVE-2023-3519) :  ![starts](https://img.shields.io/github/stars/mr-r3b00t/CVE-2023-3519.svg) ![forks](https://img.shields.io/github/forks/mr-r3b00t/CVE-2023-3519.svg)- [https://github.com/dorkerdevil/CitrixFall](https://github.com/dorkerdevil/CitrixFall) :  ![starts](https://img.shields.io/github/stars/dorkerdevil/CitrixFall.svg) ![forks](https://img.shields.io/github/forks/dorkerdevil/CitrixFall.svg)- [https://github.com/SalehLardhi/CVE-2023-3519](https://github.com/SalehLardhi/CVE-2023-3519) :  ![starts](https://img.shields.io/github/stars/SalehLardhi/CVE-2023-3519.svg) ![forks](https://img.shields.io/github/forks/SalehLardhi/CVE-2023-3519.svg)- [https://github.com/rwincey/cve-2023-3519](https://github.com/rwincey/cve-2023-3519) :  ![starts](https://img.shields.io/github/stars/rwincey/cve-2023-3519.svg) ![forks](https://img.shields.io/github/forks/rwincey/cve-2023-3519.svg)- [https://github.com/KR0N-SECURITY/CVE-2023-3519](https://github.com/KR0N-SECURITY/CVE-2023-3519) :  ![starts](https://img.shields.io/github/stars/KR0N-SECURITY/CVE-2023-3519.svg) ![forks](https://img.shields.io/github/forks/KR0N-SECURITY/CVE-2023-3519.svg)- [https://github.com/passwa11/CVE-2023-3519](https://github.com/passwa11/CVE-2023-3519) :  ![starts](https://img.shields.io/github/stars/passwa11/CVE-2023-3519.svg) ![forks](https://img.shields.io/github/forks/passwa11/CVE-2023-3519.svg)- [https://github.com/Aicks/Citrix-CVE-2023-3519](https://github.com/Aicks/Citrix-CVE-2023-3519) :  ![starts](https://img.shields.io/github/stars/Aicks/Citrix-CVE-2023-3519.svg) ![forks](https://img.shields.io/github/forks/Aicks/Citrix-CVE-2023-3519.svg)- [https://github.com/d0rb/CVE-2023-3519](https://github.com/d0rb/CVE-2023-3519) :  ![starts](https://img.shields.io/github/stars/d0rb/CVE-2023-3519.svg) ![forks](https://img.shields.io/github/forks/d0rb/CVE-2023-3519.svg)- [https://github.com/JonaNeidhart/CVE-2023-3519-BackdoorCheck](https://github.com/JonaNeidhart/CVE-2023-3519-BackdoorCheck) :  ![starts](https://img.shields.io/github/stars/JonaNeidhart/CVE-2023-3519-BackdoorCheck.svg) ![forks](https://img.shields.io/github/forks/JonaNeidhart/CVE-2023-3519-BackdoorCheck.svg)",
     "poc": []
   },
   {
@@ -4328,6 +4374,13 @@
     ]
   },
   {
+    "cve_code": "CVE-2023-3009",
+    "description": " Cross-site Scripting (XSS) - Stored in GitHub repository nilsteampassnet/teampass prior to 3.0.9.",
+    "poc": [
+      "https://github.com/mnqazi/CVE-2023-3009"
+    ]
+  },
+  {
     "cve_code": "CVE-2023-2986",
     "description": " The Abandoned Cart Lite for WooCommerce plugin for WordPress is vulnerable to authentication bypass in versions up to, and including, 5.14.2. This is due to insufficient encryption on the user being supplied during the abandoned cart link decode through the plugin. This allows unauthenticated attackers to log in as users who have abandoned the cart, who are typically customers. Further security hardening was introduced in version 5.15.1 that ensures sites are no longer vulnerable through historical check-out links, and additional hardening was introduced in version 5.15.2 that ensured null key values wouldn't permit the authentication bypass.",
     "poc": [
@@ -4395,8 +4448,8 @@
     "poc": [
       "https://github.com/Occamsec/CVE-2023-2825",
       "https://github.com/yuimarudev/CVE-2023-2825",
-      "https://github.com/caopengyan/CVE-2023-2825",
       "https://github.com/EmmanuelCruzL/CVE-2023-2825",
+      "https://github.com/caopengyan/CVE-2023-2825",
       "https://github.com/Tornad0007/CVE-2023-2825-Gitlab"
     ]
   },
@@ -4434,10 +4487,10 @@
     "cve_code": "CVE-2023-2640",
     "description": " On Ubuntu kernels carrying both c914c0e27eb0 and &quot;UBUNTU: SAUCE: overlayfs: Skip permission checking for trusted.overlayfs.* xattrs&quot;, an unprivileged user may set privileged extended attributes on the mounted files, leading them to be set on the upper files without the appropriate security checks.",
     "poc": [
-      "https://github.com/luanoliveira350/GameOverlayFS",
       "https://github.com/OllaPapito/gameoverlay",
-      "https://github.com/johnlettman/juju-scripts",
-      "https://github.com/g1vi/CVE-2023-2640-CVE-2023-32629"
+      "https://github.com/g1vi/CVE-2023-2640-CVE-2023-32629",
+      "https://github.com/luanoliveira350/GameOverlayFS",
+      "https://github.com/johnlettman/juju-scripts"
     ]
   },
   {
@@ -4596,8 +4649,8 @@
       "https://github.com/padbergpete47/CVE-2023-1454",
       "https://github.com/gobysec/CVE-2023-1454",
       "https://github.com/CKevens/CVE-2023-1454-EXP",
-      "https://github.com/BugFor-Pings/CVE-2023-1454",
-      "https://github.com/cjybao/CVE-2023-1454"
+      "https://github.com/cjybao/CVE-2023-1454",
+      "https://github.com/BugFor-Pings/CVE-2023-1454"
     ]
   },
   {
@@ -40335,13 +40388,6 @@
     "description": " Cyberstop Web Server for Windows 0.1 allows remote attackers to cause a denial of service (crash) and possibly execute arbitrary code via a long HTTP GET request, possibly triggering a buffer overflow.",
     "poc": [
       "https://github.com/alt3kx/CVE-2002-0201"
-    ]
-  },
-  {
-    "cve_code": "CVE-2002-0200",
-    "description": " Cyberstop Web Server for Windows 0.1 allows remote attackers to cause a denial of service via an HTTP request for an MS-DOS device name.",
-    "poc": [
-      "https://github.com/alt3kx/CVE-2002-0200"
     ]
   },
   {
