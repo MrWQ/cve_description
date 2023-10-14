@@ -1,5 +1,19 @@
 [
   {
+    "cve_code": "CVE-2023-45542",
+    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "poc": [
+      "https://github.com/ahrixia/CVE-2023-45542"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-45540",
+    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "poc": [
+      "https://github.com/soundarkutty/CVE-2023-45540"
+    ]
+  },
+  {
     "cve_code": "CVE-2023-44962",
     "description": " File Upload vulnerability in Koha Library Software 23.05.04 and before allows a remote attacker to read arbitrary files via the upload-cover-image.pl component.",
     "poc": [
@@ -125,6 +139,7 @@
       "https://github.com/bcdannyboy/CVE-2023-44487",
       "https://github.com/imabee101/CVE-2023-44487",
       "https://github.com/pabloec20/rapidreset",
+      "https://github.com/secengjeff/rapidresetclient",
       "https://github.com/ByteHackr/CVE-2023-44487"
     ]
   },
@@ -203,6 +218,13 @@
     "description": " An arbitrary file upload vulnerability in Personal Management System v1.4.64 allows attackers to execute arbitrary code via uploading a crafted SVG file into a user profile's avatar.",
     "poc": [
       "https://github.com/rootd4ddy/CVE-2023-43838"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-43804",
+    "description": " urllib3 is a user-friendly HTTP client library for Python. urllib3 doesn't treat the `Cookie` HTTP header special or provide any helpers for managing cookies over HTTP, that is the responsibility of the user. However, it is possible for a user to specify a `Cookie` header and unknowingly leak information via HTTP redirects to a different origin if that user doesn't disable redirects explicitly. This issue has been patched in urllib3 version 1.26.17 or 2.0.5.",
+    "poc": [
+      "https://github.com/JawadPy/CVE-2023-43804-Exploit"
     ]
   },
   {
@@ -411,6 +433,13 @@
     ]
   },
   {
+    "cve_code": "CVE-2023-43144",
+    "description": " Projectworldsl Assets-management-system-in-php 1.0 is vulnerable to SQL Injection via the &quot;id&quot; parameter in delete.php.",
+    "poc": [
+      "https://github.com/Pegasus0xx/CVE-2023-43144"
+    ]
+  },
+  {
     "cve_code": "CVE-2023-43115",
     "description": " In Artifex Ghostscript through 10.01.2, gdevijs.c in GhostPDL can lead to remote code execution via crafted PostScript documents because they can switch to the IJS device, or change the IjsServer parameter, after SAFER has been activated. NOTE: it is a documented risk that the IJS server can be specified on a gs command line (the IJS device inherently must execute a command to start the IJS server).",
     "poc": [
@@ -612,7 +641,7 @@
     "cve_code": "CVE-2023-41105",
     "description": " An issue was discovered in Python 3.11 through 3.11.4. If a path containing '\\0' bytes is passed to os.path.normpath(), the path will be truncated unexpectedly at the first '\\0' byte. There are plausible cases in which an application would have rejected a filename for security reasons in Python 3.10.x or earlier, but that filename is no longer rejected in Python 3.11.x.",
     "poc": [
-      "https://github.com/JawadPy/CVE-2023-41105"
+      "https://github.com/JawadPy/CVE-2023-41105-Exploit"
     ]
   },
   {
@@ -898,8 +927,8 @@
       "https://github.com/Malwareman007/CVE-2023-38831",
       "https://github.com/K3rnel-Dev/WinrarExploit",
       "https://github.com/MorDavid/CVE-2023-38831-Winrar-Exploit-Generator-POC",
-      "https://github.com/PascalAsch/CVE-2023-38831-KQL",
       "https://github.com/Mich-ele/CVE-2023-38831-winrar",
+      "https://github.com/PascalAsch/CVE-2023-38831-KQL",
       "https://github.com/SugiB3o/Keylog_CVE2023-38831",
       "https://github.com/malvika-thakur/CVE-2023-38831",
       "https://github.com/z3r0sw0rd/CVE-2023-38831-PoC",
@@ -908,12 +937,12 @@
       "https://github.com/ruycr4ft/CVE-2023-38831",
       "https://github.com/elefantesagradodeluzinfinita/cve-2023-38831",
       "https://github.com/IR-HuntGuardians/CVE-2023-38831-HUNT",
-      "https://github.com/xaitax/WinRAR-CVE-2023-38831",
       "https://github.com/thegr1ffyn/CVE-2023-38831",
+      "https://github.com/xaitax/WinRAR-CVE-2023-38831",
       "https://github.com/GOTonyGO/CVE-2023-38831-winrar",
       "https://github.com/an040702/CVE-2023-38831",
-      "https://github.com/asepsaepdin/CVE-2023-38831",
       "https://github.com/IMHarman/CVE-2023-38831",
+      "https://github.com/asepsaepdin/CVE-2023-38831",
       "https://github.com/nhman-python/CVE-2023-38831",
       "https://github.com/Fa1c0n35/CVE-2023-38831-winrar-exploit",
       "https://github.com/BeniBeastt/CVE-2023-38831_ReverseShell_Winrar",
@@ -970,16 +999,16 @@
       "https://github.com/Xuxfff/CVE-2023-38646-Poc",
       "https://github.com/fidjiw/CVE-2023-38646-POC",
       "https://github.com/Zenmovie/CVE-2023-38646",
+      "https://github.com/nickswink/CVE-2023-38646",
       "https://github.com/alexandre-pecorilla/CVE-2023-38646",
       "https://github.com/joaoviictorti/CVE-2023-38646",
       "https://github.com/Any3ite/cve-2023-38646-metabase-ReverseShell",
       "https://github.com/SUT0L/CVE-2023-38646",
       "https://github.com/LazyySec/CVE-2023-38646",
       "https://github.com/threatHNTR/CVE-2023-38646",
-      "https://github.com/nickswink/CVE-2023-38646",
-      "https://github.com/adriyansyah-mf/CVE-2023-38646--Metabase-",
       "https://github.com/yxl2001/CVE-2023-38646",
       "https://github.com/passwa11/CVE-2023-38646",
+      "https://github.com/adriyansyah-mf/CVE-2023-38646--Metabase-",
       "https://github.com/CN016/Metabase-H2-CVE-2023-38646-",
       "https://github.com/m3m0o/metabase-pre-auth-rce-poc"
     ]
@@ -1003,9 +1032,9 @@
     "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
     "poc": [
       "https://github.com/UTsweetyfish/CVE-2023-38545",
+      "https://github.com/fatmo666/CVE-2023-38545-libcurl-SOCKS5-heap-buffer-overflow",
       "https://github.com/imfht/CVE-2023-38545",
-      "https://github.com/vanigori/CVE-2023-38545-sample",
-      "https://github.com/fatmo666/CVE-2023-38545-libcurl-SOCKS5-heap-buffer-overflow"
+      "https://github.com/vanigori/CVE-2023-38545-sample"
     ]
   },
   {
@@ -1060,7 +1089,7 @@
   },
   {
     "cve_code": "CVE-2023-38146",
-    "description": " Windows Themes Remote Code Execution Vulnerability- [https://github.com/gabe-k/themebleed](https://github.com/gabe-k/themebleed) :  ![starts](https://img.shields.io/github/stars/gabe-k/themebleed.svg) ![forks](https://img.shields.io/github/forks/gabe-k/themebleed.svg)",
+    "description": " Windows Themes Remote Code Execution Vulnerability- [https://github.com/gabe-k/themebleed](https://github.com/gabe-k/themebleed) :  ![starts](https://img.shields.io/github/stars/gabe-k/themebleed.svg) ![forks](https://img.shields.io/github/forks/gabe-k/themebleed.svg)- [https://github.com/Jnnshschl/CVE-2023-38146](https://github.com/Jnnshschl/CVE-2023-38146) :  ![starts](https://img.shields.io/github/stars/Jnnshschl/CVE-2023-38146.svg) ![forks](https://img.shields.io/github/forks/Jnnshschl/CVE-2023-38146.svg)",
     "poc": []
   },
   {
@@ -1262,7 +1291,7 @@
   },
   {
     "cve_code": "CVE-2023-36884",
-    "description": " Windows Search Remote Code Execution Vulnerability- [https://github.com/Maxwitat/CVE-2023-36884-Scripts-for-Intune-Remediation-SCCM-Compliance-Baseline](https://github.com/Maxwitat/CVE-2023-36884-Scripts-for-Intune-Remediation-SCCM-Compliance-Baseline) :  ![starts](https://img.shields.io/github/stars/Maxwitat/CVE-2023-36884-Scripts-for-Intune-Remediation-SCCM-Compliance-Baseline.svg) ![forks](https://img.shields.io/github/forks/Maxwitat/CVE-2023-36884-Scripts-for-Intune-Remediation-SCCM-Compliance-Baseline.svg)- [https://github.com/tarraschk/CVE-2023-36884-Checker](https://github.com/tarraschk/CVE-2023-36884-Checker) :  ![starts](https://img.shields.io/github/stars/tarraschk/CVE-2023-36884-Checker.svg) ![forks](https://img.shields.io/github/forks/tarraschk/CVE-2023-36884-Checker.svg)- [https://github.com/ridsoliveira/Fix-CVE-2023-36884](https://github.com/ridsoliveira/Fix-CVE-2023-36884) :  ![starts](https://img.shields.io/github/stars/ridsoliveira/Fix-CVE-2023-36884.svg) ![forks](https://img.shields.io/github/forks/ridsoliveira/Fix-CVE-2023-36884.svg)- [https://github.com/zerosorai/CVE-2023-36884](https://github.com/zerosorai/CVE-2023-36884) :  ![starts](https://img.shields.io/github/stars/zerosorai/CVE-2023-36884.svg) ![forks](https://img.shields.io/github/forks/zerosorai/CVE-2023-36884.svg)- [https://github.com/jakabakos/CVE-2023-36884-MS-Office-HTML-RCE](https://github.com/jakabakos/CVE-2023-36884-MS-Office-HTML-RCE) :  ![starts](https://img.shields.io/github/stars/jakabakos/CVE-2023-36884-MS-Office-HTML-RCE.svg) ![forks](https://img.shields.io/github/forks/jakabakos/CVE-2023-36884-MS-Office-HTML-RCE.svg)- [https://github.com/deepinstinct/Storm0978-RomCom-Campaign](https://github.com/deepinstinct/Storm0978-RomCom-Campaign) :  ![starts](https://img.shields.io/github/stars/deepinstinct/Storm0978-RomCom-Campaign.svg) ![forks](https://img.shields.io/github/forks/deepinstinct/Storm0978-RomCom-Campaign.svg)- [https://github.com/raresteak/CVE-2023-36884](https://github.com/raresteak/CVE-2023-36884) :  ![starts](https://img.shields.io/github/stars/raresteak/CVE-2023-36884.svg) ![forks](https://img.shields.io/github/forks/raresteak/CVE-2023-36884.svg)- [https://github.com/ToddMaxey/CVE-2023-36884](https://github.com/ToddMaxey/CVE-2023-36884) :  ![starts](https://img.shields.io/github/stars/ToddMaxey/CVE-2023-36884.svg) ![forks](https://img.shields.io/github/forks/ToddMaxey/CVE-2023-36884.svg)- [https://github.com/or2me/CVE-2023-36884_patcher](https://github.com/or2me/CVE-2023-36884_patcher) :  ![starts](https://img.shields.io/github/stars/or2me/CVE-2023-36884_patcher.svg) ![forks](https://img.shields.io/github/forks/or2me/CVE-2023-36884_patcher.svg)",
+    "description": " Windows Search Remote Code Execution Vulnerability- [https://github.com/Maxwitat/CVE-2023-36884-Scripts-for-Intune-Remediation-SCCM-Compliance-Baseline](https://github.com/Maxwitat/CVE-2023-36884-Scripts-for-Intune-Remediation-SCCM-Compliance-Baseline) :  ![starts](https://img.shields.io/github/stars/Maxwitat/CVE-2023-36884-Scripts-for-Intune-Remediation-SCCM-Compliance-Baseline.svg) ![forks](https://img.shields.io/github/forks/Maxwitat/CVE-2023-36884-Scripts-for-Intune-Remediation-SCCM-Compliance-Baseline.svg)- [https://github.com/tarraschk/CVE-2023-36884-Checker](https://github.com/tarraschk/CVE-2023-36884-Checker) :  ![starts](https://img.shields.io/github/stars/tarraschk/CVE-2023-36884-Checker.svg) ![forks](https://img.shields.io/github/forks/tarraschk/CVE-2023-36884-Checker.svg)- [https://github.com/jakabakos/CVE-2023-36884-MS-Office-HTML-RCE](https://github.com/jakabakos/CVE-2023-36884-MS-Office-HTML-RCE) :  ![starts](https://img.shields.io/github/stars/jakabakos/CVE-2023-36884-MS-Office-HTML-RCE.svg) ![forks](https://img.shields.io/github/forks/jakabakos/CVE-2023-36884-MS-Office-HTML-RCE.svg)- [https://github.com/ridsoliveira/Fix-CVE-2023-36884](https://github.com/ridsoliveira/Fix-CVE-2023-36884) :  ![starts](https://img.shields.io/github/stars/ridsoliveira/Fix-CVE-2023-36884.svg) ![forks](https://img.shields.io/github/forks/ridsoliveira/Fix-CVE-2023-36884.svg)- [https://github.com/zerosorai/CVE-2023-36884](https://github.com/zerosorai/CVE-2023-36884) :  ![starts](https://img.shields.io/github/stars/zerosorai/CVE-2023-36884.svg) ![forks](https://img.shields.io/github/forks/zerosorai/CVE-2023-36884.svg)- [https://github.com/deepinstinct/Storm0978-RomCom-Campaign](https://github.com/deepinstinct/Storm0978-RomCom-Campaign) :  ![starts](https://img.shields.io/github/stars/deepinstinct/Storm0978-RomCom-Campaign.svg) ![forks](https://img.shields.io/github/forks/deepinstinct/Storm0978-RomCom-Campaign.svg)- [https://github.com/raresteak/CVE-2023-36884](https://github.com/raresteak/CVE-2023-36884) :  ![starts](https://img.shields.io/github/stars/raresteak/CVE-2023-36884.svg) ![forks](https://img.shields.io/github/forks/raresteak/CVE-2023-36884.svg)- [https://github.com/ToddMaxey/CVE-2023-36884](https://github.com/ToddMaxey/CVE-2023-36884) :  ![starts](https://img.shields.io/github/stars/ToddMaxey/CVE-2023-36884.svg) ![forks](https://img.shields.io/github/forks/ToddMaxey/CVE-2023-36884.svg)- [https://github.com/or2me/CVE-2023-36884_patcher](https://github.com/or2me/CVE-2023-36884_patcher) :  ![starts](https://img.shields.io/github/stars/or2me/CVE-2023-36884_patcher.svg) ![forks](https://img.shields.io/github/forks/or2me/CVE-2023-36884_patcher.svg)",
     "poc": []
   },
   {
@@ -2046,7 +2075,7 @@
   },
   {
     "cve_code": "CVE-2023-32629",
-    "description": " Local privilege escalation vulnerability in Ubuntu Kernels overlayfs ovl_copy_up_meta_inode_data skip permission checks when calling ovl_do_setxattr on Ubuntu kernels- [https://github.com/kaotickj/Check-for-CVE-2023-32629-GameOver-lay](https://github.com/kaotickj/Check-for-CVE-2023-32629-GameOver-lay) :  ![starts](https://img.shields.io/github/stars/kaotickj/Check-for-CVE-2023-32629-GameOver-lay.svg) ![forks](https://img.shields.io/github/forks/kaotickj/Check-for-CVE-2023-32629-GameOver-lay.svg)- [https://github.com/OllaPapito/gameoverlay](https://github.com/OllaPapito/gameoverlay) :  ![starts](https://img.shields.io/github/stars/OllaPapito/gameoverlay.svg) ![forks](https://img.shields.io/github/forks/OllaPapito/gameoverlay.svg)- [https://github.com/g1vi/CVE-2023-2640-CVE-2023-32629](https://github.com/g1vi/CVE-2023-2640-CVE-2023-32629) :  ![starts](https://img.shields.io/github/stars/g1vi/CVE-2023-2640-CVE-2023-32629.svg) ![forks](https://img.shields.io/github/forks/g1vi/CVE-2023-2640-CVE-2023-32629.svg)- [https://github.com/luanoliveira350/GameOverlayFS](https://github.com/luanoliveira350/GameOverlayFS) :  ![starts](https://img.shields.io/github/stars/luanoliveira350/GameOverlayFS.svg) ![forks](https://img.shields.io/github/forks/luanoliveira350/GameOverlayFS.svg)- [https://github.com/johnlettman/juju-scripts](https://github.com/johnlettman/juju-scripts) :  ![starts](https://img.shields.io/github/stars/johnlettman/juju-scripts.svg) ![forks](https://img.shields.io/github/forks/johnlettman/juju-scripts.svg)",
+    "description": " Local privilege escalation vulnerability in Ubuntu Kernels overlayfs ovl_copy_up_meta_inode_data skip permission checks when calling ovl_do_setxattr on Ubuntu kernels- [https://github.com/g1vi/CVE-2023-2640-CVE-2023-32629](https://github.com/g1vi/CVE-2023-2640-CVE-2023-32629) :  ![starts](https://img.shields.io/github/stars/g1vi/CVE-2023-2640-CVE-2023-32629.svg) ![forks](https://img.shields.io/github/forks/g1vi/CVE-2023-2640-CVE-2023-32629.svg)- [https://github.com/kaotickj/Check-for-CVE-2023-32629-GameOver-lay](https://github.com/kaotickj/Check-for-CVE-2023-32629-GameOver-lay) :  ![starts](https://img.shields.io/github/stars/kaotickj/Check-for-CVE-2023-32629-GameOver-lay.svg) ![forks](https://img.shields.io/github/forks/kaotickj/Check-for-CVE-2023-32629-GameOver-lay.svg)- [https://github.com/OllaPapito/gameoverlay](https://github.com/OllaPapito/gameoverlay) :  ![starts](https://img.shields.io/github/stars/OllaPapito/gameoverlay.svg) ![forks](https://img.shields.io/github/forks/OllaPapito/gameoverlay.svg)- [https://github.com/luanoliveira350/GameOverlayFS](https://github.com/luanoliveira350/GameOverlayFS) :  ![starts](https://img.shields.io/github/stars/luanoliveira350/GameOverlayFS.svg) ![forks](https://img.shields.io/github/forks/luanoliveira350/GameOverlayFS.svg)- [https://github.com/johnlettman/juju-scripts](https://github.com/johnlettman/juju-scripts) :  ![starts](https://img.shields.io/github/stars/johnlettman/juju-scripts.svg) ![forks](https://img.shields.io/github/forks/johnlettman/juju-scripts.svg)",
     "poc": []
   },
   {
@@ -2097,8 +2126,8 @@
       "https://github.com/little44n1o/cve-2023-32243",
       "https://github.com/YouGina/CVE-2023-32243",
       "https://github.com/manavvedawala2/CVE-2023-32243-POC",
-      "https://github.com/manavvedawala2/CVE-2023-32243-proof-of-concept",
-      "https://github.com/manavvedawala/CVE-2023-32243-proof-of-concept"
+      "https://github.com/manavvedawala/CVE-2023-32243-proof-of-concept",
+      "https://github.com/manavvedawala2/CVE-2023-32243-proof-of-concept"
     ]
   },
   {
@@ -2400,6 +2429,13 @@
     ]
   },
   {
+    "cve_code": "CVE-2023-30861",
+    "description": " Flask is a lightweight WSGI web application framework. When all of the following conditions are met, a response containing data intended for one client may be cached and subsequently sent by the proxy to other clients. If the proxy also caches `Set-Cookie` headers, it may send one client's `session` cookie to other clients. The severity depends on the application's use of the session and the proxy's behavior regarding cookies. The risk depends on all these conditions being met. 1. The application must be hosted behind a caching proxy that does not strip cookies or ignore responses with cookies. 2. The application sets `session.permanent = True` 3. The application does not access or modify the session at any point during a request. 4. `SESSION_REFRESH_EACH_REQUEST` enabled (the default). 5. The application does not set a `Cache-Control` header to indicate that a page is private or should not be cached. This happens because vulnerable versions of Flask only set the `Vary: Cookie` header when the session is accessed or modified, not when it is refreshed (re-sent to update the expiration) without being accessed or modified. This issue has been fixed in versions 2.3.2 and 2.2.5.",
+    "poc": [
+      "https://github.com/JawadPy/CVE-2023-30861-Exploit"
+    ]
+  },
+  {
     "cve_code": "CVE-2023-30854",
     "description": " AVideo is an open source video platform. Prior to version 12.4, an OS Command Injection vulnerability in an authenticated endpoint `/plugin/CloneSite/cloneClient.json.php` allows attackers to achieve Remote Code Execution. This issue is fixed in version 12.4.",
     "poc": [
@@ -2508,8 +2544,8 @@
       "https://github.com/mallutrojan/CVE-2023-30212-Lab",
       "https://github.com/libas7994/Exploit-the-CVE-2023-30212-vulnerability",
       "https://github.com/AAsh035/CVE-2023-30212",
-      "https://github.com/Anandhu990/CVE-2023-30212-iab",
       "https://github.com/kai-iszz/CVE-2023-30212",
+      "https://github.com/Anandhu990/CVE-2023-30212-iab",
       "https://github.com/Anandhu990/CVE-2023-30212_lab",
       "https://github.com/libasv/Exploite-CVE-2023-30212-vulnerability",
       "https://github.com/Anandhu990/r-CVE-2023-30212-lab",
@@ -2850,8 +2886,8 @@
     "description": " A heap-based buffer overflow vulnerability [CWE-122] in FortiOS version 7.2.4 and below, version 7.0.11 and below, version 6.4.12 and below, version 6.0.16 and below and FortiProxy version 7.2.3 and below, version 7.0.9 and below, version 2.0.12 and below, version 1.2 all versions, version 1.1 all versions SSL-VPN may allow a remote attacker to execute arbitrary code or commands via specifically crafted requests.",
     "poc": [
       "https://github.com/BishopFox/CVE-2023-27997-check",
-      "https://github.com/rio128128/CVE-2023-27997-POC",
       "https://github.com/lexfo/xortigate-cve-2023-27997",
+      "https://github.com/rio128128/CVE-2023-27997-POC",
       "https://github.com/Pik-sec/cve-2023-27997",
       "https://github.com/delsploit/CVE-2023-27997",
       "https://github.com/imbas007/CVE-2023-27997-Check",
@@ -3361,6 +3397,7 @@
     "cve_code": "CVE-2023-24538",
     "description": " Templates do not properly consider backticks (`) as Javascript string delimiters, and do not escape them as expected. Backticks are used, since ES6, for JS template literals. If a template contains a Go template action within a Javascript template literal, the contents of the action can be used to terminate the literal, injecting arbitrary Javascript code into the Go template. As ES6 template literals are rather complex, and themselves can do string interpolation, the decision was made to simply disallow Go template actions from being used inside of them (e.g. &quot;var a = {{.}}&quot;), since there is no obviously safe way to allow this behavior. This takes the same approach as github.com/google/safehtml. With fix, Template.Parse returns an Error when it encounters templates like this, with an ErrorCode of value 12. This ErrorCode is currently unexported, but will be exported in the release of Go 1.21. Users who rely on the previous behavior can re-enable it using the GODEBUG flag jstmpllitinterp=1, with the caveat that backticks will now be escaped. This should be used with caution.",
     "poc": [
+      "https://github.com/skulkarni-mv/goIssue_kirkstone",
       "https://github.com/skulkarni-mv/goIssue_dunfell"
     ]
   },
@@ -3379,17 +3416,10 @@
     "poc": []
   },
   {
-    "cve_code": "CVE-2023-24362",
-    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
-    "poc": [
-      "https://github.com/cavetownie/CVE-2023-24362"
-    ]
-  },
-  {
     "cve_code": "CVE-2023-24329",
     "description": " An issue in the urllib.parse component of Python before 3.11.4 allows attackers to bypass blocklisting methods by supplying a URL that starts with blank characters.",
     "poc": [
-      "https://github.com/JawadPy/CVE-2023-24329",
+      "https://github.com/JawadPy/CVE-2023-24329-Exploit",
       "https://github.com/Pandante-Central/CVE-2023-24329-codeql-test",
       "https://github.com/H4R335HR/CVE-2023-24329-PoC"
     ]
@@ -3683,11 +3713,14 @@
     "description": " Atlassian has been made aware of an issue reported by a handful of customers where external attackers may have exploited a previously unknown vulnerability in publicly accessible Confluence Data Center and Server instances to create unauthorized Confluence administrator accounts and access Confluence instances. Atlassian Cloud sites are not affected by this vulnerability. If your Confluence site is accessed via an atlassian.net domain, it is hosted by Atlassian and is not vulnerable to this issue. For more details, please review the linked advisory on this CVE.",
     "poc": [
       "https://github.com/ErikWynter/CVE-2023-22515-Scan",
-      "https://github.com/Chocapikk/CVE-2023-22515",
       "https://github.com/ad-calcium/CVE-2023-22515",
+      "https://github.com/Chocapikk/CVE-2023-22515",
       "https://github.com/getdrive/PoC",
       "https://github.com/j3seer/CVE-2023-22515-POC",
+      "https://github.com/Le1a/CVE-2023-22515",
       "https://github.com/sincere9/CVE-2023-22515",
+      "https://github.com/iveresk/CVE-2023-22515",
+      "https://github.com/Vulnmachines/confluence-cve-2023-22515",
       "https://github.com/kh4sh3i/CVE-2023-22515"
     ]
   },
@@ -3850,8 +3883,8 @@
     "cve_code": "CVE-2023-21282",
     "description": " In TRANSPOSER_SETTINGS of lpp_tran.h, there is a possible out of bounds write due to an incorrect bounds check. This could lead to remote code execution with no additional execution privileges needed. User interaction is needed for exploitation.",
     "poc": [
-      "https://github.com/nidhi7598/external_aac_AOSP04-r1_CVE-2023-21282",
       "https://github.com/nidhi7598/external_aac_AOSP_06_r22_CVE-2023-21282",
+      "https://github.com/nidhi7598/external_aac_AOSP04-r1_CVE-2023-21282",
       "https://github.com/Trinadh465/external_aac_AOSP10_r33_CVE-2023-21282"
     ]
   },
@@ -3874,6 +3907,7 @@
     "description": " In readFrom of Uri.java, there is a possible bad URI permission grant due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
     "poc": [
       "https://github.com/pazhanivel07/platform_frameworks_base_AOSP_10_r33_CVE-2023-21272",
+      "https://github.com/nidhi7598/frameworks_base_AOSP_06_r22_CVE-2023-21272",
       "https://github.com/Trinadh465/frameworks_base_AOSP-4.2.2_r1_CVE-2023-21272"
     ]
   },
@@ -4048,7 +4082,7 @@
   },
   {
     "cve_code": "CVE-2023-5217",
-    "description": " Heap buffer overflow in vp8 encoding in libvpx in Google Chrome prior to 117.0.5938.132 and libvpx 1.13.1 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)- [https://github.com/wrv/cve-2023-5217-poc](https://github.com/wrv/cve-2023-5217-poc) :  ![starts](https://img.shields.io/github/stars/wrv/cve-2023-5217-poc.svg) ![forks](https://img.shields.io/github/forks/wrv/cve-2023-5217-poc.svg)- [https://github.com/Trinadh465/platform_external_libvpx_v1.4.0_CVE-2023-5217](https://github.com/Trinadh465/platform_external_libvpx_v1.4.0_CVE-2023-5217) :  ![starts](https://img.shields.io/github/stars/Trinadh465/platform_external_libvpx_v1.4.0_CVE-2023-5217.svg) ![forks](https://img.shields.io/github/forks/Trinadh465/platform_external_libvpx_v1.4.0_CVE-2023-5217.svg)- [https://github.com/Trinadh465/platform_external_libvpx_v1.8.0_CVE-2023-5217](https://github.com/Trinadh465/platform_external_libvpx_v1.8.0_CVE-2023-5217) :  ![starts](https://img.shields.io/github/stars/Trinadh465/platform_external_libvpx_v1.8.0_CVE-2023-5217.svg) ![forks](https://img.shields.io/github/forks/Trinadh465/platform_external_libvpx_v1.8.0_CVE-2023-5217.svg)",
+    "description": " Heap buffer overflow in vp8 encoding in libvpx in Google Chrome prior to 117.0.5938.132 and libvpx 1.13.1 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)- [https://github.com/wrv/cve-2023-5217-poc](https://github.com/wrv/cve-2023-5217-poc) :  ![starts](https://img.shields.io/github/stars/wrv/cve-2023-5217-poc.svg) ![forks](https://img.shields.io/github/forks/wrv/cve-2023-5217-poc.svg)- [https://github.com/Trinadh465/platform_external_libvpx_v1.8.0_CVE-2023-5217](https://github.com/Trinadh465/platform_external_libvpx_v1.8.0_CVE-2023-5217) :  ![starts](https://img.shields.io/github/stars/Trinadh465/platform_external_libvpx_v1.8.0_CVE-2023-5217.svg) ![forks](https://img.shields.io/github/forks/Trinadh465/platform_external_libvpx_v1.8.0_CVE-2023-5217.svg)- [https://github.com/Trinadh465/platform_external_libvpx_v1.4.0_CVE-2023-5217](https://github.com/Trinadh465/platform_external_libvpx_v1.4.0_CVE-2023-5217) :  ![starts](https://img.shields.io/github/stars/Trinadh465/platform_external_libvpx_v1.4.0_CVE-2023-5217.svg) ![forks](https://img.shields.io/github/forks/Trinadh465/platform_external_libvpx_v1.4.0_CVE-2023-5217.svg)",
     "poc": []
   },
   {
@@ -4102,6 +4136,7 @@
       "https://github.com/ruycr4ft/CVE-2023-4911",
       "https://github.com/xiaoQ1z/CVE-2023-4911",
       "https://github.com/silent6trinity/looney-tuneables",
+      "https://github.com/guffre/CVE-2023-4911",
       "https://github.com/hadrian3689/looney-tunables-CVE-2023-4911"
     ]
   },
@@ -4269,6 +4304,27 @@
     "description": " An out-of-bounds memory access flaw was found in the Linux kernel&#8217;s TUN/TAP device driver functionality in how a user generates a malicious (too big) networking packet when napi frags is enabled. This flaw allows a local user to crash or potentially escalate their privileges on the system.",
     "poc": [
       "https://github.com/nidhi7598/linux-4.19.72_CVE-2023-3812"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-3712",
+    "description": " Files or Directories Accessible to External Parties vulnerability in Honeywell PM43 on 32 bit, ARM (Printer web page modules) allows Privilege Escalation.This issue affects PM43 versions prior to P10.19.050004. Update to the latest available firmware version of the respective printers to version MR19.5 (e.g. P10.19.050006).",
+    "poc": [
+      "https://github.com/vpxuser/CVE-2023-3712-POC"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-3711",
+    "description": " Session Fixation vulnerability in Honeywell PM43 on 32 bit, ARM (Printer web page modules) allows Session Credential Falsification through Prediction.This issue affects PM43 versions prior to P10.19.050004. Update to the latest available firmware version of the respective printers to version MR19.5 (e.g. P10.19.050006).",
+    "poc": [
+      "https://github.com/vpxuser/CVE-2023-3711-POC"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-3710",
+    "description": " Improper Input Validation vulnerability in Honeywell PM43 on 32 bit, ARM (Printer web page modules) allows Command Injection.This issue affects PM43 versions prior to P10.19.050004. Update to the latest available firmware version of the respective printers to version MR19.5 (e.g. P10.19.050006).",
+    "poc": [
+      "https://github.com/vpxuser/CVE-2023-3710-POC"
     ]
   },
   {
@@ -4487,8 +4543,8 @@
     "cve_code": "CVE-2023-2640",
     "description": " On Ubuntu kernels carrying both c914c0e27eb0 and &quot;UBUNTU: SAUCE: overlayfs: Skip permission checking for trusted.overlayfs.* xattrs&quot;, an unprivileged user may set privileged extended attributes on the mounted files, leading them to be set on the upper files without the appropriate security checks.",
     "poc": [
-      "https://github.com/OllaPapito/gameoverlay",
       "https://github.com/g1vi/CVE-2023-2640-CVE-2023-32629",
+      "https://github.com/OllaPapito/gameoverlay",
       "https://github.com/luanoliveira350/GameOverlayFS",
       "https://github.com/johnlettman/juju-scripts"
     ]
@@ -4523,8 +4579,7 @@
     "cve_code": "CVE-2023-2523",
     "description": " A vulnerability was found in Weaver E-Office 9.5. It has been rated as critical. Affected by this issue is some unknown functionality of the file App/Ajax/ajax.php?action=mobile_upload_save. The manipulation of the argument upload_quwan leads to unrestricted upload. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. VDB-228014 is the identifier assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.",
     "poc": [
-      "https://github.com/Any3ite/CVE-2023-2523",
-      "https://github.com/bingtangbanli/cve-2023-2523-and-cve-2023-2648"
+      "https://github.com/Any3ite/CVE-2023-2523"
     ]
   },
   {
@@ -4649,8 +4704,8 @@
       "https://github.com/padbergpete47/CVE-2023-1454",
       "https://github.com/gobysec/CVE-2023-1454",
       "https://github.com/CKevens/CVE-2023-1454-EXP",
-      "https://github.com/cjybao/CVE-2023-1454",
-      "https://github.com/BugFor-Pings/CVE-2023-1454"
+      "https://github.com/BugFor-Pings/CVE-2023-1454",
+      "https://github.com/cjybao/CVE-2023-1454"
     ]
   },
   {
@@ -40407,6 +40462,13 @@
     "description": " Cyberstop Web Server for Windows 0.1 allows remote attackers to cause a denial of service (crash) and possibly execute arbitrary code via a long HTTP GET request, possibly triggering a buffer overflow.",
     "poc": [
       "https://github.com/alt3kx/CVE-2002-0201"
+    ]
+  },
+  {
+    "cve_code": "CVE-2002-0200",
+    "description": " Cyberstop Web Server for Windows 0.1 allows remote attackers to cause a denial of service via an HTTP request for an MS-DOS device name.",
+    "poc": [
+      "https://github.com/alt3kx/CVE-2002-0200"
     ]
   },
   {
