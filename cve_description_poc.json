@@ -1,5 +1,12 @@
 [
   {
+    "cve_code": "CVE-2023-45603",
+    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "poc": [
+      "https://github.com/codeb0ss/CVE-2023-45603-PoC"
+    ]
+  },
+  {
     "cve_code": "CVE-2023-45542",
     "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
     "poc": [
@@ -11,6 +18,13 @@
     "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
     "poc": [
       "https://github.com/soundarkutty/CVE-2023-45540"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-45471",
+    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "poc": [
+      "https://github.com/itsAptx/CVE-2023-45471"
     ]
   },
   {
@@ -138,8 +152,8 @@
     "poc": [
       "https://github.com/bcdannyboy/CVE-2023-44487",
       "https://github.com/imabee101/CVE-2023-44487",
-      "https://github.com/pabloec20/rapidreset",
       "https://github.com/secengjeff/rapidresetclient",
+      "https://github.com/pabloec20/rapidreset",
       "https://github.com/ByteHackr/CVE-2023-44487"
     ]
   },
@@ -451,6 +465,7 @@
     "description": " JumpServer is an open source bastion host. This vulnerability is due to exposing the random number seed to the API, potentially allowing the randomly generated verification codes to be replayed, which could lead to password resets. If MFA is enabled users are not affect. Users not using local authentication are also not affected. Users are advised to upgrade to either version 2.28.19 or to 3.6.5. There are no known workarounds or this issue.",
     "poc": [
       "https://github.com/C1ph3rX13/CVE-2023-42820",
+      "https://github.com/tarimoe/blackjump",
       "https://github.com/Startr4ck/cve-2023-42820",
       "https://github.com/wh-gov/CVE-2023-42820"
     ]
@@ -503,7 +518,8 @@
     "cve_code": "CVE-2023-42442",
     "description": " JumpServer is an open source bastion host and a professional operation and maintenance security audit system. Starting in version 3.0.0 and prior to versions 3.5.5 and 3.6.4, session replays can download without authentication. Session replays stored in S3, OSS, or other cloud storage are not affected. The api `/api/v1/terminal/sessions/` permission control is broken and can be accessed anonymously. SessionViewSet permission classes set to `[RBACPermission | IsSessionAssignee]`, relation is or, so any permission matched will be allowed. Versions 3.5.5 and 3.6.4 have a fix. After upgrading, visit the api `$HOST/api/v1/terminal/sessions/?limit=1`. The expected http response code is 401 (`not_authenticated`).",
     "poc": [
-      "https://github.com/HolyGu/CVE-2023-42442"
+      "https://github.com/HolyGu/CVE-2023-42442",
+      "https://github.com/tarimoe/blackjump"
     ]
   },
   {
@@ -937,12 +953,12 @@
       "https://github.com/ruycr4ft/CVE-2023-38831",
       "https://github.com/elefantesagradodeluzinfinita/cve-2023-38831",
       "https://github.com/IR-HuntGuardians/CVE-2023-38831-HUNT",
-      "https://github.com/thegr1ffyn/CVE-2023-38831",
       "https://github.com/xaitax/WinRAR-CVE-2023-38831",
+      "https://github.com/thegr1ffyn/CVE-2023-38831",
       "https://github.com/GOTonyGO/CVE-2023-38831-winrar",
+      "https://github.com/asepsaepdin/CVE-2023-38831",
       "https://github.com/an040702/CVE-2023-38831",
       "https://github.com/IMHarman/CVE-2023-38831",
-      "https://github.com/asepsaepdin/CVE-2023-38831",
       "https://github.com/nhman-python/CVE-2023-38831",
       "https://github.com/Fa1c0n35/CVE-2023-38831-winrar-exploit",
       "https://github.com/BeniBeastt/CVE-2023-38831_ReverseShell_Winrar",
@@ -1004,8 +1020,10 @@
       "https://github.com/joaoviictorti/CVE-2023-38646",
       "https://github.com/Any3ite/cve-2023-38646-metabase-ReverseShell",
       "https://github.com/SUT0L/CVE-2023-38646",
+      "https://github.com/Pyr0sec/CVE-2023-38646",
       "https://github.com/LazyySec/CVE-2023-38646",
       "https://github.com/threatHNTR/CVE-2023-38646",
+      "https://github.com/asepsaepdin/CVE-2023-38646",
       "https://github.com/yxl2001/CVE-2023-38646",
       "https://github.com/passwa11/CVE-2023-38646",
       "https://github.com/adriyansyah-mf/CVE-2023-38646--Metabase-",
@@ -1769,6 +1787,7 @@
       "https://github.com/deepinstinct/MOVEit_CVE-2023-34362_IOCs",
       "https://github.com/toorandom/moveit-payload-decrypt-CVE-2023-34362",
       "https://github.com/errorfiathck/MOVEit-Exploit",
+      "https://github.com/kor34N/CVE-2023-34362-mass",
       "https://github.com/lithuanian-g/cve-2023-34362-iocs"
     ]
   },
@@ -2549,8 +2568,8 @@
       "https://github.com/Anandhu990/CVE-2023-30212_lab",
       "https://github.com/libasv/Exploite-CVE-2023-30212-vulnerability",
       "https://github.com/Anandhu990/r-CVE-2023-30212-lab",
-      "https://github.com/VisDev23/Vulnerable-Docker-CVE-2023-30212",
       "https://github.com/VisDev23/Vulnerable-Docker--CVE-2023-30212-",
+      "https://github.com/VisDev23/Vulnerable-Docker-CVE-2023-30212",
       "https://github.com/Anandhu990/r-CVE-2023-30212--lab",
       "https://github.com/MaThEw-ViNcEnT/CVE-2023-30212-OURPHP-Vulnerability",
       "https://github.com/libasmon/Vulnerable-Docker-Environment-CVE-2023-30212",
@@ -3397,8 +3416,8 @@
     "cve_code": "CVE-2023-24538",
     "description": " Templates do not properly consider backticks (`) as Javascript string delimiters, and do not escape them as expected. Backticks are used, since ES6, for JS template literals. If a template contains a Go template action within a Javascript template literal, the contents of the action can be used to terminate the literal, injecting arbitrary Javascript code into the Go template. As ES6 template literals are rather complex, and themselves can do string interpolation, the decision was made to simply disallow Go template actions from being used inside of them (e.g. &quot;var a = {{.}}&quot;), since there is no obviously safe way to allow this behavior. This takes the same approach as github.com/google/safehtml. With fix, Template.Parse returns an Error when it encounters templates like this, with an ErrorCode of value 12. This ErrorCode is currently unexported, but will be exported in the release of Go 1.21. Users who rely on the previous behavior can re-enable it using the GODEBUG flag jstmpllitinterp=1, with the caveat that backticks will now be escaped. This should be used with caution.",
     "poc": [
-      "https://github.com/skulkarni-mv/goIssue_kirkstone",
-      "https://github.com/skulkarni-mv/goIssue_dunfell"
+      "https://github.com/skulkarni-mv/goIssue_dunfell",
+      "https://github.com/skulkarni-mv/goIssue_kirkstone"
     ]
   },
   {
@@ -3491,19 +3510,19 @@
       "https://github.com/karthikuj/CVE-2023-23752-Docker",
       "https://github.com/adhikara13/CVE-2023-23752",
       "https://github.com/GhostToKnow/CVE-2023-23752",
-      "https://github.com/ibaiw/joomla_CVE-2023-23752",
-      "https://github.com/YusinoMy/CVE-2023-23752",
       "https://github.com/0xNahim/CVE-2023-23752",
+      "https://github.com/YusinoMy/CVE-2023-23752",
+      "https://github.com/ibaiw/joomla_CVE-2023-23752",
+      "https://github.com/Vulnmachines/joomla_CVE-2023-23752",
       "https://github.com/haxor1337x/Mass-Checker-CVE-2023-23752",
       "https://github.com/adriyansyah-mf/CVE-2023-23752",
       "https://github.com/HaxorSec1945/CVE2023-23752",
       "https://github.com/wangking1/CVE-2023-23752-poc",
       "https://github.com/AkbarWiraN/Joomla-Scanner",
-      "https://github.com/Vulnmachines/joomla_CVE-2023-23752",
       "https://github.com/MrP4nda1337/CVE-2023-23752",
-      "https://github.com/Jenderal92/Joomla-CVE-2023-23752",
+      "https://github.com/wibuheker/Joomla-CVE-2023-23752",
       "https://github.com/H454NSec/CVE-2023-23752",
-      "https://github.com/wibuheker/Joomla-CVE-2023-23752"
+      "https://github.com/Jenderal92/Joomla-CVE-2023-23752"
     ]
   },
   {
@@ -3712,16 +3731,16 @@
     "cve_code": "CVE-2023-22515",
     "description": " Atlassian has been made aware of an issue reported by a handful of customers where external attackers may have exploited a previously unknown vulnerability in publicly accessible Confluence Data Center and Server instances to create unauthorized Confluence administrator accounts and access Confluence instances. Atlassian Cloud sites are not affected by this vulnerability. If your Confluence site is accessed via an atlassian.net domain, it is hosted by Atlassian and is not vulnerable to this issue. For more details, please review the linked advisory on this CVE.",
     "poc": [
-      "https://github.com/ErikWynter/CVE-2023-22515-Scan",
       "https://github.com/ad-calcium/CVE-2023-22515",
+      "https://github.com/ErikWynter/CVE-2023-22515-Scan",
       "https://github.com/Chocapikk/CVE-2023-22515",
       "https://github.com/getdrive/PoC",
       "https://github.com/j3seer/CVE-2023-22515-POC",
       "https://github.com/Le1a/CVE-2023-22515",
       "https://github.com/sincere9/CVE-2023-22515",
-      "https://github.com/iveresk/CVE-2023-22515",
       "https://github.com/Vulnmachines/confluence-cve-2023-22515",
-      "https://github.com/kh4sh3i/CVE-2023-22515"
+      "https://github.com/kh4sh3i/CVE-2023-22515",
+      "https://github.com/iveresk/CVE-2023-22515"
     ]
   },
   {
@@ -3883,8 +3902,8 @@
     "cve_code": "CVE-2023-21282",
     "description": " In TRANSPOSER_SETTINGS of lpp_tran.h, there is a possible out of bounds write due to an incorrect bounds check. This could lead to remote code execution with no additional execution privileges needed. User interaction is needed for exploitation.",
     "poc": [
-      "https://github.com/nidhi7598/external_aac_AOSP_06_r22_CVE-2023-21282",
       "https://github.com/nidhi7598/external_aac_AOSP04-r1_CVE-2023-21282",
+      "https://github.com/nidhi7598/external_aac_AOSP_06_r22_CVE-2023-21282",
       "https://github.com/Trinadh465/external_aac_AOSP10_r33_CVE-2023-21282"
     ]
   },
@@ -4082,7 +4101,7 @@
   },
   {
     "cve_code": "CVE-2023-5217",
-    "description": " Heap buffer overflow in vp8 encoding in libvpx in Google Chrome prior to 117.0.5938.132 and libvpx 1.13.1 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)- [https://github.com/wrv/cve-2023-5217-poc](https://github.com/wrv/cve-2023-5217-poc) :  ![starts](https://img.shields.io/github/stars/wrv/cve-2023-5217-poc.svg) ![forks](https://img.shields.io/github/forks/wrv/cve-2023-5217-poc.svg)- [https://github.com/Trinadh465/platform_external_libvpx_v1.8.0_CVE-2023-5217](https://github.com/Trinadh465/platform_external_libvpx_v1.8.0_CVE-2023-5217) :  ![starts](https://img.shields.io/github/stars/Trinadh465/platform_external_libvpx_v1.8.0_CVE-2023-5217.svg) ![forks](https://img.shields.io/github/forks/Trinadh465/platform_external_libvpx_v1.8.0_CVE-2023-5217.svg)- [https://github.com/Trinadh465/platform_external_libvpx_v1.4.0_CVE-2023-5217](https://github.com/Trinadh465/platform_external_libvpx_v1.4.0_CVE-2023-5217) :  ![starts](https://img.shields.io/github/stars/Trinadh465/platform_external_libvpx_v1.4.0_CVE-2023-5217.svg) ![forks](https://img.shields.io/github/forks/Trinadh465/platform_external_libvpx_v1.4.0_CVE-2023-5217.svg)",
+    "description": " Heap buffer overflow in vp8 encoding in libvpx in Google Chrome prior to 117.0.5938.132 and libvpx 1.13.1 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)- [https://github.com/wrv/cve-2023-5217-poc](https://github.com/wrv/cve-2023-5217-poc) :  ![starts](https://img.shields.io/github/stars/wrv/cve-2023-5217-poc.svg) ![forks](https://img.shields.io/github/forks/wrv/cve-2023-5217-poc.svg)- [https://github.com/Trinadh465/platform_external_libvpx_v1.4.0_CVE-2023-5217](https://github.com/Trinadh465/platform_external_libvpx_v1.4.0_CVE-2023-5217) :  ![starts](https://img.shields.io/github/stars/Trinadh465/platform_external_libvpx_v1.4.0_CVE-2023-5217.svg) ![forks](https://img.shields.io/github/forks/Trinadh465/platform_external_libvpx_v1.4.0_CVE-2023-5217.svg)- [https://github.com/Trinadh465/platform_external_libvpx_v1.8.0_CVE-2023-5217](https://github.com/Trinadh465/platform_external_libvpx_v1.8.0_CVE-2023-5217) :  ![starts](https://img.shields.io/github/stars/Trinadh465/platform_external_libvpx_v1.8.0_CVE-2023-5217.svg) ![forks](https://img.shields.io/github/forks/Trinadh465/platform_external_libvpx_v1.8.0_CVE-2023-5217.svg)",
     "poc": []
   },
   {
@@ -4324,7 +4343,9 @@
     "cve_code": "CVE-2023-3710",
     "description": " Improper Input Validation vulnerability in Honeywell PM43 on 32 bit, ARM (Printer web page modules) allows Command Injection.This issue affects PM43 versions prior to P10.19.050004. Update to the latest available firmware version of the respective printers to version MR19.5 (e.g. P10.19.050006).",
     "poc": [
-      "https://github.com/vpxuser/CVE-2023-3710-POC"
+      "https://github.com/CwEeR313/CVE-2023-3710",
+      "https://github.com/vpxuser/CVE-2023-3710-POC",
+      "https://github.com/Mahdi22228/CVE-2023-3710"
     ]
   },
   {
@@ -4579,7 +4600,8 @@
     "cve_code": "CVE-2023-2523",
     "description": " A vulnerability was found in Weaver E-Office 9.5. It has been rated as critical. Affected by this issue is some unknown functionality of the file App/Ajax/ajax.php?action=mobile_upload_save. The manipulation of the argument upload_quwan leads to unrestricted upload. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. VDB-228014 is the identifier assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.",
     "poc": [
-      "https://github.com/Any3ite/CVE-2023-2523"
+      "https://github.com/Any3ite/CVE-2023-2523",
+      "https://github.com/bingtangbanli/cve-2023-2523-and-cve-2023-2648"
     ]
   },
   {
@@ -4704,8 +4726,8 @@
       "https://github.com/padbergpete47/CVE-2023-1454",
       "https://github.com/gobysec/CVE-2023-1454",
       "https://github.com/CKevens/CVE-2023-1454-EXP",
-      "https://github.com/BugFor-Pings/CVE-2023-1454",
-      "https://github.com/cjybao/CVE-2023-1454"
+      "https://github.com/cjybao/CVE-2023-1454",
+      "https://github.com/BugFor-Pings/CVE-2023-1454"
     ]
   },
   {
