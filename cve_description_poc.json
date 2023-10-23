@@ -1003,7 +1003,7 @@
   },
   {
     "cve_code": "CVE-2023-38831",
-    "description": " RARLabs WinRAR before 6.23 allows attackers to execute arbitrary code when a user attempts to view a benign file within a ZIP archive. The issue occurs because a ZIP archive may include a benign file (such as an ordinary .JPG file) and also a folder that has the same name as the benign file, and the contents of the folder (which may include executable content) are processed during an attempt to access only the benign file. This was exploited in the wild in April through October 2023.",
+    "description": " RARLAB WinRAR before 6.23 allows attackers to execute arbitrary code when a user attempts to view a benign file within a ZIP archive. The issue occurs because a ZIP archive may include a benign file (such as an ordinary .JPG file) and also a folder that has the same name as the benign file, and the contents of the folder (which may include executable content) are processed during an attempt to access only the benign file. This was exploited in the wild in April through October 2023.",
     "poc": [
       "https://github.com/b1tg/CVE-2023-38831-winrar-exploit",
       "https://github.com/ignis-sec/CVE-2023-38831-RaRCE",
@@ -1084,9 +1084,9 @@
       "https://github.com/securezeron/CVE-2023-38646",
       "https://github.com/0xrobiul/CVE-2023-38646",
       "https://github.com/Pumpkin-Garden/POC_Metabase_CVE-2023-38646",
+      "https://github.com/kh4sh3i/CVE-2023-38646",
       "https://github.com/shamo0/CVE-2023-38646-PoC",
       "https://github.com/Pyr0sec/CVE-2023-38646",
-      "https://github.com/kh4sh3i/CVE-2023-38646",
       "https://github.com/nickswink/CVE-2023-38646",
       "https://github.com/Xuxfff/CVE-2023-38646-Poc",
       "https://github.com/fidjiw/CVE-2023-38646-POC",
@@ -1097,10 +1097,11 @@
       "https://github.com/m3m0o/metabase-pre-auth-rce-poc",
       "https://github.com/SUT0L/CVE-2023-38646",
       "https://github.com/birdm4nw/CVE-2023-38646",
-      "https://github.com/AnvithLobo/CVE-2023-38646",
       "https://github.com/LazyySec/CVE-2023-38646",
       "https://github.com/asepsaepdin/CVE-2023-38646",
       "https://github.com/threatHNTR/CVE-2023-38646",
+      "https://github.com/AnvithLobo/CVE-2023-38646",
+      "https://github.com/entr0pie/CVE-2023-38646",
       "https://github.com/yxl2001/CVE-2023-38646",
       "https://github.com/passwa11/CVE-2023-38646",
       "https://github.com/adriyansyah-mf/CVE-2023-38646--Metabase-",
@@ -2206,7 +2207,7 @@
   },
   {
     "cve_code": "CVE-2023-32629",
-    "description": " Local privilege escalation vulnerability in Ubuntu Kernels overlayfs ovl_copy_up_meta_inode_data skip permission checks when calling ovl_do_setxattr on Ubuntu kernels- [https://github.com/g1vi/CVE-2023-2640-CVE-2023-32629](https://github.com/g1vi/CVE-2023-2640-CVE-2023-32629) :  ![starts](https://img.shields.io/github/stars/g1vi/CVE-2023-2640-CVE-2023-32629.svg) ![forks](https://img.shields.io/github/forks/g1vi/CVE-2023-2640-CVE-2023-32629.svg)- [https://github.com/kaotickj/Check-for-CVE-2023-32629-GameOver-lay](https://github.com/kaotickj/Check-for-CVE-2023-32629-GameOver-lay) :  ![starts](https://img.shields.io/github/stars/kaotickj/Check-for-CVE-2023-32629-GameOver-lay.svg) ![forks](https://img.shields.io/github/forks/kaotickj/Check-for-CVE-2023-32629-GameOver-lay.svg)- [https://github.com/OllaPapito/gameoverlay](https://github.com/OllaPapito/gameoverlay) :  ![starts](https://img.shields.io/github/stars/OllaPapito/gameoverlay.svg) ![forks](https://img.shields.io/github/forks/OllaPapito/gameoverlay.svg)- [https://github.com/luanoliveira350/GameOverlayFS](https://github.com/luanoliveira350/GameOverlayFS) :  ![starts](https://img.shields.io/github/stars/luanoliveira350/GameOverlayFS.svg) ![forks](https://img.shields.io/github/forks/luanoliveira350/GameOverlayFS.svg)- [https://github.com/johnlettman/juju-scripts](https://github.com/johnlettman/juju-scripts) :  ![starts](https://img.shields.io/github/stars/johnlettman/juju-scripts.svg) ![forks](https://img.shields.io/github/forks/johnlettman/juju-scripts.svg)",
+    "description": " Local privilege escalation vulnerability in Ubuntu Kernels overlayfs ovl_copy_up_meta_inode_data skip permission checks when calling ovl_do_setxattr on Ubuntu kernels- [https://github.com/g1vi/CVE-2023-2640-CVE-2023-32629](https://github.com/g1vi/CVE-2023-2640-CVE-2023-32629) :  ![starts](https://img.shields.io/github/stars/g1vi/CVE-2023-2640-CVE-2023-32629.svg) ![forks](https://img.shields.io/github/forks/g1vi/CVE-2023-2640-CVE-2023-32629.svg)- [https://github.com/OllaPapito/gameoverlay](https://github.com/OllaPapito/gameoverlay) :  ![starts](https://img.shields.io/github/stars/OllaPapito/gameoverlay.svg) ![forks](https://img.shields.io/github/forks/OllaPapito/gameoverlay.svg)- [https://github.com/kaotickj/Check-for-CVE-2023-32629-GameOver-lay](https://github.com/kaotickj/Check-for-CVE-2023-32629-GameOver-lay) :  ![starts](https://img.shields.io/github/stars/kaotickj/Check-for-CVE-2023-32629-GameOver-lay.svg) ![forks](https://img.shields.io/github/forks/kaotickj/Check-for-CVE-2023-32629-GameOver-lay.svg)- [https://github.com/luanoliveira350/GameOverlayFS](https://github.com/luanoliveira350/GameOverlayFS) :  ![starts](https://img.shields.io/github/stars/luanoliveira350/GameOverlayFS.svg) ![forks](https://img.shields.io/github/forks/luanoliveira350/GameOverlayFS.svg)- [https://github.com/johnlettman/juju-scripts](https://github.com/johnlettman/juju-scripts) :  ![starts](https://img.shields.io/github/stars/johnlettman/juju-scripts.svg) ![forks](https://img.shields.io/github/forks/johnlettman/juju-scripts.svg)",
     "poc": []
   },
   {
@@ -2672,8 +2673,8 @@
       "https://github.com/libas7994/CVE-2023-30212",
       "https://github.com/libas7994/Exploit-the-CVE-2023-30212-vulnerability",
       "https://github.com/AAsh035/CVE-2023-30212",
-      "https://github.com/kai-iszz/CVE-2023-30212",
       "https://github.com/libasv/Exploite-CVE-2023-30212-vulnerability",
+      "https://github.com/kai-iszz/CVE-2023-30212",
       "https://github.com/arunsnap/CVE-2023-30212-POC",
       "https://github.com/mallutrojan/CVE-2023-30212-Lab",
       "https://github.com/kuttappu123/CVE-2023-30212-LAB",
@@ -3883,8 +3884,8 @@
     "cve_code": "CVE-2023-22515",
     "description": " Atlassian has been made aware of an issue reported by a handful of customers where external attackers may have exploited a previously unknown vulnerability in publicly accessible Confluence Data Center and Server instances to create unauthorized Confluence administrator accounts and access Confluence instances. Atlassian Cloud sites are not affected by this vulnerability. If your Confluence site is accessed via an atlassian.net domain, it is hosted by Atlassian and is not vulnerable to this issue.",
     "poc": [
-      "https://github.com/ad-calcium/CVE-2023-22515",
       "https://github.com/Chocapikk/CVE-2023-22515",
+      "https://github.com/ad-calcium/CVE-2023-22515",
       "https://github.com/ErikWynter/CVE-2023-22515-Scan",
       "https://github.com/getdrive/PoC",
       "https://github.com/j3seer/CVE-2023-22515-POC",
@@ -3892,9 +3893,11 @@
       "https://github.com/sincere9/CVE-2023-22515",
       "https://github.com/Vulnmachines/confluence-cve-2023-22515",
       "https://github.com/iveresk/CVE-2023-22515",
+      "https://github.com/joaoviictorti/CVE-2023-22515",
       "https://github.com/kh4sh3i/CVE-2023-22515",
       "https://github.com/youcannotseemeagain/CVE-2023-22515_RCE",
-      "https://github.com/DsaHen/cve-2023-22515-exp"
+      "https://github.com/DsaHen/cve-2023-22515-exp",
+      "https://github.com/spark1security/n0s1"
     ]
   },
   {
@@ -4182,7 +4185,7 @@
     "description": " Cisco is aware of active exploitation of a previously unknown vulnerability in the web UI feature of Cisco IOS XE Software when exposed to the internet or to untrusted networks. This vulnerability allows a remote, unauthenticated attacker to create an account on an affected system with privilege level 15 access. The attacker can then use that account to gain control of the affected system. For steps to close the attack vector for this vulnerability, see the Recommendations section of this advisory Cisco will provide updates on the status of this investigation and when a software patch is available.",
     "poc": [
       "https://github.com/vulncheck-oss/cisco-ios-xe-implant-scanner",
-      "https://github.com/ZephrFish/Cisco-IOS-XE-Scanner",
+      "https://github.com/ZephrFish/CVE-2023-20198-Checker",
       "https://github.com/hackingyseguridad/nmap",
       "https://github.com/Atea-Redteam/CVE-2023-20198",
       "https://github.com/Tounsi007/CVE-2023-20198",
@@ -4763,8 +4766,8 @@
     "poc": [
       "https://github.com/Occamsec/CVE-2023-2825",
       "https://github.com/yuimarudev/CVE-2023-2825",
-      "https://github.com/Rubikcuv5/CVE-2023-2825",
       "https://github.com/caopengyan/CVE-2023-2825",
+      "https://github.com/Rubikcuv5/CVE-2023-2825",
       "https://github.com/Tornad0007/CVE-2023-2825-Gitlab"
     ]
   },
