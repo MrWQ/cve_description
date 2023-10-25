@@ -127,14 +127,14 @@
   },
   {
     "cve_code": "CVE-2023-44769",
-    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " A Cross-Site Scripting (XSS) vulnerability in Zenario CMS v.9.4.59197 allows a local attacker to execute arbitrary code via a crafted script to the Spare aliases from Alias.",
     "poc": [
       "https://github.com/sromanhu/CVE-2023-44769_ZenarioCMS--Reflected-XSS---Alias"
     ]
   },
   {
     "cve_code": "CVE-2023-44767",
-    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " A File upload vulnerability in RiteCMS 3.0 allows a local attacker to upload a SVG file with XSS content.",
     "poc": [
       "https://github.com/sromanhu/CVE-2023-44767_RiteCMS-File-Upload--XSS---Filemanager"
     ]
@@ -315,7 +315,7 @@
   },
   {
     "cve_code": "CVE-2023-43360",
-    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " Cross Site Scripting vulnerability in CMSmadesimple v.2.2.18 allows a local attacker to execute arbitrary code via a crafted script to the Top Directory parameter in the File Picker Menu component.",
     "poc": [
       "https://github.com/sromanhu/CVE-2023-43360-CMSmadesimple-Stored-XSS---File-Picker-extension"
     ]
@@ -612,7 +612,6 @@
     "poc": [
       "https://github.com/po6ix/POC-for-CVE-2023-41993",
       "https://github.com/hrtowii/cve-2023-41993-test",
-      "https://github.com/0x06060606/CVE-2023-41993",
       "https://github.com/Mangaia/cve-test"
     ]
   },
@@ -1035,10 +1034,10 @@
       "https://github.com/thegr1ffyn/CVE-2023-38831",
       "https://github.com/xaitax/WinRAR-CVE-2023-38831",
       "https://github.com/IR-HuntGuardians/CVE-2023-38831-HUNT",
+      "https://github.com/kehrijksen/CVE-2023-38831",
       "https://github.com/an040702/CVE-2023-38831",
       "https://github.com/Nielk74/CVE-2023-38831",
       "https://github.com/asepsaepdin/CVE-2023-38831",
-      "https://github.com/kehrijksen/CVE-2023-38831",
       "https://github.com/IMHarman/CVE-2023-38831",
       "https://github.com/nhman-python/CVE-2023-38831",
       "https://github.com/GOTonyGO/CVE-2023-38831-winrar",
@@ -1092,8 +1091,8 @@
       "https://github.com/securezeron/CVE-2023-38646",
       "https://github.com/0xrobiul/CVE-2023-38646",
       "https://github.com/Pumpkin-Garden/POC_Metabase_CVE-2023-38646",
-      "https://github.com/kh4sh3i/CVE-2023-38646",
       "https://github.com/shamo0/CVE-2023-38646-PoC",
+      "https://github.com/kh4sh3i/CVE-2023-38646",
       "https://github.com/Pyr0sec/CVE-2023-38646",
       "https://github.com/nickswink/CVE-2023-38646",
       "https://github.com/Xuxfff/CVE-2023-38646-Poc",
@@ -1348,6 +1347,13 @@
     ]
   },
   {
+    "cve_code": "CVE-2023-37478",
+    "description": " pnpm is a package manager. It is possible to construct a tarball that, when installed via npm or parsed by the registry is safe, but when installed via pnpm is malicious, due to how pnpm parses tar archives. This can result in a package that appears safe on the npm registry or when installed via npm being replaced with a compromised or malicious version when installed via pnpm. This issue has been patched in version(s) 7.33.4 and 8.6.8.",
+    "poc": [
+      "https://github.com/TrevorGKann/CVE-2023-37478_npm_vs_pnpm"
+    ]
+  },
+  {
     "cve_code": "CVE-2023-37474",
     "description": " Copyparty is a portable file server. Versions prior to 1.8.2 are subject to a path traversal vulnerability detected in the `.cpr` subfolder. The Path Traversal attack technique allows an attacker access to files, directories, and commands that reside outside the web document root directory. This issue has been addressed in commit `043e3c7d` which has been included in release 1.8.2. Users are advised to upgrade. There are no known workarounds for this vulnerability.",
     "poc": [
@@ -1459,7 +1465,7 @@
   },
   {
     "cve_code": "CVE-2023-36802",
-    "description": " Microsoft Streaming Service Proxy Elevation of Privilege Vulnerability- [https://github.com/chompie1337/Windows_MSKSSRV_LPE_CVE-2023-36802](https://github.com/chompie1337/Windows_MSKSSRV_LPE_CVE-2023-36802) :  ![starts](https://img.shields.io/github/stars/chompie1337/Windows_MSKSSRV_LPE_CVE-2023-36802.svg) ![forks](https://img.shields.io/github/forks/chompie1337/Windows_MSKSSRV_LPE_CVE-2023-36802.svg)- [https://github.com/x0rb3l/CVE-2023-36802-MSKSSRV-LPE](https://github.com/x0rb3l/CVE-2023-36802-MSKSSRV-LPE) :  ![starts](https://img.shields.io/github/stars/x0rb3l/CVE-2023-36802-MSKSSRV-LPE.svg) ![forks](https://img.shields.io/github/forks/x0rb3l/CVE-2023-36802-MSKSSRV-LPE.svg)- [https://github.com/4zur-0312/CVE-2023-36802](https://github.com/4zur-0312/CVE-2023-36802) :  ![starts](https://img.shields.io/github/stars/4zur-0312/CVE-2023-36802.svg) ![forks](https://img.shields.io/github/forks/4zur-0312/CVE-2023-36802.svg)- [https://github.com/Nero22k/cve-2023-36802](https://github.com/Nero22k/cve-2023-36802) :  ![starts](https://img.shields.io/github/stars/Nero22k/cve-2023-36802.svg) ![forks](https://img.shields.io/github/forks/Nero22k/cve-2023-36802.svg)",
+    "description": " Microsoft Streaming Service Proxy Elevation of Privilege Vulnerability- [https://github.com/chompie1337/Windows_MSKSSRV_LPE_CVE-2023-36802](https://github.com/chompie1337/Windows_MSKSSRV_LPE_CVE-2023-36802) :  ![starts](https://img.shields.io/github/stars/chompie1337/Windows_MSKSSRV_LPE_CVE-2023-36802.svg) ![forks](https://img.shields.io/github/forks/chompie1337/Windows_MSKSSRV_LPE_CVE-2023-36802.svg)- [https://github.com/x0rb3l/CVE-2023-36802-MSKSSRV-LPE](https://github.com/x0rb3l/CVE-2023-36802-MSKSSRV-LPE) :  ![starts](https://img.shields.io/github/stars/x0rb3l/CVE-2023-36802-MSKSSRV-LPE.svg) ![forks](https://img.shields.io/github/forks/x0rb3l/CVE-2023-36802-MSKSSRV-LPE.svg)- [https://github.com/Nero22k/cve-2023-36802](https://github.com/Nero22k/cve-2023-36802) :  ![starts](https://img.shields.io/github/stars/Nero22k/cve-2023-36802.svg) ![forks](https://img.shields.io/github/forks/Nero22k/cve-2023-36802.svg)- [https://github.com/4zur-0312/CVE-2023-36802](https://github.com/4zur-0312/CVE-2023-36802) :  ![starts](https://img.shields.io/github/stars/4zur-0312/CVE-2023-36802.svg) ![forks](https://img.shields.io/github/forks/4zur-0312/CVE-2023-36802.svg)",
     "poc": []
   },
   {
@@ -3844,7 +3850,7 @@
   },
   {
     "cve_code": "CVE-2023-22941",
-    "description": " In Splunk Enterprise versions below 8.1.13, 8.2.10, and 9.0.4, an improperly-formatted &#8216;INGEST_EVAL&#8217; parameter in a [Field Transformation](https://docs.splunk.com/Documentation/Splunk/latest/Knowledge/Managefieldtransforms) crashes the Splunk daemon (splunkd).",
+    "description": " In Splunk Enterprise versions below 8.1.13, 8.2.10, and 9.0.4, an improperly-formatted &#8216;INGEST_EVAL&#8217; parameter in a Field Transformation crashes the Splunk daemon (splunkd).",
     "poc": [
       "https://github.com/eduardosantos1989/CVE-2023-22941"
     ]
@@ -3885,8 +3891,8 @@
       "https://github.com/n3m1dotsys/CVE-2023-22809-sudoedit-privesc",
       "https://github.com/CKevens/CVE-2023-22809-sudo-POC",
       "https://github.com/M4fiaB0y/CVE-2023-22809",
-      "https://github.com/Chan9Yan9/CVE-2023-22809",
       "https://github.com/pashayogi/CVE-2023-22809",
+      "https://github.com/Chan9Yan9/CVE-2023-22809",
       "https://github.com/Toothless5143/CVE-2023-22809",
       "https://github.com/asepsaepdin/CVE-2023-22809",
       "https://github.com/hello4r1end/patch_CVE-2023-22809"
@@ -3917,9 +3923,9 @@
       "https://github.com/j3seer/CVE-2023-22515-POC",
       "https://github.com/Le1a/CVE-2023-22515",
       "https://github.com/sincere9/CVE-2023-22515",
+      "https://github.com/joaoviictorti/CVE-2023-22515",
       "https://github.com/Vulnmachines/confluence-cve-2023-22515",
       "https://github.com/iveresk/CVE-2023-22515",
-      "https://github.com/joaoviictorti/CVE-2023-22515",
       "https://github.com/kh4sh3i/CVE-2023-22515",
       "https://github.com/youcannotseemeagain/CVE-2023-22515_RCE",
       "https://github.com/DsaHen/cve-2023-22515-exp",
@@ -4202,7 +4208,7 @@
   },
   {
     "cve_code": "CVE-2023-20273",
-    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " A vulnerability in the web UI feature of Cisco IOS XE Software could allow an authenticated, remote attacker to inject commands with the privileges of root. This vulnerability is due to insufficient input validation. An attacker could exploit this vulnerability by sending crafted input to the web UI. A successful exploit could allow the attacker to inject commands to the underlying operating system with root privileges.",
     "poc": [
       "https://github.com/fox-it/cisco-ios-xe-implant-detection",
       "https://github.com/Shadow0ps/CVE-2023-20198-Scanner"
@@ -4222,20 +4228,21 @@
       "https://github.com/vulncheck-oss/cisco-ios-xe-implant-scanner",
       "https://github.com/ZephrFish/CVE-2023-20198-Checker",
       "https://github.com/hackingyseguridad/nmap",
-      "https://github.com/Atea-Redteam/CVE-2023-20198",
       "https://github.com/fox-it/cisco-ios-xe-implant-detection",
-      "https://github.com/Tounsi007/CVE-2023-20198",
+      "https://github.com/Atea-Redteam/CVE-2023-20198",
       "https://github.com/Shadow0ps/CVE-2023-20198-Scanner",
+      "https://github.com/Tounsi007/CVE-2023-20198",
+      "https://github.com/alekos3/CVE_2023_20198_Detector",
+      "https://github.com/iveresk/cve-2023-20198",
       "https://github.com/securityphoenix/cisco-CVE-2023-20198-tester",
       "https://github.com/sohaibeb/CVE-2023-20198",
-      "https://github.com/alekos3/CVE_2023_20198_Detector",
       "https://github.com/alekos3/CVE_2023_20198_Remediator",
       "https://github.com/emomeni/Simple-Ansible-for-CVE-2023-20198",
       "https://github.com/Pushkarup/CVE-2023-20198",
       "https://github.com/JoyGhoshs/CVE-2023-20198",
-      "https://github.com/iveresk/cve-2023-20198",
-      "https://github.com/reket99/Cisco_CVE-2023-20198",
+      "https://github.com/kacem-expereo/CVE-2023-20198",
       "https://github.com/ditekshen/ansible-cve-2023-20198",
+      "https://github.com/reket99/Cisco_CVE-2023-20198",
       "https://github.com/raystr-atearedteam/CVE-2023-20198-checker",
       "https://github.com/moonrockcowboy/CVE-2023-20198-scanner"
     ]
@@ -4395,6 +4402,14 @@
     ]
   },
   {
+    "cve_code": "CVE-2023-4966",
+    "description": " Sensitive information disclosure in NetScaler ADC and NetScaler Gateway when configured as a Gateway (VPN virtual server, ICA Proxy, CVPN, RDP Proxy) or AAA virtual server.",
+    "poc": [
+      "https://github.com/Chocapikk/CVE-2023-4966",
+      "https://github.com/dinosn/citrix_cve-2023-4966"
+    ]
+  },
+  {
     "cve_code": "CVE-2023-4911",
     "description": " A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES environment variable. This issue could allow a local attacker to use maliciously crafted GLIBC_TUNABLES environment variables when launching binaries with SUID permission to execute code with elevated privileges.",
     "poc": [
@@ -4406,7 +4421,8 @@
       "https://github.com/xiaoQ1z/CVE-2023-4911",
       "https://github.com/chaudharyarjun/LooneyPwner",
       "https://github.com/silent6trinity/looney-tuneables",
-      "https://github.com/guffre/CVE-2023-4911"
+      "https://github.com/guffre/CVE-2023-4911",
+      "https://github.com/KernelKrise/Looney-Tunables-LPE-workshop-CVE-2023-4911-"
     ]
   },
   {
@@ -4664,8 +4680,8 @@
     "cve_code": "CVE-2023-3450",
     "description": " A vulnerability was found in Ruijie RG-BCR860 2.5.13 and classified as critical. This issue affects some unknown processing of the component Network Diagnostic Page. The manipulation leads to os command injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-232547. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.",
     "poc": [
-      "https://github.com/caopengyan/CVE-2023-3450",
-      "https://github.com/yuanjinyuyuyu/CVE-2023-3450"
+      "https://github.com/yuanjinyuyuyu/CVE-2023-3450",
+      "https://github.com/caopengyan/CVE-2023-3450"
     ]
   },
   {
@@ -5047,7 +5063,7 @@
   },
   {
     "cve_code": "CVE-2023-1234",
-    "description": " Inappropriate implementation in Intents in Google Chrome on Android prior to 111.0.5563.64 allowed a remote attacker to perform domain spoofing via a crafted HTML page. (Chromium security severity: Low)- [https://github.com/emotest1/CVE-2023-123456](https://github.com/emotest1/CVE-2023-123456) :  ![starts](https://img.shields.io/github/stars/emotest1/CVE-2023-123456.svg) ![forks](https://img.shields.io/github/forks/emotest1/CVE-2023-123456.svg)- [https://github.com/yrtsec/CVE-2023-123456](https://github.com/yrtsec/CVE-2023-123456) :  ![starts](https://img.shields.io/github/stars/yrtsec/CVE-2023-123456.svg) ![forks](https://img.shields.io/github/forks/yrtsec/CVE-2023-123456.svg)",
+    "description": " Inappropriate implementation in Intents in Google Chrome on Android prior to 111.0.5563.64 allowed a remote attacker to perform domain spoofing via a crafted HTML page. (Chromium security severity: Low)- [https://github.com/yrtsec/CVE-2023-123456](https://github.com/yrtsec/CVE-2023-123456) :  ![starts](https://img.shields.io/github/stars/yrtsec/CVE-2023-123456.svg) ![forks](https://img.shields.io/github/forks/yrtsec/CVE-2023-123456.svg)- [https://github.com/emotest1/CVE-2023-123456](https://github.com/emotest1/CVE-2023-123456) :  ![starts](https://img.shields.io/github/stars/emotest1/CVE-2023-123456.svg) ![forks](https://img.shields.io/github/forks/emotest1/CVE-2023-123456.svg)",
     "poc": []
   },
   {
