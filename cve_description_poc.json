@@ -60,7 +60,8 @@
       "https://github.com/X1r0z/ActiveMQ-RCE",
       "https://github.com/JaneMandy/ActiveMQ_RCE_Pro_Max",
       "https://github.com/SaumyajeetDas/CVE-2023-46604-RCE-Reverse-Shell-Apache-ActiveMQ",
-      "https://github.com/evkl1d/CVE-2023-46604"
+      "https://github.com/evkl1d/CVE-2023-46604",
+      "https://github.com/sule01u/CVE-2023-46604"
     ]
   },
   {
@@ -814,6 +815,13 @@
     ]
   },
   {
+    "cve_code": "CVE-2023-41425",
+    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "poc": [
+      "https://github.com/prodigiousMind/CVE-2023-41425"
+    ]
+  },
+  {
     "cve_code": "CVE-2023-41362",
     "description": " MyBB before 1.8.36 allows Code Injection by users with certain high privileges. Templates in Admin CP intentionally use eval, and there was some validation of the input to eval, but type juggling interfered with this when using PCRE within PHP.",
     "poc": [
@@ -1219,13 +1227,13 @@
       "https://github.com/Zenmovie/CVE-2023-38646",
       "https://github.com/alexandre-pecorilla/CVE-2023-38646",
       "https://github.com/joaoviictorti/CVE-2023-38646",
+      "https://github.com/Itrekr/CVE-2023-38646-Crapsploit",
       "https://github.com/Any3ite/cve-2023-38646-metabase-ReverseShell",
       "https://github.com/SUT0L/CVE-2023-38646",
       "https://github.com/LazyySec/CVE-2023-38646",
       "https://github.com/asepsaepdin/CVE-2023-38646",
       "https://github.com/threatHNTR/CVE-2023-38646",
       "https://github.com/AnvithLobo/CVE-2023-38646",
-      "https://github.com/Itrekr/CVE-2023-38646-Crapsploit",
       "https://github.com/birdm4nw/CVE-2023-38646",
       "https://github.com/yxl2001/CVE-2023-38646",
       "https://github.com/passwa11/CVE-2023-38646",
@@ -1354,6 +1362,13 @@
     "description": " If an attacker gains write access to the Apache Superset metadata database, they could persist a specifically crafted Python object that may lead to remote code execution on Superset's web backend. The Superset metadata db is an 'internal' component that is typically only accessible directly by the system administrator and the superset process itself. Gaining access to that database should be difficult and require significant privileges. This vulnerability impacts Apache Superset versions 1.5.0 up to and including 2.1.0. Users are recommended to upgrade to version 2.1.1 or later.",
     "poc": [
       "https://github.com/Barroqueiro/CVE-2023-37941"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-37903",
+    "description": " vm2 is an open source vm/sandbox for Node.js. In vm2 for versions up to and including 3.9.19, Node.js custom inspect function allows attackers to escape the sandbox and run arbitrary code. This may result in Remote Code Execution, assuming the attacker has arbitrary code execution primitive inside the context of vm2 sandbox. There are no patches and no known workarounds. Users are advised to find an alternative software.",
+    "poc": [
+      "https://github.com/7h3h4ckv157/CVE-2023-37903"
     ]
   },
   {
@@ -2837,6 +2852,13 @@
     ]
   },
   {
+    "cve_code": "CVE-2023-30190",
+    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "poc": [
+      "https://github.com/MojithaR/CVE-2023-30190-FOLLINA"
+    ]
+  },
+  {
     "cve_code": "CVE-2023-30185",
     "description": " CRMEB v4.4 to v4.6 was discovered to contain an arbitrary file upload vulnerability via the component \\attachment\\SystemAttachmentServices.php.",
     "poc": [
@@ -2956,8 +2978,8 @@
       "https://github.com/1337r0j4n/CVE-2023-29489",
       "https://github.com/Abdullah7-ma/CVE-2023-29489",
       "https://github.com/learnerboy88/CVE-2023-29489",
-      "https://github.com/tucommenceapousser/CVE-2023-29489",
       "https://github.com/Mostafa-Elguerdawi/CVE-2023-29489",
+      "https://github.com/tucommenceapousser/CVE-2023-29489",
       "https://github.com/ViperM4sk/cpanel-xss-177",
       "https://github.com/S4muraiMelayu1337/CVE-2023-29489",
       "https://github.com/Mostafa-Elguerdawi/CVE-2023-29489.yaml",
@@ -3192,8 +3214,8 @@
       "https://github.com/im-hanzou/Mass-CVE-2023-28121",
       "https://github.com/rio128128/Mass-CVE-2023-28121-kdoec",
       "https://github.com/Jenderal92/CVE-2023-28121",
-      "https://github.com/1337nemojj/CVE-2023-28121",
       "https://github.com/C04LA/CVE-2023-28121",
+      "https://github.com/1337nemojj/CVE-2023-28121",
       "https://github.com/Jenderal92/WP-CVE-2023-28121"
     ]
   },
@@ -3842,8 +3864,8 @@
       "https://github.com/AlissoftCodes/CVE-2023-23752",
       "https://github.com/Jenderal92/Joomla-CVE-2023-23752",
       "https://github.com/k0valskia/CVE-2023-23752",
-      "https://github.com/yTxZx/CVE-2023-23752",
       "https://github.com/cybernetwiz/CVE-2023-23752",
+      "https://github.com/yTxZx/CVE-2023-23752",
       "https://github.com/Pushkarup/CVE-2023-23752",
       "https://github.com/H454NSec/CVE-2023-23752",
       "https://github.com/wibuheker/Joomla-CVE-2023-23752"
@@ -4063,6 +4085,7 @@
     "description": " All versions of Confluence Data Center and Server are affected by this unexploited vulnerability. There is no impact to confidentiality as an attacker cannot exfiltrate any instance data. Atlassian Cloud sites are not affected by this vulnerability. If your Confluence site is accessed via an atlassian.net domain, it is hosted by Atlassian and is not vulnerable to this issue.",
     "poc": [
       "https://github.com/ForceFledgling/CVE-2023-22518",
+      "https://github.com/sanjai-AK47/CVE-2023-22518",
       "https://github.com/davidfortytwo/CVE-2023-22518"
     ]
   },
@@ -4077,8 +4100,8 @@
       "https://github.com/AIex-3/confluence-hack",
       "https://github.com/sincere9/CVE-2023-22515",
       "https://github.com/j3seer/CVE-2023-22515-POC",
-      "https://github.com/Le1a/CVE-2023-22515",
       "https://github.com/youcannotseemeagain/CVE-2023-22515_RCE",
+      "https://github.com/Le1a/CVE-2023-22515",
       "https://github.com/joaoviictorti/CVE-2023-22515",
       "https://github.com/Vulnmachines/confluence-cve-2023-22515",
       "https://github.com/C1ph3rX13/CVE-2023-22515",
@@ -4534,6 +4557,7 @@
       "https://github.com/Chocapikk/CVE-2023-5360",
       "https://github.com/codeb0ss/xWP-2",
       "https://github.com/nastar-id/CVE-2023-5360",
+      "https://github.com/Pushkarup/CVE-2023-5360",
       "https://github.com/tucommenceapousser/CVE-2023-5360",
       "https://github.com/Jenderal92/WP-CVE-2023-5360"
     ]
@@ -4627,8 +4651,8 @@
       "https://github.com/leesh3288/CVE-2023-4911",
       "https://github.com/RickdeJager/CVE-2023-4911",
       "https://github.com/Green-Avocado/CVE-2023-4911",
-      "https://github.com/hadrian3689/looney-tunables-CVE-2023-4911",
       "https://github.com/chaudharyarjun/LooneyPwner",
+      "https://github.com/hadrian3689/looney-tunables-CVE-2023-4911",
       "https://github.com/ruycr4ft/CVE-2023-4911",
       "https://github.com/Diego-AltF4/CVE-2023-4911",
       "https://github.com/xiaoQ1z/CVE-2023-4911",
