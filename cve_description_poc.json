@@ -28,6 +28,34 @@
     ]
   },
   {
+    "cve_code": "CVE-2023-48123",
+    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "poc": [
+      "https://github.com/NHPT/CVE-2023-48123"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-48031",
+    "description": " OpenSupports v4.11.0 is vulnerable to Unrestricted Upload of File with Dangerous Type. In the comment function, an attacker can bypass security restrictions and upload a .bat file by manipulating the file's magic bytes to masquerade as an allowed type. This can enable the attacker to execute arbitrary code or establish a reverse shell, leading to unauthorized file writes or control over the victim's station via a crafted file upload operation.",
+    "poc": [
+      "https://github.com/nitipoom-jar/CVE-2023-48031"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-48029",
+    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "poc": [
+      "https://github.com/nitipoom-jar/CVE-2023-48029"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-48028",
+    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "poc": [
+      "https://github.com/nitipoom-jar/CVE-2023-48028"
+    ]
+  },
+  {
     "cve_code": "CVE-2023-47668",
     "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
     "poc": [
@@ -1025,6 +1053,13 @@
     ]
   },
   {
+    "cve_code": "CVE-2023-41320",
+    "description": " GLPI stands for Gestionnaire Libre de Parc Informatique is a Free Asset and IT Management Software package, that provides ITIL Service Desk features, licenses tracking and software auditing. UI layout preferences management can be hijacked to lead to SQL injection. This injection can be use to takeover an administrator account. Users are advised to upgrade to version 10.0.10. There are no known workarounds for this vulnerability.",
+    "poc": [
+      "https://github.com/Guilhem7/CVE_2023_41320"
+    ]
+  },
+  {
     "cve_code": "CVE-2023-41266",
     "description": " A path traversal vulnerability found in Qlik Sense Enterprise for Windows for versions May 2023 Patch 3 and earlier, February 2023 Patch 7 and earlier, November 2022 Patch 10 and earlier, and August 2022 Patch 12 and earlier allows an unauthenticated remote attacker to generate an anonymous session. This allows them to transmit HTTP requests to unauthorized endpoints. This is fixed in August 2023 IR, May 2023 Patch 4, February 2023 Patch 8, November 2022 Patch 11, and August 2022 Patch 13.",
     "poc": [
@@ -1368,8 +1403,8 @@
       "https://github.com/kehrijksen/CVE-2023-38831",
       "https://github.com/asepsaepdin/CVE-2023-38831",
       "https://github.com/IMHarman/CVE-2023-38831",
-      "https://github.com/Nielk74/CVE-2023-38831",
       "https://github.com/an040702/CVE-2023-38831",
+      "https://github.com/Nielk74/CVE-2023-38831",
       "https://github.com/nhman-python/CVE-2023-38831",
       "https://github.com/s4m98/winrar-cve-2023-38831-poc-gen",
       "https://github.com/seyit-sigirci/SideCopy-Exploits-CVE-2023-38831",
@@ -1444,8 +1479,8 @@
       "https://github.com/birdm4nw/CVE-2023-38646",
       "https://github.com/junnythemarksman/CVE-2023-38646",
       "https://github.com/Chocapikk/CVE-2023-38646",
-      "https://github.com/passwa11/CVE-2023-38646",
       "https://github.com/yxl2001/CVE-2023-38646",
+      "https://github.com/passwa11/CVE-2023-38646",
       "https://github.com/adriyansyah-mf/CVE-2023-38646--Metabase-",
       "https://github.com/j0yb0y0h/CVE-2023-38646",
       "https://github.com/CN016/Metabase-H2-CVE-2023-38646-"
@@ -1510,7 +1545,6 @@
     "cve_code": "CVE-2023-38408",
     "description": " The PKCS#11 feature in ssh-agent in OpenSSH before 9.3p2 has an insufficiently trustworthy search path, leading to remote code execution if an agent is forwarded to an attacker-controlled system. (Code in /usr/lib is not necessarily safe for loading into ssh-agent.) NOTE: this issue exists because of an incomplete fix for CVE-2016-10009.",
     "poc": [
-      "https://github.com/snowcra5h/CVE-2023-38408",
       "https://github.com/kali-mx/CVE-2023-38408",
       "https://github.com/LucasPDiniz/CVE-2023-38408"
     ]
@@ -3105,15 +3139,15 @@
       "https://github.com/kuttappu123/CVE-2023-30212-LAB",
       "https://github.com/libas7994/Exploit-the-CVE-2023-30212-vulnerability",
       "https://github.com/AAsh035/CVE-2023-30212",
-      "https://github.com/Anandhu990/CVE-2023-30212-iab",
       "https://github.com/kai-iszz/CVE-2023-30212",
+      "https://github.com/Anandhu990/CVE-2023-30212-iab",
       "https://github.com/Anandhu990/CVE-2023-30212_lab",
       "https://github.com/libasv/Exploite-CVE-2023-30212-vulnerability",
       "https://github.com/Anandhu990/r-CVE-2023-30212-lab",
       "https://github.com/VisDev23/Vulnerable-Docker-CVE-2023-30212",
       "https://github.com/VisDev23/Vulnerable-Docker--CVE-2023-30212-",
-      "https://github.com/Anandhu990/r-CVE-2023-30212--lab",
       "https://github.com/MaThEw-ViNcEnT/CVE-2023-30212-OURPHP-Vulnerability",
+      "https://github.com/Anandhu990/r-CVE-2023-30212--lab",
       "https://github.com/libasmon/Vulnerable-Docker-Environment-CVE-2023-30212",
       "https://github.com/JasaluRah/Creating-a-Vulnerable-Docker-Environment-CVE-2023-30212-",
       "https://github.com/libasmon/-create-a-vulnerable-Docker-environment-that-is-susceptible-to-CVE-2023-30212"
@@ -3246,10 +3280,11 @@
       "https://github.com/1337r0j4n/CVE-2023-29489",
       "https://github.com/Abdullah7-ma/CVE-2023-29489",
       "https://github.com/learnerboy88/CVE-2023-29489",
+      "https://github.com/SynixCyberCrimeMy/CVE-2023-29489",
       "https://github.com/S4muraiMelayu1337/CVE-2023-29489",
       "https://github.com/Mostafa-Elguerdawi/CVE-2023-29489",
-      "https://github.com/Mostafa-Elguerdawi/CVE-2023-29489.yaml",
       "https://github.com/tucommenceapousser/CVE-2023-29489.py",
+      "https://github.com/Mostafa-Elguerdawi/CVE-2023-29489.yaml",
       "https://github.com/tucommenceapousser/CVE-2023-29489",
       "https://github.com/ViperM4sk/cpanel-xss-177"
     ]
@@ -3891,8 +3926,8 @@
     "cve_code": "CVE-2023-25292",
     "description": " Reflected Cross Site Scripting (XSS) in Intermesh BV Group-Office version 6.6.145, allows attackers to gain escalated privileges and gain sensitive information via the GO_LANGUAGE cookie.",
     "poc": [
-      "https://github.com/brainkok/CVE-2023-25292",
-      "https://github.com/tucommenceapousser/CVE-2023-25292"
+      "https://github.com/tucommenceapousser/CVE-2023-25292",
+      "https://github.com/brainkok/CVE-2023-25292"
     ]
   },
   {
@@ -4381,8 +4416,8 @@
       "https://github.com/ad-calcium/CVE-2023-22515",
       "https://github.com/ErikWynter/CVE-2023-22515-Scan",
       "https://github.com/getdrive/PoC",
-      "https://github.com/spark1security/n0s1",
       "https://github.com/AIex-3/confluence-hack",
+      "https://github.com/spark1security/n0s1",
       "https://github.com/sincere9/CVE-2023-22515",
       "https://github.com/youcannotseemeagain/CVE-2023-22515_RCE",
       "https://github.com/j3seer/CVE-2023-22515-POC",
@@ -4719,6 +4754,7 @@
       "https://github.com/kacem-expereo/CVE-2023-20198",
       "https://github.com/alekos3/CVE_2023_20198_Remediator",
       "https://github.com/emomeni/Simple-Ansible-for-CVE-2023-20198",
+      "https://github.com/smokeintheshell/CVE-2023-20198",
       "https://github.com/ohlawd/CVE-2023-20198",
       "https://github.com/reket99/Cisco_CVE-2023-20198",
       "https://github.com/raystr-atearedteam/CVE-2023-20198-checker",
@@ -4775,7 +4811,9 @@
     "cve_code": "CVE-2023-6063",
     "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
     "poc": [
-      "https://github.com/motikan2010/CVE-2023-6063-PoC"
+      "https://github.com/motikan2010/CVE-2023-6063-PoC",
+      "https://github.com/thesafdari/CVE-2023-6063",
+      "https://github.com/hackersroot/CVE-2023-6063-PoC"
     ]
   },
   {
@@ -4846,13 +4884,6 @@
     "description": " Incorrect Authorization in GitHub repository tiann/kernelsu prior to v0.6.9.",
     "poc": [
       "https://github.com/Ylarod/CVE-2023-5521"
-    ]
-  },
-  {
-    "cve_code": "CVE-2023-5443",
-    "description": " Improper Protection for Outbound Error Messages and Alert Signals vulnerability in EDM Informatics E-invoice allows Account Footprinting.This issue affects E-invoice: before 2.1.",
-    "poc": [
-      "https://github.com/NHPT/CVE-2023-54436"
     ]
   },
   {
@@ -5002,6 +5033,13 @@
     ]
   },
   {
+    "cve_code": "CVE-2023-4698",
+    "description": " Improper Input Validation in GitHub repository usememos/memos prior to 0.13.2.",
+    "poc": [
+      "https://github.com/mnqazi/CVE-2023-4698"
+    ]
+  },
+  {
     "cve_code": "CVE-2023-4696",
     "description": " Improper Access Control in GitHub repository usememos/memos prior to 0.13.2.",
     "poc": [
@@ -5082,6 +5120,13 @@
     "description": " This User Activity Log WordPress plugin before 1.6.7 retrieves client IP addresses from potentially untrusted headers, allowing an attacker to manipulate its value. This may be used to hide the source of malicious traffic.",
     "poc": [
       "https://github.com/b0marek/CVE-2023-4279"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-4278",
+    "description": " The MasterStudy LMS WordPress Plugin WordPress plugin before 3.0.18 does not have proper checks in place during registration allowing anyone to register on the site as an instructor. They can then add courses and/or posts.",
+    "poc": [
+      "https://github.com/revan-ar/CVE-2023-4278"
     ]
   },
   {
@@ -41751,7 +41796,7 @@
     "cve_code": "CVE-2003-0358",
     "description": " Buffer overflow in (1) nethack 3.4.0 and earlier, and (2) falconseye 1.9.3 and earlier, which is based on nethack, allows local users to gain privileges via a long -s command line option.",
     "poc": [
-      "https://github.com/snowcra5h/CVE-2003-0358"
+      "https://github.com/gmh5225/CVE-2003-0358"
     ]
   },
   {
