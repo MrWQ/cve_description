@@ -31667,8 +31667,8 @@
       "https://github.com/throwawayaccount12312312/precompiled-CVE-2018-10933",
       "https://github.com/ninp0/cve-2018-10933_poc",
       "https://github.com/SilasSpringer/CVE-2018-10933",
-      "https://github.com/cve-2018/cve-2018-10933",
       "https://github.com/sambiyal/CVE-2018-10933-POC",
+      "https://github.com/cve-2018/cve-2018-10933",
       "https://github.com/youkergav/CVE-2018-10933",
       "https://github.com/lalishasanduwara/CVE-2018-10933",
       "https://github.com/kristyna-mlcakova/CVE-2018-10933",
@@ -32445,8 +32445,8 @@
       "https://github.com/cved-sources/cve-2018-7600",
       "https://github.com/jyo-zi/CVE-2018-7600",
       "https://github.com/anldori/CVE-2018-7600",
-      "https://github.com/r0lh/CVE-2018-7600",
       "https://github.com/happynote3966/CVE-2018-7600",
+      "https://github.com/r0lh/CVE-2018-7600",
       "https://github.com/vphnguyen/ANM_CVE-2018-7600",
       "https://github.com/rafaelcaria/drupalgeddon2-CVE-2018-7600",
       "https://github.com/madneal/codeql-scanner",
@@ -33732,7 +33732,6 @@
     "description": " An issue was discovered in Moodle 3.x. A Teacher creating a Calculated question can intentionally cause remote code execution on the server, aka eval injection.",
     "poc": [
       "https://github.com/cocomelonc/vulnexipy",
-      "https://github.com/darrynten/MoodleExploit",
       "https://github.com/Feidao-fei/MOODLE-3.X-Remote-Code-Execution"
     ]
   },
@@ -34729,13 +34728,6 @@
     ]
   },
   {
-    "cve_code": "CVE-2017-14954",
-    "description": " The waitid implementation in kernel/exit.c in the Linux kernel through 4.13.4 accesses rusage data structures in unintended cases, which allows local users to obtain sensitive information, and bypass the KASLR protection mechanism, via a crafted system call.",
-    "poc": [
-      "https://github.com/echo-devim/exploit_linux_kernel4.13"
-    ]
-  },
-  {
     "cve_code": "CVE-2017-14948",
     "description": " Certain D-Link products are affected by: Buffer Overflow. This affects DIR-880L 1.08B04 and DIR-895 L/R 1.13b03. The impact is: execute arbitrary code (remote). The component is: htdocs/fileaccess.cgi. The attack vector is: A crafted HTTP request handled by fileacces.cgi could allow an attacker to mount a ROP attack: if the HTTP header field CONTENT_TYPE starts with ''boundary=' followed by more than 256 characters, a buffer overflow would be triggered, potentially causing code execution.",
     "poc": [
@@ -35058,8 +35050,8 @@
       "https://github.com/chanbin/CVE-2017-11882",
       "https://github.com/HaoJame/CVE-2017-11882",
       "https://github.com/nhuynhuy/cve-2017-11882",
-      "https://github.com/lisinan988/CVE-2017-11882-exp",
       "https://github.com/likescam/CVE-2017-11882",
+      "https://github.com/lisinan988/CVE-2017-11882-exp",
       "https://github.com/Grey-Li/CVE-2017-11882",
       "https://github.com/n18dcat053-luuvannga/DetectPacket-CVE-2017-11882",
       "https://github.com/legendsec/CVE-2017-11882-for-Kali",
@@ -37993,13 +37985,6 @@
     ]
   },
   {
-    "cve_code": "CVE-2016-1734",
-    "description": " AppleUSBNetworking in Apple iOS before 9.3 and OS X before 10.11.4 allows physically proximate attackers to execute arbitrary code in a privileged context or cause a denial of service (memory corruption) via a crafted USB device.",
-    "poc": [
-      "https://github.com/Manouchehri/CVE-2016-1734"
-    ]
-  },
-  {
     "cve_code": "CVE-2016-1555",
     "description": " (1) boardData102.php, (2) boardData103.php, (3) boardDataJP.php, (4) boardDataNA.php, and (5) boardDataWW.php in Netgear WN604 before 3.3.3 and WN802Tv2, WNAP210v2, WNAP320, WNDAP350, WNDAP360, and WNDAP660 before 3.5.5.0 allow remote attackers to execute arbitrary commands.",
     "poc": [
@@ -39226,6 +39211,13 @@
     "description": " Hitron CVE-30360 devices use a 578A958E3DD933FC DES key that is shared across different customers' installations, which makes it easier for attackers to obtain sensitive information by decrypting a backup configuration file, as demonstrated by a password hash in the um_auth_account_password field.",
     "poc": [
       "https://github.com/aimoda/hitron-cfg-decrypter"
+    ]
+  },
+  {
+    "cve_code": "CVE-2014-9690",
+    "description": " Huawei home gateways WS318 with software V100R001C01B022 and earlier versions are affected by the PIN offline brute force cracking vulnerability of the WPS protocol because the random number generator (RNG) used in the supplier's solution is not random enough. As a result, brute force cracking the PIN code is easier. After an attacker cracks the PIN, the attacker can access the Internet via the cracked device.",
+    "poc": [
+      "https://github.com/ForceFledgling/CVE-2014-9690"
     ]
   },
   {
@@ -40737,8 +40729,8 @@
       "https://github.com/Dawnn3619/CVE-2012-2982",
       "https://github.com/blu3ming/CVE-2012-2982",
       "https://github.com/wizardy0ga/CVE_2012-2982",
-      "https://github.com/0xF331-D3AD/CVE-2012-2982",
-      "https://github.com/R00tendo/CVE-2012-2982"
+      "https://github.com/R00tendo/CVE-2012-2982",
+      "https://github.com/0xF331-D3AD/CVE-2012-2982"
     ]
   },
   {
