@@ -1,5 +1,12 @@
 [
   {
+    "cve_code": "CVE-2023-49103",
+    "description": " An issue was discovered in ownCloud owncloud/graphapi 0.2.x before 0.2.1 and 0.3.x before 0.3.1. The graphapi app relies on a third-party GetPhpInfo.php library that provides a URL. When this URL is accessed, it reveals the configuration details of the PHP environment (phpinfo). This information includes all the environment variables of the webserver. In containerized deployments, these environment variables may include sensitive data such as the ownCloud admin password, mail server credentials, and license key. Simply disabling the graphapi app does not eliminate the vulnerability. Additionally, phpinfo exposes various other potentially sensitive configuration details that could be exploited by an attacker to gather information about the system. Therefore, even if ownCloud is not running in a containerized environment, this vulnerability should still be a cause for concern. Note that Docker containers from before February 2023 are not vulnerable to the credential disclosure.",
+    "poc": [
+      "https://github.com/creacitysec/CVE-2023-49103"
+    ]
+  },
+  {
     "cve_code": "CVE-2023-48200",
     "description": " Cross Site Scripting vulnerability in Grocy v.4.0.3 allows a local attacker to execute arbitrary code and obtain sensitive information via the equipment description component within /equipment/ component.",
     "poc": [
@@ -64,7 +71,7 @@
   },
   {
     "cve_code": "CVE-2023-47668",
-    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " Exposure of Sensitive Information to an Unauthorized Actor vulnerability in StellarWP Membership Plugin &#8211; Restrict Content plugin &lt;= 3.2.7 versions.",
     "poc": [
       "https://github.com/RandomRobbieBF/CVE-2023-47668"
     ]
@@ -105,10 +112,19 @@
     ]
   },
   {
+    "cve_code": "CVE-2023-47437",
+    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "poc": [
+      "https://github.com/herombey/CVE-2023-47437"
+    ]
+  },
+  {
     "cve_code": "CVE-2023-47246",
     "description": " In SysAid On-Premise before 23.3.36, a path traversal vulnerability leads to code execution after an attacker writes a file to the Tomcat webroot, as exploited in the wild in November 2023.",
     "poc": [
-      "https://github.com/W01fh4cker/CVE-2023-47246-EXP"
+      "https://github.com/W01fh4cker/CVE-2023-47246-EXP",
+      "https://github.com/rainbowhatrkn/CVE-2023-47246",
+      "https://github.com/tucommenceapousser/CVE-2023-47246"
     ]
   },
   {
@@ -149,7 +165,7 @@
   },
   {
     "cve_code": "CVE-2023-47014",
-    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " A Cross-Site Request Forgery (CSRF) vulnerability in Sourcecodester Sticky Notes App Using PHP with Source Code v.1.0 allows a local attacker to obtain sensitive information via a crafted payload to add-note.php.",
     "poc": [
       "https://github.com/emirhanerdogu/CVE-2023-47014-Sticky-Notes-App-Using-PHP-with-Source-Code-v1.0-CSRF-to-CORS"
     ]
@@ -805,7 +821,7 @@
   },
   {
     "cve_code": "CVE-2023-43284",
-    "description": " An issue in D-Link Wireless MU-MIMO Gigabit AC1200 Router DIR-846 firmware version 100A53DBR-Retail allows a remote attacker to execute arbitrary code.",
+    "description": " D-Link Wireless MU-MIMO Gigabit AC1200 Router DIR-846 100A53DBR-Retail devices allow an authenticated remote attacker to execute arbitrary code via an unspecified manipulation of the QoS POST parameter.",
     "poc": [
       "https://github.com/MateusTesser/CVE-2023-43284"
     ]
@@ -1433,12 +1449,12 @@
       "https://github.com/GOTonyGO/CVE-2023-38831-winrar",
       "https://github.com/kehrijksen/CVE-2023-38831",
       "https://github.com/asepsaepdin/CVE-2023-38831",
-      "https://github.com/an040702/CVE-2023-38831",
       "https://github.com/Nielk74/CVE-2023-38831",
+      "https://github.com/an040702/CVE-2023-38831",
       "https://github.com/IMHarman/CVE-2023-38831",
       "https://github.com/nhman-python/CVE-2023-38831",
-      "https://github.com/s4m98/winrar-cve-2023-38831-poc-gen",
       "https://github.com/h3xecute/SideCopy-Exploits-CVE-2023-38831",
+      "https://github.com/s4m98/winrar-cve-2023-38831-poc-gen",
       "https://github.com/Fa1c0n35/CVE-2023-38831-winrar-exploit",
       "https://github.com/MortySecurity/CVE-2023-38831-Exploit-and-Detection"
     ]
@@ -1502,16 +1518,16 @@
       "https://github.com/joaoviictorti/CVE-2023-38646",
       "https://github.com/Any3ite/cve-2023-38646-metabase-ReverseShell",
       "https://github.com/SUT0L/CVE-2023-38646",
-      "https://github.com/Mrunalkaran/CVE-2023-38646",
       "https://github.com/AnvithLobo/CVE-2023-38646",
+      "https://github.com/Mrunalkaran/CVE-2023-38646",
       "https://github.com/birdm4nw/CVE-2023-38646",
-      "https://github.com/LazyySec/CVE-2023-38646",
       "https://github.com/asepsaepdin/CVE-2023-38646",
       "https://github.com/threatHNTR/CVE-2023-38646",
+      "https://github.com/lazysec0x21/CVE-2023-38646",
       "https://github.com/junnythemarksman/CVE-2023-38646",
       "https://github.com/Chocapikk/CVE-2023-38646",
-      "https://github.com/yxl2001/CVE-2023-38646",
       "https://github.com/passwa11/CVE-2023-38646",
+      "https://github.com/yxl2001/CVE-2023-38646",
       "https://github.com/adriyansyah-mf/CVE-2023-38646--Metabase-",
       "https://github.com/j0yb0y0h/CVE-2023-38646",
       "https://github.com/CN016/Metabase-H2-CVE-2023-38646-"
@@ -1901,6 +1917,13 @@
     ]
   },
   {
+    "cve_code": "CVE-2023-36553",
+    "description": " A improper neutralization of special elements used in an os command ('os command injection') in Fortinet FortiSIEM version 5.4.0 and 5.3.0 through 5.3.3 and 5.2.5 through 5.2.8 and 5.2.1 through 5.2.2 and 5.1.0 through 5.1.3 and 5.0.0 through 5.0.1 and 4.10.0 and 4.9.0 and 4.7.2 allows attacker to execute unauthorized code or commands via crafted API requests.",
+    "poc": [
+      "https://github.com/kenit7s/CVE-2023-36553-RCE"
+    ]
+  },
+  {
     "cve_code": "CVE-2023-36531",
     "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
     "poc": [
@@ -2158,7 +2181,7 @@
     "description": " Ivanti Endpoint Manager Mobile (EPMM), formerly MobileIron Core, through 11.10 allows remote attackers to obtain PII, add an administrative account, and change the configuration because of an authentication bypass, as exploited in the wild in July 2023. A patch is available.",
     "poc": [
       "https://github.com/vchan-in/CVE-2023-35078-Exploit-POC",
-      "https://github.com/LazyySec/CVE-2023-35078",
+      "https://github.com/lazysec0x21/CVE-2023-35078",
       "https://github.com/lager1/CVE-2023-35078",
       "https://github.com/emanueldosreis/nmap-CVE-2023-35078-Exploit",
       "https://github.com/synfinner/CVE-2023-35078",
@@ -3183,15 +3206,15 @@
       "https://github.com/kuttappu123/CVE-2023-30212-LAB",
       "https://github.com/libas7994/Exploit-the-CVE-2023-30212-vulnerability",
       "https://github.com/AAsh035/CVE-2023-30212",
-      "https://github.com/Anandhu990/CVE-2023-30212-iab",
       "https://github.com/kai-iszz/CVE-2023-30212",
+      "https://github.com/Anandhu990/CVE-2023-30212-iab",
       "https://github.com/Anandhu990/CVE-2023-30212_lab",
       "https://github.com/libasv/Exploite-CVE-2023-30212-vulnerability",
       "https://github.com/Anandhu990/r-CVE-2023-30212-lab",
       "https://github.com/VisDev23/Vulnerable-Docker-CVE-2023-30212",
       "https://github.com/VisDev23/Vulnerable-Docker--CVE-2023-30212-",
-      "https://github.com/Anandhu990/r-CVE-2023-30212--lab",
       "https://github.com/MaThEw-ViNcEnT/CVE-2023-30212-OURPHP-Vulnerability",
+      "https://github.com/Anandhu990/r-CVE-2023-30212--lab",
       "https://github.com/libasmon/Vulnerable-Docker-Environment-CVE-2023-30212",
       "https://github.com/JasaluRah/Creating-a-Vulnerable-Docker-Environment-CVE-2023-30212-",
       "https://github.com/libasmon/-create-a-vulnerable-Docker-environment-that-is-susceptible-to-CVE-2023-30212"
@@ -3304,13 +3327,6 @@
     "description": " Cross Site Scripting (XSS) vulnerability in vogtmh cmaps (companymaps) 8.0 allows attackers to execute arbitrary code.",
     "poc": [
       "https://github.com/zPrototype/CVE-2023-29808"
-    ]
-  },
-  {
-    "cve_code": "CVE-2023-29552",
-    "description": " The Service Location Protocol (SLP, RFC 2608) allows an unauthenticated, remote attacker to register arbitrary services. This could allow the attacker to use spoofed UDP traffic to conduct a denial-of-service attack with a significant amplification factor.",
-    "poc": [
-      "https://github.com/0xKayala/CVE-2023-29552"
     ]
   },
   {
@@ -3450,7 +3466,7 @@
     "description": " Improper error message handling in Zyxel ZyWALL/USG series firmware versions 4.60 through 4.73, VPN series firmware versions 4.60 through 5.35, USG FLEX series firmware versions 4.60 through 5.35, and ATP series firmware versions 4.60 through 5.35, which could allow an unauthenticated attacker to execute some OS commands remotely by sending crafted packets to an affected device.",
     "poc": [
       "https://github.com/getdrive/PoC",
-      "https://github.com/fed-speak/CVE-2023-28771-PoC",
+      "https://github.com/benjaminhays/CVE-2023-28771-PoC",
       "https://github.com/WhiteOwl-Pub/PoC-CVE-2023-28771"
     ]
   },
@@ -3965,8 +3981,8 @@
     "cve_code": "CVE-2023-25292",
     "description": " Reflected Cross Site Scripting (XSS) in Intermesh BV Group-Office version 6.6.145, allows attackers to gain escalated privileges and gain sensitive information via the GO_LANGUAGE cookie.",
     "poc": [
-      "https://github.com/brainkok/CVE-2023-25292",
-      "https://github.com/tucommenceapousser/CVE-2023-25292"
+      "https://github.com/tucommenceapousser/CVE-2023-25292",
+      "https://github.com/brainkok/CVE-2023-25292"
     ]
   },
   {
@@ -4128,7 +4144,7 @@
   },
   {
     "cve_code": "CVE-2023-24488",
-    "description": " Cross site scripting vulnerability in Citrix ADC and Citrix Gateway in allows and attacker to perform cross site scripting- [https://github.com/securitycipher/CVE-2023-24488](https://github.com/securitycipher/CVE-2023-24488) :  ![starts](https://img.shields.io/github/stars/securitycipher/CVE-2023-24488.svg) ![forks](https://img.shields.io/github/forks/securitycipher/CVE-2023-24488.svg)- [https://github.com/Abo5/CVE-2023-24488](https://github.com/Abo5/CVE-2023-24488) :  ![starts](https://img.shields.io/github/stars/Abo5/CVE-2023-24488.svg) ![forks](https://img.shields.io/github/forks/Abo5/CVE-2023-24488.svg)- [https://github.com/SirBugs/CVE-2023-24488-PoC](https://github.com/SirBugs/CVE-2023-24488-PoC) :  ![starts](https://img.shields.io/github/stars/SirBugs/CVE-2023-24488-PoC.svg) ![forks](https://img.shields.io/github/forks/SirBugs/CVE-2023-24488-PoC.svg)- [https://github.com/codeb0ss/cve-2023-24488](https://github.com/codeb0ss/cve-2023-24488) :  ![starts](https://img.shields.io/github/stars/codeb0ss/cve-2023-24488.svg) ![forks](https://img.shields.io/github/forks/codeb0ss/cve-2023-24488.svg)- [https://github.com/NSTCyber/CVE-2023-24488-SIEM-Sigma-Rule](https://github.com/NSTCyber/CVE-2023-24488-SIEM-Sigma-Rule) :  ![starts](https://img.shields.io/github/stars/NSTCyber/CVE-2023-24488-SIEM-Sigma-Rule.svg) ![forks](https://img.shields.io/github/forks/NSTCyber/CVE-2023-24488-SIEM-Sigma-Rule.svg)- [https://github.com/LazyySec/CVE-2023-24488](https://github.com/LazyySec/CVE-2023-24488) :  ![starts](https://img.shields.io/github/stars/LazyySec/CVE-2023-24488.svg) ![forks](https://img.shields.io/github/forks/LazyySec/CVE-2023-24488.svg)",
+    "description": " Cross site scripting vulnerability in Citrix ADC and Citrix Gateway in allows and attacker to perform cross site scripting- [https://github.com/securitycipher/CVE-2023-24488](https://github.com/securitycipher/CVE-2023-24488) :  ![starts](https://img.shields.io/github/stars/securitycipher/CVE-2023-24488.svg) ![forks](https://img.shields.io/github/forks/securitycipher/CVE-2023-24488.svg)- [https://github.com/Abo5/CVE-2023-24488](https://github.com/Abo5/CVE-2023-24488) :  ![starts](https://img.shields.io/github/stars/Abo5/CVE-2023-24488.svg) ![forks](https://img.shields.io/github/forks/Abo5/CVE-2023-24488.svg)- [https://github.com/SirBugs/CVE-2023-24488-PoC](https://github.com/SirBugs/CVE-2023-24488-PoC) :  ![starts](https://img.shields.io/github/stars/SirBugs/CVE-2023-24488-PoC.svg) ![forks](https://img.shields.io/github/forks/SirBugs/CVE-2023-24488-PoC.svg)- [https://github.com/codeb0ss/cve-2023-24488](https://github.com/codeb0ss/cve-2023-24488) :  ![starts](https://img.shields.io/github/stars/codeb0ss/cve-2023-24488.svg) ![forks](https://img.shields.io/github/forks/codeb0ss/cve-2023-24488.svg)- [https://github.com/NSTCyber/CVE-2023-24488-SIEM-Sigma-Rule](https://github.com/NSTCyber/CVE-2023-24488-SIEM-Sigma-Rule) :  ![starts](https://img.shields.io/github/stars/NSTCyber/CVE-2023-24488-SIEM-Sigma-Rule.svg) ![forks](https://img.shields.io/github/forks/NSTCyber/CVE-2023-24488-SIEM-Sigma-Rule.svg)- [https://github.com/lazysec0x21/CVE-2023-24488](https://github.com/lazysec0x21/CVE-2023-24488) :  ![starts](https://img.shields.io/github/stars/lazysec0x21/CVE-2023-24488.svg) ![forks](https://img.shields.io/github/forks/lazysec0x21/CVE-2023-24488.svg)",
     "poc": []
   },
   {
@@ -4241,6 +4257,13 @@
       "https://github.com/YYHYlh/Apache-Dubbo-CVE-2023-23638-exp",
       "https://github.com/X1r0z/CVE-2023-23638",
       "https://github.com/CKevens/CVE-2023-23638-Tools"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-23583",
+    "description": " Sequence of processor instructions leads to unexpected behavior for some Intel(R) Processors may allow an authenticated user to potentially enable escalation of privilege and/or information disclosure and/or denial of service via local access.",
+    "poc": [
+      "https://github.com/Mav3r1ck0x1/CVE-2023-23583-Reptar-"
     ]
   },
   {
@@ -4404,7 +4427,8 @@
     "cve_code": "CVE-2023-22855",
     "description": " Kardex Mlog MCC 5.7.12+0-a203c2a213-master allows remote code execution. It spawns a web interface listening on port 8088. A user-controllable path is handed to a path-concatenation method (Path.Combine from .NET) without proper sanitisation. This yields the possibility of including local files, as well as remote files on SMB shares. If one provides a file with the extension .t4, it is rendered with the .NET templating engine mono/t4, which can execute code.",
     "poc": [
-      "https://github.com/vianic/CVE-2023-22855"
+      "https://github.com/vianic/CVE-2023-22855",
+      "https://github.com/patrickhener/CVE-2023-22855"
     ]
   },
   {
@@ -4463,8 +4487,8 @@
       "https://github.com/Le1a/CVE-2023-22515",
       "https://github.com/aaaademo/Confluence-EvilJar",
       "https://github.com/LucasPDiniz/CVE-2023-22515",
-      "https://github.com/joaoviictorti/CVE-2023-22515",
       "https://github.com/Vulnmachines/confluence-cve-2023-22515",
+      "https://github.com/joaoviictorti/CVE-2023-22515",
       "https://github.com/C1ph3rX13/CVE-2023-22515",
       "https://github.com/iveresk/CVE-2023-22515",
       "https://github.com/kh4sh3i/CVE-2023-22515",
@@ -4624,8 +4648,8 @@
     "cve_code": "CVE-2023-21282",
     "description": " In TRANSPOSER_SETTINGS of lpp_tran.h, there is a possible out of bounds write due to an incorrect bounds check. This could lead to remote code execution with no additional execution privileges needed. User interaction is needed for exploitation.",
     "poc": [
-      "https://github.com/nidhi7598/external_aac_AOSP_06_r22_CVE-2023-21282",
-      "https://github.com/Trinadh465/external_aac_AOSP10_r33_CVE-2023-21282"
+      "https://github.com/Trinadh465/external_aac_AOSP10_r33_CVE-2023-21282",
+      "https://github.com/nidhi7598/external_aac_AOSP_06_r22_CVE-2023-21282"
     ]
   },
   {
@@ -4803,14 +4827,14 @@
       "https://github.com/mr-r3b00t/CVE-2023-20198-IOS-XE-Scanner",
       "https://github.com/iveresk/cve-2023-20198",
       "https://github.com/securityphoenix/cisco-CVE-2023-20198-tester",
+      "https://github.com/smokeintheshell/CVE-2023-20198",
       "https://github.com/sanjai-AK47/CVE-2023-20198",
       "https://github.com/IceBreakerCode/CVE-2023-20198",
       "https://github.com/kacem-expereo/CVE-2023-20198",
       "https://github.com/alekos3/CVE_2023_20198_Remediator",
       "https://github.com/emomeni/Simple-Ansible-for-CVE-2023-20198",
-      "https://github.com/smokeintheshell/CVE-2023-20198",
-      "https://github.com/ohlawd/CVE-2023-20198",
       "https://github.com/reket99/Cisco_CVE-2023-20198",
+      "https://github.com/ohlawd/CVE-2023-20198",
       "https://github.com/raystr-atearedteam/CVE-2023-20198-checker",
       "https://github.com/JoyGhoshs/CVE-2023-20198",
       "https://github.com/ditekshen/ansible-cve-2023-20198"
@@ -4892,7 +4916,7 @@
   },
   {
     "cve_code": "CVE-2023-5815",
-    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " The News &amp; Blog Designer Pack &#8211; WordPress Blog Plugin &#8212; (Blog Post Grid, Blog Post Slider, Blog Post Carousel, Blog Post Ticker, Blog Post Masonry) plugin for WordPress is vulnerable to Remote Code Execution via Local File Inclusion in all versions up to, and including, 3.4.1 via the bdp_get_more_post function hooked via a nopriv AJAX. This is due to function utilizing an unsafe extract() method to extract values from the POST variable and passing that input to the include() function. This makes it possible for unauthenticated attackers to include arbitrary PHP files and achieve remote code execution. On vulnerable Docker configurations it may be possible for an attacker to create a PHP file and then subsequently include it to achieve RCE.",
     "poc": [
       "https://github.com/codeb0ss/CVE-2023-5815-PoC"
     ]
@@ -5080,6 +5104,13 @@
     "poc": []
   },
   {
+    "cve_code": "CVE-2023-4741",
+    "description": " A vulnerability has been found in IBOS OA 4.5.5 and classified as critical. This vulnerability affects unknown code of the file ?r=diary/default/del of the component Delete Logs Handler. The manipulation leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-238630 is the identifier assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.",
+    "poc": [
+      "https://github.com/wudidike/CVE-2023-4741"
+    ]
+  },
+  {
     "cve_code": "CVE-2023-4699",
     "description": " Insufficient Verification of Data Authenticity vulnerability in Mitsubishi Electric Corporation MELSEC-F Series main modules and MELSEC iQ-F Series CPU modules allows a remote unauthenticated attacker to reset the memory of the products to factory default state and cause denial-of-service (DoS) condition on the products by sending specific packets.",
     "poc": [
@@ -5200,6 +5231,13 @@
     "description": " The Prevent files / folders access WordPress plugin before 2.5.2 does not validate files to be uploaded, which could allow attackers to upload arbitrary files such as PHP on the server.",
     "poc": [
       "https://github.com/codeb0ss/CVE-2023-4238-PoC"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-4207",
+    "description": " A use-after-free vulnerability in the Linux kernel's net/sched: cls_fw component can be exploited to achieve local privilege escalation. When fw_change() is called on an existing filter, the whole tcf_result struct is always copied into the new instance of the filter. This causes a problem when updating a filter bound to a class, as tcf_unbind_filter() is always called on the old instance in the success path, decreasing filter_cnt of the still referenced class and allowing it to be deleted, leading to a use-after-free. We recommend upgrading past commit 76e42ae831991c828cffa8c37736ebfb831ad5ec.",
+    "poc": [
+      "https://github.com/nidhi7598/linux-4.19.72_net_CVE-2023-4207"
     ]
   },
   {
@@ -5439,8 +5477,8 @@
     "poc": [
       "https://github.com/Occamsec/CVE-2023-2825",
       "https://github.com/yuimarudev/CVE-2023-2825",
-      "https://github.com/caopengyan/CVE-2023-2825",
       "https://github.com/Rubikcuv5/CVE-2023-2825",
+      "https://github.com/caopengyan/CVE-2023-2825",
       "https://github.com/Tornad0007/CVE-2023-2825-Gitlab"
     ]
   },
@@ -41897,8 +41935,8 @@
     "cve_code": "CVE-2003-0358",
     "description": " Buffer overflow in (1) nethack 3.4.0 and earlier, and (2) falconseye 1.9.3 and earlier, which is based on nethack, allows local users to gain privileges via a long -s command line option.",
     "poc": [
-      "https://github.com/gmh5225/CVE-2003-0358",
-      "https://github.com/snowcra5h/CVE-2003-0358"
+      "https://github.com/snowcra5h/CVE-2003-0358",
+      "https://github.com/gmh5225/CVE-2003-0358"
     ]
   },
   {
