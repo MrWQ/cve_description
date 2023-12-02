@@ -43,6 +43,13 @@
     ]
   },
   {
+    "cve_code": "CVE-2023-48849",
+    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "poc": [
+      "https://github.com/delsploit/CVE-2023-48849"
+    ]
+  },
+  {
     "cve_code": "CVE-2023-48200",
     "description": " Cross Site Scripting vulnerability in Grocy v.4.0.3 allows a local attacker to execute arbitrary code and obtain sensitive information via the equipment description component within /equipment/ component.",
     "poc": [
@@ -174,7 +181,7 @@
     "cve_code": "CVE-2023-47184",
     "description": " Auth. (admin+) Stored Cross-Site Scripting (XSS) vulnerability in Proper Fraction LLC. Admin Bar &amp; Dashboard Access Control plugin &lt;= 1.2.8 versions.",
     "poc": [
-      "https://github.com/cont1nuum/CVE-2023-47184"
+      "https://github.com/rach1tarora/CVE-2023-47184"
     ]
   },
   {
@@ -275,9 +282,10 @@
       "https://github.com/SaumyajeetDas/CVE-2023-46604-RCE-Reverse-Shell-Apache-ActiveMQ",
       "https://github.com/JaneMandy/ActiveMQ_RCE_Pro_Max",
       "https://github.com/sule01u/CVE-2023-46604",
+      "https://github.com/trganda/ActiveMQ-RCE",
       "https://github.com/evkl1d/CVE-2023-46604",
-      "https://github.com/justdoit-cai/CVE-2023-46604-Apache-ActiveMQ-RCE-exp",
       "https://github.com/duck-sec/CVE-2023-46604-ActiveMQ-RCE-pseudoshell",
+      "https://github.com/justdoit-cai/CVE-2023-46604-Apache-ActiveMQ-RCE-exp",
       "https://github.com/h3x3h0g/ActiveMQ-RCE-CVE-2023-46604-Write-up",
       "https://github.com/minhangxiaohui/ActiveMQ_CVE-2023-46604",
       "https://github.com/nitzanoligo/CVE-2023-46604-demo",
@@ -1253,6 +1261,13 @@
     ]
   },
   {
+    "cve_code": "CVE-2023-40626",
+    "description": " The language file parsing process could be manipulated to expose environment variables. Environment variables might contain sensible information.",
+    "poc": [
+      "https://github.com/TLWebdesign/Joomla-3.10.12-languagehelper-hotfix"
+    ]
+  },
+  {
     "cve_code": "CVE-2023-40600",
     "description": " Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Exactly WWW EWWW Image Optimizer. It works only when debug.log is turned on.This issue affects EWWW Image Optimizer: from n/a through 7.2.0.",
     "poc": [
@@ -1537,14 +1552,14 @@
       "https://github.com/BeniBeastt/CVE-2023-38831_ReverseShell_Winrar",
       "https://github.com/GOTonyGO/CVE-2023-38831-winrar",
       "https://github.com/kehrijksen/CVE-2023-38831",
+      "https://github.com/an040702/CVE-2023-38831",
+      "https://github.com/Nielk74/CVE-2023-38831",
       "https://github.com/IMHarman/CVE-2023-38831",
       "https://github.com/asepsaepdin/CVE-2023-38831",
-      "https://github.com/Nielk74/CVE-2023-38831",
-      "https://github.com/an040702/CVE-2023-38831",
       "https://github.com/nhman-python/CVE-2023-38831",
       "https://github.com/h3xecute/SideCopy-Exploits-CVE-2023-38831",
-      "https://github.com/Fa1c0n35/CVE-2023-38831-winrar-exploit",
       "https://github.com/s4m98/winrar-cve-2023-38831-poc-gen",
+      "https://github.com/Fa1c0n35/CVE-2023-38831-winrar-exploit",
       "https://github.com/MortySecurity/CVE-2023-38831-Exploit-and-Detection"
     ]
   },
@@ -1612,15 +1627,16 @@
       "https://github.com/asepsaepdin/CVE-2023-38646",
       "https://github.com/threatHNTR/CVE-2023-38646",
       "https://github.com/lazysec0x21/CVE-2023-38646",
-      "https://github.com/junnythemarksman/CVE-2023-38646",
       "https://github.com/AnvithLobo/CVE-2023-38646",
       "https://github.com/Mrunalkaran/CVE-2023-38646",
+      "https://github.com/junnythemarksman/CVE-2023-38646",
       "https://github.com/Chocapikk/CVE-2023-38646",
       "https://github.com/passwa11/CVE-2023-38646",
       "https://github.com/yxl2001/CVE-2023-38646",
       "https://github.com/adriyansyah-mf/CVE-2023-38646--Metabase-",
       "https://github.com/j0yb0y0h/CVE-2023-38646",
-      "https://github.com/CN016/Metabase-H2-CVE-2023-38646-"
+      "https://github.com/CN016/Metabase-H2-CVE-2023-38646-",
+      "https://github.com/Anekant-Singhai/Exploits"
     ]
   },
   {
@@ -2437,7 +2453,8 @@
     "cve_code": "CVE-2023-34468",
     "description": " The DBCPConnectionPool and HikariCPConnectionPool Controller Services in Apache NiFi 0.0.2 through 1.21.0 allow an authenticated and authorized user to configure a Database URL with the H2 driver that enables custom code execution. The resolution validates the Database URL and rejects H2 JDBC locations. You are recommended to upgrade to version 1.22.0 or later which fixes this issue.",
     "poc": [
-      "https://github.com/mbadanoiu/CVE-2023-34468"
+      "https://github.com/mbadanoiu/CVE-2023-34468",
+      "https://github.com/mbadanoiu/CVE-2023-40037"
     ]
   },
   {
@@ -2466,7 +2483,8 @@
     "cve_code": "CVE-2023-34212",
     "description": " The JndiJmsConnectionFactoryProvider Controller Service, along with the ConsumeJMS and PublishJMS Processors, in Apache NiFi 1.8.0 through 1.21.0 allow an authenticated and authorized user to configure URL and library properties that enable deserialization of untrusted data from a remote location. The resolution validates the JNDI URL and restricts locations to a set of allowed schemes. You are recommended to upgrade to version 1.22.0 or later which fixes this issue.",
     "poc": [
-      "https://github.com/mbadanoiu/CVE-2023-34212"
+      "https://github.com/mbadanoiu/CVE-2023-34212",
+      "https://github.com/mbadanoiu/CVE-2023-40037"
     ]
   },
   {
@@ -3292,8 +3310,8 @@
     "poc": [
       "https://github.com/libasmon/Exploite-CVE-2023-30212-Vulnerability",
       "https://github.com/Rishipatidar/CVE-2023-30212-POC-DOCKER-FILE",
-      "https://github.com/libas7994/CVE-2023-30212",
       "https://github.com/arunsnap/CVE-2023-30212-POC",
+      "https://github.com/libas7994/CVE-2023-30212",
       "https://github.com/mallutrojan/CVE-2023-30212-Lab",
       "https://github.com/kuttappu123/CVE-2023-30212-LAB",
       "https://github.com/libas7994/Exploit-the-CVE-2023-30212-vulnerability",
@@ -3787,10 +3805,13 @@
     "cve_code": "CVE-2023-27372",
     "description": " SPIP before 4.2.1 allows Remote Code Execution via form values in the public area because serialization is mishandled. The fixed versions are 3.2.18, 4.0.10, 4.1.8, and 4.2.1.",
     "poc": [
+      "https://github.com/peiqiF4ck/WebFrameworkTools-5.1-main",
       "https://github.com/nuts7/CVE-2023-27372",
       "https://github.com/ThatNotEasy/CVE-2023-27372",
       "https://github.com/0SPwn/CVE-2023-27372-PoC",
-      "https://github.com/Chocapikk/CVE-2023-27372"
+      "https://github.com/izzz0/CVE-2023-27372-POC",
+      "https://github.com/Chocapikk/CVE-2023-27372",
+      "https://github.com/redboltsec/CVE-2023-27372-PoC"
     ]
   },
   {
@@ -5109,8 +5130,8 @@
       "https://github.com/Chocapikk/CVE-2023-5360",
       "https://github.com/sagsooz/CVE-2023-5360",
       "https://github.com/1337r0j4n/CVE-2023-5360",
-      "https://github.com/tucommenceapousser/CVE-2023-5360",
       "https://github.com/Pushkarup/CVE-2023-5360",
+      "https://github.com/tucommenceapousser/CVE-2023-5360",
       "https://github.com/codeb0ss/xWP-2",
       "https://github.com/nastar-id/CVE-2023-5360",
       "https://github.com/Jenderal92/WP-CVE-2023-5360"
@@ -5551,6 +5572,7 @@
     "cve_code": "CVE-2023-2986",
     "description": " The Abandoned Cart Lite for WooCommerce plugin for WordPress is vulnerable to authentication bypass in versions up to, and including, 5.14.2. This is due to insufficient encryption on the user being supplied during the abandoned cart link decode through the plugin. This allows unauthenticated attackers to log in as users who have abandoned the cart, who are typically customers. Further security hardening was introduced in version 5.15.1 that ensures sites are no longer vulnerable through historical check-out links, and additional hardening was introduced in version 5.15.2 that ensured null key values wouldn't permit the authentication bypass.",
     "poc": [
+      "https://github.com/Ayantaker/CVE-2023-2986",
       "https://github.com/Alucard0x1/CVE-2023-2986"
     ]
   },
@@ -5952,8 +5974,8 @@
       "https://github.com/0xf4n9x/CVE-2023-0669",
       "https://github.com/yosef0x01/CVE-2023-0669-Analysis",
       "https://github.com/Avento/CVE-2023-0669",
-      "https://github.com/Griffin-01/CVE-2023-0669",
-      "https://github.com/cataliniovita/CVE-2023-0669"
+      "https://github.com/cataliniovita/CVE-2023-0669",
+      "https://github.com/Griffin-01/CVE-2023-0669"
     ]
   },
   {
@@ -42157,8 +42179,8 @@
     "poc": [
       "https://github.com/ivanitlearning/CVE-2004-1561",
       "https://github.com/thel1nus/CVE-2004-1561-Notes",
-      "https://github.com/darrynb89/CVE-2004-1561",
-      "https://github.com/ratiros01/CVE-2004-1561"
+      "https://github.com/ratiros01/CVE-2004-1561",
+      "https://github.com/darrynb89/CVE-2004-1561"
     ]
   },
   {
