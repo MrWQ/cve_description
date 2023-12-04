@@ -1,5 +1,12 @@
 [
   {
+    "cve_code": "CVE-2023-49948",
+    "description": " Forgejo before 1.20.5-1 allows remote attackers to test for the existence of private user accounts by appending .rss (or another extension) to a URL.",
+    "poc": [
+      "https://github.com/codeb0ss/CVE-2023-49948-PoC"
+    ]
+  },
+  {
     "cve_code": "CVE-2023-49314",
     "description": " Asana Desktop 2.1.0 on macOS allows code injection because of specific Electron Fuses. There is inadequate protection against code injection through settings such as RunAsNode and EnableNodeCliInspectArguments, and thus r3ggi/electroniz3r can be used to perform an attack.",
     "poc": [
@@ -1560,14 +1567,14 @@
       "https://github.com/BeniBeastt/CVE-2023-38831_ReverseShell_Winrar",
       "https://github.com/GOTonyGO/CVE-2023-38831-winrar",
       "https://github.com/kehrijksen/CVE-2023-38831",
-      "https://github.com/IMHarman/CVE-2023-38831",
       "https://github.com/an040702/CVE-2023-38831",
       "https://github.com/Nielk74/CVE-2023-38831",
       "https://github.com/asepsaepdin/CVE-2023-38831",
+      "https://github.com/IMHarman/CVE-2023-38831",
       "https://github.com/nhman-python/CVE-2023-38831",
       "https://github.com/h3xecute/SideCopy-Exploits-CVE-2023-38831",
-      "https://github.com/Fa1c0n35/CVE-2023-38831-winrar-exploit",
       "https://github.com/s4m98/winrar-cve-2023-38831-poc-gen",
+      "https://github.com/Fa1c0n35/CVE-2023-38831-winrar-exploit",
       "https://github.com/MortySecurity/CVE-2023-38831-Exploit-and-Detection"
     ]
   },
@@ -1621,22 +1628,21 @@
       "https://github.com/Pyr0sec/CVE-2023-38646",
       "https://github.com/nickswink/CVE-2023-38646",
       "https://github.com/m3m0o/metabase-pre-auth-rce-poc",
-      "https://github.com/Red4mber/CVE-2023-38646",
       "https://github.com/Xuxfff/CVE-2023-38646-Poc",
+      "https://github.com/Red4mber/CVE-2023-38646",
       "https://github.com/Zenmovie/CVE-2023-38646",
       "https://github.com/fidjiw/CVE-2023-38646-POC",
-      "https://github.com/Itrekr/CVE-2023-38646-Crapsploit",
       "https://github.com/alexandre-pecorilla/CVE-2023-38646",
       "https://github.com/joaoviictorti/CVE-2023-38646",
       "https://github.com/Any3ite/cve-2023-38646-metabase-ReverseShell",
       "https://github.com/SUT0L/CVE-2023-38646",
       "https://github.com/Ego1stoo/CVE-2023-38646",
       "https://github.com/birdm4nw/CVE-2023-38646",
-      "https://github.com/threatHNTR/CVE-2023-38646",
       "https://github.com/asepsaepdin/CVE-2023-38646",
+      "https://github.com/threatHNTR/CVE-2023-38646",
       "https://github.com/lazysec0x21/CVE-2023-38646",
-      "https://github.com/AnvithLobo/CVE-2023-38646",
       "https://github.com/Mrunalkaran/CVE-2023-38646",
+      "https://github.com/AnvithLobo/CVE-2023-38646",
       "https://github.com/junnythemarksman/CVE-2023-38646",
       "https://github.com/Chocapikk/CVE-2023-38646",
       "https://github.com/yxl2001/CVE-2023-38646",
@@ -2138,8 +2144,8 @@
     "cve_code": "CVE-2023-36143",
     "description": " Maxprint Maxlink 1200G v3.4.11E has an OS command injection vulnerability in the &quot;Diagnostic tool&quot; functionality of the device.",
     "poc": [
-      "https://github.com/leonardobg/CVE-2023-36143",
-      "https://github.com/RobinTrigon/CVE-2023-36143"
+      "https://github.com/RobinTrigon/CVE-2023-36143",
+      "https://github.com/leonardobg/CVE-2023-36143"
     ]
   },
   {
@@ -2763,8 +2769,8 @@
     "cve_code": "CVE-2023-33246",
     "description": " For RocketMQ versions 5.1.0 and below, under certain conditions, there is a risk of remote command execution. Several components of RocketMQ, including NameServer, Broker, and Controller, are leaked on the extranet and lack permission verification, an attacker can exploit this vulnerability by using the update configuration function to execute commands as the system users that RocketMQ is running as. Additionally, an attacker can achieve the same effect by forging the RocketMQ protocol content. To prevent these attacks, users are recommended to upgrade to version 5.1.1 or above for using RocketMQ 5.x or 4.9.6 or above for using RocketMQ 4.x .",
     "poc": [
-      "https://github.com/Malayke/CVE-2023-33246_RocketMQ_RCE_EXPLOIT",
       "https://github.com/SuperZero/CVE-2023-33246",
+      "https://github.com/Malayke/CVE-2023-33246_RocketMQ_RCE_EXPLOIT",
       "https://github.com/Le1a/CVE-2023-33246",
       "https://github.com/I5N0rth/CVE-2023-33246",
       "https://github.com/cr1me0/rocketMq_RCE",
@@ -3464,8 +3470,8 @@
       "https://github.com/ipk1/CVE-2023-29489.py",
       "https://github.com/1337r0j4n/CVE-2023-29489",
       "https://github.com/Abdullah7-ma/CVE-2023-29489",
-      "https://github.com/learnerboy88/CVE-2023-29489",
       "https://github.com/SynixCyberCrimeMy/CVE-2023-29489",
+      "https://github.com/learnerboy88/CVE-2023-29489",
       "https://github.com/S4muraiMelayu1337/CVE-2023-29489",
       "https://github.com/Mostafa-Elguerdawi/CVE-2023-29489",
       "https://github.com/Mostafa-Elguerdawi/CVE-2023-29489.yaml",
@@ -3637,7 +3643,8 @@
       "https://github.com/h0ng10/CVE-2023-28432_docker",
       "https://github.com/Chocapikk/CVE-2023-28432",
       "https://github.com/Fw-fW-fw/CVE-2023-28432-minio_update_rce",
-      "https://github.com/CHINA-china/MinIO_CVE-2023-28432_EXP"
+      "https://github.com/CHINA-china/MinIO_CVE-2023-28432_EXP",
+      "https://github.com/Romanc9/Gui-poc-test"
     ]
   },
   {
@@ -3726,7 +3733,7 @@
   },
   {
     "cve_code": "CVE-2023-27842",
-    "description": " Insecure Permissions vulnerability found in Extplorer File manager eXtplorer v.2.1.15 allows a remote attacker to execute arbitrary code via the index.php compenent- [https://github.com/0xFTW/CVE-2023-27842](https://github.com/0xFTW/CVE-2023-27842) :  ![starts](https://img.shields.io/github/stars/0xFTW/CVE-2023-27842.svg) ![forks](https://img.shields.io/github/forks/0xFTW/CVE-2023-27842.svg)- [https://github.com/tristao-marinho/CVE-2023-27842](https://github.com/tristao-marinho/CVE-2023-27842) :  ![starts](https://img.shields.io/github/stars/tristao-marinho/CVE-2023-27842.svg) ![forks](https://img.shields.io/github/forks/tristao-marinho/CVE-2023-27842.svg)",
+    "description": " Insecure Permissions vulnerability found in Extplorer File manager eXtplorer v.2.1.15 allows a remote attacker to execute arbitrary code via the index.php compenent- [https://github.com/cowsecurity/CVE-2023-27842](https://github.com/cowsecurity/CVE-2023-27842) :  ![starts](https://img.shields.io/github/stars/cowsecurity/CVE-2023-27842.svg) ![forks](https://img.shields.io/github/forks/cowsecurity/CVE-2023-27842.svg)- [https://github.com/tristao-marinho/CVE-2023-27842](https://github.com/tristao-marinho/CVE-2023-27842) :  ![starts](https://img.shields.io/github/stars/tristao-marinho/CVE-2023-27842.svg) ![forks](https://img.shields.io/github/forks/tristao-marinho/CVE-2023-27842.svg)",
     "poc": []
   },
   {
@@ -3892,8 +3899,8 @@
       "https://github.com/HusenjanDev/CVE-2023-27163-AND-Mailtrail-v0.53",
       "https://github.com/overgrowncarrot1/CVE-2023-27163",
       "https://github.com/thomas-osgood/CVE-2023-27163",
-      "https://github.com/0xFTW/CVE-2023-27163",
       "https://github.com/Hamibubu/CVE-2023-27163",
+      "https://github.com/cowsecurity/CVE-2023-27163",
       "https://github.com/rvizx/CVE-2023-27163"
     ]
   },
@@ -4121,8 +4128,8 @@
     "cve_code": "CVE-2023-25292",
     "description": " Reflected Cross Site Scripting (XSS) in Intermesh BV Group-Office version 6.6.145, allows attackers to gain escalated privileges and gain sensitive information via the GO_LANGUAGE cookie.",
     "poc": [
-      "https://github.com/brainkok/CVE-2023-25292",
-      "https://github.com/tucommenceapousser/CVE-2023-25292"
+      "https://github.com/tucommenceapousser/CVE-2023-25292",
+      "https://github.com/brainkok/CVE-2023-25292"
     ]
   },
   {
@@ -4376,16 +4383,17 @@
       "https://github.com/ifacker/CVE-2023-23752-Joomla",
       "https://github.com/Saboor-Hakimi/CVE-2023-23752",
       "https://github.com/karthikuj/CVE-2023-23752-Docker",
+      "https://github.com/Youns92/Joomla-v4.2.8---CVE-2023-23752",
       "https://github.com/adhikara13/CVE-2023-23752",
       "https://github.com/ibaiw/joomla_CVE-2023-23752",
-      "https://github.com/GhostToKnow/CVE-2023-23752",
       "https://github.com/0xNahim/CVE-2023-23752",
-      "https://github.com/Vulnmachines/joomla_CVE-2023-23752",
+      "https://github.com/GhostToKnow/CVE-2023-23752",
+      "https://github.com/Fernando-olv/Joomla-CVE-2023-23752",
       "https://github.com/YusinoMy/CVE-2023-23752",
+      "https://github.com/Vulnmachines/joomla_CVE-2023-23752",
       "https://github.com/haxor1337x/Mass-Checker-CVE-2023-23752",
       "https://github.com/HaxorSec1945/CVE2023-23752",
       "https://github.com/adriyansyah-mf/CVE-2023-23752",
-      "https://github.com/Youns92/Joomla-v4.2.8---CVE-2023-23752",
       "https://github.com/wangking1/CVE-2023-23752-poc",
       "https://github.com/AkbarWiraN/Joomla-Scanner",
       "https://github.com/AlissoftCodes/CVE-2023-23752",
@@ -4393,13 +4401,13 @@
       "https://github.com/Jenderal92/Joomla-CVE-2023-23752",
       "https://github.com/k0valskia/CVE-2023-23752",
       "https://github.com/Ly0kha/Joomla-CVE-2023-23752-Exploit-Script",
-      "https://github.com/cybernetwiz/CVE-2023-23752",
-      "https://github.com/wibuheker/Joomla-CVE-2023-23752",
       "https://github.com/svaltheim/CVE-2023-23752",
+      "https://github.com/wibuheker/Joomla-CVE-2023-23752",
+      "https://github.com/cybernetwiz/CVE-2023-23752",
       "https://github.com/yTxZx/CVE-2023-23752",
-      "https://github.com/Pushkarup/CVE-2023-23752",
       "https://github.com/H454NSec/CVE-2023-23752",
-      "https://github.com/r3dston3/CVE-2023-23752"
+      "https://github.com/r3dston3/CVE-2023-23752",
+      "https://github.com/Pushkarup/CVE-2023-23752"
     ]
   },
   {
@@ -4712,7 +4720,8 @@
       "https://github.com/ASkyeye/CVE-2023-21839",
       "https://github.com/fakenews2025/CVE-2023-21839",
       "https://github.com/kw3h4/CVE-2023-21839-metasploit-scanner",
-      "https://github.com/MMarch7/weblogic_CVE-2023-21839_POC-EXP"
+      "https://github.com/MMarch7/weblogic_CVE-2023-21839_POC-EXP",
+      "https://github.com/Romanc9/Gui-poc-test"
     ]
   },
   {
@@ -4990,8 +4999,8 @@
       "https://github.com/Tounsi007/CVE-2023-20198",
       "https://github.com/Pushkarup/CVE-2023-20198",
       "https://github.com/sohaibeb/CVE-2023-20198",
-      "https://github.com/iveresk/cve-2023-20198",
       "https://github.com/smokeintheshell/CVE-2023-20198",
+      "https://github.com/iveresk/cve-2023-20198",
       "https://github.com/alekos3/CVE_2023_20198_Detector",
       "https://github.com/mr-r3b00t/CVE-2023-20198-IOS-XE-Scanner",
       "https://github.com/securityphoenix/cisco-CVE-2023-20198-tester",
@@ -5152,8 +5161,8 @@
       "https://github.com/Chocapikk/CVE-2023-5360",
       "https://github.com/sagsooz/CVE-2023-5360",
       "https://github.com/1337r0j4n/CVE-2023-5360",
-      "https://github.com/tucommenceapousser/CVE-2023-5360",
       "https://github.com/Pushkarup/CVE-2023-5360",
+      "https://github.com/tucommenceapousser/CVE-2023-5360",
       "https://github.com/codeb0ss/xWP-2",
       "https://github.com/nastar-id/CVE-2023-5360",
       "https://github.com/Jenderal92/WP-CVE-2023-5360"
@@ -6024,6 +6033,7 @@
     "description": " A flaw was found in the Linux kernel, where unauthorized access to the execution of the setuid file with capabilities was found in the Linux kernel&#8217;s OverlayFS subsystem in how a user copies a capable file from a nosuid mount into another mount. This uid mapping bug allows a local user to escalate their privileges on the system.",
     "poc": [
       "https://github.com/xkaneiki/CVE-2023-0386",
+      "https://github.com/chenaotian/CVE-2023-0386",
       "https://github.com/sxlmnwb/CVE-2023-0386",
       "https://github.com/Fanxiaoyao66/CVE-2023-0386",
       "https://github.com/veritas501/CVE-2023-0386",
