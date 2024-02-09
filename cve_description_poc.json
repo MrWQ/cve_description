@@ -155,13 +155,13 @@
       "https://github.com/kaanatmacaa/CVE-2024-23897",
       "https://github.com/Vozec/CVE-2024-23897",
       "https://github.com/jenkinsci-cert/SECURITY-3314-3315",
-      "https://github.com/viszsec/CVE-2024-23897",
       "https://github.com/CKevens/CVE-2024-23897",
+      "https://github.com/viszsec/CVE-2024-23897",
+      "https://github.com/iota4/PoC-Fix-jenkins-rce_CVE-2024-23897",
       "https://github.com/yoryio/CVE-2024-23897",
       "https://github.com/jopraveen/CVE-2024-23897",
       "https://github.com/AbraXa5/Jenkins-CVE-2024-23897",
       "https://github.com/raheel0x01/CVE-2024-23897",
-      "https://github.com/iota4/PoC-Fix-jenkins-rce_CVE-2024-23897",
       "https://github.com/vmtyan/poc-cve-2024-23897",
       "https://github.com/brijne/CVE-2024-23897-RCE",
       "https://github.com/WLXQqwer/Jenkins-CVE-2024-23897-",
@@ -436,8 +436,8 @@
       "https://github.com/Chocapikk/CVE-2024-21887",
       "https://github.com/rxwx/pulse-meter",
       "https://github.com/duy-31/CVE-2023-46805_CVE-2024-21887",
-      "https://github.com/yoryio/CVE-2023-46805",
       "https://github.com/Chocapikk/CVE-2024-21893-to-CVE-2024-21887",
+      "https://github.com/yoryio/CVE-2023-46805",
       "https://github.com/oways/ivanti-CVE-2024-21887",
       "https://github.com/seajaysec/Ivanti-Connect-Around-Scan",
       "https://github.com/TheRedDevil1/Check-Vulns-Script",
@@ -1556,8 +1556,8 @@
     "poc": [
       "https://github.com/rxwx/pulse-meter",
       "https://github.com/duy-31/CVE-2023-46805_CVE-2024-21887",
-      "https://github.com/Chocapikk/CVE-2023-46805",
       "https://github.com/yoryio/CVE-2023-46805",
+      "https://github.com/Chocapikk/CVE-2023-46805",
       "https://github.com/cbeek-r7/CVE-2023-46805",
       "https://github.com/seajaysec/Ivanti-Connect-Around-Scan",
       "https://github.com/w2xim3/CVE-2023-46805",
@@ -4879,7 +4879,8 @@
     "cve_code": "CVE-2023-30547",
     "description": " vm2 is a sandbox that can run untrusted code with whitelisted Node's built-in modules. There exists a vulnerability in exception sanitization of vm2 for versions up to 3.9.16, allowing attackers to raise an unsanitized host exception inside `handleException()` which can be used to escape the sandbox and run arbitrary code in host context. This vulnerability was patched in the release of version `3.9.17` of `vm2`. There are no known workarounds for this vulnerability. Users are advised to upgrade.",
     "poc": [
-      "https://github.com/rvizx/CVE-2023-30547"
+      "https://github.com/rvizx/CVE-2023-30547",
+      "https://github.com/user0x1337/CVE-2023-30547"
     ]
   },
   {
@@ -4960,8 +4961,8 @@
       "https://github.com/libas7994/CVE-2023-30212",
       "https://github.com/libas7994/Exploit-the-CVE-2023-30212-vulnerability",
       "https://github.com/AAsh035/CVE-2023-30212",
-      "https://github.com/libasv/Exploite-CVE-2023-30212-vulnerability",
       "https://github.com/arunsnap/CVE-2023-30212-POC",
+      "https://github.com/libasv/Exploite-CVE-2023-30212-vulnerability",
       "https://github.com/kai-iszz/CVE-2023-30212",
       "https://github.com/mallutrojan/CVE-2023-30212-Lab",
       "https://github.com/Anandhu990/CVE-2023-30212_lab",
@@ -7231,8 +7232,8 @@
       "https://github.com/chaudharyarjun/LooneyPwner",
       "https://github.com/hadrian3689/looney-tunables-CVE-2023-4911",
       "https://github.com/Green-Avocado/CVE-2023-4911",
-      "https://github.com/Diego-AltF4/CVE-2023-4911",
       "https://github.com/ruycr4ft/CVE-2023-4911",
+      "https://github.com/Diego-AltF4/CVE-2023-4911",
       "https://github.com/KernelKrise/CVE-2023-4911",
       "https://github.com/yanfernandess/Looney-Tunables-CVE-2023-4911",
       "https://github.com/xiaoQ1z/CVE-2023-4911",
@@ -7544,14 +7545,6 @@
     "description": " The Canto plugin for WordPress is vulnerable to Remote File Inclusion in versions up to, and including, 3.0.4 via the 'wp_abspath' parameter. This allows unauthenticated attackers to include and execute arbitrary remote code on the server, provided that allow_url_include is enabled. Local File Inclusion is also possible, albeit less useful because it requires that the attacker be able to upload a malicious php file via FTP or some other means into a directory readable by the web server.",
     "poc": [
       "https://github.com/leoanggal1/CVE-2023-3452-PoC"
-    ]
-  },
-  {
-    "cve_code": "CVE-2023-3450",
-    "description": " A vulnerability was found in Ruijie RG-BCR860 2.5.13 and classified as critical. This issue affects some unknown processing of the component Network Diagnostic Page. The manipulation leads to os command injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-232547. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.",
-    "poc": [
-      "https://github.com/yuanjinyuyuyu/CVE-2023-3450",
-      "https://github.com/caopengyan/CVE-2023-3450"
     ]
   },
   {
@@ -8004,8 +7997,8 @@
     "description": " Path Traversal: '\\..\\filename' in GitHub repository mlflow/mlflow prior to 2.2.1.",
     "poc": [
       "https://github.com/iumiro/CVE-2023-1177-MLFlow",
-      "https://github.com/tiyeume25112004/CVE-2023-1177-rebuild",
-      "https://github.com/hh-hunter/ml-CVE-2023-1177"
+      "https://github.com/hh-hunter/ml-CVE-2023-1177",
+      "https://github.com/tiyeume25112004/CVE-2023-1177-rebuild"
     ]
   },
   {
@@ -8110,8 +8103,8 @@
     "poc": [
       "https://github.com/bAuh0lz/CVE-2023-0297_Pre-auth_RCE_in_pyLoad",
       "https://github.com/JacobEbben/CVE-2023-0297",
-      "https://github.com/Small-ears/CVE-2023-0297",
-      "https://github.com/overgrowncarrot1/CVE-2023-0297"
+      "https://github.com/overgrowncarrot1/CVE-2023-0297",
+      "https://github.com/Small-ears/CVE-2023-0297"
     ]
   },
   {
