@@ -182,6 +182,13 @@
     ]
   },
   {
+    "cve_code": "CVE-2024-24760",
+    "description": " mailcow is a dockerized email package, with multiple containers linked in one bridged network. A security vulnerability has been identified in mailcow affecting versions &lt; 2024-01c. This vulnerability potentially allows attackers on the same subnet to connect to exposed ports of a Docker container, even when the port is bound to 127.0.0.1. The vulnerability has been addressed by implementing additional iptables/nftables rules. These rules drop packets for Docker containers on ports 3306, 6379, 8983, and 12345, where the input interface is not `br-mailcow` and the output interface is `br-mailcow`.",
+    "poc": [
+      "https://github.com/killerbees19/CVE-2024-24760"
+    ]
+  },
+  {
     "cve_code": "CVE-2024-24488",
     "description": " An issue in Shenzen Tenda Technology CP3V2.0 V11.10.00.2311090948 allows a local attacker to obtain sensitive information via the password component.",
     "poc": [
@@ -821,7 +828,7 @@
   },
   {
     "cve_code": "CVE-2024-21762",
-    "description": " A out-of-bounds write in Fortinet FortiOS versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.6, 7.0.0 through 7.0.13, 6.4.0 through 6.4.14, 6.2.0 through 6.2.15, 6.0.0 through 6.0.17, FortiProxy versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.8, 7.0.0 through 7.0.14, 2.0.0 through 2.0.13, 1.2.0 through 1.2.13, 1.1.0 through 1.1.6, 1.0.0 through 1.0.7 allows attacker to execute unauthorized code or commands via specifically crafted requests- [https://github.com/BishopFox/cve-2024-21762-check](https://github.com/BishopFox/cve-2024-21762-check) :  ![starts](https://img.shields.io/github/stars/BishopFox/cve-2024-21762-check.svg) ![forks](https://img.shields.io/github/forks/BishopFox/cve-2024-21762-check.svg)- [https://github.com/c0d3b3af/CVE-2024-21762-POC](https://github.com/c0d3b3af/CVE-2024-21762-POC) :  ![starts](https://img.shields.io/github/stars/c0d3b3af/CVE-2024-21762-POC.svg) ![forks](https://img.shields.io/github/forks/c0d3b3af/CVE-2024-21762-POC.svg)- [https://github.com/Gh71m/CVE-2024-21762-POC](https://github.com/Gh71m/CVE-2024-21762-POC) :  ![starts](https://img.shields.io/github/stars/Gh71m/CVE-2024-21762-POC.svg) ![forks](https://img.shields.io/github/forks/Gh71m/CVE-2024-21762-POC.svg)",
+    "description": " A out-of-bounds write in Fortinet FortiOS versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.6, 7.0.0 through 7.0.13, 6.4.0 through 6.4.14, 6.2.0 through 6.2.15, 6.0.0 through 6.0.17, FortiProxy versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.8, 7.0.0 through 7.0.14, 2.0.0 through 2.0.13, 1.2.0 through 1.2.13, 1.1.0 through 1.1.6, 1.0.0 through 1.0.7 allows attacker to execute unauthorized code or commands via specifically crafted requests- [https://github.com/BishopFox/cve-2024-21762-check](https://github.com/BishopFox/cve-2024-21762-check) :  ![starts](https://img.shields.io/github/stars/BishopFox/cve-2024-21762-check.svg) ![forks](https://img.shields.io/github/forks/BishopFox/cve-2024-21762-check.svg)- [https://github.com/tr1pl3ight/CVE-2024-21762-POC](https://github.com/tr1pl3ight/CVE-2024-21762-POC) :  ![starts](https://img.shields.io/github/stars/tr1pl3ight/CVE-2024-21762-POC.svg) ![forks](https://img.shields.io/github/forks/tr1pl3ight/CVE-2024-21762-POC.svg)- [https://github.com/c0d3b3af/CVE-2024-21762-POC](https://github.com/c0d3b3af/CVE-2024-21762-POC) :  ![starts](https://img.shields.io/github/stars/c0d3b3af/CVE-2024-21762-POC.svg) ![forks](https://img.shields.io/github/forks/c0d3b3af/CVE-2024-21762-POC.svg)- [https://github.com/Gh71m/CVE-2024-21762-POC](https://github.com/Gh71m/CVE-2024-21762-POC) :  ![starts](https://img.shields.io/github/stars/Gh71m/CVE-2024-21762-POC.svg) ![forks](https://img.shields.io/github/forks/Gh71m/CVE-2024-21762-POC.svg)",
     "poc": []
   },
   {
@@ -1318,8 +1325,8 @@
     "poc": [
       "https://github.com/jakabakos/CVE-2023-50164-Apache-Struts-RCE",
       "https://github.com/dwisiswant0/cve-2023-50164-poc",
-      "https://github.com/bcdannyboy/CVE-2023-50164",
       "https://github.com/Trackflaw/CVE-2023-50164-ApacheStruts2-Docker",
+      "https://github.com/bcdannyboy/CVE-2023-50164",
       "https://github.com/snyk-labs/CVE-2023-50164-POC",
       "https://github.com/sunnyvale-it/CVE-2023-50164-PoC",
       "https://github.com/aaronm-sysdig/cve-2023-50164",
@@ -3732,9 +3739,9 @@
       "https://github.com/BeniB3astt/CVE-2023-38831_ReverseShell_Winrar",
       "https://github.com/kehrijksen/CVE-2023-38831",
       "https://github.com/asepsaepdin/CVE-2023-38831",
-      "https://github.com/IMHarman/CVE-2023-38831",
       "https://github.com/an040702/CVE-2023-38831",
       "https://github.com/Nielk74/CVE-2023-38831",
+      "https://github.com/IMHarman/CVE-2023-38831",
       "https://github.com/nhman-python/CVE-2023-38831",
       "https://github.com/GOTonyGO/CVE-2023-38831-winrar",
       "https://github.com/s4m98/winrar-cve-2023-38831-poc-gen",
@@ -4592,6 +4599,13 @@
     "description": " PublicCMS &lt;=V4.0.202302 is vulnerable to Insecure Permissions.",
     "poc": [
       "https://github.com/funny-kill/CVE-2023-34852"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-34845",
+    "description": " ** DISPUTED ** Bludit v3.14.1 was discovered to contain an arbitrary file upload vulnerability in the component /admin/new-content. This vulnerability allows attackers to execute arbitrary web scripts or HTML via uploading a crafted SVG file. NOTE: the product's security model is that users are trusted by the administrator to insert arbitrary content (users cannot create their own accounts through self-registration).",
+    "poc": [
+      "https://github.com/r4vanan/CVE-2023-34845"
     ]
   },
   {
@@ -5676,8 +5690,8 @@
       "https://github.com/libas7994/CVE-2023-30212",
       "https://github.com/AAsh035/CVE-2023-30212",
       "https://github.com/arunsnap/CVE-2023-30212-POC",
-      "https://github.com/libasv/Exploite-CVE-2023-30212-vulnerability",
       "https://github.com/kai-iszz/CVE-2023-30212",
+      "https://github.com/libasv/Exploite-CVE-2023-30212-vulnerability",
       "https://github.com/mallutrojan/CVE-2023-30212-Lab",
       "https://github.com/Anandhu990/CVE-2023-30212_lab",
       "https://github.com/Anandhu990/CVE-2023-30212-iab",
@@ -6847,9 +6861,9 @@
       "https://github.com/gunzf0x/CVE-2023-23752",
       "https://github.com/JeneralMotors/CVE-2023-23752",
       "https://github.com/Ly0kha/Joomla-CVE-2023-23752-Exploit-Script",
-      "https://github.com/TindalyTn/CVE-2023-23752",
       "https://github.com/cybernetwiz/CVE-2023-23752",
       "https://github.com/C1ph3rX13/CVE-2023-23752",
+      "https://github.com/TindalyTn/CVE-2023-23752",
       "https://github.com/yTxZx/CVE-2023-23752",
       "https://github.com/svaltheim/CVE-2023-23752",
       "https://github.com/Rival420/CVE-2023-23752",
