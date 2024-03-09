@@ -21,7 +21,9 @@
       "https://github.com/yoryio/CVE-2024-27198",
       "https://github.com/Chocapikk/CVE-2024-27198",
       "https://github.com/labesterOct/CVE-2024-27198",
-      "https://github.com/rampantspark/CVE-2024-27198"
+      "https://github.com/rampantspark/CVE-2024-27198",
+      "https://github.com/CharonDefalt/CVE-2024-27198-RCE",
+      "https://github.com/passwa11/CVE-2024-27198-RCE"
     ]
   },
   {
@@ -540,10 +542,17 @@
       "https://github.com/B4CK4TT4CK/CVE-2024-23897",
       "https://github.com/ifconfig-me/CVE-2024-23897",
       "https://github.com/ThatNotEasy/CVE-2024-23897",
+      "https://github.com/abdomagdy0/CVE-2024-23897-htb",
       "https://github.com/brijne/CVE-2024-23897-RCE",
       "https://github.com/WLXQqwer/Jenkins-CVE-2024-23897-",
-      "https://github.com/abdomagdy0/CVE-2024-23897-htb",
       "https://github.com/pulentoski/CVE-2024-23897-Arbitrary-file-read"
+    ]
+  },
+  {
+    "cve_code": "CVE-2024-23780",
+    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "poc": [
+      "https://github.com/HazardLab-IO/CVE-2024-23780"
     ]
   },
   {
@@ -662,6 +671,14 @@
     "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
     "poc": [
       "https://github.com/l00neyhacker/CVE-2024-23199"
+    ]
+  },
+  {
+    "cve_code": "CVE-2024-23113",
+    "description": " A use of externally-controlled format string in Fortinet FortiOS versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.6, 7.0.0 through 7.0.13, FortiProxy versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.8, 7.0.0 through 7.0.14, FortiPAM versions 1.2.0, 1.1.0 through 1.1.2, 1.0.0 through 1.0.3, FortiSwitchManager versions 7.2.0 through 7.2.3, 7.0.0 through 7.0.3 allows attacker to execute unauthorized code or commands via specially crafted packets.",
+    "poc": [
+      "https://github.com/cvedayprotech/CVE-2024-23113",
+      "https://github.com/tr1pl3ight/CVE-2024-23113-POC"
     ]
   },
   {
@@ -847,9 +864,23 @@
     ]
   },
   {
+    "cve_code": "CVE-2024-22393",
+    "description": " Unrestricted Upload of File with Dangerous Type vulnerability in Apache Answer.This issue affects Apache Answer: through 1.2.1. Pixel Flood Attack by uploading large pixel files will cause server out of memory. A logged-in user can cause such an attack by uploading an image when posting content. Users are recommended to upgrade to version [1.2.5], which fixes the issue.",
+    "poc": [
+      "https://github.com/omranisecurity/CVE-2024-22393"
+    ]
+  },
+  {
     "cve_code": "CVE-2024-22369",
     "description": " Deserialization of Untrusted Data vulnerability in Apache Camel SQL ComponentThis issue affects Apache Camel: from 3.0.0 before 3.21.4, from 3.22.0 before 3.22.1, from 4.0.0 before 4.0.4, from 4.1.0 before 4.4.0. Users are recommended to upgrade to version 4.4.0, which fixes the issue. If users are on the 4.0.x LTS releases stream, then they are suggested to upgrade to 4.0.4. If users are on 3.x, they are suggested to move to 3.21.4 or 3.22.1- [https://github.com/oscerd/CVE-2024-22369](https://github.com/oscerd/CVE-2024-22369) :  ![starts](https://img.shields.io/github/stars/oscerd/CVE-2024-22369.svg) ![forks](https://img.shields.io/github/forks/oscerd/CVE-2024-22369.svg)",
     "poc": []
+  },
+  {
+    "cve_code": "CVE-2024-22252",
+    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "poc": [
+      "https://github.com/crackmapEZec/CVE-2024-22252-POC"
+    ]
   },
   {
     "cve_code": "CVE-2024-22243",
@@ -1279,8 +1310,8 @@
       "https://github.com/farliy-hacker/CVE-2023-51385",
       "https://github.com/farliy-hacker/CVE-2023-51385-save",
       "https://github.com/2048JiaLi/CVE-2023-51385",
-      "https://github.com/N0rther/CVE-2023-51385_TT",
       "https://github.com/Sonicrrrr/CVE-2023-51385",
+      "https://github.com/N0rther/CVE-2023-51385_TT",
       "https://github.com/FeatherStark/CVE-2023-51385",
       "https://github.com/uccu99/CVE-2023-51385",
       "https://github.com/watarium/poc-cve-2023-51385",
@@ -1434,7 +1465,7 @@
   },
   {
     "cve_code": "CVE-2023-50358",
-    "description": " An OS command injection vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow users to execute commands via a network. We have already fixed the vulnerability in the following versions: QTS 5.1.5.2645 build 20240116 and later QTS 4.5.4.2627 build 20231225 and later QTS 4.3.6.2665 build 20240131 and later QTS 4.3.4.2675 build 20240131 and later QTS 4.3.3.2644 build 20240131 and later QTS 4.2.6 build 20240131 and later QuTS hero h5.1.5.2647 build 20240118 and later QuTS hero h4.5.4.2626 build 20231225 and later QuTScloud c5.1.5.2651 and later- [https://github.com/greandfather/CVE-2023-50358-POC](https://github.com/greandfather/CVE-2023-50358-POC) :  ![starts](https://img.shields.io/github/stars/greandfather/CVE-2023-50358-POC.svg) ![forks](https://img.shields.io/github/forks/greandfather/CVE-2023-50358-POC.svg)",
+    "description": " An OS command injection vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow users to execute commands via a network. We have already fixed the vulnerability in the following versions: QTS 5.1.5.2645 build 20240116 and later QTS 4.5.4.2627 build 20231225 and later QTS 4.3.6.2665 build 20240131 and later QTS 4.3.4.2675 build 20240131 and later QTS 4.3.3.2644 build 20240131 and later QTS 4.2.6 build 20240131 and later QuTS hero h5.1.5.2647 build 20240118 and later QuTS hero h4.5.4.2626 build 20231225 and later QuTScloud c5.1.5.2651 and later- [https://github.com/greandfather/CVE-2023-50358-POC](https://github.com/greandfather/CVE-2023-50358-POC) :  ![starts](https://img.shields.io/github/stars/greandfather/CVE-2023-50358-POC.svg) ![forks](https://img.shields.io/github/forks/greandfather/CVE-2023-50358-POC.svg)- [https://github.com/greandfather/CVE-2023-50358-POC-RCE](https://github.com/greandfather/CVE-2023-50358-POC-RCE) :  ![starts](https://img.shields.io/github/stars/greandfather/CVE-2023-50358-POC-RCE.svg) ![forks](https://img.shields.io/github/forks/greandfather/CVE-2023-50358-POC-RCE.svg)",
     "poc": []
   },
   {
@@ -1745,6 +1776,13 @@
     "description": " Blind Server-Side Request Forgery (SSRF) vulnerability in karlomikus Bar Assistant before version 3.2.0 does not validate a parameter before making a request through Image::make(), which could allow authenticated remote attackers to execute arbitrary code.",
     "poc": [
       "https://github.com/zunak/CVE-2023-49471"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-49453",
+    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "poc": [
+      "https://github.com/nitipoom-jar/CVE-2023-49453"
     ]
   },
   {
@@ -2278,10 +2316,10 @@
       "https://github.com/minhangxiaohui/ActiveMQ_CVE-2023-46604",
       "https://github.com/dcm2406/CVE-Lab",
       "https://github.com/hh-hunter/cve-2023-46604",
-      "https://github.com/nitzanoligo/CVE-2023-46604-demo",
       "https://github.com/dcm2406/CVE-2023-46604",
       "https://github.com/vjayant93/CVE-2023-46604-POC",
       "https://github.com/tomasmussi-mulesoft/activemq-cve-2023-46604",
+      "https://github.com/nitzanoligo/CVE-2023-46604-demo",
       "https://github.com/Mudoleto/Broker_ApacheMQ",
       "https://github.com/Anekant-Singhai/Exploits"
     ]
@@ -2554,6 +2592,13 @@
     "description": " The QAD Search Server is vulnerable to Stored Cross-Site Scripting (XSS) in versions up to, and including, 1.0.0.315 due to insufficient checks on indexes. This makes it possible for unauthenticated attackers to create a new index and inject a malicious web script into its name, that will execute whenever a user accesses the search page.",
     "poc": [
       "https://github.com/itsAptx/CVE-2023-45471"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-45318",
+    "description": " A heap-based buffer overflow vulnerability exists in the HTTP Server functionality of Weston Embedded uC-HTTP git commit 80d4004. A specially crafted network packet can lead to arbitrary code execution. An attacker can send a malicious packet to trigger this vulnerability.",
+    "poc": [
+      "https://github.com/greandfather/CVE-2023-50358-POC-RCE"
     ]
   },
   {
@@ -7000,10 +7045,10 @@
       "https://github.com/gunzf0x/CVE-2023-23752",
       "https://github.com/JeneralMotors/CVE-2023-23752",
       "https://github.com/Ly0kha/Joomla-CVE-2023-23752-Exploit-Script",
-      "https://github.com/cybernetwiz/CVE-2023-23752",
-      "https://github.com/C1ph3rX13/CVE-2023-23752",
       "https://github.com/svaltheim/CVE-2023-23752",
       "https://github.com/Rival420/CVE-2023-23752",
+      "https://github.com/cybernetwiz/CVE-2023-23752",
+      "https://github.com/C1ph3rX13/CVE-2023-23752",
       "https://github.com/TindalyTn/CVE-2023-23752",
       "https://github.com/yTxZx/CVE-2023-23752",
       "https://github.com/Pushkarup/CVE-2023-23752",
@@ -7250,6 +7295,7 @@
       "https://github.com/Privia-Security/CVE-2023-22527",
       "https://github.com/Niuwoo/CVE-2023-22527",
       "https://github.com/yoryio/CVE-2023-22527",
+      "https://github.com/vulncheck-oss/cve-2023-22527",
       "https://github.com/Drun1baby/CVE-2023-22527",
       "https://github.com/Sudistark/patch-diff-CVE-2023-22527",
       "https://github.com/ga0we1/CVE-2023-22527_Confluence_RCE",
@@ -7453,6 +7499,11 @@
   {
     "cve_code": "CVE-2023-21554",
     "description": " Microsoft Message Queuing Remote Code Execution Vulnerability- [https://github.com/zoemurmure/CVE-2023-21554-PoC](https://github.com/zoemurmure/CVE-2023-21554-PoC) :  ![starts](https://img.shields.io/github/stars/zoemurmure/CVE-2023-21554-PoC.svg) ![forks](https://img.shields.io/github/forks/zoemurmure/CVE-2023-21554-PoC.svg)- [https://github.com/3tternp/CVE-2023-21554](https://github.com/3tternp/CVE-2023-21554) :  ![starts](https://img.shields.io/github/stars/3tternp/CVE-2023-21554.svg) ![forks](https://img.shields.io/github/forks/3tternp/CVE-2023-21554.svg)",
+    "poc": []
+  },
+  {
+    "cve_code": "CVE-2023-21529",
+    "description": " Microsoft Exchange Server Remote Code Execution Vulnerability- [https://github.com/tr1pl3ight/CVE-2023-21529-POC](https://github.com/tr1pl3ight/CVE-2023-21529-POC) :  ![starts](https://img.shields.io/github/stars/tr1pl3ight/CVE-2023-21529-POC.svg) ![forks](https://img.shields.io/github/forks/tr1pl3ight/CVE-2023-21529-POC.svg)",
     "poc": []
   },
   {
@@ -7784,10 +7835,10 @@
       "https://github.com/duy-31/CVE-2023-7028",
       "https://github.com/Esonhugh/gitlab_honeypot",
       "https://github.com/hackeremmen/gitlab-exploit",
+      "https://github.com/thanhlam-attt/CVE-2023-7028",
       "https://github.com/TheRedDevil1/CVE-2023-7028",
       "https://github.com/yoryio/CVE-2023-7028",
       "https://github.com/mochammadrafi/CVE-2023-7028",
-      "https://github.com/thanhlam-attt/CVE-2023-7028",
       "https://github.com/Trackflaw/CVE-2023-7028-Docker",
       "https://github.com/Shimon03/CVE-2023-7028-Account-Take-Over-Gitlab"
     ]
@@ -7980,6 +8031,13 @@
     "description": " A heap out-of-bounds write vulnerability in the Linux kernel's Linux Kernel Performance Events (perf) component can be exploited to achieve local privilege escalation. If perf_read_group() is called while an event's sibling_list is smaller than its child's sibling_list, it can increment or write to memory locations outside of the allocated buffer. We recommend upgrading past commit 32671e3799ca2e4590773fd0e63aaa4229e50c06.",
     "poc": [
       "https://github.com/uthrasri/CVE-2023-5717"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-5631",
+    "description": " Roundcube before 1.4.15, 1.5.x before 1.5.5, and 1.6.x before 1.6.4 allows stored XSS via an HTML e-mail message with a crafted SVG document because of program/lib/Roundcube/rcube_washtml.php behavior. This could allow a remote attacker to load arbitrary JavaScript code.",
+    "poc": [
+      "https://github.com/greandfather/EXPLOIT-Roundcube-vulnerability-POC-CVE-2023-5631-"
     ]
   },
   {
@@ -8553,7 +8611,8 @@
     "cve_code": "CVE-2023-3047",
     "description": " Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in TMT Lockcell allows SQL Injection.This issue affects Lockcell: before 15.",
     "poc": [
-      "https://github.com/Phamchie/CVE-2023-3047"
+      "https://github.com/Phamchie/CVE-2023-3047",
+      "https://github.com/Kimsovannareth/Phamchie"
     ]
   },
   {
@@ -8754,8 +8813,7 @@
     "cve_code": "CVE-2023-2255",
     "description": " Improper access control in editor components of The Document Foundation LibreOffice allowed an attacker to craft a document that would cause external links to be loaded without prompt. In the affected versions of LibreOffice documents that used &quot;floating frames&quot; linked to external files, would load the contents of those frames without prompting the user for permission to do so. This was inconsistent with the treatment of other linked content in LibreOffice. This issue affects: The Document Foundation LibreOffice 7.4 versions prior to 7.4.7; 7.5 versions prior to 7.5.3.",
     "poc": [
-      "https://github.com/elweth-sec/CVE-2023-2255",
-      "https://github.com/Mathieuleto/CVE-2023-2255"
+      "https://github.com/elweth-sec/CVE-2023-2255"
     ]
   },
   {
@@ -8881,6 +8939,20 @@
     "description": " Improper Restriction of Excessive Authentication Attempts in GitHub repository linagora/twake prior to 0.0.0.",
     "poc": [
       "https://github.com/0xsu3ks/CVE-2023-1665"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-1500",
+    "description": " A vulnerability, which was classified as problematic, has been found in code-projects Simple Art Gallery 1.0. Affected by this issue is some unknown functionality of the file adminHome.php. The manipulation of the argument about_info leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-223400.",
+    "poc": [
+      "https://github.com/Decemberus/BugHub"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-1498",
+    "description": " A vulnerability classified as critical has been found in code-projects Responsive Hotel Site 1.0. Affected is an unknown function of the file messages.php of the component Newsletter Log Handler. The manipulation of the argument title leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. VDB-223398 is the identifier assigned to this vulnerability.",
+    "poc": [
+      "https://github.com/Decemberus/BugHub"
     ]
   },
   {
