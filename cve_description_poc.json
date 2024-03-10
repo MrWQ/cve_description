@@ -23,6 +23,7 @@
       "https://github.com/labesterOct/CVE-2024-27198",
       "https://github.com/rampantspark/CVE-2024-27198",
       "https://github.com/CharonDefalt/CVE-2024-27198-RCE",
+      "https://github.com/K3ysTr0K3R/CVE-2024-27198-EXPLOIT",
       "https://github.com/passwa11/CVE-2024-27198-RCE"
     ]
   },
@@ -542,7 +543,6 @@
       "https://github.com/B4CK4TT4CK/CVE-2024-23897",
       "https://github.com/ifconfig-me/CVE-2024-23897",
       "https://github.com/ThatNotEasy/CVE-2024-23897",
-      "https://github.com/abdomagdy0/CVE-2024-23897-htb",
       "https://github.com/brijne/CVE-2024-23897-RCE",
       "https://github.com/WLXQqwer/Jenkins-CVE-2024-23897-",
       "https://github.com/pulentoski/CVE-2024-23897-Arbitrary-file-read"
@@ -677,8 +677,7 @@
     "cve_code": "CVE-2024-23113",
     "description": " A use of externally-controlled format string in Fortinet FortiOS versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.6, 7.0.0 through 7.0.13, FortiProxy versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.8, 7.0.0 through 7.0.14, FortiPAM versions 1.2.0, 1.1.0 through 1.1.2, 1.0.0 through 1.0.3, FortiSwitchManager versions 7.2.0 through 7.2.3, 7.0.0 through 7.0.3 allows attacker to execute unauthorized code or commands via specially crafted packets.",
     "poc": [
-      "https://github.com/cvedayprotech/CVE-2024-23113",
-      "https://github.com/tr1pl3ight/CVE-2024-23113-POC"
+      "https://github.com/cvedayprotech3s/cve-2024-23113"
     ]
   },
   {
@@ -861,13 +860,6 @@
     "description": " Avo is a framework to create admin panels for Ruby on Rails apps. In Avo 3 pre12, any HTML inside text that is passed to `error` or `succeed` in an `Avo::BaseAction` subclass will be rendered directly without sanitization in the toast/notification that appears in the UI on Action completion. A malicious user could exploit this vulnerability to trigger a cross site scripting attack on an unsuspecting user. This issue has been addressed in the 3.3.0 and 2.47.0 releases of Avo. Users are advised to upgrade.",
     "poc": [
       "https://github.com/tamaloa/avo-CVE-2024-22411"
-    ]
-  },
-  {
-    "cve_code": "CVE-2024-22393",
-    "description": " Unrestricted Upload of File with Dangerous Type vulnerability in Apache Answer.This issue affects Apache Answer: through 1.2.1. Pixel Flood Attack by uploading large pixel files will cause server out of memory. A logged-in user can cause such an attack by uploading an image when posting content. Users are recommended to upgrade to version [1.2.5], which fixes the issue.",
-    "poc": [
-      "https://github.com/omranisecurity/CVE-2024-22393"
     ]
   },
   {
@@ -1310,8 +1302,8 @@
       "https://github.com/farliy-hacker/CVE-2023-51385",
       "https://github.com/farliy-hacker/CVE-2023-51385-save",
       "https://github.com/2048JiaLi/CVE-2023-51385",
-      "https://github.com/Sonicrrrr/CVE-2023-51385",
       "https://github.com/N0rther/CVE-2023-51385_TT",
+      "https://github.com/Sonicrrrr/CVE-2023-51385",
       "https://github.com/FeatherStark/CVE-2023-51385",
       "https://github.com/uccu99/CVE-2023-51385",
       "https://github.com/watarium/poc-cve-2023-51385",
@@ -2316,10 +2308,10 @@
       "https://github.com/minhangxiaohui/ActiveMQ_CVE-2023-46604",
       "https://github.com/dcm2406/CVE-Lab",
       "https://github.com/hh-hunter/cve-2023-46604",
+      "https://github.com/nitzanoligo/CVE-2023-46604-demo",
       "https://github.com/dcm2406/CVE-2023-46604",
       "https://github.com/vjayant93/CVE-2023-46604-POC",
       "https://github.com/tomasmussi-mulesoft/activemq-cve-2023-46604",
-      "https://github.com/nitzanoligo/CVE-2023-46604-demo",
       "https://github.com/Mudoleto/Broker_ApacheMQ",
       "https://github.com/Anekant-Singhai/Exploits"
     ]
@@ -3913,10 +3905,10 @@
       "https://github.com/ameerpornillos/CVE-2023-38831-WinRAR-Exploit",
       "https://github.com/xk-mt/WinRAR-Vulnerability-recurrence-tutorial",
       "https://github.com/SugiB3o/Keylog_CVE2023-38831",
+      "https://github.com/akhomlyuk/cve-2023-38831",
       "https://github.com/thegr1ffyn/CVE-2023-38831",
       "https://github.com/Mich-ele/CVE-2023-38831-winrar",
       "https://github.com/r1yaz/winDED",
-      "https://github.com/akhomlyuk/cve-2023-38831",
       "https://github.com/SpamixOfficial/CVE-2023-38831",
       "https://github.com/ruycr4ft/CVE-2023-38831",
       "https://github.com/elefantesagradodeluzinfinita/cve-2023-38831",
@@ -6902,8 +6894,8 @@
     "cve_code": "CVE-2023-24538",
     "description": " Templates do not properly consider backticks (`) as Javascript string delimiters, and do not escape them as expected. Backticks are used, since ES6, for JS template literals. If a template contains a Go template action within a Javascript template literal, the contents of the action can be used to terminate the literal, injecting arbitrary Javascript code into the Go template. As ES6 template literals are rather complex, and themselves can do string interpolation, the decision was made to simply disallow Go template actions from being used inside of them (e.g. &quot;var a = {{.}}&quot;), since there is no obviously safe way to allow this behavior. This takes the same approach as github.com/google/safehtml. With fix, Template.Parse returns an Error when it encounters templates like this, with an ErrorCode of value 12. This ErrorCode is currently unexported, but will be exported in the release of Go 1.21. Users who rely on the previous behavior can re-enable it using the GODEBUG flag jstmpllitinterp=1, with the caveat that backticks will now be escaped. This should be used with caution.",
     "poc": [
-      "https://github.com/skulkarni-mv/goIssue_dunfell",
-      "https://github.com/skulkarni-mv/goIssue_kirkstone"
+      "https://github.com/skulkarni-mv/goIssue_kirkstone",
+      "https://github.com/skulkarni-mv/goIssue_dunfell"
     ]
   },
   {
@@ -7502,11 +7494,6 @@
     "poc": []
   },
   {
-    "cve_code": "CVE-2023-21529",
-    "description": " Microsoft Exchange Server Remote Code Execution Vulnerability- [https://github.com/tr1pl3ight/CVE-2023-21529-POC](https://github.com/tr1pl3ight/CVE-2023-21529-POC) :  ![starts](https://img.shields.io/github/stars/tr1pl3ight/CVE-2023-21529-POC.svg) ![forks](https://img.shields.io/github/forks/tr1pl3ight/CVE-2023-21529-POC.svg)",
-    "poc": []
-  },
-  {
     "cve_code": "CVE-2023-21288",
     "description": " In visitUris of Notification.java, there is a possible way to reveal images across users due to a missing permission check. This could lead to local information disclosure with User execution privileges needed. User interaction is not needed for exploitation.",
     "poc": [
@@ -7836,9 +7823,9 @@
       "https://github.com/Esonhugh/gitlab_honeypot",
       "https://github.com/hackeremmen/gitlab-exploit",
       "https://github.com/thanhlam-attt/CVE-2023-7028",
+      "https://github.com/mochammadrafi/CVE-2023-7028",
       "https://github.com/TheRedDevil1/CVE-2023-7028",
       "https://github.com/yoryio/CVE-2023-7028",
-      "https://github.com/mochammadrafi/CVE-2023-7028",
       "https://github.com/Trackflaw/CVE-2023-7028-Docker",
       "https://github.com/Shimon03/CVE-2023-7028-Account-Take-Over-Gitlab"
     ]
@@ -8471,6 +8458,14 @@
     ]
   },
   {
+    "cve_code": "CVE-2023-3824",
+    "description": " In PHP version 8.0.* before 8.0.30, 8.1.* before 8.1.22, and 8.2.* before 8.2.8, when loading phar file, while reading PHAR directory entries, insufficient length checking may lead to a stack buffer overflow, leading potentially to memory corruption or RCE.",
+    "poc": [
+      "https://github.com/NewLockBit/CVE-2023-3824-PHP-to-RCE-LockBit-LEAK",
+      "https://github.com/NewLockBit/Research-of-CVE-2023-3824-NCA-Lockbit"
+    ]
+  },
+  {
     "cve_code": "CVE-2023-3712",
     "description": " Files or Directories Accessible to External Parties vulnerability in Honeywell PM43 on 32 bit, ARM (Printer web page modules) allows Privilege Escalation.This issue affects PM43 versions prior to P10.19.050004. Update to the latest available firmware version of the respective printers to version MR19.5 (e.g. P10.19.050006).",
     "poc": [
@@ -8638,6 +8633,13 @@
       "https://github.com/H4K6/CVE-2023-2982-POC",
       "https://github.com/LoaiEsam37/CVE-2023-2982",
       "https://github.com/wshinkle/CVE-2023-2982"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-2951",
+    "description": " A vulnerability classified as critical has been found in code-projects Bus Dispatch and Information System 1.0. Affected is an unknown function of the file delete_bus.php. The manipulation of the argument busid leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-230112.",
+    "poc": [
+      "https://github.com/Spr1te76/CVE-2023-2951"
     ]
   },
   {
@@ -9020,8 +9022,8 @@
     "description": " Path Traversal: '\\..\\filename' in GitHub repository mlflow/mlflow prior to 2.2.1.",
     "poc": [
       "https://github.com/iumiro/CVE-2023-1177-MLFlow",
-      "https://github.com/hh-hunter/ml-CVE-2023-1177",
-      "https://github.com/tiyeume25112004/CVE-2023-1177-rebuild"
+      "https://github.com/tiyeume25112004/CVE-2023-1177-rebuild",
+      "https://github.com/hh-hunter/ml-CVE-2023-1177"
     ]
   },
   {
@@ -9130,6 +9132,11 @@
       "https://github.com/Small-ears/CVE-2023-0297",
       "https://github.com/overgrowncarrot1/CVE-2023-0297"
     ]
+  },
+  {
+    "cve_code": "CVE-2023-0266",
+    "description": " A use after free vulnerability exists in the ALSA PCM package in the Linux Kernel. SNDRV_CTL_IOCTL_ELEM_{READ|WRITE}32 is missing locks that can be used in a use-after-free that can result in a priviledge escalation to gain ring0 access from the system user. We recommend upgrading past commit 56b88b50565cd8b946a2d00b0c83927b7ebb055e- [https://github.com/SeanHeelan/claude_opus_cve_2023_0266](https://github.com/SeanHeelan/claude_opus_cve_2023_0266) :  ![starts](https://img.shields.io/github/stars/SeanHeelan/claude_opus_cve_2023_0266.svg) ![forks](https://img.shields.io/github/forks/SeanHeelan/claude_opus_cve_2023_0266.svg)",
+    "poc": []
   },
   {
     "cve_code": "CVE-2023-0264",
@@ -45036,8 +45043,8 @@
       "https://github.com/G01d3nW01f/CVE-2007-2447",
       "https://github.com/0xTabun/CVE-2007-2447",
       "https://github.com/Juantos/cve-2007-2447",
-      "https://github.com/testaross4/CVE-2007-2447",
       "https://github.com/cherrera0001/CVE-2007-2447",
+      "https://github.com/testaross4/CVE-2007-2447",
       "https://github.com/0xConstant/CVE-2007-2447",
       "https://github.com/xlcc4096/exploit-CVE-2007-2447",
       "https://github.com/JoseBarrios/CVE-2007-2447",
@@ -45274,8 +45281,8 @@
     "cve_code": "CVE-2003-0358",
     "description": " Buffer overflow in (1) nethack 3.4.0 and earlier, and (2) falconseye 1.9.3 and earlier, which is based on nethack, allows local users to gain privileges via a long -s command line option.",
     "poc": [
-      "https://github.com/fengjixuchui/CVE-2003-0358",
-      "https://github.com/gmh5225/CVE-2003-0358"
+      "https://github.com/gmh5225/CVE-2003-0358",
+      "https://github.com/fengjixuchui/CVE-2003-0358"
     ]
   },
   {
