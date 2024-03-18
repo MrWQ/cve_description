@@ -294,6 +294,13 @@
     ]
   },
   {
+    "cve_code": "CVE-2024-24520",
+    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "poc": [
+      "https://github.com/xF-9979/CVE-2024-24520"
+    ]
+  },
+  {
     "cve_code": "CVE-2024-24488",
     "description": " An issue in Shenzen Tenda Technology CP3V2.0 V11.10.00.2311090948 allows a local attacker to obtain sensitive information via the password component.",
     "poc": [
@@ -592,6 +599,7 @@
       "https://github.com/jopraveen/CVE-2024-23897",
       "https://github.com/Nebian/CVE-2024-23897",
       "https://github.com/AbraXa5/Jenkins-CVE-2024-23897",
+      "https://github.com/TheRedDevil1/CVE-2024-23897",
       "https://github.com/Abo5/CVE-2024-23897",
       "https://github.com/raheel0x01/CVE-2024-23897",
       "https://github.com/vmtyan/poc-cve-2024-23897",
@@ -705,7 +713,8 @@
     "cve_code": "CVE-2024-23334",
     "description": " aiohttp is an asynchronous HTTP client/server framework for asyncio and Python. When using aiohttp as a web server and configuring static routes, it is necessary to specify the root path for static files. Additionally, the option 'follow_symlinks' can be used to determine whether to follow symbolic links outside the static root directory. When 'follow_symlinks' is set to True, there is no validation to check if reading a file is within the root directory. This can lead to directory traversal vulnerabilities, resulting in unauthorized access to arbitrary files on the system, even when symlinks are not present. Disabling follow_symlinks and using a reverse proxy are encouraged mitigations. Version 3.9.2 fixes this issue.",
     "poc": [
-      "https://github.com/ox1111/CVE-2024-23334"
+      "https://github.com/ox1111/CVE-2024-23334",
+      "https://github.com/sxyrxyy/aiohttp-exploit-CVE-2024-23334-certstream"
     ]
   },
   {
@@ -994,7 +1003,7 @@
   },
   {
     "cve_code": "CVE-2024-21762",
-    "description": " A out-of-bounds write in Fortinet FortiOS versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.6, 7.0.0 through 7.0.13, 6.4.0 through 6.4.14, 6.2.0 through 6.2.15, 6.0.0 through 6.0.17, FortiProxy versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.8, 7.0.0 through 7.0.14, 2.0.0 through 2.0.13, 1.2.0 through 1.2.13, 1.1.0 through 1.1.6, 1.0.0 through 1.0.7 allows attacker to execute unauthorized code or commands via specifically crafted requests- [https://github.com/BishopFox/cve-2024-21762-check](https://github.com/BishopFox/cve-2024-21762-check) :  ![starts](https://img.shields.io/github/stars/BishopFox/cve-2024-21762-check.svg) ![forks](https://img.shields.io/github/forks/BishopFox/cve-2024-21762-check.svg)- [https://github.com/h4x0r-dz/CVE-2024-21762](https://github.com/h4x0r-dz/CVE-2024-21762) :  ![starts](https://img.shields.io/github/stars/h4x0r-dz/CVE-2024-21762.svg) ![forks](https://img.shields.io/github/forks/h4x0r-dz/CVE-2024-21762.svg)- [https://github.com/JohnHormond/CVE-2024-21762-Fortinet-RCE-WORK](https://github.com/JohnHormond/CVE-2024-21762-Fortinet-RCE-WORK) :  ![starts](https://img.shields.io/github/stars/JohnHormond/CVE-2024-21762-Fortinet-RCE-WORK.svg) ![forks](https://img.shields.io/github/forks/JohnHormond/CVE-2024-21762-Fortinet-RCE-WORK.svg)- [https://github.com/cleverg0d/CVE-2024-21762-Checker](https://github.com/cleverg0d/CVE-2024-21762-Checker) :  ![starts](https://img.shields.io/github/stars/cleverg0d/CVE-2024-21762-Checker.svg) ![forks](https://img.shields.io/github/forks/cleverg0d/CVE-2024-21762-Checker.svg)- [https://github.com/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check](https://github.com/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check) :  ![starts](https://img.shields.io/github/stars/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check.svg) ![forks](https://img.shields.io/github/forks/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check.svg)- [https://github.com/TheRedDevil1/CVE-2024-21762](https://github.com/TheRedDevil1/CVE-2024-21762) :  ![starts](https://img.shields.io/github/stars/TheRedDevil1/CVE-2024-21762.svg) ![forks](https://img.shields.io/github/forks/TheRedDevil1/CVE-2024-21762.svg)- [https://github.com/bsekercioglu/cve2024-21762-ShodanChecker](https://github.com/bsekercioglu/cve2024-21762-ShodanChecker) :  ![starts](https://img.shields.io/github/stars/bsekercioglu/cve2024-21762-ShodanChecker.svg) ![forks](https://img.shields.io/github/forks/bsekercioglu/cve2024-21762-ShodanChecker.svg)- [https://github.com/Gh71m/CVE-2024-21762-POC](https://github.com/Gh71m/CVE-2024-21762-POC) :  ![starts](https://img.shields.io/github/stars/Gh71m/CVE-2024-21762-POC.svg) ![forks](https://img.shields.io/github/forks/Gh71m/CVE-2024-21762-POC.svg)- [https://github.com/redCode001/CVE-2024-21762-POC](https://github.com/redCode001/CVE-2024-21762-POC) :  ![starts](https://img.shields.io/github/stars/redCode001/CVE-2024-21762-POC.svg) ![forks](https://img.shields.io/github/forks/redCode001/CVE-2024-21762-POC.svg)- [https://github.com/vorotilovaawex/CVE-2024-21762_POC](https://github.com/vorotilovaawex/CVE-2024-21762_POC) :  ![starts](https://img.shields.io/github/stars/vorotilovaawex/CVE-2024-21762_POC.svg) ![forks](https://img.shields.io/github/forks/vorotilovaawex/CVE-2024-21762_POC.svg)- [https://github.com/t4ril/CVE-2024-21762-PoC](https://github.com/t4ril/CVE-2024-21762-PoC) :  ![starts](https://img.shields.io/github/stars/t4ril/CVE-2024-21762-PoC.svg) ![forks](https://img.shields.io/github/forks/t4ril/CVE-2024-21762-PoC.svg)",
+    "description": " A out-of-bounds write in Fortinet FortiOS versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.6, 7.0.0 through 7.0.13, 6.4.0 through 6.4.14, 6.2.0 through 6.2.15, 6.0.0 through 6.0.17, FortiProxy versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.8, 7.0.0 through 7.0.14, 2.0.0 through 2.0.13, 1.2.0 through 1.2.13, 1.1.0 through 1.1.6, 1.0.0 through 1.0.7 allows attacker to execute unauthorized code or commands via specifically crafted requests- [https://github.com/BishopFox/cve-2024-21762-check](https://github.com/BishopFox/cve-2024-21762-check) :  ![starts](https://img.shields.io/github/stars/BishopFox/cve-2024-21762-check.svg) ![forks](https://img.shields.io/github/forks/BishopFox/cve-2024-21762-check.svg)- [https://github.com/h4x0r-dz/CVE-2024-21762](https://github.com/h4x0r-dz/CVE-2024-21762) :  ![starts](https://img.shields.io/github/stars/h4x0r-dz/CVE-2024-21762.svg) ![forks](https://img.shields.io/github/forks/h4x0r-dz/CVE-2024-21762.svg)- [https://github.com/JohnHormond/CVE-2024-21762-Fortinet-RCE-WORK](https://github.com/JohnHormond/CVE-2024-21762-Fortinet-RCE-WORK) :  ![starts](https://img.shields.io/github/stars/JohnHormond/CVE-2024-21762-Fortinet-RCE-WORK.svg) ![forks](https://img.shields.io/github/forks/JohnHormond/CVE-2024-21762-Fortinet-RCE-WORK.svg)- [https://github.com/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check](https://github.com/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check) :  ![starts](https://img.shields.io/github/stars/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check.svg) ![forks](https://img.shields.io/github/forks/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check.svg)- [https://github.com/cleverg0d/CVE-2024-21762-Checker](https://github.com/cleverg0d/CVE-2024-21762-Checker) :  ![starts](https://img.shields.io/github/stars/cleverg0d/CVE-2024-21762-Checker.svg) ![forks](https://img.shields.io/github/forks/cleverg0d/CVE-2024-21762-Checker.svg)- [https://github.com/TheRedDevil1/CVE-2024-21762](https://github.com/TheRedDevil1/CVE-2024-21762) :  ![starts](https://img.shields.io/github/stars/TheRedDevil1/CVE-2024-21762.svg) ![forks](https://img.shields.io/github/forks/TheRedDevil1/CVE-2024-21762.svg)- [https://github.com/bsekercioglu/cve2024-21762-ShodanChecker](https://github.com/bsekercioglu/cve2024-21762-ShodanChecker) :  ![starts](https://img.shields.io/github/stars/bsekercioglu/cve2024-21762-ShodanChecker.svg) ![forks](https://img.shields.io/github/forks/bsekercioglu/cve2024-21762-ShodanChecker.svg)- [https://github.com/d0rb/CVE-2024-21762](https://github.com/d0rb/CVE-2024-21762) :  ![starts](https://img.shields.io/github/stars/d0rb/CVE-2024-21762.svg) ![forks](https://img.shields.io/github/forks/d0rb/CVE-2024-21762.svg)- [https://github.com/Gh71m/CVE-2024-21762-POC](https://github.com/Gh71m/CVE-2024-21762-POC) :  ![starts](https://img.shields.io/github/stars/Gh71m/CVE-2024-21762-POC.svg) ![forks](https://img.shields.io/github/forks/Gh71m/CVE-2024-21762-POC.svg)- [https://github.com/redCode001/CVE-2024-21762-POC](https://github.com/redCode001/CVE-2024-21762-POC) :  ![starts](https://img.shields.io/github/stars/redCode001/CVE-2024-21762-POC.svg) ![forks](https://img.shields.io/github/forks/redCode001/CVE-2024-21762-POC.svg)- [https://github.com/vorotilovaawex/CVE-2024-21762_POC](https://github.com/vorotilovaawex/CVE-2024-21762_POC) :  ![starts](https://img.shields.io/github/stars/vorotilovaawex/CVE-2024-21762_POC.svg) ![forks](https://img.shields.io/github/forks/vorotilovaawex/CVE-2024-21762_POC.svg)- [https://github.com/t4ril/CVE-2024-21762-PoC](https://github.com/t4ril/CVE-2024-21762-PoC) :  ![starts](https://img.shields.io/github/stars/t4ril/CVE-2024-21762-PoC.svg) ![forks](https://img.shields.io/github/forks/t4ril/CVE-2024-21762-PoC.svg)",
     "poc": []
   },
   {
@@ -1015,7 +1024,8 @@
       "https://github.com/V0WKeep3r/CVE-2024-21626-runcPOC",
       "https://github.com/laysakura/CVE-2024-21626-demo",
       "https://github.com/zpxlz/CVE-2024-21626-POC",
-      "https://github.com/abian2/CVE-2024-21626"
+      "https://github.com/abian2/CVE-2024-21626",
+      "https://github.com/Sk3pper/CVE-2024-21626"
     ]
   },
   {
@@ -1034,13 +1044,6 @@
     "cve_code": "CVE-2024-21410",
     "description": " Microsoft Exchange Server Elevation of Privilege Vulnerability- [https://github.com/FreakyM0ndy/CVE-2024-21410-poc](https://github.com/FreakyM0ndy/CVE-2024-21410-poc) :  ![starts](https://img.shields.io/github/stars/FreakyM0ndy/CVE-2024-21410-poc.svg) ![forks](https://img.shields.io/github/forks/FreakyM0ndy/CVE-2024-21410-poc.svg)",
     "poc": []
-  },
-  {
-    "cve_code": "CVE-2024-21407",
-    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
-    "poc": [
-      "https://github.com/swagcrafte/CVE-2024-21407-POC"
-    ]
   },
   {
     "cve_code": "CVE-2024-21400",
@@ -1417,7 +1420,7 @@
     "description": " In ssh in OpenSSH before 9.6, OS command injection might occur if a user name or host name has shell metacharacters, and this name is referenced by an expansion token in certain situations. For example, an untrusted Git repository can have a submodule with shell metacharacters in a user name or host name.",
     "poc": [
       "https://github.com/vin01/poc-proxycommand-vulnerable",
-      "https://github.com/zls1793/CVE-2023-51385_test",
+      "https://github.com/LtmThink/CVE-2023-51385_test",
       "https://github.com/Le1a/CVE-2023-51385",
       "https://github.com/WOOOOONG/CVE-2023-51385",
       "https://github.com/farliy-hacker/CVE-2023-51385",
@@ -2060,6 +2063,7 @@
     "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
     "poc": [
       "https://github.com/CVETechnologic/CVE-2023-48788-Proof-of-concept-SQLinj",
+      "https://github.com/TheRedDevil1/CVE-2023-48788",
       "https://github.com/k4rd3n/CVE-2023-48788-PoC"
     ]
   },
@@ -4101,9 +4105,9 @@
       "https://github.com/BeniB3astt/CVE-2023-38831_ReverseShell_Winrar",
       "https://github.com/kehrijksen/CVE-2023-38831",
       "https://github.com/asepsaepdin/CVE-2023-38831",
+      "https://github.com/IMHarman/CVE-2023-38831",
       "https://github.com/an040702/CVE-2023-38831",
       "https://github.com/Nielk74/CVE-2023-38831",
-      "https://github.com/IMHarman/CVE-2023-38831",
       "https://github.com/nhman-python/CVE-2023-38831",
       "https://github.com/GOTonyGO/CVE-2023-38831-winrar",
       "https://github.com/s4m98/winrar-cve-2023-38831-poc-gen",
@@ -4397,6 +4401,13 @@
     "description": " i-doit Pro v25 and below was discovered to be vulnerable to path traversal.",
     "poc": [
       "https://github.com/leekenghwa/CVE-2023-37739---Path-Traversal-in-i-doit-Pro-25-and-below"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-37679",
+    "description": " A remote command execution (RCE) vulnerability in NextGen Mirth Connect v4.3.0 allows attackers to execute arbitrary commands on the hosting server.",
+    "poc": [
+      "https://github.com/jakabakos/CVE-2023-37679-mirth-connect-rce-poc"
     ]
   },
   {
@@ -5256,6 +5267,13 @@
     "poc": [
       "https://github.com/Fr0stM0urne/CVE-2023-33768",
       "https://github.com/purseclab/CVE-2023-33768"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-33747",
+    "description": " CloudPanel v2.2.2 allows attackers to execute a path traversal.",
+    "poc": [
+      "https://github.com/0xWhoami35/CloudPanel-CVE-2023-33747"
     ]
   },
   {
@@ -7194,8 +7212,8 @@
       "https://github.com/0xNahim/CVE-2023-23752",
       "https://github.com/ifacker/CVE-2023-23752-Joomla",
       "https://github.com/adhikara13/CVE-2023-23752",
-      "https://github.com/Fernando-olv/Joomla-CVE-2023-23752",
       "https://github.com/karthikuj/CVE-2023-23752-Docker",
+      "https://github.com/Fernando-olv/Joomla-CVE-2023-23752",
       "https://github.com/Youns92/Joomla-v4.2.8---CVE-2023-23752",
       "https://github.com/JohnDoeAnonITA/CVE-2023-23752",
       "https://github.com/Saboor-Hakimi/CVE-2023-23752",
@@ -7206,7 +7224,6 @@
       "https://github.com/haxor1337x/Mass-Checker-CVE-2023-23752",
       "https://github.com/HaxorSec1945/CVE2023-23752",
       "https://github.com/adriyansyah-mf/CVE-2023-23752",
-      "https://github.com/AkbarWiraN/Joomla-Scanner",
       "https://github.com/wangking1/CVE-2023-23752-poc",
       "https://github.com/AlissoftCodes/CVE-2023-23752",
       "https://github.com/r3dston3/CVE-2023-23752",
@@ -7214,15 +7231,16 @@
       "https://github.com/K3ysTr0K3R/CVE-2023-23752-EXPLOIT",
       "https://github.com/Jenderal92/Joomla-CVE-2023-23752",
       "https://github.com/raystr-atearedteam/CVE2023-23752",
+      "https://github.com/AkbarWiraN/Joomla-Scanner",
       "https://github.com/lainonz/CVE-2023-23752",
       "https://github.com/gunzf0x/CVE-2023-23752",
       "https://github.com/JeneralMotors/CVE-2023-23752",
       "https://github.com/Ly0kha/Joomla-CVE-2023-23752-Exploit-Script",
-      "https://github.com/cybernetwiz/CVE-2023-23752",
-      "https://github.com/C1ph3rX13/CVE-2023-23752",
       "https://github.com/svaltheim/CVE-2023-23752",
       "https://github.com/Rival420/CVE-2023-23752",
       "https://github.com/TindalyTn/CVE-2023-23752",
+      "https://github.com/cybernetwiz/CVE-2023-23752",
+      "https://github.com/C1ph3rX13/CVE-2023-23752",
       "https://github.com/yTxZx/CVE-2023-23752",
       "https://github.com/Pushkarup/CVE-2023-23752",
       "https://github.com/sw0rd1ight/CVE-2023-23752",
@@ -8010,10 +8028,10 @@
       "https://github.com/duy-31/CVE-2023-7028",
       "https://github.com/Esonhugh/gitlab_honeypot",
       "https://github.com/hackeremmen/gitlab-exploit",
-      "https://github.com/thanhlam-attt/CVE-2023-7028",
       "https://github.com/TheRedDevil1/CVE-2023-7028",
-      "https://github.com/mochammadrafi/CVE-2023-7028",
+      "https://github.com/thanhlam-attt/CVE-2023-7028",
       "https://github.com/yoryio/CVE-2023-7028",
+      "https://github.com/mochammadrafi/CVE-2023-7028",
       "https://github.com/Trackflaw/CVE-2023-7028-Docker",
       "https://github.com/Shimon03/CVE-2023-7028-Account-Take-Over-Gitlab"
     ]
@@ -8387,8 +8405,8 @@
       "https://github.com/morganwdavis/overread",
       "https://github.com/0xKayala/CVE-2023-4966",
       "https://github.com/s-bt/CVE-2023-4966",
-      "https://github.com/byte4RR4Y/CVE-2023-4966",
-      "https://github.com/jmussmann/cve-2023-4966-iocs"
+      "https://github.com/jmussmann/cve-2023-4966-iocs",
+      "https://github.com/byte4RR4Y/CVE-2023-4966"
     ]
   },
   {
@@ -45273,8 +45291,8 @@
       "https://github.com/0xKn/CVE-2007-2447",
       "https://github.com/G01d3nW01f/CVE-2007-2447",
       "https://github.com/0xTabun/CVE-2007-2447",
-      "https://github.com/cherrera0001/CVE-2007-2447",
       "https://github.com/Juantos/cve-2007-2447",
+      "https://github.com/cherrera0001/CVE-2007-2447",
       "https://github.com/testaross4/CVE-2007-2447",
       "https://github.com/0xConstant/CVE-2007-2447",
       "https://github.com/xlcc4096/exploit-CVE-2007-2447",
@@ -45471,6 +45489,7 @@
     "description": " Buffer overflow in MiniShare 1.4.1 and earlier allows remote attackers to execute arbitrary code via a long HTTP GET request.",
     "poc": [
       "https://github.com/kkirsche/CVE-2004-2271",
+      "https://github.com/lautarolopez4/CVE-2004-2271",
       "https://github.com/war4uthor/CVE-2004-2271",
       "https://github.com/pwncone/CVE-2004-2271-MiniShare-1.4.1-BOF",
       "https://github.com/PercussiveElbow/CVE-2004-2271-MiniShare-1.4.1-Buffer-Overflow"
