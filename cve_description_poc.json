@@ -874,13 +874,13 @@
       "https://github.com/Vozec/CVE-2024-23897",
       "https://github.com/10T4/PoC-Fix-jenkins-rce_CVE-2024-23897",
       "https://github.com/jenkinsci-cert/SECURITY-3314-3315",
-      "https://github.com/viszsec/CVE-2024-23897",
       "https://github.com/godylockz/CVE-2024-23897",
+      "https://github.com/viszsec/CVE-2024-23897",
       "https://github.com/yoryio/CVE-2024-23897",
       "https://github.com/jopraveen/CVE-2024-23897",
+      "https://github.com/AbraXa5/Jenkins-CVE-2024-23897",
       "https://github.com/Nebian/CVE-2024-23897",
       "https://github.com/Abo5/CVE-2024-23897",
-      "https://github.com/AbraXa5/Jenkins-CVE-2024-23897",
       "https://github.com/raheel0x01/CVE-2024-23897",
       "https://github.com/vmtyan/poc-cve-2024-23897",
       "https://github.com/Praison001/CVE-2024-23897-Jenkins-Arbitrary-Read-File-Vulnerability",
@@ -1227,6 +1227,13 @@
     "poc": []
   },
   {
+    "cve_code": "CVE-2024-22328",
+    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "poc": [
+      "https://github.com/RansomGroupCVE/CVE-2024-22328-POC"
+    ]
+  },
+  {
     "cve_code": "CVE-2024-22243",
     "description": " Applications that use UriComponentsBuilder to parse an externally provided URL (e.g. through a query parameter) AND perform validation checks on the host of the parsed URL may be vulnerable to a open redirect https://cwe.mitre.org/data/definitions/601.html attack or to a SSRF attack if the URL is used after passing validation checks.",
     "poc": [
@@ -1346,6 +1353,11 @@
     "poc": []
   },
   {
+    "cve_code": "CVE-2024-21306",
+    "description": " Microsoft Bluetooth Driver Spoofing Vulnerability- [https://github.com/d4rks1d33/C-PoC-for-CVE-2024-21306](https://github.com/d4rks1d33/C-PoC-for-CVE-2024-21306) :  ![starts](https://img.shields.io/github/stars/d4rks1d33/C-PoC-for-CVE-2024-21306.svg) ![forks](https://img.shields.io/github/forks/d4rks1d33/C-PoC-for-CVE-2024-21306.svg)",
+    "poc": []
+  },
+  {
     "cve_code": "CVE-2024-21305",
     "description": " Hypervisor-Protected Code Integrity (HVCI) Security Feature Bypass Vulnerability- [https://github.com/tandasat/CVE-2024-21305](https://github.com/tandasat/CVE-2024-21305) :  ![starts](https://img.shields.io/github/stars/tandasat/CVE-2024-21305.svg) ![forks](https://img.shields.io/github/forks/tandasat/CVE-2024-21305.svg)",
     "poc": []
@@ -1368,8 +1380,8 @@
     "poc": [
       "https://github.com/yoryio/CVE-2024-20767",
       "https://github.com/Chocapikk/CVE-2024-20767",
-      "https://github.com/Praison001/CVE-2024-20767-Adobe-ColdFusion",
       "https://github.com/m-cetin/CVE-2024-20767",
+      "https://github.com/Praison001/CVE-2024-20767-Adobe-ColdFusion",
       "https://github.com/huyqa/cve-2024-20767"
     ]
   },
@@ -1660,8 +1672,8 @@
     "description": " A memory leak flaw was found in the Linux kernel&#8217;s io_uring functionality in how a user registers a buffer ring with IORING_REGISTER_PBUF_RING, mmap() it, and then frees it. This flaw allows a local user to crash or potentially escalate their privileges on the system.",
     "poc": [
       "https://github.com/ysanatomic/io_uring_LPE-CVE-2024-0582",
-      "https://github.com/Forsaken0129/CVE-2024-0582",
-      "https://github.com/FoxyProxys/CVE-2024-0582"
+      "https://github.com/FoxyProxys/CVE-2024-0582",
+      "https://github.com/Forsaken0129/CVE-2024-0582"
     ]
   },
   {
@@ -2831,14 +2843,14 @@
       "https://github.com/ST3G4N05/ExploitScript-CVE-2023-46604",
       "https://github.com/minhangxiaohui/ActiveMQ_CVE-2023-46604",
       "https://github.com/dcm2406/CVE-Lab",
+      "https://github.com/Anekant-Singhai/Exploits",
       "https://github.com/ph-hitachi/CVE-2023-46604",
       "https://github.com/hh-hunter/cve-2023-46604",
       "https://github.com/nitzanoligo/CVE-2023-46604-demo",
       "https://github.com/vjayant93/CVE-2023-46604-POC",
       "https://github.com/dcm2406/CVE-2023-46604",
       "https://github.com/tomasmussi-mulesoft/activemq-cve-2023-46604",
-      "https://github.com/Mudoleto/Broker_ApacheMQ",
-      "https://github.com/Anekant-Singhai/Exploits"
+      "https://github.com/Mudoleto/Broker_ApacheMQ"
     ]
   },
   {
@@ -3136,13 +3148,6 @@
     ]
   },
   {
-    "cve_code": "CVE-2023-45288",
-    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
-    "poc": [
-      "https://github.com/0xCuteSocks/cve-2023-45288"
-    ]
-  },
-  {
     "cve_code": "CVE-2023-45185",
     "description": " IBM i Access Client Solutions 1.1.2 through 1.1.4 and 1.1.4.3 through 1.1.9.3 could allow an attacker to execute remote code. Due to improper authority checks the attacker could perform operations on the PC under the user's authority. IBM X-Force ID: 268273.",
     "poc": [
@@ -3210,6 +3215,13 @@
     "description": " Cross Site Request Forgery (CSRF) vulnerability in MooSocial v.3.1.8 allows a remote attacker to execute arbitrary code and obtain sensitive information via the admin Password Change Function.",
     "poc": [
       "https://github.com/ahrixia/CVE-2023-44811"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-44792",
+    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "poc": [
+      "https://github.com/ally-petitt/CVE-2023-44792"
     ]
   },
   {
@@ -4529,8 +4541,8 @@
       "https://github.com/Maalfer/CVE-2023-38831_ReverseShell_Winrar-RCE",
       "https://github.com/K3rnel-Dev/WinrarExploit",
       "https://github.com/ahmed-fa7im/CVE-2023-38831-winrar-expoit-simple-Poc",
-      "https://github.com/Malwareman007/CVE-2023-38831",
       "https://github.com/MorDavid/CVE-2023-38831-Winrar-Exploit-Generator-POC",
+      "https://github.com/Malwareman007/CVE-2023-38831",
       "https://github.com/xaitax/WinRAR-CVE-2023-38831",
       "https://github.com/youmulijiang/evil-winrar",
       "https://github.com/z3r0sw0rd/CVE-2023-38831-PoC",
@@ -4555,10 +4567,10 @@
       "https://github.com/RomainBayle08/CVE-2023-38831",
       "https://github.com/nhman-python/CVE-2023-38831",
       "https://github.com/GOTonyGO/CVE-2023-38831-winrar",
-      "https://github.com/MyStuffYT/CVE-2023-38831-POC",
-      "https://github.com/s4m98/winrar-cve-2023-38831-poc-gen",
       "https://github.com/an040702/CVE-2023-38831",
       "https://github.com/Nielk74/CVE-2023-38831",
+      "https://github.com/MyStuffYT/CVE-2023-38831-POC",
+      "https://github.com/s4m98/winrar-cve-2023-38831-poc-gen",
       "https://github.com/h3xecute/SideCopy-Exploits-CVE-2023-38831",
       "https://github.com/Fa1c0n35/CVE-2023-38831-winrar-exploit",
       "https://github.com/MortySecurity/CVE-2023-38831-Exploit-and-Detection",
@@ -4626,6 +4638,7 @@
       "https://github.com/UserConnecting/Exploit-CVE-2023-38646-Metabase",
       "https://github.com/0utl4nder/Another-Metabase-RCE-CVE-2023-38646",
       "https://github.com/Any3ite/cve-2023-38646-metabase-ReverseShell",
+      "https://github.com/Anekant-Singhai/Exploits",
       "https://github.com/Ego1stoo/CVE-2023-38646",
       "https://github.com/birdm4nw/CVE-2023-38646",
       "https://github.com/Mrunalkaran/CVE-2023-38646",
@@ -4640,8 +4653,7 @@
       "https://github.com/Shisones/MetabaseRCE_CVE-2023-38646",
       "https://github.com/acesoyeo/METABASE-RCE-CVE-2023-38646-",
       "https://github.com/adriyansyah-mf/CVE-2023-38646--Metabase-",
-      "https://github.com/CN016/Metabase-H2-CVE-2023-38646-",
-      "https://github.com/Anekant-Singhai/Exploits"
+      "https://github.com/CN016/Metabase-H2-CVE-2023-38646-"
     ]
   },
   {
@@ -5098,7 +5110,7 @@
   },
   {
     "cve_code": "CVE-2023-36407",
-    "description": " Windows Hyper-V Elevation of Privilege Vulnerability- [https://github.com/pwndorei/CVE-2023-36407](https://github.com/pwndorei/CVE-2023-36407) :  ![starts](https://img.shields.io/github/stars/pwndorei/CVE-2023-36407.svg) ![forks](https://img.shields.io/github/forks/pwndorei/CVE-2023-36407.svg)",
+    "description": " Windows Hyper-V Elevation of Privilege Vulnerability- [https://github.com/pwndorei/CVE-2023-36407](https://github.com/pwndorei/CVE-2023-36407) :  ![starts](https://img.shields.io/github/stars/pwndorei/CVE-2023-36407.svg) ![forks](https://img.shields.io/github/forks/pwndorei/CVE-2023-36407.svg)- [https://github.com/zha0/CVE-2023-36407](https://github.com/zha0/CVE-2023-36407) :  ![starts](https://img.shields.io/github/stars/zha0/CVE-2023-36407.svg) ![forks](https://img.shields.io/github/forks/zha0/CVE-2023-36407.svg)",
     "poc": []
   },
   {
@@ -5196,8 +5208,8 @@
     "cve_code": "CVE-2023-36143",
     "description": " Maxprint Maxlink 1200G v3.4.11E has an OS command injection vulnerability in the &quot;Diagnostic tool&quot; functionality of the device.",
     "poc": [
-      "https://github.com/RobinTrigon/CVE-2023-36143",
-      "https://github.com/leonardobg/CVE-2023-36143"
+      "https://github.com/leonardobg/CVE-2023-36143",
+      "https://github.com/RobinTrigon/CVE-2023-36143"
     ]
   },
   {
@@ -6561,10 +6573,10 @@
       "https://github.com/arunsnap/CVE-2023-30212-POC",
       "https://github.com/libasv/Exploite-CVE-2023-30212-vulnerability",
       "https://github.com/Anandhu990/CVE-2023-30212-iab",
+      "https://github.com/mallutrojan/CVE-2023-30212-Lab",
       "https://github.com/Anandhu990/CVE-2023-30212_lab",
       "https://github.com/Anandhu990/r-CVE-2023-30212-lab",
       "https://github.com/VisDev23/Vulnerable-Docker-CVE-2023-30212",
-      "https://github.com/mallutrojan/CVE-2023-30212-Lab",
       "https://github.com/VisDev23/Vulnerable-Docker--CVE-2023-30212-",
       "https://github.com/MaThEw-ViNcEnT/CVE-2023-30212-OURPHP-Vulnerability",
       "https://github.com/Anandhu990/r-CVE-2023-30212--lab",
@@ -7735,10 +7747,10 @@
       "https://github.com/cybernetwiz/CVE-2023-23752",
       "https://github.com/C1ph3rX13/CVE-2023-23752",
       "https://github.com/yTxZx/CVE-2023-23752",
-      "https://github.com/sw0rd1ight/CVE-2023-23752",
-      "https://github.com/H454NSec/CVE-2023-23752",
       "https://github.com/svaltheim/CVE-2023-23752",
       "https://github.com/Rival420/CVE-2023-23752",
+      "https://github.com/sw0rd1ight/CVE-2023-23752",
+      "https://github.com/H454NSec/CVE-2023-23752",
       "https://github.com/shellvik/CVE-2023-23752",
       "https://github.com/wibuheker/Joomla-CVE-2023-23752",
       "https://github.com/hadrian3689/CVE-2023-23752_Joomla",
@@ -9411,8 +9423,8 @@
     "poc": [
       "https://github.com/Occamsec/CVE-2023-2825",
       "https://github.com/yuimarudev/CVE-2023-2825",
-      "https://github.com/Rubikcuv5/CVE-2023-2825",
       "https://github.com/caopengyan/CVE-2023-2825",
+      "https://github.com/Rubikcuv5/CVE-2023-2825",
       "https://github.com/Tornad0007/CVE-2023-2825-Gitlab"
     ]
   },
@@ -9816,10 +9828,10 @@
       "https://github.com/CKevens/CVE-2023-0386",
       "https://github.com/Satheesh575555/linux-4.19.72_CVE-2023-0386",
       "https://github.com/puckiestyle/CVE-2023-0386",
+      "https://github.com/Anekant-Singhai/Exploits",
       "https://github.com/letsr00t/CVE-2023-0386",
       "https://github.com/churamanib/CVE-2023-0386",
-      "https://github.com/hshivhare67/kernel_v4.19.72_CVE-2023-0386",
-      "https://github.com/Anekant-Singhai/Exploits"
+      "https://github.com/hshivhare67/kernel_v4.19.72_CVE-2023-0386"
     ]
   },
   {
@@ -45901,9 +45913,9 @@
       "https://github.com/Juantos/cve-2007-2447",
       "https://github.com/0xTabun/CVE-2007-2447",
       "https://github.com/testaross4/CVE-2007-2447",
-      "https://github.com/cherrera0001/CVE-2007-2447",
       "https://github.com/0xConstant/CVE-2007-2447",
       "https://github.com/xlcc4096/exploit-CVE-2007-2447",
+      "https://github.com/cherrera0001/CVE-2007-2447",
       "https://github.com/JoseBarrios/CVE-2007-2447",
       "https://github.com/b1fair/smb_usermap",
       "https://github.com/MikeRega7/CVE-2007-2447-RCE",
