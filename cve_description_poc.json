@@ -1,5 +1,13 @@
 [
   {
+    "cve_code": "CVE-2024-30255",
+    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "poc": [
+      "https://github.com/lockness-Ko/CVE-2024-27316",
+      "https://github.com/blackmagic2023/Envoy-CPU-Exhaustion-Vulnerability-PoC"
+    ]
+  },
+  {
     "cve_code": "CVE-2024-29455",
     "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
     "poc": [
@@ -112,6 +120,13 @@
     ]
   },
   {
+    "cve_code": "CVE-2024-29296",
+    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "poc": [
+      "https://github.com/ThaySolis/CVE-2024-29296"
+    ]
+  },
+  {
     "cve_code": "CVE-2024-29278",
     "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
     "poc": [
@@ -201,6 +216,13 @@
     ]
   },
   {
+    "cve_code": "CVE-2024-28182",
+    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "poc": [
+      "https://github.com/lockness-Ko/CVE-2024-27316"
+    ]
+  },
+  {
     "cve_code": "CVE-2024-28116",
     "description": " Grav is an open-source, flat-file content management system. Grav CMS prior to version 1.7.45 is vulnerable to a Server-Side Template Injection (SSTI), which allows any authenticated user (editor permissions are sufficient) to execute arbitrary code on the remote server bypassing the existing security sandbox. Version 1.7.45 contains a patch for this issue.",
     "poc": [
@@ -217,6 +239,13 @@
     "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
     "poc": [
       "https://github.com/skyler-ferrante/CVE-2024-28085"
+    ]
+  },
+  {
+    "cve_code": "CVE-2024-27919",
+    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "poc": [
+      "https://github.com/lockness-Ko/CVE-2024-27316"
     ]
   },
   {
@@ -304,6 +333,13 @@
     ]
   },
   {
+    "cve_code": "CVE-2024-27316",
+    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "poc": [
+      "https://github.com/lockness-Ko/CVE-2024-27316"
+    ]
+  },
+  {
     "cve_code": "CVE-2024-27199",
     "description": " In JetBrains TeamCity before 2023.11.4 path traversal allowing to perform limited admin actions was possible- [https://github.com/W01fh4cker/CVE-2024-27198-RCE](https://github.com/W01fh4cker/CVE-2024-27198-RCE) :  ![starts](https://img.shields.io/github/stars/W01fh4cker/CVE-2024-27198-RCE.svg) ![forks](https://img.shields.io/github/forks/W01fh4cker/CVE-2024-27198-RCE.svg)- [https://github.com/Shimon03/Explora-o-RCE-n-o-autenticado-JetBrains-TeamCity-CVE-2024-27198-](https://github.com/Shimon03/Explora-o-RCE-n-o-autenticado-JetBrains-TeamCity-CVE-2024-27198-) :  ![starts](https://img.shields.io/github/stars/Shimon03/Explora-o-RCE-n-o-autenticado-JetBrains-TeamCity-CVE-2024-27198-.svg) ![forks](https://img.shields.io/github/forks/Shimon03/Explora-o-RCE-n-o-autenticado-JetBrains-TeamCity-CVE-2024-27198-.svg)",
     "poc": []
@@ -361,6 +397,11 @@
     "poc": [
       "https://github.com/TronciuVlad/CVE-2024-26475"
     ]
+  },
+  {
+    "cve_code": "CVE-2024-26198",
+    "description": " Microsoft Exchange Server Remote Code Execution Vulnerability- [https://github.com/MrSecby/CVE-2024-26198-Exchange-RCE](https://github.com/MrSecby/CVE-2024-26198-Exchange-RCE) :  ![starts](https://img.shields.io/github/stars/MrSecby/CVE-2024-26198-Exchange-RCE.svg) ![forks](https://img.shields.io/github/forks/MrSecby/CVE-2024-26198-Exchange-RCE.svg)",
+    "poc": []
   },
   {
     "cve_code": "CVE-2024-25832",
@@ -579,6 +620,13 @@
     "description": " mailcow is a dockerized email package, with multiple containers linked in one bridged network. A security vulnerability has been identified in mailcow affecting versions &lt; 2024-01c. This vulnerability potentially allows attackers on the same subnet to connect to exposed ports of a Docker container, even when the port is bound to 127.0.0.1. The vulnerability has been addressed by implementing additional iptables/nftables rules. These rules drop packets for Docker containers on ports 3306, 6379, 8983, and 12345, where the input interface is not `br-mailcow` and the output interface is `br-mailcow`.",
     "poc": [
       "https://github.com/killerbees19/CVE-2024-24760"
+    ]
+  },
+  {
+    "cve_code": "CVE-2024-24576",
+    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "poc": [
+      "https://github.com/frostb1ten/CVE-2024-24576-PoC"
     ]
   },
   {
@@ -885,8 +933,8 @@
       "https://github.com/godylockz/CVE-2024-23897",
       "https://github.com/yoryio/CVE-2024-23897",
       "https://github.com/jopraveen/CVE-2024-23897",
-      "https://github.com/AbraXa5/Jenkins-CVE-2024-23897",
       "https://github.com/Nebian/CVE-2024-23897",
+      "https://github.com/AbraXa5/Jenkins-CVE-2024-23897",
       "https://github.com/Abo5/CVE-2024-23897",
       "https://github.com/raheel0x01/CVE-2024-23897",
       "https://github.com/vmtyan/poc-cve-2024-23897",
@@ -1295,8 +1343,8 @@
       "https://github.com/gobysec/Goby",
       "https://github.com/gobysec/GobyVuls",
       "https://github.com/Chocapikk/CVE-2024-21887",
-      "https://github.com/Chocapikk/CVE-2024-21893-to-CVE-2024-21887",
       "https://github.com/duy-31/CVE-2023-46805_CVE-2024-21887",
+      "https://github.com/Chocapikk/CVE-2024-21893-to-CVE-2024-21887",
       "https://github.com/seajaysec/Ivanti-Connect-Around-Scan",
       "https://github.com/yoryio/CVE-2023-46805",
       "https://github.com/oways/ivanti-CVE-2024-21887",
@@ -1308,7 +1356,7 @@
   },
   {
     "cve_code": "CVE-2024-21762",
-    "description": " A out-of-bounds write in Fortinet FortiOS versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.6, 7.0.0 through 7.0.13, 6.4.0 through 6.4.14, 6.2.0 through 6.2.15, 6.0.0 through 6.0.17, FortiProxy versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.8, 7.0.0 through 7.0.14, 2.0.0 through 2.0.13, 1.2.0 through 1.2.13, 1.1.0 through 1.1.6, 1.0.0 through 1.0.7 allows attacker to execute unauthorized code or commands via specifically crafted requests- [https://github.com/h4x0r-dz/CVE-2024-21762](https://github.com/h4x0r-dz/CVE-2024-21762) :  ![starts](https://img.shields.io/github/stars/h4x0r-dz/CVE-2024-21762.svg) ![forks](https://img.shields.io/github/forks/h4x0r-dz/CVE-2024-21762.svg)- [https://github.com/BishopFox/cve-2024-21762-check](https://github.com/BishopFox/cve-2024-21762-check) :  ![starts](https://img.shields.io/github/stars/BishopFox/cve-2024-21762-check.svg) ![forks](https://img.shields.io/github/forks/BishopFox/cve-2024-21762-check.svg)- [https://github.com/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check](https://github.com/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check) :  ![starts](https://img.shields.io/github/stars/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check.svg) ![forks](https://img.shields.io/github/forks/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check.svg)- [https://github.com/d0rb/CVE-2024-21762](https://github.com/d0rb/CVE-2024-21762) :  ![starts](https://img.shields.io/github/stars/d0rb/CVE-2024-21762.svg) ![forks](https://img.shields.io/github/forks/d0rb/CVE-2024-21762.svg)- [https://github.com/cleverg0d/CVE-2024-21762-Checker](https://github.com/cleverg0d/CVE-2024-21762-Checker) :  ![starts](https://img.shields.io/github/stars/cleverg0d/CVE-2024-21762-Checker.svg) ![forks](https://img.shields.io/github/forks/cleverg0d/CVE-2024-21762-Checker.svg)- [https://github.com/AlexLondan/CVE-2024-21762-Fortinet-RCE-ALLWORK](https://github.com/AlexLondan/CVE-2024-21762-Fortinet-RCE-ALLWORK) :  ![starts](https://img.shields.io/github/stars/AlexLondan/CVE-2024-21762-Fortinet-RCE-ALLWORK.svg) ![forks](https://img.shields.io/github/forks/AlexLondan/CVE-2024-21762-Fortinet-RCE-ALLWORK.svg)- [https://github.com/bsekercioglu/cve2024-21762-ShodanChecker](https://github.com/bsekercioglu/cve2024-21762-ShodanChecker) :  ![starts](https://img.shields.io/github/stars/bsekercioglu/cve2024-21762-ShodanChecker.svg) ![forks](https://img.shields.io/github/forks/bsekercioglu/cve2024-21762-ShodanChecker.svg)- [https://github.com/redCode001/CVE-2024-21762-POC](https://github.com/redCode001/CVE-2024-21762-POC) :  ![starts](https://img.shields.io/github/stars/redCode001/CVE-2024-21762-POC.svg) ![forks](https://img.shields.io/github/forks/redCode001/CVE-2024-21762-POC.svg)- [https://github.com/lolminerxmrig/multicheck_CVE-2024-21762](https://github.com/lolminerxmrig/multicheck_CVE-2024-21762) :  ![starts](https://img.shields.io/github/stars/lolminerxmrig/multicheck_CVE-2024-21762.svg) ![forks](https://img.shields.io/github/forks/lolminerxmrig/multicheck_CVE-2024-21762.svg)",
+    "description": " A out-of-bounds write in Fortinet FortiOS versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.6, 7.0.0 through 7.0.13, 6.4.0 through 6.4.14, 6.2.0 through 6.2.15, 6.0.0 through 6.0.17, FortiProxy versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.8, 7.0.0 through 7.0.14, 2.0.0 through 2.0.13, 1.2.0 through 1.2.13, 1.1.0 through 1.1.6, 1.0.0 through 1.0.7 allows attacker to execute unauthorized code or commands via specifically crafted requests- [https://github.com/h4x0r-dz/CVE-2024-21762](https://github.com/h4x0r-dz/CVE-2024-21762) :  ![starts](https://img.shields.io/github/stars/h4x0r-dz/CVE-2024-21762.svg) ![forks](https://img.shields.io/github/forks/h4x0r-dz/CVE-2024-21762.svg)- [https://github.com/BishopFox/cve-2024-21762-check](https://github.com/BishopFox/cve-2024-21762-check) :  ![starts](https://img.shields.io/github/stars/BishopFox/cve-2024-21762-check.svg) ![forks](https://img.shields.io/github/forks/BishopFox/cve-2024-21762-check.svg)- [https://github.com/AlexLondan/CVE-2024-21762-Fortinet-RCE-ALLWORK](https://github.com/AlexLondan/CVE-2024-21762-Fortinet-RCE-ALLWORK) :  ![starts](https://img.shields.io/github/stars/AlexLondan/CVE-2024-21762-Fortinet-RCE-ALLWORK.svg) ![forks](https://img.shields.io/github/forks/AlexLondan/CVE-2024-21762-Fortinet-RCE-ALLWORK.svg)- [https://github.com/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check](https://github.com/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check) :  ![starts](https://img.shields.io/github/stars/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check.svg) ![forks](https://img.shields.io/github/forks/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check.svg)- [https://github.com/d0rb/CVE-2024-21762](https://github.com/d0rb/CVE-2024-21762) :  ![starts](https://img.shields.io/github/stars/d0rb/CVE-2024-21762.svg) ![forks](https://img.shields.io/github/forks/d0rb/CVE-2024-21762.svg)- [https://github.com/cleverg0d/CVE-2024-21762-Checker](https://github.com/cleverg0d/CVE-2024-21762-Checker) :  ![starts](https://img.shields.io/github/stars/cleverg0d/CVE-2024-21762-Checker.svg) ![forks](https://img.shields.io/github/forks/cleverg0d/CVE-2024-21762-Checker.svg)- [https://github.com/bsekercioglu/cve2024-21762-ShodanChecker](https://github.com/bsekercioglu/cve2024-21762-ShodanChecker) :  ![starts](https://img.shields.io/github/stars/bsekercioglu/cve2024-21762-ShodanChecker.svg) ![forks](https://img.shields.io/github/forks/bsekercioglu/cve2024-21762-ShodanChecker.svg)- [https://github.com/redCode001/CVE-2024-21762-POC](https://github.com/redCode001/CVE-2024-21762-POC) :  ![starts](https://img.shields.io/github/stars/redCode001/CVE-2024-21762-POC.svg) ![forks](https://img.shields.io/github/forks/redCode001/CVE-2024-21762-POC.svg)- [https://github.com/lolminerxmrig/multicheck_CVE-2024-21762](https://github.com/lolminerxmrig/multicheck_CVE-2024-21762) :  ![starts](https://img.shields.io/github/stars/lolminerxmrig/multicheck_CVE-2024-21762.svg) ![forks](https://img.shields.io/github/forks/lolminerxmrig/multicheck_CVE-2024-21762.svg)",
     "poc": []
   },
   {
@@ -1410,6 +1458,13 @@
     ]
   },
   {
+    "cve_code": "CVE-2024-20720",
+    "description": " Adobe Commerce versions 2.4.6-p3, 2.4.5-p5, 2.4.4-p6 and earlier are affected by an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability that could lead in arbitrary code execution by an attacker. Exploitation of this issue does not require user interaction.",
+    "poc": [
+      "https://github.com/xxDlib/CVE-2024-20720-PoC"
+    ]
+  },
+  {
     "cve_code": "CVE-2024-20698",
     "description": " Windows Kernel Elevation of Privilege Vulnerability- [https://github.com/RomanRybachek/CVE-2024-20698](https://github.com/RomanRybachek/CVE-2024-20698) :  ![starts](https://img.shields.io/github/stars/RomanRybachek/CVE-2024-20698.svg) ![forks](https://img.shields.io/github/forks/RomanRybachek/CVE-2024-20698.svg)",
     "poc": []
@@ -1440,8 +1495,8 @@
     "cve_code": "CVE-2024-2879",
     "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
     "poc": [
-      "https://github.com/JohnNetSouldRU/CVE-2024-2879-POC",
-      "https://github.com/herculeszxc/CVE-2024-2879"
+      "https://github.com/herculeszxc/CVE-2024-2879",
+      "https://github.com/JohnNetSouldRU/CVE-2024-2879-POC"
     ]
   },
   {
@@ -1456,6 +1511,13 @@
     "description": " A vulnerability, which was classified as critical, has been found in Tenda AC10 16.03.10.13/16.03.10.20. Affected by this issue is the function fromSetSysTime of the file /goform/SetSysTimeCfg. The manipulation of the argument timeZone leads to stack-based buffer overflow. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-257780. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.",
     "poc": [
       "https://github.com/Schnaidr/CVE-2024-2856-Stack-overflow-EXP"
+    ]
+  },
+  {
+    "cve_code": "CVE-2024-2653",
+    "description": " ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "poc": [
+      "https://github.com/lockness-Ko/CVE-2024-27316"
     ]
   },
   {
@@ -2500,7 +2562,8 @@
     "cve_code": "CVE-2023-48788",
     "description": " A improper neutralization of special elements used in an sql command ('sql injection') in Fortinet FortiClientEMS version 7.2.0 through 7.2.2, FortiClientEMS 7.0.1 through 7.0.10 allows attacker to execute unauthorized code or commands via specially crafted packets.",
     "poc": [
-      "https://github.com/horizon3ai/CVE-2023-48788"
+      "https://github.com/horizon3ai/CVE-2023-48788",
+      "https://github.com/mrobsidian1/CVE-2023-48788-Proof-of-concept-SQLinj"
     ]
   },
   {
@@ -2879,8 +2942,8 @@
       "https://github.com/ph-hitachi/CVE-2023-46604",
       "https://github.com/hh-hunter/cve-2023-46604",
       "https://github.com/dcm2406/CVE-2023-46604",
-      "https://github.com/vjayant93/CVE-2023-46604-POC",
       "https://github.com/nitzanoligo/CVE-2023-46604-demo",
+      "https://github.com/vjayant93/CVE-2023-46604-POC",
       "https://github.com/tomasmussi-mulesoft/activemq-cve-2023-46604",
       "https://github.com/Mudoleto/Broker_ApacheMQ"
     ]
@@ -3346,16 +3409,16 @@
     "description": " The HTTP/2 protocol allows a denial of service (server resource consumption) because request cancellation can reset many streams quickly, as exploited in the wild in August through October 2023.",
     "poc": [
       "https://github.com/bcdannyboy/CVE-2023-44487",
-      "https://github.com/terrorist/HTTP-2-Rapid-Reset-Client",
       "https://github.com/imabee101/CVE-2023-44487",
+      "https://github.com/terrorist/HTTP-2-Rapid-Reset-Client",
       "https://github.com/secengjeff/rapidresetclient",
       "https://github.com/studiogangster/CVE-2023-44487",
       "https://github.com/nxenon/cve-2023-44487",
       "https://github.com/ndrscodes/http2-rst-stream-attacker",
       "https://github.com/pabloec20/rapidreset",
       "https://github.com/ReToCode/golang-CVE-2023-44487",
-      "https://github.com/sigridou/CVE-2023-44487-",
-      "https://github.com/ByteHackr/CVE-2023-44487"
+      "https://github.com/ByteHackr/CVE-2023-44487",
+      "https://github.com/sigridou/CVE-2023-44487-"
     ]
   },
   {
@@ -4325,6 +4388,7 @@
     "cve_code": "CVE-2023-40127",
     "description": " In multiple locations, there is a possible way to access screenshots due to a confused deputy. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.",
     "poc": [
+      "https://github.com/Trinadh465/CVE-2023-40127",
       "https://github.com/Trinadh465/platform_packages_providers_MediaProvider_CVE-2023-40127"
     ]
   },
@@ -4583,12 +4647,12 @@
       "https://github.com/ahmed-fa7im/CVE-2023-38831-winrar-expoit-simple-Poc",
       "https://github.com/MorDavid/CVE-2023-38831-Winrar-Exploit-Generator-POC",
       "https://github.com/Malwareman007/CVE-2023-38831",
-      "https://github.com/xaitax/WinRAR-CVE-2023-38831",
       "https://github.com/youmulijiang/evil-winrar",
+      "https://github.com/xaitax/WinRAR-CVE-2023-38831",
       "https://github.com/z3r0sw0rd/CVE-2023-38831-PoC",
       "https://github.com/PascalAsch/CVE-2023-38831-KQL",
-      "https://github.com/ameerpornillos/CVE-2023-38831-WinRAR-Exploit",
       "https://github.com/malvika-thakur/CVE-2023-38831",
+      "https://github.com/ameerpornillos/CVE-2023-38831-WinRAR-Exploit",
       "https://github.com/xk-mt/WinRAR-Vulnerability-recurrence-tutorial",
       "https://github.com/SugiB3o/Keylog_CVE2023-38831",
       "https://github.com/akhomlyuk/cve-2023-38831",
@@ -4604,10 +4668,10 @@
       "https://github.com/kehrijksen/CVE-2023-38831",
       "https://github.com/asepsaepdin/CVE-2023-38831",
       "https://github.com/IMHarman/CVE-2023-38831",
-      "https://github.com/RomainBayle08/CVE-2023-38831",
-      "https://github.com/nhman-python/CVE-2023-38831",
       "https://github.com/an040702/CVE-2023-38831",
       "https://github.com/Nielk74/CVE-2023-38831",
+      "https://github.com/RomainBayle08/CVE-2023-38831",
+      "https://github.com/nhman-python/CVE-2023-38831",
       "https://github.com/GOTonyGO/CVE-2023-38831-winrar",
       "https://github.com/s4m98/winrar-cve-2023-38831-poc-gen",
       "https://github.com/MyStuffYT/CVE-2023-38831-POC",
@@ -4679,13 +4743,13 @@
       "https://github.com/0utl4nder/Another-Metabase-RCE-CVE-2023-38646",
       "https://github.com/Any3ite/cve-2023-38646-metabase-ReverseShell",
       "https://github.com/Anekant-Singhai/Exploits",
+      "https://github.com/Ego1stoo/CVE-2023-38646",
       "https://github.com/birdm4nw/CVE-2023-38646",
       "https://github.com/Mrunalkaran/CVE-2023-38646",
       "https://github.com/AnvithLobo/CVE-2023-38646",
       "https://github.com/asepsaepdin/CVE-2023-38646",
       "https://github.com/raytheon0x21/CVE-2023-38646",
       "https://github.com/threatHNTR/CVE-2023-38646",
-      "https://github.com/Ego1stoo/CVE-2023-38646",
       "https://github.com/junnythemarksman/CVE-2023-38646",
       "https://github.com/yxl2001/CVE-2023-38646",
       "https://github.com/passwa11/CVE-2023-38646",
@@ -5107,6 +5171,7 @@
     "poc": [
       "https://github.com/jakabakos/CVE-2023-36664-Ghostscript-command-injection",
       "https://github.com/jeanchpt/CVE-2023-36664",
+      "https://github.com/churamanib/CVE-2023-36664-Ghostscript-command-injection",
       "https://github.com/winkler-winsen/Scan_GhostScript"
     ]
   },
@@ -6604,8 +6669,8 @@
     "description": " OURPHP &lt;= 7.2.0 is vulnerale to Cross Site Scripting (XSS) via /client/manage/ourphp_out.php.",
     "poc": [
       "https://github.com/libasmon/Exploite-CVE-2023-30212-Vulnerability",
-      "https://github.com/Rishipatidar/CVE-2023-30212-POC-DOCKER-FILE",
       "https://github.com/kuttappu123/CVE-2023-30212-LAB",
+      "https://github.com/Rishipatidar/CVE-2023-30212-POC-DOCKER-FILE",
       "https://github.com/libas7994/Exploit-the-CVE-2023-30212-vulnerability",
       "https://github.com/libas7994/CVE-2023-30212",
       "https://github.com/AAsh035/CVE-2023-30212",
@@ -6614,13 +6679,13 @@
       "https://github.com/libasv/Exploite-CVE-2023-30212-vulnerability",
       "https://github.com/Anandhu990/CVE-2023-30212-iab",
       "https://github.com/Anandhu990/CVE-2023-30212_lab",
+      "https://github.com/mallutrojan/CVE-2023-30212-Lab",
       "https://github.com/Anandhu990/r-CVE-2023-30212-lab",
       "https://github.com/VisDev23/Vulnerable-Docker-CVE-2023-30212",
       "https://github.com/VisDev23/Vulnerable-Docker--CVE-2023-30212-",
       "https://github.com/MaThEw-ViNcEnT/CVE-2023-30212-OURPHP-Vulnerability",
       "https://github.com/Anandhu990/r-CVE-2023-30212--lab",
       "https://github.com/libasmon/Vulnerable-Docker-Environment-CVE-2023-30212",
-      "https://github.com/mallutrojan/CVE-2023-30212-Lab",
       "https://github.com/JasaluRah/Creating-a-Vulnerable-Docker-Environment-CVE-2023-30212-",
       "https://github.com/libasmon/-create-a-vulnerable-Docker-environment-that-is-susceptible-to-CVE-2023-30212"
     ]
@@ -7577,7 +7642,7 @@
   },
   {
     "cve_code": "CVE-2023-24955",
-    "description": " Microsoft SharePoint Server Remote Code Execution Vulnerability- [https://github.com/Chocapikk/CVE-2023-29357](https://github.com/Chocapikk/CVE-2023-29357) :  ![starts](https://img.shields.io/github/stars/Chocapikk/CVE-2023-29357.svg) ![forks](https://img.shields.io/github/forks/Chocapikk/CVE-2023-29357.svg)- [https://github.com/former-farmer/CVE-2023-24955-PoC](https://github.com/former-farmer/CVE-2023-24955-PoC) :  ![starts](https://img.shields.io/github/stars/former-farmer/CVE-2023-24955-PoC.svg) ![forks](https://img.shields.io/github/forks/former-farmer/CVE-2023-24955-PoC.svg)- [https://github.com/AndreOve/CVE-2023-24955-real-RCE](https://github.com/AndreOve/CVE-2023-24955-real-RCE) :  ![starts](https://img.shields.io/github/stars/AndreOve/CVE-2023-24955-real-RCE.svg) ![forks](https://img.shields.io/github/forks/AndreOve/CVE-2023-24955-real-RCE.svg)",
+    "description": " Microsoft SharePoint Server Remote Code Execution Vulnerability- [https://github.com/Chocapikk/CVE-2023-29357](https://github.com/Chocapikk/CVE-2023-29357) :  ![starts](https://img.shields.io/github/stars/Chocapikk/CVE-2023-29357.svg) ![forks](https://img.shields.io/github/forks/Chocapikk/CVE-2023-29357.svg)- [https://github.com/AndreOve/CVE-2023-24955-real-RCE](https://github.com/AndreOve/CVE-2023-24955-real-RCE) :  ![starts](https://img.shields.io/github/stars/AndreOve/CVE-2023-24955-real-RCE.svg) ![forks](https://img.shields.io/github/forks/AndreOve/CVE-2023-24955-real-RCE.svg)- [https://github.com/former-farmer/CVE-2023-24955-PoC](https://github.com/former-farmer/CVE-2023-24955-PoC) :  ![starts](https://img.shields.io/github/stars/former-farmer/CVE-2023-24955-PoC.svg) ![forks](https://img.shields.io/github/forks/former-farmer/CVE-2023-24955-PoC.svg)",
     "poc": []
   },
   {
@@ -7938,6 +8003,14 @@
     "description": " A Path Traversal in setup.php in OpenEMR &lt; 7.0.0 allows remote unauthenticated users to read arbitrary files by controlling a connection to an attacker-controlled MySQL server.",
     "poc": [
       "https://github.com/gbrsh/CVE-2023-22974"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-22960",
+    "description": " Lexmark products through 2023-01-10 have Improper Control of Interaction Frequency.",
+    "poc": [
+      "https://github.com/t3l3machus/CVE-2023-22960",
+      "https://github.com/k0mi-tg/CVE-2023-22960"
     ]
   },
   {
@@ -9781,6 +9854,13 @@
     "poc": [
       "https://github.com/Nickguitar/Drag-and-Drop-Multiple-File-Uploader-PRO-Path-Traversal",
       "https://github.com/codeb0ss/CVE-2023-1112-EXP"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-1077",
+    "description": " In the Linux kernel, pick_next_rt_entity() may return a type confused entry, not detected by the BUG_ON condition, as the confused entry will not be NULL, but list_head.The buggy error condition would lead to a type confused entry with the list head,which would then be used as a type confused sched_rt_entity,causing memory corruption.",
+    "poc": [
+      "https://github.com/RenukaSelvar/kernel_rt_CVE_2023_1077"
     ]
   },
   {
@@ -45953,14 +46033,14 @@
       "https://github.com/bdunlap9/CVE-2007-2447_python",
       "https://github.com/Nosferatuvjr/Samba-Usermap-exploit",
       "https://github.com/mr-l0n3lly/CVE-2007-2447",
-      "https://github.com/G01d3nW01f/CVE-2007-2447",
       "https://github.com/0xKn/CVE-2007-2447",
+      "https://github.com/G01d3nW01f/CVE-2007-2447",
       "https://github.com/Juantos/cve-2007-2447",
       "https://github.com/0xTabun/CVE-2007-2447",
       "https://github.com/testaross4/CVE-2007-2447",
-      "https://github.com/cherrera0001/CVE-2007-2447",
       "https://github.com/xlcc4096/exploit-CVE-2007-2447",
       "https://github.com/0xConstant/CVE-2007-2447",
+      "https://github.com/cherrera0001/CVE-2007-2447",
       "https://github.com/JoseBarrios/CVE-2007-2447",
       "https://github.com/b1fair/smb_usermap",
       "https://github.com/MikeRega7/CVE-2007-2447-RCE",
