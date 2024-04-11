@@ -51,6 +51,8 @@ for i in pre_results:
     item = {}
     item["cve_code"] = i[0]
     item["description"] = i[1]
+    if str(item["description"]).startswith(" ** RESERVED ** "):
+        continue
     item["poc"] = []
     a = str(i[2]).replace("- ", "\n- ").strip() + "\n"
     temp_poc = re.findall(r'\[(.*?)\]', a)
