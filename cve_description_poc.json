@@ -2163,8 +2163,8 @@
       "https://github.com/Anekant-Singhai/Exploits",
       "https://github.com/ph-hitachi/CVE-2023-46604",
       "https://github.com/hh-hunter/cve-2023-46604",
-      "https://github.com/dcm2406/CVE-2023-46604",
       "https://github.com/nitzanoligo/CVE-2023-46604-demo",
+      "https://github.com/dcm2406/CVE-2023-46604",
       "https://github.com/vjayant93/CVE-2023-46604-POC",
       "https://github.com/tomasmussi-mulesoft/activemq-cve-2023-46604",
       "https://github.com/Mudoleto/Broker_ApacheMQ"
@@ -2435,6 +2435,15 @@
     "description": " A heap-based buffer overflow vulnerability exists in the HTTP Server functionality of Weston Embedded uC-HTTP git commit 80d4004. A specially crafted network packet can lead to arbitrary code execution. An attacker can send a malicious packet to trigger this vulnerability.",
     "poc": [
       "https://github.com/greandfather/CVE-2023-50358-POC-RCE"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-45280",
+    "description": " Yamcs 5.8.6 allows XSS (issue 2 of 2). It comes with a Bucket as its primary storage mechanism. Buckets allow for the upload of any file. There's a way to upload an HTML file containing arbitrary JavaScript and then navigate to it. Once the user opens the file, the browser will execute the arbitrary JavaScript.",
+    "poc": [
+      "https://github.com/miguelc49/CVE-2023-45280-2",
+      "https://github.com/miguelc49/CVE-2023-45280-1",
+      "https://github.com/miguelc49/CVE-2023-45280-3"
     ]
   },
   {
@@ -2720,6 +2729,11 @@
     "poc": [
       "https://github.com/sharmashreejaa/CVE-2023-43757"
     ]
+  },
+  {
+    "cve_code": "CVE-2023-43667",
+    "description": " Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Apache InLong.This issue affects Apache InLong: from 1.4.0 through 1.8.0, the attacker can create misleading or false records, making it harder to audit and trace malicious activities. Users are advised to upgrade to Apache InLong's 1.8.0 or cherry-pick [1] to solve it. [1] https://github.com/apache/inlong/pull/8628- [https://github.com/miguelc49/CVE-2023-43667-1](https://github.com/miguelc49/CVE-2023-43667-1) :  ![starts](https://img.shields.io/github/stars/miguelc49/CVE-2023-43667-1.svg) ![forks](https://img.shields.io/github/forks/miguelc49/CVE-2023-43667-1.svg)- [https://github.com/miguelc49/CVE-2023-43667-3](https://github.com/miguelc49/CVE-2023-43667-3) :  ![starts](https://img.shields.io/github/stars/miguelc49/CVE-2023-43667-3.svg) ![forks](https://img.shields.io/github/forks/miguelc49/CVE-2023-43667-3.svg)- [https://github.com/miguelc49/CVE-2023-43667-2](https://github.com/miguelc49/CVE-2023-43667-2) :  ![starts](https://img.shields.io/github/stars/miguelc49/CVE-2023-43667-2.svg) ![forks](https://img.shields.io/github/forks/miguelc49/CVE-2023-43667-2.svg)",
+    "poc": []
   },
   {
     "cve_code": "CVE-2023-43654",
@@ -3161,6 +3175,15 @@
     "description": " Multiple cross-site scripting (XSS) vulnerabilities in Dairy Farm Shop Management System Using PHP and MySQL v1.1 allow attackers to execute arbitrary web scripts and HTML via a crafted payload injected into the Category and Category Field parameters.",
     "poc": [
       "https://github.com/MATRIXDEVIL/CVE"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-41592",
+    "description": " Froala Editor v4.0.1 to v4.1.1 was discovered to contain a cross-site scripting (XSS) vulnerability.",
+    "poc": [
+      "https://github.com/miguelc49/CVE-2023-41592-3",
+      "https://github.com/miguelc49/CVE-2023-41592-1",
+      "https://github.com/miguelc49/CVE-2023-41592-2"
     ]
   },
   {
@@ -3782,8 +3805,8 @@
       "https://github.com/0utl4nder/Another-Metabase-RCE-CVE-2023-38646",
       "https://github.com/Any3ite/cve-2023-38646-metabase-ReverseShell",
       "https://github.com/Anekant-Singhai/Exploits",
-      "https://github.com/birdm4nw/CVE-2023-38646",
       "https://github.com/Ego1stoo/CVE-2023-38646",
+      "https://github.com/birdm4nw/CVE-2023-38646",
       "https://github.com/Mrunalkaran/CVE-2023-38646",
       "https://github.com/AnvithLobo/CVE-2023-38646",
       "https://github.com/asepsaepdin/CVE-2023-38646",
@@ -3832,6 +3855,15 @@
     "description": " copyparty is file server software. Prior to version 1.8.7, the application contains a reflected cross-site scripting via URL-parameter `?k304=...` and `?setck=...`. The worst-case outcome of this is being able to move or delete existing files on the server, or upload new files, using the account of the person who clicks the malicious link. It is recommended to change the passwords of one's copyparty accounts, unless one have inspected one's logs and found no trace of attacks. Version 1.8.7 contains a patch for the issue.",
     "poc": [
       "https://github.com/codeb0ss/CVE-2023-38501-Exploit"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-38499",
+    "description": " TYPO3 is an open source PHP based web content management system. Starting in version 9.4.0 and prior to versions 9.5.42 ELTS, 10.4.39 ELTS, 11.5.30, and 12.4.4, in multi-site scenarios, enumerating the HTTP query parameters `id` and `L` allowed out-of-scope access to rendered content in the website frontend. For instance, this allowed visitors to access content of an internal site by adding handcrafted query parameters to the URL of a site that was publicly available. TYPO3 versions 9.5.42 ELTS, 10.4.39 ELTS, 11.5.30, 12.4.4 fix the problem.",
+    "poc": [
+      "https://github.com/miguelc49/CVE-2023-38499-2",
+      "https://github.com/miguelc49/CVE-2023-38499-1",
+      "https://github.com/miguelc49/CVE-2023-38499-3"
     ]
   },
   {
@@ -4282,8 +4314,8 @@
     "cve_code": "CVE-2023-36143",
     "description": " Maxprint Maxlink 1200G v3.4.11E has an OS command injection vulnerability in the &quot;Diagnostic tool&quot; functionality of the device.",
     "poc": [
-      "https://github.com/leonardobg/CVE-2023-36143",
-      "https://github.com/RobinTrigon/CVE-2023-36143"
+      "https://github.com/RobinTrigon/CVE-2023-36143",
+      "https://github.com/leonardobg/CVE-2023-36143"
     ]
   },
   {
@@ -5555,19 +5587,19 @@
     "poc": [
       "https://github.com/libasmon/Exploite-CVE-2023-30212-Vulnerability",
       "https://github.com/kuttappu123/CVE-2023-30212-LAB",
+      "https://github.com/VisDev23/Vulnerable-Docker--CVE-2023-30212-",
       "https://github.com/Rishipatidar/CVE-2023-30212-POC-DOCKER-FILE",
       "https://github.com/libas7994/Exploit-the-CVE-2023-30212-vulnerability",
       "https://github.com/libas7994/CVE-2023-30212",
       "https://github.com/AAsh035/CVE-2023-30212",
-      "https://github.com/arunsnap/CVE-2023-30212-POC",
       "https://github.com/kai-iszz/CVE-2023-30212",
+      "https://github.com/arunsnap/CVE-2023-30212-POC",
       "https://github.com/libasv/Exploite-CVE-2023-30212-vulnerability",
       "https://github.com/Anandhu990/CVE-2023-30212-iab",
       "https://github.com/mallutrojan/CVE-2023-30212-Lab",
       "https://github.com/Anandhu990/CVE-2023-30212_lab",
       "https://github.com/Anandhu990/r-CVE-2023-30212-lab",
       "https://github.com/VisDev23/Vulnerable-Docker-CVE-2023-30212",
-      "https://github.com/VisDev23/Vulnerable-Docker--CVE-2023-30212-",
       "https://github.com/MaThEw-ViNcEnT/CVE-2023-30212-OURPHP-Vulnerability",
       "https://github.com/Anandhu990/r-CVE-2023-30212--lab",
       "https://github.com/libasmon/Vulnerable-Docker-Environment-CVE-2023-30212",
@@ -5860,6 +5892,7 @@
       "https://github.com/LHXHL/Minio-CVE-2023-28432",
       "https://github.com/TaroballzChen/CVE-2023-28432-metasploit-scanner",
       "https://github.com/Romanc9/Gui-poc-test",
+      "https://github.com/0xRulez/CVE-2023-28432",
       "https://github.com/bingtangbanli/CVE-2023-28432",
       "https://github.com/xk-mt/CVE-2023-28432",
       "https://github.com/h0ng10/CVE-2023-28432_docker",
@@ -7540,7 +7573,7 @@
   },
   {
     "cve_code": "CVE-2023-6019",
-    "description": " A command injection existed in Ray's cpu_profile URL parameter allowing attackers to execute os commands on the system running the ray dashboard remotely without authentication. The issue is fixed in version 2.8.1+. Ray maintainers' response can be found here: https://www.anyscale.com/blog/update-on-ray-cves-cve-2023-6019-cve-2023-6020-cve-2023-6021-cve-2023-48022-cve-2023-48023- [https://github.com/FireWolfWang/CVE-2023-6019](https://github.com/FireWolfWang/CVE-2023-6019) :  ![starts](https://img.shields.io/github/stars/FireWolfWang/CVE-2023-6019.svg) ![forks](https://img.shields.io/github/forks/FireWolfWang/CVE-2023-6019.svg)",
+    "description": " A command injection existed in Ray's cpu_profile URL parameter allowing attackers to execute os commands on the system running the ray dashboard remotely without authentication. The issue is fixed in version 2.8.1+. Ray maintainers' response can be found here: https://www.anyscale.com/blog/update-on-ray-cves-cve-2023-6019-cve-2023-6020-cve-2023-6021-cve-2023-48022-cve-2023-48023- [https://github.com/FireWolfWang/CVE-2023-6019](https://github.com/FireWolfWang/CVE-2023-6019) :  ![starts](https://img.shields.io/github/stars/FireWolfWang/CVE-2023-6019.svg) ![forks](https://img.shields.io/github/forks/FireWolfWang/CVE-2023-6019.svg)- [https://github.com/miguelc49/CVE-2023-6019-3](https://github.com/miguelc49/CVE-2023-6019-3) :  ![starts](https://img.shields.io/github/stars/miguelc49/CVE-2023-6019-3.svg) ![forks](https://img.shields.io/github/forks/miguelc49/CVE-2023-6019-3.svg)- [https://github.com/miguelc49/CVE-2023-6019-2](https://github.com/miguelc49/CVE-2023-6019-2) :  ![starts](https://img.shields.io/github/stars/miguelc49/CVE-2023-6019-2.svg) ![forks](https://img.shields.io/github/forks/miguelc49/CVE-2023-6019-2.svg)- [https://github.com/miguelc49/CVE-2023-6019-1](https://github.com/miguelc49/CVE-2023-6019-1) :  ![starts](https://img.shields.io/github/stars/miguelc49/CVE-2023-6019-1.svg) ![forks](https://img.shields.io/github/forks/miguelc49/CVE-2023-6019-1.svg)",
     "poc": []
   },
   {
@@ -7590,6 +7623,15 @@
     "description": " SMU versions prior to 14.8.7825.01 are susceptible to unintended information disclosure, through URL manipulation. Authenticated users in a Storage administrative role are able to access HNAS configuration backup and diagnostic data, that would normally be barred to that specific administrative role.",
     "poc": [
       "https://github.com/Arszilla/CVE-2023-5808"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-5720",
+    "description": " A flaw was found in Quarkus, where it does not properly sanitize artifacts created using the Gradle plugin, allowing certain build system information to remain. This flaw allows an attacker to access potentially sensitive information from the build system within the application.",
+    "poc": [
+      "https://github.com/miguelc49/CVE-2023-5720-3",
+      "https://github.com/miguelc49/CVE-2023-5720-2",
+      "https://github.com/miguelc49/CVE-2023-5720-1"
     ]
   },
   {
@@ -43911,12 +43953,12 @@
       "https://github.com/mr-l0n3lly/CVE-2007-2447",
       "https://github.com/0xKn/CVE-2007-2447",
       "https://github.com/G01d3nW01f/CVE-2007-2447",
-      "https://github.com/Juantos/cve-2007-2447",
-      "https://github.com/testaross4/CVE-2007-2447",
       "https://github.com/0xTabun/CVE-2007-2447",
+      "https://github.com/testaross4/CVE-2007-2447",
+      "https://github.com/Juantos/cve-2007-2447",
+      "https://github.com/cherrera0001/CVE-2007-2447",
       "https://github.com/0xConstant/CVE-2007-2447",
       "https://github.com/xlcc4096/exploit-CVE-2007-2447",
-      "https://github.com/cherrera0001/CVE-2007-2447",
       "https://github.com/JoseBarrios/CVE-2007-2447",
       "https://github.com/b1fair/smb_usermap",
       "https://github.com/MikeRega7/CVE-2007-2447-RCE",
@@ -44084,7 +44126,6 @@
     "cve_code": "CVE-2004-2687",
     "description": " distcc 2.x, as used in XCode 1.5 and others, when not configured to restrict access to the server port, allows remote attackers to execute arbitrary commands via compilation jobs, which are executed by the server without authorization checks.",
     "poc": [
-      "https://github.com/k4miyo/CVE-2004-2687",
       "https://github.com/angelpimentell/distcc_cve_2004-2687_exploit",
       "https://github.com/c0d3cr4f73r/distccd_rce_CVE-2004-2687",
       "https://github.com/ss0wl/CVE-2004-2687_distcc_v1"
@@ -44109,8 +44150,8 @@
     "description": " Buffer overflow in MiniShare 1.4.1 and earlier allows remote attackers to execute arbitrary code via a long HTTP GET request.",
     "poc": [
       "https://github.com/kkirsche/CVE-2004-2271",
-      "https://github.com/war4uthor/CVE-2004-2271",
       "https://github.com/lautarolopez4/CVE-2004-2271",
+      "https://github.com/war4uthor/CVE-2004-2271",
       "https://github.com/pwncone/CVE-2004-2271-MiniShare-1.4.1-BOF",
       "https://github.com/PercussiveElbow/CVE-2004-2271-MiniShare-1.4.1-Buffer-Overflow"
     ]
