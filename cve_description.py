@@ -30,16 +30,30 @@ pre_html = pre_html.replace("\n##", "\n\n##")
 
 # 去掉年份
 today_year = int(datetime.datetime.now().year)
-next_year = today_year + 1
-for i in range(1999, next_year):
+# next_year = today_year + 1
+for i in range(1999, today_year):
     pre_html = pre_html.replace("\n## {}\n".format(str(i)), "")
+pre_html = pre_html.replace("## {}\n".format(str(today_year)), "")
 
 # 规范格式
 html = pre_html.replace("\n-", "-")
+presult = re.findall(r"## (CVE-\d+-\d+)\n(.*?)\n", html)
+description_list = []
+for i in presult:
+    description = i[1]
+    if str(description).endswith("."):
+        pass
+    else:
+        description_list.append(description)
+description_list = list(set(description_list))
+# 给没有.的描述手动加.
+for description in description_list:
+    html = html.replace(description, description + ".")
 html = html.replace(".\n", ".\n\n")
 html = html.replace("\n-", "-")
 html = html + "\n"
 # print(html)
+
 
 # 提取数据
 pre_results = re.findall(r"## (CVE-\d+-\d+)\n(.*?)\n(.*?)\n\n", html)
