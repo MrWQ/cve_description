@@ -8,6 +8,13 @@
     ]
   },
   {
+    "cve_code": "CVE-2024-29988",
+    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "poc": [
+      "https://github.com/AlexDoe11/CVE-2024-29988-MS-Exchange-RCE"
+    ]
+  },
+  {
     "cve_code": "CVE-2024-29455",
     "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
     "poc": [
@@ -451,6 +458,13 @@
     ]
   },
   {
+    "cve_code": "CVE-2024-26198",
+    "description": " Microsoft Exchange Server Remote Code Execution Vulnerability.",
+    "poc": [
+      "https://github.com/AlexDoe11/CVE-2024-26198-Exchange-RCE"
+    ]
+  },
+  {
     "cve_code": "CVE-2024-25832",
     "description": " F-logic DataCube3 v1.0 is vulnerable to unrestricted file upload, which could allow an authenticated malicious actor to upload a file of dangerous type by manipulating the filename extension.",
     "poc": [
@@ -504,6 +518,13 @@
     "description": " ZenML Server in the ZenML machine learning package before 0.46.7 for Python allows remote privilege escalation because the /api/v1/users/{user_name_or_id}/activate REST API endpoint allows access on the basis of a valid username along with a new password in the request body. These are also patched versions: 0.44.4, 0.43.1, and 0.42.2.",
     "poc": [
       "https://github.com/david-botelho-mariano/exploit-CVE-2024-25723"
+    ]
+  },
+  {
+    "cve_code": "CVE-2024-25693",
+    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "poc": [
+      "https://github.com/AlexDoe11/CVE-2024-25693-exploit"
     ]
   },
   {
@@ -989,9 +1010,9 @@
       "https://github.com/yoryio/CVE-2024-23897",
       "https://github.com/jopraveen/CVE-2024-23897",
       "https://github.com/Nebian/CVE-2024-23897",
-      "https://github.com/AbraXa5/Jenkins-CVE-2024-23897",
       "https://github.com/Abo5/CVE-2024-23897",
       "https://github.com/raheel0x01/CVE-2024-23897",
+      "https://github.com/AbraXa5/Jenkins-CVE-2024-23897",
       "https://github.com/vmtyan/poc-cve-2024-23897",
       "https://github.com/Praison001/CVE-2024-23897-Jenkins-Arbitrary-Read-File-Vulnerability",
       "https://github.com/B4CK4TT4CK/CVE-2024-23897",
@@ -1087,8 +1108,10 @@
   },
   {
     "cve_code": "CVE-2024-23738",
-    "description": " ** DISP.UTED ** An issue in Postman version 10.22 and before on macOS allows a remote attacker to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings. NOTE: the vendor states &quot;we dispute the report's accuracy ... the configuration does not enable remote code execution..&quot;- [https://github.com/giovannipajeu1/CVE-2024-23738](https://github.com/giovannipajeu1/CVE-2024-23738) :  ![starts](https://img.shields.io/github/stars/giovannipajeu1/CVE-2024-23738.svg) ![forks](https://img.shields.io/github/forks/giovannipajeu1/CVE-2024-23738.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** An issue in Postman version 10.22 and before on macOS allows a remote attacker to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings. NOTE: the vendor states &quot;we dispute the report's accuracy ... the configuration does not enable remote code execution..&quot;.",
+    "poc": [
+      "https://github.com/giovannipajeu1/CVE-2024-23738"
+    ]
   },
   {
     "cve_code": "CVE-2024-23727",
@@ -1429,9 +1452,8 @@
       "https://github.com/d0rb/CVE-2024-21762",
       "https://github.com/cleverg0d/CVE-2024-21762-Checker",
       "https://github.com/bsekercioglu/cve2024-21762-ShodanChecker",
-      "https://github.com/redCode001/CVE-2024-21762-POC",
       "https://github.com/lolminerxmrig/multicheck_CVE-2024-21762",
-      "https://github.com/zzcentury/FortiGate-CVE-2024-21762"
+      "https://github.com/redCode001/CVE-2024-21762-POC"
     ]
   },
   {
@@ -1460,9 +1482,9 @@
       "https://github.com/laysakura/CVE-2024-21626-demo",
       "https://github.com/Sk3pper/CVE-2024-21626",
       "https://github.com/zpxlz/CVE-2024-21626-POC",
+      "https://github.com/dorser/cve-2024-21626",
       "https://github.com/abian2/CVE-2024-21626",
-      "https://github.com/KubernetesBachelor/CVE-2024-21626",
-      "https://github.com/dorser/cve-2024-21626"
+      "https://github.com/KubernetesBachelor/CVE-2024-21626"
     ]
   },
   {
@@ -1527,6 +1549,13 @@
     "description": " Microsoft Outlook Remote Code Execution Vulnerability.",
     "poc": [
       "https://github.com/d0rb/CVE-2024-21378"
+    ]
+  },
+  {
+    "cve_code": "CVE-2024-21338",
+    "description": " Windows Kernel Elevation of Privilege Vulnerability.",
+    "poc": [
+      "https://github.com/hakaioffsec/CVE-2024-21338"
     ]
   },
   {
@@ -1721,6 +1750,13 @@
     ]
   },
   {
+    "cve_code": "CVE-2024-1642",
+    "description": " The MainWP Dashboard &#8211; WordPress Manager for Multiple Websites Maintenance plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 4.6.0.1. This is due to missing or incorrect nonce validation on the 'posting_bulk' function. This makes it possible for unauthenticated attackers to delete arbitrary posts via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
+    "poc": [
+      "https://github.com/Symbolexe/CVE-2024-1642470"
+    ]
+  },
+  {
     "cve_code": "CVE-2024-1512",
     "description": " The MasterStudy LMS WordPress Plugin &#8211; for Online Courses and Education plugin for WordPress is vulnerable to union based SQL Injection via the 'user' parameter of the /lms/stm-lms/order/items REST route in all versions up to, and including, 3.2.5 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.",
     "poc": [
@@ -1830,6 +1866,13 @@
     ]
   },
   {
+    "cve_code": "CVE-2024-0986",
+    "description": " A vulnerability was found in Issabel PBX 4.0.0. It has been rated as critical. This issue affects some unknown processing of the file /index.php?menu=asterisk_cli of the component Asterisk-Cli. The manipulation of the argument Command leads to os command injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-252251. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.",
+    "poc": [
+      "https://github.com/gunzf0x/Issabel-PBX-4.0.0-RCE-Authenticated"
+    ]
+  },
+  {
     "cve_code": "CVE-2024-0967",
     "description": " A potential vulnerability has been identified in OpenText / Micro Focus ArcSight Enterprise Security Manager (ESM). The vulnerability could be remotely exploited.",
     "poc": [
@@ -1883,7 +1926,6 @@
     "description": " A memory leak flaw was found in the Linux kernel&#8217;s io_uring functionality in how a user registers a buffer ring with IORING_REGISTER_PBUF_RING, mmap() it, and then frees it. This flaw allows a local user to crash or potentially escalate their privileges on the system.",
     "poc": [
       "https://github.com/ysanatomic/io_uring_LPE-CVE-2024-0582",
-      "https://github.com/FoxyProxys/CVE-2024-0582",
       "https://github.com/Forsaken0129/CVE-2024-0582"
     ]
   },
@@ -2049,6 +2091,7 @@
       "https://github.com/LtmThink/CVE-2023-51385_test",
       "https://github.com/Le1a/CVE-2023-51385",
       "https://github.com/WOOOOONG/CVE-2023-51385",
+      "https://github.com/thinkliving2020/CVE-2023-51385-",
       "https://github.com/farliy-hacker/CVE-2023-51385",
       "https://github.com/farliy-hacker/CVE-2023-51385-save",
       "https://github.com/2048JiaLi/CVE-2023-51385",
@@ -3365,8 +3408,7 @@
     "cve_code": "CVE-2023-45777",
     "description": " In checkKeyIntentParceledCorrectly of AccountManagerService.java, there is a possible way to launch arbitrary activities using system privileges due to Parcel Mismatch. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
     "poc": [
-      "https://github.com/michalbednarski/TheLastBundleMismatch",
-      "https://github.com/nidhi7598/frameworks_base_AOSP10_r33_CVE-2023-45777"
+      "https://github.com/michalbednarski/TheLastBundleMismatch"
     ]
   },
   {
@@ -3429,8 +3471,8 @@
     "cve_code": "CVE-2023-45280",
     "description": " Yamcs 5.8.6 allows XSS (issue 2 of 2). It comes with a Bucket as its primary storage mechanism. Buckets allow for the upload of any file. There's a way to upload an HTML file containing arbitrary JavaScript and then navigate to it. Once the user opens the file, the browser will execute the arbitrary JavaScript.",
     "poc": [
-      "https://github.com/miguelc49/CVE-2023-45280-2",
       "https://github.com/miguelc49/CVE-2023-45280-1",
+      "https://github.com/miguelc49/CVE-2023-45280-2",
       "https://github.com/miguelc49/CVE-2023-45280-3"
     ]
   },
@@ -4176,8 +4218,8 @@
     "cve_code": "CVE-2023-41892",
     "description": " Craft CMS is a platform for creating digital experiences. This is a high-impact, low-complexity attack vector. Users running Craft installations before 4.4.15 are encouraged to update to at least that version to mitigate the issue. This issue has been fixed in Craft CMS 4.4.15.",
     "poc": [
-      "https://github.com/zaenhaxor/CVE-2023-41892",
       "https://github.com/Faelian/CraftCMS_CVE-2023-41892",
+      "https://github.com/zaenhaxor/CVE-2023-41892",
       "https://github.com/diegaccio/Craft-CMS-Exploit",
       "https://github.com/acesoyeo/CVE-2023-41892"
     ]
@@ -4228,8 +4270,8 @@
     "cve_code": "CVE-2023-41592",
     "description": " Froala Editor v4.0.1 to v4.1.1 was discovered to contain a cross-site scripting (XSS) vulnerability.",
     "poc": [
-      "https://github.com/miguelc49/CVE-2023-41592-2",
       "https://github.com/miguelc49/CVE-2023-41592-3",
+      "https://github.com/miguelc49/CVE-2023-41592-2",
       "https://github.com/miguelc49/CVE-2023-41592-1"
     ]
   },
@@ -5379,8 +5421,8 @@
       "https://github.com/jahithoque/Juniper-CVE-2023-36845-Mass-Hunting",
       "https://github.com/e11i0t4lders0n/CVE-2023-36845",
       "https://github.com/ifconfig-me/CVE-2023-36845",
-      "https://github.com/imhunterand/CVE-2023-36845",
       "https://github.com/toanln-cov/CVE-2023-36845",
+      "https://github.com/imhunterand/CVE-2023-36845",
       "https://github.com/0xNehru/CVE-2023-36845-Juniper-Vulnerability",
       "https://github.com/CKevens/ansible-cve-2023-36845",
       "https://github.com/iveresk/CVE-2023-36845-6-",
@@ -6329,8 +6371,8 @@
     "description": " In Hazelcast through 5.0.4, 5.1 through 5.1.6, and 5.2 through 5.2.3, configuration routines don't mask passwords in the member configuration properly. This allows Hazelcast Management Center users to view some of the secrets.",
     "poc": [
       "https://github.com/miguelc49/CVE-2023-33264-2",
-      "https://github.com/miguelc49/CVE-2023-33264-1",
-      "https://github.com/miguelc49/CVE-2023-33264-3"
+      "https://github.com/miguelc49/CVE-2023-33264-3",
+      "https://github.com/miguelc49/CVE-2023-33264-1"
     ]
   },
   {
@@ -7125,8 +7167,8 @@
       "https://github.com/some-man1/CVE-2023-29489",
       "https://github.com/learnerboy88/CVE-2023-29489",
       "https://github.com/SynixCyberCrimeMy/CVE-2023-29489",
-      "https://github.com/tucommenceapousser/CVE-2023-29489",
       "https://github.com/ViperM4sk/cpanel-xss-177",
+      "https://github.com/tucommenceapousser/CVE-2023-29489",
       "https://github.com/S4muraiMelayu1337/CVE-2023-29489",
       "https://github.com/Mostafa-Elguerdawi/CVE-2023-29489",
       "https://github.com/Mostafa-Elguerdawi/CVE-2023-29489.yaml",
@@ -8218,9 +8260,9 @@
       "https://github.com/adriyansyah-mf/CVE-2023-23752",
       "https://github.com/wangking1/CVE-2023-23752-poc",
       "https://github.com/Pushkarup/CVE-2023-23752",
+      "https://github.com/MrP4nda1337/CVE-2023-23752",
       "https://github.com/r3dston3/CVE-2023-23752",
       "https://github.com/AlissoftCodes/CVE-2023-23752",
-      "https://github.com/MrP4nda1337/CVE-2023-23752",
       "https://github.com/K3ysTr0K3R/CVE-2023-23752-EXPLOIT",
       "https://github.com/Jenderal92/Joomla-CVE-2023-23752",
       "https://github.com/raystr-atearedteam/CVE2023-23752",
@@ -8236,11 +8278,12 @@
       "https://github.com/svaltheim/CVE-2023-23752",
       "https://github.com/Rival420/CVE-2023-23752",
       "https://github.com/sw0rd1ight/CVE-2023-23752",
-      "https://github.com/H454NSec/CVE-2023-23752",
       "https://github.com/shellvik/CVE-2023-23752",
+      "https://github.com/H454NSec/CVE-2023-23752",
       "https://github.com/wibuheker/Joomla-CVE-2023-23752",
       "https://github.com/hadrian3689/CVE-2023-23752_Joomla",
-      "https://github.com/Ge-Per/Scanner-CVE-2023-23752"
+      "https://github.com/Ge-Per/Scanner-CVE-2023-23752",
+      "https://github.com/mariovata/CVE-2023-23752-Python"
     ]
   },
   {
@@ -8669,8 +8712,8 @@
       "https://github.com/zoemurmure/CVE-2023-21768-AFD-for-WinSock-EoP-exploit",
       "https://github.com/HKxiaoli/Windows_AFD_LPE_CVE-2023-21768",
       "https://github.com/Rosayxy/Recreate-cve-2023-21768",
-      "https://github.com/h1bAna/CVE-2023-21768",
-      "https://github.com/Ha0-Y/CVE-2023-21768"
+      "https://github.com/Ha0-Y/CVE-2023-21768",
+      "https://github.com/h1bAna/CVE-2023-21768"
     ]
   },
   {
@@ -8820,6 +8863,13 @@
       "https://github.com/nidhi7598/frameworks_base_AOSP_06_r22_CVE-2023-21272",
       "https://github.com/pazhanivel07/platform_frameworks_base_AOSP_10_r33_CVE-2023-21272",
       "https://github.com/Trinadh465/frameworks_base_AOSP-4.2.2_r1_CVE-2023-21272"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-21253",
+    "description": " In multiple locations, there is a possible way to crash multiple system services due to resource exhaustion. This could lead to local denial of service with no additional execution privileges needed. User interaction is not needed for exploitation.",
+    "poc": [
+      "https://github.com/nidhi7598/frameworks_base_AOSP10_r33_CVE-2023-21253"
     ]
   },
   {
@@ -10453,8 +10503,8 @@
     "cve_code": "CVE-2023-1177",
     "description": " Path Traversal: '\\..\\filename' in GitHub repository mlflow/mlflow prior to 2.2.1.",
     "poc": [
-      "https://github.com/hh-hunter/ml-CVE-2023-1177",
       "https://github.com/iumiro/CVE-2023-1177-MLFlow",
+      "https://github.com/hh-hunter/ml-CVE-2023-1177",
       "https://github.com/tiyeume25112004/CVE-2023-1177-rebuild"
     ]
   },
@@ -21994,10 +22044,8 @@
   },
   {
     "cve_code": "CVE-2021-29200",
-    "description": " Apache OFBiz has unsafe deserialization prior to 17.12.07 version. An unauthenticated user can perform an RCE attack.",
-    "poc": [
-      "https://github.com/freeide/CVE-2021-29200"
-    ]
+    "description": " Apache OFBiz has unsafe deserialization prior to 17.12.07 version. An unauthenticated user can perform an RCE attack- [https://github.com/freeide/CVE-2021-29200](https://github.com/freeide/CVE-2021-29200) :  ![starts](https://img.shields.io/github/stars/freeide/CVE-2021-29200.svg) ![forks](https://img.shields.io/github/forks/freeide/CVE-2021-29200.svg)",
+    "poc": []
   },
   {
     "cve_code": "CVE-2021-29156",
@@ -43980,8 +44028,10 @@
   },
   {
     "cve_code": "CVE-2016-8858",
-    "description": " ** DISP.UTED ** The kex_input_kexinit function in kex.c in OpenSSH 6.x and 7.x through 7.3 allows remote attackers to cause a denial of service (memory consumption) by sending many duplicate KEXINIT requests.  NOTE: a third party reports that &quot;OpenSSH upstream does not consider this as a security issue.&quot;- [https://github.com/dag-erling/kexkill](https://github.com/dag-erling/kexkill) :  ![starts](https://img.shields.io/github/stars/dag-erling/kexkill.svg) ![forks](https://img.shields.io/github/forks/dag-erling/kexkill.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** The kex_input_kexinit function in kex.c in OpenSSH 6.x and 7.x through 7.3 allows remote attackers to cause a denial of service (memory consumption) by sending many duplicate KEXINIT requests.  NOTE: a third party reports that &quot;OpenSSH upstream does not consider this as a security issue.&quot;.",
+    "poc": [
+      "https://github.com/dag-erling/kexkill"
+    ]
   },
   {
     "cve_code": "CVE-2016-8823",
