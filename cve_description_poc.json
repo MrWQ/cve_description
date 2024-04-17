@@ -2849,8 +2849,11 @@
   },
   {
     "cve_code": "CVE-2023-48022",
-    "description": " ** DISP.UTED ** Anyscale Ray 2.6.3 and 2.8.0 allows a remote attacker to execute arbitrary code via the job submission API. NOTE: the vendor's position is that this report is irrelevant because Ray, as stated in its documentation, is not intended for use outside of a strictly controlled network environment- [https://github.com/0x656565/CVE-2023-48022](https://github.com/0x656565/CVE-2023-48022) :  ![starts](https://img.shields.io/github/stars/0x656565/CVE-2023-48022.svg) ![forks](https://img.shields.io/github/forks/0x656565/CVE-2023-48022.svg)- [https://github.com/jakabakos/ShadowRay-RCE-PoC-CVE-2023-48022](https://github.com/jakabakos/ShadowRay-RCE-PoC-CVE-2023-48022) :  ![starts](https://img.shields.io/github/stars/jakabakos/ShadowRay-RCE-PoC-CVE-2023-48022.svg) ![forks](https://img.shields.io/github/forks/jakabakos/ShadowRay-RCE-PoC-CVE-2023-48022.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** Anyscale Ray 2.6.3 and 2.8.0 allows a remote attacker to execute arbitrary code via the job submission API. NOTE: the vendor's position is that this report is irrelevant because Ray, as stated in its documentation, is not intended for use outside of a strictly controlled network environment.",
+    "poc": [
+      "https://github.com/0x656565/CVE-2023-48022",
+      "https://github.com/jakabakos/ShadowRay-RCE-PoC-CVE-2023-48022"
+    ]
   },
   {
     "cve_code": "CVE-2023-47889",
@@ -10966,8 +10969,11 @@
   },
   {
     "cve_code": "CVE-2022-46463",
-    "description": " ** DISP.UTED ** An access control issue in Harbor v1.X.X to v2.5.3 allows attackers to access public and private image repositories without authentication. NOTE: the vendor's position is that this &quot;is clearly described in the documentation as a feature.&quot;- [https://github.com/nu0l/CVE-2022-46463](https://github.com/nu0l/CVE-2022-46463) :  ![starts](https://img.shields.io/github/stars/nu0l/CVE-2022-46463.svg) ![forks](https://img.shields.io/github/forks/nu0l/CVE-2022-46463.svg)- [https://github.com/404tk/CVE-2022-46463](https://github.com/404tk/CVE-2022-46463) :  ![starts](https://img.shields.io/github/stars/404tk/CVE-2022-46463.svg) ![forks](https://img.shields.io/github/forks/404tk/CVE-2022-46463.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** An access control issue in Harbor v1.X.X to v2.5.3 allows attackers to access public and private image repositories without authentication. NOTE: the vendor's position is that this &quot;is clearly described in the documentation as a feature.&quot;.",
+    "poc": [
+      "https://github.com/nu0l/CVE-2022-46463",
+      "https://github.com/404tk/CVE-2022-46463"
+    ]
   },
   {
     "cve_code": "CVE-2022-46395",
@@ -11022,8 +11028,8 @@
       "https://github.com/a1665454764/CVE-2022-46169",
       "https://github.com/yassinebk/CVE-2022-46169",
       "https://github.com/imjdl/CVE-2022-46169",
-      "https://github.com/BKreisel/CVE-2022-46169",
       "https://github.com/dawnl3ss/CVE-2022-46169",
+      "https://github.com/BKreisel/CVE-2022-46169",
       "https://github.com/miko550/CVE-2022-46169",
       "https://github.com/MarkStrendin/CVE-2022-46169",
       "https://github.com/mind2hex/CVE-2022-46169",
@@ -11104,8 +11110,8 @@
     "description": " An issue was discovered in the Linux kernel through 6.0.10. l2cap_config_req in net/bluetooth/l2cap_core.c has an integer wraparound via L2CAP_CONF_REQ packets.",
     "poc": [
       "https://github.com/Trinadh465/linux-4.1.15_CVE-2022-45934",
-      "https://github.com/Satheesh575555/linux-4.1.15_CVE-2022-45934",
-      "https://github.com/Trinadh465/linux-4.19.72_CVE-2022-45934"
+      "https://github.com/Trinadh465/linux-4.19.72_CVE-2022-45934",
+      "https://github.com/Satheesh575555/linux-4.1.15_CVE-2022-45934"
     ]
   },
   {
@@ -12104,8 +12110,8 @@
       "https://github.com/Chocapikk/CVE-2022-40684",
       "https://github.com/HAWA771/CVE-2022-40684",
       "https://github.com/Bendalledj/CVE-2022-40684",
-      "https://github.com/NeriaBasha/CVE-2022-40684",
       "https://github.com/ClickCyber/cve-2022-40684",
+      "https://github.com/NeriaBasha/CVE-2022-40684",
       "https://github.com/iveresk/CVE-2022-40684",
       "https://github.com/puckiestyle/CVE-2022-40684",
       "https://github.com/mhd108/CVE-2022-40684",
@@ -12199,10 +12205,8 @@
   },
   {
     "cve_code": "CVE-2022-40297",
-    "description": " ** DISP.UTED ** UBports Ubuntu Touch 16.04 allows the screen-unlock passcode to be used for a privileged shell via Sudo. This passcode is only four digits, far below typical length/complexity for a user account's password. NOTE: a third party states &quot;The described attack cannot be executed as demonstrated.&quot;.",
-    "poc": [
-      "https://github.com/filipkarc/PoC-ubuntutouch-pin-privesc"
-    ]
+    "description": " ** DISP.UTED ** UBports Ubuntu Touch 16.04 allows the screen-unlock passcode to be used for a privileged shell via Sudo. This passcode is only four digits, far below typical length/complexity for a user account's password. NOTE: a third party states &quot;The described attack cannot be executed as demonstrated.&quot;- [https://github.com/filipkarc/PoC-ubuntutouch-pin-privesc](https://github.com/filipkarc/PoC-ubuntutouch-pin-privesc) :  ![starts](https://img.shields.io/github/stars/filipkarc/PoC-ubuntutouch-pin-privesc.svg) ![forks](https://img.shields.io/github/forks/filipkarc/PoC-ubuntutouch-pin-privesc.svg)",
+    "poc": []
   },
   {
     "cve_code": "CVE-2022-40146",
@@ -13851,9 +13855,9 @@
       "https://github.com/hilt86/cve-2022-30190-mitigate",
       "https://github.com/mattjmillner/CVE-Smackdown",
       "https://github.com/sentrium-security/Follina-Workaround-CVE-2022-30190",
-      "https://github.com/aymankhder/MSDT_CVE-2022-30190-follina-",
       "https://github.com/SrCroqueta/CVE-2022-30190_Temporary_Fix",
       "https://github.com/Imeneallouche/Follina-attack-CVE-2022-30190-",
+      "https://github.com/aymankhder/MSDT_CVE-2022-30190-follina-",
       "https://github.com/ernestak/Sigma-Rule-for-CVE-2022-30190",
       "https://github.com/WesyHub/CVE-2022-30190---Follina---Poc-Exploit",
       "https://github.com/castlesmadeofsand/ms-msdt-vulnerability-pdq-package",
@@ -14879,8 +14883,8 @@
       "https://github.com/kailing0220/CVE-2022-26134",
       "https://github.com/Sakura-nee/CVE-2022-26134",
       "https://github.com/1337in/CVE-2022-26134web",
-      "https://github.com/kelemaoya/CVE-2022-26134",
       "https://github.com/Brucetg/CVE-2022-26134",
+      "https://github.com/kelemaoya/CVE-2022-26134",
       "https://github.com/404fu/CVE-2022-26134-POC",
       "https://github.com/th3b3ginn3r/CVE-2022-26134-Exploit-Detection",
       "https://github.com/r1skkam/TryHackMe-Atlassian-CVE-2022-26134",
@@ -14892,10 +14896,10 @@
       "https://github.com/acfirthh/CVE-2022-26134",
       "https://github.com/yTxZx/CVE-2022-26134",
       "https://github.com/wjlin0/CVE-2022-26134",
+      "https://github.com/Habib0x0/CVE-2022-26134",
       "https://github.com/Jhonsonwannaa/CVE_20222_26134",
       "https://github.com/yyqxi/CVE-2022-26134",
       "https://github.com/DARKSTUFF-LAB/-CVE-2022-26134",
-      "https://github.com/Habib0x0/CVE-2022-26134",
       "https://github.com/axingde/CVE-2022-26134",
       "https://github.com/CyberDonkyx0/CVE-2022-26134",
       "https://github.com/sunny-kathuria/exploit_CVE-2022-26134",
@@ -15257,8 +15261,8 @@
       "https://github.com/JacobEbben/CVE-2022-24716",
       "https://github.com/joaoviictorti/CVE-2022-24716",
       "https://github.com/doosec101/CVE-2022-24716",
-      "https://github.com/pumpkinpiteam/CVE-2022-24716",
-      "https://github.com/antisecc/CVE-2022-24716"
+      "https://github.com/antisecc/CVE-2022-24716",
+      "https://github.com/pumpkinpiteam/CVE-2022-24716"
     ]
   },
   {
@@ -15882,8 +15886,8 @@
       "https://github.com/me2nuk/CVE-2022-22965",
       "https://github.com/viniciuspereiras/CVE-2022-22965-poc",
       "https://github.com/kh4sh3i/Spring-CVE",
-      "https://github.com/wjl110/CVE-2022-22965_Spring_Core_RCE",
       "https://github.com/khulnasoft-lab/awesome-security",
+      "https://github.com/wjl110/CVE-2022-22965_Spring_Core_RCE",
       "https://github.com/itsecurityco/CVE-2022-22965",
       "https://github.com/west-wind/Spring4Shell-Detection",
       "https://github.com/zer0yu/CVE-2022-22965",
@@ -15919,8 +15923,8 @@
       "https://github.com/helsecert/CVE-2022-22965",
       "https://github.com/lcarea/CVE-2022-22965",
       "https://github.com/0xrobiul/CVE-2022-22965",
-      "https://github.com/cxzero/CVE-2022-22965-spring4shell",
       "https://github.com/clemoregan/SSE4-CVE-2022-22965",
+      "https://github.com/cxzero/CVE-2022-22965-spring4shell",
       "https://github.com/daniel0x00/Invoke-CVE-2022-22965-SafeCheck",
       "https://github.com/bL34cHig0/Telstra-Cybersecurity-Virtual-Experience-",
       "https://github.com/sinjap/spring4shell",
@@ -15933,9 +15937,9 @@
       "https://github.com/t3amj3ff/Spring4ShellPoC",
       "https://github.com/fransvanbuul/CVE-2022-22965-susceptibility",
       "https://github.com/Enokiy/spring-RCE-CVE-2022-22965",
-      "https://github.com/ClemExp/CVE-2022-22965-PoC",
       "https://github.com/c4mx/CVE-2022-22965_PoC",
       "https://github.com/snicoll-scratches/spring-boot-cve-2022-22965",
+      "https://github.com/ClemExp/CVE-2022-22965-PoC",
       "https://github.com/Omaraitbenhaddi/-Spring4Shell-CVE-2022-22965-",
       "https://github.com/dbgee/Spring4Shell",
       "https://github.com/sohamsharma966/Spring4Shell-CVE-2022-22965",
@@ -16737,8 +16741,8 @@
       "https://github.com/Trinadh465/frameworks_base_AOSP_10_r33_CVE-2022-20338",
       "https://github.com/Satheesh575555/frameworks_base_AOSP_06_r22_CVE-2022-20338",
       "https://github.com/Trinadh465/frameworks_base_AOSP10_r33_CVE-2022-20338",
-      "https://github.com/nidhi7598/frameworks_base_AOSP_10_r33_CVE-2022-20338",
-      "https://github.com/nidhi7598/frameworks_base_AOSP_06_r22_CVE-2022-20338"
+      "https://github.com/nidhi7598/frameworks_base_AOSP_06_r22_CVE-2022-20338",
+      "https://github.com/nidhi7598/frameworks_base_AOSP_10_r33_CVE-2022-20338"
     ]
   },
   {
@@ -17600,8 +17604,8 @@
       "https://github.com/ysanatomic/CVE-2022-1015",
       "https://github.com/pivik271/CVE-2022-1015",
       "https://github.com/shuttterman/bob_kern_exp1",
-      "https://github.com/0range1337/CVE-2022-1015",
       "https://github.com/more-kohii/CVE-2022-1015",
+      "https://github.com/0range1337/CVE-2022-1015",
       "https://github.com/wlswotmd/CVE-2022-1015",
       "https://github.com/delsploit/CVE-2022-1015",
       "https://github.com/zanezhub/CVE-2022-1015-1016"
@@ -17738,8 +17742,8 @@
       "https://github.com/ITMarcin2211/CVE-2022-0847-DirtyPipe-Exploit",
       "https://github.com/jpts/CVE-2022-0847-DirtyPipe-Container-Breakout",
       "https://github.com/0xeremus/dirty-pipe-poc",
-      "https://github.com/ih3na/debian11-dirty_pipe-patcher",
       "https://github.com/b4dboy17/Dirty-Pipe-Oneshot",
+      "https://github.com/ih3na/debian11-dirty_pipe-patcher",
       "https://github.com/nanaao/Dirtypipe-exploit",
       "https://github.com/bohr777/cve-2022-0847dirtypipe-exploit",
       "https://github.com/si1ent-le/CVE-2022-0847",
@@ -17750,22 +17754,22 @@
       "https://github.com/V0WKeep3r/CVE-2022-0847-DirtyPipe-Exploit",
       "https://github.com/letsr00t/CVE-2022-0847",
       "https://github.com/cont3mpt/CVE-2022-0847",
-      "https://github.com/2xYuan/CVE-2022-0847",
-      "https://github.com/babyshen/CVE-2022-0847",
       "https://github.com/qqdagustian/CVE_2022_0847",
       "https://github.com/s3mPr1linux/CVE_2022_0847",
+      "https://github.com/babyshen/CVE-2022-0847",
+      "https://github.com/2xYuan/CVE-2022-0847",
+      "https://github.com/pentestblogin/pentestblog-CVE-2022-0847",
       "https://github.com/mrchucu1/CVE-2022-0847-Docker",
       "https://github.com/edsonjt81/CVE-2022-0847-Linux",
-      "https://github.com/pentestblogin/pentestblog-CVE-2022-0847",
       "https://github.com/nu1l-ptr/CVE-2022-0847-Poc",
       "https://github.com/githublihaha/DirtyPIPE-CVE-2022-0847",
       "https://github.com/Greetdawn/CVE-2022-0847-DirtyPipe-",
-      "https://github.com/AyoubNajim/cve-2022-0847dirtypipe-exploit",
-      "https://github.com/pmihsan/Dirty-Pipe-CVE-2022-0847",
       "https://github.com/al4xs/CVE-2022-0847-Dirty-Pipe",
       "https://github.com/Greetdawn/CVE-2022-0847-DirtyPipe",
       "https://github.com/joeymeech/CVE-2022-0847-Exploit-Implementation",
+      "https://github.com/pmihsan/Dirty-Pipe-CVE-2022-0847",
       "https://github.com/edsonjt81/CVE-2022-0847-DirtyPipe-",
+      "https://github.com/AyoubNajim/cve-2022-0847dirtypipe-exploit",
       "https://github.com/stfnw/Debugging_Dirty_Pipe_CVE-2022-0847",
       "https://github.com/ayushx007/CVE-2022-0847-dirty-pipe-checker",
       "https://github.com/ayushx007/CVE-2022-0847-DirtyPipe-Exploits",
@@ -17827,8 +17831,8 @@
       "https://github.com/viardant/CVE-2022-0739",
       "https://github.com/lhamouche/Bash-exploit-for-CVE-2022-0739",
       "https://github.com/hadrian3689/wp_bookingpress_1.0.11",
-      "https://github.com/ElGanz0/CVE-2022-0739",
-      "https://github.com/G01d3nW01f/CVE-2022-0739"
+      "https://github.com/G01d3nW01f/CVE-2022-0739",
+      "https://github.com/ElGanz0/CVE-2022-0739"
     ]
   },
   {
@@ -18102,9 +18106,9 @@
       "https://github.com/CJ-0107/cve-2021-46422",
       "https://github.com/twoning/CVE-2021-46422_PoC",
       "https://github.com/tucommenceapousser/CVE-2021-46422",
+      "https://github.com/ZAxyr/CVE-2021-46422",
       "https://github.com/kelemaoya/CVE-2021-46422",
       "https://github.com/5l1v3r1/CVE-2021-46422",
-      "https://github.com/ZAxyr/CVE-2021-46422",
       "https://github.com/yigexioabai/CVE-2021-46422_RCE",
       "https://github.com/xanszZZ/SDT_CW3B1_rce"
     ]
@@ -18715,8 +18719,8 @@
       "https://github.com/simonis/Log4jPatch",
       "https://github.com/Adikso/minecraft-log4j-honeypot",
       "https://github.com/0xDexter0us/Log4J-Scanner",
-      "https://github.com/puzzlepeaches/Log4jCenter",
       "https://github.com/MalwareTech/Log4jTools",
+      "https://github.com/puzzlepeaches/Log4jCenter",
       "https://github.com/thomaspatzke/Log4Pot",
       "https://github.com/alexbakker/log4shell-tools",
       "https://github.com/aalex954/Log4PowerShell",
@@ -18774,7 +18778,7 @@
       "https://github.com/ab0x90/CVE-2021-44228_PoC",
       "https://github.com/mitiga/log4shell-cloud-scanner",
       "https://github.com/hupe1980/scan4log4shell",
-      "https://github.com/Nanitor/log4fix"
+      "https://github.com/thecyberneh/Log4j-RCE-Exploiter"
     ]
   },
   {
@@ -19506,11 +19510,11 @@
       "https://github.com/rnsss/CVE-2021-42013",
       "https://github.com/LayarKacaSiber/CVE-2021-42013",
       "https://github.com/birdlinux/CVE-2021-42013",
+      "https://github.com/12345qwert123456/CVE-2021-42013",
       "https://github.com/viliuspovilaika/cve-2021-42013",
       "https://github.com/mightysai1997/cve-2021-42013",
       "https://github.com/Adashz/CVE-2021-42013",
       "https://github.com/imhunterand/CVE-2021-42013",
-      "https://github.com/12345qwert123456/CVE-2021-42013",
       "https://github.com/honypot/CVE-2021-42013",
       "https://github.com/mightysai1997/cve-2021-42013.get",
       "https://github.com/mightysai1997/cve-2021-42013L",
@@ -19651,8 +19655,8 @@
       "https://github.com/pirenga/CVE-2021-41773",
       "https://github.com/ranggaggngntt/CVE-2021-41773",
       "https://github.com/corelight/CVE-2021-41773",
-      "https://github.com/mauricelambert/CVE-2021-41773",
       "https://github.com/mohwahyudi/cve-2021-41773",
+      "https://github.com/mauricelambert/CVE-2021-41773",
       "https://github.com/zerodaywolf/CVE-2021-41773_42013",
       "https://github.com/Iris288/CVE-2021-41773",
       "https://github.com/MazX0p/CVE-2021-41773",
@@ -19676,13 +19680,13 @@
       "https://github.com/12345qwert123456/CVE-2021-41773",
       "https://github.com/the29a/CVE-2021-41773",
       "https://github.com/zer0qs/CVE-2021-41773",
-      "https://github.com/shiomiyan/CVE-2021-41773",
-      "https://github.com/puckiestyle/CVE-2021-41773",
-      "https://github.com/Plunder283/CVE-2021-41773",
       "https://github.com/TheLastVvV/CVE-2021-41773",
       "https://github.com/vuongnv3389-sec/cve-2021-41773",
       "https://github.com/skentagon/CVE-2021-41773",
-      "https://github.com/Fa1c0n35/CVE-2021-41773"
+      "https://github.com/Fa1c0n35/CVE-2021-41773",
+      "https://github.com/shiomiyan/CVE-2021-41773",
+      "https://github.com/puckiestyle/CVE-2021-41773",
+      "https://github.com/Plunder283/CVE-2021-41773"
     ]
   },
   {
@@ -21216,8 +21220,10 @@
   },
   {
     "cve_code": "CVE-2021-34481",
-    "description": " &lt;p&gt;A remote code execution vulnerability exists when the Windows Print Spooler service improperly performs privileged file operations. An attacker who successfully exploited this vulnerability could run arbitrary code with SYSTEM privileges. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.&lt;/p&gt;. &lt;p&gt;&lt;strong&gt;UPDATE&lt;/strong&gt; August 10, 2021: Microsoft has completed the investigation and has released security updates to address this vulnerability. Please see the Security Updates table for the applicable update for your system. We recommend that you install these updates immediately. This security update changes the Point and Print default behavior; please see &lt;a href=&quot;https://support.microsoft.com/help/5005652&quot;&gt;KB5005652&lt;/a&gt;.&lt;/p&gt;- [https://github.com/vpn28/CVE-2021-34481](https://github.com/vpn28/CVE-2021-34481) :  ![starts](https://img.shields.io/github/stars/vpn28/CVE-2021-34481.svg) ![forks](https://img.shields.io/github/forks/vpn28/CVE-2021-34481.svg)",
-    "poc": []
+    "description": " &lt;p&gt;A remote code execution vulnerability exists when the Windows Print Spooler service improperly performs privileged file operations. An attacker who successfully exploited this vulnerability could run arbitrary code with SYSTEM privileges. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.&lt;/p&gt;. &lt;p&gt;&lt;strong&gt;UPDATE&lt;/strong&gt; August 10, 2021: Microsoft has completed the investigation and has released security updates to address this vulnerability. Please see the Security Updates table for the applicable update for your system. We recommend that you install these updates immediately. This security update changes the Point and Print default behavior; please see &lt;a href=&quot;https://support.microsoft.com/help/5005652&quot;&gt;KB5005652&lt;/a&gt;.&lt;/p&gt;.",
+    "poc": [
+      "https://github.com/vpn28/CVE-2021-34481"
+    ]
   },
   {
     "cve_code": "CVE-2021-34473",
@@ -23147,6 +23153,13 @@
     ]
   },
   {
+    "cve_code": "CVE-2021-23337",
+    "description": " Lodash versions prior to 4.17.21 are vulnerable to Command Injection via the template function.",
+    "poc": [
+      "https://github.com/ebickle/CVE-2021-23337-template"
+    ]
+  },
+  {
     "cve_code": "CVE-2021-23132",
     "description": " An issue was discovered in Joomla! 3.0.0 through 3.9.24. com_media allowed paths that are not intended for image uploads.",
     "poc": [
@@ -23178,8 +23191,8 @@
       "https://github.com/yaunsky/CVE-202122986-EXP",
       "https://github.com/safesword/F5_RCE",
       "https://github.com/ZephrFish/CVE-2021-22986_Check",
-      "https://github.com/huydung26/CVE-2021-22986",
       "https://github.com/amitlttwo/CVE-2021-22986",
+      "https://github.com/huydung26/CVE-2021-22986",
       "https://github.com/DDestinys/CVE-2021-22986",
       "https://github.com/dotslashed/CVE-2021-22986",
       "https://github.com/kiri-48/CVE-2021-22986",
@@ -23325,8 +23338,8 @@
       "https://github.com/mr-tuhin/CVE-2021-22204-exiftool",
       "https://github.com/Akash7350/CVE-2021-22204",
       "https://github.com/PenTestical/CVE-2021-22204",
-      "https://github.com/0xBruno/CVE-2021-22204",
       "https://github.com/ph-arm/CVE-2021-22204-Gitlab",
+      "https://github.com/0xBruno/CVE-2021-22204",
       "https://github.com/trganda/CVE-2021-22204",
       "https://github.com/Konstantinos-Papanagnou/CMSpit",
       "https://github.com/Asaad27/CVE-2021-22204-RSE",
@@ -23667,8 +23680,8 @@
       "https://github.com/Saboor-Hakimi-23/CVE-2021-21300",
       "https://github.com/Kirill89/CVE-2021-21300",
       "https://github.com/macilin/CVE-2021-21300",
-      "https://github.com/ETOCheney/cve-2021-21300",
       "https://github.com/0ahu/CVE-2021-21300",
+      "https://github.com/ETOCheney/cve-2021-21300",
       "https://github.com/erranfenech/CVE-2021-21300",
       "https://github.com/danshuizhangyu/CVE-2021-21300",
       "https://github.com/fengzhouc/CVE-2021-21300",
@@ -23981,15 +23994,15 @@
       "https://github.com/battleoverflow/CVE-2021-4034",
       "https://github.com/oreosec/pwnkit",
       "https://github.com/moldabekov/CVE-2021-4034",
-      "https://github.com/Immersive-Labs-Sec/CVE-2021-4034",
-      "https://github.com/JoyGhoshs/CVE-2021-4034",
       "https://github.com/ayypril/CVE-2021-4034",
-      "https://github.com/thatstraw/CVE-2021-4034",
+      "https://github.com/Immersive-Labs-Sec/CVE-2021-4034",
       "https://github.com/0x01-sec/CVE-2021-4034-",
       "https://github.com/mutur4/CVE-2021-4034",
-      "https://github.com/defhacks/cve-2021-4034",
-      "https://github.com/cerodah/CVE-2021-4034",
+      "https://github.com/JoyGhoshs/CVE-2021-4034",
+      "https://github.com/thatstraw/CVE-2021-4034",
       "https://github.com/A1vinSmith/CVE-2021-4034",
+      "https://github.com/cerodah/CVE-2021-4034",
+      "https://github.com/defhacks/cve-2021-4034",
       "https://github.com/HrishitJoshi/CVE-2021-4034",
       "https://github.com/vilasboasph/CVE-2021-4034",
       "https://github.com/cd80-ctf/CVE-2021-4034",
@@ -23997,8 +24010,8 @@
       "https://github.com/Tanmay-N/CVE-2021-4034",
       "https://github.com/wongwaituck/CVE-2021-4034",
       "https://github.com/hahaleyile/CVE-2021-4034",
-      "https://github.com/jehovah2002/CVE-2021-4034-pwnkit",
       "https://github.com/CYB3RK1D/CVE-2021-4034-POC",
+      "https://github.com/jehovah2002/CVE-2021-4034-pwnkit",
       "https://github.com/JoaoFukuda/CVE-2021-4034_POC",
       "https://github.com/cdxiaodong/CVE-2021-4034-touch",
       "https://github.com/jcatala/f_poc_cve-2021-4034",
@@ -24344,8 +24357,8 @@
       "https://github.com/TheFlash2k/CVE-2021-3156",
       "https://github.com/nobodyatall648/CVE-2021-3156",
       "https://github.com/q77190858/CVE-2021-3156",
-      "https://github.com/binw2018/CVE-2021-3156-SCRIPT",
       "https://github.com/SantiagoSerrao/ScannerCVE-2021-3156",
+      "https://github.com/binw2018/CVE-2021-3156-SCRIPT",
       "https://github.com/PurpleOzone/PE_CVE-CVE-2021-3156",
       "https://github.com/r3k4t/how-to-solve-sudo-heap-based-bufferoverflow-vulnerability",
       "https://github.com/AbdullahRizwan101/Baron-Samedit",
@@ -24357,10 +24370,10 @@
       "https://github.com/halissha/CVE-2021-3156",
       "https://github.com/ret2basic/SudoScience",
       "https://github.com/barebackbandit/CVE-2021-3156",
-      "https://github.com/gmldbd94/cve-2021-3156",
       "https://github.com/wurwur/CVE-2021-3156",
-      "https://github.com/Y3A/CVE-2021-3156",
+      "https://github.com/gmldbd94/cve-2021-3156",
       "https://github.com/password520/CVE-2021-3156",
+      "https://github.com/Y3A/CVE-2021-3156",
       "https://github.com/DDayLuong/CVE-2021-3156",
       "https://github.com/mutur4/CVE-2021-3156",
       "https://github.com/Exodusro/CVE-2021-3156",
@@ -24372,8 +24385,8 @@
       "https://github.com/capturingcats/CVE-2021-3156",
       "https://github.com/asepsaepdin/CVE-2021-3156",
       "https://github.com/SamTruss/LMU-CVE-2021-3156",
-      "https://github.com/nexcess/sudo_cve-2021-3156",
       "https://github.com/cdeletre/Serpentiel-CVE-2021-3156",
+      "https://github.com/nexcess/sudo_cve-2021-3156",
       "https://github.com/Ashish-dawani/CVE-2021-3156-Patch",
       "https://github.com/sharkmoos/Baron-Samedit",
       "https://github.com/ajtech-hue/CVE-2021-3156-Mitigation-ShellScript-Build",
@@ -24673,8 +24686,8 @@
       "https://github.com/oneoy/CVE-2021-1732-Exploit",
       "https://github.com/BeneficialCode/CVE-2021-1732",
       "https://github.com/asepsaepdin/CVE-2021-1732",
-      "https://github.com/YOunGWebER/cve_2021_1732",
       "https://github.com/yangshifan-git/CVE-2021-1732",
+      "https://github.com/YOunGWebER/cve_2021_1732",
       "https://github.com/r1l4-i3pur1l4/CVE-2021-1732",
       "https://github.com/ExploitCN/CVE-2021-1732-EXP-"
     ]
@@ -24726,8 +24739,8 @@
       "https://github.com/tanarchytan/CVE-2021-1675",
       "https://github.com/galoget/PrintNightmare-CVE-2021-1675-CVE-2021-34527",
       "https://github.com/initconf/cve-2021-1675-printnightmare",
-      "https://github.com/ptter23/CVE-2021-1675",
       "https://github.com/kougyokugentou/CVE-2021-1675",
+      "https://github.com/ptter23/CVE-2021-1675",
       "https://github.com/edsonjt81/CVE-2021-1675",
       "https://github.com/whoami-chmod777/CVE-2021-1675-CVE-2021-34527",
       "https://github.com/mrezqi/CVE-2021-1675_CarbonBlack_HuntingQuery",
@@ -24738,8 +24751,8 @@
       "https://github.com/whoami-chmod777/CVE-2021-1675---PrintNightmare-LPE-PowerShell-",
       "https://github.com/5l1v3r1/CVE-2021-1675-Mitigation-For-Systems-That-Need-Spooler",
       "https://github.com/r1skkam/PrintNightmare",
-      "https://github.com/DenizSe/CVE-2021-34527",
       "https://github.com/peckre/PNCVE-Win10-20H2-Exploit",
+      "https://github.com/DenizSe/CVE-2021-34527",
       "https://github.com/Sirius-RJ/FullstackAcademy-Printernightmare-writeup-2105-E.C.A.R."
     ]
   },
@@ -25203,8 +25216,8 @@
       "https://github.com/aemmitt-ns/skeleton",
       "https://github.com/nanopathi/wpa_supplicant_8_CVE-2021-0326.",
       "https://github.com/nanopathi/Packages_wpa_supplicant8_CVE-2021-0326",
-      "https://github.com/ShaikUsaf/external_wpa_supplicant_8_AOSP10_r33CVE-2021-0326",
-      "https://github.com/Satheesh575555/external_wpa_supplicant_8_AOSP10_r33_CVE-2021-0326"
+      "https://github.com/Satheesh575555/external_wpa_supplicant_8_AOSP10_r33_CVE-2021-0326",
+      "https://github.com/ShaikUsaf/external_wpa_supplicant_8_AOSP10_r33CVE-2021-0326"
     ]
   },
   {
@@ -26864,8 +26877,8 @@
       "https://github.com/pangyu360es/CVE-2020-17530",
       "https://github.com/gh0st27/Struts2Scanner",
       "https://github.com/ludy-dev/freemarker_RCE_struts2_s2-061",
-      "https://github.com/nth347/CVE-2020-17530",
       "https://github.com/keyuan15/CVE-2020-17530",
+      "https://github.com/nth347/CVE-2020-17530",
       "https://github.com/killmonday/CVE-2020-17530-s2-061",
       "https://github.com/154802388/CVE-2020-17531"
     ]
@@ -27668,10 +27681,8 @@
   },
   {
     "cve_code": "CVE-2020-14144",
-    "description": " ** DISP.UTED ** The git hook feature in Gitea 1.1.0 through 1.12.5 might allow for authenticated remote code execution in customer environments where the documentation was not understood (e.g., one viewpoint is that the dangerousness of this feature should be documented immediately above the ENABLE_GIT_HOOKS line in the config file). NOTE: The vendor has indicated this is not a vulnerability and states &quot;This is a functionality of the software that is limited to a very limited subset of accounts. If you give someone the privilege to execute arbitrary code on your server, they can execute arbitrary code on your server. We provide very clear warnings to users around this functionality and what it provides.&quot;.",
-    "poc": [
-      "https://github.com/p0dalirius/CVE-2020-14144-GiTea-git-hooks-rce"
-    ]
+    "description": " ** DISP.UTED ** The git hook feature in Gitea 1.1.0 through 1.12.5 might allow for authenticated remote code execution in customer environments where the documentation was not understood (e.g., one viewpoint is that the dangerousness of this feature should be documented immediately above the ENABLE_GIT_HOOKS line in the config file). NOTE: The vendor has indicated this is not a vulnerability and states &quot;This is a functionality of the software that is limited to a very limited subset of accounts. If you give someone the privilege to execute arbitrary code on your server, they can execute arbitrary code on your server. We provide very clear warnings to users around this functionality and what it provides.&quot;- [https://github.com/p0dalirius/CVE-2020-14144-GiTea-git-hooks-rce](https://github.com/p0dalirius/CVE-2020-14144-GiTea-git-hooks-rce) :  ![starts](https://img.shields.io/github/stars/p0dalirius/CVE-2020-14144-GiTea-git-hooks-rce.svg) ![forks](https://img.shields.io/github/forks/p0dalirius/CVE-2020-14144-GiTea-git-hooks-rce.svg)",
+    "poc": []
   },
   {
     "cve_code": "CVE-2020-14066",
@@ -29035,8 +29046,8 @@
     "cve_code": "CVE-2020-8888",
     "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
     "poc": [
-      "https://github.com/tdcoming/CVE-2020-88888",
-      "https://github.com/SnipJoe/CVE-2020-8888"
+      "https://github.com/SnipJoe/CVE-2020-8888",
+      "https://github.com/tdcoming/CVE-2020-88888"
     ]
   },
   {
@@ -29680,8 +29691,8 @@
       "https://github.com/QTranspose/CVE-2020-7247-exploit",
       "https://github.com/superzerosec/cve-2020-7247",
       "https://github.com/r0lh/CVE-2020-7247",
-      "https://github.com/SimonSchoeni/CVE-2020-7247-POC",
       "https://github.com/presentdaypresenttime/shai_hulud",
+      "https://github.com/SimonSchoeni/CVE-2020-7247-POC",
       "https://github.com/f4T1H21/CVE-2020-7247",
       "https://github.com/bytescrappers/CVE-2020-7247",
       "https://github.com/aurelien-vilminot/ENSIMAG_EXPLOIT_CVE1_3A"
@@ -30239,8 +30250,8 @@
       "https://github.com/ludy-dev/Cisco-ASA-LFI",
       "https://github.com/Gh0st0ne/http-vuln-cve2020-3452.nse",
       "https://github.com/iveresk/cve-2020-3452",
-      "https://github.com/sujaygr8/CVE-2020-3452",
       "https://github.com/imhunterand/CVE-2020-3452",
+      "https://github.com/sujaygr8/CVE-2020-3452",
       "https://github.com/Veids/CVE-2020-3452_auto",
       "https://github.com/toy0756428/CVE_2020_3452_Detect"
     ]
