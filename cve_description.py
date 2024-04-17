@@ -65,8 +65,12 @@ for i in pre_results:
     item = {}
     item["cve_code"] = i[0]
     item["description"] = i[1]
-    if str(item["description"]).startswith(" ** RESERVED ** "):
-        continue
+    # 移除“已保留”的编号
+    # if str(item["description"]).startswith(" ** RE.SERVED ** "):
+    #     continue
+    # 移除“有争议”的编号
+    # if str(item["description"]).startswith(" ** DISP.UTED ** "):
+    #     continue
     item["poc"] = []
     a = str(i[2]).replace("- ", "\n- ").strip() + "\n"
     temp_poc = re.findall(r'\[(.*?)\]', a)
