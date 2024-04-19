@@ -1076,10 +1076,8 @@
   },
   {
     "cve_code": "CVE-2024-23743",
-    "description": " ** DISP.UTED ** Notion through 3.1.0 on macOS might allow code execution because of RunAsNode and enableNodeClilnspectArguments. NOTE: the vendor states &quot;the attacker must launch the Notion Desktop application with nonstandard flags that turn the Electron-based application into a Node.js execution environment.&quot;.",
-    "poc": [
-      "https://github.com/giovannipajeu1/CVE-2024-23743"
-    ]
+    "description": " ** DISP.UTED ** Notion through 3.1.0 on macOS might allow code execution because of RunAsNode and enableNodeClilnspectArguments. NOTE: the vendor states &quot;the attacker must launch the Notion Desktop application with nonstandard flags that turn the Electron-based application into a Node.js execution environment.&quot;- [https://github.com/giovannipajeu1/CVE-2024-23743](https://github.com/giovannipajeu1/CVE-2024-23743) :  ![starts](https://img.shields.io/github/stars/giovannipajeu1/CVE-2024-23743.svg) ![forks](https://img.shields.io/github/forks/giovannipajeu1/CVE-2024-23743.svg)",
+    "poc": []
   },
   {
     "cve_code": "CVE-2024-23742",
@@ -2873,11 +2871,8 @@
   },
   {
     "cve_code": "CVE-2023-48022",
-    "description": " ** DISP.UTED ** Anyscale Ray 2.6.3 and 2.8.0 allows a remote attacker to execute arbitrary code via the job submission API. NOTE: the vendor's position is that this report is irrelevant because Ray, as stated in its documentation, is not intended for use outside of a strictly controlled network environment.",
-    "poc": [
-      "https://github.com/0x656565/CVE-2023-48022",
-      "https://github.com/jakabakos/ShadowRay-RCE-PoC-CVE-2023-48022"
-    ]
+    "description": " ** DISP.UTED ** Anyscale Ray 2.6.3 and 2.8.0 allows a remote attacker to execute arbitrary code via the job submission API. NOTE: the vendor's position is that this report is irrelevant because Ray, as stated in its documentation, is not intended for use outside of a strictly controlled network environment- [https://github.com/0x656565/CVE-2023-48022](https://github.com/0x656565/CVE-2023-48022) :  ![starts](https://img.shields.io/github/stars/0x656565/CVE-2023-48022.svg) ![forks](https://img.shields.io/github/forks/0x656565/CVE-2023-48022.svg)- [https://github.com/jakabakos/ShadowRay-RCE-PoC-CVE-2023-48022](https://github.com/jakabakos/ShadowRay-RCE-PoC-CVE-2023-48022) :  ![starts](https://img.shields.io/github/stars/jakabakos/ShadowRay-RCE-PoC-CVE-2023-48022.svg) ![forks](https://img.shields.io/github/forks/jakabakos/ShadowRay-RCE-PoC-CVE-2023-48022.svg)",
+    "poc": []
   },
   {
     "cve_code": "CVE-2023-47889",
@@ -10836,11 +10831,8 @@
   },
   {
     "cve_code": "CVE-2022-46463",
-    "description": " ** DISP.UTED ** An access control issue in Harbor v1.X.X to v2.5.3 allows attackers to access public and private image repositories without authentication. NOTE: the vendor's position is that this &quot;is clearly described in the documentation as a feature.&quot;.",
-    "poc": [
-      "https://github.com/nu0l/CVE-2022-46463",
-      "https://github.com/404tk/CVE-2022-46463"
-    ]
+    "description": " ** DISP.UTED ** An access control issue in Harbor v1.X.X to v2.5.3 allows attackers to access public and private image repositories without authentication. NOTE: the vendor's position is that this &quot;is clearly described in the documentation as a feature.&quot;- [https://github.com/nu0l/CVE-2022-46463](https://github.com/nu0l/CVE-2022-46463) :  ![starts](https://img.shields.io/github/stars/nu0l/CVE-2022-46463.svg) ![forks](https://img.shields.io/github/forks/nu0l/CVE-2022-46463.svg)- [https://github.com/404tk/CVE-2022-46463](https://github.com/404tk/CVE-2022-46463) :  ![starts](https://img.shields.io/github/stars/404tk/CVE-2022-46463.svg) ![forks](https://img.shields.io/github/forks/404tk/CVE-2022-46463.svg)",
+    "poc": []
   },
   {
     "cve_code": "CVE-2022-46395",
@@ -12072,8 +12064,10 @@
   },
   {
     "cve_code": "CVE-2022-40297",
-    "description": " ** DISP.UTED ** UBports Ubuntu Touch 16.04 allows the screen-unlock passcode to be used for a privileged shell via Sudo. This passcode is only four digits, far below typical length/complexity for a user account's password. NOTE: a third party states &quot;The described attack cannot be executed as demonstrated.&quot;- [https://github.com/filipkarc/PoC-ubuntutouch-pin-privesc](https://github.com/filipkarc/PoC-ubuntutouch-pin-privesc) :  ![starts](https://img.shields.io/github/stars/filipkarc/PoC-ubuntutouch-pin-privesc.svg) ![forks](https://img.shields.io/github/forks/filipkarc/PoC-ubuntutouch-pin-privesc.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** UBports Ubuntu Touch 16.04 allows the screen-unlock passcode to be used for a privileged shell via Sudo. This passcode is only four digits, far below typical length/complexity for a user account's password. NOTE: a third party states &quot;The described attack cannot be executed as demonstrated.&quot;.",
+    "poc": [
+      "https://github.com/filipkarc/PoC-ubuntutouch-pin-privesc"
+    ]
   },
   {
     "cve_code": "CVE-2022-40146",
@@ -20665,8 +20659,44 @@
   },
   {
     "cve_code": "CVE-2021-34527",
-    "description": " &lt;p&gt;A remote code execution vulnerability exists when the Windows Print Spooler service improperly performs privileged file operations. An attacker who successfully exploited this vulnerability could run arbitrary code with SYSTEM privileges. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.&lt;/p&gt;. &lt;p&gt;UPDATE July 7, 2021: The security update for Windows Server 2012, Windows Server 2016 and Windows 10, Version 1607 have been released. Please see the Security Updates table for the applicable update for your system. We recommend that you install these updates immediately. If you are unable to install these updates, see the FAQ and Workaround sections in this CVE for information on how to help protect your system from this vulnerability.&lt;/p&gt; &lt;p&gt;In addition to installing the updates, in order to secure your system, you must confirm that the following registry settings are set to 0 (zero) or are not defined (&lt;strong&gt;Note&lt;/strong&gt;: These registry keys do not exist by default, and therefore are already at the secure setting.), also that your Group Policy setting are correct (see FAQ):&lt;/p&gt; &lt;ul&gt; &lt;li&gt;HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows NT\\Printers\\PointAndPrint&lt;/li&gt; &lt;li&gt;NoWarningNoElevationOnInstall = 0 (DWORD) or not defined (default setting)&lt;/li&gt; &lt;li&gt;UpdatePromptSettings = 0 (DWORD) or not defined (default setting)&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;Having NoWarningNoElevationOnInstall set to 1 makes your system vulnerable by design.&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;UPDATE July 6, 2021: Microsoft has completed the investigation and has released security updates to address this vulnerability. Please see the Security Updates table for the applicable update for your system. We recommend that you install these updates immediately. If you are unable to install these updates, see the FAQ and Workaround sections in this CVE for information on how to help protect your system from this vulnerability. See also &lt;a href=&quot;https://support.microsoft.com/topic/31b91c02-05bc-4ada-a7ea-183b129578a7&quot;&gt;KB5005010: Restricting installation of new printer drivers after applying the July 6, 2021 updates&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;Note that the security updates released on and after July 6, 2021 contain protections for CVE-2021-1675 and the additional remote code execution exploit in the Windows Print Spooler service known as &#8220;PrintNightmare&#8221;, documented in CVE-2021-34527.&lt;/p&gt;- [https://github.com/cube0x0/CVE-2021-1675](https://github.com/cube0x0/CVE-2021-1675) :  ![starts](https://img.shields.io/github/stars/cube0x0/CVE-2021-1675.svg) ![forks](https://img.shields.io/github/forks/cube0x0/CVE-2021-1675.svg)- [https://github.com/byt3bl33d3r/ItWasAllADream](https://github.com/byt3bl33d3r/ItWasAllADream) :  ![starts](https://img.shields.io/github/stars/byt3bl33d3r/ItWasAllADream.svg) ![forks](https://img.shields.io/github/forks/byt3bl33d3r/ItWasAllADream.svg)- [https://github.com/BeetleChunks/SpoolSploit](https://github.com/BeetleChunks/SpoolSploit) :  ![starts](https://img.shields.io/github/stars/BeetleChunks/SpoolSploit.svg) ![forks](https://img.shields.io/github/forks/BeetleChunks/SpoolSploit.svg)- [https://github.com/hlldz/CVE-2021-1675-LPE](https://github.com/hlldz/CVE-2021-1675-LPE) :  ![starts](https://img.shields.io/github/stars/hlldz/CVE-2021-1675-LPE.svg) ![forks](https://img.shields.io/github/forks/hlldz/CVE-2021-1675-LPE.svg)- [https://github.com/JohnHammond/CVE-2021-34527](https://github.com/JohnHammond/CVE-2021-34527) :  ![starts](https://img.shields.io/github/stars/JohnHammond/CVE-2021-34527.svg) ![forks](https://img.shields.io/github/forks/JohnHammond/CVE-2021-34527.svg)- [https://github.com/ly4k/PrintNightmare](https://github.com/ly4k/PrintNightmare) :  ![starts](https://img.shields.io/github/stars/ly4k/PrintNightmare.svg) ![forks](https://img.shields.io/github/forks/ly4k/PrintNightmare.svg)- [https://github.com/nemo-wq/PrintNightmare-CVE-2021-34527](https://github.com/nemo-wq/PrintNightmare-CVE-2021-34527) :  ![starts](https://img.shields.io/github/stars/nemo-wq/PrintNightmare-CVE-2021-34527.svg) ![forks](https://img.shields.io/github/forks/nemo-wq/PrintNightmare-CVE-2021-34527.svg)- [https://github.com/m8sec/CVE-2021-34527](https://github.com/m8sec/CVE-2021-34527) :  ![starts](https://img.shields.io/github/stars/m8sec/CVE-2021-34527.svg) ![forks](https://img.shields.io/github/forks/m8sec/CVE-2021-34527.svg)- [https://github.com/evilashz/CVE-2021-1675-LPE-EXP](https://github.com/evilashz/CVE-2021-1675-LPE-EXP) :  ![starts](https://img.shields.io/github/stars/evilashz/CVE-2021-1675-LPE-EXP.svg) ![forks](https://img.shields.io/github/forks/evilashz/CVE-2021-1675-LPE-EXP.svg)- [https://github.com/hackerhouse-opensource/cve-2021-34527](https://github.com/hackerhouse-opensource/cve-2021-34527) :  ![starts](https://img.shields.io/github/stars/hackerhouse-opensource/cve-2021-34527.svg) ![forks](https://img.shields.io/github/forks/hackerhouse-opensource/cve-2021-34527.svg)- [https://github.com/JumpsecLabs/PrintNightmare](https://github.com/JumpsecLabs/PrintNightmare) :  ![starts](https://img.shields.io/github/stars/JumpsecLabs/PrintNightmare.svg) ![forks](https://img.shields.io/github/forks/JumpsecLabs/PrintNightmare.svg)- [https://github.com/khulnasoft-lab/awesome-security](https://github.com/khulnasoft-lab/awesome-security) :  ![starts](https://img.shields.io/github/stars/khulnasoft-lab/awesome-security.svg) ![forks](https://img.shields.io/github/forks/khulnasoft-lab/awesome-security.svg)- [https://github.com/CnOxx1/CVE-2021-34527-1675](https://github.com/CnOxx1/CVE-2021-34527-1675) :  ![starts](https://img.shields.io/github/stars/CnOxx1/CVE-2021-34527-1675.svg) ![forks](https://img.shields.io/github/forks/CnOxx1/CVE-2021-34527-1675.svg)- [https://github.com/thomas-lauer/PrintNightmare](https://github.com/thomas-lauer/PrintNightmare) :  ![starts](https://img.shields.io/github/stars/thomas-lauer/PrintNightmare.svg) ![forks](https://img.shields.io/github/forks/thomas-lauer/PrintNightmare.svg)- [https://github.com/dywhoami/CVE-2021-34527-Scanner-Based-On-cube0x0-POC](https://github.com/dywhoami/CVE-2021-34527-Scanner-Based-On-cube0x0-POC) :  ![starts](https://img.shields.io/github/stars/dywhoami/CVE-2021-34527-Scanner-Based-On-cube0x0-POC.svg) ![forks](https://img.shields.io/github/forks/dywhoami/CVE-2021-34527-Scanner-Based-On-cube0x0-POC.svg)- [https://github.com/Tomparte/PrintNightmare](https://github.com/Tomparte/PrintNightmare) :  ![starts](https://img.shields.io/github/stars/Tomparte/PrintNightmare.svg) ![forks](https://img.shields.io/github/forks/Tomparte/PrintNightmare.svg)- [https://github.com/0xirison/PrintNightmare-Patcher](https://github.com/0xirison/PrintNightmare-Patcher) :  ![starts](https://img.shields.io/github/stars/0xirison/PrintNightmare-Patcher.svg) ![forks](https://img.shields.io/github/forks/0xirison/PrintNightmare-Patcher.svg)- [https://github.com/powershellpr0mpt/PrintNightmare-CVE-2021-34527](https://github.com/powershellpr0mpt/PrintNightmare-CVE-2021-34527) :  ![starts](https://img.shields.io/github/stars/powershellpr0mpt/PrintNightmare-CVE-2021-34527.svg) ![forks](https://img.shields.io/github/forks/powershellpr0mpt/PrintNightmare-CVE-2021-34527.svg)- [https://github.com/galoget/PrintNightmare-CVE-2021-1675-CVE-2021-34527](https://github.com/galoget/PrintNightmare-CVE-2021-1675-CVE-2021-34527) :  ![starts](https://img.shields.io/github/stars/galoget/PrintNightmare-CVE-2021-1675-CVE-2021-34527.svg) ![forks](https://img.shields.io/github/forks/galoget/PrintNightmare-CVE-2021-1675-CVE-2021-34527.svg)- [https://github.com/cyb3rpeace/CVE-2021-34527](https://github.com/cyb3rpeace/CVE-2021-34527) :  ![starts](https://img.shields.io/github/stars/cyb3rpeace/CVE-2021-34527.svg) ![forks](https://img.shields.io/github/forks/cyb3rpeace/CVE-2021-34527.svg)- [https://github.com/Amaranese/CVE-2021-34527](https://github.com/Amaranese/CVE-2021-34527) :  ![starts](https://img.shields.io/github/stars/Amaranese/CVE-2021-34527.svg) ![forks](https://img.shields.io/github/forks/Amaranese/CVE-2021-34527.svg)- [https://github.com/whoami-chmod777/CVE-2021-1675-CVE-2021-34527](https://github.com/whoami-chmod777/CVE-2021-1675-CVE-2021-34527) :  ![starts](https://img.shields.io/github/stars/whoami-chmod777/CVE-2021-1675-CVE-2021-34527.svg) ![forks](https://img.shields.io/github/forks/whoami-chmod777/CVE-2021-1675-CVE-2021-34527.svg)- [https://github.com/geekbrett/CVE-2021-34527-PrintNightmare-Workaround](https://github.com/geekbrett/CVE-2021-34527-PrintNightmare-Workaround) :  ![starts](https://img.shields.io/github/stars/geekbrett/CVE-2021-34527-PrintNightmare-Workaround.svg) ![forks](https://img.shields.io/github/forks/geekbrett/CVE-2021-34527-PrintNightmare-Workaround.svg)- [https://github.com/rdboboia/disable-RegisterSpoolerRemoteRpcEndPoint](https://github.com/rdboboia/disable-RegisterSpoolerRemoteRpcEndPoint) :  ![starts](https://img.shields.io/github/stars/rdboboia/disable-RegisterSpoolerRemoteRpcEndPoint.svg) ![forks](https://img.shields.io/github/forks/rdboboia/disable-RegisterSpoolerRemoteRpcEndPoint.svg)- [https://github.com/pyonghe/PrintNightMareChecker](https://github.com/pyonghe/PrintNightMareChecker) :  ![starts](https://img.shields.io/github/stars/pyonghe/PrintNightMareChecker.svg) ![forks](https://img.shields.io/github/forks/pyonghe/PrintNightMareChecker.svg)- [https://github.com/SystemJargon/infosec_1](https://github.com/SystemJargon/infosec_1) :  ![starts](https://img.shields.io/github/stars/SystemJargon/infosec_1.svg) ![forks](https://img.shields.io/github/forks/SystemJargon/infosec_1.svg)- [https://github.com/DenizSe/CVE-2021-34527](https://github.com/DenizSe/CVE-2021-34527) :  ![starts](https://img.shields.io/github/stars/DenizSe/CVE-2021-34527.svg) ![forks](https://img.shields.io/github/forks/DenizSe/CVE-2021-34527.svg)- [https://github.com/glorisonlai/printnightmare](https://github.com/glorisonlai/printnightmare) :  ![starts](https://img.shields.io/github/stars/glorisonlai/printnightmare.svg) ![forks](https://img.shields.io/github/forks/glorisonlai/printnightmare.svg)- [https://github.com/d0rb/CVE-2021-34527](https://github.com/d0rb/CVE-2021-34527) :  ![starts](https://img.shields.io/github/stars/d0rb/CVE-2021-34527.svg) ![forks](https://img.shields.io/github/forks/d0rb/CVE-2021-34527.svg)- [https://github.com/Eutectico/Printnightmare](https://github.com/Eutectico/Printnightmare) :  ![starts](https://img.shields.io/github/stars/Eutectico/Printnightmare.svg) ![forks](https://img.shields.io/github/forks/Eutectico/Printnightmare.svg)- [https://github.com/WidespreadPandemic/CVE-2021-34527_ACL_mitigation](https://github.com/WidespreadPandemic/CVE-2021-34527_ACL_mitigation) :  ![starts](https://img.shields.io/github/stars/WidespreadPandemic/CVE-2021-34527_ACL_mitigation.svg) ![forks](https://img.shields.io/github/forks/WidespreadPandemic/CVE-2021-34527_ACL_mitigation.svg)- [https://github.com/TieuLong21Prosper/detect_bruteforce](https://github.com/TieuLong21Prosper/detect_bruteforce) :  ![starts](https://img.shields.io/github/stars/TieuLong21Prosper/detect_bruteforce.svg) ![forks](https://img.shields.io/github/forks/TieuLong21Prosper/detect_bruteforce.svg)- [https://github.com/vinaysudheer/Disable-Spooler-Service-PrintNightmare-CVE-2021-34527](https://github.com/vinaysudheer/Disable-Spooler-Service-PrintNightmare-CVE-2021-34527) :  ![starts](https://img.shields.io/github/stars/vinaysudheer/Disable-Spooler-Service-PrintNightmare-CVE-2021-34527.svg) ![forks](https://img.shields.io/github/forks/vinaysudheer/Disable-Spooler-Service-PrintNightmare-CVE-2021-34527.svg)- [https://github.com/r1skkam/PrintNightmare](https://github.com/r1skkam/PrintNightmare) :  ![starts](https://img.shields.io/github/stars/r1skkam/PrintNightmare.svg) ![forks](https://img.shields.io/github/forks/r1skkam/PrintNightmare.svg)- [https://github.com/syntaxbearror/PowerShell-PrintNightmare](https://github.com/syntaxbearror/PowerShell-PrintNightmare) :  ![starts](https://img.shields.io/github/stars/syntaxbearror/PowerShell-PrintNightmare.svg) ![forks](https://img.shields.io/github/forks/syntaxbearror/PowerShell-PrintNightmare.svg)",
-    "poc": []
+    "description": " &lt;p&gt;A remote code execution vulnerability exists when the Windows Print Spooler service improperly performs privileged file operations. An attacker who successfully exploited this vulnerability could run arbitrary code with SYSTEM privileges. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.&lt;/p&gt;. &lt;p&gt;UPDATE July 7, 2021: The security update for Windows Server 2012, Windows Server 2016 and Windows 10, Version 1607 have been released. Please see the Security Updates table for the applicable update for your system. We recommend that you install these updates immediately. If you are unable to install these updates, see the FAQ and Workaround sections in this CVE for information on how to help protect your system from this vulnerability.&lt;/p&gt; &lt;p&gt;In addition to installing the updates, in order to secure your system, you must confirm that the following registry settings are set to 0 (zero) or are not defined (&lt;strong&gt;Note&lt;/strong&gt;: These registry keys do not exist by default, and therefore are already at the secure setting.), also that your Group Policy setting are correct (see FAQ):&lt;/p&gt; &lt;ul&gt; &lt;li&gt;HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows NT\\Printers\\PointAndPrint&lt;/li&gt; &lt;li&gt;NoWarningNoElevationOnInstall = 0 (DWORD) or not defined (default setting)&lt;/li&gt; &lt;li&gt;UpdatePromptSettings = 0 (DWORD) or not defined (default setting)&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;Having NoWarningNoElevationOnInstall set to 1 makes your system vulnerable by design.&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;UPDATE July 6, 2021: Microsoft has completed the investigation and has released security updates to address this vulnerability. Please see the Security Updates table for the applicable update for your system. We recommend that you install these updates immediately. If you are unable to install these updates, see the FAQ and Workaround sections in this CVE for information on how to help protect your system from this vulnerability. See also &lt;a href=&quot;https://support.microsoft.com/topic/31b91c02-05bc-4ada-a7ea-183b129578a7&quot;&gt;KB5005010: Restricting installation of new printer drivers after applying the July 6, 2021 updates&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;Note that the security updates released on and after July 6, 2021 contain protections for CVE-2021-1675 and the additional remote code execution exploit in the Windows Print Spooler service known as &#8220;PrintNightmare&#8221;, documented in CVE-2021-34527.&lt;/p&gt;.",
+    "poc": [
+      "https://github.com/cube0x0/CVE-2021-1675",
+      "https://github.com/byt3bl33d3r/ItWasAllADream",
+      "https://github.com/BeetleChunks/SpoolSploit",
+      "https://github.com/hlldz/CVE-2021-1675-LPE",
+      "https://github.com/JohnHammond/CVE-2021-34527",
+      "https://github.com/ly4k/PrintNightmare",
+      "https://github.com/nemo-wq/PrintNightmare-CVE-2021-34527",
+      "https://github.com/m8sec/CVE-2021-34527",
+      "https://github.com/evilashz/CVE-2021-1675-LPE-EXP",
+      "https://github.com/hackerhouse-opensource/cve-2021-34527",
+      "https://github.com/JumpsecLabs/PrintNightmare",
+      "https://github.com/khulnasoft-lab/awesome-security",
+      "https://github.com/CnOxx1/CVE-2021-34527-1675",
+      "https://github.com/thomas-lauer/PrintNightmare",
+      "https://github.com/dywhoami/CVE-2021-34527-Scanner-Based-On-cube0x0-POC",
+      "https://github.com/Tomparte/PrintNightmare",
+      "https://github.com/0xirison/PrintNightmare-Patcher",
+      "https://github.com/powershellpr0mpt/PrintNightmare-CVE-2021-34527",
+      "https://github.com/galoget/PrintNightmare-CVE-2021-1675-CVE-2021-34527",
+      "https://github.com/cyb3rpeace/CVE-2021-34527",
+      "https://github.com/Amaranese/CVE-2021-34527",
+      "https://github.com/whoami-chmod777/CVE-2021-1675-CVE-2021-34527",
+      "https://github.com/geekbrett/CVE-2021-34527-PrintNightmare-Workaround",
+      "https://github.com/rdboboia/disable-RegisterSpoolerRemoteRpcEndPoint",
+      "https://github.com/pyonghe/PrintNightMareChecker",
+      "https://github.com/SystemJargon/infosec_1",
+      "https://github.com/DenizSe/CVE-2021-34527",
+      "https://github.com/glorisonlai/printnightmare",
+      "https://github.com/d0rb/CVE-2021-34527",
+      "https://github.com/Eutectico/Printnightmare",
+      "https://github.com/WidespreadPandemic/CVE-2021-34527_ACL_mitigation",
+      "https://github.com/TieuLong21Prosper/detect_bruteforce",
+      "https://github.com/vinaysudheer/Disable-Spooler-Service-PrintNightmare-CVE-2021-34527",
+      "https://github.com/r1skkam/PrintNightmare",
+      "https://github.com/syntaxbearror/PowerShell-PrintNightmare"
+    ]
   },
   {
     "cve_code": "CVE-2021-34523",
@@ -20697,8 +20727,10 @@
   },
   {
     "cve_code": "CVE-2021-34481",
-    "description": " &lt;p&gt;A remote code execution vulnerability exists when the Windows Print Spooler service improperly performs privileged file operations. An attacker who successfully exploited this vulnerability could run arbitrary code with SYSTEM privileges. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.&lt;/p&gt;. &lt;p&gt;&lt;strong&gt;UPDATE&lt;/strong&gt; August 10, 2021: Microsoft has completed the investigation and has released security updates to address this vulnerability. Please see the Security Updates table for the applicable update for your system. We recommend that you install these updates immediately. This security update changes the Point and Print default behavior; please see &lt;a href=&quot;https://support.microsoft.com/help/5005652&quot;&gt;KB5005652&lt;/a&gt;.&lt;/p&gt;- [https://github.com/vpn28/CVE-2021-34481](https://github.com/vpn28/CVE-2021-34481) :  ![starts](https://img.shields.io/github/stars/vpn28/CVE-2021-34481.svg) ![forks](https://img.shields.io/github/forks/vpn28/CVE-2021-34481.svg)",
-    "poc": []
+    "description": " &lt;p&gt;A remote code execution vulnerability exists when the Windows Print Spooler service improperly performs privileged file operations. An attacker who successfully exploited this vulnerability could run arbitrary code with SYSTEM privileges. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.&lt;/p&gt;. &lt;p&gt;&lt;strong&gt;UPDATE&lt;/strong&gt; August 10, 2021: Microsoft has completed the investigation and has released security updates to address this vulnerability. Please see the Security Updates table for the applicable update for your system. We recommend that you install these updates immediately. This security update changes the Point and Print default behavior; please see &lt;a href=&quot;https://support.microsoft.com/help/5005652&quot;&gt;KB5005652&lt;/a&gt;.&lt;/p&gt;.",
+    "poc": [
+      "https://github.com/vpn28/CVE-2021-34481"
+    ]
   },
   {
     "cve_code": "CVE-2021-34473",
@@ -21497,8 +21529,10 @@
   },
   {
     "cve_code": "CVE-2021-29200",
-    "description": " Apache OFBiz has unsafe deserialization prior to 17.12.07 version. An unauthenticated user can perform an RCE attack- [https://github.com/freeide/CVE-2021-29200](https://github.com/freeide/CVE-2021-29200) :  ![starts](https://img.shields.io/github/stars/freeide/CVE-2021-29200.svg) ![forks](https://img.shields.io/github/forks/freeide/CVE-2021-29200.svg)",
-    "poc": []
+    "description": " Apache OFBiz has unsafe deserialization prior to 17.12.07 version. An unauthenticated user can perform an RCE attack.",
+    "poc": [
+      "https://github.com/freeide/CVE-2021-29200"
+    ]
   },
   {
     "cve_code": "CVE-2021-29156",
@@ -26397,10 +26431,8 @@
   },
   {
     "cve_code": "CVE-2020-14144",
-    "description": " ** DISP.UTED ** The git hook feature in Gitea 1.1.0 through 1.12.5 might allow for authenticated remote code execution in customer environments where the documentation was not understood (e.g., one viewpoint is that the dangerousness of this feature should be documented immediately above the ENABLE_GIT_HOOKS line in the config file). NOTE: The vendor has indicated this is not a vulnerability and states &quot;This is a functionality of the software that is limited to a very limited subset of accounts. If you give someone the privilege to execute arbitrary code on your server, they can execute arbitrary code on your server. We provide very clear warnings to users around this functionality and what it provides.&quot;.",
-    "poc": [
-      "https://github.com/p0dalirius/CVE-2020-14144-GiTea-git-hooks-rce"
-    ]
+    "description": " ** DISP.UTED ** The git hook feature in Gitea 1.1.0 through 1.12.5 might allow for authenticated remote code execution in customer environments where the documentation was not understood (e.g., one viewpoint is that the dangerousness of this feature should be documented immediately above the ENABLE_GIT_HOOKS line in the config file). NOTE: The vendor has indicated this is not a vulnerability and states &quot;This is a functionality of the software that is limited to a very limited subset of accounts. If you give someone the privilege to execute arbitrary code on your server, they can execute arbitrary code on your server. We provide very clear warnings to users around this functionality and what it provides.&quot;- [https://github.com/p0dalirius/CVE-2020-14144-GiTea-git-hooks-rce](https://github.com/p0dalirius/CVE-2020-14144-GiTea-git-hooks-rce) :  ![starts](https://img.shields.io/github/stars/p0dalirius/CVE-2020-14144-GiTea-git-hooks-rce.svg) ![forks](https://img.shields.io/github/forks/p0dalirius/CVE-2020-14144-GiTea-git-hooks-rce.svg)",
+    "poc": []
   },
   {
     "cve_code": "CVE-2020-14066",
@@ -30065,15 +30097,15 @@
       "https://github.com/ynsmroztas/citrix.sh",
       "https://github.com/digitalshadows/CVE-2019-19781_IOCs",
       "https://github.com/LeapBeyond/cve_2019_19781",
-      "https://github.com/hollerith/CVE-2019-19781",
       "https://github.com/yukar1z0e/CVE-2019-19781",
+      "https://github.com/hollerith/CVE-2019-19781",
       "https://github.com/SharpHack/CVE-2019-19781",
       "https://github.com/b510/CVE-2019-19781",
       "https://github.com/Castaldio86/Detect-CVE-2019-19781",
       "https://github.com/5l1v3r1/Citrix_CVE-2019-19781",
       "https://github.com/darren646/CVE-2019-19781POC",
-      "https://github.com/qiong-qi/CVE-2019-19781-poc",
       "https://github.com/zenturacp/cve-2019-19781-web",
+      "https://github.com/qiong-qi/CVE-2019-19781-poc",
       "https://github.com/zgelici/CVE-2019-19781-Checker",
       "https://github.com/Azeemering/CVE-2019-19781-DFIR-Notes",
       "https://github.com/0xams/citrixvulncheck",
@@ -30872,8 +30904,8 @@
       "https://github.com/sunnet-cyber/CVE2019_16278",
       "https://github.com/keshiba/cve-2019-16278",
       "https://github.com/0xTabun/CVE-2019-16278",
-      "https://github.com/c0d3cr4f73r/CVE-2019-16278",
       "https://github.com/alexander-fernandes/CVE-2019-16278",
+      "https://github.com/c0d3cr4f73r/CVE-2019-16278",
       "https://github.com/FredBrave/CVE-2019-16278-Nostromo-1.9.6-RCE"
     ]
   },
@@ -31138,12 +31170,12 @@
       "https://github.com/h4ck0rman/CVE-2019-15107",
       "https://github.com/diegojuan/CVE-2019-15107",
       "https://github.com/lolminerxmrig/CVE-2019-15107",
-      "https://github.com/merlin-ke/CVE_2019_15107",
       "https://github.com/darrenmartyn/CVE-2019-15107",
+      "https://github.com/merlin-ke/CVE_2019_15107",
       "https://github.com/olingo99/CVE-2019-15107",
       "https://github.com/0x4r2/Webmin-CVE-2019-15107",
-      "https://github.com/hacknotes/CVE-2019-15107-Exploit",
       "https://github.com/squid22/Webmin_CVE-2019-15107",
+      "https://github.com/hacknotes/CVE-2019-15107-Exploit",
       "https://github.com/Tuz-Wwsd/CVE-2019-15107_detection",
       "https://github.com/cdedmondson/Modified-CVE-2019-15107",
       "https://github.com/hadrian3689/webmin_1.920",
@@ -32555,6 +32587,14 @@
     ]
   },
   {
+    "cve_code": "CVE-2019-10392",
+    "description": " Jenkins Git Client Plugin 2.8.4 and earlier and 3.0.0-rc did not properly restrict values passed as URL argument to an invocation of 'git ls-remote', resulting in OS command injection.",
+    "poc": [
+      "https://github.com/jas502n/CVE-2019-10392",
+      "https://github.com/ftk-sostupid/CVE-2019-10392_EXP"
+    ]
+  },
+  {
     "cve_code": "CVE-2019-10220",
     "description": " Linux kernel CIFS implementation, version 4.9.0 is vulnerable to a relative paths injection in directory entry lists.",
     "poc": [
@@ -32883,8 +32923,8 @@
       "https://github.com/kahluri/CVE-2019-9053",
       "https://github.com/fernandobortotti/CVE-2019-9053",
       "https://github.com/STERN3L/CVE-2019-9053",
-      "https://github.com/byrek/CVE-2019-9053",
       "https://github.com/BjarneVerschorre/CVE-2019-9053",
+      "https://github.com/byrek/CVE-2019-9053",
       "https://github.com/im-suman-roy/CVE-2019-9053",
       "https://github.com/pedrojosenavasperez/CVE-2019-9053-Python3",
       "https://github.com/zmiddle/Simple_CMS_SQLi",
@@ -33336,8 +33376,8 @@
       "https://github.com/c0d3cr4f73r/CVE-2019-6447",
       "https://github.com/volysandro/cve_2019-6447",
       "https://github.com/VinuKalana/CVE-2019-6447-Android-Vulnerability-in-ES-File-Explorer",
-      "https://github.com/febinrev/CVE-2019-6447-ESfile-explorer-exploit",
       "https://github.com/KaviDk/CVE-2019-6447-in-Mobile-Application",
+      "https://github.com/febinrev/CVE-2019-6447-ESfile-explorer-exploit",
       "https://github.com/SandaRuFdo/ES-File-Explorer-Open-Port-Vulnerability---CVE-2019-6447",
       "https://github.com/julio-cfa/POC-ES-File-Explorer-CVE-2019-6447",
       "https://github.com/KasunPriyashan/CVE-2019_6447-ES-File-Explorer-Exploitation"
@@ -33666,8 +33706,8 @@
       "https://github.com/CyberSecurityUP/CVE-2019-5420-POC",
       "https://github.com/cved-sources/cve-2019-5420",
       "https://github.com/trickstersec/CVE-2019-5420",
-      "https://github.com/Eremiel/CVE-2019-5420",
       "https://github.com/PenTestical/CVE-2019-5420",
+      "https://github.com/Eremiel/CVE-2019-5420",
       "https://github.com/AnasTaoutaou/CVE-2019-5420",
       "https://github.com/mmeza-developer/CVE-2019-5420-RCE"
     ]
@@ -34036,298 +34076,6 @@
     "poc": [
       "https://github.com/marcinguy/CVE-2019-2107",
       "https://github.com/infiniteLoopers/CVE-2019-2107"
-    ]
-  },
-  {
-    "cve_code": "CVE-2019-2025",
-    "description": " In binder_thread_read of binder.c, there is a possible use-after-free due to improper locking. This could lead to local escalation of privilege in the kernel with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android kernelAndroid ID: A-116855682References: Upstream kernel.",
-    "poc": [
-      "https://github.com/jltxgcy/CVE_2019_2025_EXP"
-    ]
-  },
-  {
-    "cve_code": "CVE-2019-2022",
-    "description": " In rw_t3t_act_handle_fmt_rsp and rw_t3t_act_handle_sro_rsp of rw_t3t.cc, there is a possible out-of-bound read due to a missing bounds check. This could lead to local information disclosure with no additional execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-7.0 Android-7.1.1 Android-7.1.2 Android-8.0 Android-8.1 Android-9Android ID: A-120506143.",
-    "poc": [
-      "https://github.com/AhnSungHoon/Kali_CVE"
-    ]
-  },
-  {
-    "cve_code": "CVE-2019-2017",
-    "description": " In rw_t2t_handle_tlv_detect_rsp of rw_t2t_ndef.cc, there is a possible out-of-bound write due to a missing bounds check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-7.0 Android-7.1.1 Android-7.1.2 Android-8.0 Android-8.1 Android-9Android ID: A-121035711.",
-    "poc": [
-      "https://github.com/grmono/CVE2019-2017_POC"
-    ]
-  },
-  {
-    "cve_code": "CVE-2019-1821",
-    "description": " A vulnerability in the web-based management interface of Cisco Prime Infrastructure (PI) and Cisco Evolved Programmable Network (EPN) Manager could allow an authenticated, remote attacker to execute code with root-level privileges on the underlying operating system. This vulnerability exist because the software improperly validates user-supplied input. An attacker could exploit this vulnerability by uploading a malicious file to the administrative web interface. A successful exploit could allow the attacker to execute code with root-level privileges on the underlying operating system.",
-    "poc": [
-      "https://github.com/k8gege/CiscoExploit"
-    ]
-  },
-  {
-    "cve_code": "CVE-2019-1759",
-    "description": " A vulnerability in access control list (ACL) functionality of the Gigabit Ethernet Management interface of Cisco IOS XE Software could allow an unauthenticated, remote attacker to reach the configured IP addresses on the Gigabit Ethernet Management interface. The vulnerability is due to a logic error that was introduced in the Cisco IOS XE Software 16.1.1 Release, which prevents the ACL from working when applied against the management interface. An attacker could exploit this issue by attempting to access the device via the management interface.",
-    "poc": [
-      "https://github.com/r3m0t3nu11/CVE-2019-1759-csrf-js-rce"
-    ]
-  },
-  {
-    "cve_code": "CVE-2019-1663",
-    "description": " A vulnerability in the web-based management interface of the Cisco RV110W Wireless-N VPN Firewall, Cisco RV130W Wireless-N Multifunction VPN Router, and Cisco RV215W Wireless-N VPN Router could allow an unauthenticated, remote attacker to execute arbitrary code on an affected device. The vulnerability is due to improper validation of user-supplied data in the web-based management interface. An attacker could exploit this vulnerability by sending malicious HTTP requests to a targeted device. A successful exploit could allow the attacker to execute arbitrary code on the underlying operating system of the affected device as a high-privilege user. RV110W Wireless-N VPN Firewall versions prior to 1.2.2.1 are affected. RV130W Wireless-N Multifunction VPN Router versions prior to 1.0.3.45 are affected. RV215W Wireless-N VPN Router versions prior to 1.3.1.1 are affected.",
-    "poc": [
-      "https://github.com/StealYourCode/CVE-2019-1663",
-      "https://github.com/Oraxiage/CVE-2019-1663",
-      "https://github.com/e180175/CVE-2019-1663-vuln"
-    ]
-  },
-  {
-    "cve_code": "CVE-2019-1653",
-    "description": " A vulnerability in the web-based management interface of Cisco Small Business RV320 and RV325 Dual Gigabit WAN VPN Routers could allow an unauthenticated, remote attacker to retrieve sensitive information. The vulnerability is due to improper access controls for URLs. An attacker could exploit this vulnerability by connecting to an affected device via HTTP or HTTPS and requesting specific URLs. A successful exploit could allow the attacker to download the router configuration or detailed diagnostic information. Cisco has released firmware updates that address this vulnerability.",
-    "poc": [
-      "https://github.com/0x27/CiscoRV320Dump",
-      "https://github.com/k8gege/CiscoExploit",
-      "https://github.com/shaheemirza/CiscoSpill",
-      "https://github.com/dubfr33/CVE-2019-1653",
-      "https://github.com/S3ntinelX/nmap-scripts",
-      "https://github.com/ibrahimzx/CVE-2019-1653"
-    ]
-  },
-  {
-    "cve_code": "CVE-2019-1652",
-    "description": " A vulnerability in the web-based management interface of Cisco Small Business RV320 and RV325 Dual Gigabit WAN VPN Routers could allow an authenticated, remote attacker with administrative privileges on an affected device to execute arbitrary commands. The vulnerability is due to improper validation of user-supplied input. An attacker could exploit this vulnerability by sending malicious HTTP POST requests to the web-based management interface of an affected device. A successful exploit could allow the attacker to execute arbitrary commands on the underlying Linux shell as root. Cisco has released firmware updates that address this vulnerability.",
-    "poc": [
-      "https://github.com/0x27/CiscoRV320Dump"
-    ]
-  },
-  {
-    "cve_code": "CVE-2019-1579",
-    "description": " Remote Code Execution in PAN-OS 7.1.18 and earlier, PAN-OS 8.0.11-h1 and earlier, and PAN-OS 8.1.2 and earlier with GlobalProtect Portal or GlobalProtect Gateway Interface enabled may allow an unauthenticated remote attacker to execute arbitrary code.",
-    "poc": [
-      "https://github.com/securifera/CVE-2019-1579",
-      "https://github.com/Elsfa7-110/CVE-2019-1579"
-    ]
-  },
-  {
-    "cve_code": "CVE-2019-1477",
-    "description": " An elevation of privilege vulnerability exists when the Windows Printer Service improperly validates file paths while loading printer drivers, aka 'Windows Printer Service Elevation of Privilege Vulnerability'.",
-    "poc": [
-      "https://github.com/2yong1/CVE-2019-1477"
-    ]
-  },
-  {
-    "cve_code": "CVE-2019-1476",
-    "description": " An elevation of privilege vulnerability exists when Windows AppX Deployment Service (AppXSVC) improperly handles hard links, aka 'Windows Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-1483.",
-    "poc": [
-      "https://github.com/sgabe/CVE-2019-1476"
-    ]
-  },
-  {
-    "cve_code": "CVE-2019-1458",
-    "description": " An elevation of privilege vulnerability exists in Windows when the Win32k component fails to properly handle objects in memory, aka 'Win32k Elevation of Privilege Vulnerability'.",
-    "poc": [
-      "https://github.com/piotrflorczyk/cve-2019-1458_POC",
-      "https://github.com/rip1s/CVE-2019-1458",
-      "https://github.com/Eternit7/CVE-2019-1458"
-    ]
-  },
-  {
-    "cve_code": "CVE-2019-1422",
-    "description": " An elevation of privilege vulnerability exists in the way that the iphlpsvc.dll handles file creation allowing for a file overwrite, aka 'Windows Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-1420, CVE-2019-1423.",
-    "poc": [
-      "https://github.com/ze0r/cve-2019-1422"
-    ]
-  },
-  {
-    "cve_code": "CVE-2019-1405",
-    "description": " An elevation of privilege vulnerability exists when the Windows Universal Plug and Play (UPnP) service improperly allows COM object creation, aka 'Windows UPnP Service Elevation of Privilege Vulnerability'.",
-    "poc": [
-      "https://github.com/Al1ex/WindowsElevation",
-      "https://github.com/apt69/COMahawk"
-    ]
-  },
-  {
-    "cve_code": "CVE-2019-1402",
-    "description": " An information disclosure vulnerability exists in Microsoft Office software when the software fails to properly handle objects in memory, aka 'Microsoft Office Information Disclosure Vulnerability'.",
-    "poc": [
-      "https://github.com/lauxjpn/CorruptQueryAccessWorkaround"
-    ]
-  },
-  {
-    "cve_code": "CVE-2019-1388",
-    "description": " An elevation of privilege vulnerability exists in the Windows Certificate Dialog when it does not properly enforce user privileges, aka 'Windows Certificate Dialog Elevation of Privilege Vulnerability'.",
-    "poc": [
-      "https://github.com/jas502n/CVE-2019-1388",
-      "https://github.com/sv3nbeast/CVE-2019-1388",
-      "https://github.com/nobodyatall648/CVE-2019-1388",
-      "https://github.com/suprise4u/CVE-2019-1388",
-      "https://github.com/jaychouzzk/CVE-2019-1388"
-    ]
-  },
-  {
-    "cve_code": "CVE-2019-1385",
-    "description": " An elevation of privilege vulnerability exists when the Windows AppX Deployment Extensions improperly performs privilege management, resulting in access to system files.To exploit this vulnerability, an authenticated attacker would need to run a specially crafted application to elevate privileges.The security update addresses the vulnerability by correcting how AppX Deployment Extensions manages privileges., aka 'Windows AppX Deployment Extensions Elevation of Privilege Vulnerability'.",
-    "poc": [
-      "https://github.com/0x413x4/CVE-2019-1385"
-    ]
-  },
-  {
-    "cve_code": "CVE-2019-1367",
-    "description": " A remote code execution vulnerability exists in the way that the scripting engine handles objects in memory in Internet Explorer, aka 'Scripting Engine Memory Corruption Vulnerability'. This CVE ID is unique from CVE-2019-1221.",
-    "poc": [
-      "https://github.com/mandarenmanman/CVE-2019-1367"
-    ]
-  },
-  {
-    "cve_code": "CVE-2019-1351",
-    "description": " A tampering vulnerability exists when Git for Visual Studio improperly handles virtual drive paths, aka 'Git for Visual Studio Tampering Vulnerability'.",
-    "poc": [
-      "https://github.com/JonasDL/PruebaCVE20191351"
-    ]
-  },
-  {
-    "cve_code": "CVE-2019-1332",
-    "description": " A cross-site scripting (XSS) vulnerability exists when Microsoft SQL Server Reporting Services (SSRS) does not properly sanitize a specially-crafted web request to an affected SSRS server, aka 'Microsoft SQL Server Reporting Services XSS Vulnerability'.",
-    "poc": [
-      "https://github.com/mbadanoiu/CVE-2019-1332"
-    ]
-  },
-  {
-    "cve_code": "CVE-2019-1322",
-    "description": " An elevation of privilege vulnerability exists when Windows improperly handles authentication requests, aka 'Microsoft Windows Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-1320, CVE-2019-1340.",
-    "poc": [
-      "https://github.com/apt69/COMahawk"
-    ]
-  },
-  {
-    "cve_code": "CVE-2019-1315",
-    "description": " An elevation of privilege vulnerability exists when Windows Error Reporting manager improperly handles hard links, aka 'Windows Error Reporting Manager Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-1339, CVE-2019-1342.",
-    "poc": [
-      "https://github.com/Mayter/CVE-2019-1315"
-    ]
-  },
-  {
-    "cve_code": "CVE-2019-1253",
-    "description": " An elevation of privilege vulnerability exists when the Windows AppX Deployment Server improperly handles junctions.To exploit this vulnerability, an attacker would first have to gain execution on the victim system, aka 'Windows Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-1215, CVE-2019-1278, CVE-2019-1303.",
-    "poc": [
-      "https://github.com/padovah4ck/CVE-2019-1253",
-      "https://github.com/rogue-kdc/CVE-2019-1253",
-      "https://github.com/sgabe/CVE-2019-1253",
-      "https://github.com/likescam/CVE-2019-1253",
-      "https://github.com/offsec-ttps/CVE2019-1253-Compiled"
-    ]
-  },
-  {
-    "cve_code": "CVE-2019-1221",
-    "description": " A remote code execution vulnerability exists in the way that the scripting engine handles objects in memory in Internet Explorer, aka 'Scripting Engine Memory Corruption Vulnerability'.",
-    "poc": [
-      "https://github.com/ZwCreatePhoton/CVE-2019-1221"
-    ]
-  },
-  {
-    "cve_code": "CVE-2019-1218",
-    "description": " A spoofing vulnerability exists in the way Microsoft Outlook iOS software parses specifically crafted email messages, aka 'Outlook iOS Spoofing Vulnerability'.",
-    "poc": [
-      "https://github.com/d0gukank/CVE-2019-1218"
-    ]
-  },
-  {
-    "cve_code": "CVE-2019-1215",
-    "description": " An elevation of privilege vulnerability exists in the way that ws2ifsl.sys (Winsock) handles objects in memory, aka 'Windows Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-1253, CVE-2019-1278, CVE-2019-1303.",
-    "poc": [
-      "https://github.com/bluefrostsecurity/CVE-2019-1215"
-    ]
-  },
-  {
-    "cve_code": "CVE-2019-1182",
-    "description": " A remote code execution vulnerability exists in Remote Desktop Services &#8364;&#8220; formerly known as Terminal Services &#8364;&#8220; when an unauthenticated attacker connects to the target system using RDP and sends specially crafted requests, aka 'Remote Desktop Services Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2019-1181, CVE-2019-1222, CVE-2019-1226.",
-    "poc": [
-      "https://github.com/chefphenix25/vuln-rabilit-windows7"
-    ]
-  },
-  {
-    "cve_code": "CVE-2019-1181",
-    "description": " A remote code execution vulnerability exists in Remote Desktop Services &#8364;&#8220; formerly known as Terminal Services &#8364;&#8220; when an unauthenticated attacker connects to the target system using RDP and sends specially crafted requests, aka 'Remote Desktop Services Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2019-1182, CVE-2019-1222, CVE-2019-1226.",
-    "poc": [
-      "https://github.com/major203/cve-2019-1181",
-      "https://github.com/chefphenix25/vuln-rabilit-windows7"
-    ]
-  },
-  {
-    "cve_code": "CVE-2019-1130",
-    "description": " An elevation of privilege vulnerability exists when Windows AppX Deployment Service (AppXSVC) improperly handles hard links, aka 'Windows Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-1129.",
-    "poc": [
-      "https://github.com/S3cur3Th1sSh1t/SharpByeBear"
-    ]
-  },
-  {
-    "cve_code": "CVE-2019-1129",
-    "description": " An elevation of privilege vulnerability exists when Windows AppX Deployment Service (AppXSVC) improperly handles hard links, aka 'Windows Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-1130.",
-    "poc": [
-      "https://github.com/S3cur3Th1sSh1t/SharpByeBear"
-    ]
-  },
-  {
-    "cve_code": "CVE-2019-1108",
-    "description": " An information disclosure vulnerability exists when the Windows RDP client improperly discloses the contents of its memory, aka 'Remote Desktop Protocol Client Information Disclosure Vulnerability'.",
-    "poc": [
-      "https://github.com/Lanph3re/cve-2019-1108"
-    ]
-  },
-  {
-    "cve_code": "CVE-2019-1096",
-    "description": " An information disclosure vulnerability exists when the win32k component improperly provides kernel information, aka 'Win32k Information Disclosure Vulnerability'.",
-    "poc": [
-      "https://github.com/CrackerCat/cve-2019-1096-poc"
-    ]
-  },
-  {
-    "cve_code": "CVE-2019-1069",
-    "description": " An elevation of privilege vulnerability exists in the way the Task Scheduler Service validates certain file operations, aka 'Task Scheduler Elevation of Privilege Vulnerability'.",
-    "poc": [
-      "https://github.com/S3cur3Th1sSh1t/SharpPolarBear"
-    ]
-  },
-  {
-    "cve_code": "CVE-2019-1068",
-    "description": " A remote code execution vulnerability exists in Microsoft SQL Server when it incorrectly handles processing of internal functions, aka 'Microsoft SQL Server Remote Code Execution Vulnerability'.",
-    "poc": [
-      "https://github.com/Vulnerability-Playground/CVE-2019-1068"
-    ]
-  },
-  {
-    "cve_code": "CVE-2019-1064",
-    "description": " An elevation of privilege vulnerability exists when Windows AppX Deployment Service (AppXSVC) improperly handles hard links, aka 'Windows Elevation of Privilege Vulnerability'.",
-    "poc": [
-      "https://github.com/RythmStick/CVE-2019-1064",
-      "https://github.com/0x00-0x00/CVE-2019-1064",
-      "https://github.com/attackgithub/CVE-2019-1064"
-    ]
-  },
-  {
-    "cve_code": "CVE-2019-1041",
-    "description": " An elevation of privilege vulnerability exists when the Windows kernel fails to properly handle objects in memory, aka 'Windows Kernel Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-1065.",
-    "poc": [
-      "https://github.com/5l1v3r1/CVE-2019-1041"
-    ]
-  },
-  {
-    "cve_code": "CVE-2019-1040",
-    "description": " A tampering vulnerability exists in Microsoft Windows when a man-in-the-middle attacker is able to successfully bypass the NTLM MIC (Message Integrity Check) protection, aka 'Windows NTLM Tampering Vulnerability'.",
-    "poc": [
-      "https://github.com/fox-it/cve-2019-1040-scanner",
-      "https://github.com/Ridter/CVE-2019-1040",
-      "https://github.com/QAX-A-Team/dcpwn",
-      "https://github.com/Ridter/CVE-2019-1040-dcpwn",
-      "https://github.com/lazaars/UltraRealy_with_CVE-2019-1040"
-    ]
-  },
-  {
-    "cve_code": "CVE-2019-1006",
-    "description": " An authentication bypass vulnerability exists in Windows Communication Foundation (WCF) and Windows Identity Foundation (WIF), allowing signing of SAML tokens with arbitrary symmetric keys, aka 'WCF/WIF SAML Token Authentication Bypass Vulnerability'.",
-    "poc": [
-      "https://github.com/521526/CVE-2019-1006"
     ]
   },
   {
@@ -35901,8 +35649,8 @@
       "https://github.com/66quentin/shodan-CVE-2018-15473",
       "https://github.com/coollce/CVE-2018-15473_burte",
       "https://github.com/pyperanger/CVE-2018-15473_exploit",
-      "https://github.com/NestyF/SSH_Enum_CVE-2018-15473",
       "https://github.com/Dirty-Racoon/CVE-2018-15473-py3",
+      "https://github.com/NestyF/SSH_Enum_CVE-2018-15473",
       "https://github.com/Anonimo501/ssh_enum_users_CVE-2018-15473",
       "https://github.com/WildfootW/CVE-2018-15473_OpenSSH_7.7",
       "https://github.com/Moon1705/easy_security",
@@ -36413,7 +36161,8 @@
     "poc": [
       "https://github.com/YagamiiLight/Cerberus",
       "https://github.com/immunIT/CVE-2018-11759",
-      "https://github.com/Jul10l1r4/Identificador-CVE-2018-11759"
+      "https://github.com/Jul10l1r4/Identificador-CVE-2018-11759",
+      "https://github.com/julioliraup/Identificador-CVE-2018-11759"
     ]
   },
   {
@@ -36497,13 +36246,13 @@
       "https://github.com/vmotos/CVE-2018-11235",
       "https://github.com/moajo/cve_2018_11235",
       "https://github.com/0rx1/CVE-2018-11235",
-      "https://github.com/jhswartz/CVE-2018-11235",
       "https://github.com/Choihosu/cve-2018-11235",
+      "https://github.com/jhswartz/CVE-2018-11235",
       "https://github.com/nthuong95/CVE-2018-11235",
       "https://github.com/theerachaich/lab",
       "https://github.com/Kiss-sh0t/CVE-2018-11235-poc",
-      "https://github.com/cchang27/CVE-2018-11235-test",
       "https://github.com/MohamedTarekq/test-CVE-2018-11235",
+      "https://github.com/cchang27/CVE-2018-11235-test",
       "https://github.com/jongmartinez/CVE-2018-11235-PoC",
       "https://github.com/twseptian/cve-2018-11235-git-submodule-ce-and-docker-ngrok-configuration",
       "https://github.com/Yealid/CVE-2018-11235-Git-Submodule-RCE"
@@ -36563,11 +36312,11 @@
       "https://github.com/Bifrozt/CVE-2018-10933",
       "https://github.com/JoSecMx/CVE-2018-10933_Scanner",
       "https://github.com/ensimag-security/CVE-2018-10933",
+      "https://github.com/SilasSpringer/CVE-2018-10933",
       "https://github.com/cve-2018/cve-2018-10933",
       "https://github.com/youkergav/CVE-2018-10933",
       "https://github.com/kristyna-mlcakova/CVE-2018-10933",
       "https://github.com/lalishasanduwara/CVE-2018-10933",
-      "https://github.com/SilasSpringer/CVE-2018-10933",
       "https://github.com/Kurlee/LibSSH-exploit",
       "https://github.com/ninp0/cve-2018-10933_poc",
       "https://github.com/throwawayaccount12312312/precompiled-CVE-2018-10933",
@@ -36719,8 +36468,8 @@
       "https://github.com/Huangkey/CVE-2018-9995_check",
       "https://github.com/gwolfs/CVE-2018-9995-ModifiedByGwolfs",
       "https://github.com/b510/CVE-2018-9995-POC",
-      "https://github.com/Saeed22487/CVE-2018-9995",
       "https://github.com/codeholic2k18/CVE-2018-9995",
+      "https://github.com/Saeed22487/CVE-2018-9995",
       "https://github.com/MrAli-Code/CVE-2018-9995_dvr_credentials",
       "https://github.com/likaifeng0/CVE-2018-9995_dvr_credentials-dev_tool",
       "https://github.com/awesome-consumer-iot/HTC",
@@ -37575,7 +37324,6 @@
       "https://github.com/ThaFWord/pentesterlab",
       "https://github.com/asavior2/CVE-2018-6574",
       "https://github.com/Ashved9/Orange",
-      "https://github.com/markisback/CVE-2018-6574",
       "https://github.com/shadofren/CVE-2018-6574",
       "https://github.com/VikasVarshney/CVE_2018_6574",
       "https://github.com/ItsFadinG/CVE-2018-6574",
@@ -37587,6 +37335,7 @@
       "https://github.com/jeyaseelans86/CVE-2018-6574",
       "https://github.com/mux0x/CVE-2018-6574",
       "https://github.com/Zeeshan12340/CVE-2018-6574",
+      "https://github.com/markisback/CVE-2018-6574",
       "https://github.com/jahwni/CVE-2018-6574",
       "https://github.com/kawkab101/cve-2018-6574",
       "https://github.com/OLAOLAOLA789/CVE-2018-6574",
@@ -37611,21 +37360,21 @@
       "https://github.com/nthuong95/CVE-2018-6574",
       "https://github.com/lsnakazone/cve-2018-6574",
       "https://github.com/jftierno/CVE-2018-6574",
-      "https://github.com/noobTest1122/CVE-2018-6574",
-      "https://github.com/R3dAlch3mist/cve-2018-6574",
-      "https://github.com/NsByte/CVE-2018-6574",
       "https://github.com/AdriVillaB/CVE-2018-6574",
       "https://github.com/illnino/CVE-2018-6574",
       "https://github.com/chr1sM/CVE-2018-6574",
+      "https://github.com/noobTest1122/CVE-2018-6574",
+      "https://github.com/R3dAlch3mist/cve-2018-6574",
+      "https://github.com/NsByte/CVE-2018-6574",
       "https://github.com/it3x55/CVE-2018-6574",
       "https://github.com/AnKItdo/CVE_2018-6574",
       "https://github.com/NikolaT3sla/cve-2018-6574",
-      "https://github.com/amil-ptl-test/ptl_cve_2018_6574",
-      "https://github.com/jongmartinez/CVE-2018-6574-POC",
       "https://github.com/jftierno/CVE-2018-6574-2",
+      "https://github.com/jongmartinez/CVE-2018-6574-POC",
       "https://github.com/kev-ho/cve-2018-6574-payload",
       "https://github.com/duckzsc2/CVE-2018-6574-POC",
       "https://github.com/Cypheer/exploit_CVE-2018-6574",
+      "https://github.com/amil-ptl-test/ptl_cve_2018_6574",
       "https://github.com/20matan/CVE-2018-6574-POC",
       "https://github.com/moTorky/CVE-2018-6574-POC",
       "https://github.com/MohamedTarekq/test-CVE-2018-6574-",
@@ -37711,8 +37460,8 @@
       "https://github.com/Palvinder-Singh/CVE2018-6389",
       "https://github.com/BlackRouter/cve-2018-6389",
       "https://github.com/amit-pathak009/CVE-2018-6389-FIX",
-      "https://github.com/Jetserver/CVE-2018-6389-FIX",
       "https://github.com/rastating/modsecurity-cve-2018-6389",
+      "https://github.com/Jetserver/CVE-2018-6389-FIX",
       "https://github.com/mudhappy/Wordpress-Hack-CVE-2018-6389",
       "https://github.com/alessiogilardi/PoC---CVE-2018-6389",
       "https://github.com/DeyaaMuhammad/WPDOSLoader"
@@ -38532,209 +38281,6 @@
     ]
   },
   {
-    "cve_code": "CVE-2018-1932",
-    "description": " IBM API Connect 5.0.0.0 through 5.0.8.4 is affected by a vulnerability in the role-based access control in the management server that could allow an authenticated user to obtain highly sensitive information. IBM X-Force ID: 153175.",
-    "poc": [
-      "https://github.com/BKreisel/CVE-2018-1932X"
-    ]
-  },
-  {
-    "cve_code": "CVE-2018-1335",
-    "description": " From Apache Tika versions 1.7 to 1.17, clients could send carefully crafted headers to tika-server that could be used to inject commands into the command line of the server running tika-server. This vulnerability only affects those running tika-server on a server that is open to untrusted clients. The mitigation is to upgrade to Tika 1.18.",
-    "poc": [
-      "https://github.com/SkyBlueEternal/CVE-2018-1335-EXP-GUI",
-      "https://github.com/canumay/cve-2018-1335",
-      "https://github.com/siramk/CVE-2018-1335",
-      "https://github.com/N0b1e6/CVE-2018-1335-Python3"
-    ]
-  },
-  {
-    "cve_code": "CVE-2018-1324",
-    "description": " A specially crafted ZIP archive can be used to cause an infinite loop inside of Apache Commons Compress' extra field parser used by the ZipFile and ZipArchiveInputStream classes in versions 1.11 to 1.15. This can be used to mount a denial of service attack against services that use Compress' zip package.",
-    "poc": [
-      "https://github.com/tafamace/CVE-2018-1324"
-    ]
-  },
-  {
-    "cve_code": "CVE-2018-1313",
-    "description": " In Apache Derby 10.3.1.4 to 10.14.1.0, a specially-crafted network packet can be used to request the Derby Network Server to boot a database whose location and contents are under the user's control. If the Derby Network Server is not running with a Java Security Manager policy file, the attack is successful. If the server is using a policy file, the policy file must permit the database location to be read for the attack to work. The default Derby Network Server policy file distributed with the affected releases includes a permissive policy as the default Network Server policy, which allows the attack to work.",
-    "poc": [
-      "https://github.com/tafamace/CVE-2018-1313"
-    ]
-  },
-  {
-    "cve_code": "CVE-2018-1311",
-    "description": " The Apache Xerces-C 3.0.0 to 3.2.3 XML parser contains a use-after-free error triggered during the scanning of external DTDs. This flaw has not been addressed in the maintained version of the library and has no current mitigation other than to disable DTD processing. This can be accomplished via the DOM using a standard parser feature, or via SAX using the XERCES_DISABLE_DTD environment variable.",
-    "poc": [
-      "https://github.com/johnjamesmccann/xerces-3.2.3-DTD-hotfix"
-    ]
-  },
-  {
-    "cve_code": "CVE-2018-1306",
-    "description": " The PortletV3AnnotatedDemo Multipart Portlet war file code provided in Apache Pluto version 3.0.0 could allow a remote attacker to obtain sensitive information, caused by the failure to restrict path information provided during a file upload. An attacker could exploit this vulnerability to obtain configuration data and other sensitive information.",
-    "poc": [
-      "https://github.com/JJSO12/Apache-Pluto-3.0.0--CVE-2018-1306"
-    ]
-  },
-  {
-    "cve_code": "CVE-2018-1305",
-    "description": " Security constraints defined by annotations of Servlets in Apache Tomcat 9.0.0.M1 to 9.0.4, 8.5.0 to 8.5.27, 8.0.0.RC1 to 8.0.49 and 7.0.0 to 7.0.84 were only applied once a Servlet had been loaded. Because security constraints defined in this way apply to the URL pattern and any URLs below that point, it was possible - depending on the order Servlets were loaded - for some security constraints not to be applied. This could have exposed resources to users who were not authorised to access them.",
-    "poc": [
-      "https://github.com/Pa55w0rd/CVE-2018-1305"
-    ]
-  },
-  {
-    "cve_code": "CVE-2018-1304",
-    "description": " The URL pattern of &quot;&quot; (the empty string) which exactly maps to the context root was not correctly handled in Apache Tomcat 9.0.0.M1 to 9.0.4, 8.5.0 to 8.5.27, 8.0.0.RC1 to 8.0.49 and 7.0.0 to 7.0.84 when used as part of a security constraint definition. This caused the constraint to be ignored. It was, therefore, possible for unauthorised users to gain access to web application resources that should have been protected. Only security constraints with a URL pattern of the empty string were affected.",
-    "poc": [
-      "https://github.com/knqyf263/CVE-2018-1304",
-      "https://github.com/thariyarox/tomcat_CVE-2018-1304_testing"
-    ]
-  },
-  {
-    "cve_code": "CVE-2018-1297",
-    "description": " When using Distributed Test only (RMI based), Apache JMeter 2.x and 3.x uses an unsecured RMI connection. This could allow an attacker to get Access to JMeterEngine and send unauthorized code.",
-    "poc": [
-      "https://github.com/Al1ex/CVE-2018-1297",
-      "https://github.com/48484848484848/Jmeter-CVE-2018-1297-"
-    ]
-  },
-  {
-    "cve_code": "CVE-2018-1288",
-    "description": " In Apache Kafka 0.9.0.0 to 0.9.0.1, 0.10.0.0 to 0.10.2.1, 0.11.0.0 to 0.11.0.2, and 1.0.0, authenticated Kafka users may perform action reserved for the Broker via a manually created fetch request interfering with data replication, resulting in data loss.",
-    "poc": [
-      "https://github.com/joegallagher4/CVE-2018-1288-"
-    ]
-  },
-  {
-    "cve_code": "CVE-2018-1285",
-    "description": " Apache log4net versions before 2.0.10 do not disable XML external entities when parsing log4net configuration files. This allows for XXE-based attacks in applications that accept attacker-controlled log4net configuration files.",
-    "poc": [
-      "https://github.com/alex-ermolaev/Log4NetSolarWindsSNMP-"
-    ]
-  },
-  {
-    "cve_code": "CVE-2018-1273",
-    "description": " Spring Data Commons, versions prior to 1.13 to 1.13.10, 2.0 to 2.0.5, and older unsupported versions, contain a property binder vulnerability caused by improper neutralization of special elements. An unauthenticated remote malicious user (or attacker) can supply specially crafted request parameters against Spring Data REST backed HTTP resources or using Spring Data's projection-based request payload binding hat can lead to a remote code execution attack.",
-    "poc": [
-      "https://github.com/AabyssZG/SpringBoot-Scan",
-      "https://github.com/sule01u/SBSCAN",
-      "https://github.com/jas502n/cve-2018-1273",
-      "https://github.com/wearearima/poc-cve-2018-1273",
-      "https://github.com/knqyf263/CVE-2018-1273",
-      "https://github.com/webr0ck/poc-cve-2018-1273",
-      "https://github.com/cved-sources/cve-2018-1273"
-    ]
-  },
-  {
-    "cve_code": "CVE-2018-1270",
-    "description": " Spring Framework, versions 5.0 prior to 5.0.5 and versions 4.3 prior to 4.3.15 and older unsupported versions, allow applications to expose STOMP over WebSocket endpoints with a simple, in-memory STOMP broker through the spring-messaging module. A malicious user (or attacker) can craft a message to the broker that can lead to a remote code execution attack.",
-    "poc": [
-      "https://github.com/CaledoniaProject/CVE-2018-1270",
-      "https://github.com/genxor/CVE-2018-1270_EXP",
-      "https://github.com/Venscor/CVE-2018-1270",
-      "https://github.com/tafamace/CVE-2018-1270",
-      "https://github.com/mprunet/owasp-formation-cve-2018-1270"
-    ]
-  },
-  {
-    "cve_code": "CVE-2018-1263",
-    "description": " Addresses partial fix in CVE-2018-1261. Pivotal spring-integration-zip, versions prior to 1.0.2, exposes an arbitrary file write vulnerability, that can be achieved using a specially crafted zip archive (affects other archives as well, bzip2, tar, xz, war, cpio, 7z), that holds path traversal filenames. So when the filename gets concatenated to the target extraction directory, the final path ends up outside of the target folder.",
-    "poc": [
-      "https://github.com/sakib570/CVE-2018-1263-Demo"
-    ]
-  },
-  {
-    "cve_code": "CVE-2018-1259",
-    "description": " Spring Data Commons, versions 1.13 prior to 1.13.12 and 2.0 prior to 2.0.7, used in combination with XMLBeam 1.4.14 or earlier versions, contains a property binder vulnerability caused by improper restriction of XML external entity references as underlying library XMLBeam does not restrict external reference expansion. An unauthenticated remote malicious user can supply specially crafted request parameters against Spring Data's projection-based request payload binding to access arbitrary files on the system.",
-    "poc": [
-      "https://github.com/tafamace/CVE-2018-1259"
-    ]
-  },
-  {
-    "cve_code": "CVE-2018-1235",
-    "description": " Dell EMC RecoverPoint versions prior to 5.1.2 and RecoverPoint for VMs versions prior to 5.1.1.3, contain a command injection vulnerability. An unauthenticated remote attacker may potentially exploit this vulnerability to execute arbitrary commands on the affected system with root privilege.",
-    "poc": [
-      "https://github.com/AbsoZed/CVE-2018-1235"
-    ]
-  },
-  {
-    "cve_code": "CVE-2018-1207",
-    "description": " Dell EMC iDRAC7/iDRAC8, versions prior to 2.52.52.52, contain CGI injection vulnerability which could be used to execute remote code. A remote unauthenticated attacker may potentially be able to use CGI variables to execute remote code.",
-    "poc": [
-      "https://github.com/mgargiullo/cve-2018-1207",
-      "https://github.com/un4gi/CVE-2018-1207"
-    ]
-  },
-  {
-    "cve_code": "CVE-2018-1160",
-    "description": " Netatalk before 3.1.12 is vulnerable to an out of bounds write in dsi_opensess.c. This is due to lack of bounds checking on attacker controlled data. A remote unauthenticated attacker can leverage this vulnerability to achieve arbitrary code execution.",
-    "poc": [
-      "https://github.com/SachinThanushka/CVE-2018-1160"
-    ]
-  },
-  {
-    "cve_code": "CVE-2018-1133",
-    "description": " An issue was discovered in Moodle 3.x. A Teacher creating a Calculated question can intentionally cause remote code execution on the server, aka eval injection.",
-    "poc": [
-      "https://github.com/cocomelonc/vulnexipy",
-      "https://github.com/darrynten/MoodleExploit",
-      "https://github.com/That-Guy-Steve/CVE-2018-1133-Exploit",
-      "https://github.com/Feidao-fei/MOODLE-3.X-Remote-Code-Execution"
-    ]
-  },
-  {
-    "cve_code": "CVE-2018-1123",
-    "description": " procps-ng before version 3.3.15 is vulnerable to a denial of service in ps via mmap buffer overflow. Inbuilt protection in ps maps a guard page at the end of the overflowed buffer, ensuring that the impact of this flaw is limited to a crash (temporary denial of service).",
-    "poc": [
-      "https://github.com/aravinddathd/CVE-2018-1123"
-    ]
-  },
-  {
-    "cve_code": "CVE-2018-1112",
-    "description": " glusterfs server before versions 3.10.12, 4.0.2 is vulnerable when using 'auth.allow' option which allows any unauthenticated gluster client to connect from any network to mount gluster storage volumes. NOTE: this vulnerability exists because of a CVE-2018-1088 regression.",
-    "poc": [
-      "https://github.com/MauroEldritch/GEVAUDAN"
-    ]
-  },
-  {
-    "cve_code": "CVE-2018-1111",
-    "description": " DHCP packages in Red Hat Enterprise Linux 6 and 7, Fedora 28, and earlier are vulnerable to a command injection flaw in the NetworkManager integration script included in the DHCP client. A malicious DHCP server, or an attacker on the local network able to spoof DHCP responses, could use this flaw to execute arbitrary commands with root privileges on systems using NetworkManager and configured to obtain network configuration using the DHCP protocol.",
-    "poc": [
-      "https://github.com/knqyf263/CVE-2018-1111",
-      "https://github.com/kkirsche/CVE-2018-1111",
-      "https://github.com/baldassarreFe/FEP3370-advanced-ethical-hacking"
-    ]
-  },
-  {
-    "cve_code": "CVE-2018-1088",
-    "description": " A privilege escalation flaw was found in gluster 3.x snapshot scheduler. Any gluster client allowed to mount gluster volumes could also mount shared gluster storage volume and escalate privileges by scheduling malicious cronjob via symlink.",
-    "poc": [
-      "https://github.com/MauroEldritch/GEVAUDAN"
-    ]
-  },
-  {
-    "cve_code": "CVE-2018-1042",
-    "description": " Moodle 3.x has Server Side Request Forgery in the filepicker.",
-    "poc": [
-      "https://github.com/UDPsycho/Moodle-CVE-2018-1042"
-    ]
-  },
-  {
-    "cve_code": "CVE-2018-1026",
-    "description": " A remote code execution vulnerability exists in Microsoft Office software when the software fails to properly handle objects in memory, aka &quot;Microsoft Office Remote Code Execution Vulnerability.&quot; This affects Microsoft Office. This CVE ID is unique from CVE-2018-1030.",
-    "poc": [
-      "https://github.com/ymgh96/Detecting-the-CVE-2018-1026-and-its-patch"
-    ]
-  },
-  {
-    "cve_code": "CVE-2018-1010",
-    "description": " A remote code execution vulnerability exists when the Windows font library improperly handles specially crafted embedded fonts, aka &quot;Microsoft Graphics Remote Code Execution Vulnerability.&quot; This affects Windows 7, Windows Server 2012 R2, Windows RT 8.1, Windows Server 2008, Windows Server 2012, Windows 8.1, Windows Server 2016, Windows Server 2008 R2, Windows 10, Windows 10 Servers. This CVE ID is unique from CVE-2018-1012, CVE-2018-1013, CVE-2018-1015, CVE-2018-1016.",
-    "poc": [
-      "https://github.com/ymgh96/Detecting-the-patch-of-CVE-2018-1010"
-    ]
-  },
-  {
     "cve_code": "CVE-2018-0959",
     "description": " A remote code execution vulnerability exists when Windows Hyper-V on a host server fails to properly validate input from an authenticated user on a guest operating system, aka &quot;Hyper-V Remote Code Execution Vulnerability.&quot; This affects Windows 7, Windows Server 2012 R2, Windows RT 8.1, Windows Server 2008, Windows Server 2012, Windows 8.1, Windows Server 2016, Windows Server 2008 R2, Windows 10, Windows 10 Servers.",
     "poc": [
@@ -38988,9 +38534,9 @@
       "https://github.com/Shadow5523/CVE-2017-1000117-test",
       "https://github.com/ieee0824/CVE-2017-1000117-sl",
       "https://github.com/alilangtest/CVE-2017-1000117",
+      "https://github.com/takehaya/CVE-2017-1000117",
       "https://github.com/Q2h1Cg/CVE-2017-1000117",
       "https://github.com/Jerry-zhuang/CVE-2017-1000117",
-      "https://github.com/takehaya/CVE-2017-1000117",
       "https://github.com/siling2017/CVE-2017-1000117",
       "https://github.com/thelastbyte/CVE-2017-1000117",
       "https://github.com/ikmski/CVE-2017-1000117",
@@ -39263,12 +38809,12 @@
       "https://github.com/gugronnier/CVE-2017-16995",
       "https://github.com/vnik5287/CVE-2017-16995",
       "https://github.com/senyuuri/cve-2017-16995",
-      "https://github.com/littlebin404/CVE-2017-16995",
       "https://github.com/C0dak/CVE-2017-16995",
+      "https://github.com/littlebin404/CVE-2017-16995",
       "https://github.com/anldori/CVE-2017-16995",
       "https://github.com/ZhiQiAnSecFork/cve-2017-16995",
-      "https://github.com/mareks1007/cve-2017-16995",
       "https://github.com/fei9747/CVE-2017-16995",
+      "https://github.com/mareks1007/cve-2017-16995",
       "https://github.com/ivilpez/cve-2017-16995.c",
       "https://github.com/Lumindu/CVE-2017-16995-Linux-Kernel---BPF-Sign-Extension-Local-Privilege-Escalation-"
     ]
@@ -40062,9 +39608,9 @@
       "https://github.com/Abdibimantara/Maldoc-Analysis",
       "https://github.com/letiencong96/CVE_2017_11882",
       "https://github.com/HZachev/ABC",
-      "https://github.com/j0lama/CVE-2017-11882",
       "https://github.com/CSC-pentest/cve-2017-11882",
       "https://github.com/tzwlhack/CVE-2017-11882",
+      "https://github.com/j0lama/CVE-2017-11882",
       "https://github.com/chanbin/CVE-2017-11882",
       "https://github.com/likescam/CVE-2017-11882",
       "https://github.com/HaoJame/CVE-2017-11882",
@@ -40163,8 +39709,8 @@
     "poc": [
       "https://github.com/lexfo/cve-2017-11176",
       "https://github.com/c3r34lk1ll3r/CVE-2017-11176",
-      "https://github.com/HckEX/CVE-2017-11176",
       "https://github.com/Sama-Ayman-Mokhtar/CVE-2017-11176",
+      "https://github.com/HckEX/CVE-2017-11176",
       "https://github.com/leonardo1101/cve-2017-11176",
       "https://github.com/DoubleMice/cve-2017-11176"
     ]
@@ -41249,8 +40795,8 @@
       "https://github.com/gonoph/ansible-meltdown-spectre",
       "https://github.com/miglen/Awesome-Meltdown-Spectre",
       "https://github.com/pedrolucasoliva/spectre-attack-demo",
-      "https://github.com/GregAskew/SpeculativeExecutionAssessment",
       "https://github.com/dmo2118/retpoline-audit",
+      "https://github.com/GregAskew/SpeculativeExecutionAssessment",
       "https://github.com/kevincoakley/puppet-spectre_meltdown"
     ]
   },
@@ -41633,14 +41179,6 @@
     "description": " ** RE.",
     "poc": [
       "https://github.com/ghhubin/weblogic_cve2017-20271"
-    ]
-  },
-  {
-    "cve_code": "CVE-2017-1635",
-    "description": " IBM Tivoli Monitoring V6 6.2.2.x could allow a remote attacker to execute arbitrary code on the system, caused by a use-after-free error. A remote attacker could exploit this vulnerability to execute arbitrary code on the system or cause the application to crash. IBM X-Force ID: 133243.",
-    "poc": [
-      "https://github.com/emcalv/tivoli-poc",
-      "https://github.com/bcdannyboy/cve-2017-1635-PoC"
     ]
   },
   {
@@ -42648,8 +42186,8 @@
       "https://github.com/arbll/dirtycow",
       "https://github.com/malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195",
       "https://github.com/fei9747/CVE-2016-5195",
-      "https://github.com/KosukeShimofuji/CVE-2016-5195",
       "https://github.com/ASUKA39/CVE-2016-5195",
+      "https://github.com/KosukeShimofuji/CVE-2016-5195",
       "https://github.com/ldenevi/CVE-2016-5195",
       "https://github.com/sribaba/android-CVE-2016-5195",
       "https://github.com/acidburnmi/CVE-2016-5195-master",
@@ -43134,7 +42672,8 @@
       "https://github.com/DanielHemmati/CVE-2016-2098-my-first-exploit",
       "https://github.com/CyberDefenseInstitute/PoC_CVE-2016-2098_Rails42",
       "https://github.com/Debalinax64/CVE-2016-2098",
-      "https://github.com/3rg1s/CVE-2016-2098"
+      "https://github.com/3rg1s/CVE-2016-2098",
+      "https://github.com/JoseLRC97/Ruby-on-Rails-ActionPack-Inline-ERB-Remote-Code-Execution"
     ]
   },
   {
@@ -44039,7 +43578,8 @@
       "https://github.com/cved-sources/cve-2015-3306",
       "https://github.com/hackarada/cve-2015-3306",
       "https://github.com/xchg-rax-rax/CVE-2015-3306-",
-      "https://github.com/cdedmondson/Modified-CVE-2015-3306-Exploit"
+      "https://github.com/cdedmondson/Modified-CVE-2015-3306-Exploit",
+      "https://github.com/JoseLRC97/ProFTPd-1.3.5-mod_copy-Remote-Command-Execution"
     ]
   },
   {
@@ -44618,8 +44158,8 @@
     "cve_code": "CVE-2014-8609",
     "description": " The addAccount method in src/com/android/settings/accounts/AddAccountSettings.java in the Settings application in Android before 5.0.0 does not properly create a PendingIntent, which allows attackers to use the SYSTEM uid for broadcasting an intent with arbitrary component, action, or category information via a third-party authenticator in a crafted application, aka Bug 17356824.",
     "poc": [
-      "https://github.com/ratiros01/CVE-2014-8609-exploit",
       "https://github.com/MazX0p/CVE-2014-8609-POC",
+      "https://github.com/ratiros01/CVE-2014-8609-exploit",
       "https://github.com/locisvv/Vulnerable-CVE-2014-8609"
     ]
   },
@@ -44802,21 +44342,21 @@
       "https://github.com/Sindadziy/cve-2014-6271",
       "https://github.com/0xConstant/CVE-2014-6271",
       "https://github.com/hackintoanetwork/shellshock",
-      "https://github.com/mritunjay-k/CVE-2014-6271",
-      "https://github.com/Jsmoreira02/CVE-2014-6271",
       "https://github.com/Brandaoo/CVE-2014-6271",
       "https://github.com/mattclegg/CVE-2014-6271",
       "https://github.com/Dilith006/CVE-2014-6271",
+      "https://github.com/mritunjay-k/CVE-2014-6271",
       "https://github.com/Aruthw/CVE-2014-6271",
       "https://github.com/kowshik-sundararajan/CVE-2014-6271",
       "https://github.com/woltage/CVE-2014-6271",
       "https://github.com/0xTabun/CVE-2014-6271",
+      "https://github.com/Jsmoreira02/CVE-2014-6271",
       "https://github.com/rashmikadileeshara/CVE-2014-6271-Shellshock-",
-      "https://github.com/rrreeeyyy/cve-2014-6271-spec",
       "https://github.com/shawntns/exploit-CVE-2014-6271",
       "https://github.com/hanmin0512/CVE-2014-6271_pwnable",
       "https://github.com/Pilou-Pilou/docker_CVE-2014-6271.",
       "https://github.com/cyberharsh/Shellbash-CVE-2014-6271",
+      "https://github.com/rrreeeyyy/cve-2014-6271-spec",
       "https://github.com/dlitz/bash-cve-2014-6271-fixes",
       "https://github.com/ilismal/Nessus_CVE-2014-6271_check",
       "https://github.com/kelleykong/cve-2014-6271-mengjia-kong",
@@ -45394,8 +44934,8 @@
       "https://github.com/vortextube/ssl_scanner",
       "https://github.com/Xyl2k/CVE-2014-0160-Chrome-Plugin",
       "https://github.com/sammyfung/openssl-heartbleed-fix",
-      "https://github.com/GardeniaWhite/fuzzing",
       "https://github.com/proactiveRISK/heartbleed-extention",
+      "https://github.com/GardeniaWhite/fuzzing",
       "https://github.com/xlucas/heartbleed",
       "https://github.com/waqasjamal-zz/HeartBleed-Vulnerability-Checker",
       "https://github.com/cheese-hub/heartbleed",
@@ -46349,8 +45889,8 @@
       "https://github.com/MFernstrom/OffensivePascal-CVE-2011-2523",
       "https://github.com/0xSojalSec/-CVE-2011-2523",
       "https://github.com/0xSojalSec/CVE-2011-2523",
-      "https://github.com/vaishnavucv/CVE-2011-2523",
       "https://github.com/Gr4ykt/CVE-2011-2523",
+      "https://github.com/vaishnavucv/CVE-2011-2523",
       "https://github.com/XiangSi-Howard/CTF---CVE-2011-2523",
       "https://github.com/Shubham-2k1/Exploit-CVE-2011-2523",
       "https://github.com/chleba124/vsftpd-exploit",
@@ -46602,7 +46142,8 @@
     "poc": [
       "https://github.com/MFernstrom/OffensivePascal-CVE-2010-2075",
       "https://github.com/FredBrave/CVE-2010-2075-UnrealIRCd-3.2.8.1",
-      "https://github.com/chancej715/UnrealIRCd-3.2.8.1-Backdoor-Command-Execution"
+      "https://github.com/chancej715/UnrealIRCd-3.2.8.1-Backdoor-Command-Execution",
+      "https://github.com/JoseLRC97/UnrealIRCd-3.2.8.1-Backdoor-Command-Execution"
     ]
   },
   {
@@ -46808,8 +46349,8 @@
     "cve_code": "CVE-2009-1330",
     "description": " Stack-based buffer overflow in Easy RM to MP3 Converter allows remote attackers to execute arbitrary code via a long filename in a playlist (.pls) file.",
     "poc": [
-      "https://github.com/war4uthor/CVE-2009-1330",
       "https://github.com/adenkiewicz/CVE-2009-1330",
+      "https://github.com/war4uthor/CVE-2009-1330",
       "https://github.com/exploitwritter/CVE-2009-1330_EasyRMToMp3Converter"
     ]
   },
