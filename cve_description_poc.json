@@ -8,13 +8,6 @@
     ]
   },
   {
-    "cve_code": "CVE-2024-29988",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
-    "poc": [
-      "https://github.com/AlexDoe11/CVE-2024-29988-MS-Exchange-RCE"
-    ]
-  },
-  {
     "cve_code": "CVE-2024-29455",
     "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
     "poc": [
@@ -364,7 +357,7 @@
     "description": " In JetBrains TeamCity before 2023.11.4 path traversal allowing to perform limited admin actions was possible.",
     "poc": [
       "https://github.com/W01fh4cker/CVE-2024-27198-RCE",
-      "https://github.com/Stuub/RCity-CVE-2024-27199",
+      "https://github.com/Stuub/RCity-CVE-2024-27198",
       "https://github.com/Shimon03/Explora-o-RCE-n-o-autenticado-JetBrains-TeamCity-CVE-2024-27198-"
     ]
   },
@@ -373,8 +366,9 @@
     "description": " In JetBrains TeamCity before 2023.11.4 authentication bypass allowing to perform admin actions was possible.",
     "poc": [
       "https://github.com/W01fh4cker/CVE-2024-27198-RCE",
-      "https://github.com/yoryio/CVE-2024-27198",
       "https://github.com/Chocapikk/CVE-2024-27198",
+      "https://github.com/yoryio/CVE-2024-27198",
+      "https://github.com/Stuub/RCity-CVE-2024-27198",
       "https://github.com/K3ysTr0K3R/CVE-2024-27198-EXPLOIT",
       "https://github.com/CharonDefalt/CVE-2024-27198-RCE",
       "https://github.com/rampantspark/CVE-2024-27198",
@@ -439,13 +433,6 @@
     ]
   },
   {
-    "cve_code": "CVE-2024-26198",
-    "description": " Microsoft Exchange Server Remote Code Execution Vulnerability.",
-    "poc": [
-      "https://github.com/AlexDoe11/CVE-2024-26198-Exchange-RCE"
-    ]
-  },
-  {
     "cve_code": "CVE-2024-25832",
     "description": " F-logic DataCube3 v1.0 is vulnerable to unrestricted file upload, which could allow an authenticated malicious actor to upload a file of dangerous type by manipulating the filename extension.",
     "poc": [
@@ -499,13 +486,6 @@
     "description": " ZenML Server in the ZenML machine learning package before 0.46.7 for Python allows remote privilege escalation because the /api/v1/users/{user_name_or_id}/activate REST API endpoint allows access on the basis of a valid username along with a new password in the request body. These are also patched versions: 0.44.4, 0.43.1, and 0.42.2.",
     "poc": [
       "https://github.com/david-botelho-mariano/exploit-CVE-2024-25723"
-    ]
-  },
-  {
-    "cve_code": "CVE-2024-25693",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
-    "poc": [
-      "https://github.com/AlexDoe11/CVE-2024-25693-exploit"
     ]
   },
   {
@@ -578,6 +558,13 @@
     "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
     "poc": [
       "https://github.com/sajaljat/CVE-2024-25278"
+    ]
+  },
+  {
+    "cve_code": "CVE-2024-25277",
+    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "poc": [
+      "https://github.com/maen08/CVE-2024-25277"
     ]
   },
   {
@@ -682,7 +669,6 @@
       "https://github.com/brains93/CVE-2024-24576-PoC-Python",
       "https://github.com/corysabol/batbadbut-demo",
       "https://github.com/mishalhossin/CVE-2024-24576-PoC-Python",
-      "https://github.com/p14t1num/cve-2024-24576-python",
       "https://github.com/lpn/CVE-2024-24576.jl",
       "https://github.com/foxoman/CVE-2024-24576-PoC---Nim",
       "https://github.com/SheL3G/CVE-2024-24576-PoC-BatBadBut",
@@ -994,10 +980,10 @@
       "https://github.com/godylockz/CVE-2024-23897",
       "https://github.com/viszsec/CVE-2024-23897",
       "https://github.com/yoryio/CVE-2024-23897",
+      "https://github.com/Abo5/CVE-2024-23897",
       "https://github.com/Nebian/CVE-2024-23897",
       "https://github.com/jopraveen/CVE-2024-23897",
       "https://github.com/AbraXa5/Jenkins-CVE-2024-23897",
-      "https://github.com/Abo5/CVE-2024-23897",
       "https://github.com/raheel0x01/CVE-2024-23897",
       "https://github.com/vmtyan/poc-cve-2024-23897",
       "https://github.com/Praison001/CVE-2024-23897-Jenkins-Arbitrary-Read-File-Vulnerability",
@@ -1380,13 +1366,6 @@
     ]
   },
   {
-    "cve_code": "CVE-2024-21899",
-    "description": " An improper authentication vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow users to compromise the security of the system via a network. We have already fixed the vulnerability in the following versions: QTS 5.1.3.2578 build 20231110 and later QTS 4.5.4.2627 build 20231225 and later QuTS hero h5.1.3.2578 build 20231110 and later QuTS hero h4.5.4.2626 build 20231225 and later QuTScloud c5.1.5.2651 and later.",
-    "poc": [
-      "https://github.com/Oxdestiny/CVE-2024-21899-RCE-POC"
-    ]
-  },
-  {
     "cve_code": "CVE-2024-21893",
     "description": " A server-side request forgery vulnerability in the SAML component of Ivanti Connect Secure (9.x, 22.x) and Ivanti Policy Secure (9.x, 22.x) and Ivanti Neurons for ZTA allows an attacker to access certain restricted resources without authentication.",
     "poc": [
@@ -1421,8 +1400,8 @@
       "https://github.com/h4x0r-dz/CVE-2024-21762",
       "https://github.com/BishopFox/cve-2024-21762-check",
       "https://github.com/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check",
-      "https://github.com/cleverg0d/CVE-2024-21762-Checker",
       "https://github.com/d0rb/CVE-2024-21762",
+      "https://github.com/cleverg0d/CVE-2024-21762-Checker",
       "https://github.com/bsekercioglu/cve2024-21762-ShodanChecker",
       "https://github.com/Codeb3af/Cve-2024-21762-",
       "https://github.com/lolminerxmrig/multicheck_CVE-2024-21762"
@@ -1460,20 +1439,6 @@
     ]
   },
   {
-    "cve_code": "CVE-2024-21508",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
-    "poc": [
-      "https://github.com/Geniorio01/CVE-2024-21508-mysql2-RCE"
-    ]
-  },
-  {
-    "cve_code": "CVE-2024-21426",
-    "description": " Microsoft SharePoint Server Remote Code Execution Vulnerability.",
-    "poc": [
-      "https://github.com/Geniorio01/CVE-2024-21426-SharePoint-RCE"
-    ]
-  },
-  {
     "cve_code": "CVE-2024-21413",
     "description": " Microsoft Outlook Remote Code Execution Vulnerability.",
     "poc": [
@@ -1503,13 +1468,6 @@
     ]
   },
   {
-    "cve_code": "CVE-2024-21400",
-    "description": " Microsoft Azure Kubernetes Service Confidential Container Elevation of Privilege Vulnerability.",
-    "poc": [
-      "https://github.com/MegaCorp001/CVE-2024-21400-POC"
-    ]
-  },
-  {
     "cve_code": "CVE-2024-21388",
     "description": " Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability.",
     "poc": [
@@ -1528,6 +1486,7 @@
     "description": " Windows Kernel Elevation of Privilege Vulnerability.",
     "poc": [
       "https://github.com/hakaioffsec/CVE-2024-21338",
+      "https://github.com/varwara/CVE-2024-21338",
       "https://github.com/UMU618/CVE-2024-21338"
     ]
   },
@@ -1804,13 +1763,6 @@
     ]
   },
   {
-    "cve_code": "CVE-2024-0967",
-    "description": " A potential vulnerability has been identified in OpenText / Micro Focus ArcSight Enterprise Security Manager (ESM). The vulnerability could be remotely exploited.",
-    "poc": [
-      "https://github.com/Oxdestiny/CVE-2024-0967-exploit"
-    ]
-  },
-  {
     "cve_code": "CVE-2024-0844",
     "description": " The Popup More Popups, Lightboxes, and more popup modules plugin for WordPress is vulnerable to Local File Inclusion in version 2.1.6 via the ycfChangeElementData() function. This makes it possible for authenticated attackers, with administrator-level access and above, to include and execute arbitrary files ending with &quot;Form.php&quot; on the server , allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where images and other &#8220;safe&#8221; file types can be uploaded and included.",
     "poc": [
@@ -1858,13 +1810,6 @@
     "poc": [
       "https://github.com/ysanatomic/io_uring_LPE-CVE-2024-0582",
       "https://github.com/Forsaken0129/CVE-2024-0582"
-    ]
-  },
-  {
-    "cve_code": "CVE-2024-0519",
-    "description": " Out of bounds memory access in V8 in Google Chrome prior to 120.0.6099.224 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High).",
-    "poc": [
-      "https://github.com/Oxdestiny/CVE-2024-0519-Chrome-exploit"
     ]
   },
   {
@@ -2018,6 +1963,7 @@
     "cve_code": "CVE-2023-51409",
     "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
     "poc": [
+      "https://github.com/imhunterand/CVE-2023-51409",
       "https://github.com/RandomRobbieBF/CVE-2023-51409"
     ]
   },
@@ -2695,8 +2641,7 @@
     "cve_code": "CVE-2023-48788",
     "description": " A improper neutralization of special elements used in an sql command ('sql injection') in Fortinet FortiClientEMS version 7.2.0 through 7.2.2, FortiClientEMS 7.0.1 through 7.0.10 allows attacker to execute unauthorized code or commands via specially crafted packets.",
     "poc": [
-      "https://github.com/horizon3ai/CVE-2023-48788",
-      "https://github.com/AlexDoe11/CVE-2023-48788-Proof-of-concept-SQLinj"
+      "https://github.com/horizon3ai/CVE-2023-48788"
     ]
   },
   {
@@ -3095,9 +3040,9 @@
       "https://github.com/ph-hitachi/CVE-2023-46604",
       "https://github.com/vulncheck-oss/cve-2023-46604",
       "https://github.com/hh-hunter/cve-2023-46604",
-      "https://github.com/dcm2406/CVE-2023-46604",
       "https://github.com/nitzanoligo/CVE-2023-46604-demo",
       "https://github.com/vjayant93/CVE-2023-46604-POC",
+      "https://github.com/dcm2406/CVE-2023-46604",
       "https://github.com/tomasmussi-mulesoft/activemq-cve-2023-46604",
       "https://github.com/Mudoleto/Broker_ApacheMQ"
     ]
@@ -5364,8 +5309,8 @@
       "https://github.com/ifconfig-me/CVE-2023-36845",
       "https://github.com/toanln-cov/CVE-2023-36845",
       "https://github.com/imhunterand/CVE-2023-36845",
-      "https://github.com/CKevens/ansible-cve-2023-36845",
       "https://github.com/0xNehru/CVE-2023-36845-Juniper-Vulnerability",
+      "https://github.com/CKevens/ansible-cve-2023-36845",
       "https://github.com/iveresk/CVE-2023-36845-6-",
       "https://github.com/cyb3rzest/Juniper-Bug-Automation-CVE-2023-36845",
       "https://github.com/CharonDefalt/Juniper-exploit-CVE-2023-36845"
@@ -5568,8 +5513,8 @@
     "cve_code": "CVE-2023-36143",
     "description": " Maxprint Maxlink 1200G v3.4.11E has an OS command injection vulnerability in the &quot;Diagnostic tool&quot; functionality of the device.",
     "poc": [
-      "https://github.com/RobinTrigon/CVE-2023-36143",
-      "https://github.com/leonardobg/CVE-2023-36143"
+      "https://github.com/leonardobg/CVE-2023-36143",
+      "https://github.com/RobinTrigon/CVE-2023-36143"
     ]
   },
   {
@@ -6042,7 +5987,8 @@
     "description": " In Spring for Apache Kafka 3.0.9 and earlier and versions 2.9.10 and earlier, a possible deserialization attack vector existed, but only if unusual configuration was applied. An attacker would have to construct a malicious serialized object in one of the deserialization exception record headers. Specifically, an application is vulnerable when all of the following are true: * The user does not configure an ErrorHandlingDeserializer for the key and/or value of the record * The user explicitly sets container properties checkDeserExWhenKeyNull and/or checkDeserExWhenValueNull container properties to true. * The user allows untrusted sources to publish to a Kafka topic By default, these properties are false, and the container only attempts to deserialize the headers if an ErrorHandlingDeserializer is configured. The ErrorHandlingDeserializer prevents the vulnerability by removing any such malicious headers before processing the record.",
     "poc": [
       "https://github.com/Contrast-Security-OSS/Spring-Kafka-POC-CVE-2023-34040",
-      "https://github.com/pyn3rd/CVE-2023-34040"
+      "https://github.com/pyn3rd/CVE-2023-34040",
+      "https://github.com/buiduchoang24/CVE-2023-34040"
     ]
   },
   {
@@ -6971,23 +6917,23 @@
     "description": " OURPHP &lt;= 7.2.0 is vulnerale to Cross Site Scripting (XSS) via /client/manage/ourphp_out.php.",
     "poc": [
       "https://github.com/libasmon/Exploite-CVE-2023-30212-Vulnerability",
+      "https://github.com/kuttappu123/CVE-2023-30212-LAB",
       "https://github.com/VisDev23/Vulnerable-Docker--CVE-2023-30212-",
       "https://github.com/Rishipatidar/CVE-2023-30212-POC-DOCKER-FILE",
-      "https://github.com/kuttappu123/CVE-2023-30212-LAB",
       "https://github.com/libas7994/Exploit-the-CVE-2023-30212-vulnerability",
       "https://github.com/libas7994/CVE-2023-30212",
       "https://github.com/AAsh035/CVE-2023-30212",
       "https://github.com/kai-iszz/CVE-2023-30212",
-      "https://github.com/libasv/Exploite-CVE-2023-30212-vulnerability",
       "https://github.com/arunsnap/CVE-2023-30212-POC",
+      "https://github.com/libasv/Exploite-CVE-2023-30212-vulnerability",
       "https://github.com/Anandhu990/CVE-2023-30212-iab",
+      "https://github.com/mallutrojan/CVE-2023-30212-Lab",
       "https://github.com/Anandhu990/CVE-2023-30212_lab",
       "https://github.com/Anandhu990/r-CVE-2023-30212-lab",
       "https://github.com/VisDev23/Vulnerable-Docker-CVE-2023-30212",
       "https://github.com/MaThEw-ViNcEnT/CVE-2023-30212-OURPHP-Vulnerability",
       "https://github.com/Anandhu990/r-CVE-2023-30212--lab",
       "https://github.com/libasmon/Vulnerable-Docker-Environment-CVE-2023-30212",
-      "https://github.com/mallutrojan/CVE-2023-30212-Lab",
       "https://github.com/JasaluRah/Creating-a-Vulnerable-Docker-Environment-CVE-2023-30212-",
       "https://github.com/libasmon/-create-a-vulnerable-Docker-environment-that-is-susceptible-to-CVE-2023-30212"
     ]
@@ -7318,8 +7264,8 @@
       "https://github.com/TaroballzChen/CVE-2023-28432-metasploit-scanner",
       "https://github.com/Romanc9/Gui-poc-test",
       "https://github.com/0xRulez/CVE-2023-28432",
-      "https://github.com/bingtangbanli/CVE-2023-28432",
       "https://github.com/xk-mt/CVE-2023-28432",
+      "https://github.com/bingtangbanli/CVE-2023-28432",
       "https://github.com/h0ng10/CVE-2023-28432_docker",
       "https://github.com/unam4/CVE-2023-28432-minio_update_rce",
       "https://github.com/CHINA-china/MinIO_CVE-2023-28432_EXP"
@@ -7999,7 +7945,6 @@
     "description": " Microsoft SharePoint Server Remote Code Execution Vulnerability.",
     "poc": [
       "https://github.com/Chocapikk/CVE-2023-29357",
-      "https://github.com/AndreOve/CVE-2023-24955-real-RCE",
       "https://github.com/former-farmer/CVE-2023-24955-PoC"
     ]
   },
@@ -8196,8 +8141,8 @@
       "https://github.com/Youns92/Joomla-v4.2.8---CVE-2023-23752",
       "https://github.com/Saboor-Hakimi/CVE-2023-23752",
       "https://github.com/GhostToKnow/CVE-2023-23752",
-      "https://github.com/yusinomy/CVE-2023-23752",
       "https://github.com/0xWhoami35/CVE-2023-23752",
+      "https://github.com/yusinomy/CVE-2023-23752",
       "https://github.com/ibaiw/joomla_CVE-2023-23752",
       "https://github.com/Vulnmachines/joomla_CVE-2023-23752",
       "https://github.com/haxor1337x/Mass-Checker-CVE-2023-23752",
@@ -8544,8 +8489,8 @@
       "https://github.com/youcannotseemeagain/CVE-2023-22515_RCE",
       "https://github.com/j3seer/CVE-2023-22515-POC",
       "https://github.com/Le1a/CVE-2023-22515",
-      "https://github.com/joaoviictorti/CVE-2023-22515",
       "https://github.com/kh4sh3i/CVE-2023-22515",
+      "https://github.com/joaoviictorti/CVE-2023-22515",
       "https://github.com/LucasPDiniz/CVE-2023-22515",
       "https://github.com/rxerium/CVE-2023-22515",
       "https://github.com/Vulnmachines/confluence-cve-2023-22515",
@@ -19888,8 +19833,44 @@
   },
   {
     "cve_code": "CVE-2021-34527",
-    "description": " &lt;p&gt;A remote code execution vulnerability exists when the Windows Print Spooler service improperly performs privileged file operations. An attacker who successfully exploited this vulnerability could run arbitrary code with SYSTEM privileges. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.&lt;/p&gt;. &lt;p&gt;UPDATE July 7, 2021: The security update for Windows Server 2012, Windows Server 2016 and Windows 10, Version 1607 have been released. Please see the Security Updates table for the applicable update for your system. We recommend that you install these updates immediately. If you are unable to install these updates, see the FAQ and Workaround sections in this CVE for information on how to help protect your system from this vulnerability.&lt;/p&gt; &lt;p&gt;In addition to installing the updates, in order to secure your system, you must confirm that the following registry settings are set to 0 (zero) or are not defined (&lt;strong&gt;Note&lt;/strong&gt;: These registry keys do not exist by default, and therefore are already at the secure setting.), also that your Group Policy setting are correct (see FAQ):&lt;/p&gt; &lt;ul&gt; &lt;li&gt;HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows NT\\Printers\\PointAndPrint&lt;/li&gt; &lt;li&gt;NoWarningNoElevationOnInstall = 0 (DWORD) or not defined (default setting)&lt;/li&gt; &lt;li&gt;UpdatePromptSettings = 0 (DWORD) or not defined (default setting)&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;Having NoWarningNoElevationOnInstall set to 1 makes your system vulnerable by design.&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;UPDATE July 6, 2021: Microsoft has completed the investigation and has released security updates to address this vulnerability. Please see the Security Updates table for the applicable update for your system. We recommend that you install these updates immediately. If you are unable to install these updates, see the FAQ and Workaround sections in this CVE for information on how to help protect your system from this vulnerability. See also &lt;a href=&quot;https://support.microsoft.com/topic/31b91c02-05bc-4ada-a7ea-183b129578a7&quot;&gt;KB5005010: Restricting installation of new printer drivers after applying the July 6, 2021 updates&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;Note that the security updates released on and after July 6, 2021 contain protections for CVE-2021-1675 and the additional remote code execution exploit in the Windows Print Spooler service known as &#8220;PrintNightmare&#8221;, documented in CVE-2021-34527.&lt;/p&gt;- [https://github.com/cube0x0/CVE-2021-1675](https://github.com/cube0x0/CVE-2021-1675) :  ![starts](https://img.shields.io/github/stars/cube0x0/CVE-2021-1675.svg) ![forks](https://img.shields.io/github/forks/cube0x0/CVE-2021-1675.svg)- [https://github.com/byt3bl33d3r/ItWasAllADream](https://github.com/byt3bl33d3r/ItWasAllADream) :  ![starts](https://img.shields.io/github/stars/byt3bl33d3r/ItWasAllADream.svg) ![forks](https://img.shields.io/github/forks/byt3bl33d3r/ItWasAllADream.svg)- [https://github.com/BeetleChunks/SpoolSploit](https://github.com/BeetleChunks/SpoolSploit) :  ![starts](https://img.shields.io/github/stars/BeetleChunks/SpoolSploit.svg) ![forks](https://img.shields.io/github/forks/BeetleChunks/SpoolSploit.svg)- [https://github.com/hlldz/CVE-2021-1675-LPE](https://github.com/hlldz/CVE-2021-1675-LPE) :  ![starts](https://img.shields.io/github/stars/hlldz/CVE-2021-1675-LPE.svg) ![forks](https://img.shields.io/github/forks/hlldz/CVE-2021-1675-LPE.svg)- [https://github.com/JohnHammond/CVE-2021-34527](https://github.com/JohnHammond/CVE-2021-34527) :  ![starts](https://img.shields.io/github/stars/JohnHammond/CVE-2021-34527.svg) ![forks](https://img.shields.io/github/forks/JohnHammond/CVE-2021-34527.svg)- [https://github.com/ly4k/PrintNightmare](https://github.com/ly4k/PrintNightmare) :  ![starts](https://img.shields.io/github/stars/ly4k/PrintNightmare.svg) ![forks](https://img.shields.io/github/forks/ly4k/PrintNightmare.svg)- [https://github.com/nemo-wq/PrintNightmare-CVE-2021-34527](https://github.com/nemo-wq/PrintNightmare-CVE-2021-34527) :  ![starts](https://img.shields.io/github/stars/nemo-wq/PrintNightmare-CVE-2021-34527.svg) ![forks](https://img.shields.io/github/forks/nemo-wq/PrintNightmare-CVE-2021-34527.svg)- [https://github.com/m8sec/CVE-2021-34527](https://github.com/m8sec/CVE-2021-34527) :  ![starts](https://img.shields.io/github/stars/m8sec/CVE-2021-34527.svg) ![forks](https://img.shields.io/github/forks/m8sec/CVE-2021-34527.svg)- [https://github.com/evilashz/CVE-2021-1675-LPE-EXP](https://github.com/evilashz/CVE-2021-1675-LPE-EXP) :  ![starts](https://img.shields.io/github/stars/evilashz/CVE-2021-1675-LPE-EXP.svg) ![forks](https://img.shields.io/github/forks/evilashz/CVE-2021-1675-LPE-EXP.svg)- [https://github.com/hackerhouse-opensource/cve-2021-34527](https://github.com/hackerhouse-opensource/cve-2021-34527) :  ![starts](https://img.shields.io/github/stars/hackerhouse-opensource/cve-2021-34527.svg) ![forks](https://img.shields.io/github/forks/hackerhouse-opensource/cve-2021-34527.svg)- [https://github.com/JumpsecLabs/PrintNightmare](https://github.com/JumpsecLabs/PrintNightmare) :  ![starts](https://img.shields.io/github/stars/JumpsecLabs/PrintNightmare.svg) ![forks](https://img.shields.io/github/forks/JumpsecLabs/PrintNightmare.svg)- [https://github.com/khulnasoft-lab/awesome-security](https://github.com/khulnasoft-lab/awesome-security) :  ![starts](https://img.shields.io/github/stars/khulnasoft-lab/awesome-security.svg) ![forks](https://img.shields.io/github/forks/khulnasoft-lab/awesome-security.svg)- [https://github.com/CnOxx1/CVE-2021-34527-1675](https://github.com/CnOxx1/CVE-2021-34527-1675) :  ![starts](https://img.shields.io/github/stars/CnOxx1/CVE-2021-34527-1675.svg) ![forks](https://img.shields.io/github/forks/CnOxx1/CVE-2021-34527-1675.svg)- [https://github.com/thomas-lauer/PrintNightmare](https://github.com/thomas-lauer/PrintNightmare) :  ![starts](https://img.shields.io/github/stars/thomas-lauer/PrintNightmare.svg) ![forks](https://img.shields.io/github/forks/thomas-lauer/PrintNightmare.svg)- [https://github.com/dywhoami/CVE-2021-34527-Scanner-Based-On-cube0x0-POC](https://github.com/dywhoami/CVE-2021-34527-Scanner-Based-On-cube0x0-POC) :  ![starts](https://img.shields.io/github/stars/dywhoami/CVE-2021-34527-Scanner-Based-On-cube0x0-POC.svg) ![forks](https://img.shields.io/github/forks/dywhoami/CVE-2021-34527-Scanner-Based-On-cube0x0-POC.svg)- [https://github.com/Tomparte/PrintNightmare](https://github.com/Tomparte/PrintNightmare) :  ![starts](https://img.shields.io/github/stars/Tomparte/PrintNightmare.svg) ![forks](https://img.shields.io/github/forks/Tomparte/PrintNightmare.svg)- [https://github.com/0xirison/PrintNightmare-Patcher](https://github.com/0xirison/PrintNightmare-Patcher) :  ![starts](https://img.shields.io/github/stars/0xirison/PrintNightmare-Patcher.svg) ![forks](https://img.shields.io/github/forks/0xirison/PrintNightmare-Patcher.svg)- [https://github.com/powershellpr0mpt/PrintNightmare-CVE-2021-34527](https://github.com/powershellpr0mpt/PrintNightmare-CVE-2021-34527) :  ![starts](https://img.shields.io/github/stars/powershellpr0mpt/PrintNightmare-CVE-2021-34527.svg) ![forks](https://img.shields.io/github/forks/powershellpr0mpt/PrintNightmare-CVE-2021-34527.svg)- [https://github.com/galoget/PrintNightmare-CVE-2021-1675-CVE-2021-34527](https://github.com/galoget/PrintNightmare-CVE-2021-1675-CVE-2021-34527) :  ![starts](https://img.shields.io/github/stars/galoget/PrintNightmare-CVE-2021-1675-CVE-2021-34527.svg) ![forks](https://img.shields.io/github/forks/galoget/PrintNightmare-CVE-2021-1675-CVE-2021-34527.svg)- [https://github.com/cyb3rpeace/CVE-2021-34527](https://github.com/cyb3rpeace/CVE-2021-34527) :  ![starts](https://img.shields.io/github/stars/cyb3rpeace/CVE-2021-34527.svg) ![forks](https://img.shields.io/github/forks/cyb3rpeace/CVE-2021-34527.svg)- [https://github.com/Amaranese/CVE-2021-34527](https://github.com/Amaranese/CVE-2021-34527) :  ![starts](https://img.shields.io/github/stars/Amaranese/CVE-2021-34527.svg) ![forks](https://img.shields.io/github/forks/Amaranese/CVE-2021-34527.svg)- [https://github.com/whoami-chmod777/CVE-2021-1675-CVE-2021-34527](https://github.com/whoami-chmod777/CVE-2021-1675-CVE-2021-34527) :  ![starts](https://img.shields.io/github/stars/whoami-chmod777/CVE-2021-1675-CVE-2021-34527.svg) ![forks](https://img.shields.io/github/forks/whoami-chmod777/CVE-2021-1675-CVE-2021-34527.svg)- [https://github.com/geekbrett/CVE-2021-34527-PrintNightmare-Workaround](https://github.com/geekbrett/CVE-2021-34527-PrintNightmare-Workaround) :  ![starts](https://img.shields.io/github/stars/geekbrett/CVE-2021-34527-PrintNightmare-Workaround.svg) ![forks](https://img.shields.io/github/forks/geekbrett/CVE-2021-34527-PrintNightmare-Workaround.svg)- [https://github.com/rdboboia/disable-RegisterSpoolerRemoteRpcEndPoint](https://github.com/rdboboia/disable-RegisterSpoolerRemoteRpcEndPoint) :  ![starts](https://img.shields.io/github/stars/rdboboia/disable-RegisterSpoolerRemoteRpcEndPoint.svg) ![forks](https://img.shields.io/github/forks/rdboboia/disable-RegisterSpoolerRemoteRpcEndPoint.svg)- [https://github.com/pyonghe/PrintNightMareChecker](https://github.com/pyonghe/PrintNightMareChecker) :  ![starts](https://img.shields.io/github/stars/pyonghe/PrintNightMareChecker.svg) ![forks](https://img.shields.io/github/forks/pyonghe/PrintNightMareChecker.svg)- [https://github.com/SystemJargon/infosec_1](https://github.com/SystemJargon/infosec_1) :  ![starts](https://img.shields.io/github/stars/SystemJargon/infosec_1.svg) ![forks](https://img.shields.io/github/forks/SystemJargon/infosec_1.svg)- [https://github.com/DenizSe/CVE-2021-34527](https://github.com/DenizSe/CVE-2021-34527) :  ![starts](https://img.shields.io/github/stars/DenizSe/CVE-2021-34527.svg) ![forks](https://img.shields.io/github/forks/DenizSe/CVE-2021-34527.svg)- [https://github.com/glorisonlai/printnightmare](https://github.com/glorisonlai/printnightmare) :  ![starts](https://img.shields.io/github/stars/glorisonlai/printnightmare.svg) ![forks](https://img.shields.io/github/forks/glorisonlai/printnightmare.svg)- [https://github.com/d0rb/CVE-2021-34527](https://github.com/d0rb/CVE-2021-34527) :  ![starts](https://img.shields.io/github/stars/d0rb/CVE-2021-34527.svg) ![forks](https://img.shields.io/github/forks/d0rb/CVE-2021-34527.svg)- [https://github.com/Eutectico/Printnightmare](https://github.com/Eutectico/Printnightmare) :  ![starts](https://img.shields.io/github/stars/Eutectico/Printnightmare.svg) ![forks](https://img.shields.io/github/forks/Eutectico/Printnightmare.svg)- [https://github.com/WidespreadPandemic/CVE-2021-34527_ACL_mitigation](https://github.com/WidespreadPandemic/CVE-2021-34527_ACL_mitigation) :  ![starts](https://img.shields.io/github/stars/WidespreadPandemic/CVE-2021-34527_ACL_mitigation.svg) ![forks](https://img.shields.io/github/forks/WidespreadPandemic/CVE-2021-34527_ACL_mitigation.svg)- [https://github.com/TieuLong21Prosper/detect_bruteforce](https://github.com/TieuLong21Prosper/detect_bruteforce) :  ![starts](https://img.shields.io/github/stars/TieuLong21Prosper/detect_bruteforce.svg) ![forks](https://img.shields.io/github/forks/TieuLong21Prosper/detect_bruteforce.svg)- [https://github.com/vinaysudheer/Disable-Spooler-Service-PrintNightmare-CVE-2021-34527](https://github.com/vinaysudheer/Disable-Spooler-Service-PrintNightmare-CVE-2021-34527) :  ![starts](https://img.shields.io/github/stars/vinaysudheer/Disable-Spooler-Service-PrintNightmare-CVE-2021-34527.svg) ![forks](https://img.shields.io/github/forks/vinaysudheer/Disable-Spooler-Service-PrintNightmare-CVE-2021-34527.svg)- [https://github.com/r1skkam/PrintNightmare](https://github.com/r1skkam/PrintNightmare) :  ![starts](https://img.shields.io/github/stars/r1skkam/PrintNightmare.svg) ![forks](https://img.shields.io/github/forks/r1skkam/PrintNightmare.svg)- [https://github.com/syntaxbearror/PowerShell-PrintNightmare](https://github.com/syntaxbearror/PowerShell-PrintNightmare) :  ![starts](https://img.shields.io/github/stars/syntaxbearror/PowerShell-PrintNightmare.svg) ![forks](https://img.shields.io/github/forks/syntaxbearror/PowerShell-PrintNightmare.svg)",
-    "poc": []
+    "description": " &lt;p&gt;A remote code execution vulnerability exists when the Windows Print Spooler service improperly performs privileged file operations. An attacker who successfully exploited this vulnerability could run arbitrary code with SYSTEM privileges. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.&lt;/p&gt;. &lt;p&gt;UPDATE July 7, 2021: The security update for Windows Server 2012, Windows Server 2016 and Windows 10, Version 1607 have been released. Please see the Security Updates table for the applicable update for your system. We recommend that you install these updates immediately. If you are unable to install these updates, see the FAQ and Workaround sections in this CVE for information on how to help protect your system from this vulnerability.&lt;/p&gt; &lt;p&gt;In addition to installing the updates, in order to secure your system, you must confirm that the following registry settings are set to 0 (zero) or are not defined (&lt;strong&gt;Note&lt;/strong&gt;: These registry keys do not exist by default, and therefore are already at the secure setting.), also that your Group Policy setting are correct (see FAQ):&lt;/p&gt; &lt;ul&gt; &lt;li&gt;HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows NT\\Printers\\PointAndPrint&lt;/li&gt; &lt;li&gt;NoWarningNoElevationOnInstall = 0 (DWORD) or not defined (default setting)&lt;/li&gt; &lt;li&gt;UpdatePromptSettings = 0 (DWORD) or not defined (default setting)&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;Having NoWarningNoElevationOnInstall set to 1 makes your system vulnerable by design.&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;UPDATE July 6, 2021: Microsoft has completed the investigation and has released security updates to address this vulnerability. Please see the Security Updates table for the applicable update for your system. We recommend that you install these updates immediately. If you are unable to install these updates, see the FAQ and Workaround sections in this CVE for information on how to help protect your system from this vulnerability. See also &lt;a href=&quot;https://support.microsoft.com/topic/31b91c02-05bc-4ada-a7ea-183b129578a7&quot;&gt;KB5005010: Restricting installation of new printer drivers after applying the July 6, 2021 updates&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;Note that the security updates released on and after July 6, 2021 contain protections for CVE-2021-1675 and the additional remote code execution exploit in the Windows Print Spooler service known as &#8220;PrintNightmare&#8221;, documented in CVE-2021-34527.&lt;/p&gt;.",
+    "poc": [
+      "https://github.com/cube0x0/CVE-2021-1675",
+      "https://github.com/byt3bl33d3r/ItWasAllADream",
+      "https://github.com/BeetleChunks/SpoolSploit",
+      "https://github.com/hlldz/CVE-2021-1675-LPE",
+      "https://github.com/JohnHammond/CVE-2021-34527",
+      "https://github.com/ly4k/PrintNightmare",
+      "https://github.com/nemo-wq/PrintNightmare-CVE-2021-34527",
+      "https://github.com/m8sec/CVE-2021-34527",
+      "https://github.com/evilashz/CVE-2021-1675-LPE-EXP",
+      "https://github.com/hackerhouse-opensource/cve-2021-34527",
+      "https://github.com/JumpsecLabs/PrintNightmare",
+      "https://github.com/khulnasoft-lab/awesome-security",
+      "https://github.com/CnOxx1/CVE-2021-34527-1675",
+      "https://github.com/thomas-lauer/PrintNightmare",
+      "https://github.com/dywhoami/CVE-2021-34527-Scanner-Based-On-cube0x0-POC",
+      "https://github.com/Tomparte/PrintNightmare",
+      "https://github.com/0xirison/PrintNightmare-Patcher",
+      "https://github.com/powershellpr0mpt/PrintNightmare-CVE-2021-34527",
+      "https://github.com/galoget/PrintNightmare-CVE-2021-1675-CVE-2021-34527",
+      "https://github.com/cyb3rpeace/CVE-2021-34527",
+      "https://github.com/Amaranese/CVE-2021-34527",
+      "https://github.com/whoami-chmod777/CVE-2021-1675-CVE-2021-34527",
+      "https://github.com/geekbrett/CVE-2021-34527-PrintNightmare-Workaround",
+      "https://github.com/rdboboia/disable-RegisterSpoolerRemoteRpcEndPoint",
+      "https://github.com/pyonghe/PrintNightMareChecker",
+      "https://github.com/SystemJargon/infosec_1",
+      "https://github.com/DenizSe/CVE-2021-34527",
+      "https://github.com/glorisonlai/printnightmare",
+      "https://github.com/d0rb/CVE-2021-34527",
+      "https://github.com/Eutectico/Printnightmare",
+      "https://github.com/WidespreadPandemic/CVE-2021-34527_ACL_mitigation",
+      "https://github.com/TieuLong21Prosper/detect_bruteforce",
+      "https://github.com/vinaysudheer/Disable-Spooler-Service-PrintNightmare-CVE-2021-34527",
+      "https://github.com/r1skkam/PrintNightmare",
+      "https://github.com/syntaxbearror/PowerShell-PrintNightmare"
+    ]
   },
   {
     "cve_code": "CVE-2021-34523",
@@ -20722,8 +20703,10 @@
   },
   {
     "cve_code": "CVE-2021-29200",
-    "description": " Apache OFBiz has unsafe deserialization prior to 17.12.07 version. An unauthenticated user can perform an RCE attack- [https://github.com/freeide/CVE-2021-29200](https://github.com/freeide/CVE-2021-29200) :  ![starts](https://img.shields.io/github/stars/freeide/CVE-2021-29200.svg) ![forks](https://img.shields.io/github/forks/freeide/CVE-2021-29200.svg)",
-    "poc": []
+    "description": " Apache OFBiz has unsafe deserialization prior to 17.12.07 version. An unauthenticated user can perform an RCE attack.",
+    "poc": [
+      "https://github.com/freeide/CVE-2021-29200"
+    ]
   },
   {
     "cve_code": "CVE-2021-29156",
@@ -45829,13 +45812,13 @@
       "https://github.com/bdunlap9/CVE-2007-2447_python",
       "https://github.com/Nosferatuvjr/Samba-Usermap-exploit",
       "https://github.com/mr-l0n3lly/CVE-2007-2447",
-      "https://github.com/G01d3nW01f/CVE-2007-2447",
       "https://github.com/0xKn/CVE-2007-2447",
-      "https://github.com/cherrera0001/CVE-2007-2447",
+      "https://github.com/G01d3nW01f/CVE-2007-2447",
       "https://github.com/0xTabun/CVE-2007-2447",
+      "https://github.com/cherrera0001/CVE-2007-2447",
       "https://github.com/testaross4/CVE-2007-2447",
-      "https://github.com/0xConstant/CVE-2007-2447",
       "https://github.com/Juantos/cve-2007-2447",
+      "https://github.com/0xConstant/CVE-2007-2447",
       "https://github.com/xlcc4096/exploit-CVE-2007-2447",
       "https://github.com/JoseBarrios/CVE-2007-2447",
       "https://github.com/b1fair/smb_usermap",
@@ -46031,8 +46014,8 @@
     "description": " Buffer overflow in MiniShare 1.4.1 and earlier allows remote attackers to execute arbitrary code via a long HTTP GET request.",
     "poc": [
       "https://github.com/kkirsche/CVE-2004-2271",
-      "https://github.com/war4uthor/CVE-2004-2271",
       "https://github.com/lautarolopez4/CVE-2004-2271",
+      "https://github.com/war4uthor/CVE-2004-2271",
       "https://github.com/pwncone/CVE-2004-2271-MiniShare-1.4.1-BOF",
       "https://github.com/PercussiveElbow/CVE-2004-2271-MiniShare-1.4.1-Buffer-Overflow"
     ]
