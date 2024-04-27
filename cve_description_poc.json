@@ -113,6 +113,13 @@
     ]
   },
   {
+    "cve_code": "CVE-2024-29384",
+    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "poc": [
+      "https://github.com/randshell/CSS-Exfil-Protection-POC"
+    ]
+  },
+  {
     "cve_code": "CVE-2024-29375",
     "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
     "poc": [
@@ -430,6 +437,13 @@
     "description": " An issue in radareorg radare2 v.0.9.7 through v.5.8.6 and fixed in v.5.8.8 allows a local attacker to cause a denial of service via the grub_sfs_read_extent function.",
     "poc": [
       "https://github.com/TronciuVlad/CVE-2024-26475"
+    ]
+  },
+  {
+    "cve_code": "CVE-2024-26218",
+    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "poc": [
+      "https://github.com/exploits-forsale/CVE-2024-26218"
     ]
   },
   {
@@ -1478,6 +1492,13 @@
     ]
   },
   {
+    "cve_code": "CVE-2024-21345",
+    "description": " Windows Kernel Elevation of Privilege Vulnerability.",
+    "poc": [
+      "https://github.com/exploits-forsale/CVE-2024-21345"
+    ]
+  },
+  {
     "cve_code": "CVE-2024-21338",
     "description": " Windows Kernel Elevation of Privilege Vulnerability.",
     "poc": [
@@ -2205,14 +2226,6 @@
     ]
   },
   {
-    "cve_code": "CVE-2023-50358",
-    "description": " An OS command injection vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow users to execute commands via a network. We have already fixed the vulnerability in the following versions: QTS 5.1.5.2645 build 20240116 and later QTS 4.5.4.2627 build 20231225 and later QTS 4.3.6.2665 build 20240131 and later QTS 4.3.4.2675 build 20240131 and later QTS 4.3.3.2644 build 20240131 and later QTS 4.2.6 build 20240131 and later QuTS hero h5.1.5.2647 build 20240118 and later QuTS hero h4.5.4.2626 build 20231225 and later QuTScloud c5.1.5.2651 and later.",
-    "poc": [
-      "https://github.com/greandfather/CVE-2023-50358-POC",
-      "https://github.com/greandfather/CVE-2023-50358-POC-RCE"
-    ]
-  },
-  {
     "cve_code": "CVE-2023-50254",
     "description": " Deepin Linux's default document reader `deepin-reader` software suffers from a serious vulnerability in versions prior to 6.0.7 due to a design flaw that leads to remote command execution via crafted docx document. This is a file overwrite vulnerability. Remote code execution (RCE) can be achieved by overwriting files like .bash_rc, .bash_login, etc. RCE will be triggered when the user opens the terminal. Version 6.0.7 contains a patch for the issue.",
     "poc": [
@@ -2798,8 +2811,11 @@
   },
   {
     "cve_code": "CVE-2023-48022",
-    "description": " ** DISP.UTED ** Anyscale Ray 2.6.3 and 2.8.0 allows a remote attacker to execute arbitrary code via the job submission API. NOTE: the vendor's position is that this report is irrelevant because Ray, as stated in its documentation, is not intended for use outside of a strictly controlled network environment- [https://github.com/0x656565/CVE-2023-48022](https://github.com/0x656565/CVE-2023-48022) :  ![starts](https://img.shields.io/github/stars/0x656565/CVE-2023-48022.svg) ![forks](https://img.shields.io/github/forks/0x656565/CVE-2023-48022.svg)- [https://github.com/jakabakos/ShadowRay-RCE-PoC-CVE-2023-48022](https://github.com/jakabakos/ShadowRay-RCE-PoC-CVE-2023-48022) :  ![starts](https://img.shields.io/github/stars/jakabakos/ShadowRay-RCE-PoC-CVE-2023-48022.svg) ![forks](https://img.shields.io/github/forks/jakabakos/ShadowRay-RCE-PoC-CVE-2023-48022.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** Anyscale Ray 2.6.3 and 2.8.0 allows a remote attacker to execute arbitrary code via the job submission API. NOTE: the vendor's position is that this report is irrelevant because Ray, as stated in its documentation, is not intended for use outside of a strictly controlled network environment.",
+    "poc": [
+      "https://github.com/0x656565/CVE-2023-48022",
+      "https://github.com/jakabakos/ShadowRay-RCE-PoC-CVE-2023-48022"
+    ]
   },
   {
     "cve_code": "CVE-2023-47889",
@@ -3101,12 +3117,13 @@
       "https://github.com/minhangxiaohui/ActiveMQ_CVE-2023-46604",
       "https://github.com/dcm2406/CVE-Lab",
       "https://github.com/Anekant-Singhai/Exploits",
+      "https://github.com/thinkycx/activemq-rce-cve-2023-46604",
       "https://github.com/ph-hitachi/CVE-2023-46604",
       "https://github.com/vulncheck-oss/cve-2023-46604",
       "https://github.com/hh-hunter/cve-2023-46604",
-      "https://github.com/nitzanoligo/CVE-2023-46604-demo",
       "https://github.com/dcm2406/CVE-2023-46604",
       "https://github.com/vjayant93/CVE-2023-46604-POC",
+      "https://github.com/nitzanoligo/CVE-2023-46604-demo",
       "https://github.com/tomasmussi-mulesoft/activemq-cve-2023-46604",
       "https://github.com/Mudoleto/Broker_ApacheMQ"
     ]
@@ -3407,13 +3424,6 @@
     "description": " The QAD Search Server is vulnerable to Stored Cross-Site Scripting (XSS) in versions up to, and including, 1.0.0.315 due to insufficient checks on indexes. This makes it possible for unauthenticated attackers to create a new index and inject a malicious web script into its name, that will execute whenever a user accesses the search page.",
     "poc": [
       "https://github.com/itsAptx/CVE-2023-45471"
-    ]
-  },
-  {
-    "cve_code": "CVE-2023-45318",
-    "description": " A heap-based buffer overflow vulnerability exists in the HTTP Server functionality of Weston Embedded uC-HTTP git commit 80d4004. A specially crafted network packet can lead to arbitrary code execution. An attacker can send a malicious packet to trigger this vulnerability.",
-    "poc": [
-      "https://github.com/greandfather/CVE-2023-50358-POC-RCE"
     ]
   },
   {
@@ -4236,8 +4246,8 @@
     "description": " Froala Editor v4.0.1 to v4.1.1 was discovered to contain a cross-site scripting (XSS) vulnerability.",
     "poc": [
       "https://github.com/miguelc49/CVE-2023-41592-2",
-      "https://github.com/miguelc49/CVE-2023-41592-3",
-      "https://github.com/miguelc49/CVE-2023-41592-1"
+      "https://github.com/miguelc49/CVE-2023-41592-1",
+      "https://github.com/miguelc49/CVE-2023-41592-3"
     ]
   },
   {
@@ -4443,6 +4453,20 @@
     "description": " SQL injection vulnerbility in jeecgboot jeecg-boot v 3.0, 3.5.3 that allows a remote attacker to execute arbitrary code via a crafted request to the report/jeecgboot/jmreport/queryFieldBySql component.",
     "poc": [
       "https://github.com/Zone1-Z/CVE-2023-40989"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-40933",
+    "description": " A SQL injection vulnerability in Nagios XI v5.11.1 and below allows authenticated attackers with announcement banner configuration privileges to execute arbitrary SQL commands via the ID parameter sent to the update_banner_message() function.",
+    "poc": [
+      "https://github.com/sealldeveloper/CVE-2023-40933-PoC"
+    ]
+  },
+  {
+    "cve_code": "CVE-2023-40931",
+    "description": " A SQL injection vulnerability in Nagios XI from version 5.11.0 up to and including 5.11.1 allows authenticated attackers to execute arbitrary SQL commands via the ID parameter in the POST request to /nagiosxi/admin/banner_message-ajaxhelper.php.",
+    "poc": [
+      "https://github.com/sealldeveloper/CVE-2023-40931-PoC"
     ]
   },
   {
@@ -4877,8 +4901,8 @@
       "https://github.com/SugiB3o/Keylog_CVE2023-38831",
       "https://github.com/Mich-ele/CVE-2023-38831-winrar",
       "https://github.com/r1yaz/winDED",
-      "https://github.com/ruycr4ft/CVE-2023-38831",
       "https://github.com/SpamixOfficial/CVE-2023-38831",
+      "https://github.com/ruycr4ft/CVE-2023-38831",
       "https://github.com/elefantesagradodeluzinfinita/cve-2023-38831",
       "https://github.com/thegr1ffyn/CVE-2023-38831",
       "https://github.com/IR-HuntGuardians/CVE-2023-38831-HUNT",
@@ -4954,8 +4978,8 @@
       "https://github.com/Xuxfff/CVE-2023-38646-Poc",
       "https://github.com/Zenmovie/CVE-2023-38646",
       "https://github.com/fidjiw/CVE-2023-38646-POC",
-      "https://github.com/SUT0L/CVE-2023-38646",
       "https://github.com/alexandre-pecorilla/CVE-2023-38646",
+      "https://github.com/SUT0L/CVE-2023-38646",
       "https://github.com/joaoviictorti/CVE-2023-38646",
       "https://github.com/Chocapikk/CVE-2023-38646",
       "https://github.com/UserConnecting/Exploit-CVE-2023-38646-Metabase",
@@ -5381,8 +5405,8 @@
       "https://github.com/ifconfig-me/CVE-2023-36845",
       "https://github.com/toanln-cov/CVE-2023-36845",
       "https://github.com/imhunterand/CVE-2023-36845",
-      "https://github.com/CKevens/ansible-cve-2023-36845",
       "https://github.com/0xNehru/CVE-2023-36845-Juniper-Vulnerability",
+      "https://github.com/CKevens/ansible-cve-2023-36845",
       "https://github.com/iveresk/CVE-2023-36845-6-",
       "https://github.com/cyb3rzest/Juniper-Bug-Automation-CVE-2023-36845",
       "https://github.com/CharonDefalt/Juniper-exploit-CVE-2023-36845"
@@ -5977,8 +6001,8 @@
     "description": " mx-chain-go is the official implementation of the MultiversX blockchain protocol, written in golang. When executing a relayed transaction, if the inner transaction failed, it would have increased the inner transaction's sender account nonce. This could have contributed to a limited DoS attack on a targeted account. The fix is a breaking change so a new flag `RelayedNonceFixEnableEpoch` was needed. This was a strict processing issue while validating blocks on a chain. This vulnerability has been patched in version 1.4.17.",
     "poc": [
       "https://github.com/miguelc49/CVE-2023-34458-1",
-      "https://github.com/miguelc49/CVE-2023-34458-2",
-      "https://github.com/miguelc49/CVE-2023-34458-3"
+      "https://github.com/miguelc49/CVE-2023-34458-3",
+      "https://github.com/miguelc49/CVE-2023-34458-2"
     ]
   },
   {
@@ -6996,13 +7020,13 @@
       "https://github.com/libas7994/CVE-2023-30212",
       "https://github.com/AAsh035/CVE-2023-30212",
       "https://github.com/libasv/Exploite-CVE-2023-30212-vulnerability",
-      "https://github.com/arunsnap/CVE-2023-30212-POC",
       "https://github.com/kai-iszz/CVE-2023-30212",
-      "https://github.com/mallutrojan/CVE-2023-30212-Lab",
+      "https://github.com/arunsnap/CVE-2023-30212-POC",
       "https://github.com/Anandhu990/CVE-2023-30212_lab",
+      "https://github.com/Anandhu990/CVE-2023-30212-iab",
+      "https://github.com/mallutrojan/CVE-2023-30212-Lab",
       "https://github.com/Anandhu990/r-CVE-2023-30212-lab",
       "https://github.com/VisDev23/Vulnerable-Docker-CVE-2023-30212",
-      "https://github.com/Anandhu990/CVE-2023-30212-iab",
       "https://github.com/MaThEw-ViNcEnT/CVE-2023-30212-OURPHP-Vulnerability",
       "https://github.com/Anandhu990/r-CVE-2023-30212--lab",
       "https://github.com/libasmon/Vulnerable-Docker-Environment-CVE-2023-30212",
@@ -7635,10 +7659,10 @@
       "https://github.com/davuXVI/CVE-2023-27163",
       "https://github.com/KharimMchatta/basketcraft",
       "https://github.com/overgrowncarrot1/CVE-2023-27163",
+      "https://github.com/thomas-osgood/CVE-2023-27163",
       "https://github.com/madhavmehndiratta/CVE-2023-27163",
       "https://github.com/Hamibubu/CVE-2023-27163",
       "https://github.com/cowsecurity/CVE-2023-27163",
-      "https://github.com/thomas-osgood/CVE-2023-27163",
       "https://github.com/rvizx/CVE-2023-27163",
       "https://github.com/MasterCode112/CVE-2023-27163"
     ]
@@ -8222,16 +8246,16 @@
       "https://github.com/adriyansyah-mf/CVE-2023-23752",
       "https://github.com/wangking1/CVE-2023-23752-poc",
       "https://github.com/Pushkarup/CVE-2023-23752",
-      "https://github.com/MrP4nda1337/CVE-2023-23752",
       "https://github.com/r3dston3/CVE-2023-23752",
       "https://github.com/AlissonFaoli/CVE-2023-23752",
+      "https://github.com/MrP4nda1337/CVE-2023-23752",
       "https://github.com/K3ysTr0K3R/CVE-2023-23752-EXPLOIT",
       "https://github.com/Jenderal92/Joomla-CVE-2023-23752",
       "https://github.com/raystr-atearedteam/CVE2023-23752",
       "https://github.com/AkbarWiraN/Joomla-Scanner",
       "https://github.com/lainonz/CVE-2023-23752",
-      "https://github.com/gunzf0x/CVE-2023-23752",
       "https://github.com/JeneralMotors/CVE-2023-23752",
+      "https://github.com/gunzf0x/CVE-2023-23752",
       "https://github.com/Ly0kha/Joomla-CVE-2023-23752-Exploit-Script",
       "https://github.com/cybernetwiz/CVE-2023-23752",
       "https://github.com/C1ph3rX13/CVE-2023-23752",
@@ -8240,12 +8264,12 @@
       "https://github.com/svaltheim/CVE-2023-23752",
       "https://github.com/Rival420/CVE-2023-23752",
       "https://github.com/sw0rd1ight/CVE-2023-23752",
-      "https://github.com/shellvik/CVE-2023-23752",
       "https://github.com/H454NSec/CVE-2023-23752",
+      "https://github.com/shellvik/CVE-2023-23752",
       "https://github.com/wibuheker/Joomla-CVE-2023-23752",
       "https://github.com/hadrian3689/CVE-2023-23752_Joomla",
-      "https://github.com/Ge-Per/Scanner-CVE-2023-23752",
-      "https://github.com/mariovata/CVE-2023-23752-Python"
+      "https://github.com/mariovata/CVE-2023-23752-Python",
+      "https://github.com/Ge-Per/Scanner-CVE-2023-23752"
     ]
   },
   {
@@ -8571,7 +8595,8 @@
       "https://github.com/INTfinityConsulting/cve-2023-22515",
       "https://github.com/edsonjt81/CVE-2023-22515-Scan.",
       "https://github.com/DsaHen/cve-2023-22515-exp",
-      "https://github.com/CalegariMindSec/Exploit-CVE-2023-22515"
+      "https://github.com/CalegariMindSec/Exploit-CVE-2023-22515",
+      "https://github.com/fyx1t/NSE--CVE-2023-22515"
     ]
   },
   {
@@ -9063,9 +9088,9 @@
       "https://github.com/Shadow0ps/CVE-2023-20198-Scanner",
       "https://github.com/hackingyseguridad/nmap",
       "https://github.com/Atea-Redteam/CVE-2023-20198",
+      "https://github.com/W01fh4cker/CVE-2023-20198-RCE",
       "https://github.com/Tounsi007/CVE-2023-20198",
       "https://github.com/Pushkarup/CVE-2023-20198",
-      "https://github.com/W01fh4cker/CVE-2023-20198-RCE",
       "https://github.com/iveresk/cve-2023-20198",
       "https://github.com/sohaibeb/CVE-2023-20198",
       "https://github.com/RevoltSecurities/CVE-2023-20198",
@@ -9402,7 +9427,6 @@
     "cve_code": "CVE-2023-5631",
     "description": " Roundcube before 1.4.15, 1.5.x before 1.5.5, and 1.6.x before 1.6.4 allows stored XSS via an HTML e-mail message with a crafted SVG document because of program/lib/Roundcube/rcube_washtml.php behavior. This could allow a remote attacker to load arbitrary JavaScript code.",
     "poc": [
-      "https://github.com/greandfather/EXPLOIT-Roundcube-vulnerability-POC-CVE-2023-5631-",
       "https://github.com/soreta2/CVE-2023-5631-POC"
     ]
   },
@@ -10467,8 +10491,8 @@
     "description": " Path Traversal: '\\..\\filename' in GitHub repository mlflow/mlflow prior to 2.2.1.",
     "poc": [
       "https://github.com/iumiro/CVE-2023-1177-MLFlow",
-      "https://github.com/hh-hunter/ml-CVE-2023-1177",
-      "https://github.com/tiyeume25112004/CVE-2023-1177-rebuild"
+      "https://github.com/tiyeume25112004/CVE-2023-1177-rebuild",
+      "https://github.com/hh-hunter/ml-CVE-2023-1177"
     ]
   },
   {
@@ -10566,8 +10590,8 @@
       "https://github.com/Satheesh575555/linux-4.19.72_CVE-2023-0386",
       "https://github.com/puckiestyle/CVE-2023-0386",
       "https://github.com/Anekant-Singhai/Exploits",
-      "https://github.com/churamanib/CVE-2023-0386",
       "https://github.com/letsr00t/CVE-2023-0386",
+      "https://github.com/churamanib/CVE-2023-0386",
       "https://github.com/EstamelGG/CVE-2023-0386-libs",
       "https://github.com/hshivhare67/kernel_v4.19.72_CVE-2023-0386"
     ]
@@ -21172,10 +21196,8 @@
   },
   {
     "cve_code": "CVE-2021-34481",
-    "description": " &lt;p&gt;A remote code execution vulnerability exists when the Windows Print Spooler service improperly performs privileged file operations. An attacker who successfully exploited this vulnerability could run arbitrary code with SYSTEM privileges. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.&lt;/p&gt;. &lt;p&gt;&lt;strong&gt;UPDATE&lt;/strong&gt; August 10, 2021: Microsoft has completed the investigation and has released security updates to address this vulnerability. Please see the Security Updates table for the applicable update for your system. We recommend that you install these updates immediately. This security update changes the Point and Print default behavior; please see &lt;a href=&quot;https://support.microsoft.com/help/5005652&quot;&gt;KB5005652&lt;/a&gt;.&lt;/p&gt;.",
-    "poc": [
-      "https://github.com/vpn28/CVE-2021-34481"
-    ]
+    "description": " &lt;p&gt;A remote code execution vulnerability exists when the Windows Print Spooler service improperly performs privileged file operations. An attacker who successfully exploited this vulnerability could run arbitrary code with SYSTEM privileges. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.&lt;/p&gt;. &lt;p&gt;&lt;strong&gt;UPDATE&lt;/strong&gt; August 10, 2021: Microsoft has completed the investigation and has released security updates to address this vulnerability. Please see the Security Updates table for the applicable update for your system. We recommend that you install these updates immediately. This security update changes the Point and Print default behavior; please see &lt;a href=&quot;https://support.microsoft.com/help/5005652&quot;&gt;KB5005652&lt;/a&gt;.&lt;/p&gt;- [https://github.com/vpn28/CVE-2021-34481](https://github.com/vpn28/CVE-2021-34481) :  ![starts](https://img.shields.io/github/stars/vpn28/CVE-2021-34481.svg) ![forks](https://img.shields.io/github/forks/vpn28/CVE-2021-34481.svg)",
+    "poc": []
   },
   {
     "cve_code": "CVE-2021-34473",
@@ -27139,12 +27161,8 @@
   },
   {
     "cve_code": "CVE-2020-15778",
-    "description": " ** DISP.UTED ** scp in OpenSSH through 8.3p1 allows command injection in the scp.c toremote function, as demonstrated by backtick characters in the destination argument. NOTE: the vendor reportedly has stated that they intentionally omit validation of &quot;anomalous argument transfers&quot; because that could &quot;stand a great chance of breaking existing workflows.&quot;.",
-    "poc": [
-      "https://github.com/cpandya2909/CVE-2020-15778",
-      "https://github.com/Neko-chanQwQ/CVE-2020-15778-Exploit",
-      "https://github.com/Evan-Zhangyf/CVE-2020-15778"
-    ]
+    "description": " ** DISP.UTED ** scp in OpenSSH through 8.3p1 allows command injection in the scp.c toremote function, as demonstrated by backtick characters in the destination argument. NOTE: the vendor reportedly has stated that they intentionally omit validation of &quot;anomalous argument transfers&quot; because that could &quot;stand a great chance of breaking existing workflows.&quot;- [https://github.com/cpandya2909/CVE-2020-15778](https://github.com/cpandya2909/CVE-2020-15778) :  ![starts](https://img.shields.io/github/stars/cpandya2909/CVE-2020-15778.svg) ![forks](https://img.shields.io/github/forks/cpandya2909/CVE-2020-15778.svg)- [https://github.com/Neko-chanQwQ/CVE-2020-15778-Exploit](https://github.com/Neko-chanQwQ/CVE-2020-15778-Exploit) :  ![starts](https://img.shields.io/github/stars/Neko-chanQwQ/CVE-2020-15778-Exploit.svg) ![forks](https://img.shields.io/github/forks/Neko-chanQwQ/CVE-2020-15778-Exploit.svg)- [https://github.com/Evan-Zhangyf/CVE-2020-15778](https://github.com/Evan-Zhangyf/CVE-2020-15778) :  ![starts](https://img.shields.io/github/stars/Evan-Zhangyf/CVE-2020-15778.svg) ![forks](https://img.shields.io/github/forks/Evan-Zhangyf/CVE-2020-15778.svg)",
+    "poc": []
   },
   {
     "cve_code": "CVE-2020-15589",
@@ -48896,10 +48914,10 @@
       "https://github.com/0xKn/CVE-2007-2447",
       "https://github.com/G01d3nW01f/CVE-2007-2447",
       "https://github.com/0xTabun/CVE-2007-2447",
-      "https://github.com/testaross4/CVE-2007-2447",
+      "https://github.com/Juantos/cve-2007-2447",
       "https://github.com/cherrera0001/CVE-2007-2447",
       "https://github.com/0xConstant/CVE-2007-2447",
-      "https://github.com/Juantos/cve-2007-2447",
+      "https://github.com/testaross4/CVE-2007-2447",
       "https://github.com/xlcc4096/exploit-CVE-2007-2447",
       "https://github.com/JoseBarrios/CVE-2007-2447",
       "https://github.com/b1fair/smb_usermap",
@@ -49095,8 +49113,8 @@
     "description": " Buffer overflow in MiniShare 1.4.1 and earlier allows remote attackers to execute arbitrary code via a long HTTP GET request.",
     "poc": [
       "https://github.com/kkirsche/CVE-2004-2271",
-      "https://github.com/war4uthor/CVE-2004-2271",
       "https://github.com/lautarolopez4/CVE-2004-2271",
+      "https://github.com/war4uthor/CVE-2004-2271",
       "https://github.com/pwncone/CVE-2004-2271-MiniShare-1.4.1-BOF",
       "https://github.com/PercussiveElbow/CVE-2004-2271-MiniShare-1.4.1-Buffer-Overflow"
     ]
@@ -49137,8 +49155,8 @@
     "cve_code": "CVE-2003-0358",
     "description": " Buffer overflow in (1) nethack 3.4.0 and earlier, and (2) falconseye 1.9.3 and earlier, which is based on nethack, allows local users to gain privileges via a long -s command line option.",
     "poc": [
-      "https://github.com/fengjixuchui/CVE-2003-0358",
-      "https://github.com/gmh5225/CVE-2003-0358"
+      "https://github.com/gmh5225/CVE-2003-0358",
+      "https://github.com/fengjixuchui/CVE-2003-0358"
     ]
   },
   {
@@ -49157,8 +49175,8 @@
       "https://github.com/fyoderxx/slmail-exploit",
       "https://github.com/war4uthor/CVE-2003-0264",
       "https://github.com/vrikodar/CVE-2003-0264_EXPLOIT",
-      "https://github.com/pwncone/CVE-2003-0264-SLmail-5.5",
-      "https://github.com/vaknin/SLMail5.5"
+      "https://github.com/vaknin/SLMail5.5",
+      "https://github.com/pwncone/CVE-2003-0264-SLmail-5.5"
     ]
   },
   {
@@ -49295,6 +49313,13 @@
     ]
   },
   {
+    "cve_code": "CVE-2001-0934",
+    "description": " Cooolsoft PowerFTP Server 2.03 allows remote attackers to obtain the physical path of the server root via the pwd command, which lists the full pathname.",
+    "poc": [
+      "https://github.com/alt3kx/CVE-2001-0934"
+    ]
+  },
+  {
     "cve_code": "CVE-2001-0933",
     "description": " Cooolsoft PowerFTP Server 2.03 allows remote attackers to list the contents of arbitrary drives via a ls (LIST) command that includes the drive letter as an argument, e.g. &quot;ls C:&quot;.",
     "poc": [
@@ -49306,6 +49331,34 @@
     "description": " Buffer overflow in Cooolsoft PowerFTP Server 2.03 allows remote attackers to cause a denial of service and possibly execute arbitrary code via a long command.",
     "poc": [
       "https://github.com/alt3kx/CVE-2001-0932"
+    ]
+  },
+  {
+    "cve_code": "CVE-2001-0931",
+    "description": " Directory traversal vulnerability in Cooolsoft PowerFTP Server 2.03 allows attackers to list or read arbitrary files and directories via a .. (dot dot) in (1) LS or (2) GET.",
+    "poc": [
+      "https://github.com/alt3kx/CVE-2001-0931"
+    ]
+  },
+  {
+    "cve_code": "CVE-2001-0758",
+    "description": " Directory traversal vulnerability in Shambala 4.5 allows remote attackers to escape the FTP root directory via &quot;CWD ...&quot;  command.",
+    "poc": [
+      "https://github.com/alt3kx/CVE-2001-0758"
+    ]
+  },
+  {
+    "cve_code": "CVE-2001-0680",
+    "description": " Directory traversal vulnerability in ftpd in QPC QVT/Net 4.0 and AVT/Term 5.0 allows a remote attacker to traverse directories on the web server via a &quot;dot dot&quot; attack in a LIST (ls) command.",
+    "poc": [
+      "https://github.com/alt3kx/CVE-2001-0680"
+    ]
+  },
+  {
+    "cve_code": "CVE-2001-0550",
+    "description": " wu-ftpd 2.6.1 allows remote attackers to execute arbitrary commands via a &quot;~{&quot; argument to commands such as CWD, which is not properly handled by the glob function (ftpglob).",
+    "poc": [
+      "https://github.com/gilberto47831/Network-Filesystem-Forensics"
     ]
   },
   {
