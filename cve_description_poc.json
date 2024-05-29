@@ -2114,8 +2114,10 @@
   },
   {
     "cve_code": "CVE-2024-23743",
-    "description": " ** DISP.UTED ** Notion through 3.1.0 on macOS might allow code execution because of RunAsNode and enableNodeClilnspectArguments. NOTE: the vendor states &quot;the attacker must launch the Notion Desktop application with nonstandard flags that turn the Electron-based application into a Node.js execution environment.&quot;- [https://github.com/giovannipajeu1/CVE-2024-23743](https://github.com/giovannipajeu1/CVE-2024-23743) :  ![starts](https://img.shields.io/github/stars/giovannipajeu1/CVE-2024-23743.svg) ![forks](https://img.shields.io/github/forks/giovannipajeu1/CVE-2024-23743.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** Notion through 3.1.0 on macOS might allow code execution because of RunAsNode and enableNodeClilnspectArguments. NOTE: the vendor states &quot;the attacker must launch the Notion Desktop application with nonstandard flags that turn the Electron-based application into a Node.js execution environment.&quot;.",
+    "poc": [
+      "https://github.com/giovannipajeu1/CVE-2024-23743"
+    ]
   },
   {
     "cve_code": "CVE-2024-23742",
@@ -3438,7 +3440,7 @@
   },
   {
     "cve_code": "CVE-2023-52654",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " In the Linux kernel, the following vulnerability has been resolved: io_uring/af_unix: disable sending io_uring over sockets File reference cycles have caused lots of problems for io_uring in the past, and it still doesn't work exactly right and races with unix_stream_read_generic(). The safest fix would be to completely disallow sending io_uring files via sockets via SCM_RIGHT, so there are no possible cycles invloving registered files and thus rendering SCM accounting on the io_uring side unnecessary.",
     "poc": [
       "https://github.com/FoxyProxys/CVE-2023-52654"
     ]
@@ -3591,56 +3593,56 @@
   },
   {
     "cve_code": "CVE-2023-51208",
-    "description": " ** DISP.UTED ** An Arbitrary File Upload vulnerability in ROS2 Foxy Fitzroy ROS_VERSION=2 and ROS_PYTHON_VERSION=3 allows attackers to run arbitrary code and cause other impacts via upload of crafted file. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2023-51208"
     ]
   },
   {
     "cve_code": "CVE-2023-51204",
-    "description": " ** DISP.UTED ** Insecure deserialization in ROS2 Foxy Fitzroy ROS_VERSION=2 and ROS_PYTHON_VERSION=3 allows attackers to execute arbitrary code via a crafted input. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2023-51204"
     ]
   },
   {
     "cve_code": "CVE-2023-51202",
-    "description": " ** DISP.UTED ** OS command injection vulnerability in command processing or system call componentsROS2 (Robot Operating System 2) Foxy Fitzroy, with ROS_VERSION=2 and ROS_PYTHON_VERSION=3 allows attackers to run arbitrary commands. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2023-51202"
     ]
   },
   {
     "cve_code": "CVE-2023-51201",
-    "description": " ** DISP.UTED ** Cleartext Transmission issue in ROS2 (Robot Operating System 2) Foxy Fitzroy, with ROS_VERSION=2 and ROS_PYTHON_VERSION=3 allows attackers to access sensitive information via a man-in-the-middle attack. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2023-51201"
     ]
   },
   {
     "cve_code": "CVE-2023-51200",
-    "description": " ** DISP.UTED ** An issue in the default configurations of ROS2 Foxy Fitzroy ROS_VERSION=2 and ROS_PYTHON_VERSION=3 allows unauthenticated attackers to authenticate using default credentials. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2023-51200"
     ]
   },
   {
     "cve_code": "CVE-2023-51199",
-    "description": " ** DISP.UTED ** Buffer Overflow vulnerability in ROS2 Foxy Fitzroy ROS_VERSION=2 and ROS_PYTHON_VERSION=3 allows attackers to run arbitrary code or cause a denial of service via improper handling of arrays or strings. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2023-51199"
     ]
   },
   {
     "cve_code": "CVE-2023-51198",
-    "description": " ** DISP.UTED ** An issue in the permission and access control components within ROS2 Foxy Fitzroy ROS_VERSION=2 and ROS_PYTHON_VERSION=3 allows attackers to gain escalate privileges. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2023-51198"
     ]
   },
   {
     "cve_code": "CVE-2023-51197",
-    "description": " ** DISP.UTED ** An issue discovered in shell command execution in ROS2 (Robot Operating System 2) Foxy Fitzroy, with ROS_VERSION=2 and ROS_PYTHON_VERSION=3 allows an attacker to run arbitrary commands and cause other impacts. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2023-51197"
     ]
@@ -3696,7 +3698,7 @@
   },
   {
     "cve_code": "CVE-2023-50685",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " An issue in Hipcam Cameras RealServer v.1.0 allows a remote attacker to cause a denial of service via a crafted script to the client_port parameter.",
     "poc": [
       "https://github.com/UnderwaterCoder/Hipcam-RTSP-Format-Validation-Vulnerability"
     ]
@@ -3746,7 +3748,7 @@
   },
   {
     "cve_code": "CVE-2023-50226",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " Parallels Desktop Updater Link Following Local Privilege Escalation Vulnerability. This vulnerability allows local attackers to escalate privileges on affected installations of Parallels Desktop. An attacker must first obtain the ability to execute low-privileged code on the target host system in order to exploit this vulnerability. The specific flaw exists within the Updater service. By creating a symbolic link, an attacker can abuse the service to move arbitrary files. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root. Was ZDI-CAN-21227.",
     "poc": [
       "https://github.com/kn32/parallels-file-move-privesc"
     ]
@@ -3758,8 +3760,8 @@
       "https://github.com/jakabakos/CVE-2023-50164-Apache-Struts-RCE",
       "https://github.com/dwisiswant0/cve-2023-50164-poc",
       "https://github.com/Trackflaw/CVE-2023-50164-ApacheStruts2-Docker",
-      "https://github.com/bcdannyboy/CVE-2023-50164",
       "https://github.com/snyk-labs/CVE-2023-50164-POC",
+      "https://github.com/bcdannyboy/CVE-2023-50164",
       "https://github.com/sunnyvale-it/CVE-2023-50164-PoC",
       "https://github.com/aaronm-sysdig/cve-2023-50164",
       "https://github.com/helsecert/cve-2023-50164",
@@ -3981,7 +3983,7 @@
   },
   {
     "cve_code": "CVE-2023-49606",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " A use-after-free vulnerability exists in the HTTP Connection Headers parsing in Tinyproxy 1.11.1 and Tinyproxy 1.10.0. A specially crafted HTTP header can trigger reuse of previously freed memory, which leads to memory corruption and could lead to remote code execution. An attacker needs to make an unauthenticated HTTP request to trigger this vulnerability.",
     "poc": [
       "https://github.com/d0rb/CVE-2023-49606"
     ]
@@ -4249,7 +4251,7 @@
   },
   {
     "cve_code": "CVE-2023-48643",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " Shrubbery tac_plus 2.x, 3.x. and 4.x through F4.0.4.28 allows unauthenticated Remote Command Execution. The product allows users to configure authorization checks as shell commands through the tac_plus.cfg configuration file. These are executed when a client sends an authorization request with a username that has pre-authorization directives configured. However, it is possible to inject additional commands into these checks because strings from TACACS+ packets are used as command-line arguments. If the installation lacks a a pre-shared secret (there is no pre-shared secret by default), then the injection can be triggered without authentication. (The attacker needs to know a username configured to use a pre-authorization command.) NOTE: this is related to CVE-2023-45239 but the issue is in the original Shrubbery product, not Meta's fork.",
     "poc": [
       "https://github.com/takeshixx/tac_plus-pre-auth-rce"
     ]
@@ -4334,11 +4336,8 @@
   },
   {
     "cve_code": "CVE-2023-48022",
-    "description": " ** DISP.UTED ** Anyscale Ray 2.6.3 and 2.8.0 allows a remote attacker to execute arbitrary code via the job submission API. NOTE: the vendor's position is that this report is irrelevant because Ray, as stated in its documentation, is not intended for use outside of a strictly controlled network environment.",
-    "poc": [
-      "https://github.com/0x656565/CVE-2023-48022",
-      "https://github.com/jakabakos/ShadowRay-RCE-PoC-CVE-2023-48022"
-    ]
+    "description": " ** DISP.UTED ** Anyscale Ray 2.6.3 and 2.8.0 allows a remote attacker to execute arbitrary code via the job submission API. NOTE: the vendor's position is that this report is irrelevant because Ray, as stated in its documentation, is not intended for use outside of a strictly controlled network environment- [https://github.com/0x656565/CVE-2023-48022](https://github.com/0x656565/CVE-2023-48022) :  ![starts](https://img.shields.io/github/stars/0x656565/CVE-2023-48022.svg) ![forks](https://img.shields.io/github/forks/0x656565/CVE-2023-48022.svg)- [https://github.com/jakabakos/ShadowRay-RCE-PoC-CVE-2023-48022](https://github.com/jakabakos/ShadowRay-RCE-PoC-CVE-2023-48022) :  ![starts](https://img.shields.io/github/stars/jakabakos/ShadowRay-RCE-PoC-CVE-2023-48022.svg) ![forks](https://img.shields.io/github/forks/jakabakos/ShadowRay-RCE-PoC-CVE-2023-48022.svg)",
+    "poc": []
   },
   {
     "cve_code": "CVE-2023-47889",
@@ -4563,7 +4562,7 @@
   },
   {
     "cve_code": "CVE-2023-46870",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " extcap/nrf_sniffer_ble.py, extcap/nrf_sniffer_ble.sh, extcap/SnifferAPI/*.py in Nordic Semiconductor nRF Sniffer for Bluetooth LE 3.0.0, 3.1.0, 4.0.0, 4.1.0, and 4.1.1 have set incorrect file permission, which allows attackers to do code execution via modified bash and python scripts.",
     "poc": [
       "https://github.com/Chapoly1305/CVE-2023-46870"
     ]
@@ -4608,8 +4607,8 @@
       "https://github.com/fu2x2000/CVE-2023-46747",
       "https://github.com/y4v4z/CVE-2023-46747-POC",
       "https://github.com/vidura2/cve-2023-46747",
-      "https://github.com/bijaysenihang/CVE-2023-46747-Mass-RCE",
-      "https://github.com/rainbowhatrkn/CVE-2023-46747-RCE"
+      "https://github.com/rainbowhatrkn/CVE-2023-46747-RCE",
+      "https://github.com/bijaysenihang/CVE-2023-46747-Mass-RCE"
     ]
   },
   {
@@ -4652,9 +4651,9 @@
       "https://github.com/vulncheck-oss/cve-2023-46604",
       "https://github.com/hh-hunter/cve-2023-46604",
       "https://github.com/nitzanoligo/CVE-2023-46604-demo",
+      "https://github.com/tomasmussi-mulesoft/activemq-cve-2023-46604",
       "https://github.com/dcm2406/CVE-2023-46604",
       "https://github.com/vjayant93/CVE-2023-46604-POC",
-      "https://github.com/tomasmussi-mulesoft/activemq-cve-2023-46604",
       "https://github.com/Mudoleto/Broker_ApacheMQ"
     ]
   },
@@ -4758,7 +4757,7 @@
   },
   {
     "cve_code": "CVE-2023-46442",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " An infinite loop in the retrieveActiveBody function of Soot before v4.4.1 under Java 8 allows attackers to cause a Denial of Service (DoS).",
     "poc": [
       "https://github.com/JAckLosingHeart/CVE-2023-46442_POC"
     ]
@@ -4793,7 +4792,7 @@
   },
   {
     "cve_code": "CVE-2023-46197",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in supsystic.Com Popup by Supsystic allows Relative Path Traversal.This issue affects Popup by Supsystic: from n/a through 1.10.19.",
     "poc": [
       "https://github.com/RandomRobbieBF/CVE-2023-46197"
     ]
@@ -4863,7 +4862,7 @@
   },
   {
     "cve_code": "CVE-2023-46012",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " Buffer Overflow vulnerability LINKSYS EA7500 3.0.1.207964 allows a remote attacker to execute arbitrary code via an HTTP request to the IGD UPnP.",
     "poc": [
       "https://github.com/dest-3/CVE-2023-46012"
     ]
@@ -4981,8 +4980,8 @@
     "cve_code": "CVE-2023-45280",
     "description": " Yamcs 5.8.6 allows XSS (issue 2 of 2). It comes with a Bucket as its primary storage mechanism. Buckets allow for the upload of any file. There's a way to upload an HTML file containing arbitrary JavaScript and then navigate to it. Once the user opens the file, the browser will execute the arbitrary JavaScript.",
     "poc": [
-      "https://github.com/miguelc49/CVE-2023-45280-1",
       "https://github.com/miguelc49/CVE-2023-45280-2",
+      "https://github.com/miguelc49/CVE-2023-45280-1",
       "https://github.com/miguelc49/CVE-2023-45280-3"
     ]
   },
@@ -5168,14 +5167,14 @@
   },
   {
     "cve_code": "CVE-2023-44452",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " Linux Mint Xreader CBT File Parsing Argument Injection Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Linux Mint Xreader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of CBT files. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of the current user. Was ZDI-CAN-22132.",
     "poc": [
       "https://github.com/febinrev/atril_cbt-inject-exploit"
     ]
   },
   {
     "cve_code": "CVE-2023-44451",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " Linux Mint Xreader EPUB File Parsing Directory Traversal Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Linux Mint Xreader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of EPUB files. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of the current user. Was ZDI-CAN-21897.",
     "poc": [
       "https://github.com/febinrev/slippy-book-exploit"
     ]
@@ -5802,8 +5801,8 @@
     "description": " Froala Editor v4.0.1 to v4.1.1 was discovered to contain a cross-site scripting (XSS) vulnerability.",
     "poc": [
       "https://github.com/miguelc49/CVE-2023-41592-2",
-      "https://github.com/miguelc49/CVE-2023-41592-1",
-      "https://github.com/miguelc49/CVE-2023-41592-3"
+      "https://github.com/miguelc49/CVE-2023-41592-3",
+      "https://github.com/miguelc49/CVE-2023-41592-1"
     ]
   },
   {
@@ -6069,7 +6068,7 @@
   },
   {
     "cve_code": "CVE-2023-40477",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " RARLAB WinRAR Recovery Volume Improper Validation of Array Index Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of RARLAB WinRAR. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of recovery volumes. The issue results from the lack of proper validation of user-supplied data, which can result in a memory access past the end of an allocated buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-21233.",
     "poc": [
       "https://github.com/wildptr-io/Winrar-CVE-2023-40477-POC",
       "https://github.com/winkler-winsen/Scan_WinRAR"
@@ -6105,7 +6104,7 @@
   },
   {
     "cve_code": "CVE-2023-40297",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " Stakater Forecastle 1.0.139 and before allows %5C../ directory traversal in the website component.",
     "poc": [
       "https://github.com/sahar042/CVE-2023-40297"
     ]
@@ -6447,8 +6446,8 @@
       "https://github.com/r1yaz/winDED",
       "https://github.com/ruycr4ft/CVE-2023-38831",
       "https://github.com/SpamixOfficial/CVE-2023-38831",
-      "https://github.com/elefantesagradodeluzinfinita/cve-2023-38831",
       "https://github.com/thegr1ffyn/CVE-2023-38831",
+      "https://github.com/elefantesagradodeluzinfinita/cve-2023-38831",
       "https://github.com/80r1ng/CVE-2023-38831-EXP",
       "https://github.com/BeniB3astt/CVE-2023-38831_ReverseShell_Winrar",
       "https://github.com/kehrijksen/CVE-2023-38831",
@@ -6525,7 +6524,6 @@
       "https://github.com/fidjiw/CVE-2023-38646-POC",
       "https://github.com/alexandre-pecorilla/CVE-2023-38646",
       "https://github.com/joaoviictorti/CVE-2023-38646",
-      "https://github.com/Chocapikk/CVE-2023-38646",
       "https://github.com/UserConnecting/Exploit-CVE-2023-38646-Metabase",
       "https://github.com/0utl4nder/Another-Metabase-RCE-CVE-2023-38646",
       "https://github.com/Any3ite/cve-2023-38646-metabase-ReverseShell",
@@ -6539,6 +6537,7 @@
       "https://github.com/junnythemarksman/CVE-2023-38646",
       "https://github.com/yxl2001/CVE-2023-38646",
       "https://github.com/passwa11/CVE-2023-38646",
+      "https://github.com/Chocapikk/CVE-2023-38646",
       "https://github.com/j0yb0y0h/CVE-2023-38646",
       "https://github.com/xchg-rax-rax/CVE-2023-38646",
       "https://github.com/Shisones/MetabaseRCE_CVE-2023-38646",
@@ -6654,7 +6653,7 @@
   },
   {
     "cve_code": "CVE-2023-38120",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " Adtran SR400ac ping Command Injection Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adtran SR400ac routers. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the ping command, which is available over JSON-RPC. A crafted host parameter can trigger execution of a system call composed from a user-supplied string. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-20525.",
     "poc": [
       "https://github.com/warber0x/CVE-2023-38120"
     ]
@@ -6963,8 +6962,8 @@
       "https://github.com/ifconfig-me/CVE-2023-36845",
       "https://github.com/toanln-cov/CVE-2023-36845",
       "https://github.com/imhunterand/CVE-2023-36845",
-      "https://github.com/CKevens/ansible-cve-2023-36845",
       "https://github.com/0xNehru/CVE-2023-36845-Juniper-Vulnerability",
+      "https://github.com/CKevens/ansible-cve-2023-36845",
       "https://github.com/iveresk/CVE-2023-36845-6-",
       "https://github.com/cyb3rzest/Juniper-Bug-Automation-CVE-2023-36845",
       "https://github.com/Vignesh2712/Automation-for-Juniper-cve-2023-36845",
@@ -7301,7 +7300,7 @@
   },
   {
     "cve_code": "CVE-2023-35744",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " D-Link DAP-2622 DDP Configuration Restore Server IPv6 Address Stack-based Buffer Overflow Remote Code Execution Vulnerability. This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of D-Link DAP-2622 routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the DDP service. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-20071.",
     "poc": [
       "https://github.com/ADSSA-IT/CVE-2023-35744"
     ]
@@ -7753,7 +7752,6 @@
       "https://github.com/c53elyas/CVE-2023-33733",
       "https://github.com/onion2203/Lab_Reportlab",
       "https://github.com/hoangbui24/CVE-2023-33733",
-      "https://github.com/huyqa/CVE-2023-33733",
       "https://github.com/L41KAA/CVE-2023-33733-Exploit-PoC"
     ]
   },
@@ -7830,21 +7828,21 @@
   },
   {
     "cve_code": "CVE-2023-33567",
-    "description": " ** DISP.UTED ** An unauthorized access vulnerability has been discovered in ROS2 Foxy Fitzroy versions where ROS_VERSION is 2 and ROS_PYTHON_VERSION is 3. This vulnerability could potentially allow a malicious user to gain unauthorized access to multiple ROS2 nodes remotely. Unauthorized access to these nodes could result in compromised system integrity, the execution of arbitrary commands, and disclosure of sensitive information. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2023-33567"
     ]
   },
   {
     "cve_code": "CVE-2023-33566",
-    "description": " ** DISP.UTED ** An unauthorized node injection vulnerability has been identified in ROS2 Foxy Fitzroy versions where ROS_VERSION is 2 and ROS_PYTHON_VERSION is 3. This vulnerability could allow a malicious user to inject malicious ROS2 nodes into the system remotely. Once injected, these nodes could disrupt the normal operations of the system or cause other potentially harmful behavior. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2023-33566"
     ]
   },
   {
     "cve_code": "CVE-2023-33565",
-    "description": " ** DISP.UTED ** ROS2 (Robot Operating System 2) Foxy Fitzroy ROS_VERSION=2 and ROS_PYTHON_VERSION=3 are vulnerable to Denial-of-Service (DoS) attacks. A malicious user potentially exploited the vulnerability remotely and crashed the ROS2 nodes. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2023-33565"
     ]
@@ -8118,33 +8116,34 @@
       "https://github.com/oferchen/POC-CVE-2023-32233",
       "https://github.com/PIDAN-HEIDASHUAI/CVE-2023-32233",
       "https://github.com/void0red/CVE-2023-32233",
-      "https://github.com/RogelioPumajulca/TEST-CVE-2023-32233"
+      "https://github.com/RogelioPumajulca/TEST-CVE-2023-32233",
+      "https://github.com/rootkalilocalhost/CVE-2023-32233"
     ]
   },
   {
     "cve_code": "CVE-2023-32174",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " Unified Automation UaGateway NodeManagerOpcUa Use-After-Free Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Unified Automation UaGateway. Authentication is required to exploit this vulnerability when the product is in its default configuration. The specific flaw exists within the handling of NodeManagerOpcUa objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of SYSTEM. Was ZDI-CAN-20577.",
     "poc": [
       "https://github.com/0vercl0k/pwn2own2023-miami"
     ]
   },
   {
     "cve_code": "CVE-2023-32173",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " Unified Automation UaGateway AddServer XML Injection Denial-of-Service Vulnerability. This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of Unified Automation UaGateway. Authentication is required to exploit this vulnerability when the product is in its default configuration. The specific flaw exists within the implementation of the AddServer method. By specifying crafted arguments, an attacker can cause invalid characters to be inserted into an XML configuration file. An attacker can leverage this vulnerability to create a persistent denial-of-service condition on the system. . Was ZDI-CAN-20576.",
     "poc": [
       "https://github.com/0vercl0k/pwn2own2023-miami"
     ]
   },
   {
     "cve_code": "CVE-2023-32171",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " Unified Automation UaGateway OPC UA Server Null Pointer Dereference Denial-of-Service Vulnerability. This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of Unified Automation UaGateway. Authentication is required to exploit this vulnerability. The specific flaw exists within the ImportCsv method. A crafted XML payload can cause a null pointer dereference. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. Was ZDI-CAN-20495.",
     "poc": [
       "https://github.com/0vercl0k/pwn2own2023-miami"
     ]
   },
   {
     "cve_code": "CVE-2023-32170",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " Unified Automation UaGateway OPC UA Server Improper Input Validation Denial-of-Service Vulnerability. This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of Unified Automation UaGateway. User interaction is required to exploit this vulnerability in that the target must choose to accept a client certificate. The specific flaw exists within the processing of client certificates. The issue results from the lack of proper validation of certificate data. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. Was ZDI-CAN-20494.",
     "poc": [
       "https://github.com/0vercl0k/pwn2own2023-miami"
     ]
@@ -8589,8 +8588,8 @@
     "description": " Dolibarr before 17.0.1 allows remote code execution by an authenticated user via an uppercase manipulation: &lt;?PHP instead of &lt;?php in injected data.",
     "poc": [
       "https://github.com/Rubikcuv5/cve-2023-30253",
-      "https://github.com/04Shivam/CVE-2023-30253-Exploit",
-      "https://github.com/nikn0laty/Exploit-for-Dolibarr-17.0.0-CVE-2023-30253"
+      "https://github.com/nikn0laty/Exploit-for-Dolibarr-17.0.0-CVE-2023-30253",
+      "https://github.com/04Shivam/CVE-2023-30253-Exploit"
     ]
   },
   {
@@ -8743,9 +8742,9 @@
       "https://github.com/some-man1/CVE-2023-29489",
       "https://github.com/learnerboy88/CVE-2023-29489",
       "https://github.com/SynixCyberCrimeMy/CVE-2023-29489",
-      "https://github.com/tucommenceapousser/CVE-2023-29489",
       "https://github.com/ViperM4sk/cpanel-xss-177",
       "https://github.com/Cappricio-Securities/CVE-2023-29489",
+      "https://github.com/tucommenceapousser/CVE-2023-29489",
       "https://github.com/S4muraiMelayu1337/CVE-2023-29489",
       "https://github.com/Mostafa-Elguerdawi/CVE-2023-29489",
       "https://github.com/Mostafa-Elguerdawi/CVE-2023-29489.yaml",
@@ -8884,8 +8883,8 @@
     "cve_code": "CVE-2023-28772",
     "description": " An issue was discovered in the Linux kernel before 5.13.3. lib/seq_buf.c has a seq_buf_putmem_hex buffer overflow.",
     "poc": [
-      "https://github.com/Trinadh465/linux-4.1.15_CVE-2023-28772",
       "https://github.com/Satheesh575555/linux-4.1.15_CVE-2023-28772",
+      "https://github.com/Trinadh465/linux-4.1.15_CVE-2023-28772",
       "https://github.com/hshivhare67/kernel_v4.1.15_CVE-2023-28772"
     ]
   },
@@ -9190,7 +9189,7 @@
   },
   {
     "cve_code": "CVE-2023-27363",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " Foxit PDF Reader exportXFAData Exposed Dangerous Method Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the exportXFAData method. The application exposes a JavaScript interface that allows writing arbitrary files. An attacker can leverage this vulnerability to execute code in the context of the current user. Was ZDI-CAN-19697.",
     "poc": [
       "https://github.com/webraybtl/CVE-2023-27363",
       "https://github.com/qwqdanchun/CVE-2023-27363",
@@ -9214,21 +9213,21 @@
   },
   {
     "cve_code": "CVE-2023-27328",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " Parallels Desktop Toolgate XML Injection Local Privilege Escalation Vulnerability. This vulnerability allows local attackers to escalate privileges on affected installations of Parallels Desktop. An attacker must first obtain the ability to execute low-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the Toolgate component. The issue results from the lack of proper validation of a user-supplied string before using it to construct an XML document. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the hypervisor. Was ZDI-CAN-19187.",
     "poc": [
       "https://github.com/kn32/parallels-plist-escape"
     ]
   },
   {
     "cve_code": "CVE-2023-27327",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " Parallels Desktop Toolgate Time-Of-Check Time-Of-Use Local Privilege Escalation Vulnerability. This vulnerability allows local attackers to escalate privileges on affected installations of Parallels Desktop. An attacker must first obtain the ability to execute high-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the Toolgate component. The issue results from the lack of proper locking when performing operations on an object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the current user on the host system. Was ZDI-CAN-18964.",
     "poc": [
       "https://github.com/kn32/parallels-plist-escape"
     ]
   },
   {
     "cve_code": "CVE-2023-27326",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " Parallels Desktop Toolgate Directory Traversal Local Privilege Escalation Vulnerability. This vulnerability allows local attackers to escalate privileges on affected installations of Parallels Desktop. An attacker must first obtain the ability to execute high-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the Toolgate component. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the current user on the host system. Was ZDI-CAN-18933.",
     "poc": [
       "https://github.com/Impalabs/CVE-2023-27326",
       "https://github.com/Malwareman007/CVE-2023-27326"
@@ -9759,14 +9758,14 @@
   },
   {
     "cve_code": "CVE-2023-24204",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " SQL injection vulnerability in SourceCodester Simple Customer Relationship Management System v1.0 allows attacker to execute arbitrary code via the name parameter in get-quote.php.",
     "poc": [
       "https://github.com/momo1239/CVE-2023-24203-and-CVE-2023-24204"
     ]
   },
   {
     "cve_code": "CVE-2023-24203",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " Cross Site Scripting vulnerability in SourceCodester Simple Customer Relationship Management System v1.0 allows attacker to execute arbitary code via the company or query parameter(s).",
     "poc": [
       "https://github.com/momo1239/CVE-2023-24203-and-CVE-2023-24204"
     ]
@@ -9871,10 +9870,10 @@
       "https://github.com/adriyansyah-mf/CVE-2023-23752",
       "https://github.com/wangking1/CVE-2023-23752-poc",
       "https://github.com/Pushkarup/CVE-2023-23752",
+      "https://github.com/MrP4nda1337/CVE-2023-23752",
       "https://github.com/r3dston3/CVE-2023-23752",
       "https://github.com/AlissonFaoli/CVE-2023-23752",
       "https://github.com/c0d3cr4f73r/CVE-2023-23752",
-      "https://github.com/MrP4nda1337/CVE-2023-23752",
       "https://github.com/Jenderal92/Joomla-CVE-2023-23752",
       "https://github.com/raystr-atearedteam/CVE2023-23752",
       "https://github.com/AkbarWiraN/Joomla-Scanner",
@@ -9885,16 +9884,16 @@
       "https://github.com/Rival420/CVE-2023-23752",
       "https://github.com/Ly0kha/Joomla-CVE-2023-23752-Exploit-Script",
       "https://github.com/TindalyTn/CVE-2023-23752",
+      "https://github.com/yTxZx/CVE-2023-23752",
       "https://github.com/cybernetwiz/CVE-2023-23752",
       "https://github.com/C1ph3rX13/CVE-2023-23752",
       "https://github.com/sw0rd1ight/CVE-2023-23752",
-      "https://github.com/yTxZx/CVE-2023-23752",
-      "https://github.com/0xx01/CVE-2023-23752",
       "https://github.com/shellvik/CVE-2023-23752",
+      "https://github.com/0xx01/CVE-2023-23752",
       "https://github.com/wibuheker/Joomla-CVE-2023-23752",
       "https://github.com/hadrian3689/CVE-2023-23752_Joomla",
-      "https://github.com/mariovata/CVE-2023-23752-Python",
       "https://github.com/Ge-Per/Scanner-CVE-2023-23752",
+      "https://github.com/mariovata/CVE-2023-23752-Python",
       "https://github.com/mil4ne/CVE-2023-23752-Joomla-v4.2.8"
     ]
   },
@@ -10171,7 +10170,8 @@
       "https://github.com/ga0we1/CVE-2023-22527_Confluence_RCE",
       "https://github.com/cleverg0d/CVE-2023-22527",
       "https://github.com/MaanVader/CVE-2023-22527-POC",
-      "https://github.com/YongYe-Security/CVE-2023-22527"
+      "https://github.com/YongYe-Security/CVE-2023-22527",
+      "https://github.com/BBD-YZZ/Confluence-RCE"
     ]
   },
   {
@@ -11024,8 +11024,8 @@
     "description": " A flaw was found in Quarkus, where it does not properly sanitize artifacts created using the Gradle plugin, allowing certain build system information to remain. This flaw allows an attacker to access potentially sensitive information from the build system within the application.",
     "poc": [
       "https://github.com/miguelc49/CVE-2023-5720-3",
-      "https://github.com/miguelc49/CVE-2023-5720-1",
-      "https://github.com/miguelc49/CVE-2023-5720-2"
+      "https://github.com/miguelc49/CVE-2023-5720-2",
+      "https://github.com/miguelc49/CVE-2023-5720-1"
     ]
   },
   {
@@ -12118,9 +12118,9 @@
     "cve_code": "CVE-2023-1177",
     "description": " Path Traversal: '\\..\\filename' in GitHub repository mlflow/mlflow prior to 2.2.1.",
     "poc": [
-      "https://github.com/iumiro/CVE-2023-1177-MLFlow",
       "https://github.com/tiyeume25112004/CVE-2023-1177-rebuild",
-      "https://github.com/hh-hunter/ml-CVE-2023-1177"
+      "https://github.com/hh-hunter/ml-CVE-2023-1177",
+      "https://github.com/iumiro/CVE-2023-1177-MLFlow"
     ]
   },
   {
@@ -12237,8 +12237,8 @@
     "poc": [
       "https://github.com/bAuh0lz/CVE-2023-0297_Pre-auth_RCE_in_pyLoad",
       "https://github.com/JacobEbben/CVE-2023-0297",
-      "https://github.com/Small-ears/CVE-2023-0297",
-      "https://github.com/overgrowncarrot1/CVE-2023-0297"
+      "https://github.com/overgrowncarrot1/CVE-2023-0297",
+      "https://github.com/Small-ears/CVE-2023-0297"
     ]
   },
   {
@@ -12336,7 +12336,7 @@
   },
   {
     "cve_code": "CVE-2022-48197",
-    "description": " ** UNSUPPORTED WHEN ASSIGNED ** Reflected cross-site scripting (XSS) exists in the TreeView of YUI2 through 2800: up.php sam.php renderhidden.php removechildren.php removeall.php readd.php overflow.php newnode2.php newnode.php. NOTE: This vulnerability only affects products that are no longer supported by the maintainer.",
+    "description": " ** UNSUPPORTED WHEN ASSIGNED ** Reflected cross-site scripting (XSS) exists in Sandbox examples in the YUI2 repository. The download distributions, TreeView component and the YUI Javascript library overall are not affected. NOTE: This vulnerability only affects products that are no longer supported by the maintainer.",
     "poc": [
       "https://github.com/ryan412/CVE-2022-48197"
     ]
@@ -12576,8 +12576,11 @@
   },
   {
     "cve_code": "CVE-2022-46463",
-    "description": " ** DISP.UTED ** An access control issue in Harbor v1.X.X to v2.5.3 allows attackers to access public and private image repositories without authentication. NOTE: the vendor's position is that this &quot;is clearly described in the documentation as a feature.&quot;- [https://github.com/nu0l/CVE-2022-46463](https://github.com/nu0l/CVE-2022-46463) :  ![starts](https://img.shields.io/github/stars/nu0l/CVE-2022-46463.svg) ![forks](https://img.shields.io/github/forks/nu0l/CVE-2022-46463.svg)- [https://github.com/404tk/CVE-2022-46463](https://github.com/404tk/CVE-2022-46463) :  ![starts](https://img.shields.io/github/stars/404tk/CVE-2022-46463.svg) ![forks](https://img.shields.io/github/forks/404tk/CVE-2022-46463.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** An access control issue in Harbor v1.X.X to v2.5.3 allows attackers to access public and private image repositories without authentication. NOTE: the vendor's position is that this &quot;is clearly described in the documentation as a feature.&quot;.",
+    "poc": [
+      "https://github.com/nu0l/CVE-2022-46463",
+      "https://github.com/404tk/CVE-2022-46463"
+    ]
   },
   {
     "cve_code": "CVE-2022-46395",
@@ -12950,9 +12953,9 @@
       "https://github.com/hotpotcookie/CVE-2022-44877-white-box",
       "https://github.com/Chocapikk/CVE-2022-44877",
       "https://github.com/ColdFusionX/CVE-2022-44877-CWP7",
+      "https://github.com/G01d3nW01f/CVE-2022-44877",
       "https://github.com/dkstar11q/CVE-2022-44877",
       "https://github.com/rhymsc/CVE-2022-44877-RCE",
-      "https://github.com/G01d3nW01f/CVE-2022-44877",
       "https://github.com/RicYaben/CVE-2022-44877-LAB"
     ]
   },
@@ -13284,9 +13287,9 @@
       "https://github.com/Dima2021/cve-2022-42889-text4shell",
       "https://github.com/RSA-Demo/cve-2022-42889-text4shell",
       "https://github.com/MendDemo-josh/cve-2022-42889-text4shell",
+      "https://github.com/ReachabilityOrg/cve-2022-42889-text4shell-docker",
       "https://github.com/DimaMend/cve-2022-42889-text4shell",
       "https://github.com/joshbnewton31080/cve-2022-42889-text4shell",
-      "https://github.com/ReachabilityOrg/cve-2022-42889-text4shell-docker",
       "https://github.com/dgor2023/cve-2022-42889-text4shell-docker",
       "https://github.com/adarshpv9746/Text4shell--Automated-exploit---CVE-2022-42889",
       "https://github.com/WFS-Mend/vtrade-common",
@@ -13614,8 +13617,8 @@
       "https://github.com/notareaperbutDR34P3r/http-vuln-CVE-2022-41082",
       "https://github.com/SUPRAAA-1337/CVE-2022-41082",
       "https://github.com/sikkertech/CVE-2022-41082",
-      "https://github.com/bigherocenter/CVE-2022-41082-POC",
-      "https://github.com/notareaperbutDR34P3r/vuln-CVE-2022-41082"
+      "https://github.com/notareaperbutDR34P3r/vuln-CVE-2022-41082",
+      "https://github.com/bigherocenter/CVE-2022-41082-POC"
     ]
   },
   {
@@ -13985,7 +13988,7 @@
   },
   {
     "cve_code": "CVE-2022-39196",
-    "description": " Blackboard Learn 1.10.1 allows remote authenticated users to read unintended files by entering student credentials and then directly visiting a certain webapps/bbcms/execute/ URL.",
+    "description": " ** DISP.UTED ** Blackboard Learn 1.10.1 allows remote authenticated users to read unintended files by entering student credentials and then directly visiting a certain webapps/bbcms/execute/ URL. Note: The vendor disputes this stating this cannot be reproduced.",
     "poc": [
       "https://github.com/DayiliWaseem/CVE-2022-39196-"
     ]
@@ -15995,7 +15998,7 @@
   },
   {
     "cve_code": "CVE-2022-28132",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " The T-Soft E-Commerce 4 web application is susceptible to SQL injection (SQLi) attacks when authenticated as an admin or privileged user. This vulnerability allows attackers to access and manipulate the database through crafted requests. By exploiting this flaw, attackers can bypass authentication mechanisms, view sensitive information stored in the database, and potentially exfiltrate data.",
     "poc": [
       "https://github.com/alpernae/CVE-2022-28132"
     ]
@@ -16523,7 +16526,8 @@
       "https://github.com/vesperp/CVE-2022-26134-Confluence",
       "https://github.com/Luchoane/CVE-2022-26134_conFLU",
       "https://github.com/yigexioabai/CVE-2022-26134-cve1",
-      "https://github.com/xanszZZ/ATLASSIAN-Confluence_rce"
+      "https://github.com/xanszZZ/ATLASSIAN-Confluence_rce",
+      "https://github.com/BBD-YZZ/Confluence-RCE"
     ]
   },
   {
@@ -17381,8 +17385,8 @@
       "https://github.com/zwjjustdoit/cve-2022-23131",
       "https://github.com/r10lab/CVE-2022-23131",
       "https://github.com/wr0x00/cve-2022-23131",
-      "https://github.com/pykiller/CVE-2022-23131",
       "https://github.com/qq1549176285/CVE-2022-23131",
+      "https://github.com/pykiller/CVE-2022-23131",
       "https://github.com/Arrnitage/CVE-2022-23131_exp"
     ]
   },
@@ -17551,9 +17555,9 @@
       "https://github.com/t3amj3ff/Spring4ShellPoC",
       "https://github.com/fransvanbuul/CVE-2022-22965-susceptibility",
       "https://github.com/Enokiy/spring-RCE-CVE-2022-22965",
+      "https://github.com/ClemExp/CVE-2022-22965-PoC",
       "https://github.com/c4mx/CVE-2022-22965_PoC",
       "https://github.com/snicoll-scratches/spring-boot-cve-2022-22965",
-      "https://github.com/ClemExp/CVE-2022-22965-PoC",
       "https://github.com/Omaraitbenhaddi/-Spring4Shell-CVE-2022-22965-",
       "https://github.com/dbgee/Spring4Shell",
       "https://github.com/sohamsharma966/Spring4Shell-CVE-2022-22965",
@@ -17749,8 +17753,8 @@
     "cve_code": "CVE-2022-22885",
     "description": " Hutool v5.7.18's HttpRequest was discovered to ignore all TLS/SSL certificate validation.",
     "poc": [
-      "https://github.com/miguelc49/CVE-2022-22885-2",
-      "https://github.com/miguelc49/CVE-2022-22885-1"
+      "https://github.com/miguelc49/CVE-2022-22885-1",
+      "https://github.com/miguelc49/CVE-2022-22885-2"
     ]
   },
   {
@@ -19002,10 +19006,10 @@
       "https://github.com/yukar1z0e/CVE-2022-1388",
       "https://github.com/chesterblue/CVE-2022-1388",
       "https://github.com/SecTheBit/CVE-2022-1388",
+      "https://github.com/gotr00t0day/CVE-2022-1388",
       "https://github.com/amitlttwo/CVE-2022-1388",
       "https://github.com/shamo0/CVE-2022-1388",
       "https://github.com/nico989/CVE-2022-1388",
-      "https://github.com/gotr00t0day/CVE-2022-1388",
       "https://github.com/Wrin9/CVE-2022-1388",
       "https://github.com/nvk0x/CVE-2022-1388-exploit",
       "https://github.com/LinJacck/CVE-2022-1388-EXP",
@@ -19018,9 +19022,9 @@
       "https://github.com/sashka3076/F5-BIG-IP-exploit",
       "https://github.com/mr-vill4in/CVE-2022-1388",
       "https://github.com/battleofthebots/refresh",
+      "https://github.com/M4fiaB0y/CVE-2022-1388",
       "https://github.com/Hudi233/CVE-2022-1388",
       "https://github.com/v4sh25/CVE_2022_1388",
-      "https://github.com/M4fiaB0y/CVE-2022-1388",
       "https://github.com/omnigodz/CVE-2022-1388",
       "https://github.com/jbharucha05/CVE-2022-1388",
       "https://github.com/On-Cyber-War/CVE-2022-1388",
@@ -19156,9 +19160,9 @@
       "https://github.com/killvxk/CVE-2022-1040",
       "https://github.com/Keith-amateur/cve-2022-1040",
       "https://github.com/jackson5sec/CVE-2022-1040",
-      "https://github.com/xMr110/CVE-2022-1040",
+      "https://github.com/michealadams30/CVE-2022-1040",
       "https://github.com/Cyb3rEnthusiast/CVE-2022-1040",
-      "https://github.com/michealadams30/CVE-2022-1040"
+      "https://github.com/xMr110/CVE-2022-1040"
     ]
   },
   {
@@ -19218,7 +19222,8 @@
     "poc": [
       "https://github.com/Bonfee/CVE-2022-0995",
       "https://github.com/1nzag/CVE-2022-0995",
-      "https://github.com/AndreevSemen/CVE-2022-0995"
+      "https://github.com/AndreevSemen/CVE-2022-0995",
+      "https://github.com/rootkalilocalhost/CVE-2022-0995"
     ]
   },
   {
@@ -19261,8 +19266,8 @@
       "https://github.com/r1is/CVE-2022-0847",
       "https://github.com/DataDog/dirtypipe-container-breakout-poc",
       "https://github.com/Al1ex/CVE-2022-0847",
-      "https://github.com/antx-code/CVE-2022-0847",
       "https://github.com/basharkey/CVE-2022-0847-dirty-pipe-checker",
+      "https://github.com/antx-code/CVE-2022-0847",
       "https://github.com/bbaranoff/CVE-2022-0847",
       "https://github.com/knqyf263/CVE-2022-0847",
       "https://github.com/febinrev/dirtypipez-exploit",
@@ -19325,27 +19330,27 @@
       "https://github.com/jonathanbest7/cve-2022-0847",
       "https://github.com/V0WKeep3r/CVE-2022-0847-DirtyPipe-Exploit",
       "https://github.com/letsr00t/CVE-2022-0847",
-      "https://github.com/babyshen/CVE-2022-0847",
       "https://github.com/2xYuan/CVE-2022-0847",
       "https://github.com/qqdagustian/CVE_2022_0847",
       "https://github.com/s3mPr1linux/CVE_2022_0847",
-      "https://github.com/pentestblogin/pentestblog-CVE-2022-0847",
+      "https://github.com/babyshen/CVE-2022-0847",
       "https://github.com/mrchucu1/CVE-2022-0847-Docker",
       "https://github.com/edsonjt81/CVE-2022-0847-Linux",
+      "https://github.com/pentestblogin/pentestblog-CVE-2022-0847",
       "https://github.com/githublihaha/DirtyPIPE-CVE-2022-0847",
       "https://github.com/Asbatel/CBDS_CVE-2022-0847_POC",
-      "https://github.com/pmihsan/Dirty-Pipe-CVE-2022-0847",
-      "https://github.com/AyoubNajim/cve-2022-0847dirtypipe-exploit",
       "https://github.com/Greetdawn/CVE-2022-0847-DirtyPipe-",
+      "https://github.com/AyoubNajim/cve-2022-0847dirtypipe-exploit",
       "https://github.com/al4xs/CVE-2022-0847-Dirty-Pipe",
       "https://github.com/Greetdawn/CVE-2022-0847-DirtyPipe",
       "https://github.com/joeymeech/CVE-2022-0847-Exploit-Implementation",
+      "https://github.com/pmihsan/Dirty-Pipe-CVE-2022-0847",
       "https://github.com/edsonjt81/CVE-2022-0847-DirtyPipe-",
-      "https://github.com/jxpsx/CVE-2022-0847-DirtyPipe-Exploits",
       "https://github.com/stfnw/Debugging_Dirty_Pipe_CVE-2022-0847",
       "https://github.com/ayushx007/CVE-2022-0847-dirty-pipe-checker",
-      "https://github.com/ayushx007/CVE-2022-0847-DirtyPipe-Exploits",
+      "https://github.com/jxpsx/CVE-2022-0847-DirtyPipe-Exploits",
       "https://github.com/orsuprasad/CVE-2022-0847-DirtyPipe-Exploits",
+      "https://github.com/ayushx007/CVE-2022-0847-DirtyPipe-Exploits",
       "https://github.com/tufanturhan/CVE-2022-0847-L-nux-PrivEsc",
       "https://github.com/solomon12354/LockingGirl-----CVE-2022-0847-Dirty_Pipe_virus",
       "https://github.com/notl0cal/dpipe",
@@ -19630,6 +19635,7 @@
     "cve_code": "CVE-2022-0165",
     "description": " The Page Builder KingComposer WordPress plugin through 2.9.6 does not validate the id parameter before redirecting the user to it via the kc_get_thumbn AJAX action available to both unauthenticated and authenticated users.",
     "poc": [
+      "https://github.com/Cappricio-Securities/CVE-2022-0165",
       "https://github.com/K3ysTr0K3R/CVE-2022-0165-EXPLOIT"
     ]
   },
@@ -19878,8 +19884,8 @@
     "description": " MCMS v5.2.5 was discovered to contain a Server Side Template Injection (SSTI) vulnerability via the Template Management module.",
     "poc": [
       "https://github.com/miguelc49/CVE-2021-46063-2",
-      "https://github.com/miguelc49/CVE-2021-46063-1",
-      "https://github.com/miguelc49/CVE-2021-46063-3"
+      "https://github.com/miguelc49/CVE-2021-46063-3",
+      "https://github.com/miguelc49/CVE-2021-46063-1"
     ]
   },
   {
@@ -20514,12 +20520,13 @@
       "https://github.com/K3ysTr0K3R/CVE-2021-43798-EXPLOIT",
       "https://github.com/fanygit/Grafana-CVE-2021-43798Exp",
       "https://github.com/LongWayHomie/CVE-2021-43798",
-      "https://github.com/wagneralves/CVE-2021-43798",
       "https://github.com/FAOG99/GrafanaDirectoryScanner",
+      "https://github.com/wagneralves/CVE-2021-43798",
       "https://github.com/topyagyuu/CVE-2021-43798",
       "https://github.com/k3rwin/CVE-2021-43798-Grafana",
       "https://github.com/lfz97/CVE-2021-43798-Grafana-File-Read",
       "https://github.com/rnsss/CVE-2021-43798-poc",
+      "https://github.com/xchg-rax-rax/CVE-2021-43798",
       "https://github.com/lalkaltest/CVE-2021-43798",
       "https://github.com/nuker/CVE-2021-43798",
       "https://github.com/katseyres2/CVE-2021-43798",
@@ -21088,8 +21095,8 @@
       "https://github.com/rnsss/CVE-2021-42013",
       "https://github.com/LayarKacaSiber/CVE-2021-42013",
       "https://github.com/birdlinux/CVE-2021-42013",
-      "https://github.com/viliuspovilaika/cve-2021-42013",
       "https://github.com/12345qwert123456/CVE-2021-42013",
+      "https://github.com/viliuspovilaika/cve-2021-42013",
       "https://github.com/mightysai1997/cve-2021-42013",
       "https://github.com/Adashz/CVE-2021-42013",
       "https://github.com/imhunterand/CVE-2021-42013",
@@ -21232,8 +21239,8 @@
       "https://github.com/iosifache/ApacheRCEEssay",
       "https://github.com/walnutsecurity/cve-2021-41773",
       "https://github.com/pirenga/CVE-2021-41773",
-      "https://github.com/ranggaggngntt/CVE-2021-41773",
       "https://github.com/corelight/CVE-2021-41773",
+      "https://github.com/ranggaggngntt/CVE-2021-41773",
       "https://github.com/mohwahyudi/cve-2021-41773",
       "https://github.com/mauricelambert/CVE-2021-41773",
       "https://github.com/zerodaywolf/CVE-2021-41773_42013",
@@ -21252,12 +21259,12 @@
       "https://github.com/TAI-REx/cve-2021-41773-nse",
       "https://github.com/anldori/CVE-2021-41773-Scanner",
       "https://github.com/Jeromeyoung/CVE-2021-41784",
-      "https://github.com/mightysai1997/cve-2021-41773",
       "https://github.com/scarmandef/CVE-2021-41773",
       "https://github.com/McSl0vv/CVE-2021-41773",
       "https://github.com/12345qwert123456/CVE-2021-41773",
-      "https://github.com/the29a/CVE-2021-41773",
       "https://github.com/LayarKacaSiber/CVE-2021-41773",
+      "https://github.com/the29a/CVE-2021-41773",
+      "https://github.com/mightysai1997/cve-2021-41773",
       "https://github.com/zer0qs/CVE-2021-41773",
       "https://github.com/TheLastVvV/CVE-2021-41773",
       "https://github.com/vuongnv3389-sec/cve-2021-41773",
@@ -21761,9 +21768,9 @@
       "https://github.com/hqdat809/CVE-2021-40444",
       "https://github.com/jamesrep/cve-2021-40444",
       "https://github.com/tiagob0b/CVE-2021-40444",
+      "https://github.com/lisinan988/CVE-2021-40444-exp",
       "https://github.com/metehangenel/MSHTML-CVE-2021-40444",
       "https://github.com/Immersive-Labs-Sec/cve-2021-40444-analysis",
-      "https://github.com/lisinan988/CVE-2021-40444-exp",
       "https://github.com/kal1gh0st/CVE-2021-40444_CAB_archives",
       "https://github.com/Jeromeyoung/MSHTMHell",
       "https://github.com/KnoooW/CVE-2021-40444-docx-Generate",
@@ -22481,14 +22488,14 @@
   },
   {
     "cve_code": "CVE-2021-36594",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none.",
     "poc": [
       "https://github.com/mir-hossein/Statement"
     ]
   },
   {
     "cve_code": "CVE-2021-36593",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none.",
     "poc": [
       "https://github.com/mir-hossein/Statement"
     ]
@@ -22776,8 +22783,43 @@
   },
   {
     "cve_code": "CVE-2021-34527",
-    "description": " &lt;p&gt;A remote code execution vulnerability exists when the Windows Print Spooler service improperly performs privileged file operations. An attacker who successfully exploited this vulnerability could run arbitrary code with SYSTEM privileges. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.&lt;/p&gt;. &lt;p&gt;UPDATE July 7, 2021: The security update for Windows Server 2012, Windows Server 2016 and Windows 10, Version 1607 have been released. Please see the Security Updates table for the applicable update for your system. We recommend that you install these updates immediately. If you are unable to install these updates, see the FAQ and Workaround sections in this CVE for information on how to help protect your system from this vulnerability.&lt;/p&gt; &lt;p&gt;In addition to installing the updates, in order to secure your system, you must confirm that the following registry settings are set to 0 (zero) or are not defined (&lt;strong&gt;Note&lt;/strong&gt;: These registry keys do not exist by default, and therefore are already at the secure setting.), also that your Group Policy setting are correct (see FAQ):&lt;/p&gt; &lt;ul&gt; &lt;li&gt;HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows NT\\Printers\\PointAndPrint&lt;/li&gt; &lt;li&gt;NoWarningNoElevationOnInstall = 0 (DWORD) or not defined (default setting)&lt;/li&gt; &lt;li&gt;UpdatePromptSettings = 0 (DWORD) or not defined (default setting)&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;Having NoWarningNoElevationOnInstall set to 1 makes your system vulnerable by design.&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;UPDATE July 6, 2021: Microsoft has completed the investigation and has released security updates to address this vulnerability. Please see the Security Updates table for the applicable update for your system. We recommend that you install these updates immediately. If you are unable to install these updates, see the FAQ and Workaround sections in this CVE for information on how to help protect your system from this vulnerability. See also &lt;a href=&quot;https://support.microsoft.com/topic/31b91c02-05bc-4ada-a7ea-183b129578a7&quot;&gt;KB5005010: Restricting installation of new printer drivers after applying the July 6, 2021 updates&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;Note that the security updates released on and after July 6, 2021 contain protections for CVE-2021-1675 and the additional remote code execution exploit in the Windows Print Spooler service known as &#8220;PrintNightmare&#8221;, documented in CVE-2021-34527.&lt;/p&gt;- [https://github.com/cube0x0/CVE-2021-1675](https://github.com/cube0x0/CVE-2021-1675) :  ![starts](https://img.shields.io/github/stars/cube0x0/CVE-2021-1675.svg) ![forks](https://img.shields.io/github/forks/cube0x0/CVE-2021-1675.svg)- [https://github.com/byt3bl33d3r/ItWasAllADream](https://github.com/byt3bl33d3r/ItWasAllADream) :  ![starts](https://img.shields.io/github/stars/byt3bl33d3r/ItWasAllADream.svg) ![forks](https://img.shields.io/github/forks/byt3bl33d3r/ItWasAllADream.svg)- [https://github.com/BeetleChunks/SpoolSploit](https://github.com/BeetleChunks/SpoolSploit) :  ![starts](https://img.shields.io/github/stars/BeetleChunks/SpoolSploit.svg) ![forks](https://img.shields.io/github/forks/BeetleChunks/SpoolSploit.svg)- [https://github.com/hlldz/CVE-2021-1675-LPE](https://github.com/hlldz/CVE-2021-1675-LPE) :  ![starts](https://img.shields.io/github/stars/hlldz/CVE-2021-1675-LPE.svg) ![forks](https://img.shields.io/github/forks/hlldz/CVE-2021-1675-LPE.svg)- [https://github.com/JohnHammond/CVE-2021-34527](https://github.com/JohnHammond/CVE-2021-34527) :  ![starts](https://img.shields.io/github/stars/JohnHammond/CVE-2021-34527.svg) ![forks](https://img.shields.io/github/forks/JohnHammond/CVE-2021-34527.svg)- [https://github.com/ly4k/PrintNightmare](https://github.com/ly4k/PrintNightmare) :  ![starts](https://img.shields.io/github/stars/ly4k/PrintNightmare.svg) ![forks](https://img.shields.io/github/forks/ly4k/PrintNightmare.svg)- [https://github.com/nemo-wq/PrintNightmare-CVE-2021-34527](https://github.com/nemo-wq/PrintNightmare-CVE-2021-34527) :  ![starts](https://img.shields.io/github/stars/nemo-wq/PrintNightmare-CVE-2021-34527.svg) ![forks](https://img.shields.io/github/forks/nemo-wq/PrintNightmare-CVE-2021-34527.svg)- [https://github.com/m8sec/CVE-2021-34527](https://github.com/m8sec/CVE-2021-34527) :  ![starts](https://img.shields.io/github/stars/m8sec/CVE-2021-34527.svg) ![forks](https://img.shields.io/github/forks/m8sec/CVE-2021-34527.svg)- [https://github.com/evilashz/CVE-2021-1675-LPE-EXP](https://github.com/evilashz/CVE-2021-1675-LPE-EXP) :  ![starts](https://img.shields.io/github/stars/evilashz/CVE-2021-1675-LPE-EXP.svg) ![forks](https://img.shields.io/github/forks/evilashz/CVE-2021-1675-LPE-EXP.svg)- [https://github.com/khulnasoft-lab/awesome-security](https://github.com/khulnasoft-lab/awesome-security) :  ![starts](https://img.shields.io/github/stars/khulnasoft-lab/awesome-security.svg) ![forks](https://img.shields.io/github/forks/khulnasoft-lab/awesome-security.svg)- [https://github.com/hackerhouse-opensource/cve-2021-34527](https://github.com/hackerhouse-opensource/cve-2021-34527) :  ![starts](https://img.shields.io/github/stars/hackerhouse-opensource/cve-2021-34527.svg) ![forks](https://img.shields.io/github/forks/hackerhouse-opensource/cve-2021-34527.svg)- [https://github.com/JumpsecLabs/PrintNightmare](https://github.com/JumpsecLabs/PrintNightmare) :  ![starts](https://img.shields.io/github/stars/JumpsecLabs/PrintNightmare.svg) ![forks](https://img.shields.io/github/forks/JumpsecLabs/PrintNightmare.svg)- [https://github.com/CnOxx1/CVE-2021-34527-1675](https://github.com/CnOxx1/CVE-2021-34527-1675) :  ![starts](https://img.shields.io/github/stars/CnOxx1/CVE-2021-34527-1675.svg) ![forks](https://img.shields.io/github/forks/CnOxx1/CVE-2021-34527-1675.svg)- [https://github.com/thomas-lauer/PrintNightmare](https://github.com/thomas-lauer/PrintNightmare) :  ![starts](https://img.shields.io/github/stars/thomas-lauer/PrintNightmare.svg) ![forks](https://img.shields.io/github/forks/thomas-lauer/PrintNightmare.svg)- [https://github.com/dywhoami/CVE-2021-34527-Scanner-Based-On-cube0x0-POC](https://github.com/dywhoami/CVE-2021-34527-Scanner-Based-On-cube0x0-POC) :  ![starts](https://img.shields.io/github/stars/dywhoami/CVE-2021-34527-Scanner-Based-On-cube0x0-POC.svg) ![forks](https://img.shields.io/github/forks/dywhoami/CVE-2021-34527-Scanner-Based-On-cube0x0-POC.svg)- [https://github.com/Tomparte/PrintNightmare](https://github.com/Tomparte/PrintNightmare) :  ![starts](https://img.shields.io/github/stars/Tomparte/PrintNightmare.svg) ![forks](https://img.shields.io/github/forks/Tomparte/PrintNightmare.svg)- [https://github.com/0xirison/PrintNightmare-Patcher](https://github.com/0xirison/PrintNightmare-Patcher) :  ![starts](https://img.shields.io/github/stars/0xirison/PrintNightmare-Patcher.svg) ![forks](https://img.shields.io/github/forks/0xirison/PrintNightmare-Patcher.svg)- [https://github.com/powershellpr0mpt/PrintNightmare-CVE-2021-34527](https://github.com/powershellpr0mpt/PrintNightmare-CVE-2021-34527) :  ![starts](https://img.shields.io/github/stars/powershellpr0mpt/PrintNightmare-CVE-2021-34527.svg) ![forks](https://img.shields.io/github/forks/powershellpr0mpt/PrintNightmare-CVE-2021-34527.svg)- [https://github.com/galoget/PrintNightmare-CVE-2021-1675-CVE-2021-34527](https://github.com/galoget/PrintNightmare-CVE-2021-1675-CVE-2021-34527) :  ![starts](https://img.shields.io/github/stars/galoget/PrintNightmare-CVE-2021-1675-CVE-2021-34527.svg) ![forks](https://img.shields.io/github/forks/galoget/PrintNightmare-CVE-2021-1675-CVE-2021-34527.svg)- [https://github.com/cyb3rpeace/CVE-2021-34527](https://github.com/cyb3rpeace/CVE-2021-34527) :  ![starts](https://img.shields.io/github/stars/cyb3rpeace/CVE-2021-34527.svg) ![forks](https://img.shields.io/github/forks/cyb3rpeace/CVE-2021-34527.svg)- [https://github.com/Amaranese/CVE-2021-34527](https://github.com/Amaranese/CVE-2021-34527) :  ![starts](https://img.shields.io/github/stars/Amaranese/CVE-2021-34527.svg) ![forks](https://img.shields.io/github/forks/Amaranese/CVE-2021-34527.svg)- [https://github.com/whoami-chmod777/CVE-2021-1675-CVE-2021-34527](https://github.com/whoami-chmod777/CVE-2021-1675-CVE-2021-34527) :  ![starts](https://img.shields.io/github/stars/whoami-chmod777/CVE-2021-1675-CVE-2021-34527.svg) ![forks](https://img.shields.io/github/forks/whoami-chmod777/CVE-2021-1675-CVE-2021-34527.svg)- [https://github.com/geekbrett/CVE-2021-34527-PrintNightmare-Workaround](https://github.com/geekbrett/CVE-2021-34527-PrintNightmare-Workaround) :  ![starts](https://img.shields.io/github/stars/geekbrett/CVE-2021-34527-PrintNightmare-Workaround.svg) ![forks](https://img.shields.io/github/forks/geekbrett/CVE-2021-34527-PrintNightmare-Workaround.svg)- [https://github.com/rdboboia/disable-RegisterSpoolerRemoteRpcEndPoint](https://github.com/rdboboia/disable-RegisterSpoolerRemoteRpcEndPoint) :  ![starts](https://img.shields.io/github/stars/rdboboia/disable-RegisterSpoolerRemoteRpcEndPoint.svg) ![forks](https://img.shields.io/github/forks/rdboboia/disable-RegisterSpoolerRemoteRpcEndPoint.svg)- [https://github.com/pyonghe/PrintNightMareChecker](https://github.com/pyonghe/PrintNightMareChecker) :  ![starts](https://img.shields.io/github/stars/pyonghe/PrintNightMareChecker.svg) ![forks](https://img.shields.io/github/forks/pyonghe/PrintNightMareChecker.svg)- [https://github.com/DenizSe/CVE-2021-34527](https://github.com/DenizSe/CVE-2021-34527) :  ![starts](https://img.shields.io/github/stars/DenizSe/CVE-2021-34527.svg) ![forks](https://img.shields.io/github/forks/DenizSe/CVE-2021-34527.svg)- [https://github.com/glorisonlai/printnightmare](https://github.com/glorisonlai/printnightmare) :  ![starts](https://img.shields.io/github/stars/glorisonlai/printnightmare.svg) ![forks](https://img.shields.io/github/forks/glorisonlai/printnightmare.svg)- [https://github.com/d0rb/CVE-2021-34527](https://github.com/d0rb/CVE-2021-34527) :  ![starts](https://img.shields.io/github/stars/d0rb/CVE-2021-34527.svg) ![forks](https://img.shields.io/github/forks/d0rb/CVE-2021-34527.svg)- [https://github.com/Eutectico/Printnightmare](https://github.com/Eutectico/Printnightmare) :  ![starts](https://img.shields.io/github/stars/Eutectico/Printnightmare.svg) ![forks](https://img.shields.io/github/forks/Eutectico/Printnightmare.svg)- [https://github.com/WidespreadPandemic/CVE-2021-34527_ACL_mitigation](https://github.com/WidespreadPandemic/CVE-2021-34527_ACL_mitigation) :  ![starts](https://img.shields.io/github/stars/WidespreadPandemic/CVE-2021-34527_ACL_mitigation.svg) ![forks](https://img.shields.io/github/forks/WidespreadPandemic/CVE-2021-34527_ACL_mitigation.svg)- [https://github.com/TieuLong21Prosper/detect_bruteforce](https://github.com/TieuLong21Prosper/detect_bruteforce) :  ![starts](https://img.shields.io/github/stars/TieuLong21Prosper/detect_bruteforce.svg) ![forks](https://img.shields.io/github/forks/TieuLong21Prosper/detect_bruteforce.svg)- [https://github.com/vinaysudheer/Disable-Spooler-Service-PrintNightmare-CVE-2021-34527](https://github.com/vinaysudheer/Disable-Spooler-Service-PrintNightmare-CVE-2021-34527) :  ![starts](https://img.shields.io/github/stars/vinaysudheer/Disable-Spooler-Service-PrintNightmare-CVE-2021-34527.svg) ![forks](https://img.shields.io/github/forks/vinaysudheer/Disable-Spooler-Service-PrintNightmare-CVE-2021-34527.svg)- [https://github.com/r1skkam/PrintNightmare](https://github.com/r1skkam/PrintNightmare) :  ![starts](https://img.shields.io/github/stars/r1skkam/PrintNightmare.svg) ![forks](https://img.shields.io/github/forks/r1skkam/PrintNightmare.svg)- [https://github.com/syntaxbearror/PowerShell-PrintNightmare](https://github.com/syntaxbearror/PowerShell-PrintNightmare) :  ![starts](https://img.shields.io/github/stars/syntaxbearror/PowerShell-PrintNightmare.svg) ![forks](https://img.shields.io/github/forks/syntaxbearror/PowerShell-PrintNightmare.svg)",
-    "poc": []
+    "description": " &lt;p&gt;A remote code execution vulnerability exists when the Windows Print Spooler service improperly performs privileged file operations. An attacker who successfully exploited this vulnerability could run arbitrary code with SYSTEM privileges. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.&lt;/p&gt;. &lt;p&gt;UPDATE July 7, 2021: The security update for Windows Server 2012, Windows Server 2016 and Windows 10, Version 1607 have been released. Please see the Security Updates table for the applicable update for your system. We recommend that you install these updates immediately. If you are unable to install these updates, see the FAQ and Workaround sections in this CVE for information on how to help protect your system from this vulnerability.&lt;/p&gt; &lt;p&gt;In addition to installing the updates, in order to secure your system, you must confirm that the following registry settings are set to 0 (zero) or are not defined (&lt;strong&gt;Note&lt;/strong&gt;: These registry keys do not exist by default, and therefore are already at the secure setting.), also that your Group Policy setting are correct (see FAQ):&lt;/p&gt; &lt;ul&gt; &lt;li&gt;HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows NT\\Printers\\PointAndPrint&lt;/li&gt; &lt;li&gt;NoWarningNoElevationOnInstall = 0 (DWORD) or not defined (default setting)&lt;/li&gt; &lt;li&gt;UpdatePromptSettings = 0 (DWORD) or not defined (default setting)&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;Having NoWarningNoElevationOnInstall set to 1 makes your system vulnerable by design.&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;UPDATE July 6, 2021: Microsoft has completed the investigation and has released security updates to address this vulnerability. Please see the Security Updates table for the applicable update for your system. We recommend that you install these updates immediately. If you are unable to install these updates, see the FAQ and Workaround sections in this CVE for information on how to help protect your system from this vulnerability. See also &lt;a href=&quot;https://support.microsoft.com/topic/31b91c02-05bc-4ada-a7ea-183b129578a7&quot;&gt;KB5005010: Restricting installation of new printer drivers after applying the July 6, 2021 updates&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;Note that the security updates released on and after July 6, 2021 contain protections for CVE-2021-1675 and the additional remote code execution exploit in the Windows Print Spooler service known as &#8220;PrintNightmare&#8221;, documented in CVE-2021-34527.&lt;/p&gt;.",
+    "poc": [
+      "https://github.com/cube0x0/CVE-2021-1675",
+      "https://github.com/byt3bl33d3r/ItWasAllADream",
+      "https://github.com/BeetleChunks/SpoolSploit",
+      "https://github.com/hlldz/CVE-2021-1675-LPE",
+      "https://github.com/JohnHammond/CVE-2021-34527",
+      "https://github.com/ly4k/PrintNightmare",
+      "https://github.com/nemo-wq/PrintNightmare-CVE-2021-34527",
+      "https://github.com/m8sec/CVE-2021-34527",
+      "https://github.com/evilashz/CVE-2021-1675-LPE-EXP",
+      "https://github.com/khulnasoft-lab/awesome-security",
+      "https://github.com/hackerhouse-opensource/cve-2021-34527",
+      "https://github.com/JumpsecLabs/PrintNightmare",
+      "https://github.com/CnOxx1/CVE-2021-34527-1675",
+      "https://github.com/thomas-lauer/PrintNightmare",
+      "https://github.com/dywhoami/CVE-2021-34527-Scanner-Based-On-cube0x0-POC",
+      "https://github.com/Tomparte/PrintNightmare",
+      "https://github.com/0xirison/PrintNightmare-Patcher",
+      "https://github.com/powershellpr0mpt/PrintNightmare-CVE-2021-34527",
+      "https://github.com/galoget/PrintNightmare-CVE-2021-1675-CVE-2021-34527",
+      "https://github.com/cyb3rpeace/CVE-2021-34527",
+      "https://github.com/Amaranese/CVE-2021-34527",
+      "https://github.com/whoami-chmod777/CVE-2021-1675-CVE-2021-34527",
+      "https://github.com/geekbrett/CVE-2021-34527-PrintNightmare-Workaround",
+      "https://github.com/rdboboia/disable-RegisterSpoolerRemoteRpcEndPoint",
+      "https://github.com/pyonghe/PrintNightMareChecker",
+      "https://github.com/DenizSe/CVE-2021-34527",
+      "https://github.com/glorisonlai/printnightmare",
+      "https://github.com/d0rb/CVE-2021-34527",
+      "https://github.com/Eutectico/Printnightmare",
+      "https://github.com/WidespreadPandemic/CVE-2021-34527_ACL_mitigation",
+      "https://github.com/TieuLong21Prosper/detect_bruteforce",
+      "https://github.com/vinaysudheer/Disable-Spooler-Service-PrintNightmare-CVE-2021-34527",
+      "https://github.com/r1skkam/PrintNightmare",
+      "https://github.com/syntaxbearror/PowerShell-PrintNightmare"
+    ]
   },
   {
     "cve_code": "CVE-2021-34523",
@@ -23560,9 +23602,9 @@
       "https://github.com/b-abderrahmane/CVE-2021-29447-POC",
       "https://github.com/Val-Resh/CVE-2021-29447-POC",
       "https://github.com/viardant/CVE-2021-29447",
-      "https://github.com/G01d3nW01f/CVE-2021-29447",
       "https://github.com/AssassinUKG/CVE-2021-29447",
-      "https://github.com/andyhsu024/CVE-2021-29447"
+      "https://github.com/andyhsu024/CVE-2021-29447",
+      "https://github.com/G01d3nW01f/CVE-2021-29447"
     ]
   },
   {
@@ -23611,10 +23653,8 @@
   },
   {
     "cve_code": "CVE-2021-29200",
-    "description": " Apache OFBiz has unsafe deserialization prior to 17.12.07 version. An unauthenticated user can perform an RCE attack.",
-    "poc": [
-      "https://github.com/freeide/CVE-2021-29200"
-    ]
+    "description": " Apache OFBiz has unsafe deserialization prior to 17.12.07 version. An unauthenticated user can perform an RCE attack- [https://github.com/freeide/CVE-2021-29200](https://github.com/freeide/CVE-2021-29200) :  ![starts](https://img.shields.io/github/stars/freeide/CVE-2021-29200.svg) ![forks](https://img.shields.io/github/forks/freeide/CVE-2021-29200.svg)",
+    "poc": []
   },
   {
     "cve_code": "CVE-2021-29156",
@@ -24343,7 +24383,8 @@
       "https://github.com/wolf1892/confluence-rce-poc",
       "https://github.com/bcdannyboy/CVE-2021-26084_GoPOC",
       "https://github.com/Osyanina/westone-CVE-2021-26084-scanner",
-      "https://github.com/quesodipesto/conflucheck"
+      "https://github.com/quesodipesto/conflucheck",
+      "https://github.com/BBD-YZZ/Confluence-RCE"
     ]
   },
   {
@@ -25134,8 +25175,8 @@
       "https://github.com/L-pin/CVE-2021-21972",
       "https://github.com/robwillisinfo/VMware_vCenter_CVE-2021-21972",
       "https://github.com/Osyanina/westone-CVE-2021-21972-scanner",
-      "https://github.com/ZTK-009/CVE-2021-21972",
       "https://github.com/d3sh1n/cve-2021-21972",
+      "https://github.com/ZTK-009/CVE-2021-21972",
       "https://github.com/DougCarroll/CVE_2021_21972",
       "https://github.com/stevenp322/cve-2021-21972",
       "https://github.com/JMousqueton/Detect-CVE-2021-21972",
@@ -25486,8 +25527,8 @@
     "description": " TP-Link Tapo C200 IP camera, on its 1.1.15 firmware version and below, is affected by an unauthenticated RCE vulnerability, present in the uhttpd binary running by default as root. The exploitation of this vulnerability allows an attacker to take full control of the camera.",
     "poc": [
       "https://github.com/hacefresko/CVE-2021-4045-PoC",
-      "https://github.com/onebytex/CVE-2021-4045",
-      "https://github.com/pl4int3xt/CVE-2021-4045"
+      "https://github.com/pl4int3xt/CVE-2021-4045",
+      "https://github.com/jeffbezosispogg/CVE-2021-4045"
     ]
   },
   {
@@ -25717,8 +25758,8 @@
       "https://github.com/cpu0x00/CVE-2021-3560",
       "https://github.com/innxrmxst/CVE-2021-3560",
       "https://github.com/TieuLong21Prosper/CVE-2021-3560",
-      "https://github.com/TomMalvoRiddle/CVE-2021-3560",
       "https://github.com/curtishoughton/CVE-2021-3560",
+      "https://github.com/TomMalvoRiddle/CVE-2021-3560",
       "https://github.com/asepsaepdin/CVE-2021-3560",
       "https://github.com/LucasPDiniz/CVE-2021-3560",
       "https://github.com/Kyyomaa/CVE-2021-3560-EXPLOIT",
@@ -25934,8 +25975,8 @@
       "https://github.com/ypl6/heaplens",
       "https://github.com/oneoy/CVE-2021-3156",
       "https://github.com/RodricBr/CVE-2021-3156",
-      "https://github.com/0x7183/CVE-2021-3156",
       "https://github.com/donghyunlee00/CVE-2021-3156",
+      "https://github.com/0x7183/CVE-2021-3156",
       "https://github.com/BearCat4/CVE-2021-3156",
       "https://github.com/puckiestyle/CVE-2021-3156",
       "https://github.com/TheFlash2k/CVE-2021-3156",
@@ -25956,12 +25997,12 @@
       "https://github.com/barebackbandit/CVE-2021-3156",
       "https://github.com/wurwur/CVE-2021-3156",
       "https://github.com/Y3A/CVE-2021-3156",
-      "https://github.com/ZTK-009/CVE-2021-3156",
       "https://github.com/DDayLuong/CVE-2021-3156",
       "https://github.com/mutur4/CVE-2021-3156",
-      "https://github.com/Exodusro/CVE-2021-3156",
+      "https://github.com/ZTK-009/CVE-2021-3156",
       "https://github.com/arvindshima/CVE-2021-3156",
       "https://github.com/freeFV/CVE-2021-3156",
+      "https://github.com/Exodusro/CVE-2021-3156",
       "https://github.com/gmldbd94/cve-2021-3156",
       "https://github.com/meowhua15/CVE-2021-3156",
       "https://github.com/voidlsd/CVE-2021-3156",
@@ -26015,8 +26056,8 @@
       "https://github.com/knqyf263/CVE-2021-3129",
       "https://github.com/cuongtop4598/CVE-2021-3129-Script",
       "https://github.com/simonlee-hello/CVE-2021-3129",
-      "https://github.com/shadowabi/Laravel-CVE-2021-3129",
       "https://github.com/0nion1/CVE-2021-3129",
+      "https://github.com/shadowabi/Laravel-CVE-2021-3129",
       "https://github.com/ajisai-babu/CVE-2021-3129-exp",
       "https://github.com/Axianke/CVE-2021-3129",
       "https://github.com/MadExploits/Laravel-debug-Checker",
@@ -26273,8 +26314,8 @@
       "https://github.com/BeneficialCode/CVE-2021-1732",
       "https://github.com/asepsaepdin/CVE-2021-1732",
       "https://github.com/YOunGWebER/cve_2021_1732",
-      "https://github.com/yangshifan-git/CVE-2021-1732",
       "https://github.com/r1l4-i3pur1l4/CVE-2021-1732",
+      "https://github.com/yangshifan-git/CVE-2021-1732",
       "https://github.com/ExploitCN/CVE-2021-1732-EXP-"
     ]
   },
@@ -26310,7 +26351,7 @@
       "https://github.com/JumpsecLabs/PrintNightmare",
       "https://github.com/eversinc33/NimNightmare",
       "https://github.com/k8gege/cve-2021-1675",
-      "https://github.com/NickSanzotta/zeroscan",
+      "https://github.com/B34MR/zeroscan",
       "https://github.com/Wra7h/SharpPN",
       "https://github.com/Leonidus0x10/CVE-2021-1675-SCANNER",
       "https://github.com/corelight/CVE-2021-1675",
@@ -26958,8 +26999,10 @@
   },
   {
     "cve_code": "CVE-2020-36079",
-    "description": " ** DISP.UTED ** Zenphoto through 1.5.7 is affected by authenticated arbitrary file upload, leading to remote code execution. The attacker must navigate to the uploader plugin, check the elFinder box, and then drag and drop files into the Files(elFinder) portion of the UI. This can, for example, place a .php file in the server's uploaded/ directory. NOTE: the vendor disputes this because exploitation can only be performed by an admin who has &quot;lots of other possibilities to harm a site.&quot;- [https://github.com/azizalshammari/CVE-2020-36079.](https://github.com/azizalshammari/CVE-2020-36079.) :  ![starts](https://img.shields.io/github/stars/azizalshammari/CVE-2020-36079..svg) ![forks](https://img.shields.io/github/forks/azizalshammari/CVE-2020-36079..svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** Zenphoto through 1.5.7 is affected by authenticated arbitrary file upload, leading to remote code execution. The attacker must navigate to the uploader plugin, check the elFinder box, and then drag and drop files into the Files(elFinder) portion of the UI. This can, for example, place a .php file in the server's uploaded/ directory. NOTE: the vendor disputes this because exploitation can only be performed by an admin who has &quot;lots of other possibilities to harm a site.&quot;.",
+    "poc": [
+      "https://github.com/azizalshammari/CVE-2020-36079."
+    ]
   },
   {
     "cve_code": "CVE-2020-35848",
@@ -29299,8 +29342,10 @@
   },
   {
     "cve_code": "CVE-2020-14144",
-    "description": " ** DISP.UTED ** The git hook feature in Gitea 1.1.0 through 1.12.5 might allow for authenticated remote code execution in customer environments where the documentation was not understood (e.g., one viewpoint is that the dangerousness of this feature should be documented immediately above the ENABLE_GIT_HOOKS line in the config file). NOTE: The vendor has indicated this is not a vulnerability and states &quot;This is a functionality of the software that is limited to a very limited subset of accounts. If you give someone the privilege to execute arbitrary code on your server, they can execute arbitrary code on your server. We provide very clear warnings to users around this functionality and what it provides.&quot;- [https://github.com/p0dalirius/CVE-2020-14144-GiTea-git-hooks-rce](https://github.com/p0dalirius/CVE-2020-14144-GiTea-git-hooks-rce) :  ![starts](https://img.shields.io/github/stars/p0dalirius/CVE-2020-14144-GiTea-git-hooks-rce.svg) ![forks](https://img.shields.io/github/forks/p0dalirius/CVE-2020-14144-GiTea-git-hooks-rce.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** The git hook feature in Gitea 1.1.0 through 1.12.5 might allow for authenticated remote code execution in customer environments where the documentation was not understood (e.g., one viewpoint is that the dangerousness of this feature should be documented immediately above the ENABLE_GIT_HOOKS line in the config file). NOTE: The vendor has indicated this is not a vulnerability and states &quot;This is a functionality of the software that is limited to a very limited subset of accounts. If you give someone the privilege to execute arbitrary code on your server, they can execute arbitrary code on your server. We provide very clear warnings to users around this functionality and what it provides.&quot;.",
+    "poc": [
+      "https://github.com/p0dalirius/CVE-2020-14144-GiTea-git-hooks-rce"
+    ]
   },
   {
     "cve_code": "CVE-2020-14066",
@@ -45699,8 +45744,10 @@
   },
   {
     "cve_code": "CVE-2016-8858",
-    "description": " ** DISP.UTED ** The kex_input_kexinit function in kex.c in OpenSSH 6.x and 7.x through 7.3 allows remote attackers to cause a denial of service (memory consumption) by sending many duplicate KEXINIT requests.  NOTE: a third party reports that &quot;OpenSSH upstream does not consider this as a security issue.&quot;- [https://github.com/dag-erling/kexkill](https://github.com/dag-erling/kexkill) :  ![starts](https://img.shields.io/github/stars/dag-erling/kexkill.svg) ![forks](https://img.shields.io/github/forks/dag-erling/kexkill.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** The kex_input_kexinit function in kex.c in OpenSSH 6.x and 7.x through 7.3 allows remote attackers to cause a denial of service (memory consumption) by sending many duplicate KEXINIT requests.  NOTE: a third party reports that &quot;OpenSSH upstream does not consider this as a security issue.&quot;.",
+    "poc": [
+      "https://github.com/dag-erling/kexkill"
+    ]
   },
   {
     "cve_code": "CVE-2016-8823",
