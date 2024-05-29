@@ -1,14 +1,168 @@
 [
   {
-    "cve_code": "CVE-2024-33911",
+    "cve_code": "CVE-2024-36079",
+    "description": " An issue was discovered in Vaultize 21.07.27. When uploading files, there is no check that the filename parameter is correct. As a result, a temporary file will be created outside the specified directory when the file is downloaded. To exploit this, an authenticated user would upload a file with an incorrect file name, and then download it.",
+    "poc": [
+      "https://github.com/DxRvs/vaultize_CVE-2024-36079"
+    ]
+  },
+  {
+    "cve_code": "CVE-2024-35511",
     "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "poc": [
+      "https://github.com/efekaanakkar/CVE-2024-35511"
+    ]
+  },
+  {
+    "cve_code": "CVE-2024-35475",
+    "description": " A Cross-Site Request Forgery (CSRF) vulnerability was discovered in OpenKM Community Edition on or before version 6.3.12. The vulnerability exists in /admin/DatabaseQuery, which allows an attacker to manipulate a victim with administrative privileges to execute arbitrary SQL commands.",
+    "poc": [
+      "https://github.com/carsonchan12345/CVE-2024-35475"
+    ]
+  },
+  {
+    "cve_code": "CVE-2024-35333",
+    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "poc": [
+      "https://github.com/momo1239/CVE-2024-35333"
+    ]
+  },
+  {
+    "cve_code": "CVE-2024-34958",
+    "description": " idccms v1.35 was discovered to contain a Cross-Site Request Forgery (CSRF) via the component admin/banner_deal.php?mudi=add.",
+    "poc": [
+      "https://github.com/Gr-1m/CVE-2024-34958-1"
+    ]
+  },
+  {
+    "cve_code": "CVE-2024-34716",
+    "description": " PrestaShop is an open source e-commerce web application. A cross-site scripting (XSS) vulnerability that only affects PrestaShops with customer-thread feature flag enabled is present starting from PrestaShop 8.1.0 and prior to PrestaShop 8.1.6. When the customer thread feature flag is enabled through the front-office contact form, a hacker can upload a malicious file containing an XSS that will be executed when an admin opens the attached file in back office. The script injected can access the session and the security token, which allows it to perform any authenticated action in the scope of the administrator's right. This vulnerability is patched in 8.1.6. A workaround is to disable the customer-thread feature-flag.",
+    "poc": [
+      "https://github.com/aelmokhtar/CVE-2024-34716_PoC"
+    ]
+  },
+  {
+    "cve_code": "CVE-2024-34582",
+    "description": " Sunhillo SureLine through 8.10.0 on RICI 5000 devices allows cgi/usrPasswd.cgi userid_change XSS within the Forgot Password feature.",
+    "poc": [
+      "https://github.com/silent6trinity/CVE-2024-34582"
+    ]
+  },
+  {
+    "cve_code": "CVE-2024-34474",
+    "description": " Clario through 2024-04-11 for Desktop has weak permissions for %PROGRAMDATA%\\Clario and tries to load DLLs from there as SYSTEM.",
+    "poc": [
+      "https://github.com/Alaatk/CVE-2024-34474"
+    ]
+  },
+  {
+    "cve_code": "CVE-2024-34472",
+    "description": " An issue was discovered in HSC Mailinspector 5.2.17-3 through v.5.2.18. An authenticated blind SQL injection vulnerability exists in the mliRealtimeEmails.php file. The ordemGrid parameter in a POST request to /mailinspector/mliRealtimeEmails.php does not properly sanitize input, allowing an authenticated attacker to execute arbitrary SQL commands, leading to the potential disclosure of the entire application database.",
+    "poc": [
+      "https://github.com/osvaldotenorio/CVE-2024-34472"
+    ]
+  },
+  {
+    "cve_code": "CVE-2024-34471",
+    "description": " An issue was discovered in HSC Mailinspector 5.2.17-3. A Path Traversal vulnerability (resulting in file deletion) exists in the mliRealtimeEmails.php file. The filename parameter in the export HTML functionality does not properly validate the file location, allowing an attacker to read and delete arbitrary files on the server. This was observed when the mliRealtimeEmails.php file itself was read and subsequently deleted, resulting in a 404 error for the file and disruption of email information loading.",
+    "poc": [
+      "https://github.com/osvaldotenorio/CVE-2024-34471"
+    ]
+  },
+  {
+    "cve_code": "CVE-2024-34470",
+    "description": " An issue was discovered in HSC Mailinspector 5.2.17-3 through v.5.2.18. An Unauthenticated Path Traversal vulnerability exists in the /public/loader.php file. The path parameter does not properly filter whether the file and directory passed are part of the webroot, allowing an attacker to read arbitrary files on the server.",
+    "poc": [
+      "https://github.com/osvaldotenorio/CVE-2024-34470"
+    ]
+  },
+  {
+    "cve_code": "CVE-2024-34469",
+    "description": " Rukovoditel before 3.5.3 allows XSS via user_photo to index.php?module=users/registration&amp;action=save.",
+    "poc": [
+      "https://github.com/Toxich4/CVE-2024-34469"
+    ]
+  },
+  {
+    "cve_code": "CVE-2024-34351",
+    "description": " Next.js is a React framework that can provide building blocks to create web applications. A Server-Side Request Forgery (SSRF) vulnerability was identified in Next.js Server Actions. If the `Host` header is modified, and the below conditions are also met, an attacker may be able to make requests that appear to be originating from the Next.js application server itself. The required conditions are 1) Next.js is running in a self-hosted manner; 2) the Next.js application makes use of Server Actions; and 3) the Server Action performs a redirect to a relative path which starts with a `/`. This vulnerability was fixed in Next.js `14.1.1`.",
+    "poc": [
+      "https://github.com/Voorivex/CVE-2024-34351"
+    ]
+  },
+  {
+    "cve_code": "CVE-2024-34342",
+    "description": " react-pdf displays PDFs in React apps. If PDF.js is used to load a malicious PDF, and PDF.js is configured with `isEvalSupported` set to `true` (which is the default value), unrestricted attacker-controlled JavaScript will be executed in the context of the hosting domain. This vulnerability is fixed in 7.7.3 and 8.0.2.",
+    "poc": [
+      "https://github.com/LOURC0D3/CVE-2024-4367-PoC"
+    ]
+  },
+  {
+    "cve_code": "CVE-2024-34310",
+    "description": " Jin Fang Times Content Management System v3.2.3 was discovered to contain a SQL injection vulnerability via the id parameter.",
+    "poc": [
+      "https://github.com/3309899621/CVE-2024-34310"
+    ]
+  },
+  {
+    "cve_code": "CVE-2024-34226",
+    "description": " SQL injection vulnerability in /php-sqlite-vms/?page=manage_visitor&amp;id=1 in SourceCodester Visitor Management System 1.0 allow attackers to execute arbitrary SQL commands via the id parameters.",
+    "poc": [
+      "https://github.com/dovankha/CVE-2024-34226"
+    ]
+  },
+  {
+    "cve_code": "CVE-2024-34225",
+    "description": " Cross Site Scripting vulnerability in php-lms/admin/?page=system_info in Computer Laboratory Management System using PHP and MySQL 1.0 allow remote attackers to inject arbitrary web script or HTML via the name, shortname parameters.",
+    "poc": [
+      "https://github.com/dovankha/CVE-2024-34225"
+    ]
+  },
+  {
+    "cve_code": "CVE-2024-34224",
+    "description": " Cross Site Scripting vulnerability in /php-lms/classes/Users.php?f=save in Computer Laboratory Management System using PHP and MySQL 1.0 allow remote attackers to inject arbitrary web script or HTML via the firstname, middlename, lastname parameters.",
+    "poc": [
+      "https://github.com/dovankha/CVE-2024-34224"
+    ]
+  },
+  {
+    "cve_code": "CVE-2024-34223",
+    "description": " Insecure permission vulnerability in /hrm/leaverequest.php in SourceCodester Human Resource Management System 1.0 allow attackers to approve or reject leave ticket.",
+    "poc": [
+      "https://github.com/dovankha/CVE-2024-34223"
+    ]
+  },
+  {
+    "cve_code": "CVE-2024-34222",
+    "description": " Sourcecodester Human Resource Management System 1.0 is vulnerable to SQL Injection via the searccountry parameter.",
+    "poc": [
+      "https://github.com/dovankha/CVE-2024-34222"
+    ]
+  },
+  {
+    "cve_code": "CVE-2024-34221",
+    "description": " Sourcecodester Human Resource Management System 1.0 is vulnerable to Insecure Permissions resulting in privilege escalation.",
+    "poc": [
+      "https://github.com/dovankha/CVE-2024-34221"
+    ]
+  },
+  {
+    "cve_code": "CVE-2024-34220",
+    "description": " Sourcecodester Human Resource Management System 1.0 is vulnerable to SQL Injection via the 'leave' parameter.",
+    "poc": [
+      "https://github.com/dovankha/CVE-2024-34220"
+    ]
+  },
+  {
+    "cve_code": "CVE-2024-33911",
+    "description": " Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Weblizar School Management Pro.This issue affects School Management Pro: from n/a through 10.3.4.",
     "poc": [
       "https://github.com/xbz0n/CVE-2024-33911"
     ]
   },
   {
     "cve_code": "CVE-2024-33775",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " An issue with the Autodiscover component in Nagios XI 2024R1.01 allows a remote attacker to escalate privileges via a crafted Dashlet.",
     "poc": [
       "https://github.com/Neo-XeD/CVE-2024-33775"
     ]
@@ -43,14 +197,14 @@
   },
   {
     "cve_code": "CVE-2024-33437",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " An issue in CSS Exfil Protection v.1.1.0 allows a remote attacker to obtain sensitive information due to missing support for CSS Style Rules.",
     "poc": [
       "https://github.com/randshell/CSS-Exfil-Protection-POC"
     ]
   },
   {
     "cve_code": "CVE-2024-33436",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " An issue in CSS Exfil Protection v.1.1.0 allows a remote attacker to obtain sensitive information due to missing support for CSS variables.",
     "poc": [
       "https://github.com/randshell/CSS-Exfil-Protection-POC"
     ]
@@ -64,7 +218,7 @@
   },
   {
     "cve_code": "CVE-2024-33078",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " Tencent Libpag v4.3 is vulnerable to Buffer Overflow. A user can send a crafted image to trigger a overflow leading to remote code execution.",
     "poc": [
       "https://github.com/HBLocker/CVE-2024-33078"
     ]
@@ -100,7 +254,7 @@
   },
   {
     "cve_code": "CVE-2024-32523",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in EverPress Mailster allows PHP Local File Inclusion.This issue affects Mailster: from n/a through 4.0.6.",
     "poc": [
       "https://github.com/truonghuuphuc/CVE-2024-32523-Poc"
     ]
@@ -121,21 +275,21 @@
   },
   {
     "cve_code": "CVE-2024-32371",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " An issue in HSC Cybersecurity HC Mailinspector 5.2.17-3 through 5.2.18 allows a regular user account to escalate their privileges and gain administrative access by changing the type parameter from 1 to 0.",
     "poc": [
       "https://github.com/chucrutis/CVE-2024-32371"
     ]
   },
   {
     "cve_code": "CVE-2024-32370",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " An issue in HSC Cybersecurity HC Mailinspector 5.2.17-3 through 5.2.18 allows a remote attacker to obtain sensitive information via a crafted payload to the id parameter in the mliSystemUsers.php component.",
     "poc": [
       "https://github.com/chucrutis/CVE-2024-32370"
     ]
   },
   {
     "cve_code": "CVE-2024-32369",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " SQL Injection vulnerability in HSC Cybersecurity HC Mailinspector 5.2.17-3 through 5.2.18 allows a remote attacker to obtain sensitive information via a crafted payload to the start and limit parameter in the mliWhiteList.php component.",
     "poc": [
       "https://github.com/chucrutis/CVE-2024-32369"
     ]
@@ -171,7 +325,7 @@
   },
   {
     "cve_code": "CVE-2024-32004",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " Git is a revision control system. Prior to versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4, an attacker can prepare a local repository in such a way that, when cloned, will execute arbitrary code during the operation. The problem has been patched in versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4. As a workaround, avoid cloning repositories from untrusted sources.",
     "poc": [
       "https://github.com/Wadewfsssss/CVE-2024-32004",
       "https://github.com/10cks/CVE-2024-32004-POC"
@@ -179,7 +333,7 @@
   },
   {
     "cve_code": "CVE-2024-32002",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " Git is a revision control system. Prior to versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4, repositories with submodules can be crafted in a way that exploits a bug in Git whereby it can be fooled into writing files not into the submodule's worktree but into a `.git/` directory. This allows writing a hook that will be executed while the clone operation is still running, giving the user no opportunity to inspect the code that is being executed. The problem has been patched in versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4. If symbolic link support is disabled in Git (e.g. via `git config --global core.symlinks false`), the described attack won't work. As always, it is best to avoid cloning repositories from untrusted sources.",
     "poc": [
       "https://github.com/amalmurali47/git_rce",
       "https://github.com/safebuffer/CVE-2024-32002",
@@ -188,47 +342,48 @@
       "https://github.com/M507/CVE-2024-32002",
       "https://github.com/jweny/CVE-2024-32002_HOOK",
       "https://github.com/jweny/CVE-2024-32002_EXP",
+      "https://github.com/bfengj/CVE-2024-32002-Exploit",
       "https://github.com/10cks/CVE-2024-32002-EXP",
       "https://github.com/10cks/hook",
-      "https://github.com/bfengj/CVE-2024-32002-Exploit",
       "https://github.com/CrackerCat/CVE-2024-32002_EXP",
       "https://github.com/fadhilthomas/poc-cve-2024-32002",
       "https://github.com/Roronoawjd/git_rce",
       "https://github.com/vincepsh/CVE-2024-32002-hook",
       "https://github.com/Roronoawjd/hook",
+      "https://github.com/WOOOOONG/hook",
       "https://github.com/KiranKumarK20/CVE-2024-32002",
       "https://github.com/fadhilthomas/hook",
-      "https://github.com/WOOOOONG/hook",
       "https://github.com/vincepsh/CVE-2024-32002",
       "https://github.com/WOOOOONG/CVE-2024-32002",
       "https://github.com/markuta/CVE-2024-32002",
       "https://github.com/10cks/CVE-2024-32002-submod",
-      "https://github.com/10cks/CVE-2024-32002-POC",
-      "https://github.com/jerrydotlam/cve-2024-32002-1",
-      "https://github.com/jerrydotlam/cve-2024-32002-3",
-      "https://github.com/YuanlooSec/CVE-2024-32002-poc",
+      "https://github.com/10cks/CVE-2024-32002-smash",
       "https://github.com/jerrydotlam/cve-2024-32002-2",
+      "https://github.com/1mxml/CVE-2024-32002-poc",
+      "https://github.com/10cks/CVE-2024-32002-POC",
+      "https://github.com/jerrydotlam/cve-2024-32002-3",
+      "https://github.com/jerrydotlam/cve-2024-32002-1",
+      "https://github.com/YuanlooSec/CVE-2024-32002-poc",
+      "https://github.com/10cks/CVE-2024-32002-hulk",
       "https://github.com/bfengj/CVE-2024-32002-hook",
       "https://github.com/ycdxsb/CVE-2024-32002-hulk",
       "https://github.com/ycdxsb/CVE-2024-32002-submod",
-      "https://github.com/1mxml/CVE-2024-32002-poc",
-      "https://github.com/10cks/CVE-2024-32002-hulk",
       "https://github.com/aitorcastel/poc_CVE-2024-32002",
       "https://github.com/10cks/CVE-2024-32002-linux-hulk",
       "https://github.com/10cks/CVE-2024-32002-linux-submod",
-      "https://github.com/10cks/CVE-2024-32002-smash",
+      "https://github.com/Goplush/CVE-2024-32002-git-rce",
       "https://github.com/10cks/CVE-2024-32002-linux-smash",
       "https://github.com/aitorcastel/poc_CVE-2024-32002_submodule",
-      "https://github.com/JakobTheDev/cve-2024-32002-poc-rce",
       "https://github.com/JakobTheDev/cve-2024-32002-submodule-rce",
       "https://github.com/JakobTheDev/cve-2024-32002-poc-aw",
+      "https://github.com/JakobTheDev/cve-2024-32002-poc-rce",
       "https://github.com/JakobTheDev/cve-2024-32002-submodule-aw",
       "https://github.com/markuta/hooky"
     ]
   },
   {
     "cve_code": "CVE-2024-31974",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " The com.solarized.firedown (aka Solarized FireDown Browser &amp; Downloader) application 1.0.76 for Android allows a remote attacker to execute arbitrary JavaScript code via a crafted intent. com.solarized.firedown.IntentActivity uses a WebView component to display web content and doesn't adequately sanitize the URI or any extra data passed in the intent by any installed application (with no permissions).",
     "poc": [
       "https://github.com/actuator/com.solarized.firedown"
     ]
@@ -278,7 +433,7 @@
   },
   {
     "cve_code": "CVE-2024-31771",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " Insecure Permission vulnerability in TotalAV v.6.0.740 allows a local attacker to escalate privileges via a crafted file.",
     "poc": [
       "https://github.com/restdone/CVE-2024-31771"
     ]
@@ -308,7 +463,7 @@
   },
   {
     "cve_code": "CVE-2024-31351",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " Unrestricted Upload of File with Dangerous Type vulnerability in Copymatic Copymatic &#8211; AI Content Writer &amp; Generator.This issue affects Copymatic &#8211; AI Content Writer &amp; Generator: from n/a through 1.6.",
     "poc": [
       "https://github.com/KTN1990/CVE-2024-31351_wordpress_exploit"
     ]
@@ -336,7 +491,7 @@
   },
   {
     "cve_code": "CVE-2024-30973",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " An issue in V-SOL G/EPON ONU HG323AC-B with firmware version V2.0.08-210715 allows an attacker to execute arbtirary code and obtain sensitive information via crafted POST request to /boaform/getASPdata/formFirewall, /boaform/getASPdata/formAcc.",
     "poc": [
       "https://github.com/Athos-Zago/CVE-2024-30973"
     ]
@@ -350,7 +505,7 @@
   },
   {
     "cve_code": "CVE-2024-30851",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " Directory Traversal vulnerability in codesiddhant Jasmin Ransomware v.1.0.1 allows an attacker to obtain sensitive information via the download_file.php component.",
     "poc": [
       "https://github.com/chebuya/CVE-2024-30851-jasmin-ransomware-path-traversal-poc"
     ]
@@ -364,406 +519,406 @@
   },
   {
     "cve_code": "CVE-2024-30737",
-    "description": " ** DISP.UTED ** An issue was discovered in ROS Kinetic Kame in ROS_VERSION 1 and ROS_PYTHON_VERSION 3, allows remote attackers to execute arbitrary code via packages or nodes within the ROS system. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30737"
     ]
   },
   {
     "cve_code": "CVE-2024-30736",
-    "description": " ** DISP.UTED ** An insecure deserialization vulnerability has been identified in ROS Kinetic Kame in ROS_VERSION 1 and ROS_PYTHON_VERSION 3, allows attackers to execute arbitrary code and obtain sensitive information via the Data Serialization and Deserialization Components, Inter-Process Communication Mechanisms, and Network Communication Interfaces. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30736"
     ]
   },
   {
     "cve_code": "CVE-2024-30735",
-    "description": " ** DISP.UTED ** An arbitrary file upload vulnerability has been discovered in ROS Kinetic Kame in ROS_VERSION 1 and ROS_PYTHON_VERSION 3, allows attackers to execute arbitrary code, cause a denial of service (DoS), and obtain sensitive information via crafted payload to the file upload mechanism of the ROS system, including the server&#8217;s functionality for handling file uploads and the associated validation processes. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30735"
     ]
   },
   {
     "cve_code": "CVE-2024-30733",
-    "description": " ** DISP.UTED ** A buffer overflow vulnerability has been discovered in the C++ components of ROS Kinetic Kame in ROS_VERSION 1 and ROS_ PYTHON_VERSION 3, allows attackers to execute arbitrary code or cause a denial of service (DoS) via improper handling of arrays or strings within these components. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30733"
     ]
   },
   {
     "cve_code": "CVE-2024-30730",
-    "description": " ** DISP.UTED ** An insecure logging vulnerability has been identified within ROS Kinetic Kame in ROS_VERSION 1 and ROS_ PYTHON_VERSION 3, allows attackers to obtain sensitive information via inadequate security measures implemented within the logging mechanisms of ROS. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30730"
     ]
   },
   {
     "cve_code": "CVE-2024-30729",
-    "description": " ** DISP.UTED ** An OS command injection vulnerability has been discovered in ROS Kinetic Kame in ROS_VERSION 1 and ROS_ PYTHON_VERSION 3, allows remote attackers to execute arbitrary code, escalate privileges, and obtain sensitive information via the External Command Execution Modules, System Call Handlers, and Interface Scripts. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30729"
     ]
   },
   {
     "cve_code": "CVE-2024-30728",
-    "description": " ** DISP.UTED ** An issue was discovered in the default configurations of ROS (Robot Operating System) Kinetic Kame ROS_VERSION 1 and ROS_ PYTHON_VERSION 3, allows unauthenticated attackers to gain access using default credentials. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30728"
     ]
   },
   {
     "cve_code": "CVE-2024-30727",
-    "description": " ** DISP.UTED ** An issue was discovered in ROS Kinetic Kame in Kinetic Kame ROS_VERSION 1 and ROS_ PYTHON_VERSION 3, where the system transmits messages in plaintext, allowing attackers to obtain sensitive information via a man-in-the-middle attack. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30727"
     ]
   },
   {
     "cve_code": "CVE-2024-30726",
-    "description": " ** DISP.UTED ** A shell injection vulnerability was discovered in ROS (Robot Operating System) Kinetic Kame in ROS_VERSION 1 and ROS_ PYTHON_VERSION 3, allows remote attackers to execute arbitrary code, escalate privileges, and obtain sensitive information due to the way ROS handles shell command execution in components like command interpreters or interfaces that process external inputs. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30726"
     ]
   },
   {
     "cve_code": "CVE-2024-30724",
-    "description": " ** DISP.UTED ** An issue was discovered in ROS Kinetic Kame in ROS_VERSION 1 and ROS_PYTHON_VERSION 3, allows remote attackers to execute arbitrary code, escalate privileges, obtain sensitive information, and gain unauthorized access to multiple ROS nodes. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30724"
     ]
   },
   {
     "cve_code": "CVE-2024-30723",
-    "description": " ** DISP.UTED ** An unauthorized node injection vulnerability has been identified in ROS Kinetic Kame in ROS_VERSION 1 and ROS_PYTHON_VERSION 3, allows remote attackers to escalate privileges and inject malicious ROS nodes into the system due to insecure permissions. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30723"
     ]
   },
   {
     "cve_code": "CVE-2024-30722",
-    "description": " ** DISP.UTED ** An issue was discovered in ROS Kinetic Kame in ROS_VERSION 1 and ROS_PYTHON_VERSION 3, allows remote attackers to cause a denial of service (DoS) via the ROS nodes. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30722"
     ]
   },
   {
     "cve_code": "CVE-2024-30721",
-    "description": " ** DISP.UTED ** An arbitrary file upload vulnerability has been discovered in ROS2 Dashing Diademata in ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows attackers to execute arbitrary code, cause a denial of service (DoS), and obtain sensitive information via a crafted payload to the file upload mechanism of the ROS2 system, including the server&#8217;s functionality for handling file uploads and the associated validation processes. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30721"
     ]
   },
   {
     "cve_code": "CVE-2024-30719",
-    "description": " ** DISP.UTED ** An insecure deserialization vulnerability has been identified in ROS2 Dashing Diademata in ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows attackers to execute arbitrary code and obtain sensitive information via Data Serialization and Deserialization Components, Inter-Process Communication Mechanisms, and Network Communication Interfaces. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30719"
     ]
   },
   {
     "cve_code": "CVE-2024-30718",
-    "description": " ** DISP.UTED ** An issue was discovered in ROS2 Dashing Diademata in ROS_VERSION=2 and ROS_PYTHON_VERSION=3, allows remote attackers to execute arbitrary code via packages or nodes within the ROS2 system. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30718"
     ]
   },
   {
     "cve_code": "CVE-2024-30716",
-    "description": " ** DISP.UTED ** An insecure logging vulnerability in ROS2 Dashing Diademata ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows attacks to obtain sensitive information via inadequate security measures implemented within the logging mechanisms of ROS2. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30716"
     ]
   },
   {
     "cve_code": "CVE-2024-30715",
-    "description": " ** DISP.UTED ** A buffer overflow vulnerability has been discovered in the C++ components of ROS2 Dashing Diademata in ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows attackers to execute arbitrary code or cause a Denial of Service (DoS) via improper handling of arrays or strings. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30715"
     ]
   },
   {
     "cve_code": "CVE-2024-30713",
-    "description": " ** DISP.UTED ** An OS command injection vulnerability has been discovered in ROS2 Dashing Diademata in ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows remote attackers to execute arbitrary code, escalate privileges, and obtain sensitive information via the External Command Execution Modules, System Call Handlers, and Interface Scripts. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30713"
     ]
   },
   {
     "cve_code": "CVE-2024-30712",
-    "description": " ** DISP.UTED ** A shell injection vulnerability was discovered in ROS2 (Robot Operating System 2) Dashing Diademata in ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows remote attackers to execute arbitrary code, escalate privileges, and obtain sensitive information due to the way ROS2 handles shell command execution in components like command interpreters or interfaces that process external inputs. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30712"
     ]
   },
   {
     "cve_code": "CVE-2024-30711",
-    "description": " ** DISP.UTED ** An issue was discovered in the default configurations of ROS2 Dashing Diademata in ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows unauthenticated attackers to gain access using default credentials. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30711"
     ]
   },
   {
     "cve_code": "CVE-2024-30710",
-    "description": " ** DISP.UTED ** An issue was discovered in ROS2 Dashing Diademata in ROS_VERSION 2 and ROS_PYTHON_VERSION 3, where the system transmits messages in plaintext. This flaw exposes sensitive information, making it vulnerable to man-in-the-middle (MitM) attacks, and allowing attackers to easily intercept and access this data. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30710"
     ]
   },
   {
     "cve_code": "CVE-2024-30708",
-    "description": " ** DISP.UTED ** An issue was discovered in ROS2 Dashing Diademata in ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows remote attackers to cause a denial of service (DoS) via the ROS2 nodes. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30708"
     ]
   },
   {
     "cve_code": "CVE-2024-30707",
-    "description": " ** DISP.UTED ** Unauthorized node injection vulnerability in ROS2 Dashing Diademata in ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows remote attackers to escalate privileges and inject malicious ROS2 nodes into the system. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30707"
     ]
   },
   {
     "cve_code": "CVE-2024-30706",
-    "description": " ** DISP.UTED ** An issue was discovered in ROS2 Dashing Diademata versions ROS_VERSION is 2 and ROS_PYTHON_VERSION is 3, allows remote attackers to execute arbitrary code, escalate privileges, obtain sensitive information, and gain unauthorized access to multiple ROS2 nodes. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30706"
     ]
   },
   {
     "cve_code": "CVE-2024-30704",
-    "description": " ** DISP.UTED ** An insecure deserialization vulnerability has been identified in ROS2 Galactic Geochelone ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows attackers to execute arbitrary code and obtain sensitive information via crafted input to the Data Serialization and Deserialization Components, Inter-Process Communication Mechanisms, and Network Communication Interfaces. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30704"
     ]
   },
   {
     "cve_code": "CVE-2024-30703",
-    "description": " ** DISP.UTED ** An arbitrary file upload vulnerability has been discovered in ROS2 (Robot Operating System 2) Galactic Geochelone ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows attackers to execute arbitrary code, cause a denial of service (DoS), and obtain sensitive information via a crafted payload to the file upload mechanism of the ROS2 system, including the server&#8217;s functionality for handling file uploads and the associated validation processes. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30703"
     ]
   },
   {
     "cve_code": "CVE-2024-30702",
-    "description": " ** DISP.UTED ** An issue was discovered in ROS2 Galactic Geochelone in ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows remote attackers to execute arbitrary code via packages or nodes within the ROS2 system. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30702"
     ]
   },
   {
     "cve_code": "CVE-2024-30701",
-    "description": " ** DISP.UTED ** An insecure logging vulnerability in ROS2 Galactic Geochelone ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows attackers to obtain sensitive information via inadequate security measures implemented within the logging mechanisms of ROS2. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30701"
     ]
   },
   {
     "cve_code": "CVE-2024-30699",
-    "description": " ** DISP.UTED ** A buffer overflow vulnerability has been discovered in the C++ components of ROS2 Galactic Geochelone ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows attackers to execute arbitrary code or cause a denial of service (DoS) via improper handling of arrays or strings. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30699"
     ]
   },
   {
     "cve_code": "CVE-2024-30697",
-    "description": " ** DISP.UTED ** An issue was discovered in ROS2 Galactic Geochelone in ROS_VERSION 2 and ROS_PYTHON_VERSION 3, where the system transmits messages in plaintext, allowing attackers to access sensitive information via a man-in-the-middle attack. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30697"
     ]
   },
   {
     "cve_code": "CVE-2024-30696",
-    "description": " ** DISP.UTED ** OS command injection vulnerability in ROS2 Galactic Geochelone in ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows remote attackers to execute arbitrary code, escalate privileges, and obtain sensitive information via the command processing or system call components in ROS2, including External Command Execution Modules, System Call Handlers, and Interface Scripts. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30696"
     ]
   },
   {
     "cve_code": "CVE-2024-30695",
-    "description": " ** DISP.UTED ** An issue was discovered in the default configurations of ROS2 Galactic Geochelone versions ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows unauthenticated attackers to gain access using default credentials. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30695"
     ]
   },
   {
     "cve_code": "CVE-2024-30694",
-    "description": " ** DISP.UTED ** A shell injection vulnerability was discovered in ROS2 (Robot Operating System 2) Galactic Geochelone ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows attackers to execute arbitrary code, escalate privileges, and obtain sensitive information due to the way ROS2 handles shell command execution in components like command interpreters or interfaces that process external inputs. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30694"
     ]
   },
   {
     "cve_code": "CVE-2024-30692",
-    "description": " ** DISP.UTED ** A issue was discovered in ROS2 Galactic Geochelone versions ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows remote attackers to cause a denial of service (DoS) in the ROS2 nodes. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30692"
     ]
   },
   {
     "cve_code": "CVE-2024-30691",
-    "description": " ** DISP.UTED ** An issue was discovered in ROS2 Galactic Geochelone in version ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows remote attackers to execute arbitrary code, escalate privileges, obtain sensitive information, and gain unauthorized access to multiple ROS2 nodes. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30691"
     ]
   },
   {
     "cve_code": "CVE-2024-30690",
-    "description": " ** DISP.UTED ** An unauthorized node injection vulnerability has been identified in ROS2 Galactic Geochelone versions where ROS_VERSION is 2 and ROS_PYTHON_VERSION is 3, allows remote attackers to escalate privileges. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30690"
     ]
   },
   {
     "cve_code": "CVE-2024-30688",
-    "description": " ** DISP.UTED ** An arbitrary file upload vulnerability has been discovered in ROS2 Iron Irwini versions ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows attackers to execute arbitrary code via a crafted payload to the file upload mechanism of the ROS2 system, including the server&#8217;s functionality for handling file uploads and the associated validation processes. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30688"
     ]
   },
   {
     "cve_code": "CVE-2024-30687",
-    "description": " ** DISP.UTED ** An insecure deserialization vulnerability has been identified in ROS2 Iron Irwini versions ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows attackers to execute arbitrary code via a crafted input to the Data Serialization and Deserialization Components, Inter-Process Communication Mechanisms, and Network Communication Interfaces. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30687"
     ]
   },
   {
     "cve_code": "CVE-2024-30686",
-    "description": " ** DISP.UTED ** An issue was discovered in ROS2 Iron Irwini versions ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows remote attackers to execute arbitrary code via packages or nodes within the ROS2 system. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30686"
     ]
   },
   {
     "cve_code": "CVE-2024-30684",
-    "description": " ** DISP.UTED ** An insecure logging vulnerability has been identified within ROS2 Iron Irwini versions ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows attackers to access sensitive information via inadequate security measures implemented within the logging mechanisms of ROS2. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30684"
     ]
   },
   {
     "cve_code": "CVE-2024-30683",
-    "description": " ** DISP.UTED ** A buffer overflow vulnerability has been discovered in the C++ components of ROS2 Iron Irwini versions ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows attackers to execute arbitrary code or cause a Denial of Service (DoS) via improper handling of arrays or strings. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30683"
     ]
   },
   {
     "cve_code": "CVE-2024-30681",
-    "description": " ** DISP.UTED ** An OS command injection vulnerability has been discovered in ROS2 Iron Irwini version ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows attackers to execute arbitrary code, escalate privileges, and obtain sensitive information via the command processing or system call components in ROS2. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30681"
     ]
   },
   {
     "cve_code": "CVE-2024-30680",
-    "description": " ** DISP.UTED ** Shell injection vulnerability was discovered in ROS2 (Robot Operating System 2) Iron Irwini in versions ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows attackers to execute arbitrary code escalate privileges, and obtain sensitive information due to the way ROS2 handles shell command execution in components like command interpreters or interfaces that process external inputs. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30680"
     ]
   },
   {
     "cve_code": "CVE-2024-30679",
-    "description": " ** DISP.UTED ** An issue was discovered in the default configurations of ROS2 Iron Irwini ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows unauthenticated attackers to authenticate using default credentials. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30679"
     ]
   },
   {
     "cve_code": "CVE-2024-30678",
-    "description": " ** DISP.UTED ** An issue has been discovered in ROS2 Iron Irwini ROS_VERSION 2 and ROS_PYTHON_VERSION 3, where the system transmits messages in plaintext. This flaw exposes sensitive information, making it vulnerable to man-in-the-middle (MitM) attacks, and allowing attackers to intercept and access this data. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30678"
     ]
   },
   {
     "cve_code": "CVE-2024-30676",
-    "description": " ** DISP.UTED ** A Denial-of-Service (DoS) vulnerability exists in ROS2 Iron Irwini versions where ROS_VERSION is 2 and ROS_PYTHON_VERSION is 3. A malicious user could potentially exploit this vulnerability remotely to crash the ROS2 nodes, thereby causing a denial of service. The flaw allows an attacker to cause unexpected behavior in the operation of ROS2 nodes, which leads to their failure and interrupts the regular operation of the system, thus making it unavailable for its intended users. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30676"
     ]
   },
   {
     "cve_code": "CVE-2024-30675",
-    "description": " ** DISP.UTED ** Unauthorized node injection vulnerability in ROS2 Iron Irwini in ROS_VERSION 2 and ROS_PYTHON_VERSION 3. This vulnerability could allow a malicious user to escalate privileges by injecting malicious ROS2 nodes into the system remotely. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30675"
     ]
   },
   {
     "cve_code": "CVE-2024-30674",
-    "description": " ** DISP.UTED ** Unauthorized access vulnerability in ROS2 Iron Irwini in ROS_VERSION is 2 and ROS_PYTHON_VERSION is 3, allows remote attackers to gain control of multiple ROS2 nodes. Unauthorized information access to these nodes could result in compromised system integrity, the execution of arbitrary commands, and disclosure of sensitive information. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30674"
     ]
   },
   {
     "cve_code": "CVE-2024-30672",
-    "description": " ** DISP.UTED ** Arbitrary file upload vulnerability in ROS (Robot Operating System) Melodic Morenia in ROS_VERSION 1 and ROS_PYTHON_VERSION 3, allows attackers to execute arbitrary code, cause a denial of service (DoS), and obtain sensitive information via the file upload component. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30672"
     ]
   },
   {
     "cve_code": "CVE-2024-30667",
-    "description": " ** DISP.UTED ** Insecure deserialization vulnerability in ROS (Robot Operating System) Melodic Morenia in ROS_VERSION 1 and ROS_PYTHON_VERSION 3, allows attackers to execute arbitrary code or obtain sensitive information via crafted input to the data handling components. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30667"
     ]
   },
   {
     "cve_code": "CVE-2024-30666",
-    "description": " ** DISP.UTED ** A buffer overflow vulnerability has been discovered in the C++ components of ROS (Robot Operating System) Melodic Morenia in ROS_VERSION 1 and ROS_PYTHON_VERSION 3, allows attackers to execute arbitrary code via improper handling of arrays or strings within these components. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30666"
     ]
   },
   {
     "cve_code": "CVE-2024-30665",
-    "description": " ** DISP.UTED ** An OS command injection vulnerability has been discovered in ROS (Robot Operating System) Melodic Morenia in ROS_VERSION 1 and ROS_PYTHON_VERSION 3. This vulnerability primarily affects the command processing or system call components in ROS, making them susceptible to manipulation by malicious entities. Through this, unauthorized commands can be executed, leading to remote code execution (RCE), data theft, and malicious activities. The affected components include External Command Execution Modules, System Call Handlers, and Interface Scripts. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30665"
     ]
   },
   {
     "cve_code": "CVE-2024-30663",
-    "description": " ** DISP.UTED ** An issue was discovered in the default configurations of ROS (Robot Operating System) Melodic Morenia in ROS_VERSION 1 and ROS_PYTHON_VERSION 3. This vulnerability allows unauthenticated attackers to gain access using default credentials, posing a serious threat to the integrity and security of the system. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30663"
     ]
   },
   {
     "cve_code": "CVE-2024-30662",
-    "description": " ** DISP.UTED ** An issue was discovered in ROS (Robot Operating System) Melodic Morenia in ROS_VERSION 1 and ROS_PYTHON_VERSION 3, where the system transmits messages in plaintext. This flaw exposes sensitive information, making it vulnerable to man-in-the-middle (MitM) attacks, and allowing attackers to easily intercept and access this data. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30662"
     ]
   },
   {
     "cve_code": "CVE-2024-30661",
-    "description": " ** DISP.UTED ** An unauthorized access vulnerability has been discovered in ROS Melodic Morenia versions where ROS_VERSION is 1 and ROS_PYTHON_VERSION is 3. This vulnerability could potentially allow a malicious user to gain unauthorized information access to multiple ROS nodes remotely. Unauthorized information access to these nodes could result in compromised system integrity, the execution of arbitrary commands, and disclosure of sensitive information. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30661"
     ]
   },
   {
     "cve_code": "CVE-2024-30659",
-    "description": " ** DISP.UTED ** Shell Injection vulnerability in ROS (Robot Operating System) Melodic Morenia versions ROS_VERSION 1 and ROS_PYTHON_VERSION 3, allows attackers to execute arbitrary code, escalate privileges, and obtain sensitive information. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30659"
     ]
   },
   {
     "cve_code": "CVE-2024-30658",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30658"
     ]
   },
   {
     "cve_code": "CVE-2024-30657",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-30657"
     ]
@@ -799,7 +954,7 @@
   },
   {
     "cve_code": "CVE-2024-30056",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " Microsoft Edge (Chromium-based) Information Disclosure Vulnerability.",
     "poc": [
       "https://github.com/absholi7ly/Microsoft-Edge-Information-Disclosure"
     ]
@@ -813,7 +968,7 @@
   },
   {
     "cve_code": "CVE-2024-29895",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " Cacti provides an operational monitoring and fault management framework. A command injection vulnerability on the 1.3.x DEV branch allows any unauthenticated user to execute arbitrary command on the server when `register_argc_argv` option of PHP is `On`. In `cmd_realtime.php` line 119, the `$poller_id` used as part of the command execution is sourced from `$_SERVER['argv']`, which can be controlled by URL when `register_argc_argv` option of PHP is `On`. And this option is `On` by default in many environments such as the main PHP Docker image for PHP. Commit 53e8014d1f082034e0646edc6286cde3800c683d contains a patch for the issue, but this commit was reverted in commit 99633903cad0de5ace636249de16f77e57a3c8fc.",
     "poc": [
       "https://github.com/Stuub/CVE-2024-29895-CactiRCE-PoC",
       "https://github.com/Rubioo02/CVE-2024-29895",
@@ -823,98 +978,98 @@
   },
   {
     "cve_code": "CVE-2024-29455",
-    "description": " ** DISP.UTED ** An arbitrary file upload vulnerability has been discovered in ROS2 Humble Hawksbill in ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows attackers to execute arbitrary code, cause a denial of service (DoS), and obtain sensitive information via crafted payload to the file upload mechanism of the ROS2 system, including the server&#8217;s functionality for handling file uploads and the associated validation processes. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-29455"
     ]
   },
   {
     "cve_code": "CVE-2024-29454",
-    "description": " ** DISP.UTED ** An issue discovered in packages or nodes in ROS2 Humble Hawksbill with ROS_VERSION=2 and ROS_PYTHON_VERSION=3 allows attackers to execute arbitrary commands potentially leading to unauthorized system control, data breaches, system and network compromise, and operational disruption. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-29454"
     ]
   },
   {
     "cve_code": "CVE-2024-29452",
-    "description": " ** DISP.UTED ** An insecure deserialization vulnerability has been identified in ROS2 Humble Hawksbill in ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows attackers to execute arbitrary code and obtain sensitive information via crafted input to the Data Serialization and Deserialization Components, Inter-Process Communication Mechanisms, and Network Communication Interfaces. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-29452"
     ]
   },
   {
     "cve_code": "CVE-2024-29450",
-    "description": " ** DISP.UTED ** An issue has been discovered in the permission and access control components within ROS2 Humble Hawksbill, in ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows attackers to execute arbitrary code, cause a denial of service (DoS), escalate privileges, and obtain sensitive information via the authentication system, including protocols, processes, and checks designed to verify the identities of users or devices attempting to access the ROS2 system. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-29450"
     ]
   },
   {
     "cve_code": "CVE-2024-29449",
-    "description": " ** DISP.UTED ** An issue was discovered in ROS2 Humble Hawksbill in ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows attackers to obtain sensitive information via man-in-the-middle attacks due to cleartext transmission of data across the ROS2 nodes' communication channels. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-29449"
     ]
   },
   {
     "cve_code": "CVE-2024-29448",
-    "description": " ** DISP.UTED ** A buffer overflow vulnerability has been discovered in the C++ components of ROS2 Humble Hawksbill in ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows attackers to execute arbitrary code or cause a denial of service (DoS) via improper handling of arrays or strings. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-29448"
     ]
   },
   {
     "cve_code": "CVE-2024-29447",
-    "description": " ** DISP.UTED ** An issue was discovered in the default configurations of ROS2 Humble Hawksbill in ROS2 Humble Hawksbill in ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows unauthenticated attackers to gain access using default credentials. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-29447"
     ]
   },
   {
     "cve_code": "CVE-2024-29445",
-    "description": " ** DISP.UTED ** An issue was discovered in ROS2 (Robot Operating System 2) Humble Hawksbill in ROS_VERSION 2 and ROS_PYTHON_VERSION 3 where the system transmits messages in plaintext, allowing attackers to access sensitive information via a man-in-the-middle attack. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-29445"
     ]
   },
   {
     "cve_code": "CVE-2024-29444",
-    "description": " ** DISP.UTED ** An OS command injection vulnerability has been discovered in ROS2 (Robot Operating System 2) Humble Hawksbill in ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows remote attackers to execute arbitrary code, escalate privileges, and obtain sensitive information via External Command Execution Modules, System Call Handlers, and Interface Scripts. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-29444"
     ]
   },
   {
     "cve_code": "CVE-2024-29443",
-    "description": " ** DISP.UTED ** A shell injection vulnerability was discovered in ROS2 (Robot Operating System 2) Humble Hawksbill in ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows remote attackers to execute arbitrary code, escalate privileges, and obtain sensitive information due to the way ROS2 handles shell command execution in components like command interpreters or interfaces that process external inputs. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-29443"
     ]
   },
   {
     "cve_code": "CVE-2024-29442",
-    "description": " ** DISP.UTED ** An unauthorized access vulnerability has been discovered in ROS2 Humble Hawksbill versions where ROS_VERSION is 2 and ROS_PYTHON_VERSION is 3. This vulnerability could potentially allow a malicious user to gain unauthorized access to multiple ROS2 nodes remotely. Unauthorized access to these nodes could result in compromised system integrity, the execution of arbitrary commands, and disclosure of sensitive information. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-29442"
     ]
   },
   {
     "cve_code": "CVE-2024-29441",
-    "description": " ** DISP.UTED ** An issue was discovered in ROS2 (Robot Operating System 2) Humble Hawksbill in ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows remote attackers to cause a denial of service (DoS) via the ROS2 nodes. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-29441"
     ]
   },
   {
     "cve_code": "CVE-2024-29440",
-    "description": " ** DISP.UTED ** An unauthorized access vulnerability has been discovered in ROS2 Humble Hawksbill versions where ROS_VERSION is 2 and ROS_PYTHON_VERSION is 3. This vulnerability could potentially allow a malicious user to gain unauthorized access to multiple ROS2 nodes remotely. Unauthorized access to these nodes could result in compromised system integrity, the execution of arbitrary commands, and disclosure of sensitive information. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-29440"
     ]
   },
   {
     "cve_code": "CVE-2024-29439",
-    "description": " ** DISP.UTED ** An unauthorized node injection vulnerability has been identified in ROS2 Humble Hawksbill in ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows remote attackers to escalate privileges and inject malicious ROS2 nodes into the system. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.",
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.",
     "poc": [
       "https://github.com/yashpatelphd/CVE-2024-29439"
     ]
@@ -928,7 +1083,7 @@
   },
   {
     "cve_code": "CVE-2024-29384",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " An issue in CSS Exfil Protection v.1.1.0 allows a remote attacker to obtain sensitive information via the content.js and parseCSSRules functions.",
     "poc": [
       "https://github.com/randshell/CSS-Exfil-Protection-POC"
     ]
@@ -984,8 +1139,8 @@
     "poc": [
       "https://github.com/RenukaSelvar/expat_CVE-2024-28757",
       "https://github.com/saurabh2088/expat_2_1_0_CVE-2024-28757",
-      "https://github.com/saurabh2088/expat_2_1_1_CVE-2024-28757",
-      "https://github.com/krnidhi/expat_2.1.1_CVE-2024-28757"
+      "https://github.com/krnidhi/expat_2.1.1_CVE-2024-28757",
+      "https://github.com/saurabh2088/expat_2_1_1_CVE-2024-28757"
     ]
   },
   {
@@ -1088,7 +1243,7 @@
   },
   {
     "cve_code": "CVE-2024-27971",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in Premmerce Premmerce Permalink Manager for WooCommerce allows PHP Local File Inclusion.This issue affects Premmerce Permalink Manager for WooCommerce: from n/a through 2.3.10.",
     "poc": [
       "https://github.com/truonghuuphuc/CVE-2024-27971-Note"
     ]
@@ -1115,7 +1270,7 @@
   },
   {
     "cve_code": "CVE-2024-27804",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " The issue was addressed with improved memory handling. This issue is fixed in iOS 17.5 and iPadOS 17.5, tvOS 17.5, watchOS 10.5, macOS Sonoma 14.5. An app may be able to execute arbitrary code with kernel privileges.",
     "poc": [
       "https://github.com/R00tkitSMM/CVE-2024-27804"
     ]
@@ -1213,7 +1368,7 @@
   },
   {
     "cve_code": "CVE-2024-27460",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " A privilege escalation exists in the updater for Plantronics Hub 3.25.1 and below.",
     "poc": [
       "https://github.com/xct/CVE-2024-27460",
       "https://github.com/Alaatk/CVE-2024-27460",
@@ -1254,7 +1409,7 @@
   },
   {
     "cve_code": "CVE-2024-27130",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " A buffer copy without checking size of input vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow users to execute code via a network. We have already fixed the vulnerability in the following version: QTS 5.1.7.2770 build 20240520 and later QuTS hero h5.1.7.2770 build 20240520 and later.",
     "poc": [
       "https://github.com/watchtowrlabs/CVE-2024-27130",
       "https://github.com/d0rb/CVE-2024-27130"
@@ -1318,7 +1473,7 @@
   },
   {
     "cve_code": "CVE-2024-26304",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " There is a buffer overflow vulnerability in the underlying L2/L3 Management service that could lead to unauthenticated remote code execution by sending specially crafted packets destined to the PAPI (Aruba's access point management protocol) UDP port (8211). Successful exploitation of this vulnerability results in the ability to execute arbitrary code as a privileged user on the underlying operating system.",
     "poc": [
       "https://github.com/Roud-Roud-Agency/CVE-2024-26304-RCE-exploits"
     ]
@@ -1332,7 +1487,7 @@
   },
   {
     "cve_code": "CVE-2024-26026",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " An SQL injection vulnerability exists in the BIG-IP Next Central Manager API (URI). Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated.",
     "poc": [
       "https://github.com/passwa11/CVE-2024-26026",
       "https://github.com/GRTMALDET/Big-IP-Next-CVE-2024-26026"
@@ -1496,13 +1651,6 @@
     ]
   },
   {
-    "cve_code": "CVE-2024-25249",
-    "description": " An issue in He3 App for macOS version 2.0.17, allows remote attackers to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings.",
-    "poc": [
-      "https://github.com/intbjw/CVE-2024-25249"
-    ]
-  },
-  {
     "cve_code": "CVE-2024-25227",
     "description": " SQL Injection vulnerability in ABO.CMS version 5.8, allows remote attackers to execute arbitrary code, cause a denial of service (DoS), escalate privileges, and obtain sensitive information via the tb_login parameter in admin login page.",
     "poc": [
@@ -1562,7 +1710,7 @@
   },
   {
     "cve_code": "CVE-2024-24787",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " On Darwin, building a Go module which contains CGO can trigger arbitrary code execution when using the Apple version of ld, due to usage of the -lto_library flag in a &quot;#cgo LDFLAGS&quot; directive.",
     "poc": [
       "https://github.com/LOURC0D3/CVE-2024-24787-PoC"
     ]
@@ -1897,8 +2045,8 @@
       "https://github.com/yoryio/CVE-2024-23897",
       "https://github.com/Anekant-Singhai/Exploits",
       "https://github.com/jopraveen/CVE-2024-23897",
-      "https://github.com/Nebian/CVE-2024-23897",
       "https://github.com/Abo5/CVE-2024-23897",
+      "https://github.com/Nebian/CVE-2024-23897",
       "https://github.com/AbraXa5/Jenkins-CVE-2024-23897",
       "https://github.com/raheel0x01/CVE-2024-23897",
       "https://github.com/vmtyan/poc-cve-2024-23897",
@@ -1924,14 +2072,14 @@
   },
   {
     "cve_code": "CVE-2024-23774",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " An issue was discovered in Quest KACE Agent for Windows 12.0.38 and 13.1.23.0. An unquoted Windows search path vulnerability exists in the KSchedulerSvc.exe and AMPTools.exe components. This allows local attackers to execute code of their choice with NT Authority\\SYSTEM privileges.",
     "poc": [
       "https://github.com/Verrideo/CVE-2024-23774"
     ]
   },
   {
     "cve_code": "CVE-2024-23773",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " An issue was discovered in Quest KACE Agent for Windows 12.0.38 and 13.1.23.0. An Arbitrary file delete vulnerability exists in the KSchedulerSvc.exe component. Local attackers can delete any file of their choice with NT Authority\\SYSTEM privileges.",
     "poc": [
       "https://github.com/Verrideo/CVE-2024-23773"
     ]
@@ -1966,10 +2114,8 @@
   },
   {
     "cve_code": "CVE-2024-23743",
-    "description": " ** DISP.UTED ** Notion through 3.1.0 on macOS might allow code execution because of RunAsNode and enableNodeClilnspectArguments. NOTE: the vendor states &quot;the attacker must launch the Notion Desktop application with nonstandard flags that turn the Electron-based application into a Node.js execution environment.&quot;.",
-    "poc": [
-      "https://github.com/giovannipajeu1/CVE-2024-23743"
-    ]
+    "description": " ** DISP.UTED ** Notion through 3.1.0 on macOS might allow code execution because of RunAsNode and enableNodeClilnspectArguments. NOTE: the vendor states &quot;the attacker must launch the Notion Desktop application with nonstandard flags that turn the Electron-based application into a Node.js execution environment.&quot;- [https://github.com/giovannipajeu1/CVE-2024-23743](https://github.com/giovannipajeu1/CVE-2024-23743) :  ![starts](https://img.shields.io/github/stars/giovannipajeu1/CVE-2024-23743.svg) ![forks](https://img.shields.io/github/forks/giovannipajeu1/CVE-2024-23743.svg)",
+    "poc": []
   },
   {
     "cve_code": "CVE-2024-23742",
@@ -2002,10 +2148,8 @@
   },
   {
     "cve_code": "CVE-2024-23738",
-    "description": " ** DISP.UTED ** An issue in Postman version 10.22 and before on macOS allows a remote attacker to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings. NOTE: the vendor states &quot;we dispute the report's accuracy ... the configuration does not enable remote code execution..&quot;.",
-    "poc": [
-      "https://github.com/giovannipajeu1/CVE-2024-23738"
-    ]
+    "description": " ** DISP.UTED ** An issue in Postman version 10.22 and before on macOS allows a remote attacker to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings. NOTE: the vendor states &quot;we dispute the report's accuracy ... the configuration does not enable remote code execution..&quot;- [https://github.com/giovannipajeu1/CVE-2024-23738](https://github.com/giovannipajeu1/CVE-2024-23738) :  ![starts](https://img.shields.io/github/stars/giovannipajeu1/CVE-2024-23738.svg) ![forks](https://img.shields.io/github/forks/giovannipajeu1/CVE-2024-23738.svg)",
+    "poc": []
   },
   {
     "cve_code": "CVE-2024-23727",
@@ -2058,6 +2202,14 @@
     "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
     "poc": [
       "https://github.com/l00neyhacker/CVE-2024-23199"
+    ]
+  },
+  {
+    "cve_code": "CVE-2024-23108",
+    "description": " An improper neutralization of special elements used in an os command ('os command injection') in Fortinet FortiSIEM version 7.1.0 through 7.1.1 and 7.0.0 through 7.0.2 and 6.7.0 through 6.7.8 and 6.6.0 through 6.6.3 and 6.5.0 through 6.5.2 and 6.4.0 through 6.4.2 allows attacker to execute unauthorized code or commands via via crafted API requests.",
+    "poc": [
+      "https://github.com/horizon3ai/CVE-2024-23108",
+      "https://github.com/hitem/CVE-2024-23108"
     ]
   },
   {
@@ -2160,7 +2312,7 @@
   },
   {
     "cve_code": "CVE-2024-22774",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " An issue in Panoramic Corporation Digital Imaging Software v.9.1.2.7600 allows a local attacker to escalate privileges via the ccsservice.exe component.",
     "poc": [
       "https://github.com/Gray-0men/CVE-2024-22774"
     ]
@@ -2289,21 +2441,21 @@
   },
   {
     "cve_code": "CVE-2024-22145",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " Improper Privilege Management vulnerability in InstaWP Team InstaWP Connect allows Privilege Escalation.This issue affects InstaWP Connect: from n/a through 0.1.0.8.",
     "poc": [
       "https://github.com/RandomRobbieBF/CVE-2024-22145"
     ]
   },
   {
     "cve_code": "CVE-2024-22120",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " Zabbix server can perform command execution for configured scripts. After command is executed, audit entry is added to &quot;Audit Log&quot;. Due to &quot;clientip&quot; field is not sanitized, it is possible to injection SQL into &quot;clientip&quot; and exploit time based blind SQL injection.",
     "poc": [
       "https://github.com/W01fh4cker/CVE-2024-22120-RCE"
     ]
   },
   {
     "cve_code": "CVE-2024-22026",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " A local privilege escalation vulnerability in EPMM before 12.1.0.0 allows an authenticated local user to bypass shell restriction and execute arbitrary commands on the appliance.",
     "poc": [
       "https://github.com/securekomodo/CVE-2024-22026"
     ]
@@ -2352,7 +2504,7 @@
   },
   {
     "cve_code": "CVE-2024-21793",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " An OData injection vulnerability exists in the BIG-IP Next Central Manager API (URI). Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated.",
     "poc": [
       "https://github.com/FeatherStark/CVE-2024-21793"
     ]
@@ -2373,7 +2525,7 @@
   },
   {
     "cve_code": "CVE-2024-21683",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " This High severity RCE (Remote Code Execution) vulnerability was introduced in version 5.2 of Confluence Data Center and Server. This RCE (Remote Code Execution) vulnerability, with a CVSS Score of 8.3, allows an authenticated attacker to execute arbitrary code which has high impact to confidentiality, high impact to integrity, high impact to availability, and requires no user interaction. Atlassian recommends that Confluence Data Center and Server customers upgrade to latest version. If you are unable to do so, upgrade your instance to one of the specified supported fixed versions. See the release notes https://confluence.atlassian.com/doc/confluence-release-notes-327.html You can download the latest version of Confluence Data Center and Server from the download center https://www.atlassian.com/software/confluence/download-archives. This vulnerability was found internally.",
     "poc": [
       "https://github.com/W01fh4cker/CVE-2024-21683-RCE",
       "https://github.com/absholi7ly/-CVE-2024-21683-RCE-in-Confluence-Data-Center-and-Server",
@@ -2425,8 +2577,8 @@
       "https://github.com/Mdusmandasthaheer/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability",
       "https://github.com/DevAkabari/CVE-2024-21413",
       "https://github.com/dshabani96/CVE-2024-21413",
-      "https://github.com/th3Hellion/CVE-2024-21413",
       "https://github.com/X-Projetion/CVE-2024-21413-Microsoft-Outlook-RCE-Exploit",
+      "https://github.com/th3Hellion/CVE-2024-21413",
       "https://github.com/MSeymenD/CVE-2024-21413"
     ]
   },
@@ -2587,8 +2739,85 @@
     ]
   },
   {
+    "cve_code": "CVE-2024-5084",
+    "description": " The Hash Form &#8211; Drag &amp; Drop Form Builder plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the 'file_upload_action' function in all versions up to, and including, 1.1.0. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.",
+    "poc": [
+      "https://github.com/Chocapikk/CVE-2024-5084",
+      "https://github.com/KTN1990/CVE-2024-5084"
+    ]
+  },
+  {
+    "cve_code": "CVE-2024-4956",
+    "description": " Path Traversal in Sonatype Nexus Repository 3 allows an unauthenticated attacker to read system files. Fixed in version 3.68.1.",
+    "poc": [
+      "https://github.com/ifconfig-me/CVE-2024-4956-Bulk-Scanner",
+      "https://github.com/xungzzz/CVE-2024-4956",
+      "https://github.com/TypicalModMaker/list-of-vulnerable-sonatype-servers",
+      "https://github.com/banditzCyber0x/CVE-2024-4956",
+      "https://github.com/codeb0ss/CVE-2024-4956-PoC",
+      "https://github.com/gmh5225/CVE-2024-4956",
+      "https://github.com/eoslvs/CVE-2024-4956",
+      "https://github.com/GoatSecurity/CVE-2024-4956",
+      "https://github.com/thinhap/CVE-2024-4956-PoC"
+    ]
+  },
+  {
+    "cve_code": "CVE-2024-4875",
+    "description": " The HT Mega &#8211; Absolute Addons For Elementor plugin for WordPress is vulnerable to unauthorized modification of data|loss of data due to a missing capability check on the 'ajax_dismiss' function in versions up to, and including, 2.5.2. This makes it possible for authenticated attackers, with subscriber-level permissions and above, to update options such as users_can_register, which can lead to unauthorized user registration.",
+    "poc": [
+      "https://github.com/RandomRobbieBF/CVE-2024-4875"
+    ]
+  },
+  {
+    "cve_code": "CVE-2024-4761",
+    "description": " Out of bounds write in V8 in Google Chrome prior to 124.0.6367.207 allowed a remote attacker to perform an out of bounds memory write via a crafted HTML page. (Chromium security severity: High).",
+    "poc": [
+      "https://github.com/michredteam/CVE-2024-4761"
+    ]
+  },
+  {
+    "cve_code": "CVE-2024-4701",
+    "description": " A path traversal issue potentially leading to remote code execution in Genie for all versions prior to 4.3.18.",
+    "poc": [
+      "https://github.com/JoeBeeton/CVE-2024-4701-POC"
+    ]
+  },
+  {
+    "cve_code": "CVE-2024-4443",
+    "description": " The Business Directory Plugin &#8211; Easy Listing Directories for WordPress plugin for WordPress is vulnerable to time-based SQL Injection via the &#8216;listingfields&#8217; parameter in all versions up to, and including, 6.4.2 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.",
+    "poc": [
+      "https://github.com/truonghuuphuc/CVE-2024-4443-Poc"
+    ]
+  },
+  {
+    "cve_code": "CVE-2024-4439",
+    "description": " WordPress Core is vulnerable to Stored Cross-Site Scripting via user display names in the Avatar block in various versions up to 6.5.2 due to insufficient output escaping on the display name. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. In addition, it also makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that have the comment block present and display the comment author's avatar.",
+    "poc": [
+      "https://github.com/d0rb/CVE-2024-4439",
+      "https://github.com/MielPopsssssss/CVE-2024-4439",
+      "https://github.com/xssor-dz/-CVE-2024-4439"
+    ]
+  },
+  {
+    "cve_code": "CVE-2024-4367",
+    "description": " A type check was missing when handling fonts in PDF.js, which would allow arbitrary JavaScript execution in the PDF.js context. This vulnerability affects Firefox &lt; 126, Firefox ESR &lt; 115.11, and Thunderbird &lt; 115.11.",
+    "poc": [
+      "https://github.com/s4vvysec/CVE-2024-4367-POC",
+      "https://github.com/LOURC0D3/CVE-2024-4367-PoC",
+      "https://github.com/spaceraccoon/detect-cve-2024-4367",
+      "https://github.com/avalahEE/pdfjs_disable_eval"
+    ]
+  },
+  {
+    "cve_code": "CVE-2024-4352",
+    "description": " The Tutor LMS Pro plugin for WordPress is vulnerable to unauthorized access of data, modification of data, loss of data due to a missing capability check on the 'get_calendar_materials' function. The plugin is also vulnerable to SQL Injection via the &#8216;year&#8217; parameter of that function due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for authenticated attackers, with subscriber-level permissions and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.",
+    "poc": [
+      "https://github.com/truonghuuphuc/CVE-2024-4352-Poc"
+    ]
+  },
+  {
     "cve_code": "CVE-2024-4323",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " A memory corruption vulnerability in Fluent Bit versions 2.0.7 thru 3.0.3. This issue lies in the embedded http server&#8217;s parsing of trace requests and may result in denial of service conditions, information disclosure, or remote code execution.",
     "poc": [
       "https://github.com/skilfoy/CVE-2024-4323-Exploit-POC",
       "https://github.com/d0rb/CVE-2024-4323",
@@ -2620,23 +2849,16 @@
   },
   {
     "cve_code": "CVE-2024-3807",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " The Porto theme for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 7.1.0 via 'porto_page_header_shortcode_type', 'slideshow_type' and 'post_layout' post meta. This makes it possible for authenticated attackers, with contributor-level and above permissions, to include and execute arbitrary files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where php file type can be uploaded and included. This was partially patched in version 7.1.0 and fully patched in version 7.1.1.",
     "poc": [
       "https://github.com/truonghuuphuc/CVE-2024-3806-AND-CVE-2024-3807-Poc"
     ]
   },
   {
     "cve_code": "CVE-2024-3806",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " The Porto theme for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 7.1.0 via the 'porto_ajax_posts' function. This makes it possible for unauthenticated attackers to include and execute arbitrary files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where php file type can be uploaded and included.",
     "poc": [
       "https://github.com/truonghuuphuc/CVE-2024-3806-AND-CVE-2024-3807-Poc"
-    ]
-  },
-  {
-    "cve_code": "CVE-2024-3607",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
-    "poc": [
-      "https://github.com/DxRvs/vaultize_CVE-2024-36079"
     ]
   },
   {
@@ -2647,85 +2869,18 @@
     ]
   },
   {
-    "cve_code": "CVE-2024-3551",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
-    "poc": [
-      "https://github.com/efekaanakkar/CVE-2024-35511"
-    ]
-  },
-  {
-    "cve_code": "CVE-2024-3547",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
-    "poc": [
-      "https://github.com/carsonchan12345/CVE-2024-35475"
-    ]
-  },
-  {
     "cve_code": "CVE-2024-3495",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " The Country State City Dropdown CF7 plugin for WordPress is vulnerable to SQL Injection via the &#8216;cnt&#8217; and 'sid' parameters in versions up to, and including, 2.7.2 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.",
     "poc": [
       "https://github.com/truonghuuphuc/CVE-2024-3495-Poc",
-      "https://github.com/Gr-1m/CVE-2024-34958-1",
       "https://github.com/zomasec/CVE-2024-3495-POC"
     ]
   },
   {
-    "cve_code": "CVE-2024-3471",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
-    "poc": [
-      "https://github.com/aelmokhtar/CVE-2024-34716_PoC"
-    ]
-  },
-  {
-    "cve_code": "CVE-2024-3458",
-    "description": " A vulnerability classified as critical was found in Netentsec NS-ASG Application Security Gateway 6.3. This vulnerability affects unknown code of the file /admin/add_ikev2.php. The manipulation of the argument TunnelId leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-259714 is the identifier assigned to this vulnerability.",
-    "poc": [
-      "https://github.com/silent6trinity/CVE-2024-34582"
-    ]
-  },
-  {
-    "cve_code": "CVE-2024-3447",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
-    "poc": [
-      "https://github.com/Alaatk/CVE-2024-34474",
-      "https://github.com/osvaldotenorio/CVE-2024-34470",
-      "https://github.com/osvaldotenorio/CVE-2024-34471",
-      "https://github.com/osvaldotenorio/CVE-2024-34472"
-    ]
-  },
-  {
-    "cve_code": "CVE-2024-3446",
-    "description": " A double free vulnerability was found in QEMU virtio devices (virtio-gpu, virtio-serial-bus, virtio-crypto), where the mem_reentrancy_guard flag insufficiently protects against DMA reentrancy issues. This issue could allow a malicious privileged guest user to crash the QEMU process on the host, resulting in a denial of service or allow arbitrary code execution within the context of the QEMU process on the host.",
-    "poc": [
-      "https://github.com/Toxich4/CVE-2024-34469"
-    ]
-  },
-  {
     "cve_code": "CVE-2024-3435",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " A path traversal vulnerability exists in the 'save_settings' endpoint of the parisneo/lollms-webui application, affecting versions up to the latest release before 9.5. The vulnerability arises due to insufficient sanitization of the 'config' parameter in the 'apply_settings' function, allowing an attacker to manipulate the application's configuration by sending specially crafted JSON payloads. This could lead to remote code execution (RCE) by bypassing existing patches designed to mitigate such vulnerabilities.",
     "poc": [
-      "https://github.com/Voorivex/CVE-2024-34351",
       "https://github.com/ymuraki-csc/cve-2024-3435"
-    ]
-  },
-  {
-    "cve_code": "CVE-2024-3431",
-    "description": " A vulnerability was found in EyouCMS 1.6.5. It has been declared as critical. This vulnerability affects unknown code of the file /login.php?m=admin&amp;c=Field&amp;a=channel_edit of the component Backend. The manipulation of the argument channel_id leads to deserialization. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-259612. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.",
-    "poc": [
-      "https://github.com/3309899621/CVE-2024-34310"
-    ]
-  },
-  {
-    "cve_code": "CVE-2024-3422",
-    "description": " A vulnerability was found in SourceCodester Online Courseware 1.0. It has been declared as critical. This vulnerability affects unknown code of the file admin/activatestud.php. The manipulation of the argument selector leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-259594 is the identifier assigned to this vulnerability.",
-    "poc": [
-      "https://github.com/dovankha/CVE-2024-34223",
-      "https://github.com/dovankha/CVE-2024-34221",
-      "https://github.com/dovankha/CVE-2024-34220",
-      "https://github.com/dovankha/CVE-2024-34226",
-      "https://github.com/dovankha/CVE-2024-34224",
-      "https://github.com/dovankha/CVE-2024-34225",
-      "https://github.com/dovankha/CVE-2024-34222"
     ]
   },
   {
@@ -2752,14 +2907,14 @@
       "https://github.com/ZephrFish/CVE-2024-3400-Canary",
       "https://github.com/marconesler/CVE-2024-3400",
       "https://github.com/phantomradar/cve-2024-3400-poc",
-      "https://github.com/andrelia-hacks/CVE-2024-3400",
+      "https://github.com/hahasagined/CVE-2024-3400",
+      "https://github.com/codeblueprint/CVE-2024-3400",
+      "https://github.com/LoanVitor/CVE-2024-3400-",
       "https://github.com/iwallarm/cve-2024-3400",
       "https://github.com/Kr0ff/cve-2024-3400",
-      "https://github.com/hahasagined/CVE-2024-3400",
-      "https://github.com/pwnj0hn/CVE-2024-3400",
       "https://github.com/Ravaan21/CVE-2024-3400",
-      "https://github.com/LoanVitor/CVE-2024-3400-",
-      "https://github.com/codeblueprint/CVE-2024-3400",
+      "https://github.com/pwnj0hn/CVE-2024-3400",
+      "https://github.com/andrelia-hacks/CVE-2024-3400",
       "https://github.com/MrR0b0t19/CVE-2024-3400",
       "https://github.com/FoxyProxys/CVE-2024-3400",
       "https://github.com/sxyrxyy/CVE-2024-3400-Check",
@@ -2828,8 +2983,8 @@
       "https://github.com/emirkmo/xz-backdoor-github",
       "https://github.com/r0binak/xzk8s",
       "https://github.com/wgetnz/CVE-2024-3094-check",
-      "https://github.com/Hacker-Hermanos/CVE-2024-3094_xz_check",
       "https://github.com/robertdebock/ansible-role-cve_2024_3094",
+      "https://github.com/Hacker-Hermanos/CVE-2024-3094_xz_check",
       "https://github.com/Yuma-Tsushima07/CVE-2024-3094",
       "https://github.com/crfearnworks/ansible-CVE-2024-3094",
       "https://github.com/badsectorlabs/ludus_xz_backdoor",
@@ -2841,11 +2996,11 @@
       "https://github.com/zgimszhd61/cve-2024-3094-detect-tool",
       "https://github.com/Bella-Bc/xz-backdoor-CVE-2024-3094-Check",
       "https://github.com/reuteras/CVE-2024-3094",
-      "https://github.com/Horizon-Software-Development/CVE-2024-3094",
       "https://github.com/pentestfunctions/CVE-2024-3094",
+      "https://github.com/Horizon-Software-Development/CVE-2024-3094",
       "https://github.com/galacticquest/cve-2024-3094-detect",
-      "https://github.com/robertdebock/ansible-playbook-cve-2024-3094",
       "https://github.com/Security-Phoenix-demo/CVE-2024-3094-fix-exploits",
+      "https://github.com/robertdebock/ansible-playbook-cve-2024-3094",
       "https://github.com/brinhosa/CVE-2024-3094-One-Liner",
       "https://github.com/mesutgungor/xz-backdoor-vulnerability",
       "https://github.com/isuruwa/CVE-2024-3094",
@@ -2856,22 +3011,22 @@
       "https://github.com/ashwani95/CVE-2024-3094",
       "https://github.com/Mustafa1986/CVE-2024-3094",
       "https://github.com/mightysai1997/CVE-2024-3094",
+      "https://github.com/Fractal-Tess/CVE-2024-3094",
       "https://github.com/CyberGuard-Foundation/CVE-2024-3094",
       "https://github.com/dah4k/CVE-2024-3094",
-      "https://github.com/Fractal-Tess/CVE-2024-3094",
       "https://github.com/ackemed/detectar_cve-2024-3094",
       "https://github.com/TheTorjanCaptain/CVE-2024-3094-Checker",
       "https://github.com/k4t3pr0/Check-CVE-2024-3094",
       "https://github.com/hazemkya/CVE-2024-3094-checker",
-      "https://github.com/krascovict/OSINT---CVE-2024-3094-",
       "https://github.com/mightysai1997/CVE-2024-3094-info",
+      "https://github.com/krascovict/OSINT---CVE-2024-3094-",
       "https://github.com/iheb2b/CVE-2024-3094-Checker",
+      "https://github.com/buluma/ansible-role-cve_2024_3094",
       "https://github.com/OpensourceICTSolutions/xz_utils-CVE-2024-3094",
       "https://github.com/MrBUGLF/XZ-Utils_CVE-2024-3094",
-      "https://github.com/buluma/ansible-role-cve_2024_3094",
+      "https://github.com/gayatriracha/CVE-2024-3094-Nmap-NSE-script",
       "https://github.com/weltregie/liblzma-scan",
       "https://github.com/przemoc/xz-backdoor-links",
-      "https://github.com/gayatriracha/CVE-2024-3094-Nmap-NSE-script",
       "https://github.com/MagpieRYL/CVE-2024-3094-backdoor-env-container",
       "https://github.com/hackingetico21/revisaxzutils",
       "https://github.com/Juul/xz-backdoor-scan",
@@ -2897,7 +3052,7 @@
   },
   {
     "cve_code": "CVE-2024-2876",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " The Email Subscribers by Icegram Express &#8211; Email Marketing, Newsletters, Automation for WordPress &amp; WooCommerce plugin for WordPress is vulnerable to SQL Injection via the 'run' function of the 'IG_ES_Subscribers_Query' class in all versions up to, and including, 5.7.14 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.",
     "poc": [
       "https://github.com/c0d3zilla/CVE-2024-2876"
     ]
@@ -2911,7 +3066,7 @@
   },
   {
     "cve_code": "CVE-2024-2667",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " The InstaWP Connect &#8211; 1-click WP Staging &amp; Migration plugin for WordPress is vulnerable to arbitrary file uploads due to insufficient file validation in the /wp-json/instawp-connect/v1/config REST API endpoint in all versions up to, and including, 0.1.0.22. This makes it possible for unauthenticated attackers to upload arbitrary files.",
     "poc": [
       "https://github.com/Puvipavan/CVE-2024-2667"
     ]
@@ -3184,7 +3339,7 @@
   },
   {
     "cve_code": "CVE-2024-0710",
-    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "description": " The GP Unique ID plugin for WordPress is vulnerable to Unique ID Modification in all versions up to, and including, 1.5.5. This is due to insufficient input validation. This makes it possible for unauthenticated attackers to tamper with the generation of a unique ID on a form submission and replace the generated unique ID with a user-controlled one, leading to a loss of integrity in cases where the ID's uniqueness is relied upon in a security-specific context.",
     "poc": [
       "https://github.com/karlemilnikka/CVE-2024-0710"
     ]
@@ -9656,10 +9811,8 @@
   },
   {
     "cve_code": "CVE-2023-24044",
-    "description": " ** DISP.UTED ** A Host Header Injection issue on the Login page of Plesk Obsidian through 18.0.49 allows attackers to redirect users to malicious websites via a Host request header. NOTE: the vendor's position is &quot;the ability to use arbitrary domain names to access the panel is an intended feature.&quot;.",
-    "poc": [
-      "https://github.com/Cappricio-Securities/CVE-2023-24044"
-    ]
+    "description": " ** DISP.UTED ** A Host Header Injection issue on the Login page of Plesk Obsidian through 18.0.49 allows attackers to redirect users to malicious websites via a Host request header. NOTE: the vendor's position is &quot;the ability to use arbitrary domain names to access the panel is an intended feature.&quot;- [https://github.com/Cappricio-Securities/CVE-2023-24044](https://github.com/Cappricio-Securities/CVE-2023-24044) :  ![starts](https://img.shields.io/github/stars/Cappricio-Securities/CVE-2023-24044.svg) ![forks](https://img.shields.io/github/forks/Cappricio-Securities/CVE-2023-24044.svg)",
+    "poc": []
   },
   {
     "cve_code": "CVE-2023-24034",
@@ -12423,11 +12576,8 @@
   },
   {
     "cve_code": "CVE-2022-46463",
-    "description": " ** DISP.UTED ** An access control issue in Harbor v1.X.X to v2.5.3 allows attackers to access public and private image repositories without authentication. NOTE: the vendor's position is that this &quot;is clearly described in the documentation as a feature.&quot;.",
-    "poc": [
-      "https://github.com/nu0l/CVE-2022-46463",
-      "https://github.com/404tk/CVE-2022-46463"
-    ]
+    "description": " ** DISP.UTED ** An access control issue in Harbor v1.X.X to v2.5.3 allows attackers to access public and private image repositories without authentication. NOTE: the vendor's position is that this &quot;is clearly described in the documentation as a feature.&quot;- [https://github.com/nu0l/CVE-2022-46463](https://github.com/nu0l/CVE-2022-46463) :  ![starts](https://img.shields.io/github/stars/nu0l/CVE-2022-46463.svg) ![forks](https://img.shields.io/github/forks/nu0l/CVE-2022-46463.svg)- [https://github.com/404tk/CVE-2022-46463](https://github.com/404tk/CVE-2022-46463) :  ![starts](https://img.shields.io/github/stars/404tk/CVE-2022-46463.svg) ![forks](https://img.shields.io/github/forks/404tk/CVE-2022-46463.svg)",
+    "poc": []
   },
   {
     "cve_code": "CVE-2022-46395",
@@ -22658,8 +22808,10 @@
   },
   {
     "cve_code": "CVE-2021-34481",
-    "description": " &lt;p&gt;A remote code execution vulnerability exists when the Windows Print Spooler service improperly performs privileged file operations. An attacker who successfully exploited this vulnerability could run arbitrary code with SYSTEM privileges. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.&lt;/p&gt;. &lt;p&gt;&lt;strong&gt;UPDATE&lt;/strong&gt; August 10, 2021: Microsoft has completed the investigation and has released security updates to address this vulnerability. Please see the Security Updates table for the applicable update for your system. We recommend that you install these updates immediately. This security update changes the Point and Print default behavior; please see &lt;a href=&quot;https://support.microsoft.com/help/5005652&quot;&gt;KB5005652&lt;/a&gt;.&lt;/p&gt;- [https://github.com/vpn28/CVE-2021-34481](https://github.com/vpn28/CVE-2021-34481) :  ![starts](https://img.shields.io/github/stars/vpn28/CVE-2021-34481.svg) ![forks](https://img.shields.io/github/forks/vpn28/CVE-2021-34481.svg)",
-    "poc": []
+    "description": " &lt;p&gt;A remote code execution vulnerability exists when the Windows Print Spooler service improperly performs privileged file operations. An attacker who successfully exploited this vulnerability could run arbitrary code with SYSTEM privileges. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.&lt;/p&gt;. &lt;p&gt;&lt;strong&gt;UPDATE&lt;/strong&gt; August 10, 2021: Microsoft has completed the investigation and has released security updates to address this vulnerability. Please see the Security Updates table for the applicable update for your system. We recommend that you install these updates immediately. This security update changes the Point and Print default behavior; please see &lt;a href=&quot;https://support.microsoft.com/help/5005652&quot;&gt;KB5005652&lt;/a&gt;.&lt;/p&gt;.",
+    "poc": [
+      "https://github.com/vpn28/CVE-2021-34481"
+    ]
   },
   {
     "cve_code": "CVE-2021-34473",
@@ -23459,8 +23611,10 @@
   },
   {
     "cve_code": "CVE-2021-29200",
-    "description": " Apache OFBiz has unsafe deserialization prior to 17.12.07 version. An unauthenticated user can perform an RCE attack- [https://github.com/freeide/CVE-2021-29200](https://github.com/freeide/CVE-2021-29200) :  ![starts](https://img.shields.io/github/stars/freeide/CVE-2021-29200.svg) ![forks](https://img.shields.io/github/forks/freeide/CVE-2021-29200.svg)",
-    "poc": []
+    "description": " Apache OFBiz has unsafe deserialization prior to 17.12.07 version. An unauthenticated user can perform an RCE attack.",
+    "poc": [
+      "https://github.com/freeide/CVE-2021-29200"
+    ]
   },
   {
     "cve_code": "CVE-2021-29156",
@@ -26804,10 +26958,8 @@
   },
   {
     "cve_code": "CVE-2020-36079",
-    "description": " ** DISP.UTED ** Zenphoto through 1.5.7 is affected by authenticated arbitrary file upload, leading to remote code execution. The attacker must navigate to the uploader plugin, check the elFinder box, and then drag and drop files into the Files(elFinder) portion of the UI. This can, for example, place a .php file in the server's uploaded/ directory. NOTE: the vendor disputes this because exploitation can only be performed by an admin who has &quot;lots of other possibilities to harm a site.&quot;.",
-    "poc": [
-      "https://github.com/azizalshammari/CVE-2020-36079."
-    ]
+    "description": " ** DISP.UTED ** Zenphoto through 1.5.7 is affected by authenticated arbitrary file upload, leading to remote code execution. The attacker must navigate to the uploader plugin, check the elFinder box, and then drag and drop files into the Files(elFinder) portion of the UI. This can, for example, place a .php file in the server's uploaded/ directory. NOTE: the vendor disputes this because exploitation can only be performed by an admin who has &quot;lots of other possibilities to harm a site.&quot;- [https://github.com/azizalshammari/CVE-2020-36079.](https://github.com/azizalshammari/CVE-2020-36079.) :  ![starts](https://img.shields.io/github/stars/azizalshammari/CVE-2020-36079..svg) ![forks](https://img.shields.io/github/forks/azizalshammari/CVE-2020-36079..svg)",
+    "poc": []
   },
   {
     "cve_code": "CVE-2020-35848",
@@ -29147,10 +29299,8 @@
   },
   {
     "cve_code": "CVE-2020-14144",
-    "description": " ** DISP.UTED ** The git hook feature in Gitea 1.1.0 through 1.12.5 might allow for authenticated remote code execution in customer environments where the documentation was not understood (e.g., one viewpoint is that the dangerousness of this feature should be documented immediately above the ENABLE_GIT_HOOKS line in the config file). NOTE: The vendor has indicated this is not a vulnerability and states &quot;This is a functionality of the software that is limited to a very limited subset of accounts. If you give someone the privilege to execute arbitrary code on your server, they can execute arbitrary code on your server. We provide very clear warnings to users around this functionality and what it provides.&quot;.",
-    "poc": [
-      "https://github.com/p0dalirius/CVE-2020-14144-GiTea-git-hooks-rce"
-    ]
+    "description": " ** DISP.UTED ** The git hook feature in Gitea 1.1.0 through 1.12.5 might allow for authenticated remote code execution in customer environments where the documentation was not understood (e.g., one viewpoint is that the dangerousness of this feature should be documented immediately above the ENABLE_GIT_HOOKS line in the config file). NOTE: The vendor has indicated this is not a vulnerability and states &quot;This is a functionality of the software that is limited to a very limited subset of accounts. If you give someone the privilege to execute arbitrary code on your server, they can execute arbitrary code on your server. We provide very clear warnings to users around this functionality and what it provides.&quot;- [https://github.com/p0dalirius/CVE-2020-14144-GiTea-git-hooks-rce](https://github.com/p0dalirius/CVE-2020-14144-GiTea-git-hooks-rce) :  ![starts](https://img.shields.io/github/stars/p0dalirius/CVE-2020-14144-GiTea-git-hooks-rce.svg) ![forks](https://img.shields.io/github/forks/p0dalirius/CVE-2020-14144-GiTea-git-hooks-rce.svg)",
+    "poc": []
   },
   {
     "cve_code": "CVE-2020-14066",
@@ -29744,10 +29894,8 @@
   },
   {
     "cve_code": "CVE-2020-11710",
-    "description": " ** DISP.UTED ** An issue was discovered in docker-kong (for Kong) through 2.0.3. The admin API port may be accessible on interfaces other than 127.0.0.1. NOTE: The vendor argue that this CVE is not a vulnerability because it has an inaccurate bug scope and patch links. &#8220;1) Inaccurate Bug Scope - The issue scope was on Kong's docker-compose template, and not Kong's docker image itself. In reality, this issue is not associated with any version of the Kong gateway. As such, the description stating &#8216;An issue was discovered in docker-kong (for Kong) through 2.0.3.&#8217; is incorrect. This issue only occurs if a user decided to spin up Kong via docker-compose without following the security documentation. The docker-compose template is meant for users to quickly get started with Kong, and is meant for development purposes only. 2) Incorrect Patch Links - The CVE currently points to a documentation improvement as a &#8220;Patch&#8221; link: https://github.com/Kong/docs.konghq.com/commit/d693827c32144943a2f45abc017c1321b33ff611.This link actually points to an improvement Kong Inc made for fool-proofing. However, instructions for how to protect the admin API were already well-documented here: https://docs.konghq.com/2.0.x/secure-admin-api/#network-layer-access-restrictions , which was first published back in 2017 (as shown in this commit: https://github.com/Kong/docs.konghq.com/commit/e99cf875d875dd84fdb751079ac37882c9972949) Lastly, the hyperlink to https://github.com/Kong/kong (an unrelated Github Repo to this issue) on the Hyperlink list does not include any meaningful information on this topic.&#8221;.",
-    "poc": [
-      "https://github.com/RandomRobbieBF/kong-pwn"
-    ]
+    "description": " ** DISP.UTED ** An issue was discovered in docker-kong (for Kong) through 2.0.3. The admin API port may be accessible on interfaces other than 127.0.0.1. NOTE: The vendor argue that this CVE is not a vulnerability because it has an inaccurate bug scope and patch links. &#8220;1) Inaccurate Bug Scope - The issue scope was on Kong's docker-compose template, and not Kong's docker image itself. In reality, this issue is not associated with any version of the Kong gateway. As such, the description stating &#8216;An issue was discovered in docker-kong (for Kong) through 2.0.3.&#8217; is incorrect. This issue only occurs if a user decided to spin up Kong via docker-compose without following the security documentation. The docker-compose template is meant for users to quickly get started with Kong, and is meant for development purposes only. 2) Incorrect Patch Links - The CVE currently points to a documentation improvement as a &#8220;Patch&#8221; link: https://github.com/Kong/docs.konghq.com/commit/d693827c32144943a2f45abc017c1321b33ff611.This link actually points to an improvement Kong Inc made for fool-proofing. However, instructions for how to protect the admin API were already well-documented here: https://docs.konghq.com/2.0.x/secure-admin-api/#network-layer-access-restrictions , which was first published back in 2017 (as shown in this commit: https://github.com/Kong/docs.konghq.com/commit/e99cf875d875dd84fdb751079ac37882c9972949) Lastly, the hyperlink to https://github.com/Kong/kong (an unrelated Github Repo to this issue) on the Hyperlink list does not include any meaningful information on this topic.&#8221;- [https://github.com/RandomRobbieBF/kong-pwn](https://github.com/RandomRobbieBF/kong-pwn) :  ![starts](https://img.shields.io/github/stars/RandomRobbieBF/kong-pwn.svg) ![forks](https://img.shields.io/github/forks/RandomRobbieBF/kong-pwn.svg)",
+    "poc": []
   },
   {
     "cve_code": "CVE-2020-11652",
@@ -45551,10 +45699,8 @@
   },
   {
     "cve_code": "CVE-2016-8858",
-    "description": " ** DISP.UTED ** The kex_input_kexinit function in kex.c in OpenSSH 6.x and 7.x through 7.3 allows remote attackers to cause a denial of service (memory consumption) by sending many duplicate KEXINIT requests.  NOTE: a third party reports that &quot;OpenSSH upstream does not consider this as a security issue.&quot;.",
-    "poc": [
-      "https://github.com/dag-erling/kexkill"
-    ]
+    "description": " ** DISP.UTED ** The kex_input_kexinit function in kex.c in OpenSSH 6.x and 7.x through 7.3 allows remote attackers to cause a denial of service (memory consumption) by sending many duplicate KEXINIT requests.  NOTE: a third party reports that &quot;OpenSSH upstream does not consider this as a security issue.&quot;- [https://github.com/dag-erling/kexkill](https://github.com/dag-erling/kexkill) :  ![starts](https://img.shields.io/github/stars/dag-erling/kexkill.svg) ![forks](https://img.shields.io/github/forks/dag-erling/kexkill.svg)",
+    "poc": []
   },
   {
     "cve_code": "CVE-2016-8823",
@@ -50412,10 +50558,10 @@
       "https://github.com/G01d3nW01f/CVE-2007-2447",
       "https://github.com/Juantos/cve-2007-2447",
       "https://github.com/0xTabun/CVE-2007-2447",
-      "https://github.com/0xConstant/CVE-2007-2447",
       "https://github.com/testaross4/CVE-2007-2447",
-      "https://github.com/xlcc4096/exploit-CVE-2007-2447",
       "https://github.com/cherrera0001/CVE-2007-2447",
+      "https://github.com/0xConstant/CVE-2007-2447",
+      "https://github.com/xlcc4096/exploit-CVE-2007-2447",
       "https://github.com/JoseBarrios/CVE-2007-2447",
       "https://github.com/b1fair/smb_usermap",
       "https://github.com/MikeRega7/CVE-2007-2447-RCE",
@@ -50637,8 +50783,8 @@
     "poc": [
       "https://github.com/ivanitlearning/CVE-2004-1561",
       "https://github.com/thel1nus/CVE-2004-1561-Notes",
-      "https://github.com/darrynb89/CVE-2004-1561",
-      "https://github.com/ratiros01/CVE-2004-1561"
+      "https://github.com/ratiros01/CVE-2004-1561",
+      "https://github.com/darrynb89/CVE-2004-1561"
     ]
   },
   {
