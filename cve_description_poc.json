@@ -2143,8 +2143,10 @@
   },
   {
     "cve_code": "CVE-2024-23743",
-    "description": " ** DISP.UTED ** Notion through 3.1.0 on macOS might allow code execution because of RunAsNode and enableNodeClilnspectArguments. NOTE: the vendor states &quot;the attacker must launch the Notion Desktop application with nonstandard flags that turn the Electron-based application into a Node.js execution environment.&quot;- [https://github.com/giovannipajeu1/CVE-2024-23743](https://github.com/giovannipajeu1/CVE-2024-23743) :  ![starts](https://img.shields.io/github/stars/giovannipajeu1/CVE-2024-23743.svg) ![forks](https://img.shields.io/github/forks/giovannipajeu1/CVE-2024-23743.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** Notion through 3.1.0 on macOS might allow code execution because of RunAsNode and enableNodeClilnspectArguments. NOTE: the vendor states &quot;the attacker must launch the Notion Desktop application with nonstandard flags that turn the Electron-based application into a Node.js execution environment.&quot;.",
+    "poc": [
+      "https://github.com/giovannipajeu1/CVE-2024-23743"
+    ]
   },
   {
     "cve_code": "CVE-2024-23742",
@@ -12640,8 +12642,11 @@
   },
   {
     "cve_code": "CVE-2022-46463",
-    "description": " ** DISP.UTED ** An access control issue in Harbor v1.X.X to v2.5.3 allows attackers to access public and private image repositories without authentication. NOTE: the vendor's position is that this &quot;is clearly described in the documentation as a feature.&quot;- [https://github.com/nu0l/CVE-2022-46463](https://github.com/nu0l/CVE-2022-46463) :  ![starts](https://img.shields.io/github/stars/nu0l/CVE-2022-46463.svg) ![forks](https://img.shields.io/github/forks/nu0l/CVE-2022-46463.svg)- [https://github.com/404tk/CVE-2022-46463](https://github.com/404tk/CVE-2022-46463) :  ![starts](https://img.shields.io/github/stars/404tk/CVE-2022-46463.svg) ![forks](https://img.shields.io/github/forks/404tk/CVE-2022-46463.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** An access control issue in Harbor v1.X.X to v2.5.3 allows attackers to access public and private image repositories without authentication. NOTE: the vendor's position is that this &quot;is clearly described in the documentation as a feature.&quot;.",
+    "poc": [
+      "https://github.com/nu0l/CVE-2022-46463",
+      "https://github.com/404tk/CVE-2022-46463"
+    ]
   },
   {
     "cve_code": "CVE-2022-46395",
@@ -13885,8 +13890,10 @@
   },
   {
     "cve_code": "CVE-2022-40297",
-    "description": " ** DISP.UTED ** UBports Ubuntu Touch 16.04 allows the screen-unlock passcode to be used for a privileged shell via Sudo. This passcode is only four digits, far below typical length/complexity for a user account's password. NOTE: a third party states &quot;The described attack cannot be executed as demonstrated.&quot;- [https://github.com/filipkarc/PoC-ubuntutouch-pin-privesc](https://github.com/filipkarc/PoC-ubuntutouch-pin-privesc) :  ![starts](https://img.shields.io/github/stars/filipkarc/PoC-ubuntutouch-pin-privesc.svg) ![forks](https://img.shields.io/github/forks/filipkarc/PoC-ubuntutouch-pin-privesc.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** UBports Ubuntu Touch 16.04 allows the screen-unlock passcode to be used for a privileged shell via Sudo. This passcode is only four digits, far below typical length/complexity for a user account's password. NOTE: a third party states &quot;The described attack cannot be executed as demonstrated.&quot;.",
+    "poc": [
+      "https://github.com/filipkarc/PoC-ubuntutouch-pin-privesc"
+    ]
   },
   {
     "cve_code": "CVE-2022-40146",
@@ -22875,10 +22882,8 @@
   },
   {
     "cve_code": "CVE-2021-34481",
-    "description": " &lt;p&gt;A remote code execution vulnerability exists when the Windows Print Spooler service improperly performs privileged file operations. An attacker who successfully exploited this vulnerability could run arbitrary code with SYSTEM privileges. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.&lt;/p&gt;. &lt;p&gt;&lt;strong&gt;UPDATE&lt;/strong&gt; August 10, 2021: Microsoft has completed the investigation and has released security updates to address this vulnerability. Please see the Security Updates table for the applicable update for your system. We recommend that you install these updates immediately. This security update changes the Point and Print default behavior; please see &lt;a href=&quot;https://support.microsoft.com/help/5005652&quot;&gt;KB5005652&lt;/a&gt;.&lt;/p&gt;.",
-    "poc": [
-      "https://github.com/vpn28/CVE-2021-34481"
-    ]
+    "description": " &lt;p&gt;A remote code execution vulnerability exists when the Windows Print Spooler service improperly performs privileged file operations. An attacker who successfully exploited this vulnerability could run arbitrary code with SYSTEM privileges. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.&lt;/p&gt;. &lt;p&gt;&lt;strong&gt;UPDATE&lt;/strong&gt; August 10, 2021: Microsoft has completed the investigation and has released security updates to address this vulnerability. Please see the Security Updates table for the applicable update for your system. We recommend that you install these updates immediately. This security update changes the Point and Print default behavior; please see &lt;a href=&quot;https://support.microsoft.com/help/5005652&quot;&gt;KB5005652&lt;/a&gt;.&lt;/p&gt;- [https://github.com/vpn28/CVE-2021-34481](https://github.com/vpn28/CVE-2021-34481) :  ![starts](https://img.shields.io/github/stars/vpn28/CVE-2021-34481.svg) ![forks](https://img.shields.io/github/forks/vpn28/CVE-2021-34481.svg)",
+    "poc": []
   },
   {
     "cve_code": "CVE-2021-34473",
@@ -23678,10 +23683,8 @@
   },
   {
     "cve_code": "CVE-2021-29200",
-    "description": " Apache OFBiz has unsafe deserialization prior to 17.12.07 version. An unauthenticated user can perform an RCE attack.",
-    "poc": [
-      "https://github.com/freeide/CVE-2021-29200"
-    ]
+    "description": " Apache OFBiz has unsafe deserialization prior to 17.12.07 version. An unauthenticated user can perform an RCE attack- [https://github.com/freeide/CVE-2021-29200](https://github.com/freeide/CVE-2021-29200) :  ![starts](https://img.shields.io/github/stars/freeide/CVE-2021-29200.svg) ![forks](https://img.shields.io/github/forks/freeide/CVE-2021-29200.svg)",
+    "poc": []
   },
   {
     "cve_code": "CVE-2021-29156",
@@ -28877,8 +28880,12 @@
   },
   {
     "cve_code": "CVE-2020-15778",
-    "description": " ** DISP.UTED ** scp in OpenSSH through 8.3p1 allows command injection in the scp.c toremote function, as demonstrated by backtick characters in the destination argument. NOTE: the vendor reportedly has stated that they intentionally omit validation of &quot;anomalous argument transfers&quot; because that could &quot;stand a great chance of breaking existing workflows.&quot;- [https://github.com/cpandya2909/CVE-2020-15778](https://github.com/cpandya2909/CVE-2020-15778) :  ![starts](https://img.shields.io/github/stars/cpandya2909/CVE-2020-15778.svg) ![forks](https://img.shields.io/github/forks/cpandya2909/CVE-2020-15778.svg)- [https://github.com/Neko-chanQwQ/CVE-2020-15778-Exploit](https://github.com/Neko-chanQwQ/CVE-2020-15778-Exploit) :  ![starts](https://img.shields.io/github/stars/Neko-chanQwQ/CVE-2020-15778-Exploit.svg) ![forks](https://img.shields.io/github/forks/Neko-chanQwQ/CVE-2020-15778-Exploit.svg)- [https://github.com/Evan-Zhangyf/CVE-2020-15778](https://github.com/Evan-Zhangyf/CVE-2020-15778) :  ![starts](https://img.shields.io/github/stars/Evan-Zhangyf/CVE-2020-15778.svg) ![forks](https://img.shields.io/github/forks/Evan-Zhangyf/CVE-2020-15778.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** scp in OpenSSH through 8.3p1 allows command injection in the scp.c toremote function, as demonstrated by backtick characters in the destination argument. NOTE: the vendor reportedly has stated that they intentionally omit validation of &quot;anomalous argument transfers&quot; because that could &quot;stand a great chance of breaking existing workflows.&quot;.",
+    "poc": [
+      "https://github.com/cpandya2909/CVE-2020-15778",
+      "https://github.com/Neko-chanQwQ/CVE-2020-15778-Exploit",
+      "https://github.com/Evan-Zhangyf/CVE-2020-15778"
+    ]
   },
   {
     "cve_code": "CVE-2020-15589",
@@ -29413,6 +29420,13 @@
     "description": " U.S. Air Force Sensor Data Management System extract75 has a buffer overflow that leads to code execution. An overflow in a global variable (sBuffer) leads to a Write-What-Where outcome. Writing beyond sBuffer will clobber most global variables until reaching a pointer such as DES_info or image_info. By controlling that pointer, one achieves an arbitrary write when its fields are assigned. The data written is from a potentially untrusted NITF file in the form of an integer. The attacker can gain control of the instruction pointer.",
     "poc": [
       "https://github.com/dbrumley/extract75-cve-2020-13995"
+    ]
+  },
+  {
+    "cve_code": "CVE-2020-13973",
+    "description": " OWASP json-sanitizer before 1.2.1 allows XSS. An attacker who controls a substring of the input JSON, and controls another substring adjacent to a SCRIPT element in which the output is embedded as JavaScript, may be able to confuse the HTML parser as to where the SCRIPT element ends, and cause non-script content to be interpreted as JavaScript.",
+    "poc": [
+      "https://github.com/epicosy/json-sanitizer"
     ]
   },
   {
@@ -29962,8 +29976,10 @@
   },
   {
     "cve_code": "CVE-2020-11710",
-    "description": " ** DISP.UTED ** An issue was discovered in docker-kong (for Kong) through 2.0.3. The admin API port may be accessible on interfaces other than 127.0.0.1. NOTE: The vendor argue that this CVE is not a vulnerability because it has an inaccurate bug scope and patch links. &#8220;1) Inaccurate Bug Scope - The issue scope was on Kong's docker-compose template, and not Kong's docker image itself. In reality, this issue is not associated with any version of the Kong gateway. As such, the description stating &#8216;An issue was discovered in docker-kong (for Kong) through 2.0.3.&#8217; is incorrect. This issue only occurs if a user decided to spin up Kong via docker-compose without following the security documentation. The docker-compose template is meant for users to quickly get started with Kong, and is meant for development purposes only. 2) Incorrect Patch Links - The CVE currently points to a documentation improvement as a &#8220;Patch&#8221; link: https://github.com/Kong/docs.konghq.com/commit/d693827c32144943a2f45abc017c1321b33ff611.This link actually points to an improvement Kong Inc made for fool-proofing. However, instructions for how to protect the admin API were already well-documented here: https://docs.konghq.com/2.0.x/secure-admin-api/#network-layer-access-restrictions , which was first published back in 2017 (as shown in this commit: https://github.com/Kong/docs.konghq.com/commit/e99cf875d875dd84fdb751079ac37882c9972949) Lastly, the hyperlink to https://github.com/Kong/kong (an unrelated Github Repo to this issue) on the Hyperlink list does not include any meaningful information on this topic.&#8221;- [https://github.com/RandomRobbieBF/kong-pwn](https://github.com/RandomRobbieBF/kong-pwn) :  ![starts](https://img.shields.io/github/stars/RandomRobbieBF/kong-pwn.svg) ![forks](https://img.shields.io/github/forks/RandomRobbieBF/kong-pwn.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** An issue was discovered in docker-kong (for Kong) through 2.0.3. The admin API port may be accessible on interfaces other than 127.0.0.1. NOTE: The vendor argue that this CVE is not a vulnerability because it has an inaccurate bug scope and patch links. &#8220;1) Inaccurate Bug Scope - The issue scope was on Kong's docker-compose template, and not Kong's docker image itself. In reality, this issue is not associated with any version of the Kong gateway. As such, the description stating &#8216;An issue was discovered in docker-kong (for Kong) through 2.0.3.&#8217; is incorrect. This issue only occurs if a user decided to spin up Kong via docker-compose without following the security documentation. The docker-compose template is meant for users to quickly get started with Kong, and is meant for development purposes only. 2) Incorrect Patch Links - The CVE currently points to a documentation improvement as a &#8220;Patch&#8221; link: https://github.com/Kong/docs.konghq.com/commit/d693827c32144943a2f45abc017c1321b33ff611.This link actually points to an improvement Kong Inc made for fool-proofing. However, instructions for how to protect the admin API were already well-documented here: https://docs.konghq.com/2.0.x/secure-admin-api/#network-layer-access-restrictions , which was first published back in 2017 (as shown in this commit: https://github.com/Kong/docs.konghq.com/commit/e99cf875d875dd84fdb751079ac37882c9972949) Lastly, the hyperlink to https://github.com/Kong/kong (an unrelated Github Repo to this issue) on the Hyperlink list does not include any meaningful information on this topic.&#8221;.",
+    "poc": [
+      "https://github.com/RandomRobbieBF/kong-pwn"
+    ]
   },
   {
     "cve_code": "CVE-2020-11652",
@@ -31920,8 +31936,8 @@
       "https://github.com/Gh0st0ne/http-vuln-cve2020-3452.nse",
       "https://github.com/iveresk/cve-2020-3452",
       "https://github.com/sujaygr8/CVE-2020-3452",
-      "https://github.com/Cappricio-Securities/CVE-2020-3452",
       "https://github.com/imhunterand/CVE-2020-3452",
+      "https://github.com/Cappricio-Securities/CVE-2020-3452",
       "https://github.com/Veids/CVE-2020-3452_auto",
       "https://github.com/toy0756428/CVE_2020_3452_Detect"
     ]
@@ -32303,13 +32319,13 @@
       "https://github.com/striveben/CVE-2020-1472",
       "https://github.com/CanciuCostin/CVE-2020-1472",
       "https://github.com/0xcccc666/cve-2020-1472_Tool-collection",
-      "https://github.com/0xkami/CVE-2020-1472",
       "https://github.com/murataydemir/CVE-2020-1472",
+      "https://github.com/0xkami/CVE-2020-1472",
       "https://github.com/Udyz/Zerologon",
       "https://github.com/npocmak/CVE-2020-1472",
       "https://github.com/NAXG/CVE-2020-1472",
-      "https://github.com/shanfenglan/cve-2020-1472",
       "https://github.com/Akash7350/CVE-2020-1472",
+      "https://github.com/shanfenglan/cve-2020-1472",
       "https://github.com/McKinnonIT/zabbix-template-CVE-2020-1472",
       "https://github.com/rhymeswithmogul/Set-ZerologonMitigation",
       "https://github.com/RicYaben/CVE-2020-1472-LAB",
@@ -32332,11 +32348,11 @@
       "https://github.com/grupooruss/CVE-2020-1472",
       "https://github.com/hectorgie/CVE-2020-1472",
       "https://github.com/itssmikefm/CVE-2020-1472",
-      "https://github.com/dr4g0n23/CVE-2020-1472",
-      "https://github.com/puckiestyle/CVE-2020-1472",
-      "https://github.com/Ken-Abruzzi/cve-2020-1472",
       "https://github.com/mos165/CVE-20200-1472",
       "https://github.com/SaharAttackit/CVE-2020-1472",
+      "https://github.com/puckiestyle/CVE-2020-1472",
+      "https://github.com/Ken-Abruzzi/cve-2020-1472",
+      "https://github.com/dr4g0n23/CVE-2020-1472",
       "https://github.com/t31m0/CVE-2020-1472",
       "https://github.com/TheJoyOfHacking/dirkjanm-CVE-2020-1472",
       "https://github.com/Fa1c0n35/CVE-2020-1472-02-",
@@ -32640,8 +32656,8 @@
       "https://github.com/krizzz07/CVE-2020-0796",
       "https://github.com/halsten/CVE-2020-0796",
       "https://github.com/hungdnvp/POC-CVE-2020-0796",
-      "https://github.com/lisinan988/CVE-2020-0796-exp",
       "https://github.com/tripledd/cve-2020-0796-vuln",
+      "https://github.com/lisinan988/CVE-2020-0796-exp",
       "https://github.com/Murasame-nc/CVE-2020-0796-LPE-POC",
       "https://github.com/AdamSonov/smbGhostCVE-2020-0796",
       "https://github.com/5l1v3r1/smbghost-5",
@@ -34535,6 +34551,13 @@
     ]
   },
   {
+    "cve_code": "CVE-2019-15477",
+    "description": " Jooby before 1.6.4 has XSS via the default error handler.",
+    "poc": [
+      "https://github.com/epicosy/jooby"
+    ]
+  },
+  {
     "cve_code": "CVE-2019-15233",
     "description": " The Live:Text Box macro in the Old Street Live Input Macros app before 2.11 for Confluence has XSS, leading to theft of the Administrator Session Cookie.",
     "poc": [
@@ -34621,9 +34644,9 @@
       "https://github.com/0x4r2/Webmin-CVE-2019-15107",
       "https://github.com/squid22/Webmin_CVE-2019-15107",
       "https://github.com/hacknotes/CVE-2019-15107-Exploit",
-      "https://github.com/Tuz-Wwsd/CVE-2019-15107_detection",
       "https://github.com/cdedmondson/Modified-CVE-2019-15107",
       "https://github.com/aamfrk/Webmin-CVE-2019-15107",
+      "https://github.com/Tuz-Wwsd/CVE-2019-15107_detection",
       "https://github.com/hadrian3689/webmin_1.920",
       "https://github.com/psw01/CVE-2019-15107_webminRCE",
       "https://github.com/gozn/detect-CVE-2019-15107-by-pyshark"
@@ -36383,8 +36406,8 @@
       "https://github.com/davcwikla/CVE-2019-9053-exploit",
       "https://github.com/kahluri/CVE-2019-9053",
       "https://github.com/AppyAppy/super-octo-carnival",
-      "https://github.com/fernandobortotti/CVE-2019-9053",
       "https://github.com/STERN3L/CVE-2019-9053",
+      "https://github.com/fernandobortotti/CVE-2019-9053",
       "https://github.com/BjarneVerschorre/CVE-2019-9053",
       "https://github.com/byrek/CVE-2019-9053",
       "https://github.com/im-suman-roy/CVE-2019-9053",
@@ -37019,11 +37042,11 @@
       "https://github.com/RyanNgWH/CVE-2019-5736-POC",
       "https://github.com/shen54/IT19172088",
       "https://github.com/zyriuse75/CVE-2019-5736-PoC",
-      "https://github.com/stillan00b/CVE-2019-5736",
-      "https://github.com/c0d3cr4f73r/CVE-2019-5736",
-      "https://github.com/Laihoang2k3/CVE_2019_5736",
       "https://github.com/geropl/CVE-2019-5736",
       "https://github.com/si1ent-le/CVE-2019-5736",
+      "https://github.com/Laihoang2k3/CVE_2019_5736",
+      "https://github.com/stillan00b/CVE-2019-5736",
+      "https://github.com/c0d3cr4f73r/CVE-2019-5736",
       "https://github.com/takumak/cve-2019-5736-reproducer",
       "https://github.com/chosam2/cve-2019-5736-poc",
       "https://github.com/Asbatel/CVE-2019-5736_POC",
@@ -37329,14 +37352,14 @@
       "https://github.com/jas502n/CVE-2019-3396",
       "https://github.com/pyn3rd/CVE-2019-3396",
       "https://github.com/x-f1v3/CVE-2019-3396",
-      "https://github.com/0xNinjaCyclone/cve-2019-3396",
       "https://github.com/PetrusViet/cve-2019-3396",
+      "https://github.com/0xNinjaCyclone/cve-2019-3396",
       "https://github.com/Avento/CVE-2019-3396-Memshell-for-Behinder",
       "https://github.com/dothanthitiendiettiende/CVE-2019-3396",
+      "https://github.com/xiaoshuier/CVE-2019-3396",
+      "https://github.com/yuehanked/cve-2019-3396",
       "https://github.com/s1xg0d/CVE-2019-3396",
       "https://github.com/quanpt103/CVE-2019-3396",
-      "https://github.com/yuehanked/cve-2019-3396",
-      "https://github.com/xiaoshuier/CVE-2019-3396",
       "https://github.com/am6539/CVE-2019-3396",
       "https://github.com/W2Ning/CVE-2019-3396",
       "https://github.com/46o60/CVE-2019-3396_Confluence",
@@ -37582,8 +37605,8 @@
     "cve_code": "CVE-2019-1663",
     "description": " A vulnerability in the web-based management interface of the Cisco RV110W Wireless-N VPN Firewall, Cisco RV130W Wireless-N Multifunction VPN Router, and Cisco RV215W Wireless-N VPN Router could allow an unauthenticated, remote attacker to execute arbitrary code on an affected device. The vulnerability is due to improper validation of user-supplied data in the web-based management interface. An attacker could exploit this vulnerability by sending malicious HTTP requests to a targeted device. A successful exploit could allow the attacker to execute arbitrary code on the underlying operating system of the affected device as a high-privilege user. RV110W Wireless-N VPN Firewall versions prior to 1.2.2.1 are affected. RV130W Wireless-N Multifunction VPN Router versions prior to 1.0.3.45 are affected. RV215W Wireless-N VPN Router versions prior to 1.3.1.1 are affected.",
     "poc": [
-      "https://github.com/StealYourCode/CVE-2019-1663",
       "https://github.com/Oraxiage/CVE-2019-1663",
+      "https://github.com/StealYourCode/CVE-2019-1663",
       "https://github.com/e180175/CVE-2019-1663-vuln"
     ]
   },
@@ -37974,8 +37997,8 @@
       "https://github.com/nccgroup/BKScan",
       "https://github.com/NAXG/cve_2019_0708_bluekeep_rce",
       "https://github.com/Leoid/CVE-2019-0708",
-      "https://github.com/p0p0p0/CVE-2019-0708-exploit",
       "https://github.com/RICSecLab/CVE-2019-0708",
+      "https://github.com/p0p0p0/CVE-2019-0708-exploit",
       "https://github.com/dorkerdevil/Remote-Desktop-Services-Remote-Code-Execution-Vulnerability-CVE-2019-0708-",
       "https://github.com/TinToSer/bluekeep-exploit",
       "https://github.com/worawit/CVE-2019-0708",
@@ -39435,15 +39458,15 @@
       "https://github.com/m-kis/ssh-enum-cve2018-15473",
       "https://github.com/CaioCGH/EP4-redes",
       "https://github.com/1stPeak/CVE-2018-15473",
+      "https://github.com/mrblue12-byte/CVE-2018-15473",
       "https://github.com/Wh1t3Fox/cve-2018-15473",
       "https://github.com/0xrobiul/CVE-2018-15473",
-      "https://github.com/mrblue12-byte/CVE-2018-15473",
       "https://github.com/4xolotl/CVE-2018-15473",
       "https://github.com/philippedixon/CVE-2018-15473",
-      "https://github.com/GaboLC98/userenum-CVE-2018-15473",
       "https://github.com/66quentin/shodan-CVE-2018-15473",
-      "https://github.com/pyperanger/CVE-2018-15473_exploit",
+      "https://github.com/GaboLC98/userenum-CVE-2018-15473",
       "https://github.com/coollce/CVE-2018-15473_burte",
+      "https://github.com/pyperanger/CVE-2018-15473_exploit",
       "https://github.com/NestyF/SSH_Enum_CVE-2018-15473",
       "https://github.com/Dirty-Racoon/CVE-2018-15473-py3",
       "https://github.com/Anonimo501/ssh_enum_users_CVE-2018-15473",
@@ -40115,8 +40138,8 @@
       "https://github.com/ensimag-security/CVE-2018-10933",
       "https://github.com/SilasSpringer/CVE-2018-10933",
       "https://github.com/youkergav/CVE-2018-10933",
-      "https://github.com/lalishasanduwara/CVE-2018-10933",
       "https://github.com/cve-2018/cve-2018-10933",
+      "https://github.com/lalishasanduwara/CVE-2018-10933",
       "https://github.com/kristyna-mlcakova/CVE-2018-10933",
       "https://github.com/Kurlee/LibSSH-exploit",
       "https://github.com/ninp0/cve-2018-10933_poc",
@@ -41116,8 +41139,8 @@
       "https://github.com/neargle/Go-Get-RCE-CVE-2018-6574-POC",
       "https://github.com/frozenkp/CVE-2018-6574",
       "https://github.com/wb4r/go-get-rce",
-      "https://github.com/ItsFadinG/CVE-2018-6574",
       "https://github.com/the-valluvarsploit/CVE-2018-6574",
+      "https://github.com/ItsFadinG/CVE-2018-6574",
       "https://github.com/mekhalleh/cve-2018-6574",
       "https://github.com/j4k0m/CVE-2018-6574",
       "https://github.com/killtr0/POC-CVE-2018-6574",
@@ -41128,22 +41151,20 @@
       "https://github.com/zur250/Zur-Go-GET-RCE-Solution",
       "https://github.com/sirius-bl4ck/cve2018-6574",
       "https://github.com/steefn/cve2018-6574",
+      "https://github.com/d4rkshell/go-get-rce",
       "https://github.com/darthvader-htb/CVE-2018-6574",
       "https://github.com/twseptian/cve-2018-6574",
-      "https://github.com/d4rkshell/go-get-rce",
       "https://github.com/french560/ptl6574",
       "https://github.com/antunesmpedro/CVE-2018-6574",
       "https://github.com/ThaFWord/pentesterlab",
       "https://github.com/asavior2/CVE-2018-6574",
       "https://github.com/Dannners/CVE-2018-6574-go-get-RCE",
       "https://github.com/Ashved9/Orange",
-      "https://github.com/shadofren/CVE-2018-6574",
       "https://github.com/markisback/CVE-2018-6574",
+      "https://github.com/shadofren/CVE-2018-6574",
       "https://github.com/jahwni/CVE-2018-6574",
       "https://github.com/kawkab101/cve-2018-6574",
       "https://github.com/OLAOLAOLA789/CVE-2018-6574",
-      "https://github.com/VikasVarshney/CVE_2018_6574",
-      "https://github.com/jftierno/-CVE-2018-6574",
       "https://github.com/redirected/cve-2018-6574",
       "https://github.com/InfoSecJack/CVE-2018-6574",
       "https://github.com/sdosis/cve-2018-6574",
@@ -41151,26 +41172,28 @@
       "https://github.com/jeyaseelans86/CVE-2018-6574",
       "https://github.com/mux0x/CVE-2018-6574",
       "https://github.com/Zeeshan12340/CVE-2018-6574",
+      "https://github.com/VikasVarshney/CVE_2018_6574",
+      "https://github.com/jftierno/-CVE-2018-6574",
       "https://github.com/ahmetmanga/cve-2018-6574",
       "https://github.com/chaosura/CVE-2018-6574",
       "https://github.com/pswalia2u/CVE-2018-6574",
       "https://github.com/vishack/CVE-2018-6574",
       "https://github.com/noname-nohost/CVE-2018-6574",
       "https://github.com/Devang-Solanki/CVE-2018-6574",
-      "https://github.com/faiqu3/cve-2018-6574",
       "https://github.com/acole76/cve-2018-6574",
       "https://github.com/dollyptm/cve-2018-6574",
       "https://github.com/ErnestZiemkowski/cve-2018-6574",
       "https://github.com/yavolo/CVE-2018-6574",
+      "https://github.com/coblax/CVE-2018-6574",
+      "https://github.com/nthuong95/CVE-2018-6574",
+      "https://github.com/lsnakazone/cve-2018-6574",
+      "https://github.com/jftierno/CVE-2018-6574",
       "https://github.com/TakuCoder/CVE-2018-6574",
       "https://github.com/Eugene24/CVE-2018-6574",
       "https://github.com/purgedemo/CVE-2018-6574",
       "https://github.com/tjcim/cve-2018-6574",
       "https://github.com/Yealid/CVE-2018-6574",
-      "https://github.com/coblax/CVE-2018-6574",
-      "https://github.com/nthuong95/CVE-2018-6574",
-      "https://github.com/lsnakazone/cve-2018-6574",
-      "https://github.com/jftierno/CVE-2018-6574",
+      "https://github.com/faiqu3/cve-2018-6574",
       "https://github.com/noobTest1122/CVE-2018-6574",
       "https://github.com/R3dAlch3mist/cve-2018-6574",
       "https://github.com/NsByte/CVE-2018-6574",
@@ -41182,18 +41205,18 @@
       "https://github.com/it3x55/CVE-2018-6574",
       "https://github.com/AnKItdo/CVE_2018-6574",
       "https://github.com/NikolaT3sla/cve-2018-6574",
-      "https://github.com/jftierno/CVE-2018-6574-2",
-      "https://github.com/jongmartinez/CVE-2018-6574-POC",
       "https://github.com/amil-ptl-test/ptl_cve_2018_6574",
+      "https://github.com/jongmartinez/CVE-2018-6574-POC",
+      "https://github.com/jftierno/CVE-2018-6574-2",
       "https://github.com/20matan/CVE-2018-6574-POC",
       "https://github.com/kev-ho/cve-2018-6574-payload",
       "https://github.com/duckzsc2/CVE-2018-6574-POC",
       "https://github.com/Cypheer/exploit_CVE-2018-6574",
       "https://github.com/zerbaliy3v/cve-2018-6574-exploit",
       "https://github.com/moTorky/CVE-2018-6574-POC",
-      "https://github.com/MohamedTarekq/test-CVE-2018-6574-",
       "https://github.com/PLP-Orange/cve-2018-6574-exercise",
       "https://github.com/l3ouu4n9/CVE-2018-6574-POC",
+      "https://github.com/MohamedTarekq/test-CVE-2018-6574-",
       "https://github.com/imojne/CVE-2018-6574-POC",
       "https://github.com/repos13579/labCVE-2018-6574",
       "https://github.com/theJuan1112/pentesterlab-cve-2018-6574",
@@ -42067,8 +42090,8 @@
       "https://github.com/cscadoge/weblogic-cve-2018-2628",
       "https://github.com/shaoshore/CVE-2018-2628",
       "https://github.com/wrysunny/cve-2018-2628",
-      "https://github.com/seethen/cve-2018-2628",
-      "https://github.com/stevenlinfeng/CVE-2018-2628"
+      "https://github.com/stevenlinfeng/CVE-2018-2628",
+      "https://github.com/seethen/cve-2018-2628"
     ]
   },
   {
@@ -42193,8 +42216,8 @@
     "poc": [
       "https://github.com/CaledoniaProject/CVE-2018-1270",
       "https://github.com/genxor/CVE-2018-1270_EXP",
-      "https://github.com/Venscor/CVE-2018-1270",
       "https://github.com/tafamace/CVE-2018-1270",
+      "https://github.com/Venscor/CVE-2018-1270",
       "https://github.com/mprunet/owasp-formation-cve-2018-1270"
     ]
   },
@@ -42758,8 +42781,7 @@
     "poc": [
       "https://github.com/Al1ex/CVE-2017-17485",
       "https://github.com/x7iaob/cve-2017-17485",
-      "https://github.com/tafamace/CVE-2017-17485",
-      "https://github.com/rootsecurity/Jackson-CVE-2017-17485"
+      "https://github.com/tafamace/CVE-2017-17485"
     ]
   },
   {
@@ -43726,8 +43748,8 @@
     "poc": [
       "https://github.com/lexfo/cve-2017-11176",
       "https://github.com/c3r34lk1ll3r/CVE-2017-11176",
-      "https://github.com/HckEX/CVE-2017-11176",
       "https://github.com/Sama-Ayman-Mokhtar/CVE-2017-11176",
+      "https://github.com/HckEX/CVE-2017-11176",
       "https://github.com/leonardo1101/cve-2017-11176",
       "https://github.com/DoubleMice/cve-2017-11176"
     ]
@@ -44557,11 +44579,11 @@
       "https://github.com/c0d3cr4f73r/CVE-2017-7269",
       "https://github.com/caicai1355/CVE-2017-7269-exploit",
       "https://github.com/xiaovpn/CVE-2017-7269",
+      "https://github.com/denchief1/CVE-2017-7269",
       "https://github.com/M1a0rz/CVE-2017-7269",
       "https://github.com/ThanHuuTuan/CVE-2017-7269",
-      "https://github.com/denchief1/CVE-2017-7269",
-      "https://github.com/mirrorblack/CVE-2017-7269",
       "https://github.com/Cappricio-Securities/CVE-2017-7269",
+      "https://github.com/mirrorblack/CVE-2017-7269",
       "https://github.com/denchief1/CVE-2017-7269_Python3",
       "https://github.com/homjxi0e/cve-2017-7269",
       "https://github.com/whiteHat001/cve-2017-7269picture"
@@ -44814,8 +44836,8 @@
       "https://github.com/miglen/Awesome-Meltdown-Spectre",
       "https://github.com/pedrolucasoliva/spectre-attack-demo",
       "https://github.com/GalloLuigi/Analisi-CVE-2017-5715",
-      "https://github.com/dmo2118/retpoline-audit",
       "https://github.com/GregAskew/SpeculativeExecutionAssessment",
+      "https://github.com/dmo2118/retpoline-audit",
       "https://github.com/kevincoakley/puppet-spectre_meltdown"
     ]
   },
@@ -44897,20 +44919,20 @@
       "https://github.com/Aasron/Struts2-045-Exp",
       "https://github.com/random-robbie/CVE-2017-5638",
       "https://github.com/eeehit/CVE-2017-5638",
-      "https://github.com/mritunjay-k/CVE-2017-5638",
       "https://github.com/lizhi16/CVE-2017-5638",
-      "https://github.com/colorblindpentester/CVE-2017-5638",
       "https://github.com/Xhendos/CVE-2017-5638",
       "https://github.com/bongbongco/cve-2017-5638",
+      "https://github.com/colorblindpentester/CVE-2017-5638",
       "https://github.com/AndreasKl/CVE-2017-5638",
       "https://github.com/Badbird3/CVE-2017-5638",
+      "https://github.com/mritunjay-k/CVE-2017-5638",
+      "https://github.com/injcristianrojas/cve-2017-5638",
       "https://github.com/readloud/CVE-2017-5638",
       "https://github.com/bhagdave/CVE-2017-5638",
       "https://github.com/Tankirat/CVE-2017-5638",
       "https://github.com/jrrombaldo/CVE-2017-5638",
       "https://github.com/mcassano/cve-2017-5638",
       "https://github.com/0xConstant/CVE-2017-5638",
-      "https://github.com/injcristianrojas/cve-2017-5638",
       "https://github.com/homjxi0e/CVE-2017-5638",
       "https://github.com/mfdev-solution/Exploit-CVE-2017-5638",
       "https://github.com/cafnet/apache-struts-v2-CVE-2017-5638",
@@ -45675,6 +45697,13 @@
     ]
   },
   {
+    "cve_code": "CVE-2016-10006",
+    "description": " In OWASP AntiSamy before 1.5.5, by submitting a specially crafted input (a tag that supports style with active content), you could bypass the library protections and supply executable code. The impact is XSS.",
+    "poc": [
+      "https://github.com/epicosy/VUL4J-60"
+    ]
+  },
+  {
     "cve_code": "CVE-2016-9920",
     "description": " steps/mail/sendmail.inc in Roundcube before 1.1.7 and 1.2.x before 1.2.3, when no SMTP server is configured and the sendmail program is enabled, does not properly restrict the use of custom envelope-from addresses on the sendmail command line, which allows remote authenticated users to execute arbitrary code via a modified HTTP request that sends a crafted e-mail message.",
     "poc": [
@@ -46178,6 +46207,13 @@
     ]
   },
   {
+    "cve_code": "CVE-2016-5394",
+    "description": " In the XSS Protection API module before 1.0.12 in Apache Sling, the encoding done by the XSSAPI.encodeForJSString() method is not restrictive enough and for some input patterns allows script tags to pass through unencoded, leading to potential XSS vulnerabilities.",
+    "poc": [
+      "https://github.com/epicosy/VUL4J-23"
+    ]
+  },
+  {
     "cve_code": "CVE-2016-5345",
     "description": " Buffer overflow in the Qualcomm radio driver in Android before 2017-01-05 on Android One devices allows local users to gain privileges via a crafted application, aka Android internal bug 32639452 and Qualcomm internal bug CR1079713.",
     "poc": [
@@ -46219,20 +46255,20 @@
       "https://github.com/arbll/dirtycow",
       "https://github.com/malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195",
       "https://github.com/KosukeShimofuji/CVE-2016-5195",
-      "https://github.com/ASUKA39/CVE-2016-5195",
       "https://github.com/fei9747/CVE-2016-5195",
+      "https://github.com/ASUKA39/CVE-2016-5195",
       "https://github.com/ldenevi/CVE-2016-5195",
+      "https://github.com/sribaba/android-CVE-2016-5195",
       "https://github.com/acidburnmi/CVE-2016-5195-master",
       "https://github.com/ndobson/inspec_CVE-2016-5195",
-      "https://github.com/sribaba/android-CVE-2016-5195",
       "https://github.com/sandeeparth07/CVE-2016_5195-vulnarability",
       "https://github.com/EDLLT/CVE-2016-5195-master",
       "https://github.com/NguyenCongHaiNam/Research-CVE-2016-5195",
       "https://github.com/xpcmdshell/derpyc0w",
       "https://github.com/gurpreetsinghsaluja/dirtycow",
       "https://github.com/linhlt247/DirtyCOW_CVE-2016-5195",
-      "https://github.com/B1ackCat/cve-2016-5195-DirtyCOW",
       "https://github.com/zakariamaaraki/Dirty-COW-CVE-2016-5195-",
+      "https://github.com/B1ackCat/cve-2016-5195-DirtyCOW",
       "https://github.com/dulanjaya23/Dirty-Cow-CVE-2016-5195-",
       "https://github.com/sakilahamed/Linux-Kernel-Exploit-LAB",
       "https://github.com/passionchenjianyegmail8/scumjrs",
@@ -47249,6 +47285,13 @@
     ]
   },
   {
+    "cve_code": "CVE-2015-6748",
+    "description": " Cross-site scripting (XSS) vulnerability in jsoup before 1.8.3.",
+    "poc": [
+      "https://github.com/epicosy/VUL4J-59"
+    ]
+  },
+  {
     "cve_code": "CVE-2015-6668",
     "description": " The Job Manager plugin before 0.7.25 allows remote attackers to read arbitrary CV files via a brute force attack to the WordPress upload directory structure, related to an insecure direct object reference.",
     "poc": [
@@ -48226,8 +48269,7 @@
       "https://github.com/ele7enxxh/CVE-2014-7911",
       "https://github.com/koozxcv/CVE-2014-7911-CVE-2014-4322_get_root_privilege",
       "https://github.com/mabin004/cve-2014-7911",
-      "https://github.com/koozxcv/CVE-2014-7911",
-      "https://github.com/CytQ/CVE-2014-7911_poc"
+      "https://github.com/koozxcv/CVE-2014-7911"
     ]
   },
   {
@@ -48353,8 +48395,8 @@
       "https://github.com/0xConstant/CVE-2014-6271",
       "https://github.com/mattclegg/CVE-2014-6271",
       "https://github.com/Dilith006/CVE-2014-6271",
-      "https://github.com/mritunjay-k/CVE-2014-6271",
       "https://github.com/Jsmoreira02/CVE-2014-6271",
+      "https://github.com/mritunjay-k/CVE-2014-6271",
       "https://github.com/Brandaoo/CVE-2014-6271",
       "https://github.com/Aruthw/CVE-2014-6271",
       "https://github.com/kowshik-sundararajan/CVE-2014-6271",
@@ -48948,8 +48990,8 @@
       "https://github.com/ice-security88/CVE-2014-0160",
       "https://github.com/cbk914/heartbleed-checker",
       "https://github.com/obayesshelton/CVE-2014-0160-Scanner",
-      "https://github.com/c0d3cr4f73r/CVE-2014-0160_Heartbleed",
       "https://github.com/timsonner/cve-2014-0160-heartbleed",
+      "https://github.com/c0d3cr4f73r/CVE-2014-0160_Heartbleed",
       "https://github.com/MrE-Fog/CVE-2014-0160-Chrome-Plugin",
       "https://github.com/marstornado/cve-2014-0160-Yunfeng-Jiang",
       "https://github.com/siddolo/knockbleed",
@@ -49145,6 +49187,7 @@
     "cve_code": "CVE-2013-4378",
     "description": " Cross-site scripting (XSS) vulnerability in HtmlSessionInformationsReport.java in JavaMelody 1.46 and earlier allows remote attackers to inject arbitrary web script or HTML via a crafted X-Forwarded-For header.",
     "poc": [
+      "https://github.com/epicosy/VUL4J-50",
       "https://github.com/theratpack/grails-javamelody-sample-app"
     ]
   },
@@ -49645,8 +49688,8 @@
       "https://github.com/AlexJS6/CVE-2012-2982_Python",
       "https://github.com/Ari-Weinberg/CVE-2012-2982",
       "https://github.com/blu3ming/CVE-2012-2982",
-      "https://github.com/wizardy0ga/CVE_2012-2982",
       "https://github.com/CpyRe/CVE-2012-2982",
+      "https://github.com/wizardy0ga/CVE_2012-2982",
       "https://github.com/R00tendo/CVE-2012-2982",
       "https://github.com/0xF331-D3AD/CVE-2012-2982"
     ]
@@ -50096,6 +50139,7 @@
     "cve_code": "CVE-2010-3124",
     "description": " Untrusted search path vulnerability in bin/winvlc.c in VLC Media Player 1.1.3 and earlier allows local users, and possibly remote attackers, to execute arbitrary code and conduct DLL hijacking attacks via a Trojan horse wintab32.dll that is located in the same folder as a .mp3 file.",
     "poc": [
+      "https://github.com/KOBUKOVUI/DLL_Injection_On_VLC",
       "https://github.com/Nhom6KTLT/CVE-2010-3124"
     ]
   },
