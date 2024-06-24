@@ -116,10 +116,10 @@
     "cve_code": "CVE-2024-34470",
     "description": " An issue was discovered in HSC Mailinspector 5.2.17-3 through v.5.2.18. An Unauthenticated Path Traversal vulnerability exists in the /public/loader.php file. The path parameter does not properly filter whether the file and directory passed are part of the webroot, allowing an attacker to read arbitrary files on the server.",
     "poc": [
+      "https://github.com/th3gokul/CVE-2024-34470",
       "https://github.com/Cappricio-Securities/CVE-2024-34470",
       "https://github.com/Mr-r00t11/CVE-2024-34470",
       "https://github.com/bigb0x/CVE-2024-34470",
-      "https://github.com/th3gokul/CVE-2024-34470",
       "https://github.com/osvaldotenorio/CVE-2024-34470"
     ]
   },
@@ -149,6 +149,20 @@
     "description": " react-pdf displays PDFs in React apps. If PDF.js is used to load a malicious PDF, and PDF.js is configured with `isEvalSupported` set to `true` (which is the default value), unrestricted attacker-controlled JavaScript will be executed in the context of the hosting domain. This vulnerability is fixed in 7.7.3 and 8.0.2.",
     "poc": [
       "https://github.com/LOURC0D3/CVE-2024-4367-PoC"
+    ]
+  },
+  {
+    "cve_code": "CVE-2024-34313",
+    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "poc": [
+      "https://github.com/vincentscode/CVE-2024-34313"
+    ]
+  },
+  {
+    "cve_code": "CVE-2024-34312",
+    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "poc": [
+      "https://github.com/vincentscode/CVE-2024-34312"
     ]
   },
   {
@@ -434,9 +448,9 @@
       "https://github.com/Hector65432/cve-2024-32002-2",
       "https://github.com/10cks/CVE-2024-32002-linux-submod",
       "https://github.com/10cks/CVE-2024-32002-linux-hulk",
+      "https://github.com/JakobTheDev/cve-2024-32002-poc-rce",
       "https://github.com/JakobTheDev/cve-2024-32002-submodule-rce",
       "https://github.com/JakobTheDev/cve-2024-32002-poc-aw",
-      "https://github.com/JakobTheDev/cve-2024-32002-poc-rce",
       "https://github.com/10cks/CVE-2024-32002-linux-smash",
       "https://github.com/aitorcastel/poc_CVE-2024-32002_submodule",
       "https://github.com/JakobTheDev/cve-2024-32002-submodule-aw",
@@ -447,9 +461,9 @@
     "cve_code": "CVE-2024-31982",
     "description": " XWiki Platform is a generic wiki platform. Starting in version 2.4-milestone-1 and prior to versions 4.10.20, 15.5.4, and 15.10-rc-1, XWiki's database search allows remote code execution through the search text. This allows remote code execution for any visitor of a public wiki or user of a closed wiki as the database search is by default accessible for all users. This impacts the confidentiality, integrity and availability of the whole XWiki installation. This vulnerability has been patched in XWiki 14.10.20, 15.5.4 and 15.10RC1. As a workaround, one may manually apply the patch to the page `Main.DatabaseSearch`. Alternatively, unless database search is explicitly used by users, this page can be deleted as this is not the default search interface of XWiki.",
     "poc": [
-      "https://github.com/k3lpi3b4nsh33/CVE-2024-31982",
+      "https://github.com/bigb0x/CVE-2024-31982",
       "https://github.com/th3gokul/CVE-2024-31982",
-      "https://github.com/bigb0x/CVE-2024-31982"
+      "https://github.com/k3lpi3b4nsh33/CVE-2024-31982"
     ]
   },
   {
@@ -1297,9 +1311,9 @@
     "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
     "poc": [
       "https://github.com/ggfzx/CVE-2024-28995",
+      "https://github.com/bigb0x/CVE-2024-28995",
       "https://github.com/krypton-kry/CVE-2024-28995",
       "https://github.com/0xkucing/CVE-2024-28995",
-      "https://github.com/bigb0x/CVE-2024-28995",
       "https://github.com/huseyinstif/CVE-2024-28995-Nuclei-Template",
       "https://github.com/karkis3c/cves"
     ]
@@ -1310,8 +1324,8 @@
     "poc": [
       "https://github.com/RenukaSelvar/expat_CVE-2024-28757",
       "https://github.com/saurabh2088/expat_2_1_0_CVE-2024-28757",
-      "https://github.com/saurabh2088/expat_2_1_1_CVE-2024-28757",
-      "https://github.com/krnidhi/expat_2.1.1_CVE-2024-28757"
+      "https://github.com/krnidhi/expat_2.1.1_CVE-2024-28757",
+      "https://github.com/saurabh2088/expat_2_1_1_CVE-2024-28757"
     ]
   },
   {
@@ -1949,26 +1963,26 @@
       "https://github.com/mr-kasim-mehar/CVE-2024-24919-Exploit",
       "https://github.com/starlox0/CVE-2024-24919-POC",
       "https://github.com/r4p3c4/CVE-2024-24919-Checkpoint-Firewall-VPN-Check",
-      "https://github.com/am-eid/CVE-2024-24919",
       "https://github.com/satriarizka/CVE-2024-24919",
       "https://github.com/nicolvsrlr27/CVE-2024-24919",
-      "https://github.com/Vulnpire/CVE-2024-24919",
+      "https://github.com/am-eid/CVE-2024-24919",
       "https://github.com/eoslvs/CVE-2024-24919",
+      "https://github.com/Vulnpire/CVE-2024-24919",
       "https://github.com/P3wc0/CVE-2024-24919",
       "https://github.com/YN1337/CVE-2024-24919",
-      "https://github.com/hendprw/CVE-2024-24919",
-      "https://github.com/protonnegativo/CVE-2024-24919",
       "https://github.com/gurudattch/CVE-2024-24919",
       "https://github.com/satchhacker/cve-2024-24919",
+      "https://github.com/3UR/CVE-2024-24919",
+      "https://github.com/hendprw/CVE-2024-24919",
+      "https://github.com/protonnegativo/CVE-2024-24919",
+      "https://github.com/0xans/CVE-2024-24919",
       "https://github.com/MohamedWagdy7/CVE-2024-24919",
       "https://github.com/Tim-Hoekstra/CVE-2024-24919",
-      "https://github.com/0xans/CVE-2024-24919",
-      "https://github.com/3UR/CVE-2024-24919",
       "https://github.com/J4F9S5D2Q7/CVE-2024-24919-CHECKPOINT",
-      "https://github.com/nullcult/CVE-2024-24919-Exploit",
       "https://github.com/B1naryo/CVE-2024-24919-POC",
       "https://github.com/birdlex/cve-2024-24919-checker",
       "https://github.com/Expl0itD0g/CVE-2024-24919---Poc",
+      "https://github.com/nullcult/CVE-2024-24919-Exploit",
       "https://github.com/0nin0hanz0/CVE-2024-24919-PoC",
       "https://github.com/Praison001/CVE-2024-24919-Check-Point-Remote-Access-VPN"
     ]
@@ -2336,8 +2350,8 @@
       "https://github.com/vmtyan/poc-cve-2024-23897",
       "https://github.com/Praison001/CVE-2024-23897-Jenkins-Arbitrary-Read-File-Vulnerability",
       "https://github.com/B4CK4TT4CK/CVE-2024-23897",
-      "https://github.com/murataydemir/CVE-2024-23897",
       "https://github.com/ifconfig-me/CVE-2024-23897",
+      "https://github.com/murataydemir/CVE-2024-23897",
       "https://github.com/Athulya666/CVE-2024-23897",
       "https://github.com/ThatNotEasy/CVE-2024-23897",
       "https://github.com/brijne/CVE-2024-23897-RCE",
@@ -2926,6 +2940,7 @@
     "description": " Windows Kernel Elevation of Privilege Vulnerability.",
     "poc": [
       "https://github.com/hakaioffsec/CVE-2024-21338",
+      "https://github.com/tykawaii98/CVE-2024-21338_PoC",
       "https://github.com/varwara/CVE-2024-21338",
       "https://github.com/Zombie-Kaiser/CVE-2024-21338-x64-build-",
       "https://github.com/UMU618/CVE-2024-21338"
@@ -3111,8 +3126,8 @@
     "cve_code": "CVE-2024-4898",
     "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
     "poc": [
-      "https://github.com/cve-2024/CVE-2024-4898-Poc",
-      "https://github.com/truonghuuphuc/CVE-2024-4898-Poc"
+      "https://github.com/truonghuuphuc/CVE-2024-4898-Poc",
+      "https://github.com/cve-2024/CVE-2024-4898-Poc"
     ]
   },
   {
@@ -3151,12 +3166,12 @@
       "https://github.com/manuelinfosec/CVE-2024-4577",
       "https://github.com/K3ysTr0K3R/CVE-2024-4577-EXPLOIT",
       "https://github.com/Junp0/CVE-2024-4577",
+      "https://github.com/VictorShem/CVE-2024-4577",
       "https://github.com/0x20c/CVE-2024-4577-nuclei",
       "https://github.com/Sh0ckFR/CVE-2024-4577",
       "https://github.com/Wh02m1/CVE-2024-4577",
       "https://github.com/sug4r-wr41th/CVE-2024-4577",
       "https://github.com/aaddmin1122345/CVE-2024-4577-POC",
-      "https://github.com/VictorShem/CVE-2024-4577",
       "https://github.com/taida957789/CVE-2024-4577",
       "https://github.com/nemu1k5ma/CVE-2024-4577",
       "https://github.com/XiangDongCJC/CVE-2024-4577-PHP-CGI-RCE",
@@ -3448,9 +3463,9 @@
       "https://github.com/swaybs/CVE-2024-3400",
       "https://github.com/CONDITIONBLACK/CVE-2024-3400-POC",
       "https://github.com/phantomradar/cve-2024-3400-poc",
+      "https://github.com/FoxyProxys/CVE-2024-3400",
       "https://github.com/andrelia-hacks/CVE-2024-3400",
       "https://github.com/iwallarm/cve-2024-3400",
-      "https://github.com/FoxyProxys/CVE-2024-3400",
       "https://github.com/codeblueprint/CVE-2024-3400",
       "https://github.com/LoanVitor/CVE-2024-3400-",
       "https://github.com/Kr0ff/cve-2024-3400",
@@ -3560,9 +3575,9 @@
       "https://github.com/ashwani95/CVE-2024-3094",
       "https://github.com/CyberGuard-Foundation/CVE-2024-3094",
       "https://github.com/dah4k/CVE-2024-3094",
-      "https://github.com/Fractal-Tess/CVE-2024-3094",
       "https://github.com/Mustafa1986/CVE-2024-3094",
       "https://github.com/mightysai1997/CVE-2024-3094",
+      "https://github.com/Fractal-Tess/CVE-2024-3094",
       "https://github.com/shefirot/CVE-2024-3094",
       "https://github.com/ackemed/detectar_cve-2024-3094",
       "https://github.com/TheTorjanCaptain/CVE-2024-3094-Checker",
@@ -3608,13 +3623,6 @@
     "description": " The Email Subscribers by Icegram Express &#8211; Email Marketing, Newsletters, Automation for WordPress &amp; WooCommerce plugin for WordPress is vulnerable to SQL Injection via the 'run' function of the 'IG_ES_Subscribers_Query' class in all versions up to, and including, 5.7.14 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.",
     "poc": [
       "https://github.com/c0d3zilla/CVE-2024-2876"
-    ]
-  },
-  {
-    "cve_code": "CVE-2024-2856",
-    "description": " A vulnerability, which was classified as critical, has been found in Tenda AC10 16.03.10.13/16.03.10.20. Affected by this issue is the function fromSetSysTime of the file /goform/SetSysTimeCfg. The manipulation of the argument timeZone leads to stack-based buffer overflow. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-257780. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.",
-    "poc": [
-      "https://github.com/Schnaidr/CVE-2024-2856-Stack-overflow-EXP"
     ]
   },
   {
@@ -4955,11 +4963,8 @@
   },
   {
     "cve_code": "CVE-2023-48022",
-    "description": " ** DISP.UTED ** Anyscale Ray 2.6.3 and 2.8.0 allows a remote attacker to execute arbitrary code via the job submission API. NOTE: the vendor's position is that this report is irrelevant because Ray, as stated in its documentation, is not intended for use outside of a strictly controlled network environment.",
-    "poc": [
-      "https://github.com/jakabakos/ShadowRay-RCE-PoC-CVE-2023-48022",
-      "https://github.com/0x656565/CVE-2023-48022"
-    ]
+    "description": " ** DISP.UTED ** Anyscale Ray 2.6.3 and 2.8.0 allows a remote attacker to execute arbitrary code via the job submission API. NOTE: the vendor's position is that this report is irrelevant because Ray, as stated in its documentation, is not intended for use outside of a strictly controlled network environment- [https://github.com/jakabakos/ShadowRay-RCE-PoC-CVE-2023-48022](https://github.com/jakabakos/ShadowRay-RCE-PoC-CVE-2023-48022) :  ![starts](https://img.shields.io/github/stars/jakabakos/ShadowRay-RCE-PoC-CVE-2023-48022.svg) ![forks](https://img.shields.io/github/forks/jakabakos/ShadowRay-RCE-PoC-CVE-2023-48022.svg)- [https://github.com/0x656565/CVE-2023-48022](https://github.com/0x656565/CVE-2023-48022) :  ![starts](https://img.shields.io/github/stars/0x656565/CVE-2023-48022.svg) ![forks](https://img.shields.io/github/forks/0x656565/CVE-2023-48022.svg)",
+    "poc": []
   },
   {
     "cve_code": "CVE-2023-47889",
@@ -23608,8 +23613,10 @@
   },
   {
     "cve_code": "CVE-2021-34481",
-    "description": " &lt;p&gt;A remote code execution vulnerability exists when the Windows Print Spooler service improperly performs privileged file operations. An attacker who successfully exploited this vulnerability could run arbitrary code with SYSTEM privileges. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.&lt;/p&gt;. &lt;p&gt;&lt;strong&gt;UPDATE&lt;/strong&gt; August 10, 2021: Microsoft has completed the investigation and has released security updates to address this vulnerability. Please see the Security Updates table for the applicable update for your system. We recommend that you install these updates immediately. This security update changes the Point and Print default behavior; please see &lt;a href=&quot;https://support.microsoft.com/help/5005652&quot;&gt;KB5005652&lt;/a&gt;.&lt;/p&gt;- [https://github.com/vpn28/CVE-2021-34481](https://github.com/vpn28/CVE-2021-34481) :  ![starts](https://img.shields.io/github/stars/vpn28/CVE-2021-34481.svg) ![forks](https://img.shields.io/github/forks/vpn28/CVE-2021-34481.svg)",
-    "poc": []
+    "description": " &lt;p&gt;A remote code execution vulnerability exists when the Windows Print Spooler service improperly performs privileged file operations. An attacker who successfully exploited this vulnerability could run arbitrary code with SYSTEM privileges. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.&lt;/p&gt;. &lt;p&gt;&lt;strong&gt;UPDATE&lt;/strong&gt; August 10, 2021: Microsoft has completed the investigation and has released security updates to address this vulnerability. Please see the Security Updates table for the applicable update for your system. We recommend that you install these updates immediately. This security update changes the Point and Print default behavior; please see &lt;a href=&quot;https://support.microsoft.com/help/5005652&quot;&gt;KB5005652&lt;/a&gt;.&lt;/p&gt;.",
+    "poc": [
+      "https://github.com/vpn28/CVE-2021-34481"
+    ]
   },
   {
     "cve_code": "CVE-2021-34473",
@@ -24412,10 +24419,8 @@
   },
   {
     "cve_code": "CVE-2021-29200",
-    "description": " Apache OFBiz has unsafe deserialization prior to 17.12.07 version. An unauthenticated user can perform an RCE attack.",
-    "poc": [
-      "https://github.com/freeide/CVE-2021-29200"
-    ]
+    "description": " Apache OFBiz has unsafe deserialization prior to 17.12.07 version. An unauthenticated user can perform an RCE attack- [https://github.com/freeide/CVE-2021-29200](https://github.com/freeide/CVE-2021-29200) :  ![starts](https://img.shields.io/github/stars/freeide/CVE-2021-29200.svg) ![forks](https://img.shields.io/github/forks/freeide/CVE-2021-29200.svg)",
+    "poc": []
   },
   {
     "cve_code": "CVE-2021-29156",
@@ -46662,8 +46667,10 @@
   },
   {
     "cve_code": "CVE-2016-8858",
-    "description": " ** DISP.UTED ** The kex_input_kexinit function in kex.c in OpenSSH 6.x and 7.x through 7.3 allows remote attackers to cause a denial of service (memory consumption) by sending many duplicate KEXINIT requests.  NOTE: a third party reports that &quot;OpenSSH upstream does not consider this as a security issue.&quot;- [https://github.com/dag-erling/kexkill](https://github.com/dag-erling/kexkill) :  ![starts](https://img.shields.io/github/stars/dag-erling/kexkill.svg) ![forks](https://img.shields.io/github/forks/dag-erling/kexkill.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** The kex_input_kexinit function in kex.c in OpenSSH 6.x and 7.x through 7.3 allows remote attackers to cause a denial of service (memory consumption) by sending many duplicate KEXINIT requests.  NOTE: a third party reports that &quot;OpenSSH upstream does not consider this as a security issue.&quot;.",
+    "poc": [
+      "https://github.com/dag-erling/kexkill"
+    ]
   },
   {
     "cve_code": "CVE-2016-8823",
@@ -51540,8 +51547,8 @@
       "https://github.com/ozuma/CVE-2007-2447",
       "https://github.com/Ziemni/CVE-2007-2447-in-Python",
       "https://github.com/Alien0ne/CVE-2007-2447",
-      "https://github.com/c0d3cr4f73r/CVE-2007-2447",
       "https://github.com/xbufu/CVE-2007-2447",
+      "https://github.com/c0d3cr4f73r/CVE-2007-2447",
       "https://github.com/3x1t1um/CVE-2007-2447",
       "https://github.com/Aviksaikat/CVE-2007-2447",
       "https://github.com/s4msec/CVE-2007-2447",
