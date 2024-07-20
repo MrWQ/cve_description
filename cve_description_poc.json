@@ -2384,8 +2384,10 @@
   },
   {
     "cve_code": "CVE-2024-23743",
-    "description": " ** DISP.UTED ** Notion through 3.1.0 on macOS might allow code execution because of RunAsNode and enableNodeClilnspectArguments. NOTE: the vendor states &quot;the attacker must launch the Notion Desktop application with nonstandard flags that turn the Electron-based application into a Node.js execution environment.&quot;- [https://github.com/giovannipajeu1/CVE-2024-23743](https://github.com/giovannipajeu1/CVE-2024-23743) :  ![starts](https://img.shields.io/github/stars/giovannipajeu1/CVE-2024-23743.svg) ![forks](https://img.shields.io/github/forks/giovannipajeu1/CVE-2024-23743.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** Notion through 3.1.0 on macOS might allow code execution because of RunAsNode and enableNodeClilnspectArguments. NOTE: the vendor states &quot;the attacker must launch the Notion Desktop application with nonstandard flags that turn the Electron-based application into a Node.js execution environment.&quot;.",
+    "poc": [
+      "https://github.com/giovannipajeu1/CVE-2024-23743"
+    ]
   },
   {
     "cve_code": "CVE-2024-23742",
@@ -2418,8 +2420,10 @@
   },
   {
     "cve_code": "CVE-2024-23738",
-    "description": " ** DISP.UTED ** An issue in Postman version 10.22 and before on macOS allows a remote attacker to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings. NOTE: the vendor states &quot;we dispute the report's accuracy ... the configuration does not enable remote code execution..&quot;- [https://github.com/giovannipajeu1/CVE-2024-23738](https://github.com/giovannipajeu1/CVE-2024-23738) :  ![starts](https://img.shields.io/github/stars/giovannipajeu1/CVE-2024-23738.svg) ![forks](https://img.shields.io/github/forks/giovannipajeu1/CVE-2024-23738.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** An issue in Postman version 10.22 and before on macOS allows a remote attacker to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings. NOTE: the vendor states &quot;we dispute the report's accuracy ... the configuration does not enable remote code execution..&quot;.",
+    "poc": [
+      "https://github.com/giovannipajeu1/CVE-2024-23738"
+    ]
   },
   {
     "cve_code": "CVE-2024-23727",
@@ -5081,8 +5085,11 @@
   },
   {
     "cve_code": "CVE-2023-48022",
-    "description": " ** DISP.UTED ** Anyscale Ray 2.6.3 and 2.8.0 allows a remote attacker to execute arbitrary code via the job submission API. NOTE: the vendor's position is that this report is irrelevant because Ray, as stated in its documentation, is not intended for use outside of a strictly controlled network environment- [https://github.com/jakabakos/ShadowRay-RCE-PoC-CVE-2023-48022](https://github.com/jakabakos/ShadowRay-RCE-PoC-CVE-2023-48022) :  ![starts](https://img.shields.io/github/stars/jakabakos/ShadowRay-RCE-PoC-CVE-2023-48022.svg) ![forks](https://img.shields.io/github/forks/jakabakos/ShadowRay-RCE-PoC-CVE-2023-48022.svg)- [https://github.com/0x656565/CVE-2023-48022](https://github.com/0x656565/CVE-2023-48022) :  ![starts](https://img.shields.io/github/stars/0x656565/CVE-2023-48022.svg) ![forks](https://img.shields.io/github/forks/0x656565/CVE-2023-48022.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** Anyscale Ray 2.6.3 and 2.8.0 allows a remote attacker to execute arbitrary code via the job submission API. NOTE: the vendor's position is that this report is irrelevant because Ray, as stated in its documentation, is not intended for use outside of a strictly controlled network environment.",
+    "poc": [
+      "https://github.com/jakabakos/ShadowRay-RCE-PoC-CVE-2023-48022",
+      "https://github.com/0x656565/CVE-2023-48022"
+    ]
   },
   {
     "cve_code": "CVE-2023-47889",
@@ -5742,8 +5749,8 @@
     "cve_code": "CVE-2023-45280",
     "description": " Yamcs 5.8.6 allows XSS (issue 2 of 2). It comes with a Bucket as its primary storage mechanism. Buckets allow for the upload of any file. There's a way to upload an HTML file containing arbitrary JavaScript and then navigate to it. Once the user opens the file, the browser will execute the arbitrary JavaScript.",
     "poc": [
-      "https://github.com/miguelc49/CVE-2023-45280-1",
       "https://github.com/miguelc49/CVE-2023-45280-2",
+      "https://github.com/miguelc49/CVE-2023-45280-1",
       "https://github.com/miguelc49/CVE-2023-45280-3"
     ]
   },
@@ -6393,8 +6400,8 @@
       "https://github.com/Zyad-Elsayed/CVE-2023-42793",
       "https://github.com/hotplugin0x01/CVE-2023-42793",
       "https://github.com/HusenjanDev/CVE-2023-42793",
-      "https://github.com/johnossawy/CVE-2023-42793_POC",
       "https://github.com/junnythemarksman/CVE-2023-42793",
+      "https://github.com/johnossawy/CVE-2023-42793_POC",
       "https://github.com/LeHeron/TC_test",
       "https://github.com/StanleyJobsonAU/GhostTown"
     ]
@@ -6573,8 +6580,8 @@
     "description": " Froala Editor v4.0.1 to v4.1.1 was discovered to contain a cross-site scripting (XSS) vulnerability.",
     "poc": [
       "https://github.com/miguelc49/CVE-2023-41592-2",
-      "https://github.com/miguelc49/CVE-2023-41592-1",
-      "https://github.com/miguelc49/CVE-2023-41592-3"
+      "https://github.com/miguelc49/CVE-2023-41592-3",
+      "https://github.com/miguelc49/CVE-2023-41592-1"
     ]
   },
   {
@@ -7243,9 +7250,9 @@
       "https://github.com/kehrijksen/CVE-2023-38831",
       "https://github.com/sh770/CVE-2023-38831",
       "https://github.com/IMHarman/CVE-2023-38831",
-      "https://github.com/asepsaepdin/CVE-2023-38831",
       "https://github.com/an040702/CVE-2023-38831",
       "https://github.com/Nielk74/CVE-2023-38831",
+      "https://github.com/asepsaepdin/CVE-2023-38831",
       "https://github.com/RomainBayle08/CVE-2023-38831",
       "https://github.com/GOTonyGO/CVE-2023-38831-winrar",
       "https://github.com/khanhtranngoccva/cve-2023-38831-poc",
@@ -7289,8 +7296,10 @@
   },
   {
     "cve_code": "CVE-2023-38817",
-    "description": " ** DISP.UTED ** An issue in Inspect Element Ltd Echo.ac v.5.2.1.0 allows a local attacker to gain privileges via a crafted command to the echo_driver.sys component. NOTE: the vendor's position is that the reported ability for user-mode applications to execute code as NT AUTHORITY\\SYSTEM was &quot;deactivated by Microsoft itself.&quot;- [https://github.com/vxcall/kur](https://github.com/vxcall/kur) :  ![starts](https://img.shields.io/github/stars/vxcall/kur.svg) ![forks](https://img.shields.io/github/forks/vxcall/kur.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** An issue in Inspect Element Ltd Echo.ac v.5.2.1.0 allows a local attacker to gain privileges via a crafted command to the echo_driver.sys component. NOTE: the vendor's position is that the reported ability for user-mode applications to execute code as NT AUTHORITY\\SYSTEM was &quot;deactivated by Microsoft itself.&quot;.",
+    "poc": [
+      "https://github.com/vxcall/kur"
+    ]
   },
   {
     "cve_code": "CVE-2023-38743",
@@ -10662,8 +10671,10 @@
   },
   {
     "cve_code": "CVE-2023-24044",
-    "description": " ** DISP.UTED ** A Host Header Injection issue on the Login page of Plesk Obsidian through 18.0.49 allows attackers to redirect users to malicious websites via a Host request header. NOTE: the vendor's position is &quot;the ability to use arbitrary domain names to access the panel is an intended feature.&quot;- [https://github.com/Cappricio-Securities/CVE-2023-24044](https://github.com/Cappricio-Securities/CVE-2023-24044) :  ![starts](https://img.shields.io/github/stars/Cappricio-Securities/CVE-2023-24044.svg) ![forks](https://img.shields.io/github/forks/Cappricio-Securities/CVE-2023-24044.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** A Host Header Injection issue on the Login page of Plesk Obsidian through 18.0.49 allows attackers to redirect users to malicious websites via a Host request header. NOTE: the vendor's position is &quot;the ability to use arbitrary domain names to access the panel is an intended feature.&quot;.",
+    "poc": [
+      "https://github.com/Cappricio-Securities/CVE-2023-24044"
+    ]
   },
   {
     "cve_code": "CVE-2023-24034",
@@ -11097,9 +11108,9 @@
       "https://github.com/edsonjt81/CVE-2023-22515-Scan.",
       "https://github.com/DsaHen/cve-2023-22515-exp",
       "https://github.com/CalegariMindSec/Exploit-CVE-2023-22515",
+      "https://github.com/spareack/CVE-2023-22515-NSE",
       "https://github.com/s1d6point7bugcrowd/CVE-2023-22515-check",
-      "https://github.com/fyx1t/NSE--CVE-2023-22515",
-      "https://github.com/spareack/CVE-2023-22515-NSE"
+      "https://github.com/fyx1t/NSE--CVE-2023-22515"
     ]
   },
   {
@@ -11935,9 +11946,9 @@
     "cve_code": "CVE-2023-5720",
     "description": " A flaw was found in Quarkus, where it does not properly sanitize artifacts created using the Gradle plugin, allowing certain build system information to remain. This flaw allows an attacker to access potentially sensitive information from the build system within the application.",
     "poc": [
+      "https://github.com/miguelc49/CVE-2023-5720-3",
       "https://github.com/miguelc49/CVE-2023-5720-1",
-      "https://github.com/miguelc49/CVE-2023-5720-2",
-      "https://github.com/miguelc49/CVE-2023-5720-3"
+      "https://github.com/miguelc49/CVE-2023-5720-2"
     ]
   },
   {
@@ -12134,8 +12145,8 @@
       "https://github.com/morganwdavis/overread",
       "https://github.com/IceBreakerCode/CVE-2023-4966",
       "https://github.com/0xKayala/CVE-2023-4966",
-      "https://github.com/byte4RR4Y/CVE-2023-4966",
       "https://github.com/s-bt/CVE-2023-4966",
+      "https://github.com/byte4RR4Y/CVE-2023-4966",
       "https://github.com/jmussmann/cve-2023-4966-iocs",
       "https://github.com/senpaisamp/Netscaler-CVE-2023-4966-POC"
     ]
@@ -12462,8 +12473,8 @@
     "cve_code": "CVE-2023-4145",
     "description": " Cross-site Scripting (XSS) - Stored in GitHub repository pimcore/customer-data-framework prior to 3.4.2.",
     "poc": [
-      "https://github.com/miguelc49/CVE-2023-4145-3",
       "https://github.com/miguelc49/CVE-2023-4145-2",
+      "https://github.com/miguelc49/CVE-2023-4145-3",
       "https://github.com/miguelc49/CVE-2023-4145-1"
     ]
   },
@@ -13089,8 +13100,8 @@
     "description": " Path Traversal: '\\..\\filename' in GitHub repository mlflow/mlflow prior to 2.2.1.",
     "poc": [
       "https://github.com/iumiro/CVE-2023-1177-MLFlow",
-      "https://github.com/hh-hunter/ml-CVE-2023-1177",
-      "https://github.com/tiyeume25112004/CVE-2023-1177-rebuild"
+      "https://github.com/tiyeume25112004/CVE-2023-1177-rebuild",
+      "https://github.com/hh-hunter/ml-CVE-2023-1177"
     ]
   },
   {
@@ -13546,8 +13557,11 @@
   },
   {
     "cve_code": "CVE-2022-46463",
-    "description": " ** DISP.UTED ** An access control issue in Harbor v1.X.X to v2.5.3 allows attackers to access public and private image repositories without authentication. NOTE: the vendor's position is that this &quot;is clearly described in the documentation as a feature.&quot;- [https://github.com/nu0l/CVE-2022-46463](https://github.com/nu0l/CVE-2022-46463) :  ![starts](https://img.shields.io/github/stars/nu0l/CVE-2022-46463.svg) ![forks](https://img.shields.io/github/forks/nu0l/CVE-2022-46463.svg)- [https://github.com/404tk/CVE-2022-46463](https://github.com/404tk/CVE-2022-46463) :  ![starts](https://img.shields.io/github/stars/404tk/CVE-2022-46463.svg) ![forks](https://img.shields.io/github/forks/404tk/CVE-2022-46463.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** An access control issue in Harbor v1.X.X to v2.5.3 allows attackers to access public and private image repositories without authentication. NOTE: the vendor's position is that this &quot;is clearly described in the documentation as a feature.&quot;.",
+    "poc": [
+      "https://github.com/nu0l/CVE-2022-46463",
+      "https://github.com/404tk/CVE-2022-46463"
+    ]
   },
   {
     "cve_code": "CVE-2022-46395",
@@ -13596,8 +13610,8 @@
       "https://github.com/taythebot/CVE-2022-46169",
       "https://github.com/m3ssap0/cacti-rce-cve-2022-46169-vulnerable-application",
       "https://github.com/doosec101/CVE-2022-46169",
-      "https://github.com/icebreack/CVE-2022-46169",
       "https://github.com/0xN7y/CVE-2022-46169",
+      "https://github.com/icebreack/CVE-2022-46169",
       "https://github.com/Safarchand/CVE-2022-46169",
       "https://github.com/copyleftdev/PricklyPwn",
       "https://github.com/a1665454764/CVE-2022-46169",
@@ -14793,8 +14807,10 @@
   },
   {
     "cve_code": "CVE-2022-40297",
-    "description": " ** DISP.UTED ** UBports Ubuntu Touch 16.04 allows the screen-unlock passcode to be used for a privileged shell via Sudo. This passcode is only four digits, far below typical length/complexity for a user account's password. NOTE: a third party states &quot;The described attack cannot be executed as demonstrated.&quot;- [https://github.com/filipkarc/PoC-ubuntutouch-pin-privesc](https://github.com/filipkarc/PoC-ubuntutouch-pin-privesc) :  ![starts](https://img.shields.io/github/stars/filipkarc/PoC-ubuntutouch-pin-privesc.svg) ![forks](https://img.shields.io/github/forks/filipkarc/PoC-ubuntutouch-pin-privesc.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** UBports Ubuntu Touch 16.04 allows the screen-unlock passcode to be used for a privileged shell via Sudo. This passcode is only four digits, far below typical length/complexity for a user account's password. NOTE: a third party states &quot;The described attack cannot be executed as demonstrated.&quot;.",
+    "poc": [
+      "https://github.com/filipkarc/PoC-ubuntutouch-pin-privesc"
+    ]
   },
   {
     "cve_code": "CVE-2022-40146",
@@ -14845,8 +14861,8 @@
     "cve_code": "CVE-2022-39987",
     "description": " A Command injection vulnerability in RaspAP 2.8.0 thru 2.9.2 allows an authenticated attacker to execute arbitrary OS commands as root via the &quot;entity&quot; POST parameters in /ajax/networking/get_wgkey.php.",
     "poc": [
-      "https://github.com/miguelc49/CVE-2022-39987-3",
       "https://github.com/miguelc49/CVE-2022-39987-2",
+      "https://github.com/miguelc49/CVE-2022-39987-3",
       "https://github.com/miguelc49/CVE-2022-39987-1"
     ]
   },
@@ -15086,7 +15102,8 @@
       "https://github.com/ECU-10525611-Xander/CVE-2022-37706",
       "https://github.com/GrayHatZone/CVE-2022-37706-LPE-exploit",
       "https://github.com/junnythemarksman/CVE-2022-37706",
-      "https://github.com/AleksPwn/CVE-2022-37706"
+      "https://github.com/AleksPwn/CVE-2022-37706",
+      "https://github.com/TACTICAL-HACK/CVE-2022-37706-SUID"
     ]
   },
   {
@@ -18523,8 +18540,8 @@
       "https://github.com/likewhite/CVE-2022-22965",
       "https://github.com/khidottrivi/CVE-2022-22965",
       "https://github.com/anair-it/springshell-vuln-POC",
-      "https://github.com/CalumHutton/CVE-2022-22965-PoC_Payara",
       "https://github.com/jrgdiaz/Spring4Shell-CVE-2022-22965.py",
+      "https://github.com/CalumHutton/CVE-2022-22965-PoC_Payara",
       "https://github.com/jakabakos/CVE-2022-22965-Spring4Shell",
       "https://github.com/fracturelabs/spring4shell_victim",
       "https://github.com/twseptian/cve-2022-22965",
@@ -18547,8 +18564,8 @@
       "https://github.com/devengpk/CVE-2022-22965",
       "https://github.com/LucasPDiniz/CVE-2022-22965",
       "https://github.com/luoqianlin/CVE-2022-22965",
-      "https://github.com/t3amj3ff/Spring4ShellPoC",
       "https://github.com/mwojterski/cve-2022-22965",
+      "https://github.com/t3amj3ff/Spring4ShellPoC",
       "https://github.com/fransvanbuul/CVE-2022-22965-susceptibility",
       "https://github.com/Enokiy/spring-RCE-CVE-2022-22965",
       "https://github.com/c4mx/CVE-2022-22965_PoC",
@@ -18645,8 +18662,8 @@
       "https://github.com/secfb/CVE-2022-22954",
       "https://github.com/lucksec/VMware-CVE-2022-22954",
       "https://github.com/nguyenv1nK/CVE-2022-22954",
-      "https://github.com/Jun-5heng/CVE-2022-22954",
       "https://github.com/arzuozkan/CVE-2022-22954",
+      "https://github.com/Jun-5heng/CVE-2022-22954",
       "https://github.com/amit-pathak009/CVE-2022-22954",
       "https://github.com/mhurts/CVE-2022-22954-POC",
       "https://github.com/amit-pathak009/CVE-2022-22954-PoC"
@@ -18720,11 +18737,11 @@
       "https://github.com/scopion/cve-2022-22947",
       "https://github.com/Summer177/Spring-Cloud-Gateway-CVE-2022-22947",
       "https://github.com/hh-hunter/cve-2022-22947-docker",
-      "https://github.com/BerMalBerIst/CVE-2022-22947",
       "https://github.com/cc3305/CVE-2022-22947",
+      "https://github.com/BerMalBerIst/CVE-2022-22947",
       "https://github.com/fbion/CVE-2022-22947",
-      "https://github.com/flying0er/CVE-2022-22947-goby",
       "https://github.com/PaoPaoLong-lab/Spring-CVE-2022-22947-",
+      "https://github.com/flying0er/CVE-2022-22947-goby",
       "https://github.com/scopion/CVE-2022-22947-exp",
       "https://github.com/ba1ma0/Spring-Cloud-GateWay-CVE-2022-22947-demon-code"
     ]
@@ -20053,10 +20070,10 @@
       "https://github.com/li8u99/CVE-2022-1388",
       "https://github.com/sashka3076/F5-BIG-IP-exploit",
       "https://github.com/mr-vill4in/CVE-2022-1388",
-      "https://github.com/On-Cyber-War/CVE-2022-1388",
       "https://github.com/battleofthebots/refresh",
-      "https://github.com/omnigodz/CVE-2022-1388",
+      "https://github.com/On-Cyber-War/CVE-2022-1388",
       "https://github.com/M4fiaB0y/CVE-2022-1388",
+      "https://github.com/omnigodz/CVE-2022-1388",
       "https://github.com/jbharucha05/CVE-2022-1388",
       "https://github.com/Hudi233/CVE-2022-1388",
       "https://github.com/v4sh25/CVE_2022_1388",
@@ -20193,9 +20210,9 @@
       "https://github.com/jam620/Sophos-Vulnerability",
       "https://github.com/Keith-amateur/cve-2022-1040",
       "https://github.com/jackson5sec/CVE-2022-1040",
+      "https://github.com/Cyb3rEnthusiast/CVE-2022-1040",
       "https://github.com/xMr110/CVE-2022-1040",
-      "https://github.com/michealadams30/CVE-2022-1040",
-      "https://github.com/Cyb3rEnthusiast/CVE-2022-1040"
+      "https://github.com/michealadams30/CVE-2022-1040"
     ]
   },
   {
@@ -20374,8 +20391,8 @@
       "https://github.com/pentestblogin/pentestblog-CVE-2022-0847",
       "https://github.com/githublihaha/DirtyPIPE-CVE-2022-0847",
       "https://github.com/Asbatel/CBDS_CVE-2022-0847_POC",
-      "https://github.com/Greetdawn/CVE-2022-0847-DirtyPipe-",
       "https://github.com/pmihsan/Dirty-Pipe-CVE-2022-0847",
+      "https://github.com/Greetdawn/CVE-2022-0847-DirtyPipe-",
       "https://github.com/al4xs/CVE-2022-0847-Dirty-Pipe",
       "https://github.com/Greetdawn/CVE-2022-0847-DirtyPipe",
       "https://github.com/AyoubNajim/cve-2022-0847dirtypipe-exploit",
@@ -20383,8 +20400,8 @@
       "https://github.com/stfnw/Debugging_Dirty_Pipe_CVE-2022-0847",
       "https://github.com/ayushx007/CVE-2022-0847-dirty-pipe-checker",
       "https://github.com/jxpsx/CVE-2022-0847-DirtyPipe-Exploits",
-      "https://github.com/muhammad1596/CVE-2022-0847-DirtyPipe-Exploits",
       "https://github.com/ayushx007/CVE-2022-0847-DirtyPipe-Exploits",
+      "https://github.com/muhammad1596/CVE-2022-0847-DirtyPipe-Exploits",
       "https://github.com/orsuprasad/CVE-2022-0847-DirtyPipe-Exploits",
       "https://github.com/tufanturhan/CVE-2022-0847-L-nux-PrivEsc",
       "https://github.com/solomon12354/LockingGirl-----CVE-2022-0847-Dirty_Pipe_virus",
@@ -20925,9 +20942,9 @@
     "cve_code": "CVE-2021-46063",
     "description": " MCMS v5.2.5 was discovered to contain a Server Side Template Injection (SSTI) vulnerability via the Template Management module.",
     "poc": [
+      "https://github.com/miguelc49/CVE-2021-46063-2",
       "https://github.com/miguelc49/CVE-2021-46063-1",
-      "https://github.com/miguelc49/CVE-2021-46063-3",
-      "https://github.com/miguelc49/CVE-2021-46063-2"
+      "https://github.com/miguelc49/CVE-2021-46063-3"
     ]
   },
   {
@@ -21102,8 +21119,8 @@
       "https://github.com/manishkanyal/log4j-scanner",
       "https://github.com/Aschen/log4j-patched",
       "https://github.com/demonrvm/Log4ShellRemediation",
-      "https://github.com/at-bay/log4j-checker",
       "https://github.com/gitlab-de/log4j-resources",
+      "https://github.com/at-bay/log4j-checker",
       "https://github.com/andalik/log4j-filescan",
       "https://github.com/nagten/JndiLookupRemoval",
       "https://github.com/juergenhoetzel/log4j2go",
@@ -22153,8 +22170,8 @@
       "https://github.com/robotsense1337/CVE-2021-42013",
       "https://github.com/Hamesawian/CVE-2021-42013",
       "https://github.com/vudala/CVE-2021-42013",
-      "https://github.com/cybfar/cve-2021-42013-httpd",
       "https://github.com/jas9reet/CVE-2021-42013-LAB",
+      "https://github.com/cybfar/cve-2021-42013-httpd",
       "https://github.com/corelight/CVE-2021-41773",
       "https://github.com/pisut4152/Sigma-Rule-for-CVE-2021-41773-and-CVE-2021-42013-exploitation-attempt",
       "https://github.com/ksanchezcld/httpd-2.4.49",
@@ -23933,8 +23950,10 @@
   },
   {
     "cve_code": "CVE-2021-34481",
-    "description": " &lt;p&gt;A remote code execution vulnerability exists when the Windows Print Spooler service improperly performs privileged file operations. An attacker who successfully exploited this vulnerability could run arbitrary code with SYSTEM privileges. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.&lt;/p&gt;. &lt;p&gt;&lt;strong&gt;UPDATE&lt;/strong&gt; August 10, 2021: Microsoft has completed the investigation and has released security updates to address this vulnerability. Please see the Security Updates table for the applicable update for your system. We recommend that you install these updates immediately. This security update changes the Point and Print default behavior; please see &lt;a href=&quot;https://support.microsoft.com/help/5005652&quot;&gt;KB5005652&lt;/a&gt;.&lt;/p&gt;- [https://github.com/vpn28/CVE-2021-34481](https://github.com/vpn28/CVE-2021-34481) :  ![starts](https://img.shields.io/github/stars/vpn28/CVE-2021-34481.svg) ![forks](https://img.shields.io/github/forks/vpn28/CVE-2021-34481.svg)",
-    "poc": []
+    "description": " &lt;p&gt;A remote code execution vulnerability exists when the Windows Print Spooler service improperly performs privileged file operations. An attacker who successfully exploited this vulnerability could run arbitrary code with SYSTEM privileges. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.&lt;/p&gt;. &lt;p&gt;&lt;strong&gt;UPDATE&lt;/strong&gt; August 10, 2021: Microsoft has completed the investigation and has released security updates to address this vulnerability. Please see the Security Updates table for the applicable update for your system. We recommend that you install these updates immediately. This security update changes the Point and Print default behavior; please see &lt;a href=&quot;https://support.microsoft.com/help/5005652&quot;&gt;KB5005652&lt;/a&gt;.&lt;/p&gt;.",
+    "poc": [
+      "https://github.com/vpn28/CVE-2021-34481"
+    ]
   },
   {
     "cve_code": "CVE-2021-34473",
@@ -24691,8 +24710,8 @@
       "https://github.com/thomas-osgood/CVE-2021-29447",
       "https://github.com/b-abderrahmane/CVE-2021-29447-POC",
       "https://github.com/Val-Resh/CVE-2021-29447-POC",
-      "https://github.com/viardant/CVE-2021-29447",
       "https://github.com/G01d3nW01f/CVE-2021-29447",
+      "https://github.com/viardant/CVE-2021-29447",
       "https://github.com/andyhsu024/CVE-2021-29447",
       "https://github.com/AssassinUKG/CVE-2021-29447"
     ]
@@ -24743,8 +24762,10 @@
   },
   {
     "cve_code": "CVE-2021-29200",
-    "description": " Apache OFBiz has unsafe deserialization prior to 17.12.07 version. An unauthenticated user can perform an RCE attack- [https://github.com/freeide/CVE-2021-29200](https://github.com/freeide/CVE-2021-29200) :  ![starts](https://img.shields.io/github/stars/freeide/CVE-2021-29200.svg) ![forks](https://img.shields.io/github/forks/freeide/CVE-2021-29200.svg)",
-    "poc": []
+    "description": " Apache OFBiz has unsafe deserialization prior to 17.12.07 version. An unauthenticated user can perform an RCE attack.",
+    "poc": [
+      "https://github.com/freeide/CVE-2021-29200"
+    ]
   },
   {
     "cve_code": "CVE-2021-29156",
@@ -26382,10 +26403,10 @@
       "https://github.com/henry861010/Network_Security_NYCU",
       "https://github.com/Roboterh/CVE-2021-21300",
       "https://github.com/Saboor-Hakimi-23/CVE-2021-21300",
-      "https://github.com/Kirill89/CVE-2021-21300",
       "https://github.com/ETOCheney/cve-2021-21300",
       "https://github.com/0ahu/CVE-2021-21300",
       "https://github.com/macilin/CVE-2021-21300",
+      "https://github.com/Kirill89/CVE-2021-21300",
       "https://github.com/erranfenech/CVE-2021-21300",
       "https://github.com/Faisal78123/CVE-2021-21300",
       "https://github.com/Jiang59991/cve-2021-21300",
@@ -26691,9 +26712,9 @@
       "https://github.com/NiS3x/CVE-2021-4034",
       "https://github.com/codiobert/pwnkit-scanner",
       "https://github.com/hackingyseguridad/CVE-2021-4034",
+      "https://github.com/gbrsh/CVE-2021-4034",
       "https://github.com/Anonymous-Family/CVE-2021-4034",
       "https://github.com/locksec/CVE-2021-4034",
-      "https://github.com/gbrsh/CVE-2021-4034",
       "https://github.com/Pixailz/CVE-2021-4034",
       "https://github.com/LJP-TW/CVE-2021-4034",
       "https://github.com/deoxykev/CVE-2021-4034-Rust",
@@ -26707,14 +26728,14 @@
       "https://github.com/moldabekov/CVE-2021-4034",
       "https://github.com/JoyGhoshs/CVE-2021-4034",
       "https://github.com/ayypril/CVE-2021-4034",
-      "https://github.com/Immersive-Labs-Sec/CVE-2021-4034",
+      "https://github.com/A1vinSmith/CVE-2021-4034",
       "https://github.com/thatstraw/CVE-2021-4034",
       "https://github.com/cerodah/CVE-2021-4034",
-      "https://github.com/A1vinSmith/CVE-2021-4034",
       "https://github.com/0x01-sec/CVE-2021-4034-",
       "https://github.com/mutur4/CVE-2021-4034",
-      "https://github.com/defhacks/cve-2021-4034",
+      "https://github.com/Immersive-Labs-Sec/CVE-2021-4034",
       "https://github.com/vilasboasph/CVE-2021-4034",
+      "https://github.com/defhacks/cve-2021-4034",
       "https://github.com/cd80-ctf/CVE-2021-4034",
       "https://github.com/LukeGix/CVE-2021-4034",
       "https://github.com/Tanmay-N/CVE-2021-4034",
@@ -26758,6 +26779,13 @@
     "description": " A flaw was found in the way the dumpable flag setting was handled when certain SUID binaries executed its descendants. The prerequisite is a SUID binary that sets real UID equal to effective UID, and real GID equal to effective GID. The descendant will then have a dumpable value set to 1. As a result, if the descendant process crashes and core_pattern is set to a relative value, its core dump is stored in the current directory with uid:gid permissions. An unprivileged local user with eligible root SUID binary could use this flaw to place core dumps into root-owned directories, potentially resulting in escalation of privileges.",
     "poc": [
       "https://github.com/walac/cve-2021-3864"
+    ]
+  },
+  {
+    "cve_code": "CVE-2021-3831",
+    "description": " gnuboard5 is vulnerable to Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting').",
+    "poc": [
+      "https://github.com/aratane/CVE-2021-3831"
     ]
   },
   {
@@ -27078,8 +27106,8 @@
       "https://github.com/TheFlash2k/CVE-2021-3156",
       "https://github.com/nobodyatall648/CVE-2021-3156",
       "https://github.com/q77190858/CVE-2021-3156",
-      "https://github.com/SantiagoSerrao/ScannerCVE-2021-3156",
       "https://github.com/DASICS-ICT/DASICS-CVE-2021-3156",
+      "https://github.com/SantiagoSerrao/ScannerCVE-2021-3156",
       "https://github.com/binw2018/CVE-2021-3156-SCRIPT",
       "https://github.com/lypd0/CVE-2021-3156-checker",
       "https://github.com/r3k4t/how-to-solve-sudo-heap-based-bufferoverflow-vulnerability",
@@ -27097,8 +27125,8 @@
       "https://github.com/DDayLuong/CVE-2021-3156",
       "https://github.com/mutur4/CVE-2021-3156",
       "https://github.com/Exodusro/CVE-2021-3156",
-      "https://github.com/gmldbd94/cve-2021-3156",
       "https://github.com/arvindshima/CVE-2021-3156",
+      "https://github.com/gmldbd94/cve-2021-3156",
       "https://github.com/freeFV/CVE-2021-3156",
       "https://github.com/Typical0day/CVE-2021-3156",
       "https://github.com/meowhua15/CVE-2021-3156",
@@ -27411,8 +27439,8 @@
       "https://github.com/YOunGWebER/cve_2021_1732",
       "https://github.com/BeneficialCode/CVE-2021-1732",
       "https://github.com/asepsaepdin/CVE-2021-1732",
-      "https://github.com/yangshifan-git/CVE-2021-1732",
       "https://github.com/r1l4-i3pur1l4/CVE-2021-1732",
+      "https://github.com/yangshifan-git/CVE-2021-1732",
       "https://github.com/ExploitCN/CVE-2021-1732-EXP-"
     ]
   },
@@ -47005,8 +47033,10 @@
   },
   {
     "cve_code": "CVE-2016-8858",
-    "description": " ** DISP.UTED ** The kex_input_kexinit function in kex.c in OpenSSH 6.x and 7.x through 7.3 allows remote attackers to cause a denial of service (memory consumption) by sending many duplicate KEXINIT requests.  NOTE: a third party reports that &quot;OpenSSH upstream does not consider this as a security issue.&quot;- [https://github.com/dag-erling/kexkill](https://github.com/dag-erling/kexkill) :  ![starts](https://img.shields.io/github/stars/dag-erling/kexkill.svg) ![forks](https://img.shields.io/github/forks/dag-erling/kexkill.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** The kex_input_kexinit function in kex.c in OpenSSH 6.x and 7.x through 7.3 allows remote attackers to cause a denial of service (memory consumption) by sending many duplicate KEXINIT requests.  NOTE: a third party reports that &quot;OpenSSH upstream does not consider this as a security issue.&quot;.",
+    "poc": [
+      "https://github.com/dag-erling/kexkill"
+    ]
   },
   {
     "cve_code": "CVE-2016-8823",
