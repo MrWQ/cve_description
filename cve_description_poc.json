@@ -2795,8 +2795,10 @@
   },
   {
     "cve_code": "CVE-2024-23743",
-    "description": " ** DISP.UTED ** Notion through 3.1.0 on macOS might allow code execution because of RunAsNode and enableNodeClilnspectArguments. NOTE: the vendor states &quot;the attacker must launch the Notion Desktop application with nonstandard flags that turn the Electron-based application into a Node.js execution environment.&quot;- [https://github.com/giovannipajeu1/CVE-2024-23743](https://github.com/giovannipajeu1/CVE-2024-23743) :  ![starts](https://img.shields.io/github/stars/giovannipajeu1/CVE-2024-23743.svg) ![forks](https://img.shields.io/github/forks/giovannipajeu1/CVE-2024-23743.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** Notion through 3.1.0 on macOS might allow code execution because of RunAsNode and enableNodeClilnspectArguments. NOTE: the vendor states &quot;the attacker must launch the Notion Desktop application with nonstandard flags that turn the Electron-based application into a Node.js execution environment.&quot;.",
+    "poc": [
+      "https://github.com/giovannipajeu1/CVE-2024-23743"
+    ]
   },
   {
     "cve_code": "CVE-2024-23742",
@@ -6001,11 +6003,8 @@
   },
   {
     "cve_code": "CVE-2023-48022",
-    "description": " ** DISP.UTED ** Anyscale Ray 2.6.3 and 2.8.0 allows a remote attacker to execute arbitrary code via the job submission API. NOTE: the vendor's position is that this report is irrelevant because Ray, as stated in its documentation, is not intended for use outside of a strictly controlled network environment.",
-    "poc": [
-      "https://github.com/jakabakos/ShadowRay-RCE-PoC-CVE-2023-48022",
-      "https://github.com/0x656565/CVE-2023-48022"
-    ]
+    "description": " ** DISP.UTED ** Anyscale Ray 2.6.3 and 2.8.0 allows a remote attacker to execute arbitrary code via the job submission API. NOTE: the vendor's position is that this report is irrelevant because Ray, as stated in its documentation, is not intended for use outside of a strictly controlled network environment- [https://github.com/jakabakos/ShadowRay-RCE-PoC-CVE-2023-48022](https://github.com/jakabakos/ShadowRay-RCE-PoC-CVE-2023-48022) :  ![starts](https://img.shields.io/github/stars/jakabakos/ShadowRay-RCE-PoC-CVE-2023-48022.svg) ![forks](https://img.shields.io/github/forks/jakabakos/ShadowRay-RCE-PoC-CVE-2023-48022.svg)- [https://github.com/0x656565/CVE-2023-48022](https://github.com/0x656565/CVE-2023-48022) :  ![starts](https://img.shields.io/github/stars/0x656565/CVE-2023-48022.svg) ![forks](https://img.shields.io/github/forks/0x656565/CVE-2023-48022.svg)",
+    "poc": []
   },
   {
     "cve_code": "CVE-2023-47889",
@@ -8267,8 +8266,10 @@
   },
   {
     "cve_code": "CVE-2023-38817",
-    "description": " ** DISP.UTED ** An issue in Inspect Element Ltd Echo.ac v.5.2.1.0 allows a local attacker to gain privileges via a crafted command to the echo_driver.sys component. NOTE: the vendor's position is that the reported ability for user-mode applications to execute code as NT AUTHORITY\\SYSTEM was &quot;deactivated by Microsoft itself.&quot;- [https://github.com/vxcall/kur](https://github.com/vxcall/kur) :  ![starts](https://img.shields.io/github/stars/vxcall/kur.svg) ![forks](https://img.shields.io/github/forks/vxcall/kur.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** An issue in Inspect Element Ltd Echo.ac v.5.2.1.0 allows a local attacker to gain privileges via a crafted command to the echo_driver.sys component. NOTE: the vendor's position is that the reported ability for user-mode applications to execute code as NT AUTHORITY\\SYSTEM was &quot;deactivated by Microsoft itself.&quot;.",
+    "poc": [
+      "https://github.com/vxcall/kur"
+    ]
   },
   {
     "cve_code": "CVE-2023-38743",
@@ -11669,8 +11670,10 @@
   },
   {
     "cve_code": "CVE-2023-24044",
-    "description": " ** DISP.UTED ** A Host Header Injection issue on the Login page of Plesk Obsidian through 18.0.49 allows attackers to redirect users to malicious websites via a Host request header. NOTE: the vendor's position is &quot;the ability to use arbitrary domain names to access the panel is an intended feature.&quot;- [https://github.com/Cappricio-Securities/CVE-2023-24044](https://github.com/Cappricio-Securities/CVE-2023-24044) :  ![starts](https://img.shields.io/github/stars/Cappricio-Securities/CVE-2023-24044.svg) ![forks](https://img.shields.io/github/forks/Cappricio-Securities/CVE-2023-24044.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** A Host Header Injection issue on the Login page of Plesk Obsidian through 18.0.49 allows attackers to redirect users to malicious websites via a Host request header. NOTE: the vendor's position is &quot;the ability to use arbitrary domain names to access the panel is an intended feature.&quot;.",
+    "poc": [
+      "https://github.com/Cappricio-Securities/CVE-2023-24044"
+    ]
   },
   {
     "cve_code": "CVE-2023-24034",
@@ -15840,8 +15843,10 @@
   },
   {
     "cve_code": "CVE-2022-40297",
-    "description": " ** DISP.UTED ** UBports Ubuntu Touch 16.04 allows the screen-unlock passcode to be used for a privileged shell via Sudo. This passcode is only four digits, far below typical length/complexity for a user account's password. NOTE: a third party states &quot;The described attack cannot be executed as demonstrated.&quot;- [https://github.com/filipkarc/PoC-ubuntutouch-pin-privesc](https://github.com/filipkarc/PoC-ubuntutouch-pin-privesc) :  ![starts](https://img.shields.io/github/stars/filipkarc/PoC-ubuntutouch-pin-privesc.svg) ![forks](https://img.shields.io/github/forks/filipkarc/PoC-ubuntutouch-pin-privesc.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** UBports Ubuntu Touch 16.04 allows the screen-unlock passcode to be used for a privileged shell via Sudo. This passcode is only four digits, far below typical length/complexity for a user account's password. NOTE: a third party states &quot;The described attack cannot be executed as demonstrated.&quot;.",
+    "poc": [
+      "https://github.com/filipkarc/PoC-ubuntutouch-pin-privesc"
+    ]
   },
   {
     "cve_code": "CVE-2022-40146",
@@ -47917,8 +47922,10 @@
   },
   {
     "cve_code": "CVE-2016-8858",
-    "description": " ** DISP.UTED ** The kex_input_kexinit function in kex.c in OpenSSH 6.x and 7.x through 7.3 allows remote attackers to cause a denial of service (memory consumption) by sending many duplicate KEXINIT requests.  NOTE: a third party reports that &quot;OpenSSH upstream does not consider this as a security issue.&quot;- [https://github.com/dag-erling/kexkill](https://github.com/dag-erling/kexkill) :  ![starts](https://img.shields.io/github/stars/dag-erling/kexkill.svg) ![forks](https://img.shields.io/github/forks/dag-erling/kexkill.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** The kex_input_kexinit function in kex.c in OpenSSH 6.x and 7.x through 7.3 allows remote attackers to cause a denial of service (memory consumption) by sending many duplicate KEXINIT requests.  NOTE: a third party reports that &quot;OpenSSH upstream does not consider this as a security issue.&quot;.",
+    "poc": [
+      "https://github.com/dag-erling/kexkill"
+    ]
   },
   {
     "cve_code": "CVE-2016-8823",
@@ -47956,8 +47963,8 @@
       "https://github.com/martinmullins/CVE-2016-8655_Android",
       "https://github.com/LakshmiDesai/CVE-2016-8655",
       "https://github.com/agkunkle/chocobo",
-      "https://github.com/scarvell/cve-2016-8655",
-      "https://github.com/KosukeShimofuji/CVE-2016-8655"
+      "https://github.com/KosukeShimofuji/CVE-2016-8655",
+      "https://github.com/scarvell/cve-2016-8655"
     ]
   },
   {
@@ -49069,8 +49076,8 @@
       "https://github.com/neuschaefer/cve-2016-0728-testbed",
       "https://github.com/fochess/cve_2016_0728",
       "https://github.com/kennetham/cve_2016_0728",
-      "https://github.com/mfer/cve_2016_0728",
       "https://github.com/idl3r/cve-2016-0728",
+      "https://github.com/mfer/cve_2016_0728",
       "https://github.com/sugarvillela/CVE",
       "https://github.com/bjzz/cve_2016_0728_exploit",
       "https://github.com/isnuryusuf/cve_2016_0728",
@@ -52068,8 +52075,8 @@
       "https://github.com/Gill-Singh-A/vsFTP-2.3.4-Remote-Root-Shell-Exploit",
       "https://github.com/0xSojalSec/-CVE-2011-2523",
       "https://github.com/0xSojalSec/CVE-2011-2523",
-      "https://github.com/vaishnavucv/CVE-2011-2523",
       "https://github.com/Gr4ykt/CVE-2011-2523",
+      "https://github.com/vaishnavucv/CVE-2011-2523",
       "https://github.com/XiangSi-Howard/CTF---CVE-2011-2523",
       "https://github.com/Shubham-2k1/Exploit-CVE-2011-2523",
       "https://github.com/Tenor-Z/SmileySploit",
@@ -52828,8 +52835,8 @@
       "https://github.com/xlcc4096/exploit-CVE-2007-2447",
       "https://github.com/Juantos/cve-2007-2447",
       "https://github.com/0xTabun/CVE-2007-2447",
-      "https://github.com/testaross4/CVE-2007-2447",
       "https://github.com/0xConstant/CVE-2007-2447",
+      "https://github.com/testaross4/CVE-2007-2447",
       "https://github.com/JoseBarrios/CVE-2007-2447",
       "https://github.com/cherrera0001/CVE-2007-2447",
       "https://github.com/b1fair/smb_usermap",
