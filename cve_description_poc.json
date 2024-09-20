@@ -8776,8 +8776,10 @@
   },
   {
     "cve_code": "CVE-2023-38817",
-    "description": " ** DISP.UTED ** An issue in Inspect Element Ltd Echo.ac v.5.2.1.0 allows a local attacker to gain privileges via a crafted command to the echo_driver.sys component. NOTE: the vendor's position is that the reported ability for user-mode applications to execute code as NT AUTHORITY\\SYSTEM was &quot;deactivated by Microsoft itself.&quot;- [https://github.com/vxcall/kur](https://github.com/vxcall/kur) :  ![starts](https://img.shields.io/github/stars/vxcall/kur.svg) ![forks](https://img.shields.io/github/forks/vxcall/kur.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** An issue in Inspect Element Ltd Echo.ac v.5.2.1.0 allows a local attacker to gain privileges via a crafted command to the echo_driver.sys component. NOTE: the vendor's position is that the reported ability for user-mode applications to execute code as NT AUTHORITY\\SYSTEM was &quot;deactivated by Microsoft itself.&quot;.",
+    "poc": [
+      "https://github.com/vxcall/kur"
+    ]
   },
   {
     "cve_code": "CVE-2023-38743",
@@ -15184,8 +15186,11 @@
   },
   {
     "cve_code": "CVE-2022-46463",
-    "description": " ** DISP.UTED ** An access control issue in Harbor v1.X.X to v2.5.3 allows attackers to access public and private image repositories without authentication. NOTE: the vendor's position is that this &quot;is clearly described in the documentation as a feature.&quot;- [https://github.com/nu0l/CVE-2022-46463](https://github.com/nu0l/CVE-2022-46463) :  ![starts](https://img.shields.io/github/stars/nu0l/CVE-2022-46463.svg) ![forks](https://img.shields.io/github/forks/nu0l/CVE-2022-46463.svg)- [https://github.com/404tk/CVE-2022-46463](https://github.com/404tk/CVE-2022-46463) :  ![starts](https://img.shields.io/github/stars/404tk/CVE-2022-46463.svg) ![forks](https://img.shields.io/github/forks/404tk/CVE-2022-46463.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** An access control issue in Harbor v1.X.X to v2.5.3 allows attackers to access public and private image repositories without authentication. NOTE: the vendor's position is that this &quot;is clearly described in the documentation as a feature.&quot;.",
+    "poc": [
+      "https://github.com/nu0l/CVE-2022-46463",
+      "https://github.com/404tk/CVE-2022-46463"
+    ]
   },
   {
     "cve_code": "CVE-2022-46395",
@@ -26378,10 +26383,8 @@
   },
   {
     "cve_code": "CVE-2021-29200",
-    "description": " Apache OFBiz has unsafe deserialization prior to 17.12.07 version. An unauthenticated user can perform an RCE attack.",
-    "poc": [
-      "https://github.com/freeide/CVE-2021-29200"
-    ]
+    "description": " Apache OFBiz has unsafe deserialization prior to 17.12.07 version. An unauthenticated user can perform an RCE attack- [https://github.com/freeide/CVE-2021-29200](https://github.com/freeide/CVE-2021-29200) :  ![starts](https://img.shields.io/github/stars/freeide/CVE-2021-29200.svg) ![forks](https://img.shields.io/github/forks/freeide/CVE-2021-29200.svg)",
+    "poc": []
   },
   {
     "cve_code": "CVE-2021-29156",
@@ -31614,8 +31617,12 @@
   },
   {
     "cve_code": "CVE-2020-15778",
-    "description": " ** DISP.UTED ** scp in OpenSSH through 8.3p1 allows command injection in the scp.c toremote function, as demonstrated by backtick characters in the destination argument. NOTE: the vendor reportedly has stated that they intentionally omit validation of &quot;anomalous argument transfers&quot; because that could &quot;stand a great chance of breaking existing workflows.&quot;- [https://github.com/cpandya2909/CVE-2020-15778](https://github.com/cpandya2909/CVE-2020-15778) :  ![starts](https://img.shields.io/github/stars/cpandya2909/CVE-2020-15778.svg) ![forks](https://img.shields.io/github/forks/cpandya2909/CVE-2020-15778.svg)- [https://github.com/Neko-chanQwQ/CVE-2020-15778-Exploit](https://github.com/Neko-chanQwQ/CVE-2020-15778-Exploit) :  ![starts](https://img.shields.io/github/stars/Neko-chanQwQ/CVE-2020-15778-Exploit.svg) ![forks](https://img.shields.io/github/forks/Neko-chanQwQ/CVE-2020-15778-Exploit.svg)- [https://github.com/Evan-Zhangyf/CVE-2020-15778](https://github.com/Evan-Zhangyf/CVE-2020-15778) :  ![starts](https://img.shields.io/github/stars/Evan-Zhangyf/CVE-2020-15778.svg) ![forks](https://img.shields.io/github/forks/Evan-Zhangyf/CVE-2020-15778.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** scp in OpenSSH through 8.3p1 allows command injection in the scp.c toremote function, as demonstrated by backtick characters in the destination argument. NOTE: the vendor reportedly has stated that they intentionally omit validation of &quot;anomalous argument transfers&quot; because that could &quot;stand a great chance of breaking existing workflows.&quot;.",
+    "poc": [
+      "https://github.com/cpandya2909/CVE-2020-15778",
+      "https://github.com/Neko-chanQwQ/CVE-2020-15778-Exploit",
+      "https://github.com/Evan-Zhangyf/CVE-2020-15778"
+    ]
   },
   {
     "cve_code": "CVE-2020-15589",
@@ -32721,10 +32728,8 @@
   },
   {
     "cve_code": "CVE-2020-11710",
-    "description": " ** DISP.UTED ** An issue was discovered in docker-kong (for Kong) through 2.0.3. The admin API port may be accessible on interfaces other than 127.0.0.1. NOTE: The vendor argue that this CVE is not a vulnerability because it has an inaccurate bug scope and patch links. &#8220;1) Inaccurate Bug Scope - The issue scope was on Kong's docker-compose template, and not Kong's docker image itself. In reality, this issue is not associated with any version of the Kong gateway. As such, the description stating &#8216;An issue was discovered in docker-kong (for Kong) through 2.0.3.&#8217; is incorrect. This issue only occurs if a user decided to spin up Kong via docker-compose without following the security documentation. The docker-compose template is meant for users to quickly get started with Kong, and is meant for development purposes only. 2) Incorrect Patch Links - The CVE currently points to a documentation improvement as a &#8220;Patch&#8221; link: https://github.com/Kong/docs.konghq.com/commit/d693827c32144943a2f45abc017c1321b33ff611.This link actually points to an improvement Kong Inc made for fool-proofing. However, instructions for how to protect the admin API were already well-documented here: https://docs.konghq.com/2.0.x/secure-admin-api/#network-layer-access-restrictions , which was first published back in 2017 (as shown in this commit: https://github.com/Kong/docs.konghq.com/commit/e99cf875d875dd84fdb751079ac37882c9972949) Lastly, the hyperlink to https://github.com/Kong/kong (an unrelated Github Repo to this issue) on the Hyperlink list does not include any meaningful information on this topic.&#8221;.",
-    "poc": [
-      "https://github.com/RandomRobbieBF/kong-pwn"
-    ]
+    "description": " ** DISP.UTED ** An issue was discovered in docker-kong (for Kong) through 2.0.3. The admin API port may be accessible on interfaces other than 127.0.0.1. NOTE: The vendor argue that this CVE is not a vulnerability because it has an inaccurate bug scope and patch links. &#8220;1) Inaccurate Bug Scope - The issue scope was on Kong's docker-compose template, and not Kong's docker image itself. In reality, this issue is not associated with any version of the Kong gateway. As such, the description stating &#8216;An issue was discovered in docker-kong (for Kong) through 2.0.3.&#8217; is incorrect. This issue only occurs if a user decided to spin up Kong via docker-compose without following the security documentation. The docker-compose template is meant for users to quickly get started with Kong, and is meant for development purposes only. 2) Incorrect Patch Links - The CVE currently points to a documentation improvement as a &#8220;Patch&#8221; link: https://github.com/Kong/docs.konghq.com/commit/d693827c32144943a2f45abc017c1321b33ff611.This link actually points to an improvement Kong Inc made for fool-proofing. However, instructions for how to protect the admin API were already well-documented here: https://docs.konghq.com/2.0.x/secure-admin-api/#network-layer-access-restrictions , which was first published back in 2017 (as shown in this commit: https://github.com/Kong/docs.konghq.com/commit/e99cf875d875dd84fdb751079ac37882c9972949) Lastly, the hyperlink to https://github.com/Kong/kong (an unrelated Github Repo to this issue) on the Hyperlink list does not include any meaningful information on this topic.&#8221;- [https://github.com/RandomRobbieBF/kong-pwn](https://github.com/RandomRobbieBF/kong-pwn) :  ![starts](https://img.shields.io/github/stars/RandomRobbieBF/kong-pwn.svg) ![forks](https://img.shields.io/github/forks/RandomRobbieBF/kong-pwn.svg)",
+    "poc": []
   },
   {
     "cve_code": "CVE-2020-11652",
@@ -49502,8 +49507,8 @@
     "description": " The kernel in Apple iOS before 9.3.2, OS X before 10.11.5, tvOS before 9.2.1, and watchOS before 2.2.1 allows attackers to execute arbitrary code in a privileged context or cause a denial of service (memory corruption) via a crafted app, a different vulnerability than CVE-2016-1827, CVE-2016-1829, and CVE-2016-1830.",
     "poc": [
       "https://github.com/bazad/rootsh",
-      "https://github.com/berritus163t/bazad5",
       "https://github.com/zqlblingzs/bazad5",
+      "https://github.com/berritus163t/bazad5",
       "https://github.com/SideGreenHand100/bazad5"
     ]
   },
@@ -50636,8 +50641,8 @@
       "https://github.com/aedoo/CVE-2015-1635-POC",
       "https://github.com/Zx7ffa4512-Python/Project-CVE-2015-1635",
       "https://github.com/N3rdyN3xus/CVE-2015-1635-POC",
-      "https://github.com/bongbongco/MS15-034",
       "https://github.com/neu5ron/cve_2015-1635",
+      "https://github.com/bongbongco/MS15-034",
       "https://github.com/limkokholefork/CVE-2015-1635",
       "https://github.com/w01ke/CVE-2015-1635-POC",
       "https://github.com/u0pattern/Remove-IIS-RIIS",
@@ -51172,16 +51177,16 @@
       "https://github.com/Pilou-Pilou/docker_CVE-2014-6271.",
       "https://github.com/cyberharsh/Shellbash-CVE-2014-6271",
       "https://github.com/ilismal/Nessus_CVE-2014-6271_check",
-      "https://github.com/kelleykong/cve-2014-6271-mengjia-kong",
       "https://github.com/w4fz5uck5/ShockZaum-CVE-2014-6271",
+      "https://github.com/kelleykong/cve-2014-6271-mengjia-kong",
       "https://github.com/jblaine/cookbook-bash-CVE-2014-6271",
       "https://github.com/huanlu/cve-2014-6271-huan-lu",
       "https://github.com/ryancnelson/patched-bash-4.3",
       "https://github.com/Sindayifu/CVE-2019-14287-CVE-2014-6271",
       "https://github.com/TheRealCiscoo/Shellshock",
       "https://github.com/anujbhan/shellshock-victim-host",
-      "https://github.com/u20024804/bash-3.2-fixed-CVE-2014-6271",
       "https://github.com/renanvicente/puppet-shellshock",
+      "https://github.com/u20024804/bash-3.2-fixed-CVE-2014-6271",
       "https://github.com/u20024804/bash-4.2-fixed-CVE-2014-6271",
       "https://github.com/u20024804/bash-4.3-fixed-CVE-2014-6271",
       "https://github.com/FilipStudeny/-CVE-2014-6271-Shellshock-Remote-Command-Injection-",
@@ -51766,8 +51771,8 @@
       "https://github.com/froyo75/Heartbleed_Dockerfile_with_Nginx",
       "https://github.com/artofscripting-zz/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS",
       "https://github.com/indiw0rm/-Heartbleed-",
-      "https://github.com/WildfootW/CVE-2014-0160_OpenSSL_1.0.1f_Heartbleed",
       "https://github.com/takeshixx/ssl-heartbleed.nse",
+      "https://github.com/WildfootW/CVE-2014-0160_OpenSSL_1.0.1f_Heartbleed",
       "https://github.com/rouze-d/heartbleed",
       "https://github.com/roganartu/heartbleedchecker-chrome",
       "https://github.com/iSCInc/heartbleed",
@@ -52006,8 +52011,8 @@
     "cve_code": "CVE-2013-3664",
     "description": " Trimble SketchUp (formerly Google SketchUp) before 2013 (13.0.3689) allows remote attackers to execute arbitrary code via a crafted color palette table in a MAC Pict texture, which triggers an out-of-bounds stack write.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2013-3662.  NOTE: this issue was SPLIT due to different affected products and codebases (ADT1); CVE-2013-7388 has been assigned to the paintlib issue.",
     "poc": [
-      "https://github.com/defrancescojp/CVE-2013-3664_MAC",
-      "https://github.com/defrancescojp/CVE-2013-3664_BMP"
+      "https://github.com/defrancescojp/CVE-2013-3664_BMP",
+      "https://github.com/defrancescojp/CVE-2013-3664_MAC"
     ]
   },
   {
@@ -52463,8 +52468,8 @@
       "https://github.com/AlexJS6/CVE-2012-2982_Python",
       "https://github.com/Ari-Weinberg/CVE-2012-2982",
       "https://github.com/blu3ming/CVE-2012-2982",
-      "https://github.com/CpyRe/CVE-2012-2982",
       "https://github.com/wizardy0ga/CVE_2012-2982",
+      "https://github.com/CpyRe/CVE-2012-2982",
       "https://github.com/elliotosama/CVE-2012-2982",
       "https://github.com/R00tendo/CVE-2012-2982",
       "https://github.com/0xF331-D3AD/CVE-2012-2982",
@@ -53458,20 +53463,20 @@
       "https://github.com/N3rdyN3xus/CVE-2007-2447",
       "https://github.com/xbufu/CVE-2007-2447",
       "https://github.com/ozuma/CVE-2007-2447",
-      "https://github.com/s4msec/CVE-2007-2447",
       "https://github.com/3x1t1um/CVE-2007-2447",
       "https://github.com/Aviksaikat/CVE-2007-2447",
+      "https://github.com/s4msec/CVE-2007-2447",
       "https://github.com/Nosferatuvjr/Samba-Usermap-exploit",
       "https://github.com/mr-l0n3lly/CVE-2007-2447",
       "https://github.com/0xKn/CVE-2007-2447",
+      "https://github.com/G01d3nW01f/CVE-2007-2447",
       "https://github.com/xlcc4096/exploit-CVE-2007-2447",
       "https://github.com/testaross4/CVE-2007-2447",
       "https://github.com/0xConstant/CVE-2007-2447",
-      "https://github.com/G01d3nW01f/CVE-2007-2447",
-      "https://github.com/Juantos/cve-2007-2447",
       "https://github.com/0xTabun/CVE-2007-2447",
       "https://github.com/cherrera0001/CVE-2007-2447",
       "https://github.com/JoseBarrios/CVE-2007-2447",
+      "https://github.com/Juantos/cve-2007-2447",
       "https://github.com/b1fair/smb_usermap",
       "https://github.com/bdunlap9/CVE-2007-2447_python",
       "https://github.com/MikeRega7/CVE-2007-2447-RCE",
