@@ -12452,8 +12452,10 @@
   },
   {
     "cve_code": "CVE-2023-24044",
-    "description": " ** DISP.UTED ** A Host Header Injection issue on the Login page of Plesk Obsidian through 18.0.49 allows attackers to redirect users to malicious websites via a Host request header. NOTE: the vendor's position is &quot;the ability to use arbitrary domain names to access the panel is an intended feature.&quot;- [https://github.com/Cappricio-Securities/CVE-2023-24044](https://github.com/Cappricio-Securities/CVE-2023-24044) :  ![starts](https://img.shields.io/github/stars/Cappricio-Securities/CVE-2023-24044.svg) ![forks](https://img.shields.io/github/forks/Cappricio-Securities/CVE-2023-24044.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** A Host Header Injection issue on the Login page of Plesk Obsidian through 18.0.49 allows attackers to redirect users to malicious websites via a Host request header. NOTE: the vendor's position is &quot;the ability to use arbitrary domain names to access the panel is an intended feature.&quot;.",
+    "poc": [
+      "https://github.com/Cappricio-Securities/CVE-2023-24044"
+    ]
   },
   {
     "cve_code": "CVE-2023-24034",
@@ -25880,10 +25882,8 @@
   },
   {
     "cve_code": "CVE-2021-34481",
-    "description": " &lt;p&gt;A remote code execution vulnerability exists when the Windows Print Spooler service improperly performs privileged file operations. An attacker who successfully exploited this vulnerability could run arbitrary code with SYSTEM privileges. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.&lt;/p&gt;. &lt;p&gt;&lt;strong&gt;UPDATE&lt;/strong&gt; August 10, 2021: Microsoft has completed the investigation and has released security updates to address this vulnerability. Please see the Security Updates table for the applicable update for your system. We recommend that you install these updates immediately. This security update changes the Point and Print default behavior; please see &lt;a href=&quot;https://support.microsoft.com/help/5005652&quot;&gt;KB5005652&lt;/a&gt;.&lt;/p&gt;.",
-    "poc": [
-      "https://github.com/vpn28/CVE-2021-34481"
-    ]
+    "description": " &lt;p&gt;A remote code execution vulnerability exists when the Windows Print Spooler service improperly performs privileged file operations. An attacker who successfully exploited this vulnerability could run arbitrary code with SYSTEM privileges. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.&lt;/p&gt;. &lt;p&gt;&lt;strong&gt;UPDATE&lt;/strong&gt; August 10, 2021: Microsoft has completed the investigation and has released security updates to address this vulnerability. Please see the Security Updates table for the applicable update for your system. We recommend that you install these updates immediately. This security update changes the Point and Print default behavior; please see &lt;a href=&quot;https://support.microsoft.com/help/5005652&quot;&gt;KB5005652&lt;/a&gt;.&lt;/p&gt;- [https://github.com/vpn28/CVE-2021-34481](https://github.com/vpn28/CVE-2021-34481) :  ![starts](https://img.shields.io/github/stars/vpn28/CVE-2021-34481.svg) ![forks](https://img.shields.io/github/forks/vpn28/CVE-2021-34481.svg)",
+    "poc": []
   },
   {
     "cve_code": "CVE-2021-34473",
@@ -26703,10 +26703,8 @@
   },
   {
     "cve_code": "CVE-2021-29200",
-    "description": " Apache OFBiz has unsafe deserialization prior to 17.12.07 version. An unauthenticated user can perform an RCE attack.",
-    "poc": [
-      "https://github.com/freeide/CVE-2021-29200"
-    ]
+    "description": " Apache OFBiz has unsafe deserialization prior to 17.12.07 version. An unauthenticated user can perform an RCE attack- [https://github.com/freeide/CVE-2021-29200](https://github.com/freeide/CVE-2021-29200) :  ![starts](https://img.shields.io/github/stars/freeide/CVE-2021-29200.svg) ![forks](https://img.shields.io/github/forks/freeide/CVE-2021-29200.svg)",
+    "poc": []
   },
   {
     "cve_code": "CVE-2021-29156",
@@ -30089,8 +30087,10 @@
   },
   {
     "cve_code": "CVE-2020-36079",
-    "description": " ** DISP.UTED ** Zenphoto through 1.5.7 is affected by authenticated arbitrary file upload, leading to remote code execution. The attacker must navigate to the uploader plugin, check the elFinder box, and then drag and drop files into the Files(elFinder) portion of the UI. This can, for example, place a .php file in the server's uploaded/ directory. NOTE: the vendor disputes this because exploitation can only be performed by an admin who has &quot;lots of other possibilities to harm a site.&quot;- [https://github.com/azizalshammari/CVE-2020-36079.](https://github.com/azizalshammari/CVE-2020-36079.) :  ![starts](https://img.shields.io/github/stars/azizalshammari/CVE-2020-36079..svg) ![forks](https://img.shields.io/github/forks/azizalshammari/CVE-2020-36079..svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** Zenphoto through 1.5.7 is affected by authenticated arbitrary file upload, leading to remote code execution. The attacker must navigate to the uploader plugin, check the elFinder box, and then drag and drop files into the Files(elFinder) portion of the UI. This can, for example, place a .php file in the server's uploaded/ directory. NOTE: the vendor disputes this because exploitation can only be performed by an admin who has &quot;lots of other possibilities to harm a site.&quot;.",
+    "poc": [
+      "https://github.com/azizalshammari/CVE-2020-36079."
+    ]
   },
   {
     "cve_code": "CVE-2020-35848",
@@ -31949,8 +31949,12 @@
   },
   {
     "cve_code": "CVE-2020-15778",
-    "description": " ** DISP.UTED ** scp in OpenSSH through 8.3p1 allows command injection in the scp.c toremote function, as demonstrated by backtick characters in the destination argument. NOTE: the vendor reportedly has stated that they intentionally omit validation of &quot;anomalous argument transfers&quot; because that could &quot;stand a great chance of breaking existing workflows.&quot;- [https://github.com/cpandya2909/CVE-2020-15778](https://github.com/cpandya2909/CVE-2020-15778) :  ![starts](https://img.shields.io/github/stars/cpandya2909/CVE-2020-15778.svg) ![forks](https://img.shields.io/github/forks/cpandya2909/CVE-2020-15778.svg)- [https://github.com/Neko-chanQwQ/CVE-2020-15778-Exploit](https://github.com/Neko-chanQwQ/CVE-2020-15778-Exploit) :  ![starts](https://img.shields.io/github/stars/Neko-chanQwQ/CVE-2020-15778-Exploit.svg) ![forks](https://img.shields.io/github/forks/Neko-chanQwQ/CVE-2020-15778-Exploit.svg)- [https://github.com/Evan-Zhangyf/CVE-2020-15778](https://github.com/Evan-Zhangyf/CVE-2020-15778) :  ![starts](https://img.shields.io/github/stars/Evan-Zhangyf/CVE-2020-15778.svg) ![forks](https://img.shields.io/github/forks/Evan-Zhangyf/CVE-2020-15778.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** scp in OpenSSH through 8.3p1 allows command injection in the scp.c toremote function, as demonstrated by backtick characters in the destination argument. NOTE: the vendor reportedly has stated that they intentionally omit validation of &quot;anomalous argument transfers&quot; because that could &quot;stand a great chance of breaking existing workflows.&quot;.",
+    "poc": [
+      "https://github.com/cpandya2909/CVE-2020-15778",
+      "https://github.com/Neko-chanQwQ/CVE-2020-15778-Exploit",
+      "https://github.com/Evan-Zhangyf/CVE-2020-15778"
+    ]
   },
   {
     "cve_code": "CVE-2020-15589",
@@ -32437,8 +32441,10 @@
   },
   {
     "cve_code": "CVE-2020-14144",
-    "description": " ** DISP.UTED ** The git hook feature in Gitea 1.1.0 through 1.12.5 might allow for authenticated remote code execution in customer environments where the documentation was not understood (e.g., one viewpoint is that the dangerousness of this feature should be documented immediately above the ENABLE_GIT_HOOKS line in the config file). NOTE: The vendor has indicated this is not a vulnerability and states &quot;This is a functionality of the software that is limited to a very limited subset of accounts. If you give someone the privilege to execute arbitrary code on your server, they can execute arbitrary code on your server. We provide very clear warnings to users around this functionality and what it provides.&quot;- [https://github.com/p0dalirius/CVE-2020-14144-GiTea-git-hooks-rce](https://github.com/p0dalirius/CVE-2020-14144-GiTea-git-hooks-rce) :  ![starts](https://img.shields.io/github/stars/p0dalirius/CVE-2020-14144-GiTea-git-hooks-rce.svg) ![forks](https://img.shields.io/github/forks/p0dalirius/CVE-2020-14144-GiTea-git-hooks-rce.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** The git hook feature in Gitea 1.1.0 through 1.12.5 might allow for authenticated remote code execution in customer environments where the documentation was not understood (e.g., one viewpoint is that the dangerousness of this feature should be documented immediately above the ENABLE_GIT_HOOKS line in the config file). NOTE: The vendor has indicated this is not a vulnerability and states &quot;This is a functionality of the software that is limited to a very limited subset of accounts. If you give someone the privilege to execute arbitrary code on your server, they can execute arbitrary code on your server. We provide very clear warnings to users around this functionality and what it provides.&quot;.",
+    "poc": [
+      "https://github.com/p0dalirius/CVE-2020-14144-GiTea-git-hooks-rce"
+    ]
   },
   {
     "cve_code": "CVE-2020-14066",
@@ -46522,8 +46528,8 @@
       "https://github.com/ppapadatis/python-janus-vulnerability-scan",
       "https://github.com/M507/CVE-2017-13156",
       "https://github.com/nahid0x1/Janus-Vulnerability-CVE-2017-13156-Exploit",
-      "https://github.com/caxmd/CVE-2017-13156",
-      "https://github.com/entediado97/rosa_dex_injetor"
+      "https://github.com/entediado97/rosa_dex_injetor",
+      "https://github.com/caxmd/CVE-2017-13156"
     ]
   },
   {
@@ -47037,8 +47043,8 @@
       "https://github.com/incogbyte/laravel-phpunit-rce-masscaner",
       "https://github.com/ludy-dev/PHPUnit_eval-stdin_RCE",
       "https://github.com/MadExploits/PHPunit-Exploit",
-      "https://github.com/Chocapikk/CVE-2017-9841",
       "https://github.com/MrG3P5/CVE-2017-9841",
+      "https://github.com/Chocapikk/CVE-2017-9841",
       "https://github.com/akr3ch/CVE-2017-9841",
       "https://github.com/p1ckzi/CVE-2017-9841",
       "https://github.com/Jhonsonwannaa/CVE-2017-9841-",
@@ -47488,8 +47494,8 @@
       "https://github.com/kooroshsanaei/HikVision-CVE-2017-7921",
       "https://github.com/yousouf-Tasfin/cve-2017-7921-Mass-Exploit",
       "https://github.com/krypton612/hikivision",
-      "https://github.com/fracergu/CVE-2017-7921",
       "https://github.com/b3pwn3d/CVE-2017-7921",
+      "https://github.com/fracergu/CVE-2017-7921",
       "https://github.com/inj3ction/CVE-2017-7921-EXP",
       "https://github.com/p4tq/hikvision_CVE-2017-7921_auth_bypass_config_decryptor",
       "https://github.com/AnonkiGroup/AnonHik"
@@ -48495,8 +48501,8 @@
       "https://github.com/joke998/Cve-2017-0199",
       "https://github.com/viethdgit/CVE-2017-0199",
       "https://github.com/BRAINIAC22/CVE-2017-0199",
-      "https://github.com/likescam/CVE-2017-0199",
       "https://github.com/kash-123/CVE-2017-0199",
+      "https://github.com/likescam/CVE-2017-0199",
       "https://github.com/ryhanson/CVE-2017-0199",
       "https://github.com/Winter3un/cve_2017_0199",
       "https://github.com/stealth-ronin/CVE-2017-0199-PY-KIT",
@@ -48532,8 +48538,8 @@
       "https://github.com/peterpt/eternal_scanner",
       "https://github.com/EEsshq/CVE-2017-0144---EtneralBlue-MS17-010-Remote-Code-Execution",
       "https://github.com/kimocoder/eternalblue",
-      "https://github.com/quynhold/Detect-CVE-2017-0144-attack",
       "https://github.com/ducanh2oo3/Vulnerability-Research-CVE-2017-0144",
+      "https://github.com/quynhold/Detect-CVE-2017-0144-attack",
       "https://github.com/AnugiArrawwala/CVE-Research",
       "https://github.com/DenuwanJayasekara/CVE-Exploitation-Reports"
     ]
@@ -49335,8 +49341,8 @@
       "https://github.com/LinuxKernelContent/DirtyCow",
       "https://github.com/arttnba3/CVE-2016-5195",
       "https://github.com/TotallyNotAHaxxer/CVE-2016-5195",
-      "https://github.com/ASRTeam/CVE-2016-5195",
       "https://github.com/DanielEbert/CVE-2016-5195",
+      "https://github.com/ASRTeam/CVE-2016-5195",
       "https://github.com/titanhp/Dirty-COW-CVE-2016-5195-Testing",
       "https://github.com/FloridSleeves/os-experiment-4",
       "https://github.com/th3-5had0w/DirtyCOW-PoC",
@@ -49672,8 +49678,8 @@
       "https://github.com/Ma1Dong/ActiveMQ_putshell-CVE-2016-3088",
       "https://github.com/cyberaguiar/CVE-2016-3088",
       "https://github.com/cl4ym0re/CVE-2016-3088",
-      "https://github.com/vonderchild/CVE-2016-3088",
-      "https://github.com/pudiding/CVE-2016-3088"
+      "https://github.com/pudiding/CVE-2016-3088",
+      "https://github.com/vonderchild/CVE-2016-3088"
     ]
   },
   {
@@ -50168,6 +50174,13 @@
     "description": " jQuery before 3.0.0 is vulnerable to Cross-site Scripting (XSS) attacks when a cross-domain Ajax request is performed without the dataType option, causing text/javascript responses to be executed.",
     "poc": [
       "https://github.com/halkichi0308/CVE-2015-9251"
+    ]
+  },
+  {
+    "cve_code": "CVE-2015-9238",
+    "description": " secure-compare 3.0.0 and below do not actually compare two strings properly. compare was actually comparing the first argument with itself, meaning the check passed for any two strings of the same length.",
+    "poc": [
+      "https://github.com/JamesDarf/wargame-secure_compare"
     ]
   },
   {
@@ -51501,9 +51514,9 @@
       "https://github.com/Dilith006/CVE-2014-6271",
       "https://github.com/mritunjay-k/CVE-2014-6271",
       "https://github.com/Jsmoreira02/CVE-2014-6271",
-      "https://github.com/Brandaoo/CVE-2014-6271",
       "https://github.com/Aruthw/CVE-2014-6271",
       "https://github.com/kowshik-sundararajan/CVE-2014-6271",
+      "https://github.com/Brandaoo/CVE-2014-6271",
       "https://github.com/woltage/CVE-2014-6271",
       "https://github.com/0xTabun/CVE-2014-6271",
       "https://github.com/rashmikadileeshara/CVE-2014-6271-Shellshock-",
@@ -51519,8 +51532,8 @@
       "https://github.com/jblaine/cookbook-bash-CVE-2014-6271",
       "https://github.com/huanlu/cve-2014-6271-huan-lu",
       "https://github.com/ryancnelson/patched-bash-4.3",
-      "https://github.com/Sindayifu/CVE-2019-14287-CVE-2014-6271",
       "https://github.com/TheRealCiscoo/Shellshock",
+      "https://github.com/Sindayifu/CVE-2019-14287-CVE-2014-6271",
       "https://github.com/anujbhan/shellshock-victim-host",
       "https://github.com/renanvicente/puppet-shellshock",
       "https://github.com/u20024804/bash-3.2-fixed-CVE-2014-6271",
@@ -52062,8 +52075,8 @@
       "https://github.com/mpgn/heartbleed-PoC",
       "https://github.com/isgroup/openmagic",
       "https://github.com/jdauphant/patch-openssl-CVE-2014-0160",
-      "https://github.com/OffensivePython/HeartLeak",
       "https://github.com/DisK0nn3cT/MaltegoHeartbleed",
+      "https://github.com/OffensivePython/HeartLeak",
       "https://github.com/hmlio/vaas-cve-2014-0160",
       "https://github.com/hybridus/heartbleedscanner",
       "https://github.com/DominikTo/bleed",
@@ -52081,7 +52094,7 @@
       "https://github.com/GuillermoEscobero/heartbleed",
       "https://github.com/amerine/coronary",
       "https://github.com/GardeniaWhite/fuzzing",
-      "https://github.com/BelminD/heartbleed",
+      "https://github.com/belmind/heartbleed",
       "https://github.com/Saymeis/HeartBleed",
       "https://github.com/vortextube/ssl_scanner",
       "https://github.com/Xyl2k/CVE-2014-0160-Chrome-Plugin",
@@ -52809,8 +52822,8 @@
       "https://github.com/CpyRe/CVE-2012-2982",
       "https://github.com/elliotosama/CVE-2012-2982",
       "https://github.com/wizardy0ga/CVE_2012-2982",
-      "https://github.com/R00tendo/CVE-2012-2982",
       "https://github.com/0xF331-D3AD/CVE-2012-2982",
+      "https://github.com/R00tendo/CVE-2012-2982",
       "https://github.com/Shadow-Spinner/CVE-2012-2982_python"
     ]
   },
@@ -53810,11 +53823,11 @@
       "https://github.com/xlcc4096/exploit-CVE-2007-2447",
       "https://github.com/G01d3nW01f/CVE-2007-2447",
       "https://github.com/testaross4/CVE-2007-2447",
-      "https://github.com/cherrera0001/CVE-2007-2447",
       "https://github.com/0xConstant/CVE-2007-2447",
+      "https://github.com/Juantos/cve-2007-2447",
+      "https://github.com/cherrera0001/CVE-2007-2447",
       "https://github.com/0xTabun/CVE-2007-2447",
       "https://github.com/JoseBarrios/CVE-2007-2447",
-      "https://github.com/Juantos/cve-2007-2447",
       "https://github.com/b1fair/smb_usermap",
       "https://github.com/bdunlap9/CVE-2007-2447_python",
       "https://github.com/MikeRega7/CVE-2007-2447-RCE",
@@ -54125,6 +54138,13 @@
     "description": " Buffer overflow in openlog function for PHP 4.3.1 on Windows operating system, and possibly other OSes, allows remote attackers to cause a crash and possibly execute arbitrary code via a long filename argument.",
     "poc": [
       "https://github.com/cyberdesu/Remote-Buffer-overflow-CVE-2003-0172"
+    ]
+  },
+  {
+    "cve_code": "CVE-2003-0001",
+    "description": " Multiple ethernet Network Interface Card (NIC) device drivers do not pad frames with null bytes, which allows remote attackers to obtain information from previous packets or kernel memory by using malformed packets, as demonstrated by Etherleak.",
+    "poc": [
+      "https://github.com/marb08/etherleak-checker"
     ]
   },
   {
