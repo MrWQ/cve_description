@@ -9124,8 +9124,10 @@
   },
   {
     "cve_code": "CVE-2023-38817",
-    "description": " ** DISP.UTED ** An issue in Inspect Element Ltd Echo.ac v.5.2.1.0 allows a local attacker to gain privileges via a crafted command to the echo_driver.sys component. NOTE: the vendor's position is that the reported ability for user-mode applications to execute code as NT AUTHORITY\\SYSTEM was &quot;deactivated by Microsoft itself.&quot;- [https://github.com/vxcall/kur](https://github.com/vxcall/kur) :  ![starts](https://img.shields.io/github/stars/vxcall/kur.svg) ![forks](https://img.shields.io/github/forks/vxcall/kur.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** An issue in Inspect Element Ltd Echo.ac v.5.2.1.0 allows a local attacker to gain privileges via a crafted command to the echo_driver.sys component. NOTE: the vendor's position is that the reported ability for user-mode applications to execute code as NT AUTHORITY\\SYSTEM was &quot;deactivated by Microsoft itself.&quot;.",
+    "poc": [
+      "https://github.com/vxcall/kur"
+    ]
   },
   {
     "cve_code": "CVE-2023-38743",
@@ -32604,10 +32606,8 @@
   },
   {
     "cve_code": "CVE-2020-14144",
-    "description": " ** DISP.UTED ** The git hook feature in Gitea 1.1.0 through 1.12.5 might allow for authenticated remote code execution in customer environments where the documentation was not understood (e.g., one viewpoint is that the dangerousness of this feature should be documented immediately above the ENABLE_GIT_HOOKS line in the config file). NOTE: The vendor has indicated this is not a vulnerability and states &quot;This is a functionality of the software that is limited to a very limited subset of accounts. If you give someone the privilege to execute arbitrary code on your server, they can execute arbitrary code on your server. We provide very clear warnings to users around this functionality and what it provides.&quot;.",
-    "poc": [
-      "https://github.com/p0dalirius/CVE-2020-14144-GiTea-git-hooks-rce"
-    ]
+    "description": " ** DISP.UTED ** The git hook feature in Gitea 1.1.0 through 1.12.5 might allow for authenticated remote code execution in customer environments where the documentation was not understood (e.g., one viewpoint is that the dangerousness of this feature should be documented immediately above the ENABLE_GIT_HOOKS line in the config file). NOTE: The vendor has indicated this is not a vulnerability and states &quot;This is a functionality of the software that is limited to a very limited subset of accounts. If you give someone the privilege to execute arbitrary code on your server, they can execute arbitrary code on your server. We provide very clear warnings to users around this functionality and what it provides.&quot;- [https://github.com/p0dalirius/CVE-2020-14144-GiTea-git-hooks-rce](https://github.com/p0dalirius/CVE-2020-14144-GiTea-git-hooks-rce) :  ![starts](https://img.shields.io/github/stars/p0dalirius/CVE-2020-14144-GiTea-git-hooks-rce.svg) ![forks](https://img.shields.io/github/forks/p0dalirius/CVE-2020-14144-GiTea-git-hooks-rce.svg)",
+    "poc": []
   },
   {
     "cve_code": "CVE-2020-14066",
@@ -33230,10 +33230,8 @@
   },
   {
     "cve_code": "CVE-2020-11710",
-    "description": " ** DISP.UTED ** An issue was discovered in docker-kong (for Kong) through 2.0.3. The admin API port may be accessible on interfaces other than 127.0.0.1. NOTE: The vendor argue that this CVE is not a vulnerability because it has an inaccurate bug scope and patch links. &#8220;1) Inaccurate Bug Scope - The issue scope was on Kong's docker-compose template, and not Kong's docker image itself. In reality, this issue is not associated with any version of the Kong gateway. As such, the description stating &#8216;An issue was discovered in docker-kong (for Kong) through 2.0.3.&#8217; is incorrect. This issue only occurs if a user decided to spin up Kong via docker-compose without following the security documentation. The docker-compose template is meant for users to quickly get started with Kong, and is meant for development purposes only. 2) Incorrect Patch Links - The CVE currently points to a documentation improvement as a &#8220;Patch&#8221; link: https://github.com/Kong/docs.konghq.com/commit/d693827c32144943a2f45abc017c1321b33ff611.This link actually points to an improvement Kong Inc made for fool-proofing. However, instructions for how to protect the admin API were already well-documented here: https://docs.konghq.com/2.0.x/secure-admin-api/#network-layer-access-restrictions , which was first published back in 2017 (as shown in this commit: https://github.com/Kong/docs.konghq.com/commit/e99cf875d875dd84fdb751079ac37882c9972949) Lastly, the hyperlink to https://github.com/Kong/kong (an unrelated Github Repo to this issue) on the Hyperlink list does not include any meaningful information on this topic.&#8221;.",
-    "poc": [
-      "https://github.com/RandomRobbieBF/kong-pwn"
-    ]
+    "description": " ** DISP.UTED ** An issue was discovered in docker-kong (for Kong) through 2.0.3. The admin API port may be accessible on interfaces other than 127.0.0.1. NOTE: The vendor argue that this CVE is not a vulnerability because it has an inaccurate bug scope and patch links. &#8220;1) Inaccurate Bug Scope - The issue scope was on Kong's docker-compose template, and not Kong's docker image itself. In reality, this issue is not associated with any version of the Kong gateway. As such, the description stating &#8216;An issue was discovered in docker-kong (for Kong) through 2.0.3.&#8217; is incorrect. This issue only occurs if a user decided to spin up Kong via docker-compose without following the security documentation. The docker-compose template is meant for users to quickly get started with Kong, and is meant for development purposes only. 2) Incorrect Patch Links - The CVE currently points to a documentation improvement as a &#8220;Patch&#8221; link: https://github.com/Kong/docs.konghq.com/commit/d693827c32144943a2f45abc017c1321b33ff611.This link actually points to an improvement Kong Inc made for fool-proofing. However, instructions for how to protect the admin API were already well-documented here: https://docs.konghq.com/2.0.x/secure-admin-api/#network-layer-access-restrictions , which was first published back in 2017 (as shown in this commit: https://github.com/Kong/docs.konghq.com/commit/e99cf875d875dd84fdb751079ac37882c9972949) Lastly, the hyperlink to https://github.com/Kong/kong (an unrelated Github Repo to this issue) on the Hyperlink list does not include any meaningful information on this topic.&#8221;- [https://github.com/RandomRobbieBF/kong-pwn](https://github.com/RandomRobbieBF/kong-pwn) :  ![starts](https://img.shields.io/github/stars/RandomRobbieBF/kong-pwn.svg) ![forks](https://img.shields.io/github/forks/RandomRobbieBF/kong-pwn.svg)",
+    "poc": []
   },
   {
     "cve_code": "CVE-2020-11652",
@@ -46803,8 +46801,8 @@
       "https://github.com/jptr218/tc_hack",
       "https://github.com/yZ1337/CVE-2017-12617",
       "https://github.com/qiantu88/CVE-2017-12617",
-      "https://github.com/scirusvulgaris/CVE-2017-12617",
       "https://github.com/devcoinfet/CVE-2017-12617",
+      "https://github.com/scirusvulgaris/CVE-2017-12617",
       "https://github.com/tyranteye666/tomcat-cve-2017-12617",
       "https://github.com/K3ysTr0K3R/CVE-2017-12617-EXPLOIT"
     ]
@@ -46891,7 +46889,7 @@
       "https://github.com/0x09AL/CVE-2017-11882-metasploit",
       "https://github.com/starnightcyber/CVE-2017-11882",
       "https://github.com/BlackMathIT/2017-11882_Generator",
-      "https://github.com/likescam/CVE-2018-0802_CVE-2017-11882",
+      "https://github.com/likekabin/CVE-2018-0802_CVE-2017-11882",
       "https://github.com/Retr0-code/SignHere",
       "https://github.com/littlebin404/CVE-2017-11882",
       "https://github.com/zhouat/cve-2017-11882",
@@ -46906,10 +46904,10 @@
       "https://github.com/j0lama/CVE-2017-11882",
       "https://github.com/CSC-pentest/cve-2017-11882",
       "https://github.com/chanbin/CVE-2017-11882",
-      "https://github.com/likescam/CVE-2017-11882",
       "https://github.com/HaoJame/CVE-2017-11882",
       "https://github.com/nhuynhuy/cve-2017-11882",
       "https://github.com/ActorExpose/CVE-2017-11882",
+      "https://github.com/likekabin/CVE-2017-11882",
       "https://github.com/Grey-Li/CVE-2017-11882",
       "https://github.com/lisinan988/CVE-2017-11882-exp",
       "https://github.com/n18dcat053-luuvannga/DetectPacket-CVE-2017-11882",
@@ -47227,8 +47225,8 @@
       "https://github.com/incogbyte/laravel-phpunit-rce-masscaner",
       "https://github.com/ludy-dev/PHPUnit_eval-stdin_RCE",
       "https://github.com/MadExploits/PHPunit-Exploit",
-      "https://github.com/MrG3P5/CVE-2017-9841",
       "https://github.com/Chocapikk/CVE-2017-9841",
+      "https://github.com/MrG3P5/CVE-2017-9841",
       "https://github.com/akr3ch/CVE-2017-9841",
       "https://github.com/p1ckzi/CVE-2017-9841",
       "https://github.com/Jhonsonwannaa/CVE-2017-9841-",
@@ -47833,6 +47831,7 @@
       "https://github.com/Al1ex/CVE-2017-7269",
       "https://github.com/slimpagey/IIS_6.0_WebDAV_Ruby",
       "https://github.com/NyxByt3/CVE-2017-7269",
+      "https://github.com/geniuszlyy/CVE-2017-7269",
       "https://github.com/caicai1355/CVE-2017-7269-exploit",
       "https://github.com/xiaovpn/CVE-2017-7269",
       "https://github.com/VanishedPeople/CVE-2017-7269",
@@ -47840,6 +47839,7 @@
       "https://github.com/denchief1/CVE-2017-7269_Python3",
       "https://github.com/Cappricio-Securities/CVE-2017-7269",
       "https://github.com/mirrorblack/CVE-2017-7269",
+      "https://github.com/AxthonyV/CVE-2017-7269",
       "https://github.com/homjxi0e/cve-2017-7269",
       "https://github.com/M1a0rz/CVE-2017-7269",
       "https://github.com/ThanHuuTuan/CVE-2017-7269",
@@ -48190,8 +48190,8 @@
       "https://github.com/bhagdave/CVE-2017-5638",
       "https://github.com/Tankirat/CVE-2017-5638",
       "https://github.com/jrrombaldo/CVE-2017-5638",
-      "https://github.com/mcassano/cve-2017-5638",
       "https://github.com/injcristianrojas/cve-2017-5638",
+      "https://github.com/mcassano/cve-2017-5638",
       "https://github.com/homjxi0e/CVE-2017-5638",
       "https://github.com/mfdev-solution/Exploit-CVE-2017-5638",
       "https://github.com/cafnet/apache-struts-v2-CVE-2017-5638",
@@ -48572,7 +48572,7 @@
     "description": " A remote code execution vulnerability in sonivox in Mediaserver could enable an attacker using a specially crafted file to cause memory corruption during media file and data processing. This issue is rated as Critical due to the possibility of remote code execution within the context of the Mediaserver process. Product: Android. Versions: 4.4.4, 5.0.2, 5.1.1, 6.0, 6.0.1, 7.0, 7.1.1. Android ID: A-34031018.",
     "poc": [
       "https://github.com/C0dak/CVE-2017-0541",
-      "https://github.com/likescam/CVE-2017-0541"
+      "https://github.com/likekabin/CVE-2017-0541"
     ]
   },
   {
@@ -48587,7 +48587,7 @@
     "description": " A remote code execution vulnerability in the Framesequence library could enable an attacker using a specially crafted file to execute arbitrary code in the context of an unprivileged process. This issue is rated as High due to the possibility of remote code execution in an application that uses the Framesequence library. Product: Android. Versions: 5.0.2, 5.1.1, 6.0, 6.0.1, 7.0, 7.1.1. Android ID: A-33718716.",
     "poc": [
       "https://github.com/bingghost/CVE-2017-0478",
-      "https://github.com/likescam/CVE-2017-0478"
+      "https://github.com/likekabin/CVE-2017-0478"
     ]
   },
   {
@@ -48648,7 +48648,7 @@
       "https://github.com/eonrickity/CVE-2017-0213",
       "https://github.com/jbooz1/CVE-2017-0213",
       "https://github.com/shaheemirza/CVE-2017-0213-",
-      "https://github.com/likescam/CVE-2017-0213",
+      "https://github.com/likekabin/CVE-2017-0213",
       "https://github.com/billa3283/CVE-2017-0213",
       "https://github.com/Anonymous-Family/CVE-2017-0213",
       "https://github.com/Jos675/CVE-2017-0213-Exploit"
@@ -48682,11 +48682,11 @@
       "https://github.com/sUbc0ol/Microsoft-Word-CVE-2017-0199-",
       "https://github.com/joke998/Cve-2017-0199-",
       "https://github.com/Nacromencer/cve2017-0199-in-python",
-      "https://github.com/viethdgit/CVE-2017-0199",
       "https://github.com/joke998/Cve-2017-0199",
-      "https://github.com/likescam/CVE-2017-0199",
-      "https://github.com/kash-123/CVE-2017-0199",
+      "https://github.com/viethdgit/CVE-2017-0199",
+      "https://github.com/likekabin/CVE-2017-0199",
       "https://github.com/BRAINIAC22/CVE-2017-0199",
+      "https://github.com/kash-123/CVE-2017-0199",
       "https://github.com/Winter3un/cve_2017_0199",
       "https://github.com/ryhanson/CVE-2017-0199",
       "https://github.com/stealth-ronin/CVE-2017-0199-PY-KIT",
@@ -49069,8 +49069,10 @@
   },
   {
     "cve_code": "CVE-2016-8858",
-    "description": " ** DISP.UTED ** The kex_input_kexinit function in kex.c in OpenSSH 6.x and 7.x through 7.3 allows remote attackers to cause a denial of service (memory consumption) by sending many duplicate KEXINIT requests.  NOTE: a third party reports that &quot;OpenSSH upstream does not consider this as a security issue.&quot;- [https://github.com/dag-erling/kexkill](https://github.com/dag-erling/kexkill) :  ![starts](https://img.shields.io/github/stars/dag-erling/kexkill.svg) ![forks](https://img.shields.io/github/forks/dag-erling/kexkill.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** The kex_input_kexinit function in kex.c in OpenSSH 6.x and 7.x through 7.3 allows remote attackers to cause a denial of service (memory consumption) by sending many duplicate KEXINIT requests.  NOTE: a third party reports that &quot;OpenSSH upstream does not consider this as a security issue.&quot;.",
+    "poc": [
+      "https://github.com/dag-erling/kexkill"
+    ]
   },
   {
     "cve_code": "CVE-2016-8823",
@@ -49524,18 +49526,18 @@
       "https://github.com/esc0rtd3w/org.cowpoop.moooooo",
       "https://github.com/LinuxKernelContent/DirtyCow",
       "https://github.com/arttnba3/CVE-2016-5195",
+      "https://github.com/FloridSleeves/os-experiment-4",
       "https://github.com/TotallyNotAHaxxer/CVE-2016-5195",
       "https://github.com/DanielEbert/CVE-2016-5195",
       "https://github.com/ASRTeam/CVE-2016-5195",
       "https://github.com/titanhp/Dirty-COW-CVE-2016-5195-Testing",
-      "https://github.com/FloridSleeves/os-experiment-4",
       "https://github.com/th3-5had0w/DirtyCOW-PoC",
       "https://github.com/arbll/dirtycow",
       "https://github.com/malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195",
       "https://github.com/ASUKA39/CVE-2016-5195",
       "https://github.com/fei9747/CVE-2016-5195",
-      "https://github.com/KosukeShimofuji/CVE-2016-5195",
       "https://github.com/ldenevi/CVE-2016-5195",
+      "https://github.com/KosukeShimofuji/CVE-2016-5195",
       "https://github.com/sribaba/android-CVE-2016-5195",
       "https://github.com/acidburnmi/CVE-2016-5195-master",
       "https://github.com/ndobson/inspec_CVE-2016-5195",
@@ -50588,8 +50590,8 @@
     "description": " The Job Manager plugin before 0.7.25 allows remote attackers to read arbitrary CV files via a brute force attack to the WordPress upload directory structure, related to an insecure direct object reference.",
     "poc": [
       "https://github.com/NyxByt3/CVE-2015-6668",
-      "https://github.com/G01d3nW01f/CVE-2015-6668",
-      "https://github.com/jimdiroffii/CVE-2015-6668"
+      "https://github.com/jimdiroffii/CVE-2015-6668",
+      "https://github.com/G01d3nW01f/CVE-2015-6668"
     ]
   },
   {
@@ -50734,7 +50736,7 @@
       "https://github.com/knqyf263/cve-2015-5477",
       "https://github.com/hmlio/vaas-cve-2015-5477",
       "https://github.com/xycloops123/TKEY-remote-DoS-vulnerability-exploit",
-      "https://github.com/likescam/ShareDoc_cve-2015-5477"
+      "https://github.com/likekabin/ShareDoc_cve-2015-5477"
     ]
   },
   {
@@ -51694,9 +51696,9 @@
       "https://github.com/hackintoanetwork/shellshock",
       "https://github.com/Sindadziy/cve-2014-6271",
       "https://github.com/0xConstant/CVE-2014-6271",
+      "https://github.com/Jsmoreira02/CVE-2014-6271",
       "https://github.com/mattclegg/CVE-2014-6271",
       "https://github.com/Dilith006/CVE-2014-6271",
-      "https://github.com/Jsmoreira02/CVE-2014-6271",
       "https://github.com/mritunjay-k/CVE-2014-6271",
       "https://github.com/Brandaoo/CVE-2014-6271",
       "https://github.com/Aruthw/CVE-2014-6271",
@@ -52296,8 +52298,8 @@
       "https://github.com/ice-security88/CVE-2014-0160",
       "https://github.com/cbk914/heartbleed-checker",
       "https://github.com/obayesshelton/CVE-2014-0160-Scanner",
-      "https://github.com/timsonner/cve-2014-0160-heartbleed",
       "https://github.com/NyxByt3/CVE-2014-0160_Heartbleed",
+      "https://github.com/timsonner/cve-2014-0160-heartbleed",
       "https://github.com/MrE-Fog/CVE-2014-0160-Chrome-Plugin",
       "https://github.com/Yash-Thakkar77/CVE-2014-0160-HeartBleed",
       "https://github.com/marstornado/cve-2014-0160-Yunfeng-Jiang",
@@ -53005,9 +53007,9 @@
       "https://github.com/blu3ming/CVE-2012-2982",
       "https://github.com/elliotosama/CVE-2012-2982",
       "https://github.com/wizardy0ga/CVE_2012-2982",
+      "https://github.com/CpyRe/CVE-2012-2982",
       "https://github.com/R00tendo/CVE-2012-2982",
       "https://github.com/0xF331-D3AD/CVE-2012-2982",
-      "https://github.com/CpyRe/CVE-2012-2982",
       "https://github.com/Shadow-Spinner/CVE-2012-2982_python"
     ]
   },
@@ -54002,8 +54004,8 @@
       "https://github.com/Unix13/metasploitable2",
       "https://github.com/Ziemni/CVE-2007-2447-in-Python",
       "https://github.com/Alien0ne/CVE-2007-2447",
-      "https://github.com/xbufu/CVE-2007-2447",
       "https://github.com/NyxByt3/CVE-2007-2447",
+      "https://github.com/xbufu/CVE-2007-2447",
       "https://github.com/ozuma/CVE-2007-2447",
       "https://github.com/3x1t1um/CVE-2007-2447",
       "https://github.com/Aviksaikat/CVE-2007-2447",
@@ -54014,11 +54016,11 @@
       "https://github.com/xlcc4096/exploit-CVE-2007-2447",
       "https://github.com/G01d3nW01f/CVE-2007-2447",
       "https://github.com/testaross4/CVE-2007-2447",
-      "https://github.com/Juantos/cve-2007-2447",
       "https://github.com/0xConstant/CVE-2007-2447",
       "https://github.com/cherrera0001/CVE-2007-2447",
       "https://github.com/0xTabun/CVE-2007-2447",
       "https://github.com/JoseBarrios/CVE-2007-2447",
+      "https://github.com/Juantos/cve-2007-2447",
       "https://github.com/b1fair/smb_usermap",
       "https://github.com/bdunlap9/CVE-2007-2447_python",
       "https://github.com/MikeRega7/CVE-2007-2447-RCE",
