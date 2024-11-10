@@ -3297,8 +3297,10 @@
   },
   {
     "cve_code": "CVE-2024-23738",
-    "description": " ** DISP.UTED ** An issue in Postman version 10.22 and before on macOS allows a remote attacker to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings. NOTE: the vendor states &quot;we dispute the report's accuracy ... the configuration does not enable remote code execution..&quot;- [https://github.com/giovannipajeu1/CVE-2024-23738](https://github.com/giovannipajeu1/CVE-2024-23738) :  ![starts](https://img.shields.io/github/stars/giovannipajeu1/CVE-2024-23738.svg) ![forks](https://img.shields.io/github/forks/giovannipajeu1/CVE-2024-23738.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** An issue in Postman version 10.22 and before on macOS allows a remote attacker to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings. NOTE: the vendor states &quot;we dispute the report's accuracy ... the configuration does not enable remote code execution..&quot;.",
+    "poc": [
+      "https://github.com/giovannipajeu1/CVE-2024-23738"
+    ]
   },
   {
     "cve_code": "CVE-2024-23727",
@@ -4606,10 +4608,8 @@
   },
   {
     "cve_code": "CVE-2024-4842",
-    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. Reason: Not a vulnerability.",
-    "poc": [
-      "https://github.com/vighneshnair7/CVE-2024-48427"
-    ]
+    "description": " ** RE.JECT ** DO NOT USE THIS CANDIDATE NUMBER. Reason: Not a vulnerability- [https://github.com/vighneshnair7/CVE-2024-48427](https://github.com/vighneshnair7/CVE-2024-48427) :  ![starts](https://img.shields.io/github/stars/vighneshnair7/CVE-2024-48427.svg) ![forks](https://img.shields.io/github/forks/vighneshnair7/CVE-2024-48427.svg)",
+    "poc": []
   },
   {
     "cve_code": "CVE-2024-4841",
@@ -10570,8 +10570,10 @@
   },
   {
     "cve_code": "CVE-2023-35854",
-    "description": " ** DISP.UTED ** Zoho ManageEngine ADSelfService Plus through 6113 has an authentication bypass that can be exploited to steal the domain controller session token for identity spoofing, thereby achieving the privileges of the domain controller administrator. NOTE: the vendor's perspective is that they have &quot;found no evidence or detail of a security vulnerability.&quot;- [https://github.com/bluestarry33/exp](https://github.com/bluestarry33/exp) :  ![starts](https://img.shields.io/github/stars/bluestarry33/exp.svg) ![forks](https://img.shields.io/github/forks/bluestarry33/exp.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** Zoho ManageEngine ADSelfService Plus through 6113 has an authentication bypass that can be exploited to steal the domain controller session token for identity spoofing, thereby achieving the privileges of the domain controller administrator. NOTE: the vendor's perspective is that they have &quot;found no evidence or detail of a security vulnerability.&quot;.",
+    "poc": [
+      "https://github.com/bluestarry33/exp"
+    ]
   },
   {
     "cve_code": "CVE-2023-35844",
@@ -32891,8 +32893,12 @@
   },
   {
     "cve_code": "CVE-2020-15778",
-    "description": " ** DISP.UTED ** scp in OpenSSH through 8.3p1 allows command injection in the scp.c toremote function, as demonstrated by backtick characters in the destination argument. NOTE: the vendor reportedly has stated that they intentionally omit validation of &quot;anomalous argument transfers&quot; because that could &quot;stand a great chance of breaking existing workflows.&quot;- [https://github.com/cpandya2909/CVE-2020-15778](https://github.com/cpandya2909/CVE-2020-15778) :  ![starts](https://img.shields.io/github/stars/cpandya2909/CVE-2020-15778.svg) ![forks](https://img.shields.io/github/forks/cpandya2909/CVE-2020-15778.svg)- [https://github.com/Neko-chanQwQ/CVE-2020-15778-Exploit](https://github.com/Neko-chanQwQ/CVE-2020-15778-Exploit) :  ![starts](https://img.shields.io/github/stars/Neko-chanQwQ/CVE-2020-15778-Exploit.svg) ![forks](https://img.shields.io/github/forks/Neko-chanQwQ/CVE-2020-15778-Exploit.svg)- [https://github.com/Evan-Zhangyf/CVE-2020-15778](https://github.com/Evan-Zhangyf/CVE-2020-15778) :  ![starts](https://img.shields.io/github/stars/Evan-Zhangyf/CVE-2020-15778.svg) ![forks](https://img.shields.io/github/forks/Evan-Zhangyf/CVE-2020-15778.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** scp in OpenSSH through 8.3p1 allows command injection in the scp.c toremote function, as demonstrated by backtick characters in the destination argument. NOTE: the vendor reportedly has stated that they intentionally omit validation of &quot;anomalous argument transfers&quot; because that could &quot;stand a great chance of breaking existing workflows.&quot;.",
+    "poc": [
+      "https://github.com/cpandya2909/CVE-2020-15778",
+      "https://github.com/Neko-chanQwQ/CVE-2020-15778-Exploit",
+      "https://github.com/Evan-Zhangyf/CVE-2020-15778"
+    ]
   },
   {
     "cve_code": "CVE-2020-15589",
@@ -33378,8 +33384,10 @@
   },
   {
     "cve_code": "CVE-2020-14144",
-    "description": " ** DISP.UTED ** The git hook feature in Gitea 1.1.0 through 1.12.5 might allow for authenticated remote code execution in customer environments where the documentation was not understood (e.g., one viewpoint is that the dangerousness of this feature should be documented immediately above the ENABLE_GIT_HOOKS line in the config file). NOTE: The vendor has indicated this is not a vulnerability and states &quot;This is a functionality of the software that is limited to a very limited subset of accounts. If you give someone the privilege to execute arbitrary code on your server, they can execute arbitrary code on your server. We provide very clear warnings to users around this functionality and what it provides.&quot;- [https://github.com/p0dalirius/CVE-2020-14144-GiTea-git-hooks-rce](https://github.com/p0dalirius/CVE-2020-14144-GiTea-git-hooks-rce) :  ![starts](https://img.shields.io/github/stars/p0dalirius/CVE-2020-14144-GiTea-git-hooks-rce.svg) ![forks](https://img.shields.io/github/forks/p0dalirius/CVE-2020-14144-GiTea-git-hooks-rce.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** The git hook feature in Gitea 1.1.0 through 1.12.5 might allow for authenticated remote code execution in customer environments where the documentation was not understood (e.g., one viewpoint is that the dangerousness of this feature should be documented immediately above the ENABLE_GIT_HOOKS line in the config file). NOTE: The vendor has indicated this is not a vulnerability and states &quot;This is a functionality of the software that is limited to a very limited subset of accounts. If you give someone the privilege to execute arbitrary code on your server, they can execute arbitrary code on your server. We provide very clear warnings to users around this functionality and what it provides.&quot;.",
+    "poc": [
+      "https://github.com/p0dalirius/CVE-2020-14144-GiTea-git-hooks-rce"
+    ]
   },
   {
     "cve_code": "CVE-2020-14066",
@@ -46913,9 +46921,9 @@
       "https://github.com/littlebin404/CVE-2017-16995",
       "https://github.com/C0dak/CVE-2017-16995",
       "https://github.com/anldori/CVE-2017-16995",
+      "https://github.com/ZhiQiAnSecFork/cve-2017-16995",
       "https://github.com/mareks1007/cve-2017-16995",
       "https://github.com/fei9747/CVE-2017-16995",
-      "https://github.com/ZhiQiAnSecFork/cve-2017-16995",
       "https://github.com/ivilpez/cve-2017-16995.c",
       "https://github.com/Lumindu/CVE-2017-16995-Linux-Kernel---BPF-Sign-Extension-Local-Privilege-Escalation-"
     ]
@@ -49002,14 +49010,14 @@
       "https://github.com/Badbird3/CVE-2017-5638",
       "https://github.com/readloud/CVE-2017-5638",
       "https://github.com/mritunjay-k/CVE-2017-5638",
-      "https://github.com/colorblindpentester/CVE-2017-5638",
       "https://github.com/Xhendos/CVE-2017-5638",
       "https://github.com/bongbongco/cve-2017-5638",
+      "https://github.com/colorblindpentester/CVE-2017-5638",
       "https://github.com/random-robbie/CVE-2017-5638",
-      "https://github.com/injcristianrojas/cve-2017-5638",
       "https://github.com/bhagdave/CVE-2017-5638",
       "https://github.com/Tankirat/CVE-2017-5638",
       "https://github.com/jrrombaldo/CVE-2017-5638",
+      "https://github.com/injcristianrojas/cve-2017-5638",
       "https://github.com/mcassano/cve-2017-5638",
       "https://github.com/homjxi0e/CVE-2017-5638",
       "https://github.com/mfdev-solution/Exploit-CVE-2017-5638",
@@ -49502,8 +49510,8 @@
       "https://github.com/joke998/Cve-2017-0199-",
       "https://github.com/Nacromencer/cve2017-0199-in-python",
       "https://github.com/BRAINIAC22/CVE-2017-0199",
-      "https://github.com/joke998/Cve-2017-0199",
       "https://github.com/viethdgit/CVE-2017-0199",
+      "https://github.com/joke998/Cve-2017-0199",
       "https://github.com/likekabin/CVE-2017-0199",
       "https://github.com/kash-123/CVE-2017-0199",
       "https://github.com/ryhanson/CVE-2017-0199",
@@ -49887,8 +49895,10 @@
   },
   {
     "cve_code": "CVE-2016-8858",
-    "description": " ** DISP.UTED ** The kex_input_kexinit function in kex.c in OpenSSH 6.x and 7.x through 7.3 allows remote attackers to cause a denial of service (memory consumption) by sending many duplicate KEXINIT requests.  NOTE: a third party reports that &quot;OpenSSH upstream does not consider this as a security issue.&quot;- [https://github.com/dag-erling/kexkill](https://github.com/dag-erling/kexkill) :  ![starts](https://img.shields.io/github/stars/dag-erling/kexkill.svg) ![forks](https://img.shields.io/github/forks/dag-erling/kexkill.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** The kex_input_kexinit function in kex.c in OpenSSH 6.x and 7.x through 7.3 allows remote attackers to cause a denial of service (memory consumption) by sending many duplicate KEXINIT requests.  NOTE: a third party reports that &quot;OpenSSH upstream does not consider this as a security issue.&quot;.",
+    "poc": [
+      "https://github.com/dag-erling/kexkill"
+    ]
   },
   {
     "cve_code": "CVE-2016-8823",
@@ -53845,8 +53855,8 @@
       "https://github.com/AlexJS6/CVE-2012-2982_Python",
       "https://github.com/Ari-Weinberg/CVE-2012-2982",
       "https://github.com/blu3ming/CVE-2012-2982",
-      "https://github.com/elliotosama/CVE-2012-2982",
       "https://github.com/CpyRe/CVE-2012-2982",
+      "https://github.com/elliotosama/CVE-2012-2982",
       "https://github.com/wizardy0ga/CVE_2012-2982",
       "https://github.com/R00tendo/CVE-2012-2982",
       "https://github.com/0xF331-D3AD/CVE-2012-2982",
@@ -54851,8 +54861,8 @@
       "https://github.com/Unix13/metasploitable2",
       "https://github.com/Ziemni/CVE-2007-2447-in-Python",
       "https://github.com/Alien0ne/CVE-2007-2447",
-      "https://github.com/h3xcr4ck3r/CVE-2007-2447",
       "https://github.com/xbufu/CVE-2007-2447",
+      "https://github.com/h3xcr4ck3r/CVE-2007-2447",
       "https://github.com/ozuma/CVE-2007-2447",
       "https://github.com/3x1t1um/CVE-2007-2447",
       "https://github.com/Aviksaikat/CVE-2007-2447",
@@ -54864,8 +54874,8 @@
       "https://github.com/G01d3nW01f/CVE-2007-2447",
       "https://github.com/Juantos/cve-2007-2447",
       "https://github.com/cherrera0001/CVE-2007-2447",
-      "https://github.com/0xTabun/CVE-2007-2447",
       "https://github.com/testaross4/CVE-2007-2447",
+      "https://github.com/0xTabun/CVE-2007-2447",
       "https://github.com/JoseBarrios/CVE-2007-2447",
       "https://github.com/0xConstant/CVE-2007-2447",
       "https://github.com/b1fair/smb_usermap",
