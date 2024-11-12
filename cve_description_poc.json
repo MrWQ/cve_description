@@ -3299,8 +3299,10 @@
   },
   {
     "cve_code": "CVE-2024-23738",
-    "description": " ** DISP.UTED ** An issue in Postman version 10.22 and before on macOS allows a remote attacker to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings. NOTE: the vendor states &quot;we dispute the report's accuracy ... the configuration does not enable remote code execution..&quot;- [https://github.com/giovannipajeu1/CVE-2024-23738](https://github.com/giovannipajeu1/CVE-2024-23738) :  ![starts](https://img.shields.io/github/stars/giovannipajeu1/CVE-2024-23738.svg) ![forks](https://img.shields.io/github/forks/giovannipajeu1/CVE-2024-23738.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** An issue in Postman version 10.22 and before on macOS allows a remote attacker to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings. NOTE: the vendor states &quot;we dispute the report's accuracy ... the configuration does not enable remote code execution..&quot;.",
+    "poc": [
+      "https://github.com/giovannipajeu1/CVE-2024-23738"
+    ]
   },
   {
     "cve_code": "CVE-2024-23727",
@@ -10634,10 +10636,8 @@
   },
   {
     "cve_code": "CVE-2023-35854",
-    "description": " ** DISP.UTED ** Zoho ManageEngine ADSelfService Plus through 6113 has an authentication bypass that can be exploited to steal the domain controller session token for identity spoofing, thereby achieving the privileges of the domain controller administrator. NOTE: the vendor's perspective is that they have &quot;found no evidence or detail of a security vulnerability.&quot;.",
-    "poc": [
-      "https://github.com/bluestarry33/exp"
-    ]
+    "description": " ** DISP.UTED ** Zoho ManageEngine ADSelfService Plus through 6113 has an authentication bypass that can be exploited to steal the domain controller session token for identity spoofing, thereby achieving the privileges of the domain controller administrator. NOTE: the vendor's perspective is that they have &quot;found no evidence or detail of a security vulnerability.&quot;- [https://github.com/bluestarry33/exp](https://github.com/bluestarry33/exp) :  ![starts](https://img.shields.io/github/stars/bluestarry33/exp.svg) ![forks](https://img.shields.io/github/forks/bluestarry33/exp.svg)",
+    "poc": []
   },
   {
     "cve_code": "CVE-2023-35844",
@@ -13383,10 +13383,8 @@
   },
   {
     "cve_code": "CVE-2023-24044",
-    "description": " ** DISP.UTED ** A Host Header Injection issue on the Login page of Plesk Obsidian through 18.0.49 allows attackers to redirect users to malicious websites via a Host request header. NOTE: the vendor's position is &quot;the ability to use arbitrary domain names to access the panel is an intended feature.&quot;.",
-    "poc": [
-      "https://github.com/Cappricio-Securities/CVE-2023-24044"
-    ]
+    "description": " ** DISP.UTED ** A Host Header Injection issue on the Login page of Plesk Obsidian through 18.0.49 allows attackers to redirect users to malicious websites via a Host request header. NOTE: the vendor's position is &quot;the ability to use arbitrary domain names to access the panel is an intended feature.&quot;- [https://github.com/Cappricio-Securities/CVE-2023-24044](https://github.com/Cappricio-Securities/CVE-2023-24044) :  ![starts](https://img.shields.io/github/stars/Cappricio-Securities/CVE-2023-24044.svg) ![forks](https://img.shields.io/github/forks/Cappricio-Securities/CVE-2023-24044.svg)",
+    "poc": []
   },
   {
     "cve_code": "CVE-2023-24034",
@@ -26844,8 +26842,10 @@
   },
   {
     "cve_code": "CVE-2021-34481",
-    "description": " &lt;p&gt;A remote code execution vulnerability exists when the Windows Print Spooler service improperly performs privileged file operations. An attacker who successfully exploited this vulnerability could run arbitrary code with SYSTEM privileges. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.&lt;/p&gt;. &lt;p&gt;&lt;strong&gt;UPDATE&lt;/strong&gt; August 10, 2021: Microsoft has completed the investigation and has released security updates to address this vulnerability. Please see the Security Updates table for the applicable update for your system. We recommend that you install these updates immediately. This security update changes the Point and Print default behavior; please see &lt;a href=&quot;https://support.microsoft.com/help/5005652&quot;&gt;KB5005652&lt;/a&gt;.&lt;/p&gt;- [https://github.com/vpn28/CVE-2021-34481](https://github.com/vpn28/CVE-2021-34481) :  ![starts](https://img.shields.io/github/stars/vpn28/CVE-2021-34481.svg) ![forks](https://img.shields.io/github/forks/vpn28/CVE-2021-34481.svg)",
-    "poc": []
+    "description": " &lt;p&gt;A remote code execution vulnerability exists when the Windows Print Spooler service improperly performs privileged file operations. An attacker who successfully exploited this vulnerability could run arbitrary code with SYSTEM privileges. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.&lt;/p&gt;. &lt;p&gt;&lt;strong&gt;UPDATE&lt;/strong&gt; August 10, 2021: Microsoft has completed the investigation and has released security updates to address this vulnerability. Please see the Security Updates table for the applicable update for your system. We recommend that you install these updates immediately. This security update changes the Point and Print default behavior; please see &lt;a href=&quot;https://support.microsoft.com/help/5005652&quot;&gt;KB5005652&lt;/a&gt;.&lt;/p&gt;.",
+    "poc": [
+      "https://github.com/vpn28/CVE-2021-34481"
+    ]
   },
   {
     "cve_code": "CVE-2021-34473",
@@ -32965,12 +32965,8 @@
   },
   {
     "cve_code": "CVE-2020-15778",
-    "description": " ** DISP.UTED ** scp in OpenSSH through 8.3p1 allows command injection in the scp.c toremote function, as demonstrated by backtick characters in the destination argument. NOTE: the vendor reportedly has stated that they intentionally omit validation of &quot;anomalous argument transfers&quot; because that could &quot;stand a great chance of breaking existing workflows.&quot;.",
-    "poc": [
-      "https://github.com/cpandya2909/CVE-2020-15778",
-      "https://github.com/Neko-chanQwQ/CVE-2020-15778-Exploit",
-      "https://github.com/Evan-Zhangyf/CVE-2020-15778"
-    ]
+    "description": " ** DISP.UTED ** scp in OpenSSH through 8.3p1 allows command injection in the scp.c toremote function, as demonstrated by backtick characters in the destination argument. NOTE: the vendor reportedly has stated that they intentionally omit validation of &quot;anomalous argument transfers&quot; because that could &quot;stand a great chance of breaking existing workflows.&quot;- [https://github.com/cpandya2909/CVE-2020-15778](https://github.com/cpandya2909/CVE-2020-15778) :  ![starts](https://img.shields.io/github/stars/cpandya2909/CVE-2020-15778.svg) ![forks](https://img.shields.io/github/forks/cpandya2909/CVE-2020-15778.svg)- [https://github.com/Neko-chanQwQ/CVE-2020-15778-Exploit](https://github.com/Neko-chanQwQ/CVE-2020-15778-Exploit) :  ![starts](https://img.shields.io/github/stars/Neko-chanQwQ/CVE-2020-15778-Exploit.svg) ![forks](https://img.shields.io/github/forks/Neko-chanQwQ/CVE-2020-15778-Exploit.svg)- [https://github.com/Evan-Zhangyf/CVE-2020-15778](https://github.com/Evan-Zhangyf/CVE-2020-15778) :  ![starts](https://img.shields.io/github/stars/Evan-Zhangyf/CVE-2020-15778.svg) ![forks](https://img.shields.io/github/forks/Evan-Zhangyf/CVE-2020-15778.svg)",
+    "poc": []
   },
   {
     "cve_code": "CVE-2020-15589",
@@ -34080,10 +34076,8 @@
   },
   {
     "cve_code": "CVE-2020-11710",
-    "description": " ** DISP.UTED ** An issue was discovered in docker-kong (for Kong) through 2.0.3. The admin API port may be accessible on interfaces other than 127.0.0.1. NOTE: The vendor argue that this CVE is not a vulnerability because it has an inaccurate bug scope and patch links. &#8220;1) Inaccurate Bug Scope - The issue scope was on Kong's docker-compose template, and not Kong's docker image itself. In reality, this issue is not associated with any version of the Kong gateway. As such, the description stating &#8216;An issue was discovered in docker-kong (for Kong) through 2.0.3.&#8217; is incorrect. This issue only occurs if a user decided to spin up Kong via docker-compose without following the security documentation. The docker-compose template is meant for users to quickly get started with Kong, and is meant for development purposes only. 2) Incorrect Patch Links - The CVE currently points to a documentation improvement as a &#8220;Patch&#8221; link: https://github.com/Kong/docs.konghq.com/commit/d693827c32144943a2f45abc017c1321b33ff611.This link actually points to an improvement Kong Inc made for fool-proofing. However, instructions for how to protect the admin API were already well-documented here: https://docs.konghq.com/2.0.x/secure-admin-api/#network-layer-access-restrictions , which was first published back in 2017 (as shown in this commit: https://github.com/Kong/docs.konghq.com/commit/e99cf875d875dd84fdb751079ac37882c9972949) Lastly, the hyperlink to https://github.com/Kong/kong (an unrelated Github Repo to this issue) on the Hyperlink list does not include any meaningful information on this topic.&#8221;.",
-    "poc": [
-      "https://github.com/RandomRobbieBF/kong-pwn"
-    ]
+    "description": " ** DISP.UTED ** An issue was discovered in docker-kong (for Kong) through 2.0.3. The admin API port may be accessible on interfaces other than 127.0.0.1. NOTE: The vendor argue that this CVE is not a vulnerability because it has an inaccurate bug scope and patch links. &#8220;1) Inaccurate Bug Scope - The issue scope was on Kong's docker-compose template, and not Kong's docker image itself. In reality, this issue is not associated with any version of the Kong gateway. As such, the description stating &#8216;An issue was discovered in docker-kong (for Kong) through 2.0.3.&#8217; is incorrect. This issue only occurs if a user decided to spin up Kong via docker-compose without following the security documentation. The docker-compose template is meant for users to quickly get started with Kong, and is meant for development purposes only. 2) Incorrect Patch Links - The CVE currently points to a documentation improvement as a &#8220;Patch&#8221; link: https://github.com/Kong/docs.konghq.com/commit/d693827c32144943a2f45abc017c1321b33ff611.This link actually points to an improvement Kong Inc made for fool-proofing. However, instructions for how to protect the admin API were already well-documented here: https://docs.konghq.com/2.0.x/secure-admin-api/#network-layer-access-restrictions , which was first published back in 2017 (as shown in this commit: https://github.com/Kong/docs.konghq.com/commit/e99cf875d875dd84fdb751079ac37882c9972949) Lastly, the hyperlink to https://github.com/Kong/kong (an unrelated Github Repo to this issue) on the Hyperlink list does not include any meaningful information on this topic.&#8221;- [https://github.com/RandomRobbieBF/kong-pwn](https://github.com/RandomRobbieBF/kong-pwn) :  ![starts](https://img.shields.io/github/stars/RandomRobbieBF/kong-pwn.svg) ![forks](https://img.shields.io/github/forks/RandomRobbieBF/kong-pwn.svg)",
+    "poc": []
   },
   {
     "cve_code": "CVE-2020-11652",
@@ -47763,8 +47757,8 @@
       "https://github.com/1337g/CVE-2017-12149",
       "https://github.com/jreppiks/CVE-2017-12149",
       "https://github.com/VVeakee/CVE-2017-12149",
-      "https://github.com/MrE-Fog/jboss-_CVE-2017-12149",
       "https://github.com/JesseClarkND/CVE-2017-12149",
+      "https://github.com/MrE-Fog/jboss-_CVE-2017-12149",
       "https://github.com/Xcatolin/jboss-deserialization"
     ]
   },
@@ -48728,7 +48722,7 @@
       "https://github.com/eliuha/webdav_exploit",
       "https://github.com/Al1ex/CVE-2017-7269",
       "https://github.com/slimpagey/IIS_6.0_WebDAV_Ruby",
-      "https://github.com/h3xcr4ck3r/CVE-2017-7269",
+      "https://github.com/n3rdh4x0r/CVE-2017-7269",
       "https://github.com/geniuszlyy/CVE-2017-7269",
       "https://github.com/caicai1355/CVE-2017-7269-exploit",
       "https://github.com/xiaovpn/CVE-2017-7269",
@@ -48736,9 +48730,9 @@
       "https://github.com/VanishedPeople/CVE-2017-7269",
       "https://github.com/Cappricio-Securities/CVE-2017-7269",
       "https://github.com/denchief1/CVE-2017-7269_Python3",
-      "https://github.com/homjxi0e/cve-2017-7269",
       "https://github.com/mirrorblack/CVE-2017-7269",
       "https://github.com/AxthonyV/CVE-2017-7269",
+      "https://github.com/homjxi0e/cve-2017-7269",
       "https://github.com/M1a0rz/CVE-2017-7269",
       "https://github.com/ThanHuuTuan/CVE-2017-7269",
       "https://github.com/whiteHat001/cve-2017-7269picture"
@@ -49081,10 +49075,10 @@
       "https://github.com/AndreasKl/CVE-2017-5638",
       "https://github.com/Badbird3/CVE-2017-5638",
       "https://github.com/readloud/CVE-2017-5638",
-      "https://github.com/Xhendos/CVE-2017-5638",
-      "https://github.com/bongbongco/cve-2017-5638",
       "https://github.com/mritunjay-k/CVE-2017-5638",
       "https://github.com/colorblindpentester/CVE-2017-5638",
+      "https://github.com/Xhendos/CVE-2017-5638",
+      "https://github.com/bongbongco/cve-2017-5638",
       "https://github.com/random-robbie/CVE-2017-5638",
       "https://github.com/bhagdave/CVE-2017-5638",
       "https://github.com/Tankirat/CVE-2017-5638",
@@ -49576,8 +49570,8 @@
       "https://github.com/n1shant-sinha/CVE-2017-0199",
       "https://github.com/Sunqiz/CVE-2017-0199-reprofuction",
       "https://github.com/herbiezimmerman/2017-11-17-Maldoc-Using-CVE-2017-0199",
-      "https://github.com/Phantomlancer123/CVE-2017-0199",
       "https://github.com/mzakyz666/PoC-CVE-2017-0199",
+      "https://github.com/Phantomlancer123/CVE-2017-0199",
       "https://github.com/sUbc0ol/Microsoft-Word-CVE-2017-0199-",
       "https://github.com/joke998/Cve-2017-0199-",
       "https://github.com/Nacromencer/cve2017-0199-in-python",
@@ -49967,10 +49961,8 @@
   },
   {
     "cve_code": "CVE-2016-8858",
-    "description": " ** DISP.UTED ** The kex_input_kexinit function in kex.c in OpenSSH 6.x and 7.x through 7.3 allows remote attackers to cause a denial of service (memory consumption) by sending many duplicate KEXINIT requests.  NOTE: a third party reports that &quot;OpenSSH upstream does not consider this as a security issue.&quot;.",
-    "poc": [
-      "https://github.com/dag-erling/kexkill"
-    ]
+    "description": " ** DISP.UTED ** The kex_input_kexinit function in kex.c in OpenSSH 6.x and 7.x through 7.3 allows remote attackers to cause a denial of service (memory consumption) by sending many duplicate KEXINIT requests.  NOTE: a third party reports that &quot;OpenSSH upstream does not consider this as a security issue.&quot;- [https://github.com/dag-erling/kexkill](https://github.com/dag-erling/kexkill) :  ![starts](https://img.shields.io/github/stars/dag-erling/kexkill.svg) ![forks](https://img.shields.io/github/forks/dag-erling/kexkill.svg)",
+    "poc": []
   },
   {
     "cve_code": "CVE-2016-8823",
@@ -50435,8 +50427,8 @@
       "https://github.com/malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195",
       "https://github.com/ASUKA39/CVE-2016-5195",
       "https://github.com/fei9747/CVE-2016-5195",
-      "https://github.com/KosukeShimofuji/CVE-2016-5195",
       "https://github.com/ldenevi/CVE-2016-5195",
+      "https://github.com/KosukeShimofuji/CVE-2016-5195",
       "https://github.com/sribaba/android-CVE-2016-5195",
       "https://github.com/acidburnmi/CVE-2016-5195-master",
       "https://github.com/ndobson/inspec_CVE-2016-5195",
@@ -51003,7 +50995,7 @@
     "cve_code": "CVE-2016-1531",
     "description": " Exim before 4.86.2, when installed setuid root, allows local users to gain privileges via the perl_startup argument.",
     "poc": [
-      "https://github.com/h3xcr4ck3r/CVE-2016-1531"
+      "https://github.com/n3rdh4x0r/CVE-2016-1531"
     ]
   },
   {
@@ -51483,7 +51475,7 @@
     "cve_code": "CVE-2015-6668",
     "description": " The Job Manager plugin before 0.7.25 allows remote attackers to read arbitrary CV files via a brute force attack to the WordPress upload directory structure, related to an insecure direct object reference.",
     "poc": [
-      "https://github.com/h3xcr4ck3r/CVE-2015-6668",
+      "https://github.com/n3rdh4x0r/CVE-2015-6668",
       "https://github.com/G01d3nW01f/CVE-2015-6668",
       "https://github.com/jimdiroffii/CVE-2015-6668"
     ]
@@ -52080,13 +52072,13 @@
       "https://github.com/technion/erlvulnscan",
       "https://github.com/aedoo/CVE-2015-1635-POC",
       "https://github.com/Zx7ffa4512-Python/Project-CVE-2015-1635",
-      "https://github.com/h3xcr4ck3r/CVE-2015-1635-POC",
+      "https://github.com/n3rdh4x0r/CVE-2015-1635-POC",
       "https://github.com/neu5ron/cve_2015-1635",
       "https://github.com/bongbongco/MS15-034",
       "https://github.com/limkokholefork/CVE-2015-1635",
       "https://github.com/w01ke/CVE-2015-1635-POC",
       "https://github.com/u0pattern/Remove-IIS-RIIS",
-      "https://github.com/h3xcr4ck3r/CVE-2015-1635",
+      "https://github.com/n3rdh4x0r/CVE-2015-1635",
       "https://github.com/Cappricio-Securities/CVE-2015-1635",
       "https://github.com/SkinAir/ms15-034-Scan",
       "https://github.com/wiredaem0n/chk-ms15-034"
@@ -52276,8 +52268,8 @@
       "https://github.com/fa-rrel/XMLRPC-Ghost",
       "https://github.com/tobyzxj/CVE-2015-0235",
       "https://github.com/chayim/GHOSTCHECK-cve-2015-0235",
-      "https://github.com/koudaiii-archives/cookbook-update-glibc",
       "https://github.com/limkokholefork/GHOSTCHECK-cve-2015-0235",
+      "https://github.com/koudaiii-archives/cookbook-update-glibc",
       "https://github.com/1and1-serversupport/ghosttester",
       "https://github.com/favoretti/lenny-libc6",
       "https://github.com/F88/ghostbusters15"
@@ -52610,10 +52602,10 @@
       "https://github.com/0xConstant/CVE-2014-6271",
       "https://github.com/mattclegg/CVE-2014-6271",
       "https://github.com/Dilith006/CVE-2014-6271",
+      "https://github.com/mritunjay-k/CVE-2014-6271",
       "https://github.com/Brandaoo/CVE-2014-6271",
       "https://github.com/Aruthw/CVE-2014-6271",
       "https://github.com/kowshik-sundararajan/CVE-2014-6271",
-      "https://github.com/mritunjay-k/CVE-2014-6271",
       "https://github.com/Jsmoreira02/CVE-2014-6271",
       "https://github.com/woltage/CVE-2014-6271",
       "https://github.com/0xTabun/CVE-2014-6271",
@@ -52630,8 +52622,8 @@
       "https://github.com/jblaine/cookbook-bash-CVE-2014-6271",
       "https://github.com/huanlu/cve-2014-6271-huan-lu",
       "https://github.com/ryancnelson/patched-bash-4.3",
-      "https://github.com/TheRealCiscoo/Shellshock",
       "https://github.com/Sindayifu/CVE-2019-14287-CVE-2014-6271",
+      "https://github.com/TheRealCiscoo/Shellshock",
       "https://github.com/anujbhan/shellshock-victim-host",
       "https://github.com/renanvicente/puppet-shellshock",
       "https://github.com/u20024804/bash-3.2-fixed-CVE-2014-6271",
@@ -53212,7 +53204,7 @@
       "https://github.com/cbk914/heartbleed-checker",
       "https://github.com/obayesshelton/CVE-2014-0160-Scanner",
       "https://github.com/timsonner/cve-2014-0160-heartbleed",
-      "https://github.com/h3xcr4ck3r/CVE-2014-0160_Heartbleed",
+      "https://github.com/n3rdh4x0r/CVE-2014-0160_Heartbleed",
       "https://github.com/MrE-Fog/CVE-2014-0160-Chrome-Plugin",
       "https://github.com/Yash-Thakkar77/CVE-2014-0160-HeartBleed",
       "https://github.com/marstornado/cve-2014-0160-Yunfeng-Jiang",
@@ -53928,10 +53920,10 @@
       "https://github.com/AlexJS6/CVE-2012-2982_Python",
       "https://github.com/Ari-Weinberg/CVE-2012-2982",
       "https://github.com/blu3ming/CVE-2012-2982",
-      "https://github.com/elliotosama/CVE-2012-2982",
       "https://github.com/CpyRe/CVE-2012-2982",
       "https://github.com/wizardy0ga/CVE_2012-2982",
       "https://github.com/R00tendo/CVE-2012-2982",
+      "https://github.com/elliotosama/CVE-2012-2982",
       "https://github.com/0xF331-D3AD/CVE-2012-2982",
       "https://github.com/Shadow-Spinner/CVE-2012-2982_python"
     ]
@@ -54240,7 +54232,7 @@
     "cve_code": "CVE-2011-1249",
     "description": " The Ancillary Function Driver (AFD) in afd.sys in Microsoft Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista SP1 and SP2, Windows Server 2008 Gold, SP2, R2, and R2 SP1, and Windows 7 Gold and SP1 does not properly validate user-mode input, which allows local users to gain privileges via a crafted application, aka &quot;Ancillary Function Driver Elevation of Privilege Vulnerability.&quot;.",
     "poc": [
-      "https://github.com/h3xcr4ck3r/CVE-2011-1249",
+      "https://github.com/n3rdh4x0r/CVE-2011-1249",
       "https://github.com/Madusanka99/OHTS"
     ]
   },
@@ -54607,7 +54599,7 @@
       "https://github.com/0xConstant/CVE-2009-2265",
       "https://github.com/zaphoxx/zaphoxx-coldfusion",
       "https://github.com/p1ckzi/CVE-2009-2265",
-      "https://github.com/h3xcr4ck3r/CVE-2009-2265",
+      "https://github.com/n3rdh4x0r/CVE-2009-2265",
       "https://github.com/brunorhis/CVE2009-2265"
     ]
   },
@@ -54935,7 +54927,7 @@
       "https://github.com/Ziemni/CVE-2007-2447-in-Python",
       "https://github.com/Alien0ne/CVE-2007-2447",
       "https://github.com/xbufu/CVE-2007-2447",
-      "https://github.com/h3xcr4ck3r/CVE-2007-2447",
+      "https://github.com/n3rdh4x0r/CVE-2007-2447",
       "https://github.com/ozuma/CVE-2007-2447",
       "https://github.com/3x1t1um/CVE-2007-2447",
       "https://github.com/Aviksaikat/CVE-2007-2447",
@@ -54945,12 +54937,12 @@
       "https://github.com/0xKn/CVE-2007-2447",
       "https://github.com/xlcc4096/exploit-CVE-2007-2447",
       "https://github.com/G01d3nW01f/CVE-2007-2447",
-      "https://github.com/Juantos/cve-2007-2447",
       "https://github.com/cherrera0001/CVE-2007-2447",
+      "https://github.com/Juantos/cve-2007-2447",
       "https://github.com/testaross4/CVE-2007-2447",
       "https://github.com/0xTabun/CVE-2007-2447",
-      "https://github.com/JoseBarrios/CVE-2007-2447",
       "https://github.com/0xConstant/CVE-2007-2447",
+      "https://github.com/JoseBarrios/CVE-2007-2447",
       "https://github.com/b1fair/smb_usermap",
       "https://github.com/bdunlap9/CVE-2007-2447_python",
       "https://github.com/MikeRega7/CVE-2007-2447-RCE",
@@ -55140,7 +55132,7 @@
     "poc": [
       "https://github.com/k4miyo/CVE-2004-2687",
       "https://github.com/angelpimentell/distcc_cve_2004-2687_exploit",
-      "https://github.com/h3xcr4ck3r/distccd_rce_CVE-2004-2687",
+      "https://github.com/n3rdh4x0r/distccd_rce_CVE-2004-2687",
       "https://github.com/ss0wl/CVE-2004-2687_distcc_v1"
     ]
   },
