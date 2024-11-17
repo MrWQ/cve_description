@@ -27871,8 +27871,10 @@
   },
   {
     "cve_code": "CVE-2021-29200",
-    "description": " Apache OFBiz has unsafe deserialization prior to 17.12.07 version. An unauthenticated user can perform an RCE attack- [https://github.com/freeide/CVE-2021-29200](https://github.com/freeide/CVE-2021-29200) :  ![starts](https://img.shields.io/github/stars/freeide/CVE-2021-29200.svg) ![forks](https://img.shields.io/github/forks/freeide/CVE-2021-29200.svg)",
-    "poc": []
+    "description": " Apache OFBiz has unsafe deserialization prior to 17.12.07 version. An unauthenticated user can perform an RCE attack.",
+    "poc": [
+      "https://github.com/freeide/CVE-2021-29200"
+    ]
   },
   {
     "cve_code": "CVE-2021-29156",
@@ -31275,8 +31277,10 @@
   },
   {
     "cve_code": "CVE-2020-36079",
-    "description": " ** DISP.UTED ** Zenphoto through 1.5.7 is affected by authenticated arbitrary file upload, leading to remote code execution. The attacker must navigate to the uploader plugin, check the elFinder box, and then drag and drop files into the Files(elFinder) portion of the UI. This can, for example, place a .php file in the server's uploaded/ directory. NOTE: the vendor disputes this because exploitation can only be performed by an admin who has &quot;lots of other possibilities to harm a site.&quot;- [https://github.com/azizalshammari/CVE-2020-36079.](https://github.com/azizalshammari/CVE-2020-36079.) :  ![starts](https://img.shields.io/github/stars/azizalshammari/CVE-2020-36079..svg) ![forks](https://img.shields.io/github/forks/azizalshammari/CVE-2020-36079..svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** Zenphoto through 1.5.7 is affected by authenticated arbitrary file upload, leading to remote code execution. The attacker must navigate to the uploader plugin, check the elFinder box, and then drag and drop files into the Files(elFinder) portion of the UI. This can, for example, place a .php file in the server's uploaded/ directory. NOTE: the vendor disputes this because exploitation can only be performed by an admin who has &quot;lots of other possibilities to harm a site.&quot;.",
+    "poc": [
+      "https://github.com/azizalshammari/CVE-2020-36079."
+    ]
   },
   {
     "cve_code": "CVE-2020-35848",
@@ -33178,12 +33182,8 @@
   },
   {
     "cve_code": "CVE-2020-15778",
-    "description": " ** DISP.UTED ** scp in OpenSSH through 8.3p1 allows command injection in the scp.c toremote function, as demonstrated by backtick characters in the destination argument. NOTE: the vendor reportedly has stated that they intentionally omit validation of &quot;anomalous argument transfers&quot; because that could &quot;stand a great chance of breaking existing workflows.&quot;.",
-    "poc": [
-      "https://github.com/cpandya2909/CVE-2020-15778",
-      "https://github.com/Neko-chanQwQ/CVE-2020-15778-Exploit",
-      "https://github.com/Evan-Zhangyf/CVE-2020-15778"
-    ]
+    "description": " ** DISP.UTED ** scp in OpenSSH through 8.3p1 allows command injection in the scp.c toremote function, as demonstrated by backtick characters in the destination argument. NOTE: the vendor reportedly has stated that they intentionally omit validation of &quot;anomalous argument transfers&quot; because that could &quot;stand a great chance of breaking existing workflows.&quot;- [https://github.com/cpandya2909/CVE-2020-15778](https://github.com/cpandya2909/CVE-2020-15778) :  ![starts](https://img.shields.io/github/stars/cpandya2909/CVE-2020-15778.svg) ![forks](https://img.shields.io/github/forks/cpandya2909/CVE-2020-15778.svg)- [https://github.com/Neko-chanQwQ/CVE-2020-15778-Exploit](https://github.com/Neko-chanQwQ/CVE-2020-15778-Exploit) :  ![starts](https://img.shields.io/github/stars/Neko-chanQwQ/CVE-2020-15778-Exploit.svg) ![forks](https://img.shields.io/github/forks/Neko-chanQwQ/CVE-2020-15778-Exploit.svg)- [https://github.com/Evan-Zhangyf/CVE-2020-15778](https://github.com/Evan-Zhangyf/CVE-2020-15778) :  ![starts](https://img.shields.io/github/stars/Evan-Zhangyf/CVE-2020-15778.svg) ![forks](https://img.shields.io/github/forks/Evan-Zhangyf/CVE-2020-15778.svg)",
+    "poc": []
   },
   {
     "cve_code": "CVE-2020-15589",
@@ -34293,8 +34293,10 @@
   },
   {
     "cve_code": "CVE-2020-11710",
-    "description": " ** DISP.UTED ** An issue was discovered in docker-kong (for Kong) through 2.0.3. The admin API port may be accessible on interfaces other than 127.0.0.1. NOTE: The vendor argue that this CVE is not a vulnerability because it has an inaccurate bug scope and patch links. &#8220;1) Inaccurate Bug Scope - The issue scope was on Kong's docker-compose template, and not Kong's docker image itself. In reality, this issue is not associated with any version of the Kong gateway. As such, the description stating &#8216;An issue was discovered in docker-kong (for Kong) through 2.0.3.&#8217; is incorrect. This issue only occurs if a user decided to spin up Kong via docker-compose without following the security documentation. The docker-compose template is meant for users to quickly get started with Kong, and is meant for development purposes only. 2) Incorrect Patch Links - The CVE currently points to a documentation improvement as a &#8220;Patch&#8221; link: https://github.com/Kong/docs.konghq.com/commit/d693827c32144943a2f45abc017c1321b33ff611.This link actually points to an improvement Kong Inc made for fool-proofing. However, instructions for how to protect the admin API were already well-documented here: https://docs.konghq.com/2.0.x/secure-admin-api/#network-layer-access-restrictions , which was first published back in 2017 (as shown in this commit: https://github.com/Kong/docs.konghq.com/commit/e99cf875d875dd84fdb751079ac37882c9972949) Lastly, the hyperlink to https://github.com/Kong/kong (an unrelated Github Repo to this issue) on the Hyperlink list does not include any meaningful information on this topic.&#8221;- [https://github.com/RandomRobbieBF/kong-pwn](https://github.com/RandomRobbieBF/kong-pwn) :  ![starts](https://img.shields.io/github/stars/RandomRobbieBF/kong-pwn.svg) ![forks](https://img.shields.io/github/forks/RandomRobbieBF/kong-pwn.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** An issue was discovered in docker-kong (for Kong) through 2.0.3. The admin API port may be accessible on interfaces other than 127.0.0.1. NOTE: The vendor argue that this CVE is not a vulnerability because it has an inaccurate bug scope and patch links. &#8220;1) Inaccurate Bug Scope - The issue scope was on Kong's docker-compose template, and not Kong's docker image itself. In reality, this issue is not associated with any version of the Kong gateway. As such, the description stating &#8216;An issue was discovered in docker-kong (for Kong) through 2.0.3.&#8217; is incorrect. This issue only occurs if a user decided to spin up Kong via docker-compose without following the security documentation. The docker-compose template is meant for users to quickly get started with Kong, and is meant for development purposes only. 2) Incorrect Patch Links - The CVE currently points to a documentation improvement as a &#8220;Patch&#8221; link: https://github.com/Kong/docs.konghq.com/commit/d693827c32144943a2f45abc017c1321b33ff611.This link actually points to an improvement Kong Inc made for fool-proofing. However, instructions for how to protect the admin API were already well-documented here: https://docs.konghq.com/2.0.x/secure-admin-api/#network-layer-access-restrictions , which was first published back in 2017 (as shown in this commit: https://github.com/Kong/docs.konghq.com/commit/e99cf875d875dd84fdb751079ac37882c9972949) Lastly, the hyperlink to https://github.com/Kong/kong (an unrelated Github Repo to this issue) on the Hyperlink list does not include any meaningful information on this topic.&#8221;.",
+    "poc": [
+      "https://github.com/RandomRobbieBF/kong-pwn"
+    ]
   },
   {
     "cve_code": "CVE-2020-11652",
@@ -47986,8 +47988,8 @@
       "https://github.com/1337g/CVE-2017-12149",
       "https://github.com/jreppiks/CVE-2017-12149",
       "https://github.com/VVeakee/CVE-2017-12149",
-      "https://github.com/JesseClarkND/CVE-2017-12149",
       "https://github.com/MrE-Fog/jboss-_CVE-2017-12149",
+      "https://github.com/JesseClarkND/CVE-2017-12149",
       "https://github.com/Xcatolin/jboss-deserialization"
     ]
   },
@@ -48128,8 +48130,8 @@
       "https://github.com/lexfo/cve-2017-11176",
       "https://github.com/c3r34lk1ll3r/CVE-2017-11176",
       "https://github.com/leonardo1101/cve-2017-11176",
-      "https://github.com/DoubleMice/cve-2017-11176",
       "https://github.com/Sama-Ayman-Mokhtar/CVE-2017-11176",
+      "https://github.com/DoubleMice/cve-2017-11176",
       "https://github.com/HckEX/CVE-2017-11176"
     ]
   },
@@ -48797,8 +48799,8 @@
       "https://github.com/D2550/CVE_2017_7921_EXP",
       "https://github.com/yousouf-Tasfin/cve-2017-7921-Mass-Exploit",
       "https://github.com/krypton612/hikivision",
-      "https://github.com/fracergu/CVE-2017-7921",
       "https://github.com/b3pwn3d/CVE-2017-7921",
+      "https://github.com/fracergu/CVE-2017-7921",
       "https://github.com/inj3ction/CVE-2017-7921-EXP",
       "https://github.com/p4tq/hikvision_CVE-2017-7921_auth_bypass_config_decryptor",
       "https://github.com/AnonkiGroup/AnonHik"
@@ -49804,10 +49806,10 @@
       "https://github.com/sUbc0ol/Microsoft-Word-CVE-2017-0199-",
       "https://github.com/joke998/Cve-2017-0199-",
       "https://github.com/Nacromencer/cve2017-0199-in-python",
-      "https://github.com/BRAINIAC22/CVE-2017-0199",
       "https://github.com/viethdgit/CVE-2017-0199",
       "https://github.com/joke998/Cve-2017-0199",
       "https://github.com/likekabin/CVE-2017-0199",
+      "https://github.com/BRAINIAC22/CVE-2017-0199",
       "https://github.com/kash-123/CVE-2017-0199",
       "https://github.com/ryhanson/CVE-2017-0199",
       "https://github.com/Winter3un/cve_2017_0199",
@@ -50655,8 +50657,8 @@
       "https://github.com/FloridSleeves/os-experiment-4",
       "https://github.com/talsim/root-dirtyc0w",
       "https://github.com/TotallyNotAHaxxer/CVE-2016-5195",
-      "https://github.com/ASRTeam/CVE-2016-5195",
       "https://github.com/DanielEbert/CVE-2016-5195",
+      "https://github.com/ASRTeam/CVE-2016-5195",
       "https://github.com/titanhp/Dirty-COW-CVE-2016-5195-Testing",
       "https://github.com/th3-5had0w/DirtyCOW-PoC",
       "https://github.com/arbll/dirtycow",
@@ -52838,21 +52840,21 @@
       "https://github.com/Sindadziy/cve-2014-6271",
       "https://github.com/0xConstant/CVE-2014-6271",
       "https://github.com/mritunjay-k/CVE-2014-6271",
-      "https://github.com/Brandaoo/CVE-2014-6271",
       "https://github.com/Aruthw/CVE-2014-6271",
       "https://github.com/kowshik-sundararajan/CVE-2014-6271",
+      "https://github.com/Brandaoo/CVE-2014-6271",
       "https://github.com/mattclegg/CVE-2014-6271",
       "https://github.com/Dilith006/CVE-2014-6271",
+      "https://github.com/Jsmoreira02/CVE-2014-6271",
       "https://github.com/woltage/CVE-2014-6271",
       "https://github.com/0xTabun/CVE-2014-6271",
-      "https://github.com/Jsmoreira02/CVE-2014-6271",
       "https://github.com/rashmikadileeshara/CVE-2014-6271-Shellshock-",
       "https://github.com/shawntns/exploit-CVE-2014-6271",
       "https://github.com/hanmin0512/CVE-2014-6271_pwnable",
       "https://github.com/dlitz/bash-cve-2014-6271-fixes",
       "https://github.com/Pilou-Pilou/docker_CVE-2014-6271.",
-      "https://github.com/cyberharsh/Shellbash-CVE-2014-6271",
       "https://github.com/rrreeeyyy/cve-2014-6271-spec",
+      "https://github.com/cyberharsh/Shellbash-CVE-2014-6271",
       "https://github.com/ilismal/Nessus_CVE-2014-6271_check",
       "https://github.com/w4fz5uck5/ShockZaum-CVE-2014-6271",
       "https://github.com/kelleykong/cve-2014-6271-mengjia-kong",
@@ -54158,8 +54160,8 @@
       "https://github.com/AlexJS6/CVE-2012-2982_Python",
       "https://github.com/Ari-Weinberg/CVE-2012-2982",
       "https://github.com/blu3ming/CVE-2012-2982",
-      "https://github.com/elliotosama/CVE-2012-2982",
       "https://github.com/CpyRe/CVE-2012-2982",
+      "https://github.com/elliotosama/CVE-2012-2982",
       "https://github.com/wizardy0ga/CVE_2012-2982",
       "https://github.com/R00tendo/CVE-2012-2982",
       "https://github.com/0xF331-D3AD/CVE-2012-2982",
@@ -54394,8 +54396,8 @@
       "https://github.com/Gill-Singh-A/vsFTP-2.3.4-Remote-Root-Shell-Exploit",
       "https://github.com/everythingBlackkk/vsFTPd-Backdoor-Exploit-CVE-2011-2523-",
       "https://github.com/0xB0y426/CVE-2011-2523-PoC",
-      "https://github.com/0xSojalSec/CVE-2011-2523",
       "https://github.com/0xSojalSec/-CVE-2011-2523",
+      "https://github.com/0xSojalSec/CVE-2011-2523",
       "https://github.com/Gr4ykt/CVE-2011-2523",
       "https://github.com/vaishnavucv/CVE-2011-2523",
       "https://github.com/XiangSi-Howard/CTF---CVE-2011-2523",
@@ -55164,20 +55166,20 @@
       "https://github.com/Unix13/metasploitable2",
       "https://github.com/Ziemni/CVE-2007-2447-in-Python",
       "https://github.com/Alien0ne/CVE-2007-2447",
-      "https://github.com/xbufu/CVE-2007-2447",
       "https://github.com/n3rdh4x0r/CVE-2007-2447",
+      "https://github.com/xbufu/CVE-2007-2447",
       "https://github.com/ozuma/CVE-2007-2447",
-      "https://github.com/3x1t1um/CVE-2007-2447",
       "https://github.com/Aviksaikat/CVE-2007-2447",
+      "https://github.com/3x1t1um/CVE-2007-2447",
       "https://github.com/s4msec/CVE-2007-2447",
       "https://github.com/Nosferatuvjr/Samba-Usermap-exploit",
       "https://github.com/mr-l0n3lly/CVE-2007-2447",
       "https://github.com/0xKn/CVE-2007-2447",
       "https://github.com/xlcc4096/exploit-CVE-2007-2447",
       "https://github.com/testaross4/CVE-2007-2447",
-      "https://github.com/G01d3nW01f/CVE-2007-2447",
       "https://github.com/cherrera0001/CVE-2007-2447",
       "https://github.com/Juantos/cve-2007-2447",
+      "https://github.com/G01d3nW01f/CVE-2007-2447",
       "https://github.com/0xTabun/CVE-2007-2447",
       "https://github.com/JoseBarrios/CVE-2007-2447",
       "https://github.com/0xConstant/CVE-2007-2447",
@@ -55419,8 +55421,8 @@
     "poc": [
       "https://github.com/ivanitlearning/CVE-2004-1561",
       "https://github.com/thel1nus/CVE-2004-1561-Notes",
-      "https://github.com/ratiros01/CVE-2004-1561",
-      "https://github.com/darrynb89/CVE-2004-1561"
+      "https://github.com/darrynb89/CVE-2004-1561",
+      "https://github.com/ratiros01/CVE-2004-1561"
     ]
   },
   {
