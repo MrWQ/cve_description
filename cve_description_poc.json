@@ -3258,10 +3258,8 @@
   },
   {
     "cve_code": "CVE-2024-23743",
-    "description": " ** DISP.UTED ** Notion through 3.1.0 on macOS might allow code execution because of RunAsNode and enableNodeClilnspectArguments. NOTE: the vendor states &quot;the attacker must launch the Notion Desktop application with nonstandard flags that turn the Electron-based application into a Node.js execution environment.&quot;.",
-    "poc": [
-      "https://github.com/giovannipajeu1/CVE-2024-23743"
-    ]
+    "description": " ** DISP.UTED ** Notion through 3.1.0 on macOS might allow code execution because of RunAsNode and enableNodeClilnspectArguments. NOTE: the vendor states &quot;the attacker must launch the Notion Desktop application with nonstandard flags that turn the Electron-based application into a Node.js execution environment.&quot;- [https://github.com/giovannipajeu1/CVE-2024-23743](https://github.com/giovannipajeu1/CVE-2024-23743) :  ![starts](https://img.shields.io/github/stars/giovannipajeu1/CVE-2024-23743.svg) ![forks](https://img.shields.io/github/forks/giovannipajeu1/CVE-2024-23743.svg)",
+    "poc": []
   },
   {
     "cve_code": "CVE-2024-23742",
@@ -3294,8 +3292,10 @@
   },
   {
     "cve_code": "CVE-2024-23738",
-    "description": " ** DISP.UTED ** An issue in Postman version 10.22 and before on macOS allows a remote attacker to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings. NOTE: the vendor states &quot;we dispute the report's accuracy ... the configuration does not enable remote code execution..&quot;- [https://github.com/giovannipajeu1/CVE-2024-23738](https://github.com/giovannipajeu1/CVE-2024-23738) :  ![starts](https://img.shields.io/github/stars/giovannipajeu1/CVE-2024-23738.svg) ![forks](https://img.shields.io/github/forks/giovannipajeu1/CVE-2024-23738.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** An issue in Postman version 10.22 and before on macOS allows a remote attacker to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings. NOTE: the vendor states &quot;we dispute the report's accuracy ... the configuration does not enable remote code execution..&quot;.",
+    "poc": [
+      "https://github.com/giovannipajeu1/CVE-2024-23738"
+    ]
   },
   {
     "cve_code": "CVE-2024-23727",
@@ -16675,8 +16675,11 @@
   },
   {
     "cve_code": "CVE-2022-46463",
-    "description": " ** DISP.UTED ** An access control issue in Harbor v1.X.X to v2.5.3 allows attackers to access public and private image repositories without authentication. NOTE: the vendor's position is that this &quot;is clearly described in the documentation as a feature.&quot;- [https://github.com/404tk/CVE-2022-46463](https://github.com/404tk/CVE-2022-46463) :  ![starts](https://img.shields.io/github/stars/404tk/CVE-2022-46463.svg) ![forks](https://img.shields.io/github/forks/404tk/CVE-2022-46463.svg)- [https://github.com/nu0l/CVE-2022-46463](https://github.com/nu0l/CVE-2022-46463) :  ![starts](https://img.shields.io/github/stars/nu0l/CVE-2022-46463.svg) ![forks](https://img.shields.io/github/forks/nu0l/CVE-2022-46463.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** An access control issue in Harbor v1.X.X to v2.5.3 allows attackers to access public and private image repositories without authentication. NOTE: the vendor's position is that this &quot;is clearly described in the documentation as a feature.&quot;.",
+    "poc": [
+      "https://github.com/404tk/CVE-2022-46463",
+      "https://github.com/nu0l/CVE-2022-46463"
+    ]
   },
   {
     "cve_code": "CVE-2022-46395",
@@ -27974,10 +27977,8 @@
   },
   {
     "cve_code": "CVE-2021-29200",
-    "description": " Apache OFBiz has unsafe deserialization prior to 17.12.07 version. An unauthenticated user can perform an RCE attack.",
-    "poc": [
-      "https://github.com/freeide/CVE-2021-29200"
-    ]
+    "description": " Apache OFBiz has unsafe deserialization prior to 17.12.07 version. An unauthenticated user can perform an RCE attack- [https://github.com/freeide/CVE-2021-29200](https://github.com/freeide/CVE-2021-29200) :  ![starts](https://img.shields.io/github/stars/freeide/CVE-2021-29200.svg) ![forks](https://img.shields.io/github/forks/freeide/CVE-2021-29200.svg)",
+    "poc": []
   },
   {
     "cve_code": "CVE-2021-29156",
@@ -33284,8 +33285,12 @@
   },
   {
     "cve_code": "CVE-2020-15778",
-    "description": " ** DISP.UTED ** scp in OpenSSH through 8.3p1 allows command injection in the scp.c toremote function, as demonstrated by backtick characters in the destination argument. NOTE: the vendor reportedly has stated that they intentionally omit validation of &quot;anomalous argument transfers&quot; because that could &quot;stand a great chance of breaking existing workflows.&quot;- [https://github.com/cpandya2909/CVE-2020-15778](https://github.com/cpandya2909/CVE-2020-15778) :  ![starts](https://img.shields.io/github/stars/cpandya2909/CVE-2020-15778.svg) ![forks](https://img.shields.io/github/forks/cpandya2909/CVE-2020-15778.svg)- [https://github.com/Neko-chanQwQ/CVE-2020-15778-Exploit](https://github.com/Neko-chanQwQ/CVE-2020-15778-Exploit) :  ![starts](https://img.shields.io/github/stars/Neko-chanQwQ/CVE-2020-15778-Exploit.svg) ![forks](https://img.shields.io/github/forks/Neko-chanQwQ/CVE-2020-15778-Exploit.svg)- [https://github.com/Evan-Zhangyf/CVE-2020-15778](https://github.com/Evan-Zhangyf/CVE-2020-15778) :  ![starts](https://img.shields.io/github/stars/Evan-Zhangyf/CVE-2020-15778.svg) ![forks](https://img.shields.io/github/forks/Evan-Zhangyf/CVE-2020-15778.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** scp in OpenSSH through 8.3p1 allows command injection in the scp.c toremote function, as demonstrated by backtick characters in the destination argument. NOTE: the vendor reportedly has stated that they intentionally omit validation of &quot;anomalous argument transfers&quot; because that could &quot;stand a great chance of breaking existing workflows.&quot;.",
+    "poc": [
+      "https://github.com/cpandya2909/CVE-2020-15778",
+      "https://github.com/Neko-chanQwQ/CVE-2020-15778-Exploit",
+      "https://github.com/Evan-Zhangyf/CVE-2020-15778"
+    ]
   },
   {
     "cve_code": "CVE-2020-15589",
@@ -47041,8 +47046,8 @@
       "https://github.com/cved-sources/cve-2017-1000117",
       "https://github.com/chenzhuo0618/test",
       "https://github.com/Shadow5523/CVE-2017-1000117-test",
-      "https://github.com/ieee0824/CVE-2017-1000117-sl",
       "https://github.com/alilangtest/CVE-2017-1000117",
+      "https://github.com/ieee0824/CVE-2017-1000117-sl",
       "https://github.com/takehaya/CVE-2017-1000117",
       "https://github.com/thelastbyte/CVE-2017-1000117",
       "https://github.com/Q2h1Cg/CVE-2017-1000117",
@@ -48049,7 +48054,8 @@
       "https://github.com/w0x68y/CVE-2017-12615-EXP",
       "https://github.com/cved-sources/cve-2017-12615",
       "https://github.com/Shellkeys/CVE-2017-12615",
-      "https://github.com/cyberharsh/Tomcat-CVE-2017-12615"
+      "https://github.com/cyberharsh/Tomcat-CVE-2017-12615",
+      "https://github.com/wudidwo/CVE-2017-12615-poc"
     ]
   },
   {
@@ -48089,8 +48095,8 @@
       "https://github.com/sevck/CVE-2017-12149",
       "https://github.com/1337g/CVE-2017-12149",
       "https://github.com/jreppiks/CVE-2017-12149",
-      "https://github.com/VVeakee/CVE-2017-12149",
       "https://github.com/JesseClarkND/CVE-2017-12149",
+      "https://github.com/VVeakee/CVE-2017-12149",
       "https://github.com/MrE-Fog/jboss-_CVE-2017-12149",
       "https://github.com/Xcatolin/jboss-deserialization"
     ]
@@ -48126,8 +48132,8 @@
       "https://github.com/Abdibimantara/Maldoc-Analysis",
       "https://github.com/letiencong96/CVE_2017_11882",
       "https://github.com/HZachev/ABC",
-      "https://github.com/CSC-pentest/cve-2017-11882",
       "https://github.com/j0lama/CVE-2017-11882",
+      "https://github.com/CSC-pentest/cve-2017-11882",
       "https://github.com/chanbin/CVE-2017-11882",
       "https://github.com/likekabin/CVE-2017-11882",
       "https://github.com/HaoJame/CVE-2017-11882",
@@ -49413,12 +49419,12 @@
       "https://github.com/mritunjay-k/CVE-2017-5638",
       "https://github.com/colorblindpentester/CVE-2017-5638",
       "https://github.com/random-robbie/CVE-2017-5638",
-      "https://github.com/injcristianrojas/cve-2017-5638",
       "https://github.com/bhagdave/CVE-2017-5638",
       "https://github.com/Tankirat/CVE-2017-5638",
       "https://github.com/jrrombaldo/CVE-2017-5638",
       "https://github.com/mcassano/cve-2017-5638",
       "https://github.com/homjxi0e/CVE-2017-5638",
+      "https://github.com/injcristianrojas/cve-2017-5638",
       "https://github.com/mfdev-solution/Exploit-CVE-2017-5638",
       "https://github.com/cafnet/apache-struts-v2-CVE-2017-5638",
       "https://github.com/sonatype-workshops/struts2-rce",
@@ -49907,8 +49913,8 @@
       "https://github.com/sUbc0ol/Microsoft-Word-CVE-2017-0199-",
       "https://github.com/joke998/Cve-2017-0199-",
       "https://github.com/Nacromencer/cve2017-0199-in-python",
-      "https://github.com/joke998/Cve-2017-0199",
       "https://github.com/viethdgit/CVE-2017-0199",
+      "https://github.com/joke998/Cve-2017-0199",
       "https://github.com/likekabin/CVE-2017-0199",
       "https://github.com/BRAINIAC22/CVE-2017-0199",
       "https://github.com/kash-123/CVE-2017-0199",
@@ -50766,8 +50772,8 @@
       "https://github.com/malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195",
       "https://github.com/ASUKA39/CVE-2016-5195",
       "https://github.com/fei9747/CVE-2016-5195",
-      "https://github.com/ldenevi/CVE-2016-5195",
       "https://github.com/KosukeShimofuji/CVE-2016-5195",
+      "https://github.com/ldenevi/CVE-2016-5195",
       "https://github.com/sribaba/android-CVE-2016-5195",
       "https://github.com/sandeeparth07/CVE-2016_5195-vulnarability",
       "https://github.com/acidburnmi/CVE-2016-5195-master",
@@ -52942,10 +52948,10 @@
       "https://github.com/0xConstant/CVE-2014-6271",
       "https://github.com/mritunjay-k/CVE-2014-6271",
       "https://github.com/Brandaoo/CVE-2014-6271",
-      "https://github.com/Aruthw/CVE-2014-6271",
-      "https://github.com/kowshik-sundararajan/CVE-2014-6271",
       "https://github.com/mattclegg/CVE-2014-6271",
       "https://github.com/Dilith006/CVE-2014-6271",
+      "https://github.com/Aruthw/CVE-2014-6271",
+      "https://github.com/kowshik-sundararajan/CVE-2014-6271",
       "https://github.com/woltage/CVE-2014-6271",
       "https://github.com/0xTabun/CVE-2014-6271",
       "https://github.com/Jsmoreira02/CVE-2014-6271",
@@ -52953,8 +52959,8 @@
       "https://github.com/shawntns/exploit-CVE-2014-6271",
       "https://github.com/hanmin0512/CVE-2014-6271_pwnable",
       "https://github.com/Pilou-Pilou/docker_CVE-2014-6271.",
-      "https://github.com/dlitz/bash-cve-2014-6271-fixes",
       "https://github.com/cyberharsh/Shellbash-CVE-2014-6271",
+      "https://github.com/dlitz/bash-cve-2014-6271-fixes",
       "https://github.com/rrreeeyyy/cve-2014-6271-spec",
       "https://github.com/ilismal/Nessus_CVE-2014-6271_check",
       "https://github.com/w4fz5uck5/ShockZaum-CVE-2014-6271",
@@ -52966,10 +52972,10 @@
       "https://github.com/TheRealCiscoo/Shellshock",
       "https://github.com/anujbhan/shellshock-victim-host",
       "https://github.com/renanvicente/puppet-shellshock",
+      "https://github.com/u20024804/bash-3.2-fixed-CVE-2014-6271",
       "https://github.com/u20024804/bash-4.2-fixed-CVE-2014-6271",
       "https://github.com/u20024804/bash-4.3-fixed-CVE-2014-6271",
       "https://github.com/FilipStudeny/-CVE-2014-6271-Shellshock-Remote-Command-Injection-",
-      "https://github.com/u20024804/bash-3.2-fixed-CVE-2014-6271",
       "https://github.com/teedeedubya/bash-fix-exploit",
       "https://github.com/ariarijp/vagrant-shellshock",
       "https://github.com/justzx2011/bash-up",
@@ -54327,8 +54333,8 @@
     "description": " sapi/cgi/cgi_main.c in PHP before 5.3.12 and 5.4.x before 5.4.2, when configured as a CGI script (aka php-cgi), does not properly handle query strings that lack an = (equals sign) character, which allows remote attackers to execute arbitrary code by placing command-line options in the query string, related to lack of skipping a certain php_getopt for the 'd' case.",
     "poc": [
       "https://github.com/0xl0k1/CVE-2012-1823",
-      "https://github.com/Unix13/metasploitable2",
       "https://github.com/tardummy01/oscp_scripts-1",
+      "https://github.com/Unix13/metasploitable2",
       "https://github.com/cyberharsh/PHP_CVE-2012-1823",
       "https://github.com/drone789/CVE-2012-1823"
     ]
@@ -55277,10 +55283,10 @@
       "https://github.com/mr-l0n3lly/CVE-2007-2447",
       "https://github.com/0xKn/CVE-2007-2447",
       "https://github.com/xlcc4096/exploit-CVE-2007-2447",
-      "https://github.com/G01d3nW01f/CVE-2007-2447",
       "https://github.com/testaross4/CVE-2007-2447",
-      "https://github.com/cherrera0001/CVE-2007-2447",
+      "https://github.com/G01d3nW01f/CVE-2007-2447",
       "https://github.com/Juantos/cve-2007-2447",
+      "https://github.com/cherrera0001/CVE-2007-2447",
       "https://github.com/0xTabun/CVE-2007-2447",
       "https://github.com/JoseBarrios/CVE-2007-2447",
       "https://github.com/0xConstant/CVE-2007-2447",
