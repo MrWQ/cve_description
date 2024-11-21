@@ -290,10 +290,10 @@
     "poc": [
       "https://github.com/qi4L/CVE-2024-38077",
       "https://github.com/murphysecurity/RDL-detect",
-      "https://github.com/zhuxi1965/CVE-2024-38077-RDLCheck",
-      "https://github.com/SecStarBot/CVE-2024-38077-POC",
-      "https://github.com/Wlibang/CVE-2024-38077",
       "https://github.com/mrmtwoj/CVE-2024-38077",
+      "https://github.com/SecStarBot/CVE-2024-38077-POC",
+      "https://github.com/zhuxi1965/CVE-2024-38077-RDLCheck",
+      "https://github.com/Wlibang/CVE-2024-38077",
       "https://github.com/BBD-YZZ/fyne-gui",
       "https://github.com/psl-b/CVE-2024-38077-check",
       "https://github.com/Sec-Link/CVE-2024-38077",
@@ -319,19 +319,19 @@
       "https://github.com/thanawee321/CVE-2024-38063",
       "https://github.com/Th3Tr1ckst3r/CVE-2024-38063",
       "https://github.com/Th3Tr1ckst3r/Exip6",
-      "https://github.com/selenagomez25/CVE-2024-38063",
       "https://github.com/becrevex/CVE-2024-38063",
       "https://github.com/Faizan-Khanx/CVE-2024-38063",
+      "https://github.com/Dragkob/CVE-2024-38063",
       "https://github.com/AdminPentester/CVE-2024-38063-",
       "https://github.com/zaneoblaneo/cve_2024_38063_research",
       "https://github.com/noradlb1/CVE-2024-38063-VB",
       "https://github.com/ArenaldyP/CVE-2024-38063-Medium",
       "https://github.com/ps-interactive/cve-2024-38063",
       "https://github.com/lnx-dvlpr/cve-2024-38063",
+      "https://github.com/selenagomez25/CVE-2024-38063",
       "https://github.com/p33d/cve-2024-38063",
       "https://github.com/Brownpanda29/Cve-2024-38063",
       "https://github.com/idkwastaken/CVE-2024-38063",
-      "https://github.com/Dragkob/CVE-2024-38063",
       "https://github.com/dweger-scripts/CVE-2024-38063-Remediation",
       "https://github.com/AliHj98/cve-2024-38063-Anonyvader",
       "https://github.com/FrancescoDiSalesGithub/quick-fix-cve-2024-38063",
@@ -1284,8 +1284,8 @@
       "https://github.com/Roronoawjd/git_rce",
       "https://github.com/blackninja23/CVE-2024-32002",
       "https://github.com/bonnettheo/CVE-2024-32002",
-      "https://github.com/431m/rcetest",
       "https://github.com/sanan2004/CVE-2024-32002",
+      "https://github.com/431m/rcetest",
       "https://github.com/tobelight/cve_2024_32002",
       "https://github.com/charlesgargasson/CVE-2024-32002",
       "https://github.com/Roronoawjd/hook",
@@ -1313,10 +1313,10 @@
       "https://github.com/aitorcastel/poc_CVE-2024-32002",
       "https://github.com/Julian-gmz/hook_CVE-2024-32002",
       "https://github.com/10cks/CVE-2024-32002-linux-submod",
-      "https://github.com/10cks/CVE-2024-32002-linux-hulk",
       "https://github.com/10cks/CVE-2024-32002-linux-smash",
       "https://github.com/aitorcastel/poc_CVE-2024-32002_submodule",
       "https://github.com/th4s1s/CVE-2024-32002-PoC",
+      "https://github.com/10cks/CVE-2024-32002-linux-hulk",
       "https://github.com/TSY244/CVE-2024-32002-git-rce",
       "https://github.com/JakobTheDev/cve-2024-32002-submodule-rce",
       "https://github.com/JakobTheDev/cve-2024-32002-poc-aw",
@@ -1851,9 +1851,9 @@
       "https://github.com/0xc4t/CVE-2024-28995",
       "https://github.com/ggfzx/CVE-2024-28995",
       "https://github.com/gotr00t0day/CVE-2024-28995",
-      "https://github.com/Praison001/CVE-2024-28995-SolarWinds-Serv-U",
       "https://github.com/muhammetali20/CVE-2024-28995",
-      "https://github.com/huseyinstif/CVE-2024-28995-Nuclei-Template"
+      "https://github.com/huseyinstif/CVE-2024-28995-Nuclei-Template",
+      "https://github.com/Praison001/CVE-2024-28995-SolarWinds-Serv-U"
     ]
   },
   {
@@ -2493,9 +2493,9 @@
     "cve_code": "CVE-2024-25641",
     "description": " Cacti provides an operational monitoring and fault management framework. Prior to version 1.2.27, an arbitrary file write vulnerability, exploitable through the &quot;Package Import&quot; feature, allows authenticated users having the &quot;Import Templates&quot; permission to execute arbitrary PHP code on the web server. The vulnerability is located within the `import_package()` function defined into the `/lib/import.php` script. The function blindly trusts the filename and file content provided within the XML data, and writes such files into the Cacti base path (or even outside, since path traversal sequences are not filtered). This can be exploited to write or overwrite arbitrary files on the web server, leading to execution of arbitrary PHP code or other security impacts. Version 1.2.27 contains a patch for this issue.",
     "poc": [
-      "https://github.com/thisisveryfunny/CVE-2024-25641-RCE-Automated-Exploit-Cacti-1.2.26",
       "https://github.com/5ma1l/CVE-2024-25641",
       "https://github.com/StopThatTalace/CVE-2024-25641-CACTI-RCE-1.2.26",
+      "https://github.com/thisisveryfunny/CVE-2024-25641-RCE-Automated-Exploit-Cacti-1.2.26",
       "https://github.com/Safarchand/CVE-2024-25641"
     ]
   },
@@ -2514,8 +2514,8 @@
       "https://github.com/ivanbg2004/0BL1V10N-CVE-2024-25600-Bricks-Builder-plugin-for-WordPress",
       "https://github.com/X-Projetion/WORDPRESS-CVE-2024-25600-EXPLOIT-RCE",
       "https://github.com/wh6amiGit/CVE-2024-25600",
-      "https://github.com/WanLiChangChengWanLiChang/CVE-2024-25600",
       "https://github.com/k3lpi3b4nsh33/CVE-2024-25600",
+      "https://github.com/WanLiChangChengWanLiChang/CVE-2024-25600",
       "https://github.com/svchostmm/CVE-2024-25600-mass",
       "https://github.com/KaSooMi0228/CVE-2024-25600-Bricks-Builder-WordPress"
     ]
@@ -2708,9 +2708,9 @@
       "https://github.com/GoatSecurity/CVE-2024-24919",
       "https://github.com/un9nplayer/CVE-2024-24919",
       "https://github.com/verylazytech/CVE-2024-24919",
-      "https://github.com/c3rrberu5/CVE-2024-24919",
       "https://github.com/geniuszlyy/CVE-2024-24919",
       "https://github.com/0nin0hanz0/CVE-2024-24919-PoC",
+      "https://github.com/c3rrberu5/CVE-2024-24919",
       "https://github.com/GuayoyoCyber/CVE-2024-24919",
       "https://github.com/emanueldosreis/CVE-2024-24919",
       "https://github.com/smackerdodi/CVE-2024-24919-nuclei-templater",
@@ -2722,8 +2722,8 @@
       "https://github.com/bigb0x/CVE-2024-24919-Sniper",
       "https://github.com/r4p3c4/CVE-2024-24919-Exploit-PoC-Checkpoint-Firewall-VPN",
       "https://github.com/fernandobortotti/CVE-2024-24919",
-      "https://github.com/skyrowalker/CVE-2024-24919",
       "https://github.com/SalehLardhi/CVE-2024-24919",
+      "https://github.com/skyrowalker/CVE-2024-24919",
       "https://github.com/gurudattch/CVE-2024-24919",
       "https://github.com/0xYumeko/CVE-2024-24919",
       "https://github.com/Cappricio-Securities/CVE-2024-24919",
@@ -2733,25 +2733,25 @@
       "https://github.com/starlox0/CVE-2024-24919-POC",
       "https://github.com/r4p3c4/CVE-2024-24919-Checkpoint-Firewall-VPN-Check",
       "https://github.com/am-eid/CVE-2024-24919",
+      "https://github.com/Vulnpire/CVE-2024-24919",
       "https://github.com/P3wc0/CVE-2024-24919",
+      "https://github.com/hendprw/CVE-2024-24919",
       "https://github.com/nicolvsrlr27/CVE-2024-24919",
       "https://github.com/satriarizka/CVE-2024-24919",
-      "https://github.com/hendprw/CVE-2024-24919",
-      "https://github.com/ShadowByte1/CVE-2024-24919",
-      "https://github.com/yagyuufellinluvv/CVE-2024-24919",
-      "https://github.com/Vulnpire/CVE-2024-24919",
-      "https://github.com/Jutrm/cve-2024-24919",
       "https://github.com/YN1337/CVE-2024-24919",
       "https://github.com/satchhacker/cve-2024-24919",
+      "https://github.com/yagyuufellinluvv/CVE-2024-24919",
+      "https://github.com/ShadowByte1/CVE-2024-24919",
+      "https://github.com/Jutrm/cve-2024-24919",
       "https://github.com/Tim-Hoekstra/CVE-2024-24919",
       "https://github.com/H3KEY/CVE-2024-24919",
       "https://github.com/0xkalawy/CVE-2024-24919",
-      "https://github.com/nullcult/CVE-2024-24919-Exploit",
-      "https://github.com/J4F9S5D2Q7/CVE-2024-24919-CHECKPOINT",
-      "https://github.com/sar-3mar/CVE-2024-24919_POC",
       "https://github.com/B1naryo/CVE-2024-24919-POC",
       "https://github.com/birdlex/cve-2024-24919-checker",
       "https://github.com/Expl0itD0g/CVE-2024-24919---Poc",
+      "https://github.com/nullcult/CVE-2024-24919-Exploit",
+      "https://github.com/J4F9S5D2Q7/CVE-2024-24919-CHECKPOINT",
+      "https://github.com/sar-3mar/CVE-2024-24919_POC",
       "https://github.com/LuisMateo1/Arbitrary-File-Read-CVE-2024-24919",
       "https://github.com/Praison001/CVE-2024-24919-Check-Point-Remote-Access-VPN",
       "https://github.com/AhmedMansour93/Event-ID-263-Rule-Name-SOC287---Arbitrary-File-Read-on-Checkpoint-Security-Gateway-CVE-2024-24919-"
@@ -3170,8 +3170,8 @@
       "https://github.com/godylockz/CVE-2024-23897",
       "https://github.com/Vozec/CVE-2024-23897",
       "https://github.com/3yujw7njai/CVE-2024-23897",
-      "https://github.com/Maalfer/CVE-2024-23897",
       "https://github.com/jenkinsci-cert/SECURITY-3314-3315",
+      "https://github.com/Maalfer/CVE-2024-23897",
       "https://github.com/10T4/PoC-Fix-jenkins-rce_CVE-2024-23897",
       "https://github.com/verylazytech/CVE-2024-23897",
       "https://github.com/viszsec/CVE-2024-23897",
@@ -3258,10 +3258,8 @@
   },
   {
     "cve_code": "CVE-2024-23743",
-    "description": " ** DISP.UTED ** Notion through 3.1.0 on macOS might allow code execution because of RunAsNode and enableNodeClilnspectArguments. NOTE: the vendor states &quot;the attacker must launch the Notion Desktop application with nonstandard flags that turn the Electron-based application into a Node.js execution environment.&quot;.",
-    "poc": [
-      "https://github.com/giovannipajeu1/CVE-2024-23743"
-    ]
+    "description": " ** DISP.UTED ** Notion through 3.1.0 on macOS might allow code execution because of RunAsNode and enableNodeClilnspectArguments. NOTE: the vendor states &quot;the attacker must launch the Notion Desktop application with nonstandard flags that turn the Electron-based application into a Node.js execution environment.&quot;- [https://github.com/giovannipajeu1/CVE-2024-23743](https://github.com/giovannipajeu1/CVE-2024-23743) :  ![starts](https://img.shields.io/github/stars/giovannipajeu1/CVE-2024-23743.svg) ![forks](https://img.shields.io/github/forks/giovannipajeu1/CVE-2024-23743.svg)",
+    "poc": []
   },
   {
     "cve_code": "CVE-2024-23742",
@@ -3294,8 +3292,10 @@
   },
   {
     "cve_code": "CVE-2024-23738",
-    "description": " ** DISP.UTED ** An issue in Postman version 10.22 and before on macOS allows a remote attacker to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings. NOTE: the vendor states &quot;we dispute the report's accuracy ... the configuration does not enable remote code execution..&quot;- [https://github.com/giovannipajeu1/CVE-2024-23738](https://github.com/giovannipajeu1/CVE-2024-23738) :  ![starts](https://img.shields.io/github/stars/giovannipajeu1/CVE-2024-23738.svg) ![forks](https://img.shields.io/github/forks/giovannipajeu1/CVE-2024-23738.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** An issue in Postman version 10.22 and before on macOS allows a remote attacker to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings. NOTE: the vendor states &quot;we dispute the report's accuracy ... the configuration does not enable remote code execution..&quot;.",
+    "poc": [
+      "https://github.com/giovannipajeu1/CVE-2024-23738"
+    ]
   },
   {
     "cve_code": "CVE-2024-23727",
@@ -3338,8 +3338,8 @@
     "poc": [
       "https://github.com/verylazytech/CVE-2024-23692",
       "https://github.com/0x20c/CVE-2024-23692-EXP",
-      "https://github.com/vanboomqi/CVE-2024-23692",
       "https://github.com/jakabakos/CVE-2024-23692-RCE-in-Rejetto-HFS",
+      "https://github.com/vanboomqi/CVE-2024-23692",
       "https://github.com/BBD-YZZ/CVE-2024-23692",
       "https://github.com/k3lpi3b4nsh33/CVE-2024-23692",
       "https://github.com/pradeepboo/Rejetto-HFS-2.x-RCE-CVE-2024-23692",
@@ -3386,11 +3386,11 @@
       "https://github.com/sxyrxyy/aiohttp-exploit-CVE-2024-23334-certstream",
       "https://github.com/s4botai/CVE-2024-23334-PoC",
       "https://github.com/TheRedP4nther/LFI-aiohttp-CVE-2024-23334-PoC",
-      "https://github.com/wizarddos/CVE-2024-23334",
-      "https://github.com/Arc4he/CVE-2024-23334-PoC",
-      "https://github.com/binaryninja/CVE-2024-23334",
       "https://github.com/brian-edgar-re/poc-cve-2024-23334",
-      "https://github.com/Pylonet/CVE-2024-23334"
+      "https://github.com/binaryninja/CVE-2024-23334",
+      "https://github.com/Pylonet/CVE-2024-23334",
+      "https://github.com/wizarddos/CVE-2024-23334",
+      "https://github.com/Arc4he/CVE-2024-23334-PoC"
     ]
   },
   {
@@ -4244,8 +4244,8 @@
     "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
     "poc": [
       "https://github.com/EQSTLab/CVE-2024-5932",
-      "https://github.com/0xb0mb3r/CVE-2024-5932-PoC",
-      "https://github.com/OxLmahdi/cve-2024-5932"
+      "https://github.com/OxLmahdi/cve-2024-5932",
+      "https://github.com/0xb0mb3r/CVE-2024-5932-PoC"
     ]
   },
   {
@@ -4377,7 +4377,8 @@
     "cve_code": "CVE-2024-5231",
     "description": " A vulnerability was found in Campcodes Complete Web-Based School Management System 1.0 and classified as critical. Affected by this issue is some unknown functionality of the file /view/teacher_salary_details.php. The manipulation of the argument index leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. VDB-265982 is the identifier assigned to this vulnerability.",
     "poc": [
-      "https://github.com/famixcm/CVE-2024-52316"
+      "https://github.com/famixcm/CVE-2024-52316",
+      "https://github.com/TAM-K592/CVE-2024-52316"
     ]
   },
   {
@@ -4467,8 +4468,8 @@
     "cve_code": "CVE-2024-5103",
     "description": " A vulnerability was found in Campcodes Complete Web-Based School Management System 1.0. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the file /view/student_first_payment.php. The manipulation of the argument grade leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-265093 was assigned to this vulnerability.",
     "poc": [
-      "https://github.com/vighneshnair7/CVE-2024-51030",
       "https://github.com/Shree-Chandragiri/CVE-2024-51032",
+      "https://github.com/vighneshnair7/CVE-2024-51030",
       "https://github.com/vighneshnair7/CVE-2024-51031"
     ]
   },
@@ -4491,8 +4492,8 @@
     "description": " A vulnerability, which was classified as problematic, was found in SourceCodester Simple Inventory System 1.0. Affected is an unknown function of the file /tableedit.php#page=editprice. The manipulation of the argument itemnumber leads to cross-site request forgery. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-265080.",
     "poc": [
       "https://github.com/Akhlak2511/CVE-2024-50972",
-      "https://github.com/Akhlak2511/CVE-2024-50971",
-      "https://github.com/Akhlak2511/CVE-2024-50970"
+      "https://github.com/Akhlak2511/CVE-2024-50970",
+      "https://github.com/Akhlak2511/CVE-2024-50971"
     ]
   },
   {
@@ -4556,8 +4557,8 @@
     "poc": [
       "https://github.com/RandomRobbieBF/CVE-2024-50483",
       "https://github.com/RandomRobbieBF/CVE-2024-50482",
-      "https://github.com/RandomRobbieBF/CVE-2024-50488",
-      "https://github.com/RandomRobbieBF/CVE-2024-50485"
+      "https://github.com/RandomRobbieBF/CVE-2024-50485",
+      "https://github.com/RandomRobbieBF/CVE-2024-50488"
     ]
   },
   {
@@ -4629,8 +4630,8 @@
       "https://github.com/verylazytech/CVE-2024-4956",
       "https://github.com/fin3ss3g0d/CVE-2024-4956",
       "https://github.com/TypicalModMaker/CVE-2024-4956",
-      "https://github.com/GoatSecurity/CVE-2024-4956",
       "https://github.com/xungzzz/CVE-2024-4956",
+      "https://github.com/GoatSecurity/CVE-2024-4956",
       "https://github.com/erickfernandox/CVE-2024-4956",
       "https://github.com/gmh5225/CVE-2024-4956",
       "https://github.com/banditzCyber0x/CVE-2024-4956",
@@ -4666,10 +4667,24 @@
     ]
   },
   {
+    "cve_code": "CVE-2024-4920",
+    "description": " A vulnerability was found in SourceCodester Online Discussion Forum Site 1.0. It has been rated as critical. This issue affects some unknown processing of the file registerH.php. The manipulation of the argument ima leads to unrestricted upload. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-264455.",
+    "poc": [
+      "https://github.com/CSIRTTrizna/CVE-2024-49203"
+    ]
+  },
+  {
     "cve_code": "CVE-2024-4903",
     "description": " A vulnerability was found in Tongda OA 2017. It has been declared as critical. This vulnerability affects unknown code of the file /general/meeting/manage/delete.php. The manipulation of the argument M_ID_STR leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-264436. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.",
     "poc": [
       "https://github.com/je5442804/WPTaskScheduler_CVE-2024-49039"
+    ]
+  },
+  {
+    "cve_code": "CVE-2024-4899",
+    "description": " The SEOPress WordPress plugin before 7.8 does not sanitise and escape some of its Post settings, which could allow high privilege users such as contributor to perform Stored Cross-Site Scripting attacks.",
+    "poc": [
+      "https://github.com/makuga01/CVE-2024-48990-PoC"
     ]
   },
   {
@@ -4717,8 +4732,8 @@
       "https://github.com/fa-rrel/CVE-2024-4879",
       "https://github.com/Mr-r00t11/CVE-2024-4879",
       "https://github.com/NoTsPepino/CVE-2024-4879-CVE-2024-5217-ServiceNow-RCE-Scanning",
-      "https://github.com/ShadowByte1/CVE-2024-4879",
       "https://github.com/tequilasunsh1ne/CVE_2024_4879",
+      "https://github.com/ShadowByte1/CVE-2024-4879",
       "https://github.com/0xWhoami35/CVE-2024-4879",
       "https://github.com/jdusane/CVE-2024-4879",
       "https://github.com/Praison001/CVE-2024-4879-ServiceNow"
@@ -4830,8 +4845,8 @@
     "description": " The Logo Manager For Enamad WordPress plugin through 0.7.0 does not have CSRF check in some places, and is missing sanitisation as well as escaping, which could allow attackers to make logged in admin add Stored XSS payloads via a CSRF attack.",
     "poc": [
       "https://github.com/watchtowrlabs/Fortijump-Exploit-CVE-2024-47575",
-      "https://github.com/expl0itsecurity/CVE-2024-47575",
       "https://github.com/hazesecurity/CVE-2024-47575",
+      "https://github.com/expl0itsecurity/CVE-2024-47575",
       "https://github.com/maybelookis/CVE-2024-47575",
       "https://github.com/HazeLook/CVE-2024-47575",
       "https://github.com/groshi/CVE-2024-47575-POC",
@@ -4991,12 +5006,12 @@
       "https://github.com/fa-rrel/CVE-2024-4577-RCE",
       "https://github.com/gotr00t0day/CVE-2024-4577",
       "https://github.com/codeb0ss/CVEploiterv2",
-      "https://github.com/K3ysTr0K3R/CVE-2024-4577-EXPLOIT",
       "https://github.com/BTtea/CVE-2024-4577-RCE-PoC",
       "https://github.com/manuelinfosec/CVE-2024-4577",
+      "https://github.com/K3ysTr0K3R/CVE-2024-4577-EXPLOIT",
+      "https://github.com/bibo318/CVE-2024-4577-RCE-ATTACK",
       "https://github.com/l0n3m4n/CVE-2024-4577-RCE",
       "https://github.com/waived/CVE-2024-4577-PHP-RCE",
-      "https://github.com/bibo318/CVE-2024-4577-RCE-ATTACK",
       "https://github.com/longhoangth18/CVE-2024-4577",
       "https://github.com/Junp0/CVE-2024-4577",
       "https://github.com/aaddmin1122345/cve-2024-4577",
@@ -5004,8 +5019,8 @@
       "https://github.com/zomasec/CVE-2024-4577",
       "https://github.com/0x20c/CVE-2024-4577-nuclei",
       "https://github.com/Wh02m1/CVE-2024-4577",
-      "https://github.com/Sh0ckFR/CVE-2024-4577",
       "https://github.com/phirojshah/CVE-2024-4577",
+      "https://github.com/Sh0ckFR/CVE-2024-4577",
       "https://github.com/JeninSutradhar/CVE-2024-4577-checker",
       "https://github.com/taida957789/CVE-2024-4577",
       "https://github.com/ggfzx/CVE-2024-4577",
@@ -5020,14 +5035,14 @@
       "https://github.com/charis3306/CVE-2024-4577",
       "https://github.com/bughuntar/CVE-2024-4577",
       "https://github.com/BitMEXResearch/CVE-2024-4577",
-      "https://github.com/nNoSuger/CVE-2024-4577",
-      "https://github.com/princew88/CVE-2024-4577",
       "https://github.com/a-roshbaik/CVE-2024-4577",
       "https://github.com/Jcccccx/CVE-2024-4577",
+      "https://github.com/nNoSuger/CVE-2024-4577",
+      "https://github.com/princew88/CVE-2024-4577",
       "https://github.com/dbyMelina/CVE-2024-4577",
       "https://github.com/Sysc4ll3r/CVE-2024-4577",
-      "https://github.com/bl4cksku11/CVE-2024-4577",
       "https://github.com/hexedbyte/cve-2024-4577",
+      "https://github.com/bl4cksku11/CVE-2024-4577",
       "https://github.com/ahmetramazank/CVE-2024-4577",
       "https://github.com/d3ck4/Shodan-CVE-2024-4577",
       "https://github.com/Entropt/CVE-2024-4577_Analysis",
@@ -5107,8 +5122,8 @@
     "cve_code": "CVE-2024-4526",
     "description": " A vulnerability was found in Campcodes Complete Web-Based School Management System 1.0 and classified as problematic. This issue affects some unknown processing of the file /view/student_payment_details3.php. The manipulation of the argument month leads to cross site scripting. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-263129 was assigned to this vulnerability.",
     "poc": [
-      "https://github.com/TheHermione/CVE-2024-45265",
-      "https://github.com/TheHermione/CVE-2024-45264"
+      "https://github.com/TheHermione/CVE-2024-45264",
+      "https://github.com/TheHermione/CVE-2024-45265"
     ]
   },
   {
@@ -5461,8 +5476,8 @@
     "cve_code": "CVE-2024-4265",
     "description": " The Master Addons &#8211; Free Widgets, Hover Effects, Toggle, Conditions, Animations for Elementor plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the &#8216;url&#8217; parameter in versions up to, and including, 2.0.5.9 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with contributor-level permissions and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
     "poc": [
-      "https://github.com/sudo-subho/CVE-2024-42658",
-      "https://github.com/sudo-subho/CVE-2024-42657"
+      "https://github.com/sudo-subho/CVE-2024-42657",
+      "https://github.com/sudo-subho/CVE-2024-42658"
     ]
   },
   {
@@ -5712,17 +5727,17 @@
       "https://github.com/rbih-boulanouar/CVE-2024-4040",
       "https://github.com/gotr00t0day/CVE-2024-4040",
       "https://github.com/geniuszlyy/GenCrushSSTIExploit",
-      "https://github.com/entroychang/CVE-2024-4040",
       "https://github.com/Mohammaddvd/CVE-2024-4040",
       "https://github.com/jakabakos/CVE-2024-4040-CrushFTP-File-Read-vulnerability",
+      "https://github.com/entroychang/CVE-2024-4040",
       "https://github.com/tucommenceapousser/CVE-2024-4040-Scanner",
       "https://github.com/olebris/CVE-2024-4040",
       "https://github.com/0xN7y/CVE-2024-4040",
       "https://github.com/Mufti22/CVE-2024-4040",
       "https://github.com/1ncendium/CVE-2024-4040",
       "https://github.com/rahisec/CVE-2024-4040",
-      "https://github.com/Praison001/CVE-2024-4040-CrushFTP-server",
-      "https://github.com/safeer-accuknox/CrushFTP-cve-2024-4040-poc"
+      "https://github.com/safeer-accuknox/CrushFTP-cve-2024-4040-poc",
+      "https://github.com/Praison001/CVE-2024-4040-CrushFTP-server"
     ]
   },
   {
@@ -5774,8 +5789,8 @@
     "cve_code": "CVE-2024-3992",
     "description": " The Amen WordPress plugin through 3.3.1 does not sanitise and escape some of its settings, which could allow high privilege users such as admin to perform Stored Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed (for example in multisite setup).",
     "poc": [
-      "https://github.com/michael-david-fry/CVE-2024-39929",
-      "https://github.com/rxerium/CVE-2024-39929"
+      "https://github.com/rxerium/CVE-2024-39929",
+      "https://github.com/michael-david-fry/CVE-2024-39929"
     ]
   },
   {
@@ -5853,8 +5868,8 @@
     "description": " The Country State City Dropdown CF7 plugin for WordPress is vulnerable to SQL Injection via the &#8216;cnt&#8217; and 'sid' parameters in versions up to, and including, 2.7.2 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.",
     "poc": [
       "https://github.com/truonghuuphuc/CVE-2024-3495-Poc",
-      "https://github.com/issamiso/CVE-2024-2876",
-      "https://github.com/zomasec/CVE-2024-3495-POC"
+      "https://github.com/zomasec/CVE-2024-3495-POC",
+      "https://github.com/issamiso/CVE-2024-2876"
     ]
   },
   {
@@ -5890,17 +5905,17 @@
       "https://github.com/tfrederick74656/cve-2024-3400-poc",
       "https://github.com/iwallarm/cve-2024-3400",
       "https://github.com/Kr0ff/cve-2024-3400",
-      "https://github.com/FoxyProxys/CVE-2024-3400",
       "https://github.com/LoanVitor/CVE-2024-3400-",
       "https://github.com/codeblueprint/CVE-2024-3400",
       "https://github.com/workshop748/CVE-2024-3400",
-      "https://github.com/hahasagined/CVE-2024-3400",
+      "https://github.com/FoxyProxys/CVE-2024-3400",
       "https://github.com/andrelia-hacks/CVE-2024-3400",
+      "https://github.com/hahasagined/CVE-2024-3400",
       "https://github.com/MrR0b0t19/CVE-2024-3400",
       "https://github.com/pwnj0hn/CVE-2024-3400",
       "https://github.com/Ravaan21/CVE-2024-3400",
-      "https://github.com/terminalJunki3/CVE-2024-3400-Checker",
       "https://github.com/sxyrxyy/CVE-2024-3400-Check",
+      "https://github.com/terminalJunki3/CVE-2024-3400-Checker",
       "https://github.com/index2014/CVE-2024-3400-Checker",
       "https://github.com/MurrayR0123/CVE-2024-3400-Compromise-Checker",
       "https://github.com/tk-sawada/IPLineFinder"
@@ -6021,9 +6036,9 @@
       "https://github.com/Mustafa1986/CVE-2024-3094",
       "https://github.com/mightysai1997/CVE-2024-3094",
       "https://github.com/Simplifi-ED/CVE-2024-3094-patcher",
+      "https://github.com/hazemkya/CVE-2024-3094-checker",
       "https://github.com/ackemed/detectar_cve-2024-3094",
       "https://github.com/TheTorjanCaptain/CVE-2024-3094-Checker",
-      "https://github.com/hazemkya/CVE-2024-3094-checker",
       "https://github.com/mightysai1997/CVE-2024-3094-info",
       "https://github.com/iheb2b/CVE-2024-3094-Checker",
       "https://github.com/OpensourceICTSolutions/xz_utils-CVE-2024-3094",
@@ -6086,9 +6101,9 @@
     "description": " The Email Subscribers by Icegram Express &#8211; Email Marketing, Newsletters, Automation for WordPress &amp; WooCommerce plugin for WordPress is vulnerable to SQL Injection via the 'run' function of the 'IG_ES_Subscribers_Query' class in all versions up to, and including, 5.7.14 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.",
     "poc": [
       "https://github.com/c0d3zilla/CVE-2024-2876",
-      "https://github.com/issamiso/CVE-2024-2876",
       "https://github.com/0xAgun/CVE-2024-2876",
       "https://github.com/skyrowalker/CVE-2024-2876",
+      "https://github.com/issamiso/CVE-2024-2876",
       "https://github.com/Quantum-Hacker/CVE-2024-2876"
     ]
   },
@@ -6248,8 +6263,8 @@
     "poc": [
       "https://github.com/kamranhasan/CVE-2024-1698-Exploit",
       "https://github.com/codeb0ss/CVE-2024-1698-PoC",
-      "https://github.com/shanglyu/CVE-2024-1698",
-      "https://github.com/jesicatjan/WordPress-NotificationX-CVE-2024-1698"
+      "https://github.com/jesicatjan/WordPress-NotificationX-CVE-2024-1698",
+      "https://github.com/shanglyu/CVE-2024-1698"
     ]
   },
   {
@@ -6431,9 +6446,11 @@
     "cve_code": "CVE-2024-1092",
     "description": " The RSS Aggregator by Feedzy &#8211; Feed to Post, Autoblogging, News &amp; YouTube Video Feeds Aggregator plugin for WordPress is vulnerable to unauthorized data modification due to a missing capability check on the feedzy dashboard in all versions up to, and including, 4.4.1. This makes it possible for authenticated attackers, with contributor access or higher, to create, edit or delete feed categories created by them.",
     "poc": [
-      "https://github.com/FoKiiin/CVE-2024-10924",
       "https://github.com/RandomRobbieBF/CVE-2024-10924",
-      "https://github.com/MattJButler/CVE-2024-10924"
+      "https://github.com/FoKiiin/CVE-2024-10924",
+      "https://github.com/MattJButler/CVE-2024-10924",
+      "https://github.com/julesbsz/CVE-2024-10924",
+      "https://github.com/Trackflaw/CVE-2024-10924-Wordpress-Docker"
     ]
   },
   {
@@ -6691,8 +6708,8 @@
     "poc": [
       "https://github.com/ysanatomic/io_uring_LPE-CVE-2024-0582",
       "https://github.com/geniuszlyy/CVE-2024-0582",
-      "https://github.com/0ptyx/cve-2024-0582",
-      "https://github.com/Forsaken0129/CVE-2024-0582"
+      "https://github.com/Forsaken0129/CVE-2024-0582",
+      "https://github.com/0ptyx/cve-2024-0582"
     ]
   },
   {
@@ -6833,11 +6850,11 @@
       "https://github.com/Re13orn/CVE-2024-0044-EXP",
       "https://github.com/MrW0l05zyn/cve-2024-0044",
       "https://github.com/nahid0x1/CVE-2024-0044",
-      "https://github.com/007CRIPTOGRAFIA/c-CVE-2024-0044",
       "https://github.com/hunter24x24/cve_2024_0044",
-      "https://github.com/nexussecelite/EvilDroid",
+      "https://github.com/007CRIPTOGRAFIA/c-CVE-2024-0044",
       "https://github.com/a-roshbaik/cve_2024_0044",
-      "https://github.com/Kai2er/CVE-2024-0044-EXP"
+      "https://github.com/Kai2er/CVE-2024-0044-EXP",
+      "https://github.com/nexussecelite/EvilDroid"
     ]
   },
   {
@@ -6883,7 +6900,9 @@
     "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
     "poc": [
       "https://github.com/watchtowrlabs/palo-alto-panos-cve-2024-0012",
-      "https://github.com/Sachinart/CVE-2024-0012-POC"
+      "https://github.com/Sachinart/CVE-2024-0012-POC",
+      "https://github.com/hazesecurity/CVE-2024-0012",
+      "https://github.com/greaselovely/CVE-2024-0012"
     ]
   },
   {
@@ -7210,7 +7229,8 @@
       "https://github.com/minhbao15677/CVE-2023-50164",
       "https://github.com/miles3719/cve-2023-50164",
       "https://github.com/AsfandAliMemon25/CVE-2023-50164Analysis-",
-      "https://github.com/NikitaPark/CVE-2023-50164-PoC"
+      "https://github.com/NikitaPark/CVE-2023-50164-PoC",
+      "https://github.com/Trackflaw/CVE-2024-10924-Wordpress-Docker"
     ]
   },
   {
@@ -9158,8 +9178,8 @@
       "https://github.com/Zenmovie/CVE-2023-42793",
       "https://github.com/Zyad-Elsayed/CVE-2023-42793",
       "https://github.com/hotplugin0x01/CVE-2023-42793",
-      "https://github.com/HusenjanDev/CVE-2023-42793",
       "https://github.com/SwiftSecur/teamcity-exploit-cve-2023-42793",
+      "https://github.com/HusenjanDev/CVE-2023-42793",
       "https://github.com/junnythemarksman/CVE-2023-42793",
       "https://github.com/johnossawy/CVE-2023-42793_POC",
       "https://github.com/FlojBoj/CVE-2023-42793",
@@ -10069,12 +10089,12 @@
       "https://github.com/MorDavid/CVE-2023-38831-Winrar-Exploit-Generator-POC",
       "https://github.com/z3r0sw0rd/CVE-2023-38831-PoC",
       "https://github.com/PascalAsch/CVE-2023-38831-KQL",
-      "https://github.com/UnHackerEnCapital/PDFernetRemotelo",
       "https://github.com/xk-mt/WinRAR-Vulnerability-recurrence-tutorial",
       "https://github.com/akhomlyuk/cve-2023-38831",
       "https://github.com/malvika-thakur/CVE-2023-38831",
       "https://github.com/Mich-ele/CVE-2023-38831-winrar",
       "https://github.com/ameerpornillos/CVE-2023-38831-WinRAR-Exploit",
+      "https://github.com/UnHackerEnCapital/PDFernetRemotelo",
       "https://github.com/SugiB3o/Keylog_CVE2023-38831",
       "https://github.com/IR-HuntGuardians/CVE-2023-38831-HUNT",
       "https://github.com/r1yaz/winDED",
@@ -10897,8 +10917,10 @@
   },
   {
     "cve_code": "CVE-2023-35854",
-    "description": " ** DISP.UTED ** Zoho ManageEngine ADSelfService Plus through 6113 has an authentication bypass that can be exploited to steal the domain controller session token for identity spoofing, thereby achieving the privileges of the domain controller administrator. NOTE: the vendor's perspective is that they have &quot;found no evidence or detail of a security vulnerability.&quot;- [https://github.com/bluestarry33/exp](https://github.com/bluestarry33/exp) :  ![starts](https://img.shields.io/github/stars/bluestarry33/exp.svg) ![forks](https://img.shields.io/github/forks/bluestarry33/exp.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** Zoho ManageEngine ADSelfService Plus through 6113 has an authentication bypass that can be exploited to steal the domain controller session token for identity spoofing, thereby achieving the privileges of the domain controller administrator. NOTE: the vendor's perspective is that they have &quot;found no evidence or detail of a security vulnerability.&quot;.",
+    "poc": [
+      "https://github.com/bluestarry33/exp"
+    ]
   },
   {
     "cve_code": "CVE-2023-35844",
@@ -12718,6 +12740,13 @@
     ]
   },
   {
+    "cve_code": "CVE-2023-28354",
+    "description": " ** RE.SERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+    "poc": [
+      "https://github.com/stormfleet/CVE-2023-28354"
+    ]
+  },
+  {
     "cve_code": "CVE-2023-28343",
     "description": " OS command injection affects Altenergy Power Control Software C1.2.5 via shell metacharacters in the index.php/management/set_timezone timezone parameter, because of set_timezone in models/management_model.php.",
     "poc": [
@@ -13698,8 +13727,8 @@
       "https://github.com/Fernando-olv/Joomla-CVE-2023-23752",
       "https://github.com/karthikuj/CVE-2023-23752-Docker",
       "https://github.com/Saboor-Hakimi/CVE-2023-23752",
-      "https://github.com/GhostToKnow/CVE-2023-23752",
       "https://github.com/0xWhoami35/CVE-2023-23752",
+      "https://github.com/GhostToKnow/CVE-2023-23752",
       "https://github.com/yusinomy/CVE-2023-23752",
       "https://github.com/ibaiw/joomla_CVE-2023-23752",
       "https://github.com/Vulnmachines/joomla_CVE-2023-23752",
@@ -13718,10 +13747,10 @@
       "https://github.com/Ly0kha/Joomla-CVE-2023-23752-Exploit-Script",
       "https://github.com/JeneralMotors/CVE-2023-23752",
       "https://github.com/TindalyTn/CVE-2023-23752",
-      "https://github.com/C1ph3rX13/CVE-2023-23752",
-      "https://github.com/blacks1ph0n/CVE-2023-23752",
       "https://github.com/svaltheim/CVE-2023-23752",
       "https://github.com/Rival420/CVE-2023-23752",
+      "https://github.com/C1ph3rX13/CVE-2023-23752",
+      "https://github.com/blacks1ph0n/CVE-2023-23752",
       "https://github.com/Aureum01/CVE-2023-23752",
       "https://github.com/yTxZx/CVE-2023-23752",
       "https://github.com/shellvik/CVE-2023-23752",
@@ -15177,9 +15206,9 @@
       "https://github.com/morganwdavis/overread",
       "https://github.com/IceBreakerCode/CVE-2023-4966",
       "https://github.com/LucasOneZ/CVE-2023-4966",
+      "https://github.com/byte4RR4Y/CVE-2023-4966",
       "https://github.com/s-bt/CVE-2023-4966",
       "https://github.com/0xKayala/CVE-2023-4966",
-      "https://github.com/byte4RR4Y/CVE-2023-4966",
       "https://github.com/jmussmann/cve-2023-4966-iocs",
       "https://github.com/senpaisamp/Netscaler-CVE-2023-4966-POC"
     ]
@@ -16356,8 +16385,8 @@
     "poc": [
       "https://github.com/bAuh0lz/CVE-2023-0297_Pre-auth_RCE_in_pyLoad",
       "https://github.com/JacobEbben/CVE-2023-0297",
-      "https://github.com/Small-ears/CVE-2023-0297",
       "https://github.com/overgrowncarrot1/CVE-2023-0297",
+      "https://github.com/Small-ears/CVE-2023-0297",
       "https://github.com/S4MY9/CVE-2023-0297",
       "https://github.com/btar1gan/exploit_CVE-2023-0297"
     ]
@@ -16725,8 +16754,11 @@
   },
   {
     "cve_code": "CVE-2022-46463",
-    "description": " ** DISP.UTED ** An access control issue in Harbor v1.X.X to v2.5.3 allows attackers to access public and private image repositories without authentication. NOTE: the vendor's position is that this &quot;is clearly described in the documentation as a feature.&quot;- [https://github.com/404tk/CVE-2022-46463](https://github.com/404tk/CVE-2022-46463) :  ![starts](https://img.shields.io/github/stars/404tk/CVE-2022-46463.svg) ![forks](https://img.shields.io/github/forks/404tk/CVE-2022-46463.svg)- [https://github.com/nu0l/CVE-2022-46463](https://github.com/nu0l/CVE-2022-46463) :  ![starts](https://img.shields.io/github/stars/nu0l/CVE-2022-46463.svg) ![forks](https://img.shields.io/github/forks/nu0l/CVE-2022-46463.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** An access control issue in Harbor v1.X.X to v2.5.3 allows attackers to access public and private image repositories without authentication. NOTE: the vendor's position is that this &quot;is clearly described in the documentation as a feature.&quot;.",
+    "poc": [
+      "https://github.com/404tk/CVE-2022-46463",
+      "https://github.com/nu0l/CVE-2022-46463"
+    ]
   },
   {
     "cve_code": "CVE-2022-46395",
@@ -17427,8 +17459,8 @@
       "https://github.com/MendDemo-josh/cve-2022-42889-text4shell",
       "https://github.com/DimaMend/cve-2022-42889-text4shell",
       "https://github.com/joshbnewton31080/cve-2022-42889-text4shell",
-      "https://github.com/ReachabilityOrg/cve-2022-42889-text4shell-docker",
       "https://github.com/dgor2023/cve-2022-42889-text4shell-docker",
+      "https://github.com/ReachabilityOrg/cve-2022-42889-text4shell-docker",
       "https://github.com/adarshpv9746/Text4shell--Automated-exploit---CVE-2022-42889",
       "https://github.com/hotblac/text4shell"
     ]
@@ -17757,8 +17789,8 @@
       "https://github.com/SUPRAAA-1337/CVE-2022-41082",
       "https://github.com/sikkertech/CVE-2022-41082",
       "https://github.com/soltanali0/CVE-2022-41082",
-      "https://github.com/bigherocenter/CVE-2022-41082-POC",
-      "https://github.com/notareaperbutDR34P3r/vuln-CVE-2022-41082"
+      "https://github.com/notareaperbutDR34P3r/vuln-CVE-2022-41082",
+      "https://github.com/bigherocenter/CVE-2022-41082-POC"
     ]
   },
   {
@@ -17963,8 +17995,10 @@
   },
   {
     "cve_code": "CVE-2022-40297",
-    "description": " ** DISP.UTED ** UBports Ubuntu Touch 16.04 allows the screen-unlock passcode to be used for a privileged shell via Sudo. This passcode is only four digits, far below typical length/complexity for a user account's password. NOTE: a third party states &quot;The described attack cannot be executed as demonstrated.&quot;- [https://github.com/filipkarc/PoC-ubuntutouch-pin-privesc](https://github.com/filipkarc/PoC-ubuntutouch-pin-privesc) :  ![starts](https://img.shields.io/github/stars/filipkarc/PoC-ubuntutouch-pin-privesc.svg) ![forks](https://img.shields.io/github/forks/filipkarc/PoC-ubuntutouch-pin-privesc.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** UBports Ubuntu Touch 16.04 allows the screen-unlock passcode to be used for a privileged shell via Sudo. This passcode is only four digits, far below typical length/complexity for a user account's password. NOTE: a third party states &quot;The described attack cannot be executed as demonstrated.&quot;.",
+    "poc": [
+      "https://github.com/filipkarc/PoC-ubuntutouch-pin-privesc"
+    ]
   },
   {
     "cve_code": "CVE-2022-40146",
@@ -19617,8 +19651,8 @@
       "https://github.com/michealadams30/Cve-2022-30190",
       "https://github.com/hycheng15/CVE-2022-30190",
       "https://github.com/ITMarcin2211/CVE-2022-30190",
-      "https://github.com/rickhenderson/cve-2022-30190",
       "https://github.com/joshuavanderpoll/CVE-2022-30190",
+      "https://github.com/rickhenderson/cve-2022-30190",
       "https://github.com/alien-keric/CVE-2022-30190",
       "https://github.com/ToxicEnvelope/FOLLINA-CVE-2022-30190",
       "https://github.com/derco0n/mitigate-folina",
@@ -19629,10 +19663,10 @@
       "https://github.com/k508/CVE-2022-30190",
       "https://github.com/yrkuo/CVE-2022-30190",
       "https://github.com/ernestak/CVE-2022-30190",
-      "https://github.com/2867a0/CVE-2022-30190",
       "https://github.com/droidrzrlover/CVE-2022-30190",
       "https://github.com/hscorpion/CVE-2022-30190",
       "https://github.com/XxToxicScriptxX/CVE-2022-30190",
+      "https://github.com/2867a0/CVE-2022-30190",
       "https://github.com/rayorole/CVE-2022-30190",
       "https://github.com/abhirules27/Follina",
       "https://github.com/ethicalblue/Follina-CVE-2022-30190-Sample",
@@ -19643,8 +19677,8 @@
       "https://github.com/notherealhazard/follina-CVE-2022-30190",
       "https://github.com/hilt86/cve-2022-30190-mitigate",
       "https://github.com/mattjmillner/CVE-Smackdown",
-      "https://github.com/aymankhder/MSDT_CVE-2022-30190-follina-",
       "https://github.com/sentrium-security/Follina-Workaround-CVE-2022-30190",
+      "https://github.com/aymankhder/MSDT_CVE-2022-30190-follina-",
       "https://github.com/SrCroqueta/CVE-2022-30190_Temporary_Fix",
       "https://github.com/Imeneallouche/Follina-attack-CVE-2022-30190-",
       "https://github.com/ernestak/Sigma-Rule-for-CVE-2022-30190",
@@ -20678,8 +20712,8 @@
       "https://github.com/0xAgun/CVE-2022-26134",
       "https://github.com/Habib0x0/CVE-2022-26134",
       "https://github.com/Brucetg/CVE-2022-26134",
-      "https://github.com/1337in/CVE-2022-26134web",
       "https://github.com/kelemaoya/CVE-2022-26134",
+      "https://github.com/1337in/CVE-2022-26134web",
       "https://github.com/404fu/CVE-2022-26134-POC",
       "https://github.com/ma1am/CVE-2022-26134-Exploit-Detection",
       "https://github.com/r1skkam/TryHackMe-Atlassian-CVE-2022-26134",
@@ -21944,8 +21978,8 @@
       "https://github.com/cc3305/CVE-2022-22947",
       "https://github.com/fbion/CVE-2022-22947",
       "https://github.com/PaoPaoLong-lab/Spring-CVE-2022-22947-",
-      "https://github.com/scopion/CVE-2022-22947-exp",
       "https://github.com/flying0er/CVE-2022-22947-goby",
+      "https://github.com/scopion/CVE-2022-22947-exp",
       "https://github.com/ba1ma0/Spring-Cloud-GateWay-CVE-2022-22947-demon-code"
     ]
   },
@@ -23296,14 +23330,14 @@
       "https://github.com/mr-vill4in/CVE-2022-1388",
       "https://github.com/impost0r/CVE-2022-1388",
       "https://github.com/battleofthebots/refresh",
-      "https://github.com/On-Cyber-War/CVE-2022-1388",
       "https://github.com/Chocapikk/CVE-2022-1388",
+      "https://github.com/On-Cyber-War/CVE-2022-1388",
       "https://github.com/Hudi233/CVE-2022-1388",
       "https://github.com/v4sh25/CVE_2022_1388",
       "https://github.com/omnigodz/CVE-2022-1388",
       "https://github.com/M4fiaB0y/CVE-2022-1388",
-      "https://github.com/Wrin9/CVE-2022-1388",
       "https://github.com/jbharucha05/CVE-2022-1388",
+      "https://github.com/Wrin9/CVE-2022-1388",
       "https://github.com/hackeyes/CVE-2022-1388-POC",
       "https://github.com/Osyanina/westone-CVE-2022-1388-scanner",
       "https://github.com/SudeepaShiranthaka/F5-BIG-IP-Remote-Code-Execution-Vulnerability-CVE-2022-1388-A-Case-Study"
@@ -23333,8 +23367,8 @@
       "https://github.com/AkuCyberSec/CVE-2022-1329-WordPress-Elementor-3.6.0-3.6.1-3.6.2-Remote-Code-Execution-Exploit",
       "https://github.com/mcdulltii/CVE-2022-1329",
       "https://github.com/Grazee/CVE-2022-1329-WordPress-Elementor-RCE",
-      "https://github.com/dexit/CVE-2022-1329",
       "https://github.com/AgustinESI/CVE-2022-1329",
+      "https://github.com/dexit/CVE-2022-1329",
       "https://github.com/phanthibichtram12/CVE-2022-1329"
     ]
   },
@@ -23460,10 +23494,10 @@
       "https://github.com/more-kohii/CVE-2022-1015",
       "https://github.com/pivik271/CVE-2022-1015",
       "https://github.com/shuttterman/bob_kern_exp1",
-      "https://github.com/0range1337/CVE-2022-1015",
       "https://github.com/delsploit/CVE-2022-1015",
       "https://github.com/wlswotmd/CVE-2022-1015",
       "https://github.com/seadragnol/CVE-2022-1015",
+      "https://github.com/0range1337/CVE-2022-1015",
       "https://github.com/zanezhub/CVE-2022-1015-1016"
     ]
   },
@@ -23624,9 +23658,9 @@
       "https://github.com/V0WKeep3r/CVE-2022-0847-DirtyPipe-Exploit",
       "https://github.com/babyshen/CVE-2022-0847",
       "https://github.com/xsxtw/CVE-2022-0847",
+      "https://github.com/letsr00t/CVE-2022-0847",
       "https://github.com/qqdagustian/CVE_2022_0847",
       "https://github.com/s3mPr1linux/CVE_2022_0847",
-      "https://github.com/letsr00t/CVE-2022-0847",
       "https://github.com/CPT-Jack-A-Castle/CVE-2022-0847",
       "https://github.com/2xYuan/CVE-2022-0847",
       "https://github.com/mrchucu1/CVE-2022-0847-Docker",
@@ -23644,8 +23678,8 @@
       "https://github.com/ayushx007/CVE-2022-0847-dirty-pipe-checker",
       "https://github.com/jxpsx/CVE-2022-0847-DirtyPipe-Exploits",
       "https://github.com/muhammad1596/CVE-2022-0847-DirtyPipe-Exploits",
-      "https://github.com/ayushx007/CVE-2022-0847-DirtyPipe-Exploits",
       "https://github.com/orsuprasad/CVE-2022-0847-DirtyPipe-Exploits",
+      "https://github.com/ayushx007/CVE-2022-0847-DirtyPipe-Exploits",
       "https://github.com/tufanturhan/CVE-2022-0847-L-nux-PrivEsc",
       "https://github.com/solomon12354/LockingGirl-----CVE-2022-0847-Dirty_Pipe_virus",
       "https://github.com/notl0cal/dpipe",
@@ -27996,10 +28030,8 @@
   },
   {
     "cve_code": "CVE-2021-29200",
-    "description": " Apache OFBiz has unsafe deserialization prior to 17.12.07 version. An unauthenticated user can perform an RCE attack.",
-    "poc": [
-      "https://github.com/freeide/CVE-2021-29200"
-    ]
+    "description": " Apache OFBiz has unsafe deserialization prior to 17.12.07 version. An unauthenticated user can perform an RCE attack- [https://github.com/freeide/CVE-2021-29200](https://github.com/freeide/CVE-2021-29200) :  ![starts](https://img.shields.io/github/stars/freeide/CVE-2021-29200.svg) ![forks](https://img.shields.io/github/forks/freeide/CVE-2021-29200.svg)",
+    "poc": []
   },
   {
     "cve_code": "CVE-2021-29156",
@@ -31402,8 +31434,10 @@
   },
   {
     "cve_code": "CVE-2020-36079",
-    "description": " ** DISP.UTED ** Zenphoto through 1.5.7 is affected by authenticated arbitrary file upload, leading to remote code execution. The attacker must navigate to the uploader plugin, check the elFinder box, and then drag and drop files into the Files(elFinder) portion of the UI. This can, for example, place a .php file in the server's uploaded/ directory. NOTE: the vendor disputes this because exploitation can only be performed by an admin who has &quot;lots of other possibilities to harm a site.&quot;- [https://github.com/azizalshammari/CVE-2020-36079.](https://github.com/azizalshammari/CVE-2020-36079.) :  ![starts](https://img.shields.io/github/stars/azizalshammari/CVE-2020-36079..svg) ![forks](https://img.shields.io/github/forks/azizalshammari/CVE-2020-36079..svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** Zenphoto through 1.5.7 is affected by authenticated arbitrary file upload, leading to remote code execution. The attacker must navigate to the uploader plugin, check the elFinder box, and then drag and drop files into the Files(elFinder) portion of the UI. This can, for example, place a .php file in the server's uploaded/ directory. NOTE: the vendor disputes this because exploitation can only be performed by an admin who has &quot;lots of other possibilities to harm a site.&quot;.",
+    "poc": [
+      "https://github.com/azizalshammari/CVE-2020-36079."
+    ]
   },
   {
     "cve_code": "CVE-2020-35848",
@@ -33796,8 +33830,10 @@
   },
   {
     "cve_code": "CVE-2020-14144",
-    "description": " ** DISP.UTED ** The git hook feature in Gitea 1.1.0 through 1.12.5 might allow for authenticated remote code execution in customer environments where the documentation was not understood (e.g., one viewpoint is that the dangerousness of this feature should be documented immediately above the ENABLE_GIT_HOOKS line in the config file). NOTE: The vendor has indicated this is not a vulnerability and states &quot;This is a functionality of the software that is limited to a very limited subset of accounts. If you give someone the privilege to execute arbitrary code on your server, they can execute arbitrary code on your server. We provide very clear warnings to users around this functionality and what it provides.&quot;- [https://github.com/p0dalirius/CVE-2020-14144-GiTea-git-hooks-rce](https://github.com/p0dalirius/CVE-2020-14144-GiTea-git-hooks-rce) :  ![starts](https://img.shields.io/github/stars/p0dalirius/CVE-2020-14144-GiTea-git-hooks-rce.svg) ![forks](https://img.shields.io/github/forks/p0dalirius/CVE-2020-14144-GiTea-git-hooks-rce.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** The git hook feature in Gitea 1.1.0 through 1.12.5 might allow for authenticated remote code execution in customer environments where the documentation was not understood (e.g., one viewpoint is that the dangerousness of this feature should be documented immediately above the ENABLE_GIT_HOOKS line in the config file). NOTE: The vendor has indicated this is not a vulnerability and states &quot;This is a functionality of the software that is limited to a very limited subset of accounts. If you give someone the privilege to execute arbitrary code on your server, they can execute arbitrary code on your server. We provide very clear warnings to users around this functionality and what it provides.&quot;.",
+    "poc": [
+      "https://github.com/p0dalirius/CVE-2020-14144-GiTea-git-hooks-rce"
+    ]
   },
   {
     "cve_code": "CVE-2020-14066",
@@ -34420,10 +34456,8 @@
   },
   {
     "cve_code": "CVE-2020-11710",
-    "description": " ** DISP.UTED ** An issue was discovered in docker-kong (for Kong) through 2.0.3. The admin API port may be accessible on interfaces other than 127.0.0.1. NOTE: The vendor argue that this CVE is not a vulnerability because it has an inaccurate bug scope and patch links. &#8220;1) Inaccurate Bug Scope - The issue scope was on Kong's docker-compose template, and not Kong's docker image itself. In reality, this issue is not associated with any version of the Kong gateway. As such, the description stating &#8216;An issue was discovered in docker-kong (for Kong) through 2.0.3.&#8217; is incorrect. This issue only occurs if a user decided to spin up Kong via docker-compose without following the security documentation. The docker-compose template is meant for users to quickly get started with Kong, and is meant for development purposes only. 2) Incorrect Patch Links - The CVE currently points to a documentation improvement as a &#8220;Patch&#8221; link: https://github.com/Kong/docs.konghq.com/commit/d693827c32144943a2f45abc017c1321b33ff611.This link actually points to an improvement Kong Inc made for fool-proofing. However, instructions for how to protect the admin API were already well-documented here: https://docs.konghq.com/2.0.x/secure-admin-api/#network-layer-access-restrictions , which was first published back in 2017 (as shown in this commit: https://github.com/Kong/docs.konghq.com/commit/e99cf875d875dd84fdb751079ac37882c9972949) Lastly, the hyperlink to https://github.com/Kong/kong (an unrelated Github Repo to this issue) on the Hyperlink list does not include any meaningful information on this topic.&#8221;.",
-    "poc": [
-      "https://github.com/RandomRobbieBF/kong-pwn"
-    ]
+    "description": " ** DISP.UTED ** An issue was discovered in docker-kong (for Kong) through 2.0.3. The admin API port may be accessible on interfaces other than 127.0.0.1. NOTE: The vendor argue that this CVE is not a vulnerability because it has an inaccurate bug scope and patch links. &#8220;1) Inaccurate Bug Scope - The issue scope was on Kong's docker-compose template, and not Kong's docker image itself. In reality, this issue is not associated with any version of the Kong gateway. As such, the description stating &#8216;An issue was discovered in docker-kong (for Kong) through 2.0.3.&#8217; is incorrect. This issue only occurs if a user decided to spin up Kong via docker-compose without following the security documentation. The docker-compose template is meant for users to quickly get started with Kong, and is meant for development purposes only. 2) Incorrect Patch Links - The CVE currently points to a documentation improvement as a &#8220;Patch&#8221; link: https://github.com/Kong/docs.konghq.com/commit/d693827c32144943a2f45abc017c1321b33ff611.This link actually points to an improvement Kong Inc made for fool-proofing. However, instructions for how to protect the admin API were already well-documented here: https://docs.konghq.com/2.0.x/secure-admin-api/#network-layer-access-restrictions , which was first published back in 2017 (as shown in this commit: https://github.com/Kong/docs.konghq.com/commit/e99cf875d875dd84fdb751079ac37882c9972949) Lastly, the hyperlink to https://github.com/Kong/kong (an unrelated Github Repo to this issue) on the Hyperlink list does not include any meaningful information on this topic.&#8221;- [https://github.com/RandomRobbieBF/kong-pwn](https://github.com/RandomRobbieBF/kong-pwn) :  ![starts](https://img.shields.io/github/stars/RandomRobbieBF/kong-pwn.svg) ![forks](https://img.shields.io/github/forks/RandomRobbieBF/kong-pwn.svg)",
+    "poc": []
   },
   {
     "cve_code": "CVE-2020-11652",
