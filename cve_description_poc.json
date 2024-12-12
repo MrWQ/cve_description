@@ -28550,10 +28550,8 @@
   },
   {
     "cve_code": "CVE-2021-29200",
-    "description": " Apache OFBiz has unsafe deserialization prior to 17.12.07 version. An unauthenticated user can perform an RCE attack.",
-    "poc": [
-      "https://github.com/freeide/CVE-2021-29200"
-    ]
+    "description": " Apache OFBiz has unsafe deserialization prior to 17.12.07 version. An unauthenticated user can perform an RCE attack- [https://github.com/freeide/CVE-2021-29200](https://github.com/freeide/CVE-2021-29200) :  ![starts](https://img.shields.io/github/stars/freeide/CVE-2021-29200.svg) ![forks](https://img.shields.io/github/forks/freeide/CVE-2021-29200.svg)",
+    "poc": []
   },
   {
     "cve_code": "CVE-2021-29156",
@@ -31975,8 +31973,10 @@
   },
   {
     "cve_code": "CVE-2020-36079",
-    "description": " ** DISP.UTED ** Zenphoto through 1.5.7 is affected by authenticated arbitrary file upload, leading to remote code execution. The attacker must navigate to the uploader plugin, check the elFinder box, and then drag and drop files into the Files(elFinder) portion of the UI. This can, for example, place a .php file in the server's uploaded/ directory. NOTE: the vendor disputes this because exploitation can only be performed by an admin who has &quot;lots of other possibilities to harm a site.&quot;- [https://github.com/azizalshammari/CVE-2020-36079.](https://github.com/azizalshammari/CVE-2020-36079.) :  ![starts](https://img.shields.io/github/stars/azizalshammari/CVE-2020-36079..svg) ![forks](https://img.shields.io/github/forks/azizalshammari/CVE-2020-36079..svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** Zenphoto through 1.5.7 is affected by authenticated arbitrary file upload, leading to remote code execution. The attacker must navigate to the uploader plugin, check the elFinder box, and then drag and drop files into the Files(elFinder) portion of the UI. This can, for example, place a .php file in the server's uploaded/ directory. NOTE: the vendor disputes this because exploitation can only be performed by an admin who has &quot;lots of other possibilities to harm a site.&quot;.",
+    "poc": [
+      "https://github.com/azizalshammari/CVE-2020-36079."
+    ]
   },
   {
     "cve_code": "CVE-2020-35848",
@@ -33879,8 +33879,12 @@
   },
   {
     "cve_code": "CVE-2020-15778",
-    "description": " ** DISP.UTED ** scp in OpenSSH through 8.3p1 allows command injection in the scp.c toremote function, as demonstrated by backtick characters in the destination argument. NOTE: the vendor reportedly has stated that they intentionally omit validation of &quot;anomalous argument transfers&quot; because that could &quot;stand a great chance of breaking existing workflows.&quot;- [https://github.com/cpandya2909/CVE-2020-15778](https://github.com/cpandya2909/CVE-2020-15778) :  ![starts](https://img.shields.io/github/stars/cpandya2909/CVE-2020-15778.svg) ![forks](https://img.shields.io/github/forks/cpandya2909/CVE-2020-15778.svg)- [https://github.com/Neko-chanQwQ/CVE-2020-15778-Exploit](https://github.com/Neko-chanQwQ/CVE-2020-15778-Exploit) :  ![starts](https://img.shields.io/github/stars/Neko-chanQwQ/CVE-2020-15778-Exploit.svg) ![forks](https://img.shields.io/github/forks/Neko-chanQwQ/CVE-2020-15778-Exploit.svg)- [https://github.com/Evan-Zhangyf/CVE-2020-15778](https://github.com/Evan-Zhangyf/CVE-2020-15778) :  ![starts](https://img.shields.io/github/stars/Evan-Zhangyf/CVE-2020-15778.svg) ![forks](https://img.shields.io/github/forks/Evan-Zhangyf/CVE-2020-15778.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** scp in OpenSSH through 8.3p1 allows command injection in the scp.c toremote function, as demonstrated by backtick characters in the destination argument. NOTE: the vendor reportedly has stated that they intentionally omit validation of &quot;anomalous argument transfers&quot; because that could &quot;stand a great chance of breaking existing workflows.&quot;.",
+    "poc": [
+      "https://github.com/cpandya2909/CVE-2020-15778",
+      "https://github.com/Neko-chanQwQ/CVE-2020-15778-Exploit",
+      "https://github.com/Evan-Zhangyf/CVE-2020-15778"
+    ]
   },
   {
     "cve_code": "CVE-2020-15589",
@@ -34990,8 +34994,10 @@
   },
   {
     "cve_code": "CVE-2020-11710",
-    "description": " ** DISP.UTED ** An issue was discovered in docker-kong (for Kong) through 2.0.3. The admin API port may be accessible on interfaces other than 127.0.0.1. NOTE: The vendor argue that this CVE is not a vulnerability because it has an inaccurate bug scope and patch links. &#8220;1) Inaccurate Bug Scope - The issue scope was on Kong's docker-compose template, and not Kong's docker image itself. In reality, this issue is not associated with any version of the Kong gateway. As such, the description stating &#8216;An issue was discovered in docker-kong (for Kong) through 2.0.3.&#8217; is incorrect. This issue only occurs if a user decided to spin up Kong via docker-compose without following the security documentation. The docker-compose template is meant for users to quickly get started with Kong, and is meant for development purposes only. 2) Incorrect Patch Links - The CVE currently points to a documentation improvement as a &#8220;Patch&#8221; link: https://github.com/Kong/docs.konghq.com/commit/d693827c32144943a2f45abc017c1321b33ff611.This link actually points to an improvement Kong Inc made for fool-proofing. However, instructions for how to protect the admin API were already well-documented here: https://docs.konghq.com/2.0.x/secure-admin-api/#network-layer-access-restrictions , which was first published back in 2017 (as shown in this commit: https://github.com/Kong/docs.konghq.com/commit/e99cf875d875dd84fdb751079ac37882c9972949) Lastly, the hyperlink to https://github.com/Kong/kong (an unrelated Github Repo to this issue) on the Hyperlink list does not include any meaningful information on this topic.&#8221;- [https://github.com/RandomRobbieBF/kong-pwn](https://github.com/RandomRobbieBF/kong-pwn) :  ![starts](https://img.shields.io/github/stars/RandomRobbieBF/kong-pwn.svg) ![forks](https://img.shields.io/github/forks/RandomRobbieBF/kong-pwn.svg)",
-    "poc": []
+    "description": " ** DISP.UTED ** An issue was discovered in docker-kong (for Kong) through 2.0.3. The admin API port may be accessible on interfaces other than 127.0.0.1. NOTE: The vendor argue that this CVE is not a vulnerability because it has an inaccurate bug scope and patch links. &#8220;1) Inaccurate Bug Scope - The issue scope was on Kong's docker-compose template, and not Kong's docker image itself. In reality, this issue is not associated with any version of the Kong gateway. As such, the description stating &#8216;An issue was discovered in docker-kong (for Kong) through 2.0.3.&#8217; is incorrect. This issue only occurs if a user decided to spin up Kong via docker-compose without following the security documentation. The docker-compose template is meant for users to quickly get started with Kong, and is meant for development purposes only. 2) Incorrect Patch Links - The CVE currently points to a documentation improvement as a &#8220;Patch&#8221; link: https://github.com/Kong/docs.konghq.com/commit/d693827c32144943a2f45abc017c1321b33ff611.This link actually points to an improvement Kong Inc made for fool-proofing. However, instructions for how to protect the admin API were already well-documented here: https://docs.konghq.com/2.0.x/secure-admin-api/#network-layer-access-restrictions , which was first published back in 2017 (as shown in this commit: https://github.com/Kong/docs.konghq.com/commit/e99cf875d875dd84fdb751079ac37882c9972949) Lastly, the hyperlink to https://github.com/Kong/kong (an unrelated Github Repo to this issue) on the Hyperlink list does not include any meaningful information on this topic.&#8221;.",
+    "poc": [
+      "https://github.com/RandomRobbieBF/kong-pwn"
+    ]
   },
   {
     "cve_code": "CVE-2020-11652",
@@ -53016,8 +53022,8 @@
       "https://github.com/aedoo/CVE-2015-1635-POC",
       "https://github.com/Zx7ffa4512-Python/Project-CVE-2015-1635",
       "https://github.com/n3rdh4x0r/CVE-2015-1635-POC",
-      "https://github.com/bongbongco/MS15-034",
       "https://github.com/neu5ron/cve_2015-1635",
+      "https://github.com/bongbongco/MS15-034",
       "https://github.com/limkokholefork/CVE-2015-1635",
       "https://github.com/w01ke/CVE-2015-1635-POC",
       "https://github.com/u0pattern/Remove-IIS-RIIS",
@@ -53107,8 +53113,8 @@
     "description": " SQL injection vulnerability in the getCsvFile function in the Mage_Adminhtml_Block_Widget_Grid class in Magento Community Edition (CE) 1.9.1.0 and Enterprise Edition (EE) 1.14.1.0 allows remote administrators to execute arbitrary SQL commands via the popularity[field_expr] parameter when the popularity[from] or popularity[to] parameter is set.",
     "poc": [
       "https://github.com/47Cid/Magento-Shoplift-SQLI",
-      "https://github.com/tmatejicek/CVE-2015-1397",
       "https://github.com/WHOISshuvam/CVE-2015-1397",
+      "https://github.com/tmatejicek/CVE-2015-1397",
       "https://github.com/Wytchwulf/CVE-2015-1397-Magento-Shoplift",
       "https://github.com/0xDTC/Magento-eCommerce-RCE-CVE-2015-1397"
     ]
@@ -53214,8 +53220,8 @@
       "https://github.com/alanmeyer/CVE-glibc",
       "https://github.com/tobyzxj/CVE-2015-0235",
       "https://github.com/chayim/GHOSTCHECK-cve-2015-0235",
-      "https://github.com/koudaiii-archives/cookbook-update-glibc",
       "https://github.com/limkokholefork/GHOSTCHECK-cve-2015-0235",
+      "https://github.com/koudaiii-archives/cookbook-update-glibc",
       "https://github.com/1and1-serversupport/ghosttester",
       "https://github.com/favoretti/lenny-libc6",
       "https://github.com/F88/ghostbusters15"
@@ -53547,11 +53553,11 @@
       "https://github.com/hackintoanetwork/shellshock",
       "https://github.com/Sindadziy/cve-2014-6271",
       "https://github.com/0xConstant/CVE-2014-6271",
-      "https://github.com/Aruthw/CVE-2014-6271",
-      "https://github.com/kowshik-sundararajan/CVE-2014-6271",
       "https://github.com/mattclegg/CVE-2014-6271",
       "https://github.com/Dilith006/CVE-2014-6271",
       "https://github.com/mritunjay-k/CVE-2014-6271",
+      "https://github.com/Aruthw/CVE-2014-6271",
+      "https://github.com/kowshik-sundararajan/CVE-2014-6271",
       "https://github.com/Brandaoo/CVE-2014-6271",
       "https://github.com/Jsmoreira02/CVE-2014-6271",
       "https://github.com/RadYio/CVE-2014-6271",
@@ -53564,20 +53570,20 @@
       "https://github.com/dlitz/bash-cve-2014-6271-fixes",
       "https://github.com/rrreeeyyy/cve-2014-6271-spec",
       "https://github.com/cyberharsh/Shellbash-CVE-2014-6271",
-      "https://github.com/ilismal/Nessus_CVE-2014-6271_check",
       "https://github.com/kelleykong/cve-2014-6271-mengjia-kong",
-      "https://github.com/w4fz5uck5/ShockZaum-CVE-2014-6271",
+      "https://github.com/ilismal/Nessus_CVE-2014-6271_check",
       "https://github.com/jblaine/cookbook-bash-CVE-2014-6271",
       "https://github.com/huanlu/cve-2014-6271-huan-lu",
+      "https://github.com/w4fz5uck5/ShockZaum-CVE-2014-6271",
       "https://github.com/ryancnelson/patched-bash-4.3",
       "https://github.com/Sindayifu/CVE-2019-14287-CVE-2014-6271",
       "https://github.com/TheRealCiscoo/Shellshock",
       "https://github.com/anujbhan/shellshock-victim-host",
       "https://github.com/renanvicente/puppet-shellshock",
+      "https://github.com/u20024804/bash-3.2-fixed-CVE-2014-6271",
       "https://github.com/u20024804/bash-4.2-fixed-CVE-2014-6271",
       "https://github.com/u20024804/bash-4.3-fixed-CVE-2014-6271",
       "https://github.com/FilipStudeny/-CVE-2014-6271-Shellshock-Remote-Command-Injection-",
-      "https://github.com/u20024804/bash-3.2-fixed-CVE-2014-6271",
       "https://github.com/teedeedubya/bash-fix-exploit",
       "https://github.com/ariarijp/vagrant-shellshock",
       "https://github.com/justzx2011/bash-up",
@@ -55080,8 +55086,8 @@
     "poc": [
       "https://github.com/tkisason/KillApachePy",
       "https://github.com/limkokholefork/CVE-2011-3192",
-      "https://github.com/stcmjp/cve-2011-3192",
       "https://github.com/futurezayka/CVE-2011-3192",
+      "https://github.com/stcmjp/cve-2011-3192",
       "https://github.com/warmilk/http-Dos-Attack-Detection"
     ]
   },
@@ -55897,9 +55903,9 @@
       "https://github.com/Juantos/cve-2007-2447",
       "https://github.com/testaross4/CVE-2007-2447",
       "https://github.com/0xConstant/CVE-2007-2447",
+      "https://github.com/cherrera0001/CVE-2007-2447",
       "https://github.com/0xTabun/CVE-2007-2447",
       "https://github.com/JoseBarrios/CVE-2007-2447",
-      "https://github.com/cherrera0001/CVE-2007-2447",
       "https://github.com/b1fair/smb_usermap",
       "https://github.com/bdunlap9/CVE-2007-2447_python",
       "https://github.com/MikeRega7/CVE-2007-2447-RCE",
@@ -56084,6 +56090,13 @@
     ]
   },
   {
+    "cve_code": "CVE-2004-2761",
+    "description": " The MD5 Message-Digest Algorithm is not collision resistant, which makes it easier for context-dependent attackers to conduct spoofing attacks, as demonstrated by attacks on the use of MD5 in the signature algorithm of an X.509 certificate.",
+    "poc": [
+      "https://github.com/chaos198800/Windows-xia-SSL-zheng-shu-zhi-zuo-gong-ju--CVE-2004-2761-lou-dong-xiu-fu"
+    ]
+  },
+  {
     "cve_code": "CVE-2004-2687",
     "description": " distcc 2.x, as used in XCode 1.5 and others, when not configured to restrict access to the server port, allows remote attackers to execute arbitrary commands via compilation jobs, which are executed by the server without authorization checks.",
     "poc": [
@@ -56138,8 +56151,8 @@
     "poc": [
       "https://github.com/ivanitlearning/CVE-2004-1561",
       "https://github.com/thel1nus/CVE-2004-1561-Notes",
-      "https://github.com/ratiros01/CVE-2004-1561",
       "https://github.com/darrynb89/CVE-2004-1561",
+      "https://github.com/ratiros01/CVE-2004-1561",
       "https://github.com/Danyw24/CVE-2004-1561-Icecast-Header-Overwrite-buffer-overflow-RCE-2.0.1-Win32-"
     ]
   },
