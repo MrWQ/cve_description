@@ -10,7 +10,8 @@
     "cve_code": "CVE-2025-31125",
     "description": "Vite is a frontend tooling framework for javascript. Vite exposes content of non-allowed files using ?inline&import or ?raw?import. Only apps explicitly exposing the Vite dev server to the network (using --host or server.host config option) are affected. This vulnerability is fixed in 6.2.4, 6.1.3, 6.0.13, 5.4.16, and 4.5.11.",
     "poc": [
-      "https://github.com/sunhuiHi666/CVE-2025-31125"
+      "https://github.com/sunhuiHi666/CVE-2025-31125",
+      "https://github.com/jackieya/CVE-2025-30208-and-CVE-2025-31125"
     ]
   },
   {
@@ -52,12 +53,14 @@
       "https://github.com/LiChaser/CVE-2025-30208",
       "https://github.com/On1onss/CVE-2025-30208-LFI",
       "https://github.com/kk12-30/CVE-2025-30208",
+      "https://github.com/jackieya/CVE-2025-30208-and-CVE-2025-31125",
       "https://github.com/4xura/CVE-2025-30108",
       "https://github.com/keklick1337/CVE-2025-30208-ViteVulnScanner",
       "https://github.com/Ahmed-mostafa03/CVE-2025-30208-EXP",
-      "https://github.com/jackieya/CVE-2025-30208",
-      "https://github.com/YuanBenSir/CVE-2025-30208_POC",
+      "https://github.com/sumeet-darekar/CVE-2025-30208",
+      "https://github.com/0xshaheen/CVE-2025-30208",
       "https://github.com/sadhfdw129/CVE-2025-30208-Vite",
+      "https://github.com/YuanBenSir/CVE-2025-30208_POC",
       "https://github.com/iSee857/CVE-2025-30208-PoC"
     ]
   },
@@ -81,63 +84,65 @@
     "description": "Next.js is a React framework for building full-stack web applications. Prior to 14.2.25 and 15.2.3, it is possible to bypass authorization checks within a Next.js application, if the authorization check occurs in middleware. If patching to a safe version is infeasible, it is recommend that you prevent external user requests which contain the x-middleware-subrequest header from reaching your Next.js application. This vulnerability is fixed in 14.2.25 and 15.2.3.",
     "poc": [
       "https://github.com/aydinnyunus/CVE-2025-29927",
-      "https://github.com/azu/nextjs-cve-2025-29927-poc",
       "https://github.com/AnonKryptiQuz/NextSploit",
+      "https://github.com/azu/nextjs-cve-2025-29927-poc",
       "https://github.com/6mile/nextjs-CVE-2025-29927",
       "https://github.com/websecnl/CVE-2025-29927-PoC-Exploit",
       "https://github.com/lirantal/vulnerable-nextjs-14-CVE-2025-29927",
       "https://github.com/Ademking/CVE-2025-29927",
-      "https://github.com/RoyCampos/CVE-2025-29927",
       "https://github.com/MuhammadWaseem29/CVE-2025-29927-POC",
+      "https://github.com/RoyCampos/CVE-2025-29927",
       "https://github.com/Eve-SatOrU/POC-CVE-2025-29927",
       "https://github.com/c0dejump/CVE-2025-29927-check",
+      "https://github.com/fourcube/nextjs-middleware-bypass-demo",
       "https://github.com/Neoxs/nextjs-middleware-vuln-poc",
-      "https://github.com/Oyst3r1ng/CVE-2025-29927",
       "https://github.com/0xWhoknows/CVE-2025-29927",
       "https://github.com/lediusa/CVE-2025-29927",
-      "https://github.com/arvion-agent/next-CVE-2025-29927",
+      "https://github.com/Oyst3r1ng/CVE-2025-29927",
       "https://github.com/yugo-eliatrope/test-cve-2025-29927",
+      "https://github.com/arvion-agent/next-CVE-2025-29927",
       "https://github.com/0x0Luk/0xMiddleware",
       "https://github.com/strobes-security/nextjs-vulnerable-app",
       "https://github.com/lem0n817/CVE-2025-29927",
       "https://github.com/kuzushiki/CVE-2025-29927-test",
       "https://github.com/ThemeHackers/CVE-2025-29972",
-      "https://github.com/KaztoRay/CVE-2025-29927-Research",
       "https://github.com/t3tra-dev/cve-2025-29927-demo",
+      "https://github.com/KaztoRay/CVE-2025-29927-Research",
       "https://github.com/Kamal-418/Vulnerable-Lab-NextJS-CVE-2025-29927",
-      "https://github.com/fourcube/nextjs-middleware-bypass-demo",
       "https://github.com/nicknisi/next-attack",
       "https://github.com/takumade/ghost-route",
       "https://github.com/aleongx/CVE-2025-29927",
       "https://github.com/alastair66/CVE-2025-29927",
-      "https://github.com/Slvignesh05/CVE-2025-29927",
-      "https://github.com/dante01yoon/CVE-2025-29927",
       "https://github.com/jeymo092/cve-2025-29927",
       "https://github.com/0xcucumbersalad/cve-2025-29927",
+      "https://github.com/BilalGns/CVE-2025-29927",
+      "https://github.com/furmak331/CVE-2025-29927",
       "https://github.com/iSee857/CVE-2025-29927",
       "https://github.com/ricsirigu/CVE-2025-29927",
       "https://github.com/nyctophile0969/CVE-2025-29927",
-      "https://github.com/furmak331/CVE-2025-29927",
-      "https://github.com/BilalGns/CVE-2025-29927",
+      "https://github.com/Gokul-Krishnan-V-R/cve-2025-29927",
+      "https://github.com/Slvignesh05/CVE-2025-29927",
+      "https://github.com/dante01yoon/CVE-2025-29927",
       "https://github.com/yuzu-juice/CVE-2025-29927_demo",
       "https://github.com/TheresAFewConors/CVE-2025-29927-Testing",
       "https://github.com/serhalp/test-cve-2025-29927",
       "https://github.com/Nekicj/CVE-2025-29927-exploit",
-      "https://github.com/kOaDT/poc-cve-2025-29927",
+      "https://github.com/aleongx/CVE-2025-29927_Scanner",
       "https://github.com/nocomp/CVE-2025-29927-scanner",
       "https://github.com/tobiasGuta/CVE-2025-29927-POC",
-      "https://github.com/aleongx/CVE-2025-29927_Scanner",
+      "https://github.com/kOaDT/poc-cve-2025-29927",
       "https://github.com/0xPb1/Next.js-CVE-2025-29927",
+      "https://github.com/jmbowes/NextSecureScan",
       "https://github.com/ayato-shitomi/WebLab_CVE-2025-29927",
-      "https://github.com/Heimd411/CVE-2025-29927-PoC",
       "https://github.com/ticofookfook/poc-nextjs-CVE-2025-29927",
-      "https://github.com/elshaheedy/CVE-2025-29927-Sigma-Rule",
-      "https://github.com/alihussainzada/CVE-2025-29927-PoC",
       "https://github.com/maronnjapan/claude-create-CVE-2025-29927",
       "https://github.com/0xPThree/next.js_cve-2025-29927",
       "https://github.com/w2hcorp/CVE-2025-29927-PoC",
-      "https://github.com/jmbowes/NextSecureScan",
+      "https://github.com/elshaheedy/CVE-2025-29927-Sigma-Rule",
+      "https://github.com/alihussainzada/CVE-2025-29927-PoC",
+      "https://github.com/Heimd411/CVE-2025-29927-PoC",
       "https://github.com/Jull3Hax0r/next.js-exploit",
+      "https://github.com/Naveen-005/Next.Js-middleware-bypass-vulnerability-CVE-2025-29927",
       "https://github.com/ferpalma21/Automated-Next.js-Security-Scanner-for-CVE-2025-29927",
       "https://github.com/m2hcz/m2hcz-Next.js-security-flaw-CVE-2025-29927---PoC-exploit",
       "https://github.com/narasimhauppala/nextjs-middleware-bypass"
@@ -512,11 +517,11 @@
       "https://github.com/Alaatk/CVE-2025-24813-POC",
       "https://github.com/issamjr/CVE-2025-24813-Scanner",
       "https://github.com/MuhammadWaseem29/CVE-2025-24813",
+      "https://github.com/manjula-aw/CVE-2025-24813",
       "https://github.com/AlperenY-cs/CVE-2025-24813",
       "https://github.com/B1gN0Se/Tomcat-CVE-2025-24813",
-      "https://github.com/manjula-aw/CVE-2025-24813",
-      "https://github.com/michael-david-fry/Apache-Tomcat-Vulnerability-POC-CVE-2025-24813",
       "https://github.com/ps-interactive/lab-cve-2025-24813",
+      "https://github.com/michael-david-fry/Apache-Tomcat-Vulnerability-POC-CVE-2025-24813",
       "https://github.com/n0n-zer0/Spring-Boot-Tomcat-CVE-2025-24813"
     ]
   },
@@ -589,8 +594,8 @@
       "https://github.com/ctabango/CVE-2025-24071_PoCExtra",
       "https://github.com/ThemeHackers/CVE-2025-24071",
       "https://github.com/rubbxalc/CVE-2025-24071",
-      "https://github.com/aleongx/CVE-2025-24071",
       "https://github.com/cesarbtakeda/Windows-Explorer-CVE-2025-24071",
+      "https://github.com/aleongx/CVE-2025-24071",
       "https://github.com/Marcejr117/CVE-2025-24071_PoC"
     ]
   },
@@ -836,6 +841,34 @@
     ]
   },
   {
+    "cve_code": "CVE-2025-2888",
+    "description": "During a snapshot rollback, the client incorrectly caches the timestamp metadata. If the client checks the cache when attempting to perform the next update, the update timestamp validation will fail, preventing the next update until the cache is cleared. Users should upgrade to tough version 0.20.0 or later and ensure any forked or derivative code is patched to incorporate the new fixes.",
+    "poc": [
+      "https://github.com/murataydemir/AWS-Tough-Library-Multiple-CVEs"
+    ]
+  },
+  {
+    "cve_code": "CVE-2025-2887",
+    "description": "During a target rollback, the client fails to detect the rollback for delegated targets. This could cause the client to fetch a target from an incorrect source, altering the target contents. Users should upgrade to tough version 0.20.0 or later and ensure any forked or derivative code is patched to incorporate the new fixes.",
+    "poc": [
+      "https://github.com/murataydemir/AWS-Tough-Library-Multiple-CVEs"
+    ]
+  },
+  {
+    "cve_code": "CVE-2025-2886",
+    "description": "Missing validation of terminating delegation causes the client to continue searching the defined delegation list, even after searching a terminating delegation. This could cause the client to fetch a target from an incorrect source, altering the target contents. Users should upgrade to tough version 0.20.0 or later and ensure any forked or derivative code is patched to incorporate the new fixes.",
+    "poc": [
+      "https://github.com/murataydemir/AWS-Tough-Library-Multiple-CVEs"
+    ]
+  },
+  {
+    "cve_code": "CVE-2025-2885",
+    "description": "Missing validation of the root metatdata version number could allow an actor to supply an arbitrary version number to the client instead of the intended version in the root metadata file, altering the version fetched by the client. Users should upgrade to tough version 0.20.0 or later and ensure any forked or derivative code is patched to incorporate the new fixes.",
+    "poc": [
+      "https://github.com/murataydemir/AWS-Tough-Library-Multiple-CVEs"
+    ]
+  },
+  {
     "cve_code": "CVE-2025-2857",
     "description": "Following the recent Chrome sandbox escape (CVE-2025-2783), various Firefox developers identified a similar pattern in our IPC code. A compromised child process could cause the parent process to return an unintentionally powerful handle, leading to a sandbox escape. <br>The original vulnerability was being exploited in the wild. <br>*This only affects Firefox on Windows. Other operating systems are unaffected.* This vulnerability affects Firefox  136.0.4, Firefox ESR  128.8.1, and Firefox ESR  115.21.1.",
     "poc": [
@@ -929,6 +962,13 @@
     ]
   },
   {
+    "cve_code": "CVE-2025-2005",
+    "description": "The Front End Users plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the file uploads field of the registration form in all versions up to, and including, 3.2.32. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.",
+    "poc": [
+      "https://github.com/Nxploited/CVE-2025-2005"
+    ]
+  },
+  {
     "cve_code": "CVE-2025-1974",
     "description": "A security issue was discovered in Kubernetes where under certain conditions, an unauthenticated attacker with access to the pod network can achieve arbitrary code execution in the context of the ingress-nginx controller. This can lead to disclosure of Secrets accessible to the controller. (Note that in the default installation, the controller can access all Secrets cluster-wide.)",
     "poc": [
@@ -1012,6 +1052,13 @@
     "description": "Versions of the package jsonpath-plus before 10.3.0 are vulnerable to Remote Code Execution (RCE) due to improper input sanitization. An attacker can execute aribitrary code on the system by exploiting the unsafe default usage of eval='safe' mode.\r\r**Note:**\r\rThis is caused by an incomplete fix for [CVE-2024-21534](https://security.snyk.io/vuln/SNYK-JS-JSONPATHPLUS-7945884).",
     "poc": [
       "https://github.com/EQSTLab/CVE-2025-1302"
+    ]
+  },
+  {
+    "cve_code": "CVE-2025-1219",
+    "description": "In PHP from 8.1.* before 8.1.32, from 8.2.* before 8.2.28, from 8.3.* before 8.3.19, from 8.4.* before 8.4.5, when requesting a HTTP resource using the DOM or SimpleXML extensions, the wrong content-type\u00a0header is used to determine the charset when the requested resource performs a redirect. This may cause the resulting document to be parsed incorrectly or bypass validations.",
+    "poc": [
+      "https://github.com/ediop3SquadALT/ediop3PHP"
     ]
   },
   {
@@ -60904,8 +60951,8 @@
       "https://github.com/Unix13/metasploitable2",
       "https://github.com/tardummy01/oscp_scripts-1",
       "https://github.com/drone789/CVE-2012-1823",
-      "https://github.com/Jimmy01240397/CVE-2012-1823-Analyze",
       "https://github.com/cyberharsh/PHP_CVE-2012-1823",
+      "https://github.com/Jimmy01240397/CVE-2012-1823-Analyze",
       "https://github.com/JasonHobs/CVE-2012-1823-exploit-for-https-user-password-web"
     ]
   },
@@ -61074,13 +61121,13 @@
       "https://github.com/Gill-Singh-A/vsFTP-2.3.4-Remote-Root-Shell-Exploit",
       "https://github.com/everythingBlackkk/vsFTPd-Backdoor-Exploit-CVE-2011-2523-",
       "https://github.com/0xB0y426/CVE-2011-2523-PoC",
+      "https://github.com/0xSojalSec/CVE-2011-2523",
       "https://github.com/0xSojalSec/-CVE-2011-2523",
       "https://github.com/Gr4ykt/CVE-2011-2523",
-      "https://github.com/0xSojalSec/CVE-2011-2523",
       "https://github.com/vaishnavucv/CVE-2011-2523",
       "https://github.com/sug4r-wr41th/CVE-2011-2523",
-      "https://github.com/Shubham-2k1/Exploit-CVE-2011-2523",
       "https://github.com/XiangSi-Howard/CTF---CVE-2011-2523",
+      "https://github.com/Shubham-2k1/Exploit-CVE-2011-2523",
       "https://github.com/Tenor-Z/SmileySploit",
       "https://github.com/chleba124/vsftpd-exploit",
       "https://github.com/AnugiArrawwala/CVE-Research",
@@ -61660,8 +61707,8 @@
     "description": "Stack-based buffer overflow in the parse_master function in the Ty demux plugin (modules/demux/ty.c) in VLC Media Player 0.9.0 through 0.9.4 allows remote attackers to execute arbitrary code via a TiVo TY media file with a header containing a crafted size value.",
     "poc": [
       "https://github.com/KernelErr/VLC-CVE-2008-4654-Exploit",
-      "https://github.com/bongbongco/CVE-2008-4654",
       "https://github.com/rnnsz/CVE-2008-4654",
+      "https://github.com/bongbongco/CVE-2008-4654",
       "https://github.com/Hexastrike/CVE-2008-4654"
     ]
   },
@@ -61852,19 +61899,19 @@
       "https://github.com/xbufu/CVE-2007-2447",
       "https://github.com/ozuma/CVE-2007-2447",
       "https://github.com/Aviksaikat/CVE-2007-2447",
-      "https://github.com/s4msec/CVE-2007-2447",
       "https://github.com/3x1t1um/CVE-2007-2447",
+      "https://github.com/s4msec/CVE-2007-2447",
       "https://github.com/Nosferatuvjr/Samba-Usermap-exploit",
       "https://github.com/b33m0x00/CVE-2007-2447",
       "https://github.com/xlcc4096/exploit-CVE-2007-2447",
       "https://github.com/0xKn/CVE-2007-2447",
-      "https://github.com/Juantos/cve-2007-2447",
-      "https://github.com/cherrera0001/CVE-2007-2447",
-      "https://github.com/JoseBarrios/CVE-2007-2447",
-      "https://github.com/b1fair/smb_usermap",
-      "https://github.com/testaross4/CVE-2007-2447",
       "https://github.com/G01d3nW01f/CVE-2007-2447",
       "https://github.com/foudadev/CVE-2007-2447",
+      "https://github.com/Juantos/cve-2007-2447",
+      "https://github.com/JoseBarrios/CVE-2007-2447",
+      "https://github.com/cherrera0001/CVE-2007-2447",
+      "https://github.com/b1fair/smb_usermap",
+      "https://github.com/testaross4/CVE-2007-2447",
       "https://github.com/bdunlap9/CVE-2007-2447_python",
       "https://github.com/IamLucif3r/CVE-2007-2447-Exploit",
       "https://github.com/MikeRega7/CVE-2007-2447-RCE",
@@ -62127,8 +62174,8 @@
     "cve_code": "CVE-2003-0358",
     "description": "Buffer overflow in (1) nethack 3.4.0 and earlier, and (2) falconseye 1.9.3 and earlier, which is based on nethack, allows local users to gain privileges via a long -s command line option.",
     "poc": [
-      "https://github.com/gmh5225/CVE-2003-0358",
-      "https://github.com/fengjixuchui/CVE-2003-0358"
+      "https://github.com/fengjixuchui/CVE-2003-0358",
+      "https://github.com/gmh5225/CVE-2003-0358"
     ]
   },
   {
