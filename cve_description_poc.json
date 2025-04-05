@@ -7,6 +7,13 @@
     ]
   },
   {
+    "cve_code": "CVE-2025-31131",
+    "description": "YesWiki is a wiki system written in PHP. The squelette parameter is vulnerable to path traversal attacks, enabling read access to arbitrary files on the server. This vulnerability is fixed in 4.5.2.",
+    "poc": [
+      "https://github.com/MuhammadWaseem29/CVE-2025-31131"
+    ]
+  },
+  {
     "cve_code": "CVE-2025-31129",
     "description": "Jooby is a web framework for Java and Kotlin. The pac4j io.jooby.internal.pac4j.SessionStoreImpl#get module deserializes untrusted data. This vulnerability is fixed in 2.17.0 (2.x) and 3.7.0 (3.x).",
     "poc": [
@@ -26,6 +33,13 @@
     "description": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Tribulant Software Newsletters allows SQL Injection. This issue affects Newsletters: from n/a through 4.9.9.7.",
     "poc": [
       "https://github.com/DoTTak/CVE-2025-30921"
+    ]
+  },
+  {
+    "cve_code": "CVE-2025-30911",
+    "description": "Improper Control of Generation of Code ('Code Injection') vulnerability in Rometheme RomethemeKit For Elementor allows Command Injection. This issue affects RomethemeKit For Elementor: from n/a through 1.5.4.",
+    "poc": [
+      "https://github.com/Nxploited/CVE-2025-30911"
     ]
   },
   {
@@ -71,11 +85,11 @@
       "https://github.com/jackieya/CVE-2025-30208-and-CVE-2025-31125",
       "https://github.com/4xura/CVE-2025-30108",
       "https://github.com/keklick1337/CVE-2025-30208-ViteVulnScanner",
-      "https://github.com/sumeet-darekar/CVE-2025-30208",
       "https://github.com/0xshaheen/CVE-2025-30208",
+      "https://github.com/sumeet-darekar/CVE-2025-30208",
       "https://github.com/YuanBenSir/CVE-2025-30208_POC",
-      "https://github.com/iSee857/CVE-2025-30208-PoC",
       "https://github.com/sadhfdw129/CVE-2025-30208-Vite",
+      "https://github.com/iSee857/CVE-2025-30208-PoC",
       "https://github.com/4m3rr0r/CVE-2025-30208-PoC"
     ]
   },
@@ -95,6 +109,14 @@
     ]
   },
   {
+    "cve_code": "CVE-2025-30065",
+    "description": "Schema parsing in the parquet-avro module of Apache Parquet 1.15.0 and previous versions allows bad actors to execute arbitrary code<br>Users are recommended to upgrade to version 1.15.1, which fixes the issue.",
+    "poc": [
+      "https://github.com/bjornhels/CVE-2025-30065",
+      "https://github.com/h3st4k3r/CVE-2025-30065"
+    ]
+  },
+  {
     "cve_code": "CVE-2025-29927",
     "description": "Next.js is a React framework for building full-stack web applications. Prior to 14.2.25 and 15.2.3, it is possible to bypass authorization checks within a Next.js application, if the authorization check occurs in middleware. If patching to a safe version is infeasible, it is recommend that you prevent external user requests which contain the x-middleware-subrequest header from reaching your Next.js application. This vulnerability is fixed in 14.2.25 and 15.2.3.",
     "poc": [
@@ -106,54 +128,55 @@
       "https://github.com/lirantal/vulnerable-nextjs-14-CVE-2025-29927",
       "https://github.com/Ademking/CVE-2025-29927",
       "https://github.com/MuhammadWaseem29/CVE-2025-29927-POC",
+      "https://github.com/fourcube/nextjs-middleware-bypass-demo",
       "https://github.com/RoyCampos/CVE-2025-29927",
       "https://github.com/Eve-SatOrU/POC-CVE-2025-29927",
       "https://github.com/c0dejump/CVE-2025-29927-check",
-      "https://github.com/fourcube/nextjs-middleware-bypass-demo",
       "https://github.com/Neoxs/nextjs-middleware-vuln-poc",
-      "https://github.com/lediusa/CVE-2025-29927",
       "https://github.com/0xWhoknows/CVE-2025-29927",
       "https://github.com/Oyst3r1ng/CVE-2025-29927",
-      "https://github.com/arvion-agent/next-CVE-2025-29927",
+      "https://github.com/lediusa/CVE-2025-29927",
       "https://github.com/yugo-eliatrope/test-cve-2025-29927",
+      "https://github.com/arvion-agent/next-CVE-2025-29927",
       "https://github.com/0x0Luk/0xMiddleware",
       "https://github.com/strobes-security/nextjs-vulnerable-app",
-      "https://github.com/lem0n817/CVE-2025-29927",
       "https://github.com/kuzushiki/CVE-2025-29927-test",
+      "https://github.com/lem0n817/CVE-2025-29927",
       "https://github.com/ThemeHackers/CVE-2025-29972",
       "https://github.com/t3tra-dev/cve-2025-29927-demo",
       "https://github.com/w2hcorp/CVE-2025-29927-PoC",
       "https://github.com/Kamal-418/Vulnerable-Lab-NextJS-CVE-2025-29927",
       "https://github.com/nicknisi/next-attack",
       "https://github.com/takumade/ghost-route",
+      "https://github.com/BilalGns/CVE-2025-29927",
       "https://github.com/jeymo092/cve-2025-29927",
       "https://github.com/aleongx/CVE-2025-29927",
       "https://github.com/alastair66/CVE-2025-29927",
+      "https://github.com/Gokul-Krishnan-V-R/cve-2025-29927",
+      "https://github.com/0xcucumbersalad/cve-2025-29927",
       "https://github.com/ricsirigu/CVE-2025-29927",
       "https://github.com/nyctophile0969/CVE-2025-29927",
-      "https://github.com/furmak331/CVE-2025-29927",
-      "https://github.com/0xcucumbersalad/cve-2025-29927",
-      "https://github.com/Gokul-Krishnan-V-R/cve-2025-29927",
-      "https://github.com/BilalGns/CVE-2025-29927",
       "https://github.com/iSee857/CVE-2025-29927",
       "https://github.com/Slvignesh05/CVE-2025-29927",
       "https://github.com/dante01yoon/CVE-2025-29927",
+      "https://github.com/furmak331/CVE-2025-29927",
       "https://github.com/yuzu-juice/CVE-2025-29927_demo",
+      "https://github.com/aleongx/CVE-2025-29927_Scanner",
       "https://github.com/TheresAFewConors/CVE-2025-29927-Testing",
-      "https://github.com/nocomp/CVE-2025-29927-scanner",
+      "https://github.com/kOaDT/poc-cve-2025-29927",
       "https://github.com/serhalp/test-cve-2025-29927",
       "https://github.com/Nekicj/CVE-2025-29927-exploit",
-      "https://github.com/kOaDT/poc-cve-2025-29927",
-      "https://github.com/aleongx/CVE-2025-29927_Scanner",
       "https://github.com/tobiasGuta/CVE-2025-29927-POC",
+      "https://github.com/nocomp/CVE-2025-29927-scanner",
       "https://github.com/0xPb1/Next.js-CVE-2025-29927",
-      "https://github.com/ayato-shitomi/WebLab_CVE-2025-29927",
-      "https://github.com/ticofookfook/poc-nextjs-CVE-2025-29927",
       "https://github.com/elshaheedy/CVE-2025-29927-Sigma-Rule",
       "https://github.com/alihussainzada/CVE-2025-29927-PoC",
-      "https://github.com/Heimd411/CVE-2025-29927-PoC",
+      "https://github.com/ayato-shitomi/WebLab_CVE-2025-29927",
+      "https://github.com/ticofookfook/poc-nextjs-CVE-2025-29927",
       "https://github.com/maronnjapan/claude-create-CVE-2025-29927",
       "https://github.com/0xPThree/next.js_cve-2025-29927",
+      "https://github.com/Heimd411/CVE-2025-29927-PoC",
+      "https://github.com/sn1p3rt3s7/NextJS_CVE-2025-29927",
       "https://github.com/jmbowes/NextSecureScan",
       "https://github.com/fahimalshihab/NextBypass",
       "https://github.com/Jull3Hax0r/next.js-exploit",
@@ -241,6 +264,13 @@
     "poc": [
       "https://github.com/OscarBataille/CVE-2025-26794",
       "https://github.com/ishwardeepp/CVE-2025-26794-Exim-Mail-SQLi"
+    ]
+  },
+  {
+    "cve_code": "CVE-2025-26529",
+    "description": "Description information displayed in the site administration live log <br>required additional sanitizing to prevent a stored XSS risk.",
+    "poc": [
+      "https://github.com/NightBloodz/moodleTestingEnv"
     ]
   },
   {
@@ -532,11 +562,11 @@
       "https://github.com/Alaatk/CVE-2025-24813-POC",
       "https://github.com/issamjr/CVE-2025-24813-Scanner",
       "https://github.com/MuhammadWaseem29/CVE-2025-24813",
-      "https://github.com/manjula-aw/CVE-2025-24813",
-      "https://github.com/AlperenY-cs/CVE-2025-24813",
       "https://github.com/B1gN0Se/Tomcat-CVE-2025-24813",
-      "https://github.com/ps-interactive/lab-cve-2025-24813",
+      "https://github.com/AlperenY-cs/CVE-2025-24813",
+      "https://github.com/manjula-aw/CVE-2025-24813",
       "https://github.com/michael-david-fry/Apache-Tomcat-Vulnerability-POC-CVE-2025-24813",
+      "https://github.com/ps-interactive/lab-cve-2025-24813",
       "https://github.com/n0n-zer0/Spring-Boot-Tomcat-CVE-2025-24813"
     ]
   },
@@ -900,9 +930,10 @@
   },
   {
     "cve_code": "CVE-2025-2825",
-    "description": "CrushFTP versions 10.0.0 through 10.8.3 and 11.0.0 through 11.3.0 are affected by a vulnerability in the S3 authorization header processing that allows authentication bypass. Remote and unauthenticated HTTP requests to CrushFTP with known usernames can be used to impersonate a user and conduct actions on their behalf, including administrative actions and data retrieval.",
+    "description": "DO NOT USE THIS CVE RECORD. ConsultIDs: CVE-2025-31161. Reason: This Record is a reservation duplicate of CVE-2025-31161. Notes: All CVE users should reference CVE-2025-31161 instead of this Record. All references and descriptions in this Record have been removed to prevent accidental usage.",
     "poc": [
-      "https://github.com/WOOOOONG/CVE-2025-2825"
+      "https://github.com/WOOOOONG/CVE-2025-2825",
+      "https://github.com/punitdarji/crushftp-CVE-2025-2825"
     ]
   },
   {
@@ -61876,6 +61907,13 @@
     ]
   },
   {
+    "cve_code": "CVE-2007-6750",
+    "description": "The Apache HTTP Server 1.x and 2.x allows remote attackers to cause a denial of service (daemon outage) via partial HTTP requests, as demonstrated by Slowloris, related to the lack of the mod_reqtimeout module in versions before 2.2.15.",
+    "poc": [
+      "https://github.com/Jeanpseven/slowl0ris"
+    ]
+  },
+  {
     "cve_code": "CVE-2007-6638",
     "description": "March Networks DVR 3204 stores sensitive information under the web root with insufficient access control, which allows remote attackers to obtain usernames, passwords, device names, and IP addresses via a direct request for scripts/logfiles.tar.gz.",
     "poc": [
@@ -61965,8 +62003,8 @@
       "https://github.com/s4msec/CVE-2007-2447",
       "https://github.com/Nosferatuvjr/Samba-Usermap-exploit",
       "https://github.com/b33m0x00/CVE-2007-2447",
-      "https://github.com/xlcc4096/exploit-CVE-2007-2447",
       "https://github.com/0xKn/CVE-2007-2447",
+      "https://github.com/xlcc4096/exploit-CVE-2007-2447",
       "https://github.com/G01d3nW01f/CVE-2007-2447",
       "https://github.com/foudadev/CVE-2007-2447",
       "https://github.com/Juantos/cve-2007-2447",
@@ -62507,6 +62545,7 @@
     "cve_code": "CVE-1999-0524",
     "description": "ICMP information such as (1) netmask and (2) timestamp is allowed from arbitrary hosts.",
     "poc": [
+      "https://github.com/noraj/ChronoLeak",
       "https://github.com/threatlabindonesia/CVE-1999-0524-ICMP-Timestamp-and-Address-Mask-Request-Exploit"
     ]
   },
