@@ -31,6 +31,7 @@
     "cve_code": "CVE-2025-31161",
     "description": "CrushFTP 10 before 10.8.4 and 11 before 11.3.1 allows authentication bypass and takeover of the crushadmin account (unless a DMZ proxy instance is used), as exploited in the wild in March and April 2025, aka \"Unauthenticated HTTP(S) port access.\" A race condition exists in the AWS4-HMAC (compatible with S3) authorization method of the HTTP component of the FTP server. The server first verifies the existence of the user by performing a call to login_user_pass() with no password requirement. This will authenticate the session through the HMAC verification process and up until the server checks for user verification once more. The vulnerability can be further stabilized, eliminating the need for successfully triggering a race condition, by sending a mangled AWS4-HMAC header. By providing only the username and a following slash (/), the server will successfully find a username, which triggers the successful anypass authentication process, but the server will fail to find the expected SignedHeaders entry, resulting in an index-out-of-bounds error that stops the code from reaching the session cleanup. Together, these issues make it trivial to authenticate as any known or guessable user (e.g., crushadmin), and can lead to a full compromise of the system by obtaining an administrative account.",
     "poc": [
+      "https://github.com/llussiess/CVE-2025-31161",
       "https://github.com/Immersive-Labs-Sec/CVE-2025-31161"
     ]
   },
@@ -53,7 +54,7 @@
     "description": "Vite is a frontend tooling framework for javascript. Vite exposes content of non-allowed files using ?inline&import or ?raw?import. Only apps explicitly exposing the Vite dev server to the network (using --host or server.host config option) are affected. This vulnerability is fixed in 6.2.4, 6.1.3, 6.0.13, 5.4.16, and 4.5.11.",
     "poc": [
       "https://github.com/sunhuiHi666/CVE-2025-31125",
-      "https://github.com/jackieya/CVE-2025-30208-and-CVE-2025-31125"
+      "https://github.com/jackieya/ViteVulScan"
     ]
   },
   {
@@ -110,16 +111,16 @@
       "https://github.com/marino-admin/Vite-CVE-2025-30208-Scanner",
       "https://github.com/LiChaser/CVE-2025-30208",
       "https://github.com/On1onss/CVE-2025-30208-LFI",
+      "https://github.com/jackieya/ViteVulScan",
+      "https://github.com/4xura/CVE-2025-30208",
       "https://github.com/kk12-30/CVE-2025-30208",
       "https://github.com/lilil3333/Vite-CVE-2025-30208-EXP",
-      "https://github.com/jackieya/CVE-2025-30208-and-CVE-2025-31125",
-      "https://github.com/4xura/CVE-2025-30108",
       "https://github.com/keklick1337/CVE-2025-30208-ViteVulnScanner",
       "https://github.com/sumeet-darekar/CVE-2025-30208",
-      "https://github.com/0xshaheen/CVE-2025-30208",
       "https://github.com/sadhfdw129/CVE-2025-30208-Vite",
-      "https://github.com/YuanBenSir/CVE-2025-30208_POC",
+      "https://github.com/0xshaheen/CVE-2025-30208",
       "https://github.com/4m3rr0r/CVE-2025-30208-PoC",
+      "https://github.com/YuanBenSir/CVE-2025-30208_POC",
       "https://github.com/iSee857/CVE-2025-30208-PoC"
     ]
   },
@@ -158,10 +159,10 @@
       "https://github.com/6mile/nextjs-CVE-2025-29927",
       "https://github.com/websecnl/CVE-2025-29927-PoC-Exploit",
       "https://github.com/MuhammadWaseem29/CVE-2025-29927-POC",
-      "https://github.com/lirantal/vulnerable-nextjs-14-CVE-2025-29927",
       "https://github.com/Ademking/CVE-2025-29927",
-      "https://github.com/fourcube/nextjs-middleware-bypass-demo",
+      "https://github.com/lirantal/vulnerable-nextjs-14-CVE-2025-29927",
       "https://github.com/RoyCampos/CVE-2025-29927",
+      "https://github.com/fourcube/nextjs-middleware-bypass-demo",
       "https://github.com/Eve-SatOrU/POC-CVE-2025-29927",
       "https://github.com/c0dejump/CVE-2025-29927-check",
       "https://github.com/Neoxs/nextjs-middleware-vuln-poc",
@@ -173,10 +174,10 @@
       "https://github.com/yugo-eliatrope/test-cve-2025-29927",
       "https://github.com/0x0Luk/0xMiddleware",
       "https://github.com/strobes-security/nextjs-vulnerable-app",
-      "https://github.com/goncalocsousa1/CVE-2025-29927",
       "https://github.com/lem0n817/CVE-2025-29927",
-      "https://github.com/ThemeHackers/CVE-2025-29972",
+      "https://github.com/goncalocsousa1/CVE-2025-29927",
       "https://github.com/kuzushiki/CVE-2025-29927-test",
+      "https://github.com/ThemeHackers/CVE-2025-29972",
       "https://github.com/t3tra-dev/cve-2025-29927-demo",
       "https://github.com/w2hcorp/CVE-2025-29927-PoC",
       "https://github.com/Kamal-418/Vulnerable-Lab-NextJS-CVE-2025-29927",
@@ -184,45 +185,53 @@
       "https://github.com/takumade/ghost-route",
       "https://github.com/pixilated730/NextJS-Exploit-",
       "https://github.com/jeymo092/cve-2025-29927",
-      "https://github.com/0xcucumbersalad/cve-2025-29927",
-      "https://github.com/aleongx/CVE-2025-29927",
-      "https://github.com/alastair66/CVE-2025-29927",
-      "https://github.com/furmak331/CVE-2025-29927",
       "https://github.com/iSee857/CVE-2025-29927",
       "https://github.com/Balajih4kr/cve-2025-29927",
-      "https://github.com/BilalGns/CVE-2025-29927",
+      "https://github.com/aleongx/CVE-2025-29927",
+      "https://github.com/alastair66/CVE-2025-29927",
       "https://github.com/Gokul-Krishnan-V-R/cve-2025-29927",
+      "https://github.com/0xcucumbersalad/cve-2025-29927",
+      "https://github.com/furmak331/CVE-2025-29927",
+      "https://github.com/BilalGns/CVE-2025-29927",
       "https://github.com/nyctophile0969/CVE-2025-29927",
       "https://github.com/ricsirigu/CVE-2025-29927",
       "https://github.com/Slvignesh05/CVE-2025-29927",
       "https://github.com/dante01yoon/CVE-2025-29927",
       "https://github.com/TheresAFewConors/CVE-2025-29927-Testing",
       "https://github.com/YEONDG/nextjs-cve-2025-29927",
+      "https://github.com/kOaDT/poc-cve-2025-29927",
       "https://github.com/serhalp/test-cve-2025-29927",
       "https://github.com/Nekicj/CVE-2025-29927-exploit",
       "https://github.com/nocomp/CVE-2025-29927-scanner",
-      "https://github.com/yuzu-juice/CVE-2025-29927_demo",
       "https://github.com/aleongx/CVE-2025-29927_Scanner",
-      "https://github.com/kOaDT/poc-cve-2025-29927",
+      "https://github.com/yuzu-juice/CVE-2025-29927_demo",
       "https://github.com/tobiasGuta/CVE-2025-29927-POC",
       "https://github.com/0xPb1/Next.js-CVE-2025-29927",
-      "https://github.com/ticofookfook/poc-nextjs-CVE-2025-29927",
-      "https://github.com/sn1p3rt3s7/NextJS_CVE-2025-29927",
-      "https://github.com/ayato-shitomi/WebLab_CVE-2025-29927",
-      "https://github.com/jmbowes/NextSecureScan",
       "https://github.com/elshaheedy/CVE-2025-29927-Sigma-Rule",
       "https://github.com/alihussainzada/CVE-2025-29927-PoC",
+      "https://github.com/ayato-shitomi/WebLab_CVE-2025-29927",
+      "https://github.com/ticofookfook/poc-nextjs-CVE-2025-29927",
+      "https://github.com/sn1p3rt3s7/NextJS_CVE-2025-29927",
+      "https://github.com/jmbowes/NextSecureScan",
       "https://github.com/0xPThree/next.js_cve-2025-29927",
       "https://github.com/maronnjapan/claude-create-CVE-2025-29927",
       "https://github.com/Heimd411/CVE-2025-29927-PoC",
       "https://github.com/pickovven/vulnerable-nextjs-14-CVE-2025-29927",
-      "https://github.com/Jull3Hax0r/next.js-exploit",
       "https://github.com/fahimalshihab/NextBypass",
+      "https://github.com/Jull3Hax0r/next.js-exploit",
       "https://github.com/Naveen-005/Next.Js-middleware-bypass-vulnerability-CVE-2025-29927",
       "https://github.com/ferpalma21/Automated-Next.js-Security-Scanner-for-CVE-2025-29927",
       "https://github.com/ValGrace/middleware-auth-bypass",
       "https://github.com/m2hcz/m2hcz-Next.js-security-flaw-CVE-2025-29927---PoC-exploit",
+      "https://github.com/l1uk/nextjs-middleware-exploit",
       "https://github.com/narasimhauppala/nextjs-middleware-bypass"
+    ]
+  },
+  {
+    "cve_code": "CVE-2025-29810",
+    "description": "Improper access control in Active Directory Domain Services allows an authorized attacker to elevate privileges over a network.",
+    "poc": [
+      "https://github.com/aleongx/CVE-2025-29810-check"
     ]
   },
   {
@@ -237,6 +246,13 @@
     "description": "An issue in FoxCMS v.1.2.5 allows a remote attacker to execute arbitrary code via the case display page in the index.html component.",
     "poc": [
       "https://github.com/somatrasss/CVE-2025-29306"
+    ]
+  },
+  {
+    "cve_code": "CVE-2025-29018",
+    "description": "A Stored Cross-Site Scripting (XSS) vulnerability exists in the name parameter of pages_add_acc_type.php in Code Astro Internet Banking System 2.0.0.",
+    "poc": [
+      "https://github.com/b1tm4r/CVE-2025-29018"
     ]
   },
   {
@@ -297,6 +313,13 @@
     "poc": [
       "https://github.com/OscarBataille/CVE-2025-26794",
       "https://github.com/ishwardeepp/CVE-2025-26794-Exim-Mail-SQLi"
+    ]
+  },
+  {
+    "cve_code": "CVE-2025-26647",
+    "description": "Improper input validation in Windows Kerberos allows an unauthorized attacker to elevate privileges over a network.",
+    "poc": [
+      "https://github.com/groshi215/CVE-2025-26647-Exploit"
     ]
   },
   {
@@ -571,6 +594,13 @@
     ]
   },
   {
+    "cve_code": "CVE-2025-24985",
+    "description": "Integer overflow or wraparound in Windows Fast FAT Driver allows an unauthorized attacker to execute code locally.",
+    "poc": [
+      "https://github.com/airbus-cert/cve-2025-24985"
+    ]
+  },
+  {
     "cve_code": "CVE-2025-24971",
     "description": "DumpDrop is a stupid simple file upload application that provides an interface for dragging and dropping files. An OS Command Injection vulnerability was discovered in the DumbDrop application, `/upload/init` endpoint. This vulnerability could allow an attacker to execute arbitrary code remotely when the **Apprise Notification** enabled. This issue has been addressed in commit `4ff8469d` and all users are advised to patch. There are no known workarounds for this vulnerability.",
     "poc": [
@@ -606,13 +636,14 @@
       "https://github.com/AlperenY-cs/CVE-2025-24813",
       "https://github.com/manjula-aw/CVE-2025-24813",
       "https://github.com/B1gN0Se/Tomcat-CVE-2025-24813",
-      "https://github.com/GadaLuBau1337/CVE-2025-24813",
       "https://github.com/horsehacks/CVE-2025-24813-checker",
+      "https://github.com/GadaLuBau1337/CVE-2025-24813",
       "https://github.com/ps-interactive/lab-cve-2025-24813",
       "https://github.com/La3B0z/CVE-2025-24813-POC",
       "https://github.com/michael-david-fry/Apache-Tomcat-Vulnerability-POC-CVE-2025-24813",
-      "https://github.com/Heimd411/CVE-2025-24813-noPoC",
-      "https://github.com/n0n-zer0/Spring-Boot-Tomcat-CVE-2025-24813"
+      "https://github.com/f8l124/CVE-2025-24813-POC",
+      "https://github.com/n0n-zer0/Spring-Boot-Tomcat-CVE-2025-24813",
+      "https://github.com/Heimd411/CVE-2025-24813-noPoC"
     ]
   },
   {
@@ -644,6 +675,13 @@
       "https://github.com/hakaioffsec/IngressNightmare-PoC",
       "https://github.com/Esonhugh/ingressNightmare-CVE-2025-1974-exps",
       "https://github.com/lufeirider/IngressNightmare-PoC"
+    ]
+  },
+  {
+    "cve_code": "CVE-2025-24221",
+    "description": "This issue was addressed with improved data access restriction. This issue is fixed in visionOS 2.4, iOS 18.4 and iPadOS 18.4, iPadOS 17.7.6. Sensitive keychain data may be accessible from an iOS backup.",
+    "poc": [
+      "https://github.com/AnonymousDeveloper69/CVE-2025-24221"
     ]
   },
   {
@@ -889,7 +927,6 @@
     "description": "Windows Hyper-V NT Kernel Integration VSP Elevation of Privilege Vulnerability",
     "poc": [
       "https://github.com/MrAle98/CVE-2025-21333-POC",
-      "https://github.com/Mukesh-blend/CVE-2025-21333-POC",
       "https://github.com/aleongx/KQL_sentinel_CVE-2025-21333"
     ]
   },
@@ -938,13 +975,6 @@
     ]
   },
   {
-    "cve_code": "CVE-2025-3010",
-    "description": "A vulnerability, which was classified as problematic, has been found in Khronos Group glslang 15.1.0. Affected by this issue is the function glslang::TIntermediate::isConversionAllowed of the file glslang/MachineIndependent/Intermediate.cpp. The manipulation leads to null pointer dereference. The attack needs to be approached locally. The exploit has been disclosed to the public and may be used.",
-    "poc": [
-      "https://github.com/4xura/CVE-2025-30108"
-    ]
-  },
-  {
     "cve_code": "CVE-2025-2997",
     "description": "A vulnerability was found in zhangyanbo2007 youkefu 4.2.0. It has been classified as critical. Affected is an unknown function of the file /res/url. The manipulation of the argument url leads to server-side request forgery. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
     "poc": [
@@ -962,7 +992,6 @@
     "cve_code": "CVE-2025-2901",
     "description": "A flaw was found in the JBoss EAP Management Console, where a stored Cross-site scripting vulnerability occurs when an application improperly sanitizes user input before storing it in a data store. When this stored data is later included in web pages without adequate sanitization, malicious scripts can execute in the context of users who view these pages, leading to potential data theft, session hijacking, or other malicious activities.",
     "poc": [
-      "https://github.com/b1tm4r/CVE-2025-29018",
       "https://github.com/b1tm4r/CVE-2025-29017",
       "https://github.com/b1tm4r/CVE-2025-29015"
     ]
@@ -1006,9 +1035,9 @@
     "cve_code": "CVE-2025-2825",
     "description": "DO NOT USE THIS CVE RECORD. ConsultIDs: CVE-2025-31161. Reason: This Record is a reservation duplicate of CVE-2025-31161. Notes: All CVE users should reference CVE-2025-31161 instead of this Record. All references and descriptions in this Record have been removed to prevent accidental usage.",
     "poc": [
+      "https://github.com/Immersive-Labs-Sec/CVE-2025-31161",
       "https://github.com/WOOOOONG/CVE-2025-2825",
-      "https://github.com/punitdarji/crushftp-CVE-2025-2825",
-      "https://github.com/Immersive-Labs-Sec/CVE-2025-31161"
+      "https://github.com/punitdarji/crushftp-CVE-2025-2825"
     ]
   },
   {
@@ -1130,8 +1159,8 @@
       "https://github.com/tuladhar/ingress-nightmare",
       "https://github.com/zulloper/CVE-2025-1974",
       "https://github.com/rjhaikal/POC-IngressNightmare-CVE-2025-1974",
-      "https://github.com/yanmarques/CVE-2025-1974",
       "https://github.com/0xBingo/CVE-2025-1974",
+      "https://github.com/yanmarques/CVE-2025-1974",
       "https://github.com/m-q-t/ingressnightmare-detection-poc",
       "https://github.com/gian2dchris/ingress-nightmare-poc",
       "https://github.com/Ar05un05kau05ndal/2025-1"
@@ -61228,8 +61257,8 @@
       "https://github.com/Unix13/metasploitable2",
       "https://github.com/tardummy01/oscp_scripts-1",
       "https://github.com/drone789/CVE-2012-1823",
-      "https://github.com/cyberharsh/PHP_CVE-2012-1823",
       "https://github.com/Jimmy01240397/CVE-2012-1823-Analyze",
+      "https://github.com/cyberharsh/PHP_CVE-2012-1823",
       "https://github.com/JasonHobs/CVE-2012-1823-exploit-for-https-user-password-web"
     ]
   },
@@ -61399,8 +61428,8 @@
       "https://github.com/everythingBlackkk/vsFTPd-Backdoor-Exploit-CVE-2011-2523-",
       "https://github.com/0xB0y426/CVE-2011-2523-PoC",
       "https://github.com/Gr4ykt/CVE-2011-2523",
-      "https://github.com/0xSojalSec/CVE-2011-2523",
       "https://github.com/0xSojalSec/-CVE-2011-2523",
+      "https://github.com/0xSojalSec/CVE-2011-2523",
       "https://github.com/vaishnavucv/CVE-2011-2523",
       "https://github.com/sug4r-wr41th/CVE-2011-2523",
       "https://github.com/madanokr001/CVE-2011-2523",
