@@ -7,6 +7,13 @@
     ]
   },
   {
+    "cve_code": "CVE-2025-32579",
+    "description": "Unrestricted Upload of File with Dangerous Type vulnerability in SoftClever Limited Sync Posts allows Upload a Web Shell to a Web Server. This issue affects Sync Posts: from n/a through 1.0.",
+    "poc": [
+      "https://github.com/Nxploited/CVE-2025-32579"
+    ]
+  },
+  {
     "cve_code": "CVE-2025-32395",
     "description": "Vite is a frontend tooling framework for javascript. Prior to 6.2.6, 6.1.5, 6.0.15, 5.4.18, and 4.5.13, the contents of arbitrary files can be returned to the browser if the dev server is running on Node or Bun. HTTP 1.1 spec (RFC 9112) does not allow # in request-target. Although an attacker can send such a request. For those requests with an invalid request-line (it includes request-target), the spec recommends to reject them with 400 or 301. The same can be said for HTTP 2. On Node and Bun, those requests are not rejected internally and is passed to the user land. For those requests, the value of http.IncomingMessage.url contains #. Vite assumed req.url won't contain # when checking server.fs.deny, allowing those kinds of requests to bypass the check. Only apps explicitly exposing the Vite dev server to the network (using --host or server.host config option) and running the Vite dev server on runtimes that are not Deno (e.g. Node, Bun) are affected. This vulnerability is fixed in 6.2.6, 6.1.5, 6.0.15, 5.4.18, and 4.5.13.",
     "poc": [
@@ -121,8 +128,8 @@
     "description": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in wp01ru WP01 allows Path Traversal. This issue affects WP01: from n/a through 2.6.2.",
     "poc": [
       "https://github.com/Oyst3r1ng/CVE-2025-30567",
-      "https://github.com/KaxuFF/CVE-2025-30567-PoC",
-      "https://github.com/realcodeb0ss/CVE-2025-30567-PoC"
+      "https://github.com/realcodeb0ss/CVE-2025-30567-PoC",
+      "https://github.com/KaxuFF/CVE-2025-30567-PoC"
     ]
   },
   {
@@ -204,19 +211,20 @@
       "https://github.com/0xWhoknows/CVE-2025-29927",
       "https://github.com/Eve-SatOrU/POC-CVE-2025-29927",
       "https://github.com/c0dejump/CVE-2025-29927-check",
+      "https://github.com/0x0Luk/0xMiddleware",
       "https://github.com/Neoxs/nextjs-middleware-vuln-poc",
       "https://github.com/lediusa/CVE-2025-29927",
       "https://github.com/Oyst3r1ng/CVE-2025-29927",
       "https://github.com/gotr00t0day/CVE-2025-29927",
       "https://github.com/arvion-agent/next-CVE-2025-29927",
       "https://github.com/yugo-eliatrope/test-cve-2025-29927",
-      "https://github.com/0x0Luk/0xMiddleware",
       "https://github.com/strobes-security/nextjs-vulnerable-app",
       "https://github.com/lem0n817/CVE-2025-29927",
       "https://github.com/goncalocsousa1/CVE-2025-29927",
       "https://github.com/kuzushiki/CVE-2025-29927-test",
       "https://github.com/ThemeHackers/CVE-2025-29972",
       "https://github.com/t3tra-dev/cve-2025-29927-demo",
+      "https://github.com/UNICORDev/exploit-CVE-2025-29927",
       "https://github.com/darklotuskdb/nextjs-CVE-2025-29927-hunter",
       "https://github.com/w2hcorp/CVE-2025-29927-PoC",
       "https://github.com/Kamal-418/Vulnerable-Lab-NextJS-CVE-2025-29927",
@@ -224,38 +232,37 @@
       "https://github.com/takumade/ghost-route",
       "https://github.com/pixilated730/NextJS-Exploit-",
       "https://github.com/ethanol1310/POC-CVE-2025-29927-",
-      "https://github.com/jeymo092/cve-2025-29927",
       "https://github.com/aleongx/CVE-2025-29927",
       "https://github.com/alastair66/CVE-2025-29927",
       "https://github.com/iSee857/CVE-2025-29927",
       "https://github.com/Balajih4kr/cve-2025-29927",
-      "https://github.com/BilalGns/CVE-2025-29927",
+      "https://github.com/Gokul-Krishnan-V-R/cve-2025-29927",
+      "https://github.com/jeymo092/cve-2025-29927",
       "https://github.com/furmak331/CVE-2025-29927",
       "https://github.com/0xcucumbersalad/cve-2025-29927",
-      "https://github.com/Gokul-Krishnan-V-R/cve-2025-29927",
-      "https://github.com/nyctophile0969/CVE-2025-29927",
       "https://github.com/ricsirigu/CVE-2025-29927",
+      "https://github.com/nyctophile0969/CVE-2025-29927",
       "https://github.com/Slvignesh05/CVE-2025-29927",
       "https://github.com/dante01yoon/CVE-2025-29927",
-      "https://github.com/YEONDG/nextjs-cve-2025-29927",
+      "https://github.com/BilalGns/CVE-2025-29927",
+      "https://github.com/kOaDT/poc-cve-2025-29927",
       "https://github.com/TheresAFewConors/CVE-2025-29927-Testing",
       "https://github.com/yuzu-juice/CVE-2025-29927_demo",
-      "https://github.com/aleongx/CVE-2025-29927_Scanner",
       "https://github.com/nocomp/CVE-2025-29927-scanner",
+      "https://github.com/YEONDG/nextjs-cve-2025-29927",
       "https://github.com/serhalp/test-cve-2025-29927",
       "https://github.com/Nekicj/CVE-2025-29927-exploit",
-      "https://github.com/kOaDT/poc-cve-2025-29927",
-      "https://github.com/tobiasGuta/CVE-2025-29927-POC",
+      "https://github.com/aleongx/CVE-2025-29927_Scanner",
       "https://github.com/0xPb1/Next.js-CVE-2025-29927",
-      "https://github.com/ayato-shitomi/WebLab_CVE-2025-29927",
-      "https://github.com/sn1p3rt3s7/NextJS_CVE-2025-29927",
-      "https://github.com/ticofookfook/poc-nextjs-CVE-2025-29927",
       "https://github.com/elshaheedy/CVE-2025-29927-Sigma-Rule",
       "https://github.com/alihussainzada/CVE-2025-29927-PoC",
-      "https://github.com/jmbowes/NextSecureScan",
-      "https://github.com/0xPThree/next.js_cve-2025-29927",
+      "https://github.com/sn1p3rt3s7/NextJS_CVE-2025-29927",
+      "https://github.com/ticofookfook/poc-nextjs-CVE-2025-29927",
       "https://github.com/maronnjapan/claude-create-CVE-2025-29927",
+      "https://github.com/0xPThree/next.js_cve-2025-29927",
+      "https://github.com/ayato-shitomi/WebLab_CVE-2025-29927",
       "https://github.com/Heimd411/CVE-2025-29927-PoC",
+      "https://github.com/jmbowes/NextSecureScan",
       "https://github.com/pickovven/vulnerable-nextjs-14-CVE-2025-29927",
       "https://github.com/fahimalshihab/NextBypass",
       "https://github.com/Jull3Hax0r/next.js-exploit",
@@ -678,20 +685,20 @@
       "https://github.com/AsaL1n/CVE-2025-24813",
       "https://github.com/imbas007/CVE-2025-24813-apache-tomcat",
       "https://github.com/beyond-devsecops/CVE-2025-24813",
+      "https://github.com/AlperenY-cs/CVE-2025-24813",
       "https://github.com/gregk4sec/CVE-2025-24813",
       "https://github.com/tonyarris/CVE-2025-24813-PoC",
-      "https://github.com/issamjr/CVE-2025-24813-Scanner",
       "https://github.com/Alaatk/CVE-2025-24813-POC",
-      "https://github.com/AlperenY-cs/CVE-2025-24813",
+      "https://github.com/issamjr/CVE-2025-24813-Scanner",
       "https://github.com/manjula-aw/CVE-2025-24813",
-      "https://github.com/B1gN0Se/Tomcat-CVE-2025-24813",
-      "https://github.com/horsehacks/CVE-2025-24813-checker",
       "https://github.com/GadaLuBau1337/CVE-2025-24813",
+      "https://github.com/horsehacks/CVE-2025-24813-checker",
+      "https://github.com/B1gN0Se/Tomcat-CVE-2025-24813",
       "https://github.com/ps-interactive/lab-cve-2025-24813",
-      "https://github.com/michael-david-fry/Apache-Tomcat-Vulnerability-POC-CVE-2025-24813",
-      "https://github.com/f8l124/CVE-2025-24813-POC",
-      "https://github.com/La3B0z/CVE-2025-24813-POC",
       "https://github.com/Mattb709/CVE-2025-24813-Scanner",
+      "https://github.com/La3B0z/CVE-2025-24813-POC",
+      "https://github.com/f8l124/CVE-2025-24813-POC",
+      "https://github.com/michael-david-fry/Apache-Tomcat-Vulnerability-POC-CVE-2025-24813",
       "https://github.com/n0n-zer0/Spring-Boot-Tomcat-CVE-2025-24813",
       "https://github.com/Heimd411/CVE-2025-24813-noPoC",
       "https://github.com/Mattb709/CVE-2025-24813-PoC-Apache-Tomcat-RCE"
@@ -726,13 +733,6 @@
       "https://github.com/hakaioffsec/IngressNightmare-PoC",
       "https://github.com/Esonhugh/ingressNightmare-CVE-2025-1974-exps",
       "https://github.com/lufeirider/IngressNightmare-PoC"
-    ]
-  },
-  {
-    "cve_code": "CVE-2025-24221",
-    "description": "This issue was addressed with improved data access restriction. This issue is fixed in visionOS 2.4, iOS 18.4 and iPadOS 18.4, iPadOS 17.7.6. Sensitive keychain data may be accessible from an iOS backup.",
-    "poc": [
-      "https://github.com/AnonymousDeveloper69/CVE-2025-24221"
     ]
   },
   {
@@ -989,8 +989,8 @@
     "description": "Windows OLE Remote Code Execution Vulnerability",
     "poc": [
       "https://github.com/ynwarcs/CVE-2025-21298",
-      "https://github.com/Dit-Developers/CVE-2025-21298",
       "https://github.com/mr-big-leach/CVE-2025-21298",
+      "https://github.com/Dit-Developers/CVE-2025-21298",
       "https://github.com/Denyningbow/rtf-ctf-cve-2025-21298"
     ]
   },
@@ -1012,10 +1012,10 @@
     "cve_code": "CVE-2025-3292",
     "description": "The User Registration & Membership \u2013 Custom Registration Form, Login Form, and User Profile plugin for WordPress is vulnerable to Insecure Direct Object Reference in all versions up to, and including, 4.1.3 via the user_registration_update_profile_details() due to missing validation on the 'user_id' user controlled key. This makes it possible for unauthenticated attackers to update other user's passwords, if they have access to the user ID and email.",
     "poc": [
-      "https://github.com/itssixtyn3in/CVE-2025-3292025",
       "https://github.com/itssixtyn3in/CVE-2025-3292027",
-      "https://github.com/itssixtyn3in/CVE-2025-3292026",
+      "https://github.com/itssixtyn3in/CVE-2025-3292025",
       "https://github.com/itssixtyn3in/CVE-2025-3292029",
+      "https://github.com/itssixtyn3in/CVE-2025-3292026",
       "https://github.com/itssixtyn3in/CVE-2025-3292028"
     ]
   },
@@ -1046,7 +1046,9 @@
     "cve_code": "CVE-2025-3102",
     "description": "The SureTriggers: All-in-One Automation Platform plugin for WordPress is vulnerable to an authentication bypass leading to administrative account creation due to a missing empty value check on the 'secret_key' value in the 'autheticate_user' function in all versions up to, and including, 1.0.78. This makes it possible for unauthenticated attackers to create administrator accounts on the target website when the plugin is installed and activated but not configured with an API key.",
     "poc": [
-      "https://github.com/xxmarcosrobertoxx/vanda-CVE-2025-3102"
+      "https://github.com/itsismarcos/vanda-CVE-2025-3102",
+      "https://github.com/rhz0d/CVE-2025-3102",
+      "https://github.com/Nxploited/CVE-2025-3102"
     ]
   },
   {
@@ -1181,6 +1183,13 @@
     ]
   },
   {
+    "cve_code": "CVE-2025-2563",
+    "description": "The User Registration & Membership  WordPress plugin before 4.1.2 does not prevent users to set their account role when the Membership Addon is enabled, leading to a privilege escalation issue and allowing unauthenticated users to gain admin privileges",
+    "poc": [
+      "https://github.com/ubaydev/CVE-2025-2563"
+    ]
+  },
+  {
     "cve_code": "CVE-2025-2559",
     "description": "A flaw was found in Keycloak. When the configuration uses JWT tokens for authentication, the tokens are cached until expiration. If a client uses JWT tokens with an excessively long expiration time, for example, 24 or 48 hours, the cache can grow indefinitely, leading to an OutOfMemoryError. This issue could result in a denial of service condition, preventing legitimate users from accessing the system.",
     "poc": [
@@ -1199,6 +1208,13 @@
     "description": "Use after free in Lens in Google Chrome prior to 134.0.6998.117 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: Critical)",
     "poc": [
       "https://github.com/McTavishSue/CVE-2025-2476"
+    ]
+  },
+  {
+    "cve_code": "CVE-2025-2475",
+    "description": "Mattermost versions 10.5.x = 10.5.1, 10.4.x = 10.4.3, 9.11.x = 9.11.9 fail to invalidate the cache when a user account is converted to a bot which allows an attacker to login to the bot exactly one time via normal credentials.",
+    "poc": [
+      "https://github.com/bartfroklage/CVE-2025-24752-POC"
     ]
   },
   {
@@ -1429,8 +1445,8 @@
       "https://github.com/sfewer-r7/CVE-2025-0282",
       "https://github.com/watchtowrlabs/CVE-2025-0282",
       "https://github.com/AnonStorks/CVE-2025-0282-Full-version",
-      "https://github.com/punitdarji/Ivanti-CVE-2025-0282",
       "https://github.com/Hexastrike/Ivanti-Connect-Secure-Logs-Parser",
+      "https://github.com/punitdarji/Ivanti-CVE-2025-0282",
       "https://github.com/AdaniKamal/CVE-2025-0282",
       "https://github.com/rxwx/pulse-meter",
       "https://github.com/almanatra/CVE-2025-0282",
@@ -61345,9 +61361,9 @@
       "https://github.com/LeDucKhiem/CVE-2012-2982",
       "https://github.com/Gvmyz/CVE-2012-2982_Python",
       "https://github.com/Ari-Weinberg/CVE-2012-2982",
-      "https://github.com/blu3ming/CVE-2012-2982",
       "https://github.com/wizardy0ga/CVE_2012-2982",
       "https://github.com/CpyRe/CVE-2012-2982",
+      "https://github.com/blu3ming/CVE-2012-2982",
       "https://github.com/lpuv/CVE-2012-2982",
       "https://github.com/elliotosama/CVE-2012-2982",
       "https://github.com/SpoofIMEI/CVE-2012-2982",
@@ -61424,8 +61440,8 @@
       "https://github.com/Unix13/metasploitable2",
       "https://github.com/tardummy01/oscp_scripts-1",
       "https://github.com/drone789/CVE-2012-1823",
-      "https://github.com/Jimmy01240397/CVE-2012-1823-Analyze",
       "https://github.com/cyberharsh/PHP_CVE-2012-1823",
+      "https://github.com/Jimmy01240397/CVE-2012-1823-Analyze",
       "https://github.com/JasonHobs/CVE-2012-1823-exploit-for-https-user-password-web"
     ]
   },
@@ -61608,7 +61624,8 @@
       "https://github.com/Lychi3/vsftpd-backdoor",
       "https://github.com/davidlares/vsftpd-exploitation",
       "https://github.com/HerculesRD/vsftpd2.3.4PyExploit",
-      "https://github.com/vedpakhare/vsftpd-234-vuln-report"
+      "https://github.com/vedpakhare/vsftpd-234-vuln-report",
+      "https://github.com/JohanMV/explotacion-vsftpd-nmap_Laboratorio_1"
     ]
   },
   {
@@ -62384,8 +62401,8 @@
       "https://github.com/foudadev/CVE-2007-2447",
       "https://github.com/Juantos/cve-2007-2447",
       "https://github.com/cherrera0001/CVE-2007-2447",
-      "https://github.com/JoseBarrios/CVE-2007-2447",
       "https://github.com/b1fair/smb_usermap",
+      "https://github.com/JoseBarrios/CVE-2007-2447",
       "https://github.com/testaross4/CVE-2007-2447",
       "https://github.com/bdunlap9/CVE-2007-2447_python",
       "https://github.com/MikeRega7/CVE-2007-2447-RCE",
