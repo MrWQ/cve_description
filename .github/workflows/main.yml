@@ -19,6 +19,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
+        rm -rfi /home/runner/.cache/pip
         pip install requests --no-cache-dir
     - name: run py script
       run: |
